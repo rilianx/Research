@@ -38,6 +38,5 @@
 <h2 id="links">Links</h2>
 <ul>
 <li><a href="https://drive.google.com/drive/folders/0AOJ7apbBD583Uk9PVA">Documentos Drive</a></li>
-<li><a href="https://github.com/rilianx/Research">Repo github</a></li>
 </ul>
 
