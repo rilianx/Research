@@ -20,12 +20,14 @@ El objetivo es, a partir del historial guardado por el solver relacionado con la
 Generación de hiperplano factible
 ---
 Para generar un hiperplano factible es necesario linearizar las restricciones y las funciones objetivo (e.g., usando AbsTaylor). La linearización de las funciones objetivo debe cumplir que:
-$f(x)<=fl(x)$
+<img src="https://render.githubusercontent.com/render/math?math=f(x)<=fl(x)">
 
 además, para cada objetivo $i$ agregamos una variable y una restricción:  
-$y_i=fl_i(x)$
+<img src="https://render.githubusercontent.com/render/math?math=y_i=fl_i(x)">
 
-Luego, politopo formado por vértices  $y^i = \argmin (fl_i (x,y))$  es factible.
+
+
+Luego, politopo formado por vértices  <img src="https://render.githubusercontent.com/render/math?math=y^i = \argmin (fl_i (x,y))"> es factible.
 
 Para encontrar el politopo optimo:
 
@@ -39,5 +41,5 @@ La imagen izquierda sería un hiperplano *óptimo* pero difícil de calcular
 La imagen de la derecha serían hiperplanos más fáciles de calcular (proyección de puntos extremos de cada hiperplano factible con las caras de la caja)
 ![contracting with hyperplanes](https://docs.google.com/drawings/d/e/2PACX-1vSyFzHheVWKpZe6Y7YJJle5PJKqWzZxwrserwnCx2he6LsQj5QqYSb_e0WxMYRQSaM2b0Wvr4FOqSvC/pub?w=1320&h=547)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDE0MDUxNl19
+eyJoaXN0b3J5IjpbLTExMTQxOTg1MTcsLTk1NDE0MDUxNl19
 -->
