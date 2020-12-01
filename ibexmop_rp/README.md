@@ -1,17 +1,17 @@
 
 Removing points from the non-dominated set
 ==
-When solving multi-objetive problems with global optimization solvers, generally a set $\mathcal{S}$ of non dominated points (upper envelope) is maintained and updated in each iteration (red points in the figure).
+When solving multi-objetive problems with global optimization solvers, generally a set  <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> of non dominated points (upper envelope) is maintained and updated in each iteration (red points in the figure).
 ![upper_envelope22](https://docs.google.com/drawings/d/e/2PACX-1vRxeuOBhvGK2PVezyfyONOW6Ni5eXio6NnUCc1sdKnMEiRrbRg-ZOBLYXr6KuTw4VrkdFz8Shy5Xp27/pub?w=343&h=294)
-The figure represents a biobjective optimization problem. The objectives are $f_1$ and $f_2$ and we want to minimize them. Red points (and segments between them) represent feasible solutions we have already found. Thus, we want to continue searching **only** in **the non-dominated region** (we can discard the other one).
+The figure represents a biobjective optimization problem. The objectives are <img src="https://render.githubusercontent.com/render/math?math=f_1"> and <img src="https://render.githubusercontent.com/render/math?math=f_2"> and we want to minimize them. Red points (and segments between them) represent feasible solutions we have already found. Thus, we want to continue searching **only** in **the non-dominated region** (we can discard the other one).
 
-New found points are included in $\mathcal{S}$ and some *dominated* points are removed from this set.
-The set $\mathcal{S}$ may grow a lot, implying some methods  of the solver (which use this set) **begin to perform more slowly**. For instance:
-* adding new points in $\mathcal{S}$
+New found points are included in <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> and some *dominated* points are removed from this set.
+The set <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> may grow a lot, implying some methods  of the solver (which use this set) **begin to perform more slowly**. For instance:
+* adding new points in <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}">
 * generating dominated segments for filtering
-* computing distance of boxes to the set $\mathcal{S}$
+* computing distance of boxes to the set <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}">
 
-In order to keep a reduced size of the set $\mathcal{S}$, the idea of this work is to propose a mechanism for removing points from the set such that the quality of $\mathcal{S}$ *does not get too much worse*.
+In order to keep a reduced size of the set <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}">, the idea of this work is to propose a mechanism for removing points from the set such that the quality of <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> *does not get too much worse*.
 
 The figure shows an example of how to remove the **x** points without losing too much precision of the dominated region.
 
@@ -33,5 +33,5 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 
 [Aquí](https://github.com/rilianx/Research/blob/main/ibexmop_rp/example.ipynb) se puede ver un ejemplo para obtener puntos de instancias de prueba y poder comenzar a trabajar con ellos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY3MTMxNTddfQ==
+eyJoaXN0b3J5IjpbLTIzMjYxNzA1NCwtMTAwNjcxMzE1N119
 -->
