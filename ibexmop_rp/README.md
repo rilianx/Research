@@ -2,7 +2,9 @@
 Removing points from the non-dominated set
 ==
 When solving multi-objetive problems with global optimization solvers, generally a set  <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> of non dominated points (upper envelope) is maintained and updated in each iteration (red points in the figure).
+
 ![upper_envelope22](https://docs.google.com/drawings/d/e/2PACX-1vRxeuOBhvGK2PVezyfyONOW6Ni5eXio6NnUCc1sdKnMEiRrbRg-ZOBLYXr6KuTw4VrkdFz8Shy5Xp27/pub?w=343&h=294)
+
 The figure represents a biobjective optimization problem. The objectives are <img src="https://render.githubusercontent.com/render/math?math=f_1"> and <img src="https://render.githubusercontent.com/render/math?math=f_2"> and we want to minimize them. Red points (and segments between them) represent feasible solutions we have already found. Thus, we want to continue searching **only** in **the non-dominated region** (we can discard the other one).
 
 New found points are included in <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> and some *dominated* points are removed from this set.
@@ -16,6 +18,7 @@ In order to keep a reduced size of the set <img src="https://render.githubuserco
 The figure shows an example of how to remove the **x** points without losing too much precision of the dominated region.
 
 ![RemovingPoints2](https://docs.google.com/drawings/d/e/2PACX-1vQ5EIfHG4pa3i3pmU9CGyzkUraHe-HAqmyp2hTlEyULjNFZO5XxyECfLAW07WRstE1LBMEY2YB8bUC3/pub?w=300&h=250)
+
 The white point was moved to a new position in order to keep a valid *frontier*.
 Note that the new frontier **MUST** pass over the old one (pointed one).
 
@@ -33,5 +36,5 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 
 [Aquí](https://github.com/rilianx/Research/blob/main/ibexmop_rp/example.ipynb) se puede ver un ejemplo para obtener puntos de instancias de prueba y poder comenzar a trabajar con ellos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjYxNzA1NCwtMTAwNjcxMzE1N119
+eyJoaXN0b3J5IjpbMTA1NjYzODI5NiwtMTAwNjcxMzE1N119
 -->
