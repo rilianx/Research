@@ -30,13 +30,28 @@
 </ul>
 <p><strong>Durante la semana realizaremos las siguientes reuniones:</strong></p>
 <ul>
-<li><strong>Lun-Mie 9:40-10:00</strong> (Ignacio, Kevin y Patricio). Reunión corta para detectar si se han presentado dificultades en la realización de las tareas.</li>
-<li><strong>Mar-Jue 9:40-10:00</strong> (Ayrton, Sebastián, Matías). Reunión corta para detectar si se han presentado dificultades en la realización de las tareas.</li>
-<li><strong>Viernes 12:00-13:15</strong>. Todos presentan brevemente sus reportes semanales (5 min.) ¿Qué han hecho?, dificultades que se han presentado, ¿qué harán durante los próximos días? También pueden comentar o hacer sugerencias a sus compañeros.</li>
+<li><strong>Mar a Jue 9:40-10:00</strong> (Ayrton, Sebastián, Matías). Reunión corta para detectar si se han presentado dificultades en la realización de las tareas.</li>
+<li><strong>Mar a Jue 10:10-10:30</strong> (Ignacio, Kevin y Patricio). Reunión corta para detectar si se han presentado dificultades en la realización de las tareas.</li>
+<li><strong>Viernes 12:00-13:30</strong>. Todos presentan brevemente sus reportes semanales (5 min.) ¿Qué han hecho?, dificultades que se han presentado, ¿qué harán durante los próximos días? También pueden comentar o hacer sugerencias a sus compañeros.</li>
 <li>Además, iremos fijando reuniones personalizadas orientadas a resolver problemas específicos dependiendo del tema en que estén trabajando.</li>
 </ul>
-<h2 id="links">Links</h2>
+<h2 id="temas">Temas</h2>
+<p><strong>Ibex</strong></p>
 <ul>
-<li><a href="https://drive.google.com/drive/folders/0AOJ7apbBD583Uk9PVA">Documentos Drive</a></li>
+<li><strong>Ignacio Toro:</strong> Visualizador IbexMop3 [+ generación de politopos factibles]. <a href="https://github.com/rilianx/Research/tree/main/ibexmop3">Link</a></li>
+<li><strong>Kevin Alarcón:</strong> Removing points. <a href="https://github.com/rilianx/Research/tree/main/ibexmop_rp">Link</a></li>
+<li><strong>Patricio Riquelme:</strong> XM-Taylor. <a href="https://github.com/rilianx/Research/tree/main/xm-taylor">Link</a></li>
+</ul>
+<p><strong>IMRT</strong></p>
+<ul>
+<li><strong>Matías Zuñiga y Sebastían Fuenzalida:</strong>  BAO problem [+ cálculo de scores]. <a href="https://github.com/rilianx/Research/tree/main/imrt_bao">Link</a></li>
+</ul>
+<p><strong>Recommender System</strong></p>
+<ul>
+<li><strong>Ayrton Mera</strong>: Estudio estado del arte + grafo de películas/listas +sistema de recomendación. <a href="https://github.com/rilianx/Research/tree/main/recommender_system">Link</a></li>
+</ul>
+<h2 id="documentos">Documentos</h2>
+<ul>
+<li><a href="https://drive.google.com/drive/folders/0AOJ7apbBD583Uk9PVA">Algunos papers y material de apoyo en Drive</a></li>
 </ul>
 
