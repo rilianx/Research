@@ -40,13 +40,13 @@ Una solución para el problema consiste en:
 2. Un fluence map $Y$ para cada ángulo.
 
 El **objetivo** es intentar irradiar *todos los voxels* del tumor la dosis prescrita por el médico dañando *lo menos posible* los órganos sanos del paciente.
-El objetivo se suele expresar con una función que penaliza los voxels $v$ que reciben una dosis mayor a la recomendada, es decir, si $d_v(x) - D>0$:
-$Pen(v) = \lambda \cdot (d_v(x) - D)^2$, 
+El objetivo se suele expresar con una función que penaliza los voxels *v* que reciben una dosis mayor a la recomendada, es decir, si <img src="https://render.githubusercontent.com/render/math?math=d_v(x) - D>0">:
+<img src="https://render.githubusercontent.com/render/math?math=Pen(v) = \lambda \cdot (d_v(x) - D)^2">,
 con $d_v(x)$, la dosis recibida por el voxel $v$ y $D$, es la dosis recomendada para el órgano. $\lambda$ es un peso asociado a la función y es inversamente proporcional a la cantidad de voxels que tiene el órgano.
 
 Los voxels del tumor $v_t$ que reciben menos radiación que la prescrita también son penalizados:
-$Pen(v_t) = \lambda \cdot (D_t - d_{v_t}(x))^2$, 
-con $D_t$ la dosis prescrita para el tumor.
+<img src="https://render.githubusercontent.com/render/math?math=Pen(v_t) = \lambda \cdot (D_t - d_{v_t}(x))^2">,, 
+con <img src="https://render.githubusercontent.com/render/math?math=D_t> la dosis prescrita para el tumor.
 
 **¿Cómo resolver el problema?**
 El problema se puede dividir en dos partes:
@@ -80,5 +80,6 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjg3MjA4Niw1MTYwMjYwNjldfQ==
+eyJoaXN0b3J5IjpbMTI2OTM2NjE4MiwtNjIyODcyMDg2LDUxNj
+AyNjA2OV19
 -->
