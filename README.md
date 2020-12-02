@@ -18,7 +18,7 @@
 <li>El trabajo es online.</li>
 <li>Se espera que trabaje entre 6 y 8 horas diarias de lunes a viernes (ud. ve como distribuye el tiempo).</li>
 <li>Cualquier duda la puede hacer a través del grupo de whatsapp. También puede enviar mensaje privado a <strong>Braulio</strong> (principalmente dudas de código, python), <strong>Víctor</strong> (dudas relacionadas con Ibex, solver de optimización) o al <strong>profesor Ignacio</strong>.</li>
-<li>Debe mantener un documento drive con las <strong>tareas pendientes</strong> y <strong>notas o apuntes</strong> relacionados con lo que está investigando o estudiando. Trate de mantenerlo en orden. Puede agregar capturas de pantalla, fotos o lo que estime conveniente.</li>
+<li>En <a href="https://drive.google.com/drive/folders/1eLpee5TPMMqzznxpdoLjTcIJ9jDdZzmn">esta carpeta,</a> debe mantener un documento drive con las <strong>tareas pendientes</strong> y <strong>notas o apuntes</strong> relacionados con lo que está investigando o estudiando. Trate de mantenerlo en orden. Puede agregar capturas de pantalla, fotos o lo que estime conveniente.</li>
 </ul>
 <p><strong>El viernes es un día especial.</strong></p>
 <p>Durante la mañana deberán trabajar en un breve reporte indicando lo que han hecho durante la semana, las dificultades que se han presentado y qué harán la próxima semana. Además deberán organizar su documento drive.</p>
