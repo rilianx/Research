@@ -12,19 +12,24 @@ Objetivos
 Es un problema que surge del tratamiento de cáncer usando radiación.
 
 El paciente es colocado en una cámara y es irradiado por distintos ángulos usando un acelerador lineal o *beam*. El objetivo es *entregar* al tumor una dosis de radiación prescrita por el médico tratante.
+
 ![image](https://i.imgur.com/pcHMsyF.png)
 
 Para enfocarse en el tumor y evitar demasiado daño en órganos sanos, cada *beam* cuenta con unas plaquitas que impiden el paso de la radiación, las cuáles son ajustables. Estas plaquitas pueden ser representadas como una matriz de **beamlets**. Un ajuste de plaquitas se conoce como **aperture shape**.
+
 ![image](https://i.imgur.com/FGb9GLX.png)
 
 El tumor y los órganos son representados por **voxels** (cajitas 3D)
+
 ![image](https://i.imgur.com/A5yhCAo.png)
 
 **La matriz de deposición** establece la cantidad de radiación que un beamlet (en un ángulo específico) irradia a cada voxel del tumor y de los órganos por unidad de tiempo. Cada beamlet puede irradiar a varios voxels.
+
 ![image](https://i.imgur.com/kMVBrfA.png)
 
 La radiación total entregada por los beamlets en un ángulo específico puede ser representada por una matriz de intensidades o **fluence map**. Esta matriz agrega las radiaciones asociadas a cada aperture shape considerada en ese ángulo. 
 En la figura se muestran fluence maps asociados a tres ángulos de radiación. Cada uno considera 5 aperture shapes.
+
 ![image](https://i.imgur.com/s8e9syt.png)
 
 **Solución y función objetivo**
@@ -64,10 +69,9 @@ Preparé un [tutorial](https://github.com/rilianx/Research/blob/main/imrt_bao/tu
 * Buscar en [google scholar](https://scholar.google.com/):
 	* "IMRT BAO" (año > 2016)
 
+----
+**Notas para el profe**
 
-
-DAO_ILS
---
 Las siguientes funcionalidades del framework IMRT falta por implementar:
 * *perturbation(neigh,nmoves)*: realiza una perturbación a la solución actual.
 * *update_fluence_map(changes)*: modifica el fluence map usando una lista de cambios puntuales. Retorna la nueva evaluación.
@@ -76,5 +80,5 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2MDI2MDY5XX0=
+eyJoaXN0b3J5IjpbLTYyMjg3MjA4Niw1MTYwMjYwNjldfQ==
 -->
