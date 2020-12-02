@@ -41,11 +41,15 @@ Una solución para el problema consiste en:
 
 El **objetivo** es intentar irradiar *todos los voxels* del tumor la dosis prescrita por el médico dañando *lo menos posible* los órganos sanos del paciente.
 El objetivo se suele expresar con una función que penaliza los voxels *v* que reciben una dosis mayor a la recomendada, es decir, si <img src="https://render.githubusercontent.com/render/math?math=d_v(x) - D>0">:
+
 <img src="https://render.githubusercontent.com/render/math?math=Pen(v) = \lambda \cdot (d_v(x) - D)^2">,
+
 con <img src="https://render.githubusercontent.com/render/math?math=d_v(x)">, la dosis recibida por el voxel *v* y **D**, es la dosis recomendada para el órgano. <img src="https://render.githubusercontent.com/render/math?math=\lambda"> es un peso asociado a la función y es inversamente proporcional a la cantidad de voxels que tiene el órgano.
 
 Los voxels del tumor $v_t$ que reciben menos radiación que la prescrita también son penalizados:
+
 <img src="https://render.githubusercontent.com/render/math?math=Pen(v_t) = \lambda \cdot (D_t - d_{v_t}(x))^2">,, 
+
 con <img src="https://render.githubusercontent.com/render/math?math=D_t"> la dosis prescrita para el tumor.
 
 **¿Cómo resolver el problema?**
@@ -80,6 +84,6 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMxNTIwOTIsLTYyMjg3MjA4Niw1MT
+eyJoaXN0b3J5IjpbLTIwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MT
 YwMjYwNjldfQ==
 -->
