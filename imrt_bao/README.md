@@ -57,7 +57,7 @@ El problema se puede dividir en dos partes:
 
 - *Direct Angle Optimization (DAO)*: Para un BAC dado, encontrar la mejor configuración de aperturas e intensidades. 
 Este problema ya lo tenemos más o menos resuelto, el solver [`DAO_ILS`](https://github.com/rilianx/IMRTsolver) realiza una *búsqueda local iterada* para encontrar buenas soluciones (fluence maps) para un conjunto de ángulos de entrada (BAC).
-* *Beam Angle Optimization (BAO)*: Encontrar una buena configuración de ángulos con el objetivo de reducir las penalizaciones.
+* *Beam Angle Optimization (BAO)*: Encontrar una buena configuración de ángulos con el objetivo de reducir las penalizaciones. (Hill Climbing)
 Primero que nada hay que investigar un poco para ver lo que existe al respecto.
 Una idea simple consiste en:
 	* Comenzar con un BAC inicial y modificar un ángulo de manera aleatoria una pequeña cantidad. 
@@ -84,6 +84,6 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MT
-YwMjYwNjldfQ==
+eyJoaXN0b3J5IjpbMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNj
+IyODcyMDg2LDUxNjAyNjA2OV19
 -->
