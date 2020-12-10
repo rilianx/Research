@@ -86,6 +86,7 @@ La función `propagate` propaga los cambios a partir de una colección de pelíc
 
 ````python
 def propagate(P):
+  P2 = []
   c_propag_aux = dict() #default=0.0
   for each m in P:
      for each l in adj_lists(m):
@@ -94,8 +95,11 @@ def propagate(P):
          propag = (c_propag[m]*p_factor)/size_list
          color[adj_m] += propag 
          c_propag_aux[adj_m] += propag 
+         if propag > 0.01: P2.append(adj_m)
   c_propag = c_propag_aux
+  return adj_m
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg2MDU0MjMsMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbMzM4MjgxOTk2LC0xNTU4NjA1NDIzLDExOD
+ExMzQ3NjldfQ==
 -->
