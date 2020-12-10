@@ -86,7 +86,9 @@ def recommend(F, M, steps=5):
 
 Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`. `M` es la colección con todas las películas.
 
-La función `propagate` propaga los cambios a partir de una colección de películas `P` y retorna las películas modificadas.
+`P` es una colección que guarda en cada iteración la películas que debieran propagar sus valores.
+
+La función `propagate` propaga los cambios a partir de una colección de películas `P` y retorna las películas modificadas para seguir propagando.
 
 ````python
 def propagate(P, G, t_factor=0.1):
@@ -96,9 +98,9 @@ def propagate(P, G, t_factor=0.1):
      for each l in adj_lists(m):
        for each adj_m in l.movies:
          size_list = len(l.movies)
-         propag = (c_propag[m]*t_factor)/size_list
-         color[adj_m] += propag 
-         c_propag_aux[adj_m] += propag 
+         propag_value = (c_propag[m]*t_factor)/size_list
+         color[adj_m] += propag_value
+         c_propag_aux[adj_m] += propag_value 
          if c_propag_aux[adj_m] > 0.01: P2.append(adj_m)
   c_propag = c_propag_aux
   return P2
@@ -123,6 +125,6 @@ def recommend(G):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg3OTgzOTMsLTE1NTg2MDU0MjMsMT
+eyJoaXN0b3J5IjpbLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMT
 E4MTEzNDc2OV19
 -->
