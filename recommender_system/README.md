@@ -81,10 +81,10 @@ def recommend(F, G, steps=5):
 	P = propagate(P, G)
 	
   #recomendación
-  
+  return recommend(G)
 ````  
 
-Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`.
+Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`. `G` es el grafo completo.
 
 La función `propagate` propaga los cambios a partir de una colección de películas `P` y retorna las películas modificadas.
 
@@ -105,7 +105,9 @@ def propagate(P, G, t_factor=0.1):
 ````
 
 `t_factor` es la tasa de propagación de los colores de un nodo a otro.
+
+La función `recommend(G)` debería usar algún criterio para entregar una lista de películas en base a sus colores. Idealmente todos los valores de estos colores 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQxNjM2MzIsLTE1NTg2MDU0MjMsMT
-E4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbLTkxNTAwNjI2MSwtMTU1ODYwNTQyMywxMT
+gxMTM0NzY5XX0=
 -->
