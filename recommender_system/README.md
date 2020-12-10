@@ -126,10 +126,10 @@ def recommend(M):
 Mejora
 ---
 **Idea:** 
-1. Generar árboles de decisión que agrupen películas fuente con alta pureza.
-Generar *listas auxiliares* con grupos obtenidos.
+1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
+2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTk4MzE3MywtNTI2NjMwOTA2LC01Mj
-E4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEz
-NDc2OV19
+eyJoaXN0b3J5IjpbLTE4MjIwMzM5NjksLTUyNjYzMDkwNiwtNT
+IxODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDExODEx
+MzQ3NjldfQ==
 -->
