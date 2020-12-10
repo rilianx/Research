@@ -97,9 +97,9 @@ def propagate(P):
          c_propag_aux[adj_m] += propag 
          if propag > 0.01: P2.append(adj_m)
   c_propag = c_propag_aux
-  return adj_m
+  return P2
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MjgxOTk2LC0xNTU4NjA1NDIzLDExOD
+eyJoaXN0b3J5IjpbMjkyMTA5NDIxLC0xNTU4NjA1NDIzLDExOD
 ExMzQ3NjldfQ==
 -->
