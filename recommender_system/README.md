@@ -59,9 +59,9 @@ Imaginemos que cada película fuente tiene una esencia o *color*. La idea del al
 2. Recomendar las películas con mayor diversidad de colores.
 
 Sea $F$ el conjunto de películas fuente. 
-El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de tipo *Lista de pelis*. Los nodos de tipo película cuentan con dos atributos importantes:
-* `color`    Vector con valores en $[0,1]$, que indican la presencia de cada uno de los colores de las películas fuente.
-* `c_propag` Vector con el valor que se deb propagar en la siguiente iteración o *timestep* del algoritmo 
+El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de tipo *Lista de pelis*. Los nodos de tipo película `m`cuentan con dos atributos importantes:
+* `color[m]`    Vector con valores en $[0,1]$, que indican la presencia de cada uno de los colores de las películas fuente.
+* `P[m]` Vector con el valor que se debe propagar en la siguiente iteración o *timestep* del algoritmo 
 
 ````python
 import numpy as np
@@ -91,21 +91,17 @@ La función `propagate` propaga los cambios a partir de una conjunto de películ
 
 ````python
 def propagate(P, t_factor=0.1):
-  P2 = Set()
-  c_propag = dict() #default=0.0
   for each m in P:
      for each l in adj_lists(m):
        for each adj_m in l.movies:
          size_list = len(l.movies)
-         propag_value = (c_propag[m]*t_factor)/size_list
-         c_propag[adj_m] = max(propag_value, c_propag[adj_m]) 
-         if c_propag[adj_m] > 0.01: P2.insert(adj_m)
+         propag_value = (P[m]*t_factor)/size_list
+         P[adj_m] = max(propag_value, P[adj_m]) 
 
   #se actualiza el color de las películas
-  for each m in P2:
-     color[m] += c_propag[m]
+  for each m in P: color[m] += P[m]
      
-  return P2
+  return P
 ````
 
 `t_factor` es la tasa de propagación de los colores de un nodo a otro.
@@ -127,6 +123,6 @@ def recommend(M):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MjczNDYsLTUyMTgwNTU1NCwtMTg0MT
-Q3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTk4MDk2NTk0NiwtNTIxODA1NTU0LC0xOD
+QxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
 -->
