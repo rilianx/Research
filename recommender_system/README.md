@@ -85,14 +85,14 @@ Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[
 La función `propagate` propaga los cambios a partir de una colección de películas `P` y retorna las películas modificadas.
 
 ````python
-def propagate(P, p_factor=0.1):
+def propagate(P, t_factor=0.1):
   P2 = []
   c_propag_aux = dict() #default=0.0
   for each m in P:
      for each l in adj_lists(m):
        for each adj_m in l.movies:
          size_list = len(l.movies)
-         propag = (c_propag[m]*p_factor)/size_list
+         propag = (c_propag[m]*t_factor)/size_list
          color[adj_m] += propag 
          c_propag_aux[adj_m] += propag 
          if propag > 0.01: P2.append(adj_m)
@@ -100,8 +100,8 @@ def propagate(P, p_factor=0.1):
   return P2
 ````
 
-`p_factor` es un parámetro que
+`t_factor` es la tasa de propagación de los colores de un nodo a otro.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA5MzE0ODMsLTE1NTg2MDU0MjMsMT
-E4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbMTc5NDMzNTI1NywtMTU1ODYwNTQyMywxMT
+gxMTM0NzY5XX0=
 -->
