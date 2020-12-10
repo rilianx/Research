@@ -54,12 +54,15 @@ Algoritmo (idea)
 ---
 El objetivo del algoritmo es recomendar películas en base a un pequeño conjunto de películas de origen o *películas fuente*.
 
-Imaginemos que cada película tiene una esencia o *color*.
+Imaginemos que cada película tiene una esencia o *color*. La idea del algoritmo es:
+1. Propagar estos colores a través de las otras películas del grafo.
+2. Recomendar las películas con mayor diversidad de colores.
 
+Sea $F$
 
 ````python
 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMDkzNjU1LDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbNDY5MTExMjM0LDExODExMzQ3NjldfQ==
 -->
