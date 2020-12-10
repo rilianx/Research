@@ -94,8 +94,8 @@ def propagate(P):
          propag = (c_propag[m]*p_factor)/size_list
          color[adj_m] += propag 
          c_propag_aux[adj_m] += propag 
-         
+  c_propag = c_propag_aux
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODE4MzAzMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTE1NTg2MDU0MjMsMTE4MTEzNDc2OV19
 -->
