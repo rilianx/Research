@@ -86,12 +86,15 @@ La función `propagate` propaga los cambios a partir de una colección de pelíc
 
 ````python
 def propagate(P):
-    for each m in P:
-       for each l in adj_lists(m):
-          size_list = len(l)
-          for each adj_m in l.movies:
-             c_propag[adj_m] = c_propag[m]*p_factor
+  c_propag_aux = dict()
+  for each m in P:
+     for each l in adj_lists(m):
+       size_list = len(l)
+       for each adj_m in l.movies:
+         color[adj_m] = 
+         c_propag_aux[adj_m] += c_propag[m]*p_factor
+         
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTExOTAxMCwxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTIxMzU1ODk4NDEsMTE4MTEzNDc2OV19
 -->
