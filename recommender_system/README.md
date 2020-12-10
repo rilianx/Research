@@ -67,8 +67,8 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 import numpy as np
 
 def propag(F):
+  propag_movies = []
   #inicalizando la fuente
-  
   for m in F:
      color[m] = np.array(len(F))
 	 color[m][F.index(m)] = 1.0
@@ -77,10 +77,10 @@ def propag(F):
 	 propag_movies.append(m)
   #propagación
   for timestep in range(steps):
-     for each
+	propag(P)
 ````  
 
 Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM1NDAzNCwxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTcxNjcxODE3MCwxMTgxMTM0NzY5XX0=
 -->
