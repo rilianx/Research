@@ -87,11 +87,12 @@ Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[
 
 `P` es un diccionario que guarda en cada iteración la películas que debieran propagar sus valores. Cada película se asocia al vector de colores que se debe propagar.
 
-La función `propagate` propaga los cambios a partir de una conjunto de películas `P` y retorna las películas modificadas para seguir propagando.
+La función `propagate` propaga los cambios a partir del diccionario de películas `P` y retorna un nuevo diccionario con las películas modificadas para seguir propagando.
 
 ````python
 def propagate(P, t_factor=0.1):
-  P2 = dict()
+  P2 = dict() #películas que se propagarán en 
+                # la siguiente iteración
   for each m in P:
      for each l in adj_lists(m):
        for each adj_m in l.movies:
@@ -124,6 +125,6 @@ def recommend(M):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc3MzU4MDcsLTUyMTgwNTU1NCwtMT
-g0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xOD
+QxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
 -->
