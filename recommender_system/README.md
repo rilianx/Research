@@ -65,10 +65,12 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 
 ````python
 def propag(F):
-  for i in range(len(F.nodes)):
-	  color[node] = 1.0
-	  F.nodes[i].propag[i] = 1.0 
+  for movie in F:
+	  color[movie][movie] = 1.0
+	  c_propag[movie][movie] = 1.0 
 ````  
+
+Notar que para las películas fuente el color se inicializa: ``colo`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTEwMjU4MCwxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbMjMyNTU4MTExLDExODExMzQ3NjldfQ==
 -->
