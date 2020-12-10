@@ -81,7 +81,7 @@ def recommend(F, M, steps=5):
 	P = propagate(P)
 	
   #recomendación
-  return recommend(G)
+  return recommend(M)
 ````  
 
 Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`. `M` es la colección con todas las películas.
@@ -113,9 +113,9 @@ La función `recommend(G)` debería usar algún criterio para entregar una lista
 La función propuesta simplemente retorna la película que **maximiza el mínimo valor del vector**.
 
 ````python
-def recommend(G):
+def recommend(M):
   maxmin=0.0
-  for each m in G.movies():
+  for each m in M.movies():
     min_color = np.min(color[m])
     if min_color > maxmin:
       maxmin = min_color
@@ -125,6 +125,6 @@ def recommend(G):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzIwOTc3MiwtMTg0MTQ3NjYyMCwtMT
-U1ODYwNTQyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbNDIyMjE4NzkwLC0xODQxNDc2NjIwLC0xNT
+U4NjA1NDIzLDExODExMzQ3NjldfQ==
 -->
