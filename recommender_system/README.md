@@ -55,17 +55,18 @@ Algoritmo (idea)
 El objetivo del algoritmo es recomendar películas en base a un pequeño conjunto de películas de origen o *películas fuente*.
 
 Imaginemos que cada película fuente tiene una esencia o *color*. La idea del algoritmo es:
-1. Propagar estos colores a través de las otras películas del grafo.
+1. Propagar estos colores a través de las otras películas del grafo. El grafo se comporta similar a una *cadena de Markov*. En cada iteración, los últimos valores propagados se propagan a los nodos adyacentes.
 2. Recomendar las películas con mayor diversidad de colores.
 
 Sea $F$ el conjunto de películas fuente. 
 El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de tipo *Lista de pelis*. Los nodos de tipo película cuentan con dos atributos importantes:
 * `color`    Vector con valores en $[0,1]$, que indican la presencia de cada uno de los colores de las películas fuente.
-* `c_propag` Vector con el valor propagado durante la última iteración (*timestep*)
+* `c_propag` Vector con el valor propagado durante la última iteración o *timestep*. 
 
 ````python
+def propag(F):
 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjA2NDA1LDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbLTE4NDI1NTAwMDksMTE4MTEzNDc2OV19
 -->
