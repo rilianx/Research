@@ -106,8 +106,10 @@ def propagate(P, G, t_factor=0.1):
 
 `t_factor` es la tasa de propagación de los colores de un nodo a otro.
 
-La función `recommend(G)` debería usar algún criterio para entregar una lista de películas en base a sus colores. Idealmente todos los valores de estos colores 
+La función `recommend(G)` debería usar algún criterio para entregar una lista de películas en base a sus colores. Idealmente queremos maximizar todos los colores del vector, ya que valores altos para **todos los colores** indicarían que la película se parece a todas las películas fuente.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTAwNjI2MSwtMTU1ODYwNTQyMywxMT
+eyJoaXN0b3J5IjpbMTcxMjE4MTI4NywtMTU1ODYwNTQyMywxMT
 gxMTM0NzY5XX0=
 -->
