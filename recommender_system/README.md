@@ -99,10 +99,13 @@ def propagate(P, t_factor=0.1):
        for each adj_m in l.movies:
          size_list = len(l.movies)
          propag_value = (c_propag[m]*t_factor)/size_list
-         color[adj_m] += propag_value
-         c_propag_aux[adj_m] += propag_value 
+         c_propag_aux[adj_m] = max(propag_value 
          if c_propag_aux[adj_m] > 0.01: P2.append(adj_m)
   c_propag = c_propag_aux
+
+  #se actualiza el color de las películas
+  for each m in P:
+     color[m] += c_propag[m]
   return P2
 ````
 
@@ -125,6 +128,6 @@ def recommend(M):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMT
-U1ODYwNTQyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTEwODE5NDQ3MDIsLTUyMTgwNTU1NCwtMT
+g0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
 -->
