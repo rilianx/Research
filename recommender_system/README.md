@@ -123,8 +123,11 @@ def recommend(M):
   return rec_movie, maxmin
 ````
 
-
+Mejora
+---
+Idea: Generar árbol de decisión que agrupe pelicu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xOD
-QxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbMTcwMjUwNTM4LC01MjY2MzA5MDYsLTUyMT
+gwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0
+NzY5XX0=
 -->
