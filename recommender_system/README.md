@@ -66,7 +66,7 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 ````python
 import numpy as np
 
-def recommend(F, M, steps=5):
+def main(F, M, steps=5):
   P = []
   #inicalizando la fuente
   for m in F:
@@ -91,7 +91,7 @@ Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[
 La función `propagate` propaga los cambios a partir de una colección de películas `P` y retorna las películas modificadas para seguir propagando.
 
 ````python
-def propagate(P, G, t_factor=0.1):
+def propagate(P, t_factor=0.1):
   P2 = []
   c_propag_aux = dict() #default=0.0
   for each m in P:
@@ -125,6 +125,6 @@ def recommend(M):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMjE4NzkwLC0xODQxNDc2NjIwLC0xNT
-U4NjA1NDIzLDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMT
+U1ODYwNTQyMywxMTgxMTM0NzY5XX0=
 -->
