@@ -112,12 +112,17 @@ La función propuesta simplemente retorna la película que **maximiza el mínimo
 
 ````python
 def recommend(G):
+  maxmin=0.0
   for each m in G.movies():
-    ncolor[m]
+    min_color = np.min(color[m])
+    if min_color > maxmin:
+      maxmin = min_color
+      rec_movie = m
+  return rec_movie, maxmin
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjQ1NDE1NiwtMTU1ODYwNTQyMywxMT
-gxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbNDc0MDY3MTMzLC0xNTU4NjA1NDIzLDExOD
+ExMzQ3NjldfQ==
 -->
