@@ -108,8 +108,16 @@ def propagate(P, G, t_factor=0.1):
 
 La función `recommend(G)` debería usar algún criterio para entregar una lista de películas en base a sus colores. Idealmente queremos maximizar todos los colores del vector, ya que valores altos para **todos los colores** indicarían que la película se parece a todas las películas fuente.
 
+La función propuesta simplemente retorna la película que **maximiza el mínimo valor del vector**.
+
+````python
+def recommend(G):
+  for each m in G.movies():
+    ncolor[m]
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjE4MTI4NywtMTU1ODYwNTQyMywxMT
+eyJoaXN0b3J5IjpbMTIzMjQ1NDE1NiwtMTU1ODYwNTQyMywxMT
 gxMTM0NzY5XX0=
 -->
