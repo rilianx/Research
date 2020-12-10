@@ -64,16 +64,21 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 * `c_propag` Vector con el valor que se deb propagar en la siguiente iteración o *timestep*. del algoritmo 
 
 ````python
-impor numpy as np
+import numpy as np
 
 def propag(F):
+  #inicalizando la fuente
   for m in F:
      color[m] = np.array(len(F))
+     c_propag[m] = np.array(len(F))
 	 color[m][F.index(m)] = 1.0
 	 c_propag[m][F.index(m)] = 1.0 
+  #propagación
+  for timestep in range(steps):
+     
 ````  
 
-Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre c
+Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk1ODEwNDYsMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbLTEwNDkwMDIzNjksMTE4MTEzNDc2OV19
 -->
