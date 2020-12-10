@@ -52,11 +52,14 @@ Recommender Systems have become a very useful tool for a large variety of domain
 
 Algoritmo (idea)
 ---
-La idea que sea partir de un conjunto de películas *fuente*, propagar los 
+El objetivo del algoritmo es recomendar películas en base a un pequeño conjunto de películas de origen o *películas fuente*.
+
+Imaginemos que cada película tiene una esencia o *color*.
+
 
 ````python
 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyODQ3NDU0LDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbMzMwMDkzNjU1LDExODExMzQ3NjldfQ==
 -->
