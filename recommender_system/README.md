@@ -67,14 +67,14 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 import numpy as np
 
 def main(F, M, steps=5):
-  P = []
+  P = Set()
   #inicalizando la fuente
   for m in F:
      color[m] = np.array(len(F))
 	 color[m][F.index(m)] = 1.0
      c_propag[m] = np.array(len(F))
 	 c_propag[m][F.index(m)] = 1.0 
-	 P.append(m)
+	 P.insert(m)
 	 
   #propagación por algunas iteraciones
   for timestep in range(steps):
@@ -92,20 +92,20 @@ La función `propagate` propaga los cambios a partir de una colección de pelíc
 
 ````python
 def propagate(P, t_factor=0.1):
-  P2 = []
+  P2 = Set()
   c_propag_aux = dict() #default=0.0
   for each m in P:
      for each l in adj_lists(m):
        for each adj_m in l.movies:
          size_list = len(l.movies)
          propag_value = (c_propag[m]*t_factor)/size_list
-         c_propag_aux[adj_m] = max(propag_value 
-         if c_propag_aux[adj_m] > 0.01: P2.append(adj_m)
-  c_propag = c_propag_aux
+         c_propag[adj_m] = max(propag_value, c_propag[adj_m]) 
+         if c_propag[adj_m] > 0.01: P2.insert(adj_m)
 
   #se actualiza el color de las películas
-  for each m in P:
+  for each m in P2:
      color[m] += c_propag[m]
+     
   return P2
 ````
 
@@ -128,6 +128,6 @@ def recommend(M):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODE5NDQ3MDIsLTUyMTgwNTU1NCwtMT
-g0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbMTYyNzY1MDg0NSwtNTIxODA1NTU0LC0xOD
+QxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
 -->
