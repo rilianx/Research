@@ -68,17 +68,19 @@ import numpy as np
 
 def propag(F):
   #inicalizando la fuente
+  
   for m in F:
      color[m] = np.array(len(F))
-     c_propag[m] = np.array(len(F))
 	 color[m][F.index(m)] = 1.0
+     c_propag[m] = np.array(len(F))
 	 c_propag[m][F.index(m)] = 1.0 
+	 propag_movies.append(m)
   #propagación
   for timestep in range(steps):
-     
+     for each
 ````  
 
 Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkwMDIzNjksMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbLTE0NDM1NDAzNCwxMTgxMTM0NzY5XX0=
 -->
