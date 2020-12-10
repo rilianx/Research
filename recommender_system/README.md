@@ -66,21 +66,23 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 ````python
 import numpy as np
 
-def propag(F):
-  propag_movies = []
+def recommend(F):
+  P = []
   #inicalizando la fuente
   for m in F:
      color[m] = np.array(len(F))
 	 color[m][F.index(m)] = 1.0
      c_propag[m] = np.array(len(F))
 	 c_propag[m][F.index(m)] = 1.0 
-	 propag_movies.append(m)
+	 P.append(m)
   #propagación
   for timestep in range(steps):
-	propag(P)
+	P = propagate(P)
 ````  
 
 Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`.
+
+La función `propagate` propaga los cambios a partir de una lista de películas `P` y retorna la l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjcxODE3MCwxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbMTYwMzU4NzQwNSwxMTgxMTM0NzY5XX0=
 -->
