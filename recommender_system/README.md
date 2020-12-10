@@ -66,9 +66,9 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 ````python
 def propag(F):
   for each node in F:
-	  node.color
+	  node.color = 1.0
 	  node.c_propag = 1.0 
 ````  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjQwMDM0OCwxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTE5MDgyODc4MjAsMTE4MTEzNDc2OV19
 -->
