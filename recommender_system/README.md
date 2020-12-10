@@ -70,7 +70,9 @@ def propag(F):
 	  c_propag[m][F.index(m)] = 1.0 
 ````  
 
-Notar que para las películas fuente `m` el color se inicializa: `color[m][F.index(m)]=1.0`. Esto quiere decir que el color de la película `m` será un vector $[0,..1,...0]$,  donde el $1$ se 
+Notar `F` es una lista con las películas fuente. Por lo que el al inicializar el color: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$
+
+Esto quiere decir que el color de la película `m` será un vector $[0,..1,...0]$,  donde el $1$ se encuentra en la posición correspondiente a la película fuente.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MDA2ODk2LDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbMjA5OTY2MjMwLDExODExMzQ3NjldfQ==
 -->
