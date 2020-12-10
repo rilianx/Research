@@ -61,12 +61,14 @@ Imaginemos que cada película fuente tiene una esencia o *color*. La idea del al
 Sea $F$ el conjunto de películas fuente. 
 El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de tipo *Lista de pelis*. Los nodos de tipo película cuentan con dos atributos importantes:
 * `color`    Vector con valores en $[0,1]$, que indican la presencia de cada uno de los colores de las películas fuente.
-* `c_propag` Vector con el valor propagado durante la última iteración o *timestep*. 
+* `c_propag` Vector con el valor que se deb propagar en la siguiente iteración o *timestep*. del algoritmo 
 
 ````python
 def propag(F):
-
-````
+  for each node in F:
+	  node.color
+	  node.c_propag = 1.0 
+````  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI1NTAwMDksMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbLTMyMjQwMDM0OCwxMTgxMTM0NzY5XX0=
 -->
