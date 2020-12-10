@@ -52,7 +52,11 @@ Recommender Systems have become a very useful tool for a large variety of domain
 
 Algoritmo (idea)
 ---
+La idea que se me ocurre es que a partir de un conjunto de películas *
 
+````python
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQxMTkyNTQsMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbNTI3MTU5MTcwLDExODExMzQ3NjldfQ==
 -->
