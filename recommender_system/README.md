@@ -66,7 +66,7 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 ````python
 import numpy as np
 
-def recommend(F, G, steps=5):
+def recommend(F, M, steps=5):
   P = []
   #inicalizando la fuente
   for m in F:
@@ -78,13 +78,13 @@ def recommend(F, G, steps=5):
 	 
   #propagación por algunas iteraciones
   for timestep in range(steps):
-	P = propagate(P, G)
+	P = propagate(P)
 	
   #recomendación
   return recommend(G)
 ````  
 
-Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`. `G` es el grafo completo.
+Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`. `M` es la colección con todas las películas.
 
 La función `propagate` propaga los cambios a partir de una colección de películas `P` y retorna las películas modificadas.
 
@@ -93,7 +93,7 @@ def propagate(P, G, t_factor=0.1):
   P2 = []
   c_propag_aux = dict() #default=0.0
   for each m in P:
-     for each l in G.adj_lists(m):
+     for each l in adj_lists(m):
        for each adj_m in l.movies:
          size_list = len(l.movies)
          propag = (c_propag[m]*t_factor)/size_list
@@ -123,6 +123,6 @@ def recommend(G):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0MDY3MTMzLC0xNTU4NjA1NDIzLDExOD
-ExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbLTE3OTg3OTgzOTMsLTE1NTg2MDU0MjMsMT
+E4MTEzNDc2OV19
 -->
