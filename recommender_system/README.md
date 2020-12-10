@@ -125,9 +125,11 @@ def recommend(M):
 
 Mejora
 ---
-Idea: Generar árbol de decisión que agrupe pelicu
+**Idea:** 
+1. Generar árboles de decisión que agrupen películas fuente con alta pureza.
+Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjUwNTM4LC01MjY2MzA5MDYsLTUyMT
-gwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0
-NzY5XX0=
+eyJoaXN0b3J5IjpbLTU3MTk4MzE3MywtNTI2NjMwOTA2LC01Mj
+E4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEz
+NDc2OV19
 -->
