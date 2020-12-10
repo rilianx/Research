@@ -67,18 +67,17 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 import numpy as np
 
 def main(F, M, steps=5):
-  P = Set()
   #inicalizando la fuente
+  P = dict()
   for m in F:
      color[m] = np.array(len(F))
 	 color[m][F.index(m)] = 1.0
-     c_propag[m] = np.array(len(F))
-	 c_propag[m][F.index(m)] = 1.0 
-	 P.insert(m)
+     P[m] = np.array(len(F))
+	 P[m][F.index(m)] = 1.0 
 	 
   #propagación por algunas iteraciones
   for timestep in range(steps):
-	P = propagate(P)
+	P= propagate(P)
 	
   #recomendación
   return recommend(M)
@@ -128,6 +127,6 @@ def recommend(M):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjA2Mjc1LC01MjE4MDU1NTQsLTE4ND
-E0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbNjM4MjczNDYsLTUyMTgwNTU1NCwtMTg0MT
+Q3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
 -->
