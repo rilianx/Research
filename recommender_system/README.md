@@ -66,7 +66,7 @@ El grafo es bipartito, que se compone de nodos de tipo *Película* y nodos de ti
 ````python
 import numpy as np
 
-def recommend(F, steps=5):
+def recommend(F, G, steps=5):
   P = []
   #inicalizando la fuente
   for m in F:
@@ -75,9 +75,13 @@ def recommend(F, steps=5):
      c_propag[m] = np.array(len(F))
 	 c_propag[m][F.index(m)] = 1.0 
 	 P.append(m)
+	 
   #propagación por algunas iteraciones
   for timestep in range(steps):
-	P = propagate(P)
+	P = propagate(P, G)
+	
+  #recomendación
+  
 ````  
 
 Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[m][F.index(m)]=1.0`, estamos creando un vector: $[0,...,1,...,0]$ donde el $1$ se encuentra en la posición correspondiente a la película fuente en la lista `F`. Lo mismo ocurre con `c_propag`.
@@ -85,23 +89,23 @@ Notar `F` es una lista con las películas fuente. Por lo que al colocar: `color[
 La función `propagate` propaga los cambios a partir de una colección de películas `P` y retorna las películas modificadas.
 
 ````python
-def propagate(P, t_factor=0.1):
+def propagate(P, G, t_factor=0.1):
   P2 = []
   c_propag_aux = dict() #default=0.0
   for each m in P:
-     for each l in adj_lists(m):
+     for each l in G.adj_lists(m):
        for each adj_m in l.movies:
          size_list = len(l.movies)
          propag = (c_propag[m]*t_factor)/size_list
          color[adj_m] += propag 
          c_propag_aux[adj_m] += propag 
-         if propag > 0.01: P2.append(adj_m)
+         if c_propag_aux[adj_m] > 0.01: P2.append(adj_m)
   c_propag = c_propag_aux
   return P2
 ````
 
 `t_factor` es la tasa de propagación de los colores de un nodo a otro.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDQ5Nzg4OCwtMTU1ODYwNTQyMywxMT
-gxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTEwNzQxNjM2MzIsLTE1NTg2MDU0MjMsMT
+E4MTEzNDc2OV19
 -->
