@@ -2,7 +2,7 @@
 Removing points from the non-dominated set
 ==
 
-TODO
+TODO (Eliminación de puntos)
 ---
 * Jugar con los puntos
 * Tratar de eliminar puntos 
@@ -42,6 +42,6 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 
 [Aquí](https://github.com/rilianx/Research/blob/main/ibexmop_rp/example.ipynb) se puede ver un ejemplo para obtener puntos de instancias de prueba y poder comenzar a trabajar con ellos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzUxNTU5OCwyMTMxMjM3MDM5LDEwNT
-Y2MzgyOTYsLTEwMDY3MTMxNTddfQ==
+eyJoaXN0b3J5IjpbMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMz
+EyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcxMzE1N119
 -->
