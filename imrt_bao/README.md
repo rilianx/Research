@@ -90,13 +90,13 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 * *update_fluence_map(changes)*: modifica el fluence map usando una lista de cambios puntuales. Retorna la nueva evaluación.
 * *update_dose_vectors(dose_vectors)*: modifica los vectores de dosis irradiada de acuerdo a la ùltima actualización del fluence map.
 
-**Idea:**
+**Idea (cotas para problema con voxels reducidos):**
 Al seleccionar una pequeña porción de voxels *representativos*, considerar la máxima y mínima deposición por beamlet para el conjunto de voxels representados. De esta manera sería posible obtener un intervalo para el costo alcanzado por una solución.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODkxOTcyNSwtMjA2NzQwMjM5MCw2Mz
-AyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNjIyODcy
-MDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMD
+I2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIw
+ODYsNTE2MDI2MDY5XX0=
 -->
