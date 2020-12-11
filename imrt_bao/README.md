@@ -90,10 +90,13 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 * *update_fluence_map(changes)*: modifica el fluence map usando una lista de cambios puntuales. Retorna la nueva evaluación.
 * *update_dose_vectors(dose_vectors)*: modifica los vectores de dosis irradiada de acuerdo a la ùltima actualización del fluence map.
 
+**Idea:**
+Al seleccionar una porción de todos los voxels, considerar
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc0MDIzOTAsNjMwMjYwOTAzLDExOD
-Y0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MTYwMjYw
-NjldfQ==
+eyJoaXN0b3J5IjpbMjA5NDM5NzI1OSwtMjA2NzQwMjM5MCw2Mz
+AyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNjIyODcy
+MDg2LDUxNjAyNjA2OV19
 -->
