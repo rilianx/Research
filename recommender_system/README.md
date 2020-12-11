@@ -5,7 +5,8 @@ Recommender system
 TODO
 ---
 * Estudio del estado del arte (hacer resúmenes en drive)
-	* Películas, m
+	* En general
+	* Películas, música, libro
 * Estudiar en más detalle sistemas de recomendación basados en reglas asociativas
 
 Plan
@@ -135,7 +136,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjEzNTQ5ODEsLTE1OTUyMDM3MzAsLT
-E4MjIwMzM5NjksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQx
-NDc2NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbMTg1OTI1MzM1NiwtMTU5NTIwMzczMCwtMT
+gyMjAzMzk2OSwtNTI2NjMwOTA2LC01MjE4MDU1NTQsLTE4NDE0
+NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEzNDc2OV19
 -->
