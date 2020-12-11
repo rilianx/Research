@@ -9,7 +9,8 @@ TODO
 	* Películas, música, libro
 * Estudiar en más detalle algunos sistemas interesantes
 * Estudiar en más detalle sistemas de recomendación basados en reglas asociativas
-	* Como se generan las 
+	* ¿Cómo se extraen/generan las reglas?
+	* ¿Cómo se usan en el modelo?
 
 Plan
 --
@@ -138,7 +139,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMxOTc2NjEsLTE1OTUyMDM3MzAsLT
-E4MjIwMzM5NjksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQx
-NDc2NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbNjQ3NjY0OTQsLTE1OTUyMDM3MzAsLTE4Mj
+IwMzM5NjksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2
+NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
 -->
