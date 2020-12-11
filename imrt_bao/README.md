@@ -2,6 +2,9 @@ IMRT Beam Angle Optimization
 ==
 Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita encontrar los mejores ángulos para realizar el tratamiento.
 
+Solución:
+* Hill Climbing
+
 Objetivos
 --
 1. Estudiar estado del arte sobre BAO, hacer resúmenes.
@@ -84,6 +87,6 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNj
-IyODcyMDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbLTY5MzgyMjgwNSwxMTg2NDExNTUxLC0yMD
+A2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5XX0=
 -->
