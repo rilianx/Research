@@ -1,6 +1,11 @@
 
 Removing points from the non-dominated set
 ==
+
+TODO
+---
+
+
 When solving multi-objetive problems with global optimization solvers, generally a set  <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> of non dominated points (upper envelope) is maintained and updated in each iteration (red points in the figure).
 
 ![upper_envelope22](https://docs.google.com/drawings/d/e/2PACX-1vRxeuOBhvGK2PVezyfyONOW6Ni5eXio6NnUCc1sdKnMEiRrbRg-ZOBLYXr6KuTw4VrkdFz8Shy5Xp27/pub?w=343&h=294)
@@ -36,5 +41,6 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 
 [Aquí](https://github.com/rilianx/Research/blob/main/ibexmop_rp/example.ipynb) se puede ver un ejemplo para obtener puntos de instancias de prueba y poder comenzar a trabajar con ellos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjYzODI5NiwtMTAwNjcxMzE1N119
+eyJoaXN0b3J5IjpbMjEzMTIzNzAzOSwxMDU2NjM4Mjk2LC0xMD
+A2NzEzMTU3XX0=
 -->
