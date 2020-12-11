@@ -91,12 +91,12 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 * *update_dose_vectors(dose_vectors)*: modifica los vectores de dosis irradiada de acuerdo a la ùltima actualización del fluence map.
 
 **Idea:**
-Al seleccionar una porción de todos los voxels, considerar
+Al seleccionar una porción de todos los voxels, considerar la máxima deposición del conjunto para los beamlets. De esta manera, la 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDM5NzI1OSwtMjA2NzQwMjM5MCw2Mz
-AyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNjIyODcy
-MDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbODk0NTEyODEzLC0yMDY3NDAyMzkwLDYzMD
+I2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIw
+ODYsNTE2MDI2MDY5XX0=
 -->
