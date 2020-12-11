@@ -4,6 +4,8 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 
 * Gráficos
 * Algoritmo Hill Climbing
+* Algoritmo Greedy (que iría agregando ángulos de uno en uno)
+* Probar todas las combinaciones (3)
 * Estudiar estado del arte
 
 Objetivos
@@ -88,6 +90,7 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMjYwOTAzLDExODY0MTE1NTEsLTIwMD
-YzNTk3MDgsLTYyMjg3MjA4Niw1MTYwMjYwNjldfQ==
+eyJoaXN0b3J5IjpbOTEyMzc0ODY0LDYzMDI2MDkwMywxMTg2ND
+ExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5
+XX0=
 -->
