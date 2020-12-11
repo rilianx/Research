@@ -2,8 +2,7 @@ IMRT Beam Angle Optimization
 ==
 Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita encontrar los mejores ángulos para realizar el tratamiento.
 
-* Gráficos
-* 
+
 IMRT (TODO)
 ---
 
@@ -94,7 +93,7 @@ Las siguientes funcionalidades del framework IMRT falta por implementar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMjg1MjQ2LDYzMDI2MDkwMywxMTg2ND
-ExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5
-XX0=
+eyJoaXN0b3J5IjpbLTIwNjc0MDIzOTAsNjMwMjYwOTAzLDExOD
+Y0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MTYwMjYw
+NjldfQ==
 -->
