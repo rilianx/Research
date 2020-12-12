@@ -128,4 +128,11 @@ class imrt:
             else: no_improvements += 1
         return best_eval, tot_evals
         
-        
+    def get_deposition_matrix(self, organ, angle):
+        stdin, stdout, stderr = self.ssh.exec_command("echo get_deposition_matrix "+str(organ)+" "+str(angle)+ \
+                                                      " | netcat localhost "+ str(self.port))
+        lines = stdout.readlines()
+        matrix = []
+        for i in range(0,self.nvoxels[organ]):
+            matrix.append(np.fromstring(lines[i], dtype=float, sep=' '))
+        return np.array(matrix)
