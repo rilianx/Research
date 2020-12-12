@@ -20,10 +20,10 @@ class imrt:
         self.channel = transport.open_session()
         print("killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
                              " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05" + \
-                             " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home)
+                             " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home + " --port="+str(self.port))
         self.channel.exec_command("killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
                              " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05" + \
-                             " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home)
+                             " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home  + " --port="+str(self.port))
         stdin, stdout, stderr = self.ssh.exec_command("echo start | netcat localhost "+ str(self.port))
         print(stdout.readlines()[0])
         
