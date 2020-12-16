@@ -1,5 +1,8 @@
 IMRT Beam Angle Optimization
 ==
+
+[Link Trello](https://trello.com/b/WmPgDVQH/practica)
+
 Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita encontrar los mejores ángulos para realizar el tratamiento.
 
 
@@ -96,7 +99,7 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMD
-I2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIw
-ODYsNTE2MDI2MDY5XX0=
+eyJoaXN0b3J5IjpbLTIwMTAzODAxNzAsODcxNDM2NTQxLC0yMD
+Y3NDAyMzkwLDYzMDI2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5
+NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5XX0=
 -->
