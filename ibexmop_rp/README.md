@@ -41,7 +41,13 @@ Al eliminar un punto hay dos casos posibles:
 Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 
 [Aquí](https://github.com/rilianx/Research/blob/main/ibexmop_rp/example.ipynb) se puede ver un ejemplo para obtener puntos de instancias de prueba y poder comenzar a trabajar con ellos.
+
+
+¿Cómo saber si un punto pasa por sobre o bajo una recta?
+--
+![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMz
-EyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcxMzE1N119
+eyJoaXN0b3J5IjpbLTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNz
+c3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcx
+MzE1N119
 -->
