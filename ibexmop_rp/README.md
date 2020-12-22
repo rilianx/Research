@@ -2,7 +2,7 @@
 Removing points from the non-dominated set
 ==
 
-TODO (Eliminación de puntos)
+TODO (Kevin)
 ---
 * Función que a partir de un conjunto de puntos ordenados, retorne el punto con la menor pérdida de hipervolumen. Retornar también el área.
 * Marcar gráficamente el funcionamiento de la función.
@@ -50,7 +50,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTY5ODY1OSwtMTkzNjAxODk2MywxNj
-MzNjM1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4
-Mjk2LC0xMDA2NzEzMTU3XX0=
+eyJoaXN0b3J5IjpbNjY4NDcyODkyLC0xOTM2MDE4OTYzLDE2Mz
+M2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LDEwNTY2Mzgy
+OTYsLTEwMDY3MTMxNTddfQ==
 -->
