@@ -4,10 +4,11 @@ Removing points from the non-dominated set
 
 TODO (Eliminación de puntos)
 ---
-* 
+* Función que a partir de un conjunto de puntos ordenados, retorne el punto con la menor pérdida de hipervolumen. Retornar también el área.
 
-* Jugar con los puntos
-* Tratar de eliminar puntos 
+* Función que indique si el punto está por abajo o arriba del segmento.
+
+
 
 When solving multi-objetive problems with global optimization solvers, generally a set  <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> of non dominated points (upper envelope) is maintained and updated in each iteration (red points in the figure).
 
@@ -49,7 +50,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODY4NjY3NSwtMTkzNjAxODk2MywxNj
+eyJoaXN0b3J5IjpbLTU5OTU4Nzk3MSwtMTkzNjAxODk2MywxNj
 MzNjM1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4
 Mjk2LC0xMDA2NzEzMTU3XX0=
 -->
