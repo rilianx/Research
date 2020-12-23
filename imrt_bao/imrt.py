@@ -17,13 +17,15 @@ import copy
 class imrt:
     def init_instance(self, files, max_voxels=500):
         transport = self.ssh.get_transport()
-        self.channel = transport.open_session()
+        self.channel = transport.open_session(timeout=3600)
         print("killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
-                             " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05" + \
+                             " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05 --maxeval=1000" + \
                              " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home + " --port="+str(self.port))
         self.channel.exec_command("killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
-                             " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05" + \
+                             " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05 --maxeval=1000" + \
                              " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home  + " --port="+str(self.port))
+        
+        print("echo start | netcat localhost "+ str(self.port))
         stdin, stdout, stderr = self.ssh.exec_command("echo start | netcat localhost "+ str(self.port))
         print(stdout.readlines()[0])
         
@@ -110,19 +112,19 @@ class imrt:
             vectors.append(np.fromstring(lines[i], sep=' '))
         return vectors
     
-    def iterated_local_search(self):
+    def iterated_local_search(self, maxeval=0):
         best_eval = np.inf
         no_improvements = 0
         tot_evals = 0
         while no_improvements < 2: #4 para evitar que converja debido a tabu_list
-            ev, evals = self.local_search("beam_intensity", 0)
+            ev, evals = self.local_search("beam_intensity", maxeval)
             tot_evals += evals
             if ev < best_eval: best_eval = ev; no_improvements = 0
             else: no_improvements += 1
 
             if no_improvements == 2: break
 
-            ev, evals = self.local_search("level_intensity", 0)
+            ev, evals = self.local_search("level_intensity", maxeval)
             tot_evals += evals
             if ev < best_eval: best_eval = ev; no_improvements = 0
             else: no_improvements += 1
