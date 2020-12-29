@@ -4,6 +4,7 @@ Removing points from the non-dominated set
 
 TODO (Kevin)
 ---
+* Arreglar errores
 * Función que reciba una lista de puntos y el índice que se desea eliminar (para verificar).
 * Subir código a github
 
@@ -49,8 +50,8 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzY0MzczNSwtMTg5MDkxMTgwNSw5OT
-EyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4OTYzLDE2MzM2MzUy
-OTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LDEwNTY2MzgyOTYsLT
-EwMDY3MTMxNTddfQ==
+eyJoaXN0b3J5IjpbMjMxMzg1MTY3LC0xODkwOTExODA1LDk5MT
+I2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5
+NSwxNzc3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMT
+AwNjcxMzE1N119
 -->
