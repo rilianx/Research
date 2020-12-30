@@ -4,9 +4,9 @@ Removing points from the non-dominated set
 
 TODO (Kevin)
 ---
-* Eliminar punto superior al segmento
-* Algoritmo general que reciba lista de puntos y número de puntos a eliminar
-* Calcular hipervolumen
+* Arreglar errores
+* Función que reciba una lista de puntos y el índice que se desea eliminar (para verificar).
+* Subir código a github
 
 ----
 
@@ -50,8 +50,8 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA5MTE4MDUsOTkxMjY3MjAzLDY2OD
-Q3Mjg5MiwtMTkzNjAxODk2MywxNjMzNjM1Mjk1LDE3Nzc1MTU1
-OTgsMjEzMTIzNzAzOSwxMDU2NjM4Mjk2LC0xMDA2NzEzMTU3XX
-0=
+eyJoaXN0b3J5IjpbMjMxMzg1MTY3LC0xODkwOTExODA1LDk5MT
+I2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5
+NSwxNzc3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMT
+AwNjcxMzE1N119
 -->
