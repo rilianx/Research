@@ -1,14 +1,14 @@
 IMRT Beam Angle Optimization
 ==
 
-[Link Trello](https://trello.com/b/WmPgDVQH/practica)
+>- [Link Trello](https://trello.com/b/WmPgDVQH/practica)
+> - [github](https://github.com/MatiasZunigaL/Practica-imrt)
 
 Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita encontrar los mejores ángulos para realizar el tratamiento.
 
 
 IMRT (TODO)
 ---
-
 * Algoritmo Hill Climbing
 * Algoritmo Greedy (que iría agregando ángulos de uno en uno)
 * Probar todas las combinaciones (3)
@@ -99,7 +99,8 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTAzODAxNzAsODcxNDM2NTQxLC0yMD
-Y3NDAyMzkwLDYzMDI2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5
-NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5XX0=
+eyJoaXN0b3J5IjpbLTIwMjczMTc5NDgsLTIwMTAzODAxNzAsOD
+cxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywxMTg2NDEx
+NTUxLC0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5XX
+0=
 -->
