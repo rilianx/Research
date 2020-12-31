@@ -1,6 +1,7 @@
 
 Removing points from the non-dominated set
 ==
+[Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing)
 
 TODO (Kevin)
 ---
@@ -50,7 +51,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxMzg1MTY3LC0xODkwOTExODA1LDk5MT
+eyJoaXN0b3J5IjpbMzc1NTczNzE3LC0xODkwOTExODA1LDk5MT
 I2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5
 NSwxNzc3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMT
 AwNjcxMzE1N119
