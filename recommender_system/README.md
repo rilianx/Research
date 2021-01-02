@@ -113,7 +113,7 @@ We conducted the experiments by using 1000 pairs of items selected from the item
 
 1. Generate a recommendation list R by each item-fusion method (see Section 3.3) for the item pair (a, b). step 
 2. 2 Make a ranking list R ′ for the recommendation list R by each scoring method and by each baseline method.
-
+![image](https://i.imgur.com/GymPE42.png)
 
 Algoritmo (idea)
 ---
@@ -194,7 +194,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODI4MjU1NiwtNzIyMzEwODM1LDI4Nj
+eyJoaXN0b3J5IjpbMTc2NTU4NTM1MiwtNzIyMzEwODM1LDI4Nj
 g2OTcyMCwtMTk0NzI5NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMz
 OTY5LC01MjY2MzA5MDYsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMC
 wtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
