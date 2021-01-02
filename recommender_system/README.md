@@ -65,6 +65,12 @@ It is based on collaborative filtering approach that makes use of the informatio
 
 The presented recommender system generates recommendations using various types of knowledge and data about users, the available items, and previous transactions stored in customized databases.
 
+###  Collaborative filtering
+Collaborative filtering system recommends items based on similarity measures between users and/or items. The system recommends those items that are preferred by similar kind of users.
+
+### Content-based filtering
+Content-based filtering is based on the profile of the user’s preference and the item’s description. In CBF to describe items we use keywords apart from user’s profile to indicate user’s preferred liked or dislikes. In other words CBF algorithms recommend those items or similar to those items that were liked in the past. It examines p
+
 
 Algoritmo (idea)
 ---
@@ -145,8 +151,8 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkxNTYyOTQsLTE5NDcyOTQ0NSwtMT
-U5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC01MjE4
-MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEzND
-c2OV19
+eyJoaXN0b3J5IjpbMjg2ODY5NzIwLC0xOTQ3Mjk0NDUsLTE1OT
+UyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNiwtNTIxODA1
+NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMzQ3Nj
+ldfQ==
 -->
