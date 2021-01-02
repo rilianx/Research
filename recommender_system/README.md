@@ -82,7 +82,12 @@ Content-based filtering is based on the profile of the user’s preference and t
 
 The system is based on the novel notion that the system finds **new items**, which have the **mixed features of two user-input items**, produced by mixing the two items together. The system consists of item-fusion methods and scoring methods. The item-fusion methods generate a recommendation list based on mixed features of two user-input items. Scoring methods are used to rank the recommendation list. This paper describes these methods and gives experimental results.
 
-### Serendipity: Serendipity, which is one of these measures, is defined as a measure that indicates how the recommender system can find unexpected and useful items for users.
+**Serendipity** is defined as a measure that indicates how the recommender system can find *unexpected* and *useful* items for users.
+
+Murakami et al. [7] assume that unexpectedness is the distance between the results produced by the system to be evaluated and those produced by primitive prediction methods. Here, primitive prediction methods mean naive methods such as recommendation methods based on user profiles or action histories.
+
+$UNEXP = RS / PM$
+
 
 Algoritmo (idea)
 ---
@@ -163,7 +168,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzEwMDU4OCwyODY4Njk3MjAsLTE5ND
+eyJoaXN0b3J5IjpbLTY4OTcwNjE4MiwyODY4Njk3MjAsLTE5ND
 cyOTQ0NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMw
 OTA2LC01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0Mj
 MsMTE4MTEzNDc2OV19
