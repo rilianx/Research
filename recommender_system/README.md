@@ -99,6 +99,10 @@ Database format:
 
 Public datasets such as MovieLens Data Sets and BookCrossing Data Sets1 already include the above tables.
 
+**Item similarity**
+![image](https://i.imgur.com/EBmSm4u.png)
+
+
 Algoritmo (idea)
 ---
 El objetivo del algoritmo es recomendar películas en base a un pequeño conjunto de películas de origen o *películas fuente*.
@@ -178,8 +182,8 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTg3MjA2NSwtNzIyMzEwODM1LDI4Nj
-g2OTcyMCwtMTk0NzI5NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMz
-OTY5LC01MjY2MzA5MDYsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMC
-wtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbNzczNTcwNDgyLC03MjIzMTA4MzUsMjg2OD
+Y5NzIwLC0xOTQ3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5
+NjksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2NjIwLC
+0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
 -->
