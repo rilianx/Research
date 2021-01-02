@@ -61,7 +61,9 @@ Recommender Systems have become a very useful tool for a large variety of domain
 
 [2015 - A Movie Recommender System: MOVREC](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.736.6037&rep=rep1&type=pdf)
 
-It is based on collaborative filtering approach that makes use of the information provided by users, analyzes them and then recommends the movies that is best suited to the user at that time. The recommended movie list is sorted according to the ratings given to these movies by previous users and it uses K-means algorithm for this purpose
+It is based on collaborative filtering approach that makes use of the information provided by users, analyzes them and then recommends the movies that is best suited to the user at that time. The recommended movie list is sorted according to the ratings given to these movies by previous users and it uses K-means algorithm for this purpose.
+
+The presented recommender system generates recommendations using various types of knowledge and data about users, the available items, and previous transactions stored in customized databases.
 
 
 Algoritmo (idea)
@@ -143,7 +145,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkxMTY1NDAsLTE5NDcyOTQ0NSwtMT
+eyJoaXN0b3J5IjpbLTE2NjkxNTYyOTQsLTE5NDcyOTQ0NSwtMT
 U5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC01MjE4
 MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEzND
 c2OV19
