@@ -106,7 +106,7 @@ Public datasets such as MovieLens Data Sets and BookCrossing Data Sets1 already 
 ![image](https://i.imgur.com/dgqES0R.png)
 
 Similar-set for $a$:
-"S_a = {x|sim(x, a) ≥ θ}$
+$S_a = \{x|sim(x, a) ≥ θ\}$
 
 Algoritmo (idea)
 ---
@@ -187,8 +187,8 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2MzI1MDQyLC03MjIzMTA4MzUsMjg2OD
-Y5NzIwLC0xOTQ3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5
-NjksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2NjIwLC
-0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbLTYxNzY1MTA5MiwtNzIyMzEwODM1LDI4Nj
+g2OTcyMCwtMTk0NzI5NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMz
+OTY5LC01MjY2MzA5MDYsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMC
+wtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
 -->
