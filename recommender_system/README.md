@@ -80,7 +80,7 @@ Content-based filtering is based on the profile of the user’s preference and t
 ---
 ### [2011 - Fusion-based Recommender System for Improving Serendipity](http://ceur-ws.org/Vol-816/divers2011.pdf#page=29)
 
-
+The system is based on the novel notion that the system finds **new items**, which have the **mixed features of two user-input items**, produced by mixing the two items together. The system consists of item-fusion methods and scoring methods. The item-fusion methods generate a recommendation list based on mixed features of two user-input items. Scoring methods are used to rank the recommendation list. This paper describes these methods and gives experimental results.
 
 Algoritmo (idea)
 ---
@@ -161,7 +161,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM2OTU5MjQsMjg2ODY5NzIwLC0xOT
+eyJoaXN0b3J5IjpbLTE3Njg4MDAzNjUsMjg2ODY5NzIwLC0xOT
 Q3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYz
 MDkwNiwtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1ND
 IzLDExODExMzQ3NjldfQ==
