@@ -119,7 +119,13 @@ We conducted the experiments by using 1000 pairs of items selected from the item
 
 ### [Artwork Personalization at Netflix](https://netflixtechblog.com/artwork-personalization-c589f074ad76)
 
-### [
+### [Recommender system techniques applied to Netflix movie data](https://science.vu.nl/en/Images/werkstuk-postmus_tcm296-877824.pdf)
+
+Recommender systems can be roughly divided into three groups: collaborative filtering, content-based filtering, and hybrid filtering. 
+
+**Collaborative filtering** is a recommender technique that focuses on the interest of the user, by using preferences of other similar users. The psychology behind this approach is that if user 1 and user 2 can be considered as having the same interests, one can assume user 1 has also the same opinion about a new item only user 2 has already an opinion of.
+
+**Memory-based algorithms** use all available user-item data to generate a prediction. Based on all data it determines the most related users, similar to the target user. These neighbours are similar because they have statistically common interests. To determine these so-called neighbours, several statistical techniques are used. Finally, the top 𝑛 most similar items are recommended for the target user
 
 Algoritmo (idea)
 ---
@@ -200,9 +206,9 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk2NzgyMzksLTE4Mzc2MzgyOTUsMT
-c2NTU4NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5
-NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MD
-YsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywx
-MTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTUwNTMzNTg0NiwtMTgzNzYzODI5NSwxNz
+Y1NTg1MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC0xOTQ3Mjk0
+NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNi
+wtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDEx
+ODExMzQ3NjldfQ==
 -->
