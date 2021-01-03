@@ -119,7 +119,7 @@ We conducted the experiments by using 1000 pairs of items selected from the item
 
 ### [Artwork Personalization at Netflix](https://netflixtechblog.com/artwork-personalization-c589f074ad76)
 
-
+### [
 
 Algoritmo (idea)
 ---
@@ -200,9 +200,9 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NDYyNDUsLTE4Mzc2MzgyOTUsMTc2NT
-U4NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5NDQ1
-LC0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MDYsLT
-UyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgx
-MTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTE1Mjk2NzgyMzksLTE4Mzc2MzgyOTUsMT
+c2NTU4NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5
+NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MD
+YsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywx
+MTgxMTM0NzY5XX0=
 -->
