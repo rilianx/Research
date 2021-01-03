@@ -117,7 +117,9 @@ We conducted the experiments by using 1000 pairs of items selected from the item
 
 ### [Movie Recommender System Using K-Means Clustering AND K-Nearest Neighbor](https://www.researchgate.net/profile/Arun_Solanki2/publication/334763301_Movie_Recommender_System_Using_K-Means_Clustering_AND_K-Nearest_Neighbor/links/5ed727a7299bf1c67d34e356/Movie-Recommender-System-Using-K-Means-Clustering-AND-K-Nearest-Neighbor.pdf)
 
-### [()]
+### [Artwork Personalization at Netflix](https://netflixtechblog.com/artwork-personalization-c589f074ad76)
+
+
 
 Algoritmo (idea)
 ---
@@ -198,9 +200,9 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTk3Njg1LC0xODM3NjM4Mjk1LDE3Nj
-U1ODUzNTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLTE5NDcyOTQ0
-NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC
-01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4
-MTEzNDc2OV19
+eyJoaXN0b3J5IjpbODM5NDYyNDUsLTE4Mzc2MzgyOTUsMTc2NT
+U4NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5NDQ1
+LC0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MDYsLT
+UyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgx
+MTM0NzY5XX0=
 -->
