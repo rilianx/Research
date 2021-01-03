@@ -117,6 +117,8 @@ We conducted the experiments by using 1000 pairs of items selected from the item
 
 ### [Movie Recommender System Using K-Means Clustering AND K-Nearest Neighbor](https://www.researchgate.net/profile/Arun_Solanki2/publication/334763301_Movie_Recommender_System_Using_K-Means_Clustering_AND_K-Nearest_Neighbor/links/5ed727a7299bf1c67d34e356/Movie-Recommender-System-Using-K-Means-Clustering-AND-K-Nearest-Neighbor.pdf)
 
+### [()]
+
 Algoritmo (idea)
 ---
 El objetivo del algoritmo es recomendar películas en base a un pequeño conjunto de películas de origen o *películas fuente*.
@@ -196,9 +198,9 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc2MzgyOTUsMTc2NTU4NTM1MiwtNz
-IyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5NDQ1LC0xNTk1MjAz
-NzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MDYsLTUyMTgwNTU1NC
-wtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
-
+eyJoaXN0b3J5IjpbLTI3OTk3Njg1LC0xODM3NjM4Mjk1LDE3Nj
+U1ODUzNTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLTE5NDcyOTQ0
+NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC
+01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4
+MTEzNDc2OV19
 -->
