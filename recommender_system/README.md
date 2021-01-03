@@ -129,6 +129,10 @@ Recommender systems can be roughly divided into three groups: collaborative filt
 
 The advantage of user-based collaborative filtering is the **sparsity and scalability**. Many recommender systems use data with lots of users and items, but with relatively few number of actual ratings. User-based collaborative filtering only uses necessary data, which reduces the run time.
 
+**Model-based collaborative filtering** first builds a model of user ratings only. To do this, it uses several machine learning techniques, such as clustering, rule-based and Bayesian network approaches. Each of the machine learning techniques uses its own approach. The clustering model formulates collaborative filtering as a classification problem, while the Bayesian network model treats it as a probabilistic model and the rule-based model as an association-rule model. The model-based collaborative filtering algorithms are also called item-based collaborative filtering algorithms.
+
+Next to collaborative filtering, one is also able to build recommender systems by using the content of items, and a profile matched to items. This approach is called contentbased filtering. Lops et al. (2011) [6] stated that the recommendation process of a content-based recommender system basically consists of matching the attributes of a user profile against the attributes of a content object. The outcome of this process is just the level of the user’s interest in an object. It is crucial for a content-based model that the user profile is accurate.
+
 Algoritmo (idea)
 ---
 El objetivo del algoritmo es recomendar películas en base a un pequeño conjunto de películas de origen o *películas fuente*.
@@ -208,7 +212,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTQzODcyOSwtMTgzNzYzODI5NSwxNz
+eyJoaXN0b3J5IjpbLTM3MDgzODQ2OCwtMTgzNzYzODI5NSwxNz
 Y1NTg1MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC0xOTQ3Mjk0
 NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNi
 wtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDEx
