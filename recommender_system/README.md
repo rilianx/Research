@@ -127,6 +127,8 @@ Recommender systems can be roughly divided into three groups: collaborative filt
 
 **Memory-based algorithms** or **user-based collaborative filtering** use all available user-item data to generate a prediction. Based on all data it determines the most related users, similar to the target user. These neighbours are similar because they have statistically common interests. To determine these so-called neighbours, several statistical techniques are used. Finally, the top 𝑛 most similar items are recommended for the target user.
 
+The advantage of user-based collaborative filtering is the **sparsity and scalability**. Many recommender systems use data with lots of users and items, but with relatively few number of actual ratings. User-based collaborative filtering only uses necessary data, which reduces the run time.
+
 Algoritmo (idea)
 ---
 El objetivo del algoritmo es recomendar películas en base a un pequeño conjunto de películas de origen o *películas fuente*.
@@ -206,9 +208,9 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMDQyMDAxLC0xODM3NjM4Mjk1LDE3Nj
-U1ODUzNTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLTE5NDcyOTQ0
-NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC
-01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4
-MTEzNDc2OV19
+eyJoaXN0b3J5IjpbMjA2NTQzODcyOSwtMTgzNzYzODI5NSwxNz
+Y1NTg1MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC0xOTQ3Mjk0
+NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNi
+wtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDEx
+ODExMzQ3NjldfQ==
 -->
