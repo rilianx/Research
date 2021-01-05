@@ -36,12 +36,17 @@ Algoritmo (idea)
 --
 Se puede recorrer el espacio de puntos (2D) e ir probando que pasaría si eliminamos el punto actual.
 
-Al eliminar un punto hay tres casos posibles:
-- **El punto queda bajo la región dominada por el segmento que une el punto anterior con el siguiente.** En este caso bastaría eliminar el punto.
+Al eliminar un punto P hay *tres casos posibles*:
+
+- **El punto queda bajo la región dominada por el segmento que une el punto anterior con el siguiente (AB).** En este caso bastaría eliminar el punto.
 ![removingPoints4](https://docs.google.com/drawings/d/e/2PACX-1vTiTodnzPGuWtjfQ5GjtgoBlvhylYt8GO7afn0q8VFxvL47W-h90kbrbzx_pynVHHZAL38IPmy2ZOFK/pub?w=235&h=204)
+
 - **El punto P está dominado por el segmento AB. Además el siguiente punto (B) se encuentra dominado por el segmento PC**. En este caso se puede proyectar el segmento que une A con P y el punto que une a B con el siguiente punto. Luego mover B a la intersección de ambas proyecciones (ver figura).
 ![RemovingPoints6](https://docs.google.com/drawings/d/e/2PACX-1vTcvvYJCAT8lhNVS9cfTyD0ISQW9vqGEPw0hNv3ev1yc3XDyXe_TjMUZl1S0KCRamwTdJXsyIHLosNt/pub?w=314&h=258)
-- Si 
+
+- Si el siguiente punto (B) se queda bajo el segmento PC, entonces el punto no puede ser eliminado (conviene eliminar el siguiente punto)
+![RemovingPoints5](https://docs.google.com/drawings/d/e/2PACX-1vRUicavl0tVtv4_aBu65RXZeIFqx1iwlfZWB7fRwmeZV5Xo2H5ajaDqEH2gk6Fi61vMNchMlW1V_kzL/pub?w=351&h=245)
+
 Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 
 [Aquí](https://github.com/rilianx/Research/blob/main/ibexmop_rp/example.ipynb) se puede ver un ejemplo para obtener puntos de instancias de prueba y poder comenzar a trabajar con ellos.
@@ -51,8 +56,8 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjg0NjE2NiwzNzU1NzM3MTcsLTE4OT
-A5MTE4MDUsOTkxMjY3MjAzLDY2ODQ3Mjg5MiwtMTkzNjAxODk2
-MywxNjMzNjM1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMD
-U2NjM4Mjk2LC0xMDA2NzEzMTU3XX0=
+eyJoaXN0b3J5IjpbLTE2NDQ2MDczMzIsLTczMjg0NjE2NiwzNz
+U1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAzLDY2ODQ3Mjg5
+MiwtMTkzNjAxODk2MywxNjMzNjM1Mjk1LDE3Nzc1MTU1OTgsMj
+EzMTIzNzAzOSwxMDU2NjM4Mjk2LC0xMDA2NzEzMTU3XX0=
 -->
