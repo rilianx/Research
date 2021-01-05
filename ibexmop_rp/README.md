@@ -38,7 +38,7 @@ Se puede recorrer el espacio de puntos (2D) e ir probando que pasaría si elimin
 
 Al eliminar un punto hay dos casos posibles:
 - El punto queda bajo la región dominada por el segmento que une el punto anterior con el siguiente. En este caso bastaría eliminar el punto.
-![revobingPoints4](https://docs.google.com/drawings/d/e/2PACX-1vTiTodnzPGuWtjfQ5GjtgoBlvhylYt8GO7afn0q8VFxvL47W-h90kbrbzx_pynVHHZAL38IPmy2ZOFK/pub?w=235&h=205)
+![removing](https://docs.google.com/drawings/d/e/2PACX-1vTiTodnzPGuWtjfQ5GjtgoBlvhylYt8GO7afn0q8VFxvL47W-h90kbrbzx_pynVHHZAL38IPmy2ZOFK/pub?w=235&h=205)
 - El punto P está dominado por el segmento que une el punto anterior A con el siguiente B. En este caso se puede proyectar el segmento que une A con P y el punto que une a B con el siguiente punto. Luego mover B a la intersección de ambas proyecciones (ver figura).
 ![RemovingPoints3](https://docs.google.com/drawings/d/e/2PACX-1vQYv_zNoCcyN20SzdW7ljjCey-6BRfmbkbYXEbgUtJaBoZE51WVgoasiBFeZJ9gat6ceyt775fcm7Tn/pub?w=235&h=205)
 
@@ -51,8 +51,8 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1NTczNzE3LC0xODkwOTExODA1LDk5MT
-I2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5
-NSwxNzc3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMT
-AwNjcxMzE1N119
+eyJoaXN0b3J5IjpbMTM4NTU1ODQ5MywzNzU1NzM3MTcsLTE4OT
+A5MTE4MDUsOTkxMjY3MjAzLDY2ODQ3Mjg5MiwtMTkzNjAxODk2
+MywxNjMzNjM1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMD
+U2NjM4Mjk2LC0xMDA2NzEzMTU3XX0=
 -->
