@@ -47,7 +47,11 @@ Al eliminar un punto P hay *tres casos posibles*:
 - Si el siguiente punto (B) queda bajo el segmento PC, entonces el punto no puede ser eliminado (conviene eliminar directamente el siguiente punto)
 ![RemovingPoints5](https://docs.google.com/drawings/d/e/2PACX-1vRUicavl0tVtv4_aBu65RXZeIFqx1iwlfZWB7fRwmeZV5Xo2H5ajaDqEH2gk6Fi61vMNchMlW1V_kzL/pub?w=351&h=245)
 
+Por último, al eliminar un punto 
+
 Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
+
+
 
 [Aquí](https://github.com/rilianx/Research/blob/main/ibexmop_rp/example.ipynb) se puede ver un ejemplo para obtener puntos de instancias de prueba y poder comenzar a trabajar con ellos.
 
@@ -56,8 +60,9 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NT
-czNzE3LC0xODkwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIs
-LTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMz
-EyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcxMzE1N119
+eyJoaXN0b3J5IjpbLTIyMTUyMDY4Miw0MDY5NjI0NTEsLTczMj
+g0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAz
+LDY2ODQ3Mjg5MiwtMTkzNjAxODk2MywxNjMzNjM1Mjk1LDE3Nz
+c1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4Mjk2LC0xMDA2NzEz
+MTU3XX0=
 -->
