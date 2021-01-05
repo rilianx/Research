@@ -135,8 +135,7 @@ Next to collaborative filtering, one is also able to build recommender systems b
 
 A weakness of collaborative and content-based filtering mentioned by Lika et al. (2014) [7] is the problem of handling new users or items. Both techniques mentioned before are based on historic data of the users or items. This well-known problem is often called 7 the **cold-start problem**. 
 
-### [Social knowledge-based recommender system. Application
-to the movies domain](https://drive.google.com/file/d/11iMn2mJkLmLadSjjHGhXXvfrqnxKfl-C/view)
+### [Social knowledge-based recommender system. Application to the movies domain](https://drive.google.com/file/d/11iMn2mJkLmLadSjjHGhXXvfrqnxKfl-C/view)
 
 Algoritmo (idea)
 ---
@@ -217,9 +216,9 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ1NzAwNzgsODgyODkzMjQwLC0xOD
-M3NjM4Mjk1LDE3NjU1ODUzNTIsLTcyMjMxMDgzNSwyODY4Njk3
-MjAsLTE5NDcyOTQ0NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OS
-wtNTI2NjMwOTA2LC01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1
-NTg2MDU0MjMsMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbMTIxMjc4ODM3MCwtMTg4NDU3MDA3OCw4OD
+I4OTMyNDAsLTE4Mzc2MzgyOTUsMTc2NTU4NTM1MiwtNzIyMzEw
+ODM1LDI4Njg2OTcyMCwtMTk0NzI5NDQ1LC0xNTk1MjAzNzMwLC
+0xODIyMDMzOTY5LC01MjY2MzA5MDYsLTUyMTgwNTU1NCwtMTg0
+MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
 -->
