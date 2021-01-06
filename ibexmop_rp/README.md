@@ -5,9 +5,8 @@ Removing points from the non-dominated set
 
 TODO (Kevin)
 ---
-* Arreglar errores
-* Función que reciba una lista de puntos y el índice que se desea eliminar (para verificar).
-* Subir código a github
+* Agregar tercer caso a función que elimina puntos
+* 
 
 ----
 
@@ -62,9 +61,9 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5Nj
-I0NTEsLTczMjg0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUs
-OTkxMjY3MjAzLDY2ODQ3Mjg5MiwtMTkzNjAxODk2MywxNjMzNj
-M1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4Mjk2
-LC0xMDA2NzEzMTU3XX0=
+eyJoaXN0b3J5IjpbMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMj
+EwNDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywt
+MTg5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MD
+E4OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5
+LDEwNTY2MzgyOTYsLTEwMDY3MTMxNTddfQ==
 -->
