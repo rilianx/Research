@@ -6,7 +6,7 @@ Removing points from the non-dominated set
 TODO (Kevin)
 ---
 * Agregar tercer caso a función que elimina puntos
-* 
+* Construir ejemplo simple para probar los casos
 
 ----
 
@@ -61,9 +61,10 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMj
-EwNDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywt
-MTg5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MD
-E4OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5
-LDEwNTY2MzgyOTYsLTEwMDY3MTMxNTddfQ==
+eyJoaXN0b3J5IjpbLTE4MDY4MDA3ODIsMTQwOTUyOTgzMCw2ND
+QwMjU2NCwxNDczMjEwNDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2
+LDM3NTU3MzcxNywtMTg5MDkxMTgwNSw5OTEyNjcyMDMsNjY4ND
+cyODkyLC0xOTM2MDE4OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5
+OCwyMTMxMjM3MDM5LDEwNTY2MzgyOTYsLTEwMDY3MTMxNTddfQ
+==
 -->
