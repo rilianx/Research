@@ -1,10 +1,8 @@
 IMRT Beam Angle Optimization
 ==
-
+> Comando**VisualStudio -> ctrl+R -- imrt-bao**
 >- [Link Trello](https://trello.com/b/WmPgDVQH/practica)
 > - [github](https://github.com/MatiasZunigaL/Practica-imrt)
-
-**Conectar con VisualStudio --> imrt-bao**
 
 Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita encontrar los mejores ángulos para realizar el tratamiento.
 
@@ -101,8 +99,8 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxNDYwNjEyLC0yMDI3MzE3OTQ4LC0yMD
-EwMzgwMTcwLDg3MTQzNjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5
-MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNjIyODcyMDg2LD
-UxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbLTczMjE3NzIyNywtMjAyNzMxNzk0OCwtMj
+AxMDM4MDE3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYw
+OTAzLDExODY0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Ni
+w1MTYwMjYwNjldfQ==
 -->
