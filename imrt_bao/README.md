@@ -1,6 +1,7 @@
 IMRT Beam Angle Optimization
 ==
-> Comando**VisualStudio -> ctrl+R -- imrt-bao**
+Acceso al código: **VisualStudio -> ctrl+R -- imrt-bao**
+ 
 >- [Link Trello](https://trello.com/b/WmPgDVQH/practica)
 > - [github](https://github.com/MatiasZunigaL/Practica-imrt)
 
@@ -99,7 +100,7 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjE3NzIyNywtMjAyNzMxNzk0OCwtMj
+eyJoaXN0b3J5IjpbMTM1MzY4NzE4OCwtMjAyNzMxNzk0OCwtMj
 AxMDM4MDE3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYw
 OTAzLDExODY0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Ni
 w1MTYwMjYwNjldfQ==
