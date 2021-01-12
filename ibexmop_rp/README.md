@@ -9,9 +9,11 @@ TODO (Kevin)
 Ejemplo (antes):
 ![image](https://i.imgur.com/dtwIAJ6.png)
 **Faltaría imagen de después.**
-* Verificar que el HV en este caso se est
-*é calculando correctamente:
+
+* Verificar que el HV en este caso se esté calculando correctamente:
 ![RemovingPoints6](https://docs.google.com/drawings/d/e/2PACX-1vTcvvYJCAT8lhNVS9cfTyD0ISQW9vqGEPw0hNv3ev1yc3XDyXe_TjMUZl1S0KCRamwTdJXsyIHLosNt/pub?w=314&h=258)
+El HV corresponde al área del triángulo generado con P (el punto eliminado), B'(el nuevo punto que se agrega) y B (el punto que se corre).
+
 
 
 ----
@@ -67,10 +69,10 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjAzNDYsLTIxMjA5MTY2MDQsLTE4MD
-Y4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEwNDAz
-LDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMTg5MD
-kxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4OTYz
-LDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LDEwNT
-Y2MzgyOTYsLTEwMDY3MTMxNTddfQ==
+eyJoaXN0b3J5IjpbMTIzODk1Mjc1MywtMjEyMDkxNjYwNCwtMT
+gwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0LDE0NzMyMTA0
+MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NTczNzE3LC0xOD
+kwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5
+NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMzEyMzcwMzksMT
+A1NjYzODI5NiwtMTAwNjcxMzE1N119
 -->
