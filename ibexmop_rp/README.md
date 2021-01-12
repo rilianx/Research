@@ -20,7 +20,7 @@ El HV corresponde al área del triángulo generado con P (el punto eliminado), B
 
 - **Mantener una Lista de Puntos.** Un punto sería una estructura (clase) asociada a cada punto del gráfico. Cada punto almacena el punto que se encuentra antes y después (vecinos). Además de sus coordenadas el punto almacena el HV que se pierde si es eliminado.
 Al  eliminar o agregar un nuevo punto es necesario actualizar el HV del punto y de sus vecinos.
-Según Braulio, esto se conoce como [Patrón Observador](https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)). El objetivo es lograr una eliminación de puntos y actualización de HV eficiente, y que no sea necesario 
+Según Braulio, esto se conoce como [Patrón Observador](https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)). El objetivo es lograr una eliminación de puntos y actualización de HV eficiente, y que no sea necesario calcular el HV para todos los puntos cada vez que queramos reducir la cantidad.
 
 ----
 
@@ -75,10 +75,10 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTUwNDE5NzgsLTIxMjA5MTY2MDQsLT
-E4MDY4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEw
-NDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMT
-g5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4
-OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LD
-EwNTY2MzgyOTYsLTEwMDY3MTMxNTddfQ==
+eyJoaXN0b3J5IjpbMjI3NTIzOTc3LC0yMTIwOTE2NjA0LC0xOD
+A2ODAwNzgyLDE0MDk1Mjk4MzAsNjQ0MDI1NjQsMTQ3MzIxMDQw
+Myw0MDY5NjI0NTEsLTczMjg0NjE2NiwzNzU1NzM3MTcsLTE4OT
+A5MTE4MDUsOTkxMjY3MjAzLDY2ODQ3Mjg5MiwtMTkzNjAxODk2
+MywxNjMzNjM1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMD
+U2NjM4Mjk2LC0xMDA2NzEzMTU3XX0=
 -->
