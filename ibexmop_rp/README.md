@@ -5,8 +5,8 @@ Removing points from the non-dominated set
 
 TODO (Kevin)
 ---
-* Agregar tercer caso a función que elimina puntos
-* Construir ejemplo simple para probar los casos
+* Subir código (`ibex.py`)
+* Mantener estructura (
 
 ----
 
@@ -61,10 +61,10 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY4MDA3ODIsMTQwOTUyOTgzMCw2ND
-QwMjU2NCwxNDczMjEwNDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2
-LDM3NTU3MzcxNywtMTg5MDkxMTgwNSw5OTEyNjcyMDMsNjY4ND
-cyODkyLC0xOTM2MDE4OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5
-OCwyMTMxMjM3MDM5LDEwNTY2MzgyOTYsLTEwMDY3MTMxNTddfQ
-==
+eyJoaXN0b3J5IjpbLTIxMjA5MTY2MDQsLTE4MDY4MDA3ODIsMT
+QwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEwNDAzLDQwNjk2MjQ1
+MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMTg5MDkxMTgwNSw5OT
+EyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4OTYzLDE2MzM2MzUy
+OTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LDEwNTY2MzgyOTYsLT
+EwMDY3MTMxNTddfQ==
 -->
