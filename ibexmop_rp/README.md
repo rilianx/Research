@@ -5,9 +5,10 @@ Removing points from the non-dominated set
 
 TODO (Kevin)
 ---
-* Mostrar figura antes y **después** de eliminar el punto:
+* Mostrar figura antes y **después** de eliminar el punto junto al HV que se perdería (para comprobar).
+Ejemplo (antes):
 ![image](https://i.imgur.com/dtwIAJ6.png)
-Faltaría imagen de dde
+**Faltaría imagen de después.**
 
 
 ----
@@ -63,7 +64,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjQ2NzMwNCwtMjEyMDkxNjYwNCwtMT
+eyJoaXN0b3J5IjpbMTczMDAxMDc0MiwtMjEyMDkxNjYwNCwtMT
 gwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0LDE0NzMyMTA0
 MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NTczNzE3LC0xOD
 kwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5
