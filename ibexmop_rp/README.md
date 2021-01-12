@@ -22,7 +22,7 @@ El HV corresponde al área del triángulo generado con P (el punto eliminado), B
 Al  eliminar o agregar un nuevo punto es necesario actualizar el HV del punto y de sus vecinos.
 Según Braulio, esto es similar [Patrón Observador](https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)). El objetivo es lograr una eliminación de puntos y actualización de HV eficiente, y que no sea necesario calcular el HV para todos los puntos cada vez que queramos reducir la cantidad.
 
-El objetivo final de este trabajo es crear un método eficiente de actualización y eliminación de puntos para embeber en un solver de optimización bi-objetivo.
+El objetivo final de este trabajo es crear un método eficiente de actualización y eliminación de puntos para luego ser embebido en un solver de optimización bi-objetivo.
 
 ----
 
@@ -77,7 +77,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MzA3MjgzMCwyMjc1MjM5NzcsLTIxMj
+eyJoaXN0b3J5IjpbLTU4OTk4ODcwMywyMjc1MjM5NzcsLTIxMj
 A5MTY2MDQsLTE4MDY4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2
 NCwxNDczMjEwNDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NT
 U3MzcxNywtMTg5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODky
