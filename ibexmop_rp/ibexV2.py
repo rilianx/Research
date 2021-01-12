@@ -104,6 +104,7 @@ def menorArea(y1,y2):
     print("Se calcula la menor area")
 
     datos = F.menorVol(y1,y2)
+    return datos
 
 
 def posicion_punto(y1,y2,punto):
@@ -171,7 +172,7 @@ def filtrado_puntos(y1,y2):
 
     tamaño1 = np.size(y1)
 
-    print(y1,y2)
+    #print(y1,y2)
 
     fig1 = plt.figure("grafica 1")
     plt.plot(y1, y2, 'ro',y1, y2, 'g-')

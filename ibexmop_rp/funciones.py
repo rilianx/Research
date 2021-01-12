@@ -30,17 +30,15 @@ def menorVol(y1,y2):
 def Calcula_HV(h1,h2):
 
     HVTotal = 0
-    i = 1
 
     #se designa un punto que sobrepasa a los valores maximos de X e Y en la grafica
     puntoX = h1[np.size(h2)-1]+2
     puntoY = h2[0]+2
 
-    for x in h1:
+    for i in range(1,len(h1)):
 
       #si los puntos a evaluar estan en la misma coordenada X se salta
       if h1[i] == h1[i-1]:
-        i+=1
         continue
 
       #se saca las coordenadas para formar el triangulo
@@ -68,7 +66,7 @@ def Calcula_HV(h1,h2):
         break
       
 
-      i+=1
+      
 
     return HVTotal
 
@@ -139,10 +137,10 @@ def puntos_iguales(h1,h2):
     cont_ptosIguales = 0
 
     #le quita los decimales a todas las coordenadas
-    for x in h1:
-      h1[i] = round(h1[i], 0)
-      h2[i] = round(h2[i], 0)
-      i+=1
+    #for x in h1:
+    #  h1[i] = round(h1[i], 0)
+    #  h2[i] = round(h2[i], 0)
+    #  i+=1
 
     i = 0
 
