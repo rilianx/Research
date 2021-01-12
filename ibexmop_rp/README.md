@@ -14,11 +14,10 @@ Ejemplo (antes):
 ![RemovingPoints6](https://docs.google.com/drawings/d/e/2PACX-1vTcvvYJCAT8lhNVS9cfTyD0ISQW9vqGEPw0hNv3ev1yc3XDyXe_TjMUZl1S0KCRamwTdJXsyIHLosNt/pub?w=314&h=258)
 El HV corresponde al área del triángulo generado con P (el punto eliminado), B'(el nuevo punto que se agrega) y B (el punto que se corre).
 
-- Mantener una Lista de puntos en donde cada punto 
-- - "Punto", asociada a cada punto del gráfico. en la que cada punto conoce el punto que se encuentra a antes y después. Además esta estructura almacenaría:
+- Mantener una Lista de Puntos. Un punto sería una estructura (clase) asociada a cada punto del gráfico. Cada punto almacena el punto que se encuentra antes y después. Además el punto almacena:
 - HV que se pierde si es eliminado.
 
-Cada vez que se elimina un punto 
+Por lo que al eliminar o agregar un nuevo punto es necesario actualizar el HV de 
 
 ----
 
@@ -73,7 +72,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYzMjgxNzgsLTIxMjA5MTY2MDQsLT
+eyJoaXN0b3J5IjpbLTEyNDIyMjEzMTQsLTIxMjA5MTY2MDQsLT
 E4MDY4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEw
 NDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMT
 g5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4
