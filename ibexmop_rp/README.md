@@ -16,11 +16,11 @@ Ejemplo (antes):
 
 ![RemovingPoints6](https://docs.google.com/drawings/d/e/2PACX-1vTcvvYJCAT8lhNVS9cfTyD0ISQW9vqGEPw0hNv3ev1yc3XDyXe_TjMUZl1S0KCRamwTdJXsyIHLosNt/pub?w=314&h=258)
 
-El HV corresponde al área del triángulo generado con P (el punto eliminado), B'(el nuevo punto que se agrega) y B (el punto que se corre).
+El HV corresponde al área del triángulo generado con P (el punto eliminado), B'(el nuevo punto que se agrega) y B (el punto original que se corre).
 
 - **Mantener una Lista de Puntos.** Un punto sería una estructura (clase) asociada a cada punto del gráfico. Cada punto almacena el punto que se encuentra antes y después (vecinos). Además de sus coordenadas el punto almacena el HV que se pierde si es eliminado.
 Al  eliminar o agregar un nuevo punto es necesario actualizar el HV del punto y de sus vecinos.
-Según Braulio, este diseño se conoce como [Patrón Observador](https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)).
+Según Braulio, esto se conoce como [Patrón Observador](https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)). El objetivo es 
 
 ----
 
@@ -75,10 +75,10 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTIzOTk3OCwtMjEyMDkxNjYwNCwtMT
-gwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0LDE0NzMyMTA0
-MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NTczNzE3LC0xOD
-kwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5
-NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMzEyMzcwMzksMT
-A1NjYzODI5NiwtMTAwNjcxMzE1N119
+eyJoaXN0b3J5IjpbLTE1Njc0NjE2MTksLTIxMjA5MTY2MDQsLT
+E4MDY4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEw
+NDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMT
+g5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4
+OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LD
+EwNTY2MzgyOTYsLTEwMDY3MTMxNTddfQ==
 -->
