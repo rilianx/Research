@@ -10,7 +10,7 @@ Ejemplo (antes):
 
 ![image](https://i.imgur.com/dtwIAJ6.png)
 
-**Faltaría imagen de después.**
+**Faltaría imagen de después junto al HV perdido.**
 
 * Verificar que el HV en este caso se esté calculando correctamente:
 
@@ -75,10 +75,10 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA4ODMyNjgsLTIxMjA5MTY2MDQsLT
-E4MDY4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEw
-NDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMT
-g5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4
-OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LD
-EwNTY2MzgyOTYsLTEwMDY3MTMxNTddfQ==
+eyJoaXN0b3J5IjpbMTMyOTIzOTk3OCwtMjEyMDkxNjYwNCwtMT
+gwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0LDE0NzMyMTA0
+MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NTczNzE3LC0xOD
+kwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIsLTE5MzYwMTg5
+NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMzEyMzcwMzksMT
+A1NjYzODI5NiwtMTAwNjcxMzE1N119
 -->
