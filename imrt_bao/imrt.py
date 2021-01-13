@@ -117,14 +117,16 @@ class imrt:
         no_improvements = 0
         tot_evals = 0
         while no_improvements < 2: #4 para evitar que converja debido a tabu_list
-            ev, evals = self.local_search("beam_intensity", maxeval)
+            if maxeval-tot_evals <=0: break
+            ev, evals = self.local_search("beam_intensity", maxeval-tot_evals)
             tot_evals += evals
             if ev < best_eval: best_eval = ev; no_improvements = 0
             else: no_improvements += 1
 
             if no_improvements == 2: break
+            if maxeval-tot_evals <=0: break
 
-            ev, evals = self.local_search("level_intensity", maxeval)
+            ev, evals = self.local_search("level_intensity", maxeval-tot_evals)
             tot_evals += evals
             if ev < best_eval: best_eval = ev; no_improvements = 0
             else: no_improvements += 1
