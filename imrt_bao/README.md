@@ -91,17 +91,18 @@ Preparé un [tutorial](https://github.com/rilianx/Research/blob/main/imrt_bao/tu
 ### TODO (profe)
 
 * Agregar perturbación a ILS (en C++ y en python)
-* Agregar opción para considerar porcentaje del vecindario
+* Agregar opción para considerar porcentaje del vecindario -> acelerar perturbaciones
 
 
 **Idea (cotas para problema con voxels reducidos):**
 Al seleccionar una pequeña porción de voxels *representativos*, considerar la máxima y mínima deposición por beamlet para el conjunto de voxels representados. De esta manera sería posible obtener un intervalo para el costo alcanzado por una solución.
 
+**Idea (partial local search)**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODk1NjM1OTksMTgzMTg3MDIxMCwxMz
-UzNjg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQz
-NjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MS
-wtMjAwNjM1OTcwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbMTY1NzE5MjQ4NywxODMxODcwMjEwLDEzNT
+M2ODcxODgsLTIwMjczMTc5NDgsLTIwMTAzODAxNzAsODcxNDM2
+NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywxMTg2NDExNTUxLC
+0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5XX0=
 -->
