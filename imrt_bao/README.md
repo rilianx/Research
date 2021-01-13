@@ -91,11 +91,8 @@ Preparé un [tutorial](https://github.com/rilianx/Research/blob/main/imrt_bao/tu
 ### TODO (profe)
 
 * Agregar perturbación a ILS
+* 
 
-Las siguientes funcionalidades del framework IMRT falta por implementar:
-* *perturbation(neigh,nmoves)*: realiza una perturbación a la solución actual.
-* *update_fluence_map(changes)*: modifica el fluence map usando una lista de cambios puntuales. Retorna la nueva evaluación.
-* *update_dose_vectors(dose_vectors)*: modifica los vectores de dosis irradiada de acuerdo a la ùltima actualización del fluence map.
 
 **Idea (cotas para problema con voxels reducidos):**
 Al seleccionar una pequeña porción de voxels *representativos*, considerar la máxima y mínima deposición por beamlet para el conjunto de voxels representados. De esta manera sería posible obtener un intervalo para el costo alcanzado por una solución.
@@ -103,8 +100,8 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC0yMD
-I3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2NzQw
-MjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOC
-wtNjIyODcyMDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbMjI1ODk5ODM3LDE4MzE4NzAyMTAsMTM1Mz
+Y4NzE4OCwtMjAyNzMxNzk0OCwtMjAxMDM4MDE3MCw4NzE0MzY1
+NDEsLTIwNjc0MDIzOTAsNjMwMjYwOTAzLDExODY0MTE1NTEsLT
+IwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MTYwMjYwNjldfQ==
 -->
