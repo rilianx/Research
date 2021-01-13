@@ -99,10 +99,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 **Idea (partial local search)**
 - Limitar evaluaciones por búsqueda local (e.g., 1000)
-- Aplicar greedy o SA para encontrar mejores vecino
+- Aplicar greedy o SA para encontrar soluciones candidatas
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDA2OTk4NSwxODMxODcwMjEwLDEzNT
+eyJoaXN0b3J5IjpbMTU4NDMzNTMyMywxODMxODcwMjEwLDEzNT
 M2ODcxODgsLTIwMjczMTc5NDgsLTIwMTAzODAxNzAsODcxNDM2
 NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywxMTg2NDExNTUxLC
 0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5XX0=
