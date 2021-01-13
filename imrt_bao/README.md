@@ -90,8 +90,8 @@ Preparé un [tutorial](https://github.com/rilianx/Research/blob/main/imrt_bao/tu
 
 ### TODO (profe)
 
-* Agregar perturbación a ILS
-* 
+* Agregar perturbación a ILS (en C++ y en python)
+* Agregar opción para considerar porcentaje del vecindario
 
 
 **Idea (cotas para problema con voxels reducidos):**
@@ -100,8 +100,8 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1ODk5ODM3LDE4MzE4NzAyMTAsMTM1Mz
-Y4NzE4OCwtMjAyNzMxNzk0OCwtMjAxMDM4MDE3MCw4NzE0MzY1
-NDEsLTIwNjc0MDIzOTAsNjMwMjYwOTAzLDExODY0MTE1NTEsLT
-IwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MTYwMjYwNjldfQ==
+eyJoaXN0b3J5IjpbLTE2ODk1NjM1OTksMTgzMTg3MDIxMCwxMz
+UzNjg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQz
+NjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MS
+wtMjAwNjM1OTcwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
 -->
