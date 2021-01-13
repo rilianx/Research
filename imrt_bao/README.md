@@ -98,10 +98,11 @@ Preparé un [tutorial](https://github.com/rilianx/Research/blob/main/imrt_bao/tu
 Al seleccionar una pequeña porción de voxels *representativos*, considerar la máxima y mínima deposición por beamlet para el conjunto de voxels representados. De esta manera sería posible obtener un intervalo para el costo alcanzado por una solución.
 
 **Idea (partial local search)**
-
+- Limitar evaluaciones por búsqueda local (e.g., 1000)
+- Aplicar greedy o SA para encontrar mejores vecino
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzE5MjQ4NywxODMxODcwMjEwLDEzNT
+eyJoaXN0b3J5IjpbMTY3NDA2OTk4NSwxODMxODcwMjEwLDEzNT
 M2ODcxODgsLTIwMjczMTc5NDgsLTIwMTAzODAxNzAsODcxNDM2
 NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywxMTg2NDExNTUxLC
 0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MDY5XX0=
