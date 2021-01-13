@@ -87,7 +87,10 @@ Preparé un [tutorial](https://github.com/rilianx/Research/blob/main/imrt_bao/tu
 	* "IMRT BAO" (año > 2016)
 
 ----
-**Notas para el profe**
+
+### TODO (profe)
+
+* Agregar perturbación a ILS
 
 Las siguientes funcionalidades del framework IMRT falta por implementar:
 * *perturbation(neigh,nmoves)*: realiza una perturbación a la solución actual.
@@ -100,8 +103,8 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzY4NzE4OCwtMjAyNzMxNzk0OCwtMj
-AxMDM4MDE3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYw
-OTAzLDExODY0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Ni
-w1MTYwMjYwNjldfQ==
+eyJoaXN0b3J5IjpbMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC0yMD
+I3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2NzQw
+MjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOC
+wtNjIyODcyMDg2LDUxNjAyNjA2OV19
 -->
