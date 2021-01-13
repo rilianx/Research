@@ -90,21 +90,22 @@ Preparé un [tutorial](https://github.com/rilianx/Research/blob/main/imrt_bao/tu
 
 ### TODO (profe)
 
-* Agregar perturbación a ILS
+* Agregar perturbación a ILS (en C++ y en python)
+* Agregar opción para considerar porcentaje del vecindario -> acelerar perturbaciones
 
-Las siguientes funcionalidades del framework IMRT falta por implementar:
-* *perturbation(neigh,nmoves)*: realiza una perturbación a la solución actual.
-* *update_fluence_map(changes)*: modifica el fluence map usando una lista de cambios puntuales. Retorna la nueva evaluación.
-* *update_dose_vectors(dose_vectors)*: modifica los vectores de dosis irradiada de acuerdo a la ùltima actualización del fluence map.
 
 **Idea (cotas para problema con voxels reducidos):**
 Al seleccionar una pequeña porción de voxels *representativos*, considerar la máxima y mínima deposición por beamlet para el conjunto de voxels representados. De esta manera sería posible obtener un intervalo para el costo alcanzado por una solución.
 
-
+**Idea (partial local search)**
+- Limitar evaluaciones por búsqueda local (e.g., 1000)
+- Aplicar greedy o SA para encontrar soluciones candidatas
+- Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC0yMD
-I3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2NzQw
-MjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOC
-wtNjIyODcyMDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbLTg1NDc4NjkyNiwxNTg0MzM1MzIzLDE4Mz
+E4NzAyMTAsMTM1MzY4NzE4OCwtMjAyNzMxNzk0OCwtMjAxMDM4
+MDE3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYwOTAzLD
+ExODY0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MTYw
+MjYwNjldfQ==
 -->
