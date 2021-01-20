@@ -15,25 +15,30 @@ def connect(host):
 import ast 
 import copy
 class imrt:
-    def init_instance(self, files, max_voxels=500):
+    def init_instance(self, files, max_voxels=500, targeted=True):
         transport = self.ssh.get_transport()
         self.channel = transport.open_session(timeout=3600)
-        print("killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
-                             " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05 --maxeval=1000" + \
-                             " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home + " --port="+str(self.port))
-        self.channel.exec_command("killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
-                             " --file-coord="+files[1]+" --tabu-size=200 --seed=3 --min_impr=0.05 --maxeval=1000" + \
-                             " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home  + " --port="+str(self.port))
+        if targeted == True:
+            cmd = "killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
+                             " --file-coord="+files[1]+" --tabu-size=200 --setup=5 --seed=3 --min_impr=0.05 --maxeval=1000" + \
+                             " --vsize=0.002 --max_voxels="+str(max_voxels) +" --path="+self.home + " --port="+str(self.port)
+        else:
+            cmd = "killall DAO_ILS; "+self.home+"/DAO_ILS "+"--files-dep="+files[0]+ \
+                             " --file-coord="+files[1]+" --tabu-size=200 --setup=5 --seed=3 --min_impr=5 --maxeval=1000" + \
+                             " --vsize=0.0001 --max_voxels="+str(max_voxels) +" --path="+self.home + " --port="+str(self.port)
+        
+        print(cmd)
+        self.channel.exec_command(cmd)
         
         print("echo start | netcat localhost "+ str(self.port))
         stdin, stdout, stderr = self.ssh.exec_command("echo start | netcat localhost "+ str(self.port))
         print(stdout.readlines()[0])
         
-    def __init__(self, home, files, ssh, max_voxels=500, port=8080):
+    def __init__(self, home, files, ssh, max_voxels=500, port=8080, targeted=True):
         self.home = home
         self.ssh = ssh
         self.port = port
-        self.init_instance(files, max_voxels=max_voxels)
+        self.init_instance(files, max_voxels=max_voxels, targeted=targeted)
         self.init_data()
     
     def init_data(self):
