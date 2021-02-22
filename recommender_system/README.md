@@ -4,13 +4,9 @@ Recommender system
 
 TODO
 ---
-* Estudio del estado del arte (hacer resúmenes en drive)
-	* En general
-	* Películas, música, libro
-* Estudiar en más detalle algunos tipo de sistemas de recomendación interesantes
-* Estudiar en más detalle sistemas de recomendación basados en reglas asociativas
-	* ¿Cómo se extraen/generan las reglas?
-	* ¿Cómo se usan en el modelo?
+* Comparar algoritmos de recomendación:
+  * Basado en contenido (content-based)
+  * Collaborative filtering (usando matrices no?)
 
 Plan
 --
@@ -121,7 +117,7 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTA4OTkzNSwxMjEyNzg4MzcwLC0xOD
+eyJoaXN0b3J5IjpbLTQwOTc4ODUzMCwxMjEyNzg4MzcwLC0xOD
 g0NTcwMDc4LDg4Mjg5MzI0MCwtMTgzNzYzODI5NSwxNzY1NTg1
 MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC0xOTQ3Mjk0NDUsLT
 E1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNiwtNTIx
