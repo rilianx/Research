@@ -7,7 +7,7 @@ Removing points from the non-dominated set
 
 + Terminar tutorial que permita probar las funciones de eliminación de puntos. 
 + Implementar usando estructura que permita rápida actualización.
-+ Una vez que se verifique el correcto funcionamiento, implementar en solver ibex (ver sección más abajo).
++ Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
 
 ### Tutorial (detalles faltantes)
 
