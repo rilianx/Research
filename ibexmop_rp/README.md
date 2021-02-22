@@ -62,7 +62,7 @@ Tiene un sinfín de operaciones que permiten agregar puntos o segmentos además 
 
 Por lo tanto, lo que se podría hacer es agregar en la clase `NDS_seg` la estructura que generaste para guardar los puntos (con sus hv y punteros anterior/siguiente). Y luego una función (`remove_points(int n)`) que elimine `n` puntos seleccionando iterativamente el que minimiza el hv. Probablemente haya que copiar el mapa `NDS2` en tu estructura y luego volver a copiar de vuelta o algo por el estilo. Pero no importa, eso lo podemos optimizar más tarde.
 
-Para probarla se puede llamar desde el [`main`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/main/ibexmop.cpp). Antes del return 0 se puede llamar a la función (por ejemplo: `o->ndsH.remove_points(100);`)
+Para probar la implementación se puede llamar desde el [`main`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/main/ibexmop.cpp). Antes del return 0 se puede llamar a la función (por ejemplo: `o->ndsH.remove_points(100);`)
 
 ![image](https://i.imgur.com/Uwvlnn5.png)
 
@@ -119,11 +119,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTEzNjM1NiwtOTg2OTg3MjU0LC0yMD
-YyMDAwNjMyLDEzMzUyMTg5NiwyMjc1MjM5NzcsLTIxMjA5MTY2
-MDQsLTE4MDY4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxND
-czMjEwNDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3Mzcx
-NywtMTg5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOT
-M2MDE4OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3
-MDM5XX0=
+eyJoaXN0b3J5IjpbOTg0NTU1NjMxLC05ODY5ODcyNTQsLTIwNj
+IwMDA2MzIsMTMzNTIxODk2LDIyNzUyMzk3NywtMjEyMDkxNjYw
+NCwtMTgwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0LDE0Nz
+MyMTA0MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NTczNzE3
+LC0xODkwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIsLTE5Mz
+YwMTg5NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMzEyMzcw
+MzldfQ==
 -->
