@@ -1,8 +1,14 @@
 IbexMop3
 ==
-**Objetivos:**
-- Implementar programa en Python que permita ir viendo paso a paso cómo el solver va explorando el espacio de búsqueda y encontrando soluciones factibles.
-- 
+
+### TODO
+
+1. Implementar programa en Python que permita ir viendo paso a paso cómo el solver va explorando el espacio de búsqueda y encontrando soluciones factibles.
+2. Asumir que solver además *puede* generar un plano en cada iteración. Graficar este plano.
+
+Para el punto 2, se puede generar un plano a modo de ejemplo usando los puntos factibles gene
+
+- Generar un plano a part
 - Implementar método para generar hiperplano factible.
 - Generar plano contractante
 
@@ -44,6 +50,6 @@ La imagen izquierda sería un hiperplano *óptimo* pero difícil de calcular
 La imagen de la derecha serían hiperplanos más fáciles de calcular (proyección de puntos extremos de cada hiperplano factible con las caras de la caja)
 ![contracting with hyperplanes](https://docs.google.com/drawings/d/e/2PACX-1vSyFzHheVWKpZe6Y7YJJle5PJKqWzZxwrserwnCx2he6LsQj5QqYSb_e0WxMYRQSaM2b0Wvr4FOqSvC/pub?w=1320&h=547)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzMTM3MDg0LDg0NDQ5NjQwNywtOTU0MT
-QwNTE2XX0=
+eyJoaXN0b3J5IjpbLTQ0MzEyNzU5OCw4NDQ0OTY0MDcsLTk1ND
+E0MDUxNl19
 -->
