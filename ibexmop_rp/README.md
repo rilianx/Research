@@ -48,7 +48,8 @@ No es necesario entender al 100% el solver, sólo saber algunas cosas importante
 
 Las clases que permiten al solver resolver problemas con dos objetivos se encuentran [aquí](https://github.com/INFPUCV/ibex-lib/tree/ibexmop-plugin/plugins/optim-mop)
 
-El método que implementa el solver se llama Ibex
+El método [`OptimizerMOP::optimize`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L327) es el corazón del solver. Realiza la búsqueda usando un árbol de búsqueda comenzando por la raíz, etc.
+
 
 
 ----
@@ -104,11 +105,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDU4NzY3OSwxMzM1MjE4OTYsMjI3NT
-IzOTc3LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLDE0MDk1Mjk4
-MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0NTEsLTczMj
-g0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAz
-LDY2ODQ3Mjg5MiwtMTkzNjAxODk2MywxNjMzNjM1Mjk1LDE3Nz
-c1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4Mjk2LC0xMDA2NzEz
-MTU3XX0=
+eyJoaXN0b3J5IjpbLTEzNjgxMzA5OTEsMTMzNTIxODk2LDIyNz
+UyMzk3NywtMjEyMDkxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5
+ODMwLDY0NDAyNTY0LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03Mz
+I4NDYxNjYsMzc1NTczNzE3LC0xODkwOTExODA1LDk5MTI2NzIw
+Myw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNz
+c3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcx
+MzE1N119
 -->
