@@ -52,8 +52,11 @@ El método [`OptimizerMOP::optimize`](https://github.com/INFPUCV/ibex-lib/blob/f
 
 Luego, la función [`OptimizerMOP::upper_bounding`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L82), es una de las principales del solver. Esta función se encarga de buscar soluciones factibles (dominadas y no dominadas) para agregar al conjunto de soluciones.
 
-En este código por ejemplo, estamos do el punto central de una caja (`mid=box2.mid()`). 
+En este código por ejemplo, obteniendo el punto central de una caja (`mid=box2.mid()`). Si el punto es factible (`is_innder`) lo evaluamos en los dos objetivos (`goal1` y `goal2`) y el vector resultante se intenta agregar en el conjunto de soluciones **ndsH** en donde nos enfocaremos.
+
 ![image](https://i.imgur.com/JBFfaDP.png)
+
+La clase `NDS_seg`
 
 ----
 
@@ -108,7 +111,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0MTkzMTAzLDEzMzUyMTg5NiwyMjc1Mj
+eyJoaXN0b3J5IjpbOTA2NDkzNzkwLDEzMzUyMTg5NiwyMjc1Mj
 M5NzcsLTIxMjA5MTY2MDQsLTE4MDY4MDA3ODIsMTQwOTUyOTgz
 MCw2NDQwMjU2NCwxNDczMjEwNDAzLDQwNjk2MjQ1MSwtNzMyOD
 Q2MTY2LDM3NTU3MzcxNywtMTg5MDkxMTgwNSw5OTEyNjcyMDMs
