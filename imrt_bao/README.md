@@ -10,8 +10,9 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 
 IMRT (TODO)
 ---
-* Realizar experimentos para comparar distintas variantes.
-* 
+* Realizar experimentos para comparar distintas variantes (HC, SA)
+* Implementar algoritmo nelder-mead, o bayesian optimization
+* Diseñar técnica sofisticada que *decida* de manera adaptiva la cantidad de 
 
 * Algoritmo Hill Climbing
 * Algoritmo Greedy (que iría agregando ángulos de uno en uno)
@@ -106,9 +107,9 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMzMjE1OCwtODU0Nzg2OTI2LDE1OD
-QzMzUzMjMsMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC0yMDI3MzE3
-OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2NzQwMjM5MC
-w2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNjIy
-ODcyMDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbLTE5MTUwNTk0OTAsLTg1NDc4NjkyNiwxNT
+g0MzM1MzIzLDE4MzE4NzAyMTAsMTM1MzY4NzE4OCwtMjAyNzMx
+Nzk0OCwtMjAxMDM4MDE3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOT
+AsNjMwMjYwOTAzLDExODY0MTE1NTEsLTIwMDYzNTk3MDgsLTYy
+Mjg3MjA4Niw1MTYwMjYwNjldfQ==
 -->
