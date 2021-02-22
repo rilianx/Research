@@ -7,7 +7,7 @@ Removing points from the non-dominated set
 
 + Terminar tutorial que permita probar las funciones de eliminación de puntos. 
 + Implementar usando estructura que permita rápida actualización.
-+ Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex**).
++ Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
 
 ### Tutorial (detalles faltantes)
 
@@ -52,7 +52,7 @@ El método [`OptimizerMOP::optimize`](https://github.com/INFPUCV/ibex-lib/blob/f
 
 Luego, la función [`OptimizerMOP::upper_bounding`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L82), es una de las principales del solver. Esta función se encarga de buscar soluciones factibles (dominadas y no dominadas) para agregar al conjunto de soluciones.
 
-En este código por ejemplo, obteniendo el punto central de una caja (`mid=box2.mid()`). Si el punto es factible (`is_innder`) lo evaluamos en los dos objetivos (`goal1` y `goal2`) y el vector resultante se intenta agregar en el conjunto de soluciones **ndsH** (variable de tipo `NDS_seg`).
+En este código por ejemplo, obteniendo el punto central de una caja (`mid=box2.mid()`). Si el punto es factible (`is_inner`) lo evaluamos en los dos objetivos (`goal1` y `goal2`) y el vector resultante se intenta agregar en el conjunto de soluciones **ndsH** (variable de tipo `NDS_seg`).
 
 ![image](https://i.imgur.com/JBFfaDP.png)
 
@@ -119,7 +119,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MTYxMzUyLC0yMDYyMDAwNjMyLDEzMz
+eyJoaXN0b3J5IjpbNzEyODI5MDYyLC0yMDYyMDAwNjMyLDEzMz
 UyMTg5NiwyMjc1MjM5NzcsLTIxMjA5MTY2MDQsLTE4MDY4MDA3
 ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEwNDAzLDQwNj
 k2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMTg5MDkxMTgw
