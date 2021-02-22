@@ -34,6 +34,8 @@ Solver Ibex
 ---
 
 El solver lo instalé en la carpeta `home/practica/ibex-rp`.
+[Aquí](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/README.md) puedes ver una introducción al solver (es el mismo que usas a través de jupyter).
+
 
 https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/README.md
 
@@ -91,11 +93,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcxNDQ1NzYsMTMzNTIxODk2LDIyNz
-UyMzk3NywtMjEyMDkxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5
-ODMwLDY0NDAyNTY0LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03Mz
-I4NDYxNjYsMzc1NTczNzE3LC0xODkwOTExODA1LDk5MTI2NzIw
-Myw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNz
-c3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcx
-MzE1N119
+eyJoaXN0b3J5IjpbOTU1MTkyODIsMTMzNTIxODk2LDIyNzUyMz
+k3NywtMjEyMDkxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5ODMw
+LDY0NDAyNTY0LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03MzI4ND
+YxNjYsMzc1NTczNzE3LC0xODkwOTExODA1LDk5MTI2NzIwMyw2
+Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNzc3NT
+E1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcxMzE1
+N119
 -->
