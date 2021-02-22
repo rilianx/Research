@@ -10,6 +10,9 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 
 IMRT (TODO)
 ---
+* Realizar experimentos para comparar distintas variantes.
+* 
+
 * Algoritmo Hill Climbing
 * Algoritmo Greedy (que iría agregando ángulos de uno en uno)
 * Probar todas las combinaciones (3)
@@ -103,9 +106,9 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDc4NjkyNiwxNTg0MzM1MzIzLDE4Mz
-E4NzAyMTAsMTM1MzY4NzE4OCwtMjAyNzMxNzk0OCwtMjAxMDM4
-MDE3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYwOTAzLD
-ExODY0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MTYw
-MjYwNjldfQ==
+eyJoaXN0b3J5IjpbLTE5MjMzMjE1OCwtODU0Nzg2OTI2LDE1OD
+QzMzUzMjMsMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC0yMDI3MzE3
+OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2NzQwMjM5MC
+w2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNjIy
+ODcyMDg2LDUxNjAyNjA2OV19
 -->
