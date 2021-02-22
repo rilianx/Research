@@ -52,11 +52,11 @@ El método [`OptimizerMOP::optimize`](https://github.com/INFPUCV/ibex-lib/blob/f
 
 Luego, la función [`OptimizerMOP::upper_bounding`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L82), es una de las principales del solver. Esta función se encarga de buscar soluciones factibles (dominadas y no dominadas) para agregar al conjunto de soluciones.
 
-En este código por ejemplo, obteniendo el punto central de una caja (`mid=box2.mid()`). Si el punto es factible (`is_inner`) lo evaluamos en los dos objetivos (`goal1` y `goal2`) y el vector resultante se intenta agregar en el conjunto de soluciones **ndsH** (variable de tipo `NDS_seg`).
+En este código por ejemplo, obtenemos el punto central de una caja (`mid=box2.mid()`). Si el punto es factible (`is_inner==True`) lo evaluamos en los dos objetivos (`goal1` y `goal2`) y el vector resultante se intenta agregar en el conjunto de soluciones **ndsH** (variable de tipo `NDS_seg`).
 
 ![image](https://i.imgur.com/JBFfaDP.png)
 
-La clase [`NDS_seg`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h) es la que nos interesa y que es la encargada de almacenar las soluciones no dominadas de la frontera de pareto.
+La clase [`NDS_seg`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h) es la que nos interesa ya que es la encargada de almacenar las soluciones no dominadas de la frontera de pareto.
 
 Tiene un sinfín de operaciones que permiten agregar puntos o segmentos además de otras cosas cómo calcular distancias e intersecciones. Sin embargo, lo único que nos interesa es el mapa: `map< Vector, NDS_data, sorty2 > NDS2;` que es el que guarda los puntos o vectores.
 
@@ -119,11 +119,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyODI5MDYyLC0yMDYyMDAwNjMyLDEzMz
-UyMTg5NiwyMjc1MjM5NzcsLTIxMjA5MTY2MDQsLTE4MDY4MDA3
-ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxNDczMjEwNDAzLDQwNj
-k2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3MzcxNywtMTg5MDkxMTgw
-NSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOTM2MDE4OTYzLDE2Mz
-M2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3MDM5LDEwNTY2Mzgy
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTk4Njk4NzI1NCwtMjA2MjAwMDYzMiwxMz
+M1MjE4OTYsMjI3NTIzOTc3LC0yMTIwOTE2NjA0LC0xODA2ODAw
+NzgyLDE0MDk1Mjk4MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MD
+Y5NjI0NTEsLTczMjg0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4
+MDUsOTkxMjY3MjAzLDY2ODQ3Mjg5MiwtMTkzNjAxODk2MywxNj
+MzNjM1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4
+Mjk2XX0=
 -->
