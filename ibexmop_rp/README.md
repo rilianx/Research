@@ -58,6 +58,7 @@ En este código por ejemplo, obteniendo el punto central de una caja (`mid=box2.
 
 La clase [`NDS_seg`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h) es la que nos interesa y que es la encargada de almacenar las soluciones no dominadas de la frontera de pareto.
 
+Tiene un sinfín de operaciones que permiten agregar puntos o segmentos además de otras cosas cómo calcular distancias e intersecciones. Sin embargo, lo único que nos interesa por ahora es 
 
 
 ----
@@ -113,7 +114,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTc1NDA3NywxMzM1MjE4OTYsMjI3NT
+eyJoaXN0b3J5IjpbLTEzOTY0MDAzOCwxMzM1MjE4OTYsMjI3NT
 IzOTc3LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLDE0MDk1Mjk4
 MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0NTEsLTczMj
 g0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAz
