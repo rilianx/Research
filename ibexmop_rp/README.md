@@ -3,11 +3,13 @@ Removing points from the non-dominated set
 ==
 [Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing)
 
-TODO (Kevin)
----
+### TODO
+
 + Terminar tutorial que permita probar las funciones de eliminación de puntos. 
 + Implementar usando estructura que permita rápida actualización.
++ Una vez que se verifique el correcto funcionamiento, implementar en solver ibex.
 
+###
 
 * Mostrar figura antes y **después** de eliminar el punto junto al HV que se pierde (para comprobar).
 Ejemplo (antes):
@@ -81,11 +83,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODQ5MjE5MywxMzM1MjE4OTYsMjI3NT
-IzOTc3LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLDE0MDk1Mjk4
-MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0NTEsLTczMj
-g0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAz
-LDY2ODQ3Mjg5MiwtMTkzNjAxODk2MywxNjMzNjM1Mjk1LDE3Nz
-c1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4Mjk2LC0xMDA2NzEz
-MTU3XX0=
+eyJoaXN0b3J5IjpbLTE4OTY1NzczMTIsMTMzNTIxODk2LDIyNz
+UyMzk3NywtMjEyMDkxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5
+ODMwLDY0NDAyNTY0LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03Mz
+I4NDYxNjYsMzc1NTczNzE3LC0xODkwOTExODA1LDk5MTI2NzIw
+Myw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNz
+c3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcx
+MzE1N119
 -->
