@@ -12,12 +12,7 @@ IMRT (TODO)
 ---
 * Realizar experimentos para comparar distintas variantes (HC, SA)
 * Implementar algoritmo nelder-mead, o bayesian optimization
-* Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local.
-
-* Algoritmo Hill Climbing
-* Algoritmo Greedy (que iría agregando ángulos de uno en uno)
-* Probar todas las combinaciones (3)
-* Estudiar estado del arte
+* Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones.
 
 Objetivos
 --
@@ -107,7 +102,7 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTg0Njg5MywtODU0Nzg2OTI2LDE1OD
+eyJoaXN0b3J5IjpbLTQ1NzUzMzY4MCwtODU0Nzg2OTI2LDE1OD
 QzMzUzMjMsMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC0yMDI3MzE3
 OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2NzQwMjM5MC
 w2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OTcwOCwtNjIy
