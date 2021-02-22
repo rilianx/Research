@@ -10,7 +10,8 @@ TODO
   * ...
 * Definir experimentos (¿en qué consisten?):
   * Tipos de datos, atributos, cantidad
-  * ¿Cómo se evalúa qué tan buena es una recomendación? Por ejemplo, el objetivo de la recomendación puede ser el de predecir la nota que el usuario pondrá a una película, por lo tanto la recomendación se pue
+  * ¿Cómo se evalúa qué tan buena es una recomendación? Por ejemplo, el objetivo de la recomendación puede ser el de predecir la nota que el usuario pondrá a una película, por lo tanto la recomendación se puede evaluar usando el **error en la predicción**.
+  * Definir métrica para comparar algoritmos.
 
 Plan
 --
@@ -121,10 +122,10 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mzg1NDY1NywxMjEyNzg4MzcwLC0xOD
-g0NTcwMDc4LDg4Mjg5MzI0MCwtMTgzNzYzODI5NSwxNzY1NTg1
-MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC0xOTQ3Mjk0NDUsLT
-E1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNiwtNTIx
-ODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMz
-Q3NjldfQ==
+eyJoaXN0b3J5IjpbLTExNzU2NTA3MzEsMTIxMjc4ODM3MCwtMT
+g4NDU3MDA3OCw4ODI4OTMyNDAsLTE4Mzc2MzgyOTUsMTc2NTU4
+NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5NDQ1LC
+0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MDYsLTUy
+MTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMT
+M0NzY5XX0=
 -->
