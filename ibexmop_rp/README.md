@@ -46,6 +46,10 @@ Para imprimir los vectores solución de manera gráfica:
 
 No es necesario entender al 100% el solver, sólo saber algunas cosas importantes como:
 
+Las clases que permiten al solver resolver problemas con dos objetivos se encuentran [aquí](https://github.com/INFPUCV/ibex-lib/tree/ibexmop-plugin/plugins/optim-mop)
+
+El método que implementa el solver se llama Ibex
+
 
 ----
 
@@ -100,7 +104,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODQ0MDI2NCwxMzM1MjE4OTYsMjI3NT
+eyJoaXN0b3J5IjpbLTU0NDU4NzY3OSwxMzM1MjE4OTYsMjI3NT
 IzOTc3LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLDE0MDk1Mjk4
 MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0NTEsLTczMj
 g0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAz
