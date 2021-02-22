@@ -60,7 +60,7 @@ La clase [`NDS_seg`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plu
 
 Tiene un sinfín de operaciones que permiten agregar puntos o segmentos además de otras cosas cómo calcular distancias e intersecciones. Sin embargo, lo único que nos interesa es el mapa: `map< Vector, NDS_data, sorty2 > NDS2;` que es el que guarda los puntos o vectores.
 
-Por lo tanto, lo que se podría hacer primero, es agregar la estructura que generaste para guardar los puntos (con sus hv y punteros anterior/siguiente). Y luego una función (`remove_points(int n)`) que elimine `n` puntos seleccionando iterativamente el que minimiza el hv.
+Por lo tanto, lo que se podría hacer es agregar en la clase `NDS_seg` la estructura que generaste para guardar los puntos (con sus hv y punteros anterior/siguiente). Y luego una función (`remove_points(int n)`) que elimine `n` puntos seleccionando iterativamente el que minimiza el hv. Probablemente haya que copiar el mapa `NDS2` en tu estructura y luego volver a copiar de vuelta o algo por el estilo. Pero no importa, eso lo podemos optimizar más tarde.
 
 Para probarla se puede llamar desde el [`main`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/main/ibexmop.cpp). Antes del return 0 se puede llamar a la función (por ejemplo: `o->ndsH.remove_points(100);`)
 
@@ -119,11 +119,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Njk4NzI1NCwtMjA2MjAwMDYzMiwxMz
-M1MjE4OTYsMjI3NTIzOTc3LC0yMTIwOTE2NjA0LC0xODA2ODAw
-NzgyLDE0MDk1Mjk4MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MD
-Y5NjI0NTEsLTczMjg0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4
-MDUsOTkxMjY3MjAzLDY2ODQ3Mjg5MiwtMTkzNjAxODk2MywxNj
-MzNjM1Mjk1LDE3Nzc1MTU1OTgsMjEzMTIzNzAzOSwxMDU2NjM4
-Mjk2XX0=
+eyJoaXN0b3J5IjpbMjA4MTEzNjM1NiwtOTg2OTg3MjU0LC0yMD
+YyMDAwNjMyLDEzMzUyMTg5NiwyMjc1MjM5NzcsLTIxMjA5MTY2
+MDQsLTE4MDY4MDA3ODIsMTQwOTUyOTgzMCw2NDQwMjU2NCwxND
+czMjEwNDAzLDQwNjk2MjQ1MSwtNzMyODQ2MTY2LDM3NTU3Mzcx
+NywtMTg5MDkxMTgwNSw5OTEyNjcyMDMsNjY4NDcyODkyLC0xOT
+M2MDE4OTYzLDE2MzM2MzUyOTUsMTc3NzUxNTU5OCwyMTMxMjM3
+MDM5XX0=
 -->
