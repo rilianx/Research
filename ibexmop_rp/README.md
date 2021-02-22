@@ -45,6 +45,7 @@ Para imprimir los vectores solución de manera gráfica:
      python3 plugins/optim-mop/main/plot3.py
 
 
+
 ----
 
 When solving multi-objetive problems with global optimization solvers, generally a set  <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> of non dominated points (upper envelope) is maintained and updated in each iteration (red points in the figure).
@@ -98,7 +99,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk4MzUxODgsMTMzNTIxODk2LDIyNz
+eyJoaXN0b3J5IjpbLTE2MTI3MzAzMzgsMTMzNTIxODk2LDIyNz
 UyMzk3NywtMjEyMDkxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5
 ODMwLDY0NDAyNTY0LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03Mz
 I4NDYxNjYsMzc1NTczNzE3LC0xODkwOTExODA1LDk5MTI2NzIw
