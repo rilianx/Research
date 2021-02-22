@@ -50,6 +50,8 @@ Las clases que permiten al solver resolver problemas con dos objetivos se encuen
 
 El método [`OptimizerMOP::optimize`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L327) es el corazón del solver. Realiza la búsqueda usando un árbol de búsqueda comenzando por la raíz, etc.
 
+Luego, la función [`OptimizerMOP::upper_bounding`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L82), es una de las principales del solver. Esta función se encarga de buscar soluciones factibles (dominadas y no dominadas) para agregar al conjunto de soluciones.
+
 
 
 ----
@@ -105,11 +107,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgxMzA5OTEsMTMzNTIxODk2LDIyNz
-UyMzk3NywtMjEyMDkxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5
-ODMwLDY0NDAyNTY0LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03Mz
-I4NDYxNjYsMzc1NTczNzE3LC0xODkwOTExODA1LDk5MTI2NzIw
-Myw2Njg0NzI4OTIsLTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNz
-c3NTE1NTk4LDIxMzEyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcx
-MzE1N119
+eyJoaXN0b3J5IjpbLTY4NjcwNDEzLDEzMzUyMTg5NiwyMjc1Mj
+M5NzcsLTIxMjA5MTY2MDQsLTE4MDY4MDA3ODIsMTQwOTUyOTgz
+MCw2NDQwMjU2NCwxNDczMjEwNDAzLDQwNjk2MjQ1MSwtNzMyOD
+Q2MTY2LDM3NTU3MzcxNywtMTg5MDkxMTgwNSw5OTEyNjcyMDMs
+NjY4NDcyODkyLC0xOTM2MDE4OTYzLDE2MzM2MzUyOTUsMTc3Nz
+UxNTU5OCwyMTMxMjM3MDM5LDEwNTY2MzgyOTYsLTEwMDY3MTMx
+NTddfQ==
 -->
