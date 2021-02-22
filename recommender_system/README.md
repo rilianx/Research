@@ -7,6 +7,9 @@ TODO
 * Comparar algoritmos de recomendación:
   * Basado en contenido (content-based)
   * Collaborative filtering (usando matrices no?)
+  * ...
+* Definir experimentos (en qué consisten?):
+  * Cantidad de datos, atributos
 
 Plan
 --
@@ -117,10 +120,10 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTc4ODUzMCwxMjEyNzg4MzcwLC0xOD
-g0NTcwMDc4LDg4Mjg5MzI0MCwtMTgzNzYzODI5NSwxNzY1NTg1
-MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC0xOTQ3Mjk0NDUsLT
-E1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNiwtNTIx
-ODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMz
-Q3NjldfQ==
+eyJoaXN0b3J5IjpbMTM5MzUwMzAzLDEyMTI3ODgzNzAsLTE4OD
+Q1NzAwNzgsODgyODkzMjQwLC0xODM3NjM4Mjk1LDE3NjU1ODUz
+NTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLTE5NDcyOTQ0NSwtMT
+U5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC01MjE4
+MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEzND
+c2OV19
 -->
