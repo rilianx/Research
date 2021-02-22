@@ -9,7 +9,8 @@ TODO
   * Collaborative filtering (usando matrices no?)
   * ...
 * Definir experimentos (en qué consisten?):
-  * Cantidad de datos, atributos
+  * Tipos de datos, atributos, cantidad
+  * ¿Cómo se evalúa que tan buena es una recomendación? (ejemplo: error cuadrático con respecto a la nota con la que el usuario calificó la película)
 
 Plan
 --
@@ -120,10 +121,10 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzUwMzAzLDEyMTI3ODgzNzAsLTE4OD
-Q1NzAwNzgsODgyODkzMjQwLC0xODM3NjM4Mjk1LDE3NjU1ODUz
-NTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLTE5NDcyOTQ0NSwtMT
-U5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC01MjE4
-MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEzND
-c2OV19
+eyJoaXN0b3J5IjpbLTIwMDE3NTE2NTMsMTIxMjc4ODM3MCwtMT
+g4NDU3MDA3OCw4ODI4OTMyNDAsLTE4Mzc2MzgyOTUsMTc2NTU4
+NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5NDQ1LC
+0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MDYsLTUy
+MTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywxMTgxMT
+M0NzY5XX0=
 -->
