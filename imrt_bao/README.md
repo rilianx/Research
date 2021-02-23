@@ -11,12 +11,12 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 IMRT (TODO)
 ---
 * Realizar experimentos para comparar distintas variantes (HC, SA)
-* Implementar algoritmo nelder-mead, o bayesian optimization
+* Implementar algoritmo nelder-mead y bayesian optimization
 * Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones. Una idea más abajo:
 
 **Idea (partial local search)**
 - Limitar evaluaciones por búsqueda local (e.g., 1000)
-- Aplicar greedy o SA para encontrar soluciones candidatas
+- Aplicar HC o SA para encontrar soluciones candidatas
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 Objetivos
@@ -107,9 +107,10 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAwMzgwNjAsLTQ1NzUzMzY4MCwtOD
-U0Nzg2OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMCwxMzUzNjg3
-MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MS
-wtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAw
-NjM1OTcwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbMTk1NjA2MDA2NSwtMTE4MDAzODA2MCwtND
+U3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMzNTMyMywxODMxODcw
+MjEwLDEzNTM2ODcxODgsLTIwMjczMTc5NDgsLTIwMTAzODAxNz
+AsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywxMTg2
+NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MD
+Y5XX0=
 -->
