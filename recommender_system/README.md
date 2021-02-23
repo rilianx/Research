@@ -7,7 +7,8 @@ TODO
 
 **Algoritmo basado en *calificaciones* y similitud de películas.**
 
-Para evaluar los resultados se pueden usar listas de películas ranqueadas de distintos usuarios. www
+Para evaluar los resultados se pueden usar listas de películas ranqueadas de distintos usuarios.
+Para obtener la info 
  
 
 
@@ -133,10 +134,10 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0MDU2OTAzLDIwODAyNTA5NzUsMTIxMj
-c4ODM3MCwtMTg4NDU3MDA3OCw4ODI4OTMyNDAsLTE4Mzc2Mzgy
-OTUsMTc2NTU4NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMT
-k0NzI5NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2
-MzA5MDYsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNT
-QyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbMTU1Njc2MzQxOCwyMDgwMjUwOTc1LDEyMT
+I3ODgzNzAsLTE4ODQ1NzAwNzgsODgyODkzMjQwLC0xODM3NjM4
+Mjk1LDE3NjU1ODUzNTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLT
+E5NDcyOTQ0NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2
+NjMwOTA2LC01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MD
+U0MjMsMTE4MTEzNDc2OV19
 -->
