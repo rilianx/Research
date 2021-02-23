@@ -4,7 +4,16 @@ Recommender system
 
 TODO
 ---
+
+**Algoritmo basado en *calificaciones* y similitud de películas.**
+
+Para evaluar los resultados se pueden 
+ 
+
+
+
 Usar como referencia paper: [2018 - Recommender system techniques applied to Netflix movie data](https://science.vu.nl/en/Images/werkstuk-postmus_tcm296-877824.pdf) 
+
 
 * Comparar algoritmos de recomendación:
   * Basado en contenido (content-based)
@@ -124,10 +133,10 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDI1MDk3NSwxMjEyNzg4MzcwLC0xOD
-g0NTcwMDc4LDg4Mjg5MzI0MCwtMTgzNzYzODI5NSwxNzY1NTg1
-MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC0xOTQ3Mjk0NDUsLT
-E1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUyNjYzMDkwNiwtNTIx
-ODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4NjA1NDIzLDExODExMz
-Q3NjldfQ==
+eyJoaXN0b3J5IjpbLTE0MTEzNzc0NzgsMjA4MDI1MDk3NSwxMj
+EyNzg4MzcwLC0xODg0NTcwMDc4LDg4Mjg5MzI0MCwtMTgzNzYz
+ODI5NSwxNzY1NTg1MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC
+0xOTQ3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUy
+NjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4Nj
+A1NDIzLDExODExMzQ3NjldfQ==
 -->
