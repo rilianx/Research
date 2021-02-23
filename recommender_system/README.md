@@ -7,12 +7,14 @@ TODO
 
 **Algoritmo basado en *calificaciones* y similitud de películas.**
 
+* Evaluar la precisión del algoritmo.
+ 
 Para evaluar los resultados se pueden usar listas de películas ranqueadas de distintos usuarios.
 Para obtener la info se puede acceder a [esta página](https://letterboxd.com/members/)
 
 Con la lista de películas calificadas de un usuario, se divide un un conjunto de entrenamiento (conjunto con el que se obtienen los valores R_ij = S_ij * c_i), y un conjunto que se usará para evaluar la predicción.
  
-
+---
 
 
 Usar como referencia paper: [2018 - Recommender system techniques applied to Netflix movie data](https://science.vu.nl/en/Images/werkstuk-postmus_tcm296-877824.pdf) 
@@ -136,10 +138,10 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA3NjY2MzEsMjA4MDI1MDk3NSwxMj
-EyNzg4MzcwLC0xODg0NTcwMDc4LDg4Mjg5MzI0MCwtMTgzNzYz
-ODI5NSwxNzY1NTg1MzUyLC03MjIzMTA4MzUsMjg2ODY5NzIwLC
-0xOTQ3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5NjksLTUy
-NjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0xNTU4Nj
-A1NDIzLDExODExMzQ3NjldfQ==
+eyJoaXN0b3J5IjpbLTEzMDg5NTQ4NiwyMDgwMjUwOTc1LDEyMT
+I3ODgzNzAsLTE4ODQ1NzAwNzgsODgyODkzMjQwLC0xODM3NjM4
+Mjk1LDE3NjU1ODUzNTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLT
+E5NDcyOTQ0NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2
+NjMwOTA2LC01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MD
+U0MjMsMTE4MTEzNDc2OV19
 -->
