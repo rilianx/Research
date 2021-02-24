@@ -12,6 +12,7 @@ IMRT (TODO)
 ---
 * Realizar experimentos para comparar distintas variantes (HC, SA)
 * Implementar algoritmo nelder-mead y bayesian optimization
+	* Para el **nelder-mead** deben definir una función objetivo
 * Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones. Una idea más abajo:
 
 **Idea (partial local search)**
@@ -107,10 +108,10 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjA2MDA2NSwtMTE4MDAzODA2MCwtND
-U3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMzNTMyMywxODMxODcw
-MjEwLDEzNTM2ODcxODgsLTIwMjczMTc5NDgsLTIwMTAzODAxNz
-AsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywxMTg2
-NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIwODYsNTE2MDI2MD
-Y5XX0=
+eyJoaXN0b3J5IjpbLTE1NjE2ODU2OTEsMTk1NjA2MDA2NSwtMT
+E4MDAzODA2MCwtNDU3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMz
+NTMyMywxODMxODcwMjEwLDEzNTM2ODcxODgsLTIwMjczMTc5ND
+gsLTIwMTAzODAxNzAsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYz
+MDI2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4Nz
+IwODYsNTE2MDI2MDY5XX0=
 -->
