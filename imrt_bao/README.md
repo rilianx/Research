@@ -10,11 +10,11 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 
 IMRT (TODO)
 ---
-- Nelder Mead
+- **Nelder Mead**
 	- Eliminar ángulos repetidos de x
 	- Ajustar al más cercano
 	- Límite por iteraciones de búsqueda local (1.000.000).
-- Gráfico convergencia (mejor_evaluación vs).
+- Gráfico convergencia (mejor_evaluación vs. iteraciones).
 
 * Implementar algoritmo bayesian optimization
 * Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones. Una idea más abajo:
@@ -112,7 +112,7 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU3NTIwNTEsLTE1NjE2ODU2OTEsMT
+eyJoaXN0b3J5IjpbLTE3NDkzNTQ5NjksLTE1NjE2ODU2OTEsMT
 k1NjA2MDA2NSwtMTE4MDAzODA2MCwtNDU3NTMzNjgwLC04NTQ3
 ODY5MjYsMTU4NDMzNTMyMywxODMxODcwMjEwLDEzNTM2ODcxOD
 gsLTIwMjczMTc5NDgsLTIwMTAzODAxNzAsODcxNDM2NTQxLC0y
