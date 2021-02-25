@@ -3,6 +3,8 @@ IbexMop3
 
 ### TODO
 
+- 
+
 1. Implementar programa en Python que permita ir viendo paso a paso cómo el solver va explorando el espacio de búsqueda y encontrando soluciones factibles.
 2. Asumir que solver además *puede* generar un plano en cada iteración. Graficar este plano.
 
@@ -45,6 +47,6 @@ La imagen izquierda sería un hiperplano *óptimo* pero difícil de calcular
 La imagen de la derecha serían hiperplanos más fáciles de calcular (proyección de puntos extremos de cada hiperplano factible con las caras de la caja)
 ![contracting with hyperplanes](https://docs.google.com/drawings/d/e/2PACX-1vSyFzHheVWKpZe6Y7YJJle5PJKqWzZxwrserwnCx2he6LsQj5QqYSb_e0WxMYRQSaM2b0Wvr4FOqSvC/pub?w=1320&h=547)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTQ5MDY1MCw4NDQ0OTY0MDcsLTk1ND
-E0MDUxNl19
+eyJoaXN0b3J5IjpbMjEzNzY2NDM4NywxMDE5NDkwNjUwLDg0ND
+Q5NjQwNywtOTU0MTQwNTE2XX0=
 -->
