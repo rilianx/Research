@@ -13,11 +13,9 @@ IMRT (TODO)
 - Nelder Mead
 	- Eliminar ángulos repetidos de x
 	- Ajustar al más cercano
-	- Límite por iteraciones de búsqueda local .
+	- Límite por iteraciones de búsqueda local (1.000.000).
 
-* Realizar experimentos para comparar distintas variantes (HC, SA)
-* Implementar algoritmo nelder-mead y bayesian optimization
-	* Para el **nelder-mead** deben definir una función objetivo
+* Implementar algoritmo bayesian optimization
 * Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones. Una idea más abajo:
 
 **Idea (partial local search)**
@@ -113,10 +111,10 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY2MTA3LC0xNTYxNjg1NjkxLDE5NT
-YwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUzMzY4MCwtODU0Nzg2
-OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC
-0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2
-NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OT
-cwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
+eyJoaXN0b3J5IjpbMTIxNDIyNjM2OCwtMTU2MTY4NTY5MSwxOT
+U2MDYwMDY1LC0xMTgwMDM4MDYwLC00NTc1MzM2ODAsLTg1NDc4
+NjkyNiwxNTg0MzM1MzIzLDE4MzE4NzAyMTAsMTM1MzY4NzE4OC
+wtMjAyNzMxNzk0OCwtMjAxMDM4MDE3MCw4NzE0MzY1NDEsLTIw
+Njc0MDIzOTAsNjMwMjYwOTAzLDExODY0MTE1NTEsLTIwMDYzNT
+k3MDgsLTYyMjg3MjA4Niw1MTYwMjYwNjldfQ==
 -->
