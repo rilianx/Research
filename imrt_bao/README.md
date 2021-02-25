@@ -10,6 +10,11 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 
 IMRT (TODO)
 ---
+- Nelder Mead
+	- Eliminar ángulos repetidos de x
+	- Ajustar al más cercano
+	- Límite por iteraciones de búsqueda local .
+
 * Realizar experimentos para comparar distintas variantes (HC, SA)
 * Implementar algoritmo nelder-mead y bayesian optimization
 	* Para el **nelder-mead** deben definir una función objetivo
@@ -108,10 +113,10 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE2ODU2OTEsMTk1NjA2MDA2NSwtMT
-E4MDAzODA2MCwtNDU3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMz
-NTMyMywxODMxODcwMjEwLDEzNTM2ODcxODgsLTIwMjczMTc5ND
-gsLTIwMTAzODAxNzAsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYz
-MDI2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4Nz
-IwODYsNTE2MDI2MDY5XX0=
+eyJoaXN0b3J5IjpbLTE3NzY2MTA3LC0xNTYxNjg1NjkxLDE5NT
+YwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUzMzY4MCwtODU0Nzg2
+OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMCwxMzUzNjg3MTg4LC
+0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNjU0MSwtMjA2
+NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwtMjAwNjM1OT
+cwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
 -->
