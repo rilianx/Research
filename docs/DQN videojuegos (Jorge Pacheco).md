@@ -3,7 +3,8 @@
 TODO
 ---
 
-- Buscar librerías 
+- Buscar librerías y códigos en Python 
+- Estudiar [Gym](https://gym.openai.com/docs/). Preguntar dudas a Lucas Agullo (lucas.agullov@gmail.com).
 
 
 **Pregunta:** ¿cómo reducir complejidad de la red a la hora de resolver un problema?
@@ -27,5 +28,5 @@ Deep reinforcement learning, applied to vision-based problems like Atari games, 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQzMTQxMzYsMTM2ODY0MThdfQ==
+eyJoaXN0b3J5IjpbMzE0Njg3MTM4LDEzNjg2NDE4XX0=
 -->
