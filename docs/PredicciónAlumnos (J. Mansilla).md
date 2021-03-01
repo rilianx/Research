@@ -15,17 +15,11 @@ TODO (Juan)
 
 - Leer trabajo y códigos para entender lo que hay.
 - Revisar experimentos y resultados actuales.
-- 
+- Diseñar y ejecutar experimentos finales
 
 
-
-TODO
+TODO paper
 --
-- [ ] Normalización x semestre
-- [ ] Paper
-- [ ] [Breve escrito UMDU](https://mail.google.com/mail/u/0/#search/umdu+breve/FMfcgxwKjBPtlkjLQddWNSScfLDVXgzg) (divulgación)
-
-**Paper**
 - [ ] Abstract
 - [ ] Intro (falta redactar mejor las contribuciones)
 - [ ] Considered predictor variable. Explicar herramienta (code::runner), los datos que se pueden extraer y los indicadores que se consideraron divididos en secciones (los basados en otros trabajos y los propuestos)
@@ -177,6 +171,6 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MDAwMjkxLDE5NDE4NjA0OTAsOTEyNz
+eyJoaXN0b3J5IjpbMjAwODE4MDQ3LDE5NDE4NjA0OTAsOTEyNz
 MyOTUzXX0=
 -->
