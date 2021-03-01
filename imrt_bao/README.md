@@ -10,10 +10,22 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 
 IMRT (TODO)
 ---
-* Algoritmo Hill Climbing
-* Algoritmo Greedy (que iría agregando ángulos de uno en uno)
-* Probar todas las combinaciones (3)
-* Estudiar estado del arte
+- **Nelder Mead**
+	- Eliminar ángulos repetidos de x
+	- Ajustar al más cercano
+	- Límite por iteraciones de búsqueda local (1.000.000).
+- **Gráfico convergencia** (mejor_evaluación vs. iteraciones).
+- Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
+* Implementar algoritmo **bayesian optimization**
+
+---
+
+* Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones. Una idea más abajo:
+
+**Idea (partial local search)**
+- Limitar evaluaciones por búsqueda local (e.g., 1000)
+- Aplicar HC o SA para encontrar soluciones candidatas
+- Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 Objetivos
 --
@@ -103,9 +115,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDc4NjkyNiwxNTg0MzM1MzIzLDE4Mz
-E4NzAyMTAsMTM1MzY4NzE4OCwtMjAyNzMxNzk0OCwtMjAxMDM4
-MDE3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYwOTAzLD
-ExODY0MTE1NTEsLTIwMDYzNTk3MDgsLTYyMjg3MjA4Niw1MTYw
-MjYwNjldfQ==
+eyJoaXN0b3J5IjpbLTIwOTE5MjIxOSwtNDU2MTY3OTYxLC0xNT
+YxNjg1NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUz
+MzY4MCwtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMC
+wxMzUzNjg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3
+MTQzNjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMT
+U1MSwtMjAwNjM1OTcwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
+
 -->

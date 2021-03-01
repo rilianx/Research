@@ -3,8 +3,14 @@ Removing points from the non-dominated set
 ==
 [Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing)
 
-TODO (Kevin)
----
+### TODO
+
++ Terminar tutorial que permita probar las funciones de eliminación de puntos. 
++ Implementar usando estructura que permita rápida actualización.
++ Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
+
+### Tutorial (detalles faltantes)
+
 * Mostrar figura antes y **después** de eliminar el punto junto al HV que se pierde (para comprobar).
 Ejemplo (antes):
 
@@ -23,6 +29,42 @@ Al  eliminar o agregar un nuevo punto es necesario actualizar el HV del punto y 
 Según Braulio, esto es similar al [Patrón Observador](https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)). El objetivo es lograr una eliminación de puntos y actualización de HV eficiente, y que no sea necesario calcular el HV para todos los puntos cada vez que queramos reducir la cantidad.
 
 El objetivo final de este trabajo es crear un método eficiente de actualización y eliminación de puntos para luego ser embebido en un solver de optimización bi-objetivo.
+
+Solver Ibex
+---
+
+El solver lo instalé en la carpeta `home/practica/ibex-rp`.
+[Aquí](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/README.md) puedes ver una introducción al solver (es el mismo que usas a través de jupyter).
+
+Para correr un ejemplo:
+
+    ./__build__/plugins/optim-mop/ibexmop plugins/optim-mop/benchs/binh.txt  --cy-contract-full --eps-contract --ub=ub1 --eps=0.1
+
+Para imprimir los vectores solución de manera gráfica:
+
+     python3 plugins/optim-mop/main/plot3.py
+
+No es necesario entender al 100% el solver, sólo saber algunas cosas importantes como:
+
+Las clases que permiten al solver resolver problemas con dos objetivos se encuentran [aquí](https://github.com/INFPUCV/ibex-lib/tree/ibexmop-plugin/plugins/optim-mop)
+
+El método [`OptimizerMOP::optimize`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L327) es el corazón del solver. Realiza la búsqueda usando un árbol de búsqueda comenzando por la raíz, etc.
+
+Luego, la función [`OptimizerMOP::upper_bounding`](https://github.com/INFPUCV/ibex-lib/blob/fac74dc4a5bb9e3c854307d080e774def0425e01/plugins/optim-mop/src/strategy/ibex_OptimizerMOP.cpp#L82), es una de las principales del solver. Esta función se encarga de buscar soluciones factibles (dominadas y no dominadas) para agregar al conjunto de soluciones.
+
+En este código por ejemplo, obtenemos el punto central de una caja (`mid=box2.mid()`). Si el punto es factible (`is_inner==True`) lo evaluamos en los dos objetivos (`goal1` y `goal2`) y el vector resultante se intenta agregar en el conjunto de soluciones **ndsH** (variable de tipo `NDS_seg`).
+
+![image](https://i.imgur.com/JBFfaDP.png)
+
+La clase [`NDS_seg`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h) es la que nos interesa ya que es la encargada de almacenar las soluciones no dominadas de la frontera de pareto.
+
+Tiene un sinfín de operaciones que permiten agregar puntos o segmentos además de otras cosas cómo calcular distancias e intersecciones. Sin embargo, lo único que nos interesa es el mapa: `map< Vector, NDS_data, sorty2 > NDS2;` que es el que guarda los puntos o vectores.
+
+Por lo tanto, lo que se podría hacer es agregar en la clase `NDS_seg` la estructura que generaste para guardar los puntos (con sus hv y punteros anterior/siguiente). Y luego una función (`remove_points(int n)`) que elimine `n` puntos seleccionando iterativamente el que minimiza el hv. Probablemente haya que copiar el mapa `NDS2` en tu estructura y luego volver a copiar de vuelta o algo por el estilo. Pero no importa, eso lo podemos optimizar más tarde.
+
+Para probar la implementación se puede llamar desde el [`main`](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/main/ibexmop.cpp). Antes del return 0 se puede llamar a la función (por ejemplo: `o->ndsH.remove_points(100);`)
+
+![image](https://i.imgur.com/Uwvlnn5.png)
 
 ----
 
@@ -77,10 +119,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTIxODk2LDIyNzUyMzk3NywtMjEyMD
-kxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0
-LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NT
-czNzE3LC0xODkwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIs
-LTE5MzYwMTg5NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMz
-EyMzcwMzksMTA1NjYzODI5NiwtMTAwNjcxMzE1N119
+eyJoaXN0b3J5IjpbOTg0NTU1NjMxLC05ODY5ODcyNTQsLTIwNj
+IwMDA2MzIsMTMzNTIxODk2LDIyNzUyMzk3NywtMjEyMDkxNjYw
+NCwtMTgwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0LDE0Nz
+MyMTA0MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NTczNzE3
+LC0xODkwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIsLTE5Mz
+YwMTg5NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMzEyMzcw
+MzldfQ==
 -->

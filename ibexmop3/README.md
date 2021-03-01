@@ -1,10 +1,15 @@
 IbexMop3
 ==
-**Objetivos:**
-- Implementar programa en Python que permita ir viendo paso a paso cómo el solver va explorando el espacio de búsqueda y encontrando soluciones factibles.
-- Implementar método para generar hiperplano factible.
-- Generar plano contractante
 
+### TODO
+
+- Mantener cajas pendientes en el gráfico
+- Profe permiti
+
+1. Implementar programa en Python que permita ir viendo paso a paso cómo el solver va explorando el espacio de búsqueda y encontrando soluciones factibles.
+2. Asumir que solver además *puede* generar un plano en cada iteración. Graficar este plano.
+
+Para el punto 2, se puede generar un plano *a modo de ejemplo* usando los puntos factibles generados en cada iteración. Con estos puntos se puede obtener un plano que, por ejemplo, minimice el error cuadrático y luego habría que agregar este plano en la caja actual. Prontamente el solver debería *generar automáticamente un plano que pase sobre los puntos factibles.*
 
 Ejecución interactiva
 --
@@ -43,5 +48,7 @@ La imagen izquierda sería un hiperplano *óptimo* pero difícil de calcular
 La imagen de la derecha serían hiperplanos más fáciles de calcular (proyección de puntos extremos de cada hiperplano factible con las caras de la caja)
 ![contracting with hyperplanes](https://docs.google.com/drawings/d/e/2PACX-1vSyFzHheVWKpZe6Y7YJJle5PJKqWzZxwrserwnCx2he6LsQj5QqYSb_e0WxMYRQSaM2b0Wvr4FOqSvC/pub?w=1320&h=547)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0NDk2NDA3LC05NTQxNDA1MTZdfQ==
+eyJoaXN0b3J5IjpbOTM5NjUxODM4LC0xMjE5ODE4NTc1LDIxMz
+c2NjQzODcsMTAxOTQ5MDY1MCw4NDQ0OTY0MDcsLTk1NDE0MDUx
+Nl19
 -->
