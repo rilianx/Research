@@ -14,9 +14,10 @@ TODO (Juan)
 **Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
 
 - Leer trabajo para entender el problema y la propuesta. ([Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv))
-- Pedir ayuda a Katrina y Victor para entender los códigos de los modelos y e.
+- Pedir ayuda a Katrina y Victor para entender los códigos de los modelos y experimentos.
 - Revisar experimentos y resultados actuales.
-- Diseñar y ejecutar experimentos finales
+- Diseñar experimentos finales.
+- Resultados y Análisis.
 
 
 TODO paper
@@ -172,6 +173,6 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDI0MjUzMCwxOTQxODYwNDkwLDkxMj
+eyJoaXN0b3J5IjpbMTM5NTUxNjY5OCwxOTQxODYwNDkwLDkxMj
 czMjk1M119
 -->
