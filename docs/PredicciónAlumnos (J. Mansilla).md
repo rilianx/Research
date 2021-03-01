@@ -13,6 +13,8 @@ TODO (Juan)
 ---
 **Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
 
+- Leer trabajo y códigos para entender lo que hay.
+- Revisar experimentos y resultados actuales.
 - 
 
 
@@ -175,6 +177,6 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTkxMjM4NCwxOTQxODYwNDkwLDkxMj
-czMjk1M119
+eyJoaXN0b3J5IjpbOTM1MDAwMjkxLDE5NDE4NjA0OTAsOTEyNz
+MyOTUzXX0=
 -->
