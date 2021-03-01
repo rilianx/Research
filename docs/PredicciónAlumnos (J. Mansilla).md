@@ -25,7 +25,7 @@ TODO paper
 - [ ] Abstract
 - [ ] Intro (falta redactar mejor las contribuciones)
 - [ ] Considered predictor variable. Explicar herramienta (code::runner), los datos que se pueden extraer y los indicadores que se consideraron divididos en secciones (los basados en otros trabajos y los propuestos)
-- [ ] Experimentos <-- ==Comenzar con esto (YO)==
+- [ ] Experimentos
 	- [ ] Recolección de datos
 	- [ ] Procedimiento para generar los modelos
 	- [ ] Resultados
@@ -173,6 +173,6 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTUxNjY5OCwxOTQxODYwNDkwLDkxMj
-czMjk1M119
+eyJoaXN0b3J5IjpbLTEyNTY5MTMxLDEzOTU1MTY2OTgsMTk0MT
+g2MDQ5MCw5MTI3MzI5NTNdfQ==
 -->
