@@ -29,7 +29,7 @@ TODO
 
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
-- Revisar y discutir diferencias entre acercamiento y paper **202X**. Revisar también descripciones propuestas en este documento (más abajo).
+- Revisar y discutir diferencias entre acercamiento (memoria) y paper **202X**. Revisar también descripciones propuestas en este documento (más abajo).
 - Llegar a consenso junto a Juan y profesor acerca de lo que debiera ser calculado.
 - Proponer y desarrollar maneras de arreglar y optimizar los algoritmos actuales (implementados en `clpState_pc`). Revisar también comentarios relacionados en este documento.
 
@@ -188,5 +188,5 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExNjUyNDc5XX0=
+eyJoaXN0b3J5IjpbLTYwNjExNTQ4OCw2MTE2NTI0NzldfQ==
 -->
