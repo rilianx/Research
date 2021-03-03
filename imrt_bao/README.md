@@ -13,7 +13,7 @@ IMRT (TODO)
 - **Nelder Mead**
 	- Diccionario para mapear bac a la evaluación correspondiente. Para evitar llamar al solver con ángulos repetidos.
 	- Loop que aplique nelder_mead iterativamente (hasta límite de iteraciones internas del solver).
-	- 
+	- Comparar resultados con los otros métodos (boxplots, convergencia)
    - Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
 - Implementar algoritmo **bayesian optimization**
 
@@ -114,11 +114,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0OTE1MjgsLTUwNzIyOTY5OCwtMj
-A5MTkyMjE5LC00NTYxNjc5NjEsLTE1NjE2ODU2OTEsMTk1NjA2
-MDA2NSwtMTE4MDAzODA2MCwtNDU3NTMzNjgwLC04NTQ3ODY5Mj
-YsMTU4NDMzNTMyMywxODMxODcwMjEwLDEzNTM2ODcxODgsLTIw
-MjczMTc5NDgsLTIwMTAzODAxNzAsODcxNDM2NTQxLC0yMDY3ND
-AyMzkwLDYzMDI2MDkwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4
-LC02MjI4NzIwODZdfQ==
+eyJoaXN0b3J5IjpbMTgzNTk5MzczOSwtNTA3MjI5Njk4LC0yMD
+kxOTIyMTksLTQ1NjE2Nzk2MSwtMTU2MTY4NTY5MSwxOTU2MDYw
+MDY1LC0xMTgwMDM4MDYwLC00NTc1MzM2ODAsLTg1NDc4NjkyNi
+wxNTg0MzM1MzIzLDE4MzE4NzAyMTAsMTM1MzY4NzE4OCwtMjAy
+NzMxNzk0OCwtMjAxMDM4MDE3MCw4NzE0MzY1NDEsLTIwNjc0MD
+IzOTAsNjMwMjYwOTAzLDExODY0MTE1NTEsLTIwMDYzNTk3MDgs
+LTYyMjg3MjA4Nl19
 -->
