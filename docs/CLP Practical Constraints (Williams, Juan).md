@@ -43,6 +43,7 @@ TODO
 - Implementar algoritmo para trabajar con múltiples contenedores.
 
 ### TODO
+
 - Describir criterio de selección de cajas para cada contenedor.
 
 
@@ -191,6 +192,6 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM5ODUzMzcsLTYwNjExNTQ4OCwxNj
-g2OTMxNTA2LDYxMTY1MjQ3OV19
+eyJoaXN0b3J5IjpbLTcyMDE2NjE4MywtNjA2MTE1NDg4LDE2OD
+Y5MzE1MDYsNjExNjUyNDc5XX0=
 -->
