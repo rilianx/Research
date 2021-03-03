@@ -11,6 +11,9 @@ Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita 
 IMRT (TODO)
 ---
 - **Nelder Mead**
+	- Diccionario para mapear bac a la evaluación correspondiente. Para evitar llamar al solver con ángulos repetidos.
+	- Loop externo que aplique nelder_mead iterativamente (hasta límite de iteraciones internas del solver).
+
 	- Eliminar ángulos repetidos de x
 	- Ajustar al más cercano
 	- Límite por iteraciones de búsqueda local (1.000.000).
@@ -114,11 +117,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzIyOTY5OCwtMjA5MTkyMjE5LC00NT
-YxNjc5NjEsLTE1NjE2ODU2OTEsMTk1NjA2MDA2NSwtMTE4MDAz
-ODA2MCwtNDU3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMzNTMyMy
-wxODMxODcwMjEwLDEzNTM2ODcxODgsLTIwMjczMTc5NDgsLTIw
-MTAzODAxNzAsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMDI2MD
-kwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIwODYs
-NTE2MDI2MDY5XX0=
+eyJoaXN0b3J5IjpbMTI5NjczNzEzNywtNTA3MjI5Njk4LC0yMD
+kxOTIyMTksLTQ1NjE2Nzk2MSwtMTU2MTY4NTY5MSwxOTU2MDYw
+MDY1LC0xMTgwMDM4MDYwLC00NTc1MzM2ODAsLTg1NDc4NjkyNi
+wxNTg0MzM1MzIzLDE4MzE4NzAyMTAsMTM1MzY4NzE4OCwtMjAy
+NzMxNzk0OCwtMjAxMDM4MDE3MCw4NzE0MzY1NDEsLTIwNjc0MD
+IzOTAsNjMwMjYwOTAzLDExODY0MTE1NTEsLTIwMDYzNTk3MDgs
+LTYyMjg3MjA4Nl19
 -->
