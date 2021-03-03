@@ -15,7 +15,7 @@ IMRT (TODO)
 	- Loop que aplique nelder_mead iterativamente (hasta límite de iteraciones internas del solver).
 	- Comparar resultados con los otros métodos (boxplots, convergencia)
    - Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
-- Implementar algoritmo **bayesian optimization**
+- Última semana: Implementar algoritmo **bayesian optimization**
 
 ---
 
@@ -114,11 +114,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTk5MzczOSwtNTA3MjI5Njk4LC0yMD
-kxOTIyMTksLTQ1NjE2Nzk2MSwtMTU2MTY4NTY5MSwxOTU2MDYw
-MDY1LC0xMTgwMDM4MDYwLC00NTc1MzM2ODAsLTg1NDc4NjkyNi
-wxNTg0MzM1MzIzLDE4MzE4NzAyMTAsMTM1MzY4NzE4OCwtMjAy
-NzMxNzk0OCwtMjAxMDM4MDE3MCw4NzE0MzY1NDEsLTIwNjc0MD
-IzOTAsNjMwMjYwOTAzLDExODY0MTE1NTEsLTIwMDYzNTk3MDgs
-LTYyMjg3MjA4Nl19
+eyJoaXN0b3J5IjpbLTExODEyNzIxNywxODM1OTkzNzM5LC01MD
+cyMjk2OTgsLTIwOTE5MjIxOSwtNDU2MTY3OTYxLC0xNTYxNjg1
+NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUzMzY4MC
+wtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMCwxMzUz
+Njg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNj
+U0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwt
+MjAwNjM1OTcwOF19
 -->
