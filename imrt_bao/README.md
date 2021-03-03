@@ -14,7 +14,6 @@ IMRT (TODO)
 	- Eliminar ángulos repetidos de x
 	- Ajustar al más cercano
 	- Límite por iteraciones de búsqueda local (1.000.000).
-- **Gráfico convergencia** (mejor_evaluación vs. iteraciones).
 - Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
 * Implementar algoritmo **bayesian optimization**
 
@@ -115,11 +114,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE5MjIxOSwtNDU2MTY3OTYxLC0xNT
-YxNjg1NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUz
-MzY4MCwtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMC
-wxMzUzNjg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3
-MTQzNjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMT
-U1MSwtMjAwNjM1OTcwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
-
+eyJoaXN0b3J5IjpbLTUwNzIyOTY5OCwtMjA5MTkyMjE5LC00NT
+YxNjc5NjEsLTE1NjE2ODU2OTEsMTk1NjA2MDA2NSwtMTE4MDAz
+ODA2MCwtNDU3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMzNTMyMy
+wxODMxODcwMjEwLDEzNTM2ODcxODgsLTIwMjczMTc5NDgsLTIw
+MTAzODAxNzAsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMDI2MD
+kwMywxMTg2NDExNTUxLC0yMDA2MzU5NzA4LC02MjI4NzIwODYs
+NTE2MDI2MDY5XX0=
 -->
