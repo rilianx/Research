@@ -42,6 +42,9 @@ TODO
 - Definir un formato de instancias que permita trabajar con instancias del paper. Comparar con nuestro formato. 
 - Implementar algoritmo para trabajar con múltiples contenedores.
 
+### TODO
+- Descripción del algoritmo que 
+
 
 
 Notas sobre las restricciones
@@ -188,6 +191,6 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjExNTQ4OCwxNjg2OTMxNTA2LC02MD
-YxMTU0ODgsNjExNjUyNDc5XX0=
+eyJoaXN0b3J5IjpbLTIxMjE0NzEzMTcsLTYwNjExNTQ4OCwxNj
+g2OTMxNTA2LDYxMTY1MjQ3OV19
 -->
