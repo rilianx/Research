@@ -17,7 +17,8 @@ IMRT (TODO)
    - Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
 - Última semana: Implementar algoritmo **bayesian optimization**
 
----
+
+### Future work
 
 * Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones. Una idea más abajo:
 
@@ -26,10 +27,6 @@ IMRT (TODO)
 - Aplicar HC o SA para encontrar soluciones candidatas
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
-Objetivos
---
-1. Estudiar estado del arte sobre BAO, hacer resúmenes.
-2. Diseñar e implementar algoritmo en Python.
 
 ¿Qué es IMRT BAO?
 ---
@@ -114,7 +111,7 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODEyNzIxNywxODM1OTkzNzM5LC01MD
+eyJoaXN0b3J5IjpbLTE5MjMyNzE0NCwxODM1OTkzNzM5LC01MD
 cyMjk2OTgsLTIwOTE5MjIxOSwtNDU2MTY3OTYxLC0xNTYxNjg1
 NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUzMzY4MC
 wtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMCwxMzUz
