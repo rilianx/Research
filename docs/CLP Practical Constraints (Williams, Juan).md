@@ -44,7 +44,6 @@ TODO
 
 
 
-
 Notas sobre las restricciones
 ---
 
@@ -189,6 +188,6 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjkzMTUwNiwtNjA2MTE1NDg4LDYxMT
-Y1MjQ3OV19
+eyJoaXN0b3J5IjpbLTYwNjExNTQ4OCwxNjg2OTMxNTA2LC02MD
+YxMTU0ODgsNjExNjUyNDc5XX0=
 -->
