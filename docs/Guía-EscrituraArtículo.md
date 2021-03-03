@@ -6,8 +6,8 @@ Tips para escribir artículo
 - Escriban bosquejo de **abstract**. Quizás yo ya haya escrito alguno en sus documentos en github. Pueden basarse en el que está en el paper. Es sólo un bosquejo, la idea por ahora es que ayude a recordarnos hacia donde estamos apuntando.
 Generalmente lo divido en párrafos:
 	- Descripción del problema
-	- Estado del arte
-	- Propuesta
+	- Estado del arte (lo que hay hecho hasta ahora)
+	- Propuesta (qué es lo **nuevo** que se propone?)
 	- Resultados
 
 ![image](https://i.imgur.com/zpn4DKO.png)
@@ -21,5 +21,5 @@ Generalmente lo divido en párrafos:
 [Aquí](https://www.froihofer.net/en/students/how-to-write-a-computer-science-paper.html) más tips sobre escritura de artículos.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ0MjYzNTRdfQ==
+eyJoaXN0b3J5IjpbMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
 -->
