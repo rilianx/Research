@@ -17,16 +17,8 @@ Actualmente tenemos 3 variantes:
 **TODO**
 
 - Avanzar con mecanismo para decidir cuando aplicamos IpOPT.
-- M
-
-- [ ] Terminar la tabla
-- [ ] Análisis de resultados
-- [ ] Identificar cosas raras y documentarlas
-- [ ] **Destacar resultados interesantes**
-	- [ ] ¿En qué instancias IpOPT da buenos resultados?
-	- [ ] ¿En qué instancias no da tan buenos resultados?
-	- [ ] Revisar que los tiempos tengan sentido
-- [ ] Script que mate procesos que consumen más de cierto tiempo o %memoria
+- Mostrar la tablita
+- In
 
 Mecanismo:
 - [ ] Seguir diseñando mecanismo para seleccionar cuándo aplicar Ipopt (T>1).
@@ -93,5 +85,5 @@ def upper_bounding(box x, loup):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTM1NjQ5NSwtMTM4NzAzNTg4OF19
+eyJoaXN0b3J5IjpbLTU0OTIyMzcxNCwtMTM4NzAzNTg4OF19
 -->
