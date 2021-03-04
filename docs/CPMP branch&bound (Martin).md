@@ -3,6 +3,14 @@ CPMP branch & bound
 
 Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
+### TODO
+Implementar siguiente algoritmo:
+
+````c++
+void solve()    
+    u = greedy(layout)
+    DFS(L,u)
+````
 
 
 
@@ -12,5 +20,5 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTU5NTg5MV19
+eyJoaXN0b3J5IjpbMTkwNzcyNTAxNiwxNDk5NTk1ODkxXX0=
 -->
