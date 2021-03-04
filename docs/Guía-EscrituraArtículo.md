@@ -1,4 +1,4 @@
-Tips para escribir artículo
+Escritura de artículo
 ==
 
 - Creen documento en overleaf con la estructura del paper. Pueden basarse en la estructura de [este paper](https://www.overleaf.com/read/vfmzmfmbvqpt).
@@ -21,5 +21,6 @@ Generalmente lo divido en párrafos:
 [Aquí](https://www.froihofer.net/en/students/how-to-write-a-computer-science-paper.html) más tips sobre escritura de artículos.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
+eyJoaXN0b3J5IjpbLTE0OTcxMDA1NzUsMTAyNzE2MzA3LC0xMT
+M0NDI2MzU0XX0=
 -->
