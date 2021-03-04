@@ -16,8 +16,8 @@ Actualmente tenemos 3 variantes:
 
 **TODO**
 
-- Avanzar con mecanismo para decidir
-
+- Avanzar con mecanismo para decidir cuando aplicamos IpOPT.
+- M
 
 - [ ] Terminar la tabla
 - [ ] Análisis de resultados
@@ -93,5 +93,5 @@ def upper_bounding(box x, loup):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzM0NTY0OCwtMTM4NzAzNTg4OF19
+eyJoaXN0b3J5IjpbMTM4MTM1NjQ5NSwtMTM4NzAzNTg4OF19
 -->
