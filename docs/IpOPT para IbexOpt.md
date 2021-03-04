@@ -16,7 +16,7 @@ Actualmente tenemos 3 variantes:
 
 **TODO**
 
-
+- Avanzar con mecanismo para decidir
 
 
 - [ ] Terminar la tabla
@@ -93,5 +93,5 @@ def upper_bounding(box x, loup):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjI3Njg1OCwtMTM4NzAzNTg4OF19
+eyJoaXN0b3J5IjpbMTA4MzM0NTY0OCwtMTM4NzAzNTg4OF19
 -->
