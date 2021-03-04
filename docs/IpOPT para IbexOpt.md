@@ -16,6 +16,9 @@ Actualmente tenemos 3 variantes:
 
 **TODO**
 
+
+
+
 - [ ] Terminar la tabla
 - [ ] Análisis de resultados
 - [ ] Identificar cosas raras y documentarlas
@@ -90,5 +93,5 @@ def upper_bounding(box x, loup):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODcwMzU4ODhdfQ==
+eyJoaXN0b3J5IjpbLTI1NjI3Njg1OCwtMTM4NzAzNTg4OF19
 -->
