@@ -8,6 +8,8 @@ Acceso al código: **VisualStudio -> ctrl+R -- imrt-bao**
 Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita encontrar los mejores ángulos para realizar el tratamiento.
 
 
+
+
 IMRT (TODO)
 ---
 - **Nelder Mead**
@@ -16,6 +18,8 @@ IMRT (TODO)
 	- Comparar resultados con los otros métodos (boxplots, convergencia)
    - Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
 - Última semana: Implementar algoritmo **bayesian optimization**
+
+
 
 
 ### Future work
@@ -111,11 +115,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMyNzE0NCwxODM1OTkzNzM5LC01MD
-cyMjk2OTgsLTIwOTE5MjIxOSwtNDU2MTY3OTYxLC0xNTYxNjg1
-NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUzMzY4MC
-wtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMCwxMzUz
-Njg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3MTQzNj
-U0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMTU1MSwt
-MjAwNjM1OTcwOF19
+eyJoaXN0b3J5IjpbMjMwMDQ2MjMyLC0xOTIzMjcxNDQsMTgzNT
+k5MzczOSwtNTA3MjI5Njk4LC0yMDkxOTIyMTksLTQ1NjE2Nzk2
+MSwtMTU2MTY4NTY5MSwxOTU2MDYwMDY1LC0xMTgwMDM4MDYwLC
+00NTc1MzM2ODAsLTg1NDc4NjkyNiwxNTg0MzM1MzIzLDE4MzE4
+NzAyMTAsMTM1MzY4NzE4OCwtMjAyNzMxNzk0OCwtMjAxMDM4MD
+E3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYwOTAzLDEx
+ODY0MTE1NTFdfQ==
 -->
