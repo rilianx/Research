@@ -5,7 +5,10 @@ XM-Taylor
 
 ### TODO
 Generalizar método para más de 3 dimensiones.
+
+
+![image](https://i.imgur.com/9yLM8CG.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk3MTA5MTgsLTE4NjExMDc0NjhdfQ
-==
+eyJoaXN0b3J5IjpbNDU3NDY2MTQ1LC0xMzg5NzEwOTE4LC0xOD
+YxMTA3NDY4XX0=
 -->
