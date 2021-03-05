@@ -19,7 +19,14 @@ IMRT (TODO)
    - Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
 - Última semana: Implementar algoritmo **bayesian optimization**
 
+````python
 
+while iter < 1000000:
+   intern_iter = 0
+   nelder_mead(fobj,iter=1000) #fobj m
+   iter += intern_iter
+
+````
 
 
 ### Future work
@@ -115,11 +122,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMDQ2MjMyLC0xOTIzMjcxNDQsMTgzNT
-k5MzczOSwtNTA3MjI5Njk4LC0yMDkxOTIyMTksLTQ1NjE2Nzk2
-MSwtMTU2MTY4NTY5MSwxOTU2MDYwMDY1LC0xMTgwMDM4MDYwLC
-00NTc1MzM2ODAsLTg1NDc4NjkyNiwxNTg0MzM1MzIzLDE4MzE4
-NzAyMTAsMTM1MzY4NzE4OCwtMjAyNzMxNzk0OCwtMjAxMDM4MD
-E3MCw4NzE0MzY1NDEsLTIwNjc0MDIzOTAsNjMwMjYwOTAzLDEx
-ODY0MTE1NTFdfQ==
+eyJoaXN0b3J5IjpbLTIwOTAxMDgxMTgsLTE5MjMyNzE0NCwxOD
+M1OTkzNzM5LC01MDcyMjk2OTgsLTIwOTE5MjIxOSwtNDU2MTY3
+OTYxLC0xNTYxNjg1NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNj
+AsLTQ1NzUzMzY4MCwtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgz
+MTg3MDIxMCwxMzUzNjg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMz
+gwMTcwLDg3MTQzNjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMs
+MTE4NjQxMTU1MV19
 -->
