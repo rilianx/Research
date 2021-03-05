@@ -20,12 +20,10 @@ IMRT (TODO)
 - Última semana: Implementar algoritmo **bayesian optimization**
 
 ````python
-
 while iter < 1000000:
    intern_iter = 0
-   nelder_mead(fobj,iter=1000) #fobj m
+   nelder_mead(fobj,xini=random(),iter=1000) #fobj modifica intern_iter
    iter += intern_iter
-
 ````
 
 
@@ -122,11 +120,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAxMDgxMTgsLTE5MjMyNzE0NCwxOD
-M1OTkzNzM5LC01MDcyMjk2OTgsLTIwOTE5MjIxOSwtNDU2MTY3
-OTYxLC0xNTYxNjg1NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNj
-AsLTQ1NzUzMzY4MCwtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgz
-MTg3MDIxMCwxMzUzNjg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMz
-gwMTcwLDg3MTQzNjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMs
-MTE4NjQxMTU1MV19
+eyJoaXN0b3J5IjpbMTM2MDQyODAyNSwtMTkyMzI3MTQ0LDE4Mz
+U5OTM3MzksLTUwNzIyOTY5OCwtMjA5MTkyMjE5LC00NTYxNjc5
+NjEsLTE1NjE2ODU2OTEsMTk1NjA2MDA2NSwtMTE4MDAzODA2MC
+wtNDU3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMzNTMyMywxODMx
+ODcwMjEwLDEzNTM2ODcxODgsLTIwMjczMTc5NDgsLTIwMTAzOD
+AxNzAsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywx
+MTg2NDExNTUxXX0=
 -->
