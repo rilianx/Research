@@ -5,8 +5,6 @@ Removing points from the non-dominated set
 
 ### TODO
 
-+ Terminar tutorial que permita probar las funciones de eliminación de puntos. 
-+ Implementar usando estructura que permita rápida actualización.
 + Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
 
 ### Tutorial (detalles faltantes)
@@ -119,11 +117,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NTU1NjMxLC05ODY5ODcyNTQsLTIwNj
-IwMDA2MzIsMTMzNTIxODk2LDIyNzUyMzk3NywtMjEyMDkxNjYw
-NCwtMTgwNjgwMDc4MiwxNDA5NTI5ODMwLDY0NDAyNTY0LDE0Nz
-MyMTA0MDMsNDA2OTYyNDUxLC03MzI4NDYxNjYsMzc1NTczNzE3
-LC0xODkwOTExODA1LDk5MTI2NzIwMyw2Njg0NzI4OTIsLTE5Mz
-YwMTg5NjMsMTYzMzYzNTI5NSwxNzc3NTE1NTk4LDIxMzEyMzcw
-MzldfQ==
+eyJoaXN0b3J5IjpbMTcyMTY4ODg1OCw5ODQ1NTU2MzEsLTk4Nj
+k4NzI1NCwtMjA2MjAwMDYzMiwxMzM1MjE4OTYsMjI3NTIzOTc3
+LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLDE0MDk1Mjk4MzAsNj
+Q0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0NTEsLTczMjg0NjE2
+NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAzLDY2OD
+Q3Mjg5MiwtMTkzNjAxODk2MywxNjMzNjM1Mjk1LDE3Nzc1MTU1
+OThdfQ==
 -->
