@@ -30,7 +30,7 @@ TODO
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
 - Revisar y discutir diferencias entre acercamiento (memoria) y paper **202X**. Revisar también descripciones propuestas en este documento (más abajo).
-- Llegar a consenso junto a Juan y profesor acerca de lo que debiera ser calculado.
+- Llegar a consenso junto a Juan y profesor acerca de lo que debiera ser calculado.==Definir propuesta de **restricciones duras y blandas** basadas en las del documento y de los papers para conversar en próxima reunión.==
 - Proponer y desarrollar maneras de arreglar y optimizar los algoritmos actuales (implementados en `clpState_pc`). Revisar también comentarios relacionados en este documento.
 
 ### Juan Ávila
@@ -39,13 +39,28 @@ TODO
 
 - Revisar documento **202X** para entender bien las restricciones propuestas. 
 - Estudiar algoritmo propuesto para lidiar con múltiples contenedores (podríamos copiar la misma idea).
+- ==Revisar código con el objetivo de integrar el algoritmo==
 - Definir un formato de instancias que permita trabajar con instancias del paper. Comparar con nuestro formato. 
 - Implementar algoritmo para trabajar con múltiples contenedores.
 
 ### TODO
 
 - Describir criterio de selección de cajas para cada contenedor.
+Trabajar en pseudocódigo para multiple-CLP.
+- Comenzar a diseñar formato para instancias considerando las restricciones prácticas y múltiples contenedores. **Revisar si ya existe este formato en estado del arte.**
 
+
+Multiple CLP
+--
+````python
+def multiple_clp(C, TU):
+    for each c in customers:
+       if vol(boxes(c)) > available_volume...
+             ...
+             ...
+             clp_solver(boxes, TU_i)
+     return TUs
+````     
 
 
 Notas sobre las restricciones
@@ -96,6 +111,8 @@ Puedes ejecutarlo remotamente en el servidor.
 **Conexión al servidor:**
 ````
 ssh 158.251.88.197
+login: practica
+pass: ScHrOdL223
 ````
 
 
@@ -192,6 +209,6 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDE2NjE4MywtNjA2MTE1NDg4LDE2OD
-Y5MzE1MDYsNjExNjUyNDc5XX0=
+eyJoaXN0b3J5IjpbNDI0NzcwNDE3LC03MjAxNjYxODMsLTYwNj
+ExNTQ4OCwxNjg2OTMxNTA2LDYxMTY1MjQ3OV19
 -->
