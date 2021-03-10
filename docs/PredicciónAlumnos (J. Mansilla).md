@@ -7,7 +7,7 @@ Para tal fin, se hace deseable y necesario detectar a tiempo a aquellos alumnos 
 En este trabajo, analizaremos, con un modelo estadístico, la relación existente entre una serie de datos extraídos de una plataforma de programación virtual y las calificaciones obtenidas por los estudiantes  en las instancias de evaluación individuales. La herramienta CodeRunner permite realizar ejercicios de código y entrega retroalimentación inmediata a los estudiantes sobre errores de compilación y ejecución. En la escuela se utiliza hace algún tiempo en los ramos de Fundamentos de Programación (8 semestres) y Estructura de Datos (6 semestres).
 
 >  [tablita de resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0): atributos más importantes para cada modelo
-> [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv) ∙ [Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Documento](https://docs.google.com/document/d/1dUICocY5QTchHlduz-gUTFHLoHi2ZSNOctBCjjNcpDc/edit#) ∙ [Tabla resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0) ∙ [Entrevista](https://drive.google.com/file/d/1JTUxY0T8-jlIMr-DVqbL-TkDwSS2l_8x/view?usp=sharing) ∙ [Colab](https://colab.research.google.com/drive/1wxa3EcwF5qdCBR7LuuvRtR6zbvAmN9yW?usp=sharing) ∙ [Libro proyectos](http://innovaciondocente.ucv.cl/?thegem_pf_item=libro-de-proyectos-de-mejoramiento-innovacion-e-investigacion-de-la-docencia-universitaria-2018-2)
+> [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv) ∙ [Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Documento](https://docs.google.com/document/d/1dUICocY5QTchHlduz-gUTFHLoHi2ZSNOctBCjjNcpDc/edit#) ∙ [Tabla resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0) ∙ [Entrevista](https://drive.google.com/file/d/1JTUxY0T8-jlIMr-DVqbL-TkDwSS2l_8x/view?usp=sharing) ∙ [Colab](https://colab.research.google.com/drive/1wxa3EcwF5qdCBR7LuuvRtR6zbvAmN9yW?usp=sharingiKhAqXwgqj_9NRDyX9_DCG7_4415Urpy) ∙ [Libro proyectos](http://innovaciondocente.ucv.cl/?thegem_pf_item=libro-de-proyectos-de-mejoramiento-innovacion-e-investigacion-de-la-docencia-universitaria-2018-2)
 
 TODO (Juan)
 ---
@@ -29,16 +29,29 @@ TODO paper
 	- [ ] Recolección de datos
 	- [ ] Procedimiento para generar los modelos
 	- [ ] Resultados
-- [ ] Conclusiones
+- [ ] ConclusionesTratar de ejecutar código localmente usando **Jupyter Notebook**.
+- Seguir agregando cosas al paper.
+- Entender experimentos actuales en papel y en código.
+- Diseñar experimentos finales.
+- Resultados y Análisis.
 
-Experimentos
+
+
+Experimentos finales
 ---
 **Estrategia:** RandomSearchCV/GridSearch (AttributeSelector +FeatureElimination + Estimador).
 
 * Estimadores: SVR, RF, Lineal, ANN
 * Mejores características
 * Data (lab1, lab1-lab2, lab1-lab3, lab1-lab4)
-* $R^2$, $MSE$
+*Obtener mejores atributos
+* Buscar mejores hiper-parámetros usando usando GridSearch o RandomSearch
+* Data (lab1, lab1-lab2, lab1-lab3, lab1-lab4)
+	* Consolidados por lab
+	* Aplicar log a contadores (intentos, desconexiones)
+	* Normalizar por semestre (y no por columna completa)
+* Target: p1p2, np, prom
+* Métricas: $R^2$, $MSE$
 
 
 Ideas para mejorar predicción (preprocesamiento)
@@ -173,6 +186,6 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY5MTMxLDEzOTU1MTY2OTgsMTk0MT
-g2MDQ5MCw5MTI3MzI5NTNdfQ==
+eyJoaXN0b3J5IjpbNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NT
+E2Njk4LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
 -->
