@@ -1,7 +1,7 @@
 IbexMop3
 ==
 
-[Link]()
+[Link](https://github.com/InariCS/Research/tree/main/ibexmop3)
 
 ### TODO
 
@@ -51,7 +51,8 @@ La imagen izquierda sería un hiperplano *óptimo* pero difícil de calcular
 La imagen de la derecha serían hiperplanos más fáciles de calcular (proyección de puntos extremos de cada hiperplano factible con las caras de la caja)
 ![contracting with hyperplanes](https://docs.google.com/drawings/d/e/2PACX-1vSyFzHheVWKpZe6Y7YJJle5PJKqWzZxwrserwnCx2he6LsQj5QqYSb_e0WxMYRQSaM2b0Wvr4FOqSvC/pub?w=1320&h=547)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDA1Njc5NywtMTE4MTIzMjY2MiwxOD
-IxNDgzMTUsOTM5NjUxODM4LC0xMjE5ODE4NTc1LDIxMzc2NjQz
-ODcsMTAxOTQ5MDY1MCw4NDQ0OTY0MDcsLTk1NDE0MDUxNl19
+eyJoaXN0b3J5IjpbLTIzNjE5OTQ3MSwxNzk0MDU2Nzk3LC0xMT
+gxMjMyNjYyLDE4MjE0ODMxNSw5Mzk2NTE4MzgsLTEyMTk4MTg1
+NzUsMjEzNzY2NDM4NywxMDE5NDkwNjUwLDg0NDQ5NjQwNywtOT
+U0MTQwNTE2XX0=
 -->
