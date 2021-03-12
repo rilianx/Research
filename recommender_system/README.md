@@ -2,7 +2,7 @@
 Recommender system
 ==
 
-[Link github]()
+[Link github](https://github.com/AyrtonMeraC/Recommender_System)
 
 Resumen
 --
@@ -146,11 +146,11 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTk3NjU3MywtMzQ5MzI0MjkzLDMyNT
-E0MjcyOSwtMTMwODk1NDg2LDIwODAyNTA5NzUsMTIxMjc4ODM3
-MCwtMTg4NDU3MDA3OCw4ODI4OTMyNDAsLTE4Mzc2MzgyOTUsMT
-c2NTU4NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5
-NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MD
-YsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywx
-MTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbLTc1OTQyMzkyMiwxNjE5OTc2NTczLC0zND
+kzMjQyOTMsMzI1MTQyNzI5LC0xMzA4OTU0ODYsMjA4MDI1MDk3
+NSwxMjEyNzg4MzcwLC0xODg0NTcwMDc4LDg4Mjg5MzI0MCwtMT
+gzNzYzODI5NSwxNzY1NTg1MzUyLC03MjIzMTA4MzUsMjg2ODY5
+NzIwLC0xOTQ3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5Nj
+ksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0x
+NTU4NjA1NDIzXX0=
 -->
