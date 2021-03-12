@@ -12,7 +12,7 @@ Generalmente lo divido en párrafos:
 
 ![image](https://i.imgur.com/zpn4DKO.png)
 
-- Escriban el **background**, es decir todo aquello que necesitan para poder explicar la propuesta con claridad. Por ejemplo, en qué consiste el problema, como se realiza un búsqueda en árbol, detalles sobre las redes neuronales, etc. El detalle tiene que ser suficiente como para que alguien no muy experto del tema entienda. También tienen que referenciar los métodos y algoritmos existentes.
+- Escriban el **background**, es decir todo aquello que necesitan para poder explicar la propuesta con claridad. Por ejemplo, en qué consiste el problema, como se realiza una búsqueda en árbol, detalles sobre las redes neuronales, etc. El detalle tiene que ser suficiente como para que alguien no muy experto del tema entienda. También tienen que referenciar los métodos y algoritmos existentes.
 
 - Pueden continuar con la **descripción de la propuesta**. Esta debe ser escrita de manera detallada y rigurosa. Con pseudocódigos explicados y figuras si es necesario. A partir de esta descripción deberíamos ser capaces de implementarla.
 
@@ -21,6 +21,6 @@ Generalmente lo divido en párrafos:
 [Aquí](https://www.froihofer.net/en/students/how-to-write-a-computer-science-paper.html) más tips sobre escritura de artículos.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTcxMDA1NzUsMTAyNzE2MzA3LC0xMT
-M0NDI2MzU0XX0=
+eyJoaXN0b3J5IjpbLTExMTYwNjc4NzgsLTE0OTcxMDA1NzUsMT
+AyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
 -->
