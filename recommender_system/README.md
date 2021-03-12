@@ -6,7 +6,7 @@ Link
 
 Resumen
 --
-- Clusterización de películas por similitud en base a contenido (rankin)
+- Clusterización de películas por similitud en base a contenido (ranking, año, géneros, votos, director, actores principales)
 - 
 
 
@@ -146,10 +146,10 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjA1Njg3MCwtMTMwODk1NDg2LDIwOD
-AyNTA5NzUsMTIxMjc4ODM3MCwtMTg4NDU3MDA3OCw4ODI4OTMy
-NDAsLTE4Mzc2MzgyOTUsMTc2NTU4NTM1MiwtNzIyMzEwODM1LD
-I4Njg2OTcyMCwtMTk0NzI5NDQ1LC0xNTk1MjAzNzMwLC0xODIy
-MDMzOTY5LC01MjY2MzA5MDYsLTUyMTgwNTU1NCwtMTg0MTQ3Nj
-YyMCwtMTU1ODYwNTQyMywxMTgxMTM0NzY5XX0=
+eyJoaXN0b3J5IjpbMzI1MTQyNzI5LC0xMzA4OTU0ODYsMjA4MD
+I1MDk3NSwxMjEyNzg4MzcwLC0xODg0NTcwMDc4LDg4Mjg5MzI0
+MCwtMTgzNzYzODI5NSwxNzY1NTg1MzUyLC03MjIzMTA4MzUsMj
+g2ODY5NzIwLC0xOTQ3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIw
+MzM5NjksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2Nj
+IwLC0xNTU4NjA1NDIzLDExODExMzQ3NjldfQ==
 -->
