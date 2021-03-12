@@ -2,7 +2,7 @@
 Recommender system
 ==
 
-Link
+[Link github]()
 
 Resumen
 --
@@ -146,11 +146,11 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTMyNDI5MywzMjUxNDI3MjksLTEzMD
-g5NTQ4NiwyMDgwMjUwOTc1LDEyMTI3ODgzNzAsLTE4ODQ1NzAw
-NzgsODgyODkzMjQwLC0xODM3NjM4Mjk1LDE3NjU1ODUzNTIsLT
-cyMjMxMDgzNSwyODY4Njk3MjAsLTE5NDcyOTQ0NSwtMTU5NTIw
-MzczMCwtMTgyMjAzMzk2OSwtNTI2NjMwOTA2LC01MjE4MDU1NT
-QsLTE4NDE0NzY2MjAsLTE1NTg2MDU0MjMsMTE4MTEzNDc2OV19
-
+eyJoaXN0b3J5IjpbMTYxOTk3NjU3MywtMzQ5MzI0MjkzLDMyNT
+E0MjcyOSwtMTMwODk1NDg2LDIwODAyNTA5NzUsMTIxMjc4ODM3
+MCwtMTg4NDU3MDA3OCw4ODI4OTMyNDAsLTE4Mzc2MzgyOTUsMT
+c2NTU4NTM1MiwtNzIyMzEwODM1LDI4Njg2OTcyMCwtMTk0NzI5
+NDQ1LC0xNTk1MjAzNzMwLC0xODIyMDMzOTY5LC01MjY2MzA5MD
+YsLTUyMTgwNTU1NCwtMTg0MTQ3NjYyMCwtMTU1ODYwNTQyMywx
+MTgxMTM0NzY5XX0=
 -->
