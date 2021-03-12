@@ -3,6 +3,8 @@ Removing points from the non-dominated set
 ==
 [Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing)
 
+[Link github](https://github.com/rilianx/Research/tree/main/ibexmop_rp)
+
 ### TODO
 
 + Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
@@ -117,11 +119,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTY4ODg1OCw5ODQ1NTU2MzEsLTk4Nj
-k4NzI1NCwtMjA2MjAwMDYzMiwxMzM1MjE4OTYsMjI3NTIzOTc3
-LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLDE0MDk1Mjk4MzAsNj
-Q0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0NTEsLTczMjg0NjE2
-NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOTkxMjY3MjAzLDY2OD
-Q3Mjg5MiwtMTkzNjAxODk2MywxNjMzNjM1Mjk1LDE3Nzc1MTU1
-OThdfQ==
+eyJoaXN0b3J5IjpbLTE2NTgwNDIwMjgsMTcyMTY4ODg1OCw5OD
+Q1NTU2MzEsLTk4Njk4NzI1NCwtMjA2MjAwMDYzMiwxMzM1MjE4
+OTYsMjI3NTIzOTc3LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLD
+E0MDk1Mjk4MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0
+NTEsLTczMjg0NjE2NiwzNzU1NzM3MTcsLTE4OTA5MTE4MDUsOT
+kxMjY3MjAzLDY2ODQ3Mjg5MiwtMTkzNjAxODk2MywxNjMzNjM1
+Mjk1XX0=
 -->
