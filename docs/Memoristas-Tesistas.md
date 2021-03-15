@@ -14,6 +14,7 @@ Trabajo en objetivos y estado del arte
 	- Describir trabajos relacionados con un orden lógico
 	- Identificar problemas de otras propuestas
 	- Definir propuesta destacando sus contribuciones en relación a los otros trabajos presentados.
+- Trabajar en Marco Teórico o Background
 
 Revisión del estado del arte
 ---
@@ -33,6 +34,6 @@ Propongo realizar los siguientes pasos:
 6. Hacerse una idea general de lo que existe y comenzar a bosquejar los temas que se abordarán y papers que se citarán en el estado del arte.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzYzOTQyMywtMTcwNDU2ODYwOSwtOD
-AzMzg5OTA4XX0=
+eyJoaXN0b3J5IjpbLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMT
+cwNDU2ODYwOSwtODAzMzg5OTA4XX0=
 -->
