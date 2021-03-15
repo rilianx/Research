@@ -26,12 +26,13 @@ Propongo realizar los siguientes pasos:
 
 3. Leer a la rápida títulos y abstracts e ir guardando los links de los artículos que parecen tener relación con lo que andamos buscando. Adjuntar en título del artículo, año y cantidad de citas. (Sugiero usar planilla excel). En este paso es posible que nos demos cuenta que existen strings de búsqueda más adecuados por lo que habría que repetir la búsqueda. 
 
-4. Una vez seleccionados los artículos (al menos unos 20-50 dependiendo de la cantidad de estudios encontrados), leer con más detención el abstract/intro, e indicar, para cada uno de ellos, las ideas principales, si se trate de un review, o en qué consiste la propuesta. Adjuntar textos resumen en excel.
+4. Una vez seleccionados los artículos (al menos unos 10-20 dependiendo de la cantidad de estudios encontrados), leer con más detención el abstract/intro, e indicar, para cada uno de ellos, las ideas principales, si se trate de un review, o en qué consiste la propuesta. Adjuntar textos resumen en excel.
 
 5. Leer en mayor profundidad los papers más relevantes.
 
 6. Hacerse una idea general de lo que existe y comenzar a bosquejar los temas que se abordarán y papers que se citarán en el estado del arte.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ1Njg2MDksLTgwMzM4OTkwOF19
+eyJoaXN0b3J5IjpbLTY3NzYzOTQyMywtMTcwNDU2ODYwOSwtOD
+AzMzg5OTA4XX0=
 -->
