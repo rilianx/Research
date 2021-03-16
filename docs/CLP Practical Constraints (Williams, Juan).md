@@ -122,7 +122,7 @@ pass: ScHrOdL223
 mkdir clp_pc_williams
 cd clp_pc_williams
 git clone https://github.com/rilianx/Metasolver.git .
-git checkout -t origin/mop-bsg
+git checkout -t origin/practical_constraints
 ````
 
 **Compilación**
@@ -210,6 +210,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODkyNDE4MiwtNzIwMTY2MTgzLC02MD
-YxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0NzldfQ==
+eyJoaXN0b3J5IjpbLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNz
+IwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0
+NzldfQ==
 -->
