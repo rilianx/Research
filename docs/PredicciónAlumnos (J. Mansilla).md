@@ -23,7 +23,8 @@ TODO (Juan)
 
 - Aplicar RFE (Recursive Feature Elimination) + GridSearchCV para obtener los atributos relevantes de cada lab.
 
-- Aplicar los distintos modelos a los distintos conjuntos de datos (lab1
+- Aplicar los distintos modelos a los distintos conjuntos de datos (lab1,lab2,lab3,lab4, lab1-lab2, lab1-lab3, lab1-lab4) usando GridSearchCv (o RandomSearchCV) para considerar los mejores hiperparámetros de cada modelo. (SVR, RF, Lineal, ANN). Obtener R2 y MSE para reportar resultados.
+
 
 
 
@@ -177,7 +178,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUwMDQwNSwtMjIyMjE0NzIxLC0xMz
+eyJoaXN0b3J5IjpbLTY2NjkzNjI5MywtMjIyMjE0NzIxLC0xMz
 k0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4
 LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
 -->
