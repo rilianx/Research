@@ -14,12 +14,15 @@ TODO (Juan)
 **Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
 
 - Identificar todos los atributos seleccionados 
+
 ![image](https://i.imgur.com/mHBQJij.png)
 
 - Modificar normalización para normalizar por por columna+semestre (actualmente se normaliza toda la columna en conjunto). Dejar comentado para poder comparar en los experimentos
+
 ![image](https://i.imgur.com/MSX49Zn.png)
 
-- 
+- Aplicar RFE (Recursive Feature Elimination) + GridSearchCV para obtener los atributos relevantes de cada lab.
+
 
 
 
@@ -174,7 +177,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk4NzAxNDIsLTEzOTQzMzk4Miw2OD
-kyNDUzNDYsLTEyNTY5MTMxLDEzOTU1MTY2OTgsMTk0MTg2MDQ5
-MCw5MTI3MzI5NTNdfQ==
+eyJoaXN0b3J5IjpbLTIyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OT
+I0NTM0NiwtMTI1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYwNDkw
+LDkxMjczMjk1M119
 -->
