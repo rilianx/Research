@@ -12,6 +12,25 @@ def connect(host):
     ssh.connect(host, port, username, password)
     return ssh
 
+import matplotlib.pyplot as plt
+from PIL import Image as im 
+
+
+def show_dvh(dose_vectors):
+    dose_vectors[0][::-1].sort()
+    index0 = (np.arange(len(dose_vectors[0]))+1)/len(dose_vectors[0])
+    dose_vectors[1][::-1].sort()
+    index1 = (np.arange(len(dose_vectors[1]))+1)/len(dose_vectors[1])
+    dose_vectors[2][::-1].sort()
+    index2 = (np.arange(len(dose_vectors[2]))+1)/len(dose_vectors[2])
+    plt.xlabel('dosis')
+    plt.ylabel('proporción de voxels')
+    plt.plot(dose_vectors[0], index0, '-' , dose_vectors[1], index1, '-' ,dose_vectors[2], index2, '-')
+    plt.axvline(x=65, color='r', linestyle='--')
+    plt.axvline(x=76, color='r', linestyle='--')
+    plt.legend(['organ1', 'organ2', 'tumor'], loc='best')
+    plt.show()
+
 import ast 
 import copy
 class imrt:
