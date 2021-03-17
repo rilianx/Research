@@ -15,8 +15,10 @@ TODO (Juan)
 
 - Identificar todos los atributos seleccionados 
 ![image](https://i.imgur.com/mHBQJij.png)
+
 - Modificar normalización para normalizar por por columna+semestre (actualmente se normaliza toda la columna en conjunto). Dejar comentado para poder comparar en los experimentos
 ![image](https://i.imgur.com/MSX49Zn.png)
+
 - 
 
 
@@ -172,7 +174,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQzMzk4Miw2ODkyNDUzNDYsLTEyNT
-Y5MTMxLDEzOTU1MTY2OTgsMTk0MTg2MDQ5MCw5MTI3MzI5NTNd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNTk4NzAxNDIsLTEzOTQzMzk4Miw2OD
+kyNDUzNDYsLTEyNTY5MTMxLDEzOTU1MTY2OTgsMTk0MTg2MDQ5
+MCw5MTI3MzI5NTNdfQ==
 -->
