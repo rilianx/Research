@@ -13,27 +13,20 @@ TODO (Juan)
 ---
 **Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
 
-- Leer trabajo para entender el problema y la propuesta. ([Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv))
-- Pedir ayuda a Katrina y Victor para entender los códigos de los modelos y experimentos.
-- Revisar experimentos y resultados actuales.
-- Diseñar experimentos finales.
-- Resultados y Análisis.
+- Identificar todos los atributos seleccionados 
 
+![image](https://i.imgur.com/mHBQJij.png)
 
-TODO paper
---
-- [ ] Abstract
-- [ ] Intro (falta redactar mejor las contribuciones)
-- [ ] Considered predictor variable. Explicar herramienta (code::runner), los datos que se pueden extraer y los indicadores que se consideraron divididos en secciones (los basados en otros trabajos y los propuestos)
-- [ ] Experimentos
-	- [ ] Recolección de datos
-	- [ ] Procedimiento para generar los modelos
-	- [ ] Resultados
-- [ ] ConclusionesTratar de ejecutar código localmente usando **Jupyter Notebook**.
-- Seguir agregando cosas al paper.
-- Entender experimentos actuales en papel y en código.
-- Diseñar experimentos finales.
-- Resultados y Análisis.
+- Modificar normalización para normalizar por por columna+semestre (actualmente se normaliza toda la columna en conjunto). Dejar comentado para poder comparar en los experimentos
+
+![image](https://i.imgur.com/MSX49Zn.png)
+
+- Aplicar RFE (Recursive Feature Elimination) + GridSearchCV para obtener los atributos relevantes de cada lab.
+
+- Aplicar los distintos modelos a los distintos conjuntos de datos (lab1,lab2,lab3,lab4, lab1-lab2, lab1-lab3, lab1-lab4) usando GridSearchCv (o RandomSearchCV) para considerar los mejores hiperparámetros de cada modelo. (SVR, RF, Lineal, ANN). Obtener R2 y MSE para reportar resultados.
+
+- Usar distintos target. Actual: mean(p$p2). Faltaría considerar np (promedio pruebas)
+
 
 
 
@@ -186,6 +179,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NT
-E2Njk4LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
+eyJoaXN0b3J5IjpbMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC0xMz
+k0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4
+LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
 -->
