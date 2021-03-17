@@ -1,7 +1,8 @@
 MOP Explorer
 ==
 > [TODO](https://docs.google.com/document/d/177XZFPXJYG7MEU--YZT8tfaSQeFfg0WoROwZz-OhjIc/edit) 
-> Paper: [On continuation methods](https://drive.google.com/file/d/0B9JSHx01XN1rTWJSRGEtRU9VOFE/view)... [Resumen-Análisis](https://stackedit.io/app#providerId=googleDrive&state=%7B%22ids%22:%5B%221H4AH2GGK0xA39AnJsDP9Wk1o1R4xD614%22%5D,%22action%22:%22open%22,%22userId%22:%22102610549431282508675%22%7D)
+> Paper [On continuation methods](https://drive.google.com/file/d/0B9JSHx01XN1rTWJSRGEtRU9VOFE/view)... [Resumen-Análisis](https://stackedit.io/app#providerId=googleDrive&state=%7B%22ids%22:%5B%221H4AH2GGK0xA39AnJsDP9Wk1o1R4xD614%22%5D,%22action%22:%22open%22,%22userId%22:%22102610549431282508675%22%7D)
+> [Nonlinear biobjective optimization: improvements to interval branch & bound algorithms](https://link.springer.com/article/10.1007/s10898-019-00768-z)
 
 
 Actualmente se tiene un solver que:
@@ -47,5 +48,5 @@ Otra Alternativa
 
 Usara **AbsTaylor** para navegar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzk3MDkxNF19
+eyJoaXN0b3J5IjpbOTQzNDUyNzIyLC02MDc5NzA5MTRdfQ==
 -->
