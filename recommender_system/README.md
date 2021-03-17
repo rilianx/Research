@@ -2,6 +2,14 @@
 Recommender system
 ==
 
+[Link github](https://github.com/AyrtonMeraC/Recommender_System)
+
+Resumen
+--
+- Clusterización de películas por similitud en base a contenido (ranking, año, géneros, votos, director, actores principales)
+- Modelo de aprendizaje para predecir ranking
+
+
 TODO
 ---
 
@@ -138,10 +146,11 @@ Mejora
 1. Generar árboles de decisión que agrupen películas fuente con alta pureza. Basarse en atributos genéricos (año, director, guionista, país, géneros, actores principales)
 2. Generar *listas auxiliares* con grupos obtenidos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg5NTQ4NiwyMDgwMjUwOTc1LDEyMT
-I3ODgzNzAsLTE4ODQ1NzAwNzgsODgyODkzMjQwLC0xODM3NjM4
-Mjk1LDE3NjU1ODUzNTIsLTcyMjMxMDgzNSwyODY4Njk3MjAsLT
-E5NDcyOTQ0NSwtMTU5NTIwMzczMCwtMTgyMjAzMzk2OSwtNTI2
-NjMwOTA2LC01MjE4MDU1NTQsLTE4NDE0NzY2MjAsLTE1NTg2MD
-U0MjMsMTE4MTEzNDc2OV19
+eyJoaXN0b3J5IjpbLTc1OTQyMzkyMiwxNjE5OTc2NTczLC0zND
+kzMjQyOTMsMzI1MTQyNzI5LC0xMzA4OTU0ODYsMjA4MDI1MDk3
+NSwxMjEyNzg4MzcwLC0xODg0NTcwMDc4LDg4Mjg5MzI0MCwtMT
+gzNzYzODI5NSwxNzY1NTg1MzUyLC03MjIzMTA4MzUsMjg2ODY5
+NzIwLC0xOTQ3Mjk0NDUsLTE1OTUyMDM3MzAsLTE4MjIwMzM5Nj
+ksLTUyNjYzMDkwNiwtNTIxODA1NTU0LC0xODQxNDc2NjIwLC0x
+NTU4NjA1NDIzXX0=
 -->

@@ -1,0 +1,48 @@
+Algoritmo MILP 
+
+D = number of deliveries 
+d = index of deliverie
+Ad = set of binds of d
+t = index of TU
+
+MLP{
+	d = delivery = 1
+	t = 1
+	R = inicialize_unallocated_binds(Ad)
+
+	loop 1 Grouping/Ungrouping Binds 
+	Do
+		B = null // set of bins to be loaded in t
+
+		V,W = Initialize_remaining_volume_and_weight_of_TU(t) 
+		
+
+			loop 2 
+			Do
+				Compute overall volume an weight of unallocated binds
+				RW = weight_bins(R)
+				RV = volume_bins(R)
+
+				if (RW <= W and RV <= V)
+					Update_remaining_volume_and_weight_of_TU(t,RW,RV) // 
+					B = binds_to_be_loaded(B,R)  
+						
+				deliverie d+1
+				R = Ad  //unallocated binds of the delivery d +1
+ 			while (d <= D)
+
+
+ 			if (RW > W and RV > V)
+				R' = extract_binds_of_R(R) // with RV < V and RW < W
+				R'' = R_left_out(R,R') 
+				B = binds_to_be_loaded(B,R')
+
+			sol = Solve_CLP(B)
+			St = set_of_allocated_binds(B)
+			R = binds_unallocated(R'',[B / St])// unallocated binds of the deliverie 
+
+		t= t+1 
+	while (R == null)
+	
+	return  sol, t, st // all the necessary data data 
+}

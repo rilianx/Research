@@ -8,17 +8,26 @@ Acceso al código: **VisualStudio -> ctrl+R -- imrt-bao**
 Usando como base el solver `DAO_ILS`, la idea es crear un algoritmo que permita encontrar los mejores ángulos para realizar el tratamiento.
 
 
+
+
 IMRT (TODO)
 ---
 - **Nelder Mead**
-	- Eliminar ángulos repetidos de x
-	- Ajustar al más cercano
-	- Límite por iteraciones de búsqueda local (1.000.000).
-- **Gráfico convergencia** (mejor_evaluación vs. iteraciones).
-- Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
-* Implementar algoritmo **bayesian optimization**
+	- Diccionario para mapear bac a la evaluación correspondiente. Para evitar llamar al solver con ángulos repetidos.
+	- Loop que aplique nelder_mead iterativamente (hasta límite de iteraciones internas del solver).
+	- Comparar resultados con los otros métodos (boxplots, convergencia)
+   - Entender en más detalle en qué consiste el Nelder Mead para explicarlo el próximo viernes
+- Última semana: Implementar algoritmo **bayesian optimization**
 
----
+````python
+while iter < 1000000:
+   intern_iter = 0
+   nelder_mead(fobj,xini=random(),iter=1000) #fobj modifica intern_iter
+   iter += intern_iter
+````
+
+
+### Future work
 
 * Diseñar técnica sofisticada que *decida* de manera adaptativa la cantidad de iteraciones a realizar cada vez que se realiza una búsqueda local. El objetivo es llegar a buenas soluciones con una cantidad *más reducida* de iteraciones. Una idea más abajo:
 
@@ -27,10 +36,6 @@ IMRT (TODO)
 - Aplicar HC o SA para encontrar soluciones candidatas
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
-Objetivos
---
-1. Estudiar estado del arte sobre BAO, hacer resúmenes.
-2. Diseñar e implementar algoritmo en Python.
 
 ¿Qué es IMRT BAO?
 ---
@@ -115,11 +120,11 @@ Al seleccionar una pequeña porción de voxels *representativos*, considerar la 
 - Explotar soluciones candidatas (e.g., 10000 iteraciones)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE5MjIxOSwtNDU2MTY3OTYxLC0xNT
-YxNjg1NjkxLDE5NTYwNjAwNjUsLTExODAwMzgwNjAsLTQ1NzUz
-MzY4MCwtODU0Nzg2OTI2LDE1ODQzMzUzMjMsMTgzMTg3MDIxMC
-wxMzUzNjg3MTg4LC0yMDI3MzE3OTQ4LC0yMDEwMzgwMTcwLDg3
-MTQzNjU0MSwtMjA2NzQwMjM5MCw2MzAyNjA5MDMsMTE4NjQxMT
-U1MSwtMjAwNjM1OTcwOCwtNjIyODcyMDg2LDUxNjAyNjA2OV19
-
+eyJoaXN0b3J5IjpbMTM2MDQyODAyNSwtMTkyMzI3MTQ0LDE4Mz
+U5OTM3MzksLTUwNzIyOTY5OCwtMjA5MTkyMjE5LC00NTYxNjc5
+NjEsLTE1NjE2ODU2OTEsMTk1NjA2MDA2NSwtMTE4MDAzODA2MC
+wtNDU3NTMzNjgwLC04NTQ3ODY5MjYsMTU4NDMzNTMyMywxODMx
+ODcwMjEwLDEzNTM2ODcxODgsLTIwMjczMTc5NDgsLTIwMTAzOD
+AxNzAsODcxNDM2NTQxLC0yMDY3NDAyMzkwLDYzMDI2MDkwMywx
+MTg2NDExNTUxXX0=
 -->

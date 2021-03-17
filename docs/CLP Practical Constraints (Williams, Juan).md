@@ -31,6 +31,7 @@ TODO
 
 - Revisar y discutir diferencias entre acercamiento (memoria) y paper **202X**. Revisar también descripciones propuestas en este documento (más abajo).
 - Llegar a consenso junto a Juan y profesor acerca de lo que debiera ser calculado.
+- **Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.**
 - Proponer y desarrollar maneras de arreglar y optimizar los algoritmos actuales (implementados en `clpState_pc`). Revisar también comentarios relacionados en este documento.
 
 ### Juan Ávila
@@ -39,9 +40,28 @@ TODO
 
 - Revisar documento **202X** para entender bien las restricciones propuestas. 
 - Estudiar algoritmo propuesto para lidiar con múltiples contenedores (podríamos copiar la misma idea).
+- **Revisar código con el objetivo de integrar el algoritmo**
 - Definir un formato de instancias que permita trabajar con instancias del paper. Comparar con nuestro formato. 
 - Implementar algoritmo para trabajar con múltiples contenedores.
 
+### TODO
+
+- Describir criterio de selección de cajas para cada contenedor.
+Trabajar en pseudocódigo para multiple-CLP.
+- Comenzar a diseñar formato para instancias considerando las restricciones prácticas y múltiples contenedores. **Revisar si ya existe este formato en estado del arte.**
+
+
+Multiple CLP
+--
+````python
+def multiple_clp(C, TU):
+    for each c in customers:
+       if vol(boxes(c)) > available_volume...
+             ...
+             ...
+             clp_solver(boxes, TU_i)
+     return TUs
+````     
 
 
 Notas sobre las restricciones
@@ -92,6 +112,8 @@ Puedes ejecutarlo remotamente en el servidor.
 **Conexión al servidor:**
 ````
 ssh 158.251.88.197
+login: practica
+pass: ScHrOdL223
 ````
 
 
@@ -100,7 +122,7 @@ ssh 158.251.88.197
 mkdir clp_pc_williams
 cd clp_pc_williams
 git clone https://github.com/rilianx/Metasolver.git .
-git checkout -t origin/mop-bsg
+git checkout -t origin/practical_constraints
 ````
 
 **Compilación**
@@ -188,5 +210,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjExNTQ4OCw2MTE2NTI0NzldfQ==
+eyJoaXN0b3J5IjpbLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNz
+IwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0
+NzldfQ==
 -->

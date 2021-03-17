@@ -16,21 +16,9 @@ Actualmente tenemos 3 variantes:
 
 **TODO**
 
-- [ ] Terminar la tabla
-- [ ] Análisis de resultados
-- [ ] Identificar cosas raras y documentarlas
-- [ ] **Destacar resultados interesantes**
-	- [ ] ¿En qué instancias IpOPT da buenos resultados?
-	- [ ] ¿En qué instancias no da tan buenos resultados?
-	- [ ] Revisar que los tiempos tengan sentido
-- [ ] Script que mate procesos que consumen más de cierto tiempo o %memoria
-
-Mecanismo:
-- [ ] Seguir diseñando mecanismo para seleccionar cuándo aplicar Ipopt (T>1).
-- [ ] ¿Qué atributos del nodo influyen en la efectividad de IpOpt?
-- [ ] Tiempo ipopt
-
-
+- Avanzar con mecanismo para decidir cuando aplicamos IpOPT.
+- Mostrar la tablita
+- Script que mate procesos que consumen más de cierto tiempo o memoria.
 
 ---
 **Mecanismo para decidir cuando aplicar Ipopt**
@@ -90,5 +78,5 @@ def upper_bounding(box x, loup):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODcwMzU4ODhdfQ==
+eyJoaXN0b3J5IjpbLTk4MjI1ODMzNCwtMTM4NzAzNTg4OF19
 -->
