@@ -41,16 +41,18 @@ Para atributos que consisten en listas de categorías (e.g., lista de géneros, 
 $d(a_i^{m_1},a_i^{m_2}) =\frac{|a_i^{m_1} \cap a_i^{m_2}|}{|a_i^{m_1} \cup a_i^{m_2}|}$,
 es decir, la cardinalidad de la intersección de categorías dividida por la cardinalidad de la unión de ellas. Por ejemplo si la película $m_1$ tiene los géneros de {terror, acción} y la película $m_2$ cuenta con los géneros de {terror, romance y comedia}, entonces la distancia entre ellas será: $1/4=0.25$
 
-**Función para evaluar recomendación (utilidad)**
+**Función para evaluar recomendación (utilidad) en base al vector de pesos**
 
 N listas
 
 1. Toma un lista L
 2. Selecciona una película al azar P
-3. Se obtienen 10 recomendaciones para P (R)
+3. Se obtienen 10 recomendaciones para P ( R )
 4. Se cuentan los aciertos.
 
 Retornar promedio de aciertos por lista.
+
+**Ajustar valores de los pesos**
 
 
 -----
@@ -82,6 +84,6 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ1NjQ3MSwyMjU2OTQxMTgsLTE4Nj
+eyJoaXN0b3J5IjpbLTE2NTk4OTAzNSwyMjU2OTQxMTgsLTE4Nj
 AxMDE4MDNdfQ==
 -->
