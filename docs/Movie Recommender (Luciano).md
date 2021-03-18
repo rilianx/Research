@@ -32,14 +32,15 @@ TODO
 **Función de similitud**
 Suma ponderada de distancia entre atributos.
 
-$s(m_1,m_2)= 1- \frac{\sum\limits_{i=1}^n w_i * d(a_i^{m_1},a_i^{m_2})}{\sum\limits_{i=1}^n w_i}$
+<img src="https://render.githubusercontent.com/render/math?math=s(m_1,m_2)= 1- \frac{\sum\limits_{i=1}^n w_i * d(a_i^{m_1},a_i^{m_2})}{\sum\limits_{i=1}^n w_i}">
 
 Distancia entre atributos numéricos (e.g., año, votos, rating):
-$d(a_i^{m_1},a_i^{m_2}) =\frac{|a_i^{m_1}-a_i^{m_2}|}{\max a_i - \min a_i}$
+<img src="https://render.githubusercontent.com/render/math?math=d(a_i^{m_1},a_i^{m_2}) =\frac{|a_i^{m_1}-a_i^{m_2}|}{\max a_i - \min a_i}">
 
 Para atributos que consisten en listas de categorías (e.g., lista de géneros, lista de actores, lista de directores), la distancia se puede calcular:
-$d(a_i^{m_1},a_i^{m_2}) =\frac{|a_i^{m_1} \cap a_i^{m_2}|}{|a_i^{m_1} \cup a_i^{m_2}|}$,
-es decir, la cardinalidad de la intersección de categorías dividida por la cardinalidad de la unión de ellas. Por ejemplo si la película $m_1$ tiene los géneros de {terror, acción} y la película $m_2$ cuenta con los géneros de {terror, romance y comedia}, entonces la distancia entre ellas será: $1/4=0.25$
+<img src="https://render.githubusercontent.com/render/math?math=d(a_i^{m_1},a_i^{m_2}) =\frac{|a_i^{m_1} \cap a_i^{m_2}|}{|a_i^{m_1} \cup a_i^{m_2}|}">,
+
+es decir, la cardinalidad de la intersección de categorías dividida por la cardinalidad de la unión de ellas. Por ejemplo si la película $m_1$ tiene los géneros de {terror, acción} y la película $m_2$ cuenta con los géneros de {terror, romance y comedia}, entonces la distancia entre ellas será: $1/4=0.25
 
 **Función para evaluar utilidad en base al vector de pesos**
 
@@ -101,6 +102,6 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDAyOTcyMTAsLTE2NTk4OTAzNSwyMj
+eyJoaXN0b3J5IjpbLTIwNjA5MDEwNjMsLTE2NTk4OTAzNSwyMj
 U2OTQxMTgsLTE4NjAxMDE4MDNdfQ==
 -->
