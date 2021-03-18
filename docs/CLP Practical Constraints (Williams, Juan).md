@@ -29,9 +29,11 @@ TODO
 
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
-- Revisar y discutir diferencias entre acercamiento (memoria) y paper **202X**. Revisar también descripciones propuestas en este documento (más abajo).
-- Llegar a consenso junto a Juan y profesor acerca de lo que debiera ser calculado.
 - **Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.**
+- Definir en que partes del algoritmo deberían ser usado/calculado el cumplimiento de las restricciones. Y de qué manera:
+	- Función de evaluación para Greedy par evaluar acciones
+	- Al evaluar un estado
+	- Al constru
 - Proponer y desarrollar maneras de arreglar y optimizar los algoritmos actuales (implementados en `clpState_pc`). Revisar también comentarios relacionados en este documento.
 
 ### Juan Ávila
@@ -210,7 +212,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNz
-IwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0
-NzldfQ==
+eyJoaXN0b3J5IjpbMTQ4MTE2MjAwNiwtMTQyMzAzNDk2NSwxNz
+Y4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMx
+NTA2LDYxMTY1MjQ3OV19
 -->
