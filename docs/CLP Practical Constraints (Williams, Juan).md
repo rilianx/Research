@@ -31,7 +31,7 @@ TODO
 
 - **Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.**
 - Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.
-	- Función de evaluación para Greedy par evaluar acciones
+	- Función de evaluación para Greedy par evaluar bloques
 	- Al evaluar un estado
 	- Al construir los bloques
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
@@ -210,7 +210,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNz
-Y4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMx
-NTA2LDYxMTY1MjQ3OV19
+eyJoaXN0b3J5IjpbLTMzNzg4ODk5NiwyMDY2NDUwNTc2LC0xND
+IzMDM0OTY1LDE3Njg5MjQxODIsLTcyMDE2NjE4MywtNjA2MTE1
+NDg4LDE2ODY5MzE1MDYsNjExNjUyNDc5XX0=
 -->
