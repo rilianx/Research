@@ -32,7 +32,7 @@ TODO
 **Función de similitud**
 Suma ponderada de distancia entre atributos.
 
-<img src="https://render.githubusercontent.com/render/math?math=(m_1,m_2)= 1- \frac{\sum\limits_{i=1}^n w_i * d(a_i^{m_1},a_i^{m_2})}{\sum\limits_{i=1}^n w_i}">
+<img src="https://render.githubusercontent.com/render/math?math=s(m_1,m_2)= 1- \frac{\sum_{i=1}^n w_i * d(a_i^{m_1},a_i^{m_2})}{\sum_{i=1}^n w_i}">
 
 Distancia entre atributos numéricos (e.g., año, votos, rating):
 
@@ -104,6 +104,6 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjUxOTEwMCwtMTY1OTg5MDM1LDIyNT
+eyJoaXN0b3J5IjpbMTg5MzE3MjIzMywtMTY1OTg5MDM1LDIyNT
 Y5NDExOCwtMTg2MDEwMTgwM119
 -->
