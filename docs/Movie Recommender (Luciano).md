@@ -47,8 +47,10 @@ N listas
 
 1. Toma un lista L
 2. Selecciona una película al azar P
-3. Se obtiene una recomendación para P (R)
-4. Si R pertenece a L
+3. Se obtienen 10 recomendaciones para P (R)
+4. Se cuentan los aciertos.
+
+Retornar promedio de aciertos por lista.
 
 
 -----
@@ -80,6 +82,6 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDU3MjkzNywyMjU2OTQxMTgsLTE4Nj
+eyJoaXN0b3J5IjpbLTE2NzQ1NjQ3MSwyMjU2OTQxMTgsLTE4Nj
 AxMDE4MDNdfQ==
 -->
