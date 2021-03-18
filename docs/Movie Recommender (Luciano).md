@@ -54,6 +54,23 @@ Retornar promedio de aciertos por lista.
 
 **Ajustar valores de los pesos**
 
+````python
+def hill-climbing(initial_weights):
+   v = initial_weights
+   best_quality = eval_utility(v)
+   no_improvements = 0
+   while no_improvements<50:
+      i = random_parameter(v)
+      old_value = v[i]
+      v[i] = random_value (v[i])
+      quality = eval_heuristic(v)
+      if quality > best_quality:
+         best_quality = quality
+         no_improvements = 0
+      else:
+         v[i]= old_value
+         no_improvements += 1
+````
 
 -----
 
@@ -84,6 +101,6 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjcwODI4NywtMTY1OTg5MDM1LDIyNT
+eyJoaXN0b3J5IjpbLTgwOTQyNzIwMSwtMTY1OTg5MDM1LDIyNT
 Y5NDExOCwtMTg2MDEwMTgwM119
 -->
