@@ -34,16 +34,14 @@ TODO
 	- Función de evaluación para Greedy par evaluar acciones
 	- Al evaluar un estado
 	- Al construir los bloques
-- En base a los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
+- Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
 ### Juan Ávila
 
 **Objetivo:** Proponer un formato adecuado para las instancias e implementar un algoritmo para trabajar con múltiples contenedores.
 
-- Revisar documento **202X** para entender bien las restricciones propuestas. 
-- Estudiar algoritmo propuesto para lidiar con múltiples contenedores (podríamos copiar la misma idea).
-- **Revisar código con el objetivo de integrar el algoritmo**
-- Definir un formato de instancias que permita trabajar con instancias del paper. Comparar con nuestro formato. 
+- Integrar algoritmo para múltiples contenedores que se basa en particionamiento de cajas previo.
+- Diseñar formato de instancias que permita trabajr con MCLP . 
 - Implementar algoritmo para trabajar con múltiples contenedores.
 
 ### TODO
@@ -212,7 +210,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTEwNDc4OCwtMTQyMzAzNDk2NSwxNz
+eyJoaXN0b3J5IjpbMTk5NDE2MDg4NCwtMTQyMzAzNDk2NSwxNz
 Y4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMx
 NTA2LDYxMTY1MjQ3OV19
 -->
