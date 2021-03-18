@@ -50,22 +50,22 @@ N listas
 3. Se obtienen 10 recomendaciones para P ( R )
 4. Se cuentan los aciertos.
 
-Retornar promedio de aciertos por lista.
+Retornar promedio de aciertos (hits) por lista.
 
-**Ajustar valores de los pesos**
+**Ajustar valores de los pesos **
 
 ````python
 def hill-climbing(initial_weights):
    v = initial_weights
-   best_quality = eval_utility(v)
+   max_hits = eval_utility(v)
    no_improvements = 0
    while no_improvements<50:
       i = random_parameter(v)
       old_value = v[i]
       v[i] = random_value (v[i])
-      quality = eval_heuristic(v)
-      if quality > best_quality:
-         best_quality = quality
+      hits = eval_utility(v)
+      if hits > max_hits :
+         max_hits = hits
          no_improvements = 0
       else:
          v[i]= old_value
@@ -101,6 +101,6 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTQyNzIwMSwtMTY1OTg5MDM1LDIyNT
-Y5NDExOCwtMTg2MDEwMTgwM119
+eyJoaXN0b3J5IjpbLTE1MDAyOTcyMTAsLTE2NTk4OTAzNSwyMj
+U2OTQxMTgsLTE4NjAxMDE4MDNdfQ==
 -->
