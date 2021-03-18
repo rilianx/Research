@@ -41,8 +41,8 @@ TODO
 **Objetivo:** Proponer un formato adecuado para las instancias e implementar un algoritmo para trabajar con múltiples contenedores.
 
 - Integrar algoritmo para múltiples contenedores que se basa en particionamiento de cajas previo.
-- Diseñar formato de instancias que permita trabajr con MCLP . 
-- Implementar algoritmo para trabajar con múltiples contenedores.
+- Diseñar formato de instancias que permita trabajar con MCLP y restricciones prácticas. 
+- Diseñar generador de instancias para problema MCLP con restricciones prácticas.
 
 ### TODO
 
@@ -210,7 +210,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDE2MDg4NCwtMTQyMzAzNDk2NSwxNz
+eyJoaXN0b3J5IjpbMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNz
 Y4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMx
 NTA2LDYxMTY1MjQ3OV19
 -->
