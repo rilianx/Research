@@ -29,20 +29,20 @@ TODO
 
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
-- Revisar y discutir diferencias entre acercamiento (memoria) y paper **202X**. Revisar también descripciones propuestas en este documento (más abajo).
-- Llegar a consenso junto a Juan y profesor acerca de lo que debiera ser calculado.
 - **Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.**
-- Proponer y desarrollar maneras de arreglar y optimizar los algoritmos actuales (implementados en `clpState_pc`). Revisar también comentarios relacionados en este documento.
+- Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.
+	- Función de evaluación para Greedy par evaluar bloques
+	- Al evaluar un estado
+	- Al construir los bloques
+- Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
 ### Juan Ávila
 
 **Objetivo:** Proponer un formato adecuado para las instancias e implementar un algoritmo para trabajar con múltiples contenedores.
 
-- Revisar documento **202X** para entender bien las restricciones propuestas. 
-- Estudiar algoritmo propuesto para lidiar con múltiples contenedores (podríamos copiar la misma idea).
-- **Revisar código con el objetivo de integrar el algoritmo**
-- Definir un formato de instancias que permita trabajar con instancias del paper. Comparar con nuestro formato. 
-- Implementar algoritmo para trabajar con múltiples contenedores.
+- Integrar algoritmo para múltiples contenedores que se basa en particionamiento de cajas previo.
+- Diseñar formato de instancias que permita trabajar con MCLP y restricciones prácticas. 
+- Diseñar generador de instancias para problema MCLP con restricciones prácticas.
 
 ### TODO
 
@@ -210,7 +210,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNz
-IwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0
-NzldfQ==
+eyJoaXN0b3J5IjpbLTMzNzg4ODk5NiwyMDY2NDUwNTc2LC0xND
+IzMDM0OTY1LDE3Njg5MjQxODIsLTcyMDE2NjE4MywtNjA2MTE1
+NDg4LDE2ODY5MzE1MDYsNjExNjUyNDc5XX0=
 -->
