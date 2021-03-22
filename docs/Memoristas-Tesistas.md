@@ -60,9 +60,17 @@ TODO
 
 ### Byron y Jaime
 
-- Contexto de interpretación 
+- Contexto de interpretación de flauta traversa
 - Obtención de datos a partir de sensores
 - Preprocesamiento de datos y sincronización
+
+Objetivo general: identificar nivel del intérprete en base a los datos.
+
+**Marco Teórico:**
+
+Interpretación Musical
+
+
 
 
 
@@ -77,7 +85,7 @@ TODO
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjYxNTAxNSwxNjYzNTczMTAwLC0xMz
-QwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1
-Njg2MDksLTgwMzM4OTkwOF19
+eyJoaXN0b3J5IjpbLTE4OTYxNTg5NTAsMTY2MzU3MzEwMCwtMT
+M0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0
+NTY4NjA5LC04MDMzODk5MDhdfQ==
 -->
