@@ -85,7 +85,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 Crear planes de comida para pacientes patológicos.
 Input: Patología (diabetes), peso, restricciones de comida, tratamiento que sigue, etc...
 
-
+Optimizar nutrientes -> maximizar contenido nutricional.
 
 A partir de minutas de base.
 
@@ -99,7 +99,7 @@ A partir de minutas de base.
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNjAzNTQxLC0xMjAzNzI3NjgwLDE2Nj
+eyJoaXN0b3J5IjpbNzI4ODQ2MTk5LC0xMjAzNzI3NjgwLDE2Nj
 M1NzMxMDAsLTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYz
 OTQyMywtMTcwNDU2ODYwOSwtODAzMzg5OTA4XX0=
 -->
