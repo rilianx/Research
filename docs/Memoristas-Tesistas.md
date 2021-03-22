@@ -33,7 +33,26 @@ Propongo realizar los siguientes pasos:
 
 6. Hacerse una idea general de lo que existe y comenzar a bosquejar los temas que se abordarán y papers que se citarán en el estado del arte.
 
+TODO
+--
+
+### Juan y Sebastián: [ToDo App](https://docs.google.com/file/d/1yQS1kjmL7xa3prQmHJI0EGcXyQ60qM1p/edit)
+
+### Ayrton y Bruno Díaz
+ Tratar de adivinar lo que está haciendo el usuario (e.g., ) en base a sensores de smartphone incluyendo a audio.
+
+### Byron y Jaime
+Patrones flauta traversa
+
+### Katrina y Victor
+
+
+### Jorge Pacheco y Sebastián Baeza
+
+[DQN para juegos](https://docs.google.com/file/d/1VyM1QcedEZQqNSohkIH0HbFuqnCVkHXE/edit)
+
+- **José García:** Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMT
-cwNDU2ODYwOSwtODAzMzg5OTA4XX0=
+eyJoaXN0b3J5IjpbLTE3OTUyMDIyNTMsLTEzODIzODU4MTgsLT
+Y3NzYzOTQyMywtMTcwNDU2ODYwOSwtODAzMzg5OTA4XX0=
 -->
