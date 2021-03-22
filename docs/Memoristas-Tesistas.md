@@ -39,12 +39,15 @@ TODO
 ### Juan y Sebastián: 
 
 [ToDo App](https://docs.google.com/file/d/1yQS1kjmL7xa3prQmHJI0EGcXyQ60qM1p/edit)
-
-Tablita Excel con papers/app.
+DO
+- Tablita Excel con papers. Mindfulness, papers.
+- TODO: Buscar aplicaciones.
 
 
 ### Ayrton y Bruno Díaz
  Tratar de adivinar lo que está haciendo el usuario (e.g., ) en base a sensores de smartphone incluyendo a audio.
+
+
 
 ### Byron y Jaime
 Patrones flauta traversa
@@ -59,6 +62,7 @@ Patrones flauta traversa
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLT
-Y3NzYzOTQyMywtMTcwNDU2ODYwOSwtODAzMzg5OTA4XX0=
+eyJoaXN0b3J5IjpbLTU1NzI1OTExMSwtMTM0MDk5Mzg4NCwtMT
+M4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMz
+ODk5MDhdfQ==
 -->
