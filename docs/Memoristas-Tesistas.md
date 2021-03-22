@@ -60,7 +60,10 @@ TODO
 
 ### Byron y Jaime
 
-Patrones flauta traversa
+- Contexto de interpretación 
+- Obtención de datos a partir de sensores
+- Preprocesamiento de datos y sincronización
+
 
 
 
@@ -74,7 +77,7 @@ Patrones flauta traversa
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzU4NjMzOCwxNjYzNTczMTAwLC0xMz
+eyJoaXN0b3J5IjpbLTI1NjYxNTAxNSwxNjYzNTczMTAwLC0xMz
 QwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1
 Njg2MDksLTgwMzM4OTkwOF19
 -->
