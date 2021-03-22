@@ -87,9 +87,7 @@ Input: Patología (diabetes), peso, restricciones de comida, tratamiento que sig
 
 Optimizar nutrientes -> maximizar contenido nutricional.
 
-Problemas asociada
-
-A partir de minutas de base.
+Encuesta para entender el problema.
 
 
 
@@ -98,11 +96,13 @@ A partir de minutas de base.
 
 [DQN para juegos](https://docs.google.com/file/d/1VyM1QcedEZQqNSohkIH0HbFuqnCVkHXE/edit)
 
+
+
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDk4ODc1LDcyODg0NjE5OSwtMTIwMz
-cyNzY4MCwxNjYzNTczMTAwLC0xMzQwOTkzODg0LC0xMzgyMzg1
-ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLTgwMzM4OTkwOF
-19
+eyJoaXN0b3J5IjpbNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0Nj
+E5OSwtMTIwMzcyNzY4MCwxNjYzNTczMTAwLC0xMzQwOTkzODg0
+LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLT
+gwMzM4OTkwOF19
 -->
