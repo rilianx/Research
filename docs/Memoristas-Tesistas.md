@@ -83,7 +83,9 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 ### Katrina y Victor
 
 Crear planes de comida para pacientes patológicos.
-Input: Patología (diabetes), peso, restricciones de comida, tratamiento.
+Input: Patología (diabetes), peso, restricciones de comida, tratamiento que sigue, etc...
+
+
 
 A partir de minutas de base.
 
@@ -97,7 +99,7 @@ A partir de minutas de base.
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI5OTc2ODksLTEyMDM3Mjc2ODAsMT
-Y2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3
-NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzODk5MDhdfQ==
+eyJoaXN0b3J5IjpbMzYzNjAzNTQxLC0xMjAzNzI3NjgwLDE2Nj
+M1NzMxMDAsLTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYz
+OTQyMywtMTcwNDU2ODYwOSwtODAzMzg5OTA4XX0=
 -->
