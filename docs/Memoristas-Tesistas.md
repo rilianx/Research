@@ -36,7 +36,12 @@ Propongo realizar los siguientes pasos:
 TODO
 --
 
-### Juan y Sebastián: [ToDo App](https://docs.google.com/file/d/1yQS1kjmL7xa3prQmHJI0EGcXyQ60qM1p/edit)
+### Juan y Sebastián: 
+
+[ToDo App](https://docs.google.com/file/d/1yQS1kjmL7xa3prQmHJI0EGcXyQ60qM1p/edit)
+
+Tablita Excel con papers/app.
+
 
 ### Ayrton y Bruno Díaz
  Tratar de adivinar lo que está haciendo el usuario (e.g., ) en base a sensores de smartphone incluyendo a audio.
@@ -51,8 +56,9 @@ Patrones flauta traversa
 
 [DQN para juegos](https://docs.google.com/file/d/1VyM1QcedEZQqNSohkIH0HbFuqnCVkHXE/edit)
 
-- **José García:** Algoritmo de detección de plagio (código)
+### José García
+Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUyMDIyNTMsLTEzODIzODU4MTgsLT
+eyJoaXN0b3J5IjpbLTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLT
 Y3NzYzOTQyMywtMTcwNDU2ODYwOSwtODAzMzg5OTA4XX0=
 -->
