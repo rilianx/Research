@@ -54,7 +54,7 @@ TODO
 
 - Limpiar información. Identificar los atributos más relevantes. Normalizar.
 - Crear modelo.
-- 
+- Validar el modelo.
 
 
 
@@ -71,7 +71,7 @@ Patrones flauta traversa
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDk2NjE5MCwtMTM0MDk5Mzg4NCwtMT
+eyJoaXN0b3J5IjpbMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMT
 M4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMz
 ODk5MDhdfQ==
 -->
