@@ -52,7 +52,7 @@ TODO
 
 **Context-Aware Human Activity Recognition**
 
-
+- Limp
 
 
 
@@ -69,7 +69,7 @@ Patrones flauta traversa
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzNzA3Mzk1LC0xMzQwOTkzODg0LC0xMz
-gyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLTgwMzM4
-OTkwOF19
+eyJoaXN0b3J5IjpbLTE5MzM4NTM0ODgsLTEzNDA5OTM4ODQsLT
+EzODIzODU4MTgsLTY3NzYzOTQyMywtMTcwNDU2ODYwOSwtODAz
+Mzg5OTA4XX0=
 -->
