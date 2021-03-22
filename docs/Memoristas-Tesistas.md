@@ -72,7 +72,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 	- Interpretación Flauta Traversa (elemento de viento)
 	- Sight Reading --> general
 	- Gestión del Aire --> flauta traversa
-- Análisis de datos en música
+- Análisis de datos relacionados con interpretación músical
 	- Análisis de datos en flauta traversa
 
 
@@ -90,7 +90,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1OTI2ODMwLDE2NjM1NzMxMDAsLTEzND
-A5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMTcwNDU2
-ODYwOSwtODAzMzg5OTA4XX0=
+eyJoaXN0b3J5IjpbLTEyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMT
+M0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0
+NTY4NjA5LC04MDMzODk5MDhdfQ==
 -->
