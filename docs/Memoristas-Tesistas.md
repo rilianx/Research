@@ -50,6 +50,7 @@ TODO
 
 [Drive](https://drive.google.com/drive/folders/1J-RoZXGb6gB5YeBXbBBzzacjT0t-Wc5S)
 
+Context Aware
 
 
 
@@ -66,7 +67,7 @@ Patrones flauta traversa
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMyMjQ3NTAsLTEzNDA5OTM4ODQsLT
+eyJoaXN0b3J5IjpbLTEyOTM0NTExNDEsLTEzNDA5OTM4ODQsLT
 EzODIzODU4MTgsLTY3NzYzOTQyMywtMTcwNDU2ODYwOSwtODAz
 Mzg5OTA4XX0=
 -->
