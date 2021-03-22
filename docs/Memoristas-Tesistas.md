@@ -69,9 +69,11 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 **Marco Teórico:**
 
 - Interpretación Musical (lectura musical)
-- Sight Reading --> general
-- Gestión del Aire --> flauta traversa
-- 
+	- Interpretación Flauta Traversa (elemento de viento)
+	- Sight Reading --> general
+	- Gestión del Aire --> flauta traversa
+- Sensores en música
+	-  
 
 
 
@@ -88,7 +90,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODc5NTE1MCwxNjYzNTczMTAwLC0xMz
-QwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1
-Njg2MDksLTgwMzM4OTkwOF19
+eyJoaXN0b3J5IjpbLTE5Mzc5OTEwMjgsMTY2MzU3MzEwMCwtMT
+M0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0
+NTY4NjA5LC04MDMzODk5MDhdfQ==
 -->
