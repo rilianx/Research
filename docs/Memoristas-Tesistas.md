@@ -68,7 +68,8 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 
 **Marco Teórico:**
 
-Interpretación Musical
+- Interpretación Musical (lectura musical)
+- 
 
 
 
@@ -85,7 +86,7 @@ Interpretación Musical
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYxNTg5NTAsMTY2MzU3MzEwMCwtMT
-M0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0
-NTY4NjA5LC04MDMzODk5MDhdfQ==
+eyJoaXN0b3J5IjpbNzI2Mzg3MTYxLDE2NjM1NzMxMDAsLTEzND
+A5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMTcwNDU2
+ODYwOSwtODAzMzg5OTA4XX0=
 -->
