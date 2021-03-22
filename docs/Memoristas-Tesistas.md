@@ -52,7 +52,9 @@ TODO
 
 **Context-Aware Human Activity Recognition**
 
-- Limp
+- Limpiar información. Identificar los atributos más relevantes. Normalizar.
+- Crear modelo.
+- 
 
 
 
@@ -69,7 +71,7 @@ Patrones flauta traversa
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM4NTM0ODgsLTEzNDA5OTM4ODQsLT
-EzODIzODU4MTgsLTY3NzYzOTQyMywtMTcwNDU2ODYwOSwtODAz
-Mzg5OTA4XX0=
+eyJoaXN0b3J5IjpbMTcwMDk2NjE5MCwtMTM0MDk5Mzg4NCwtMT
+M4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMz
+ODk5MDhdfQ==
 -->
