@@ -83,6 +83,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 ### Katrina y Victor
 
 
+
 ### Jorge Pacheco y Sebastián Baeza
 
 [DQN para juegos](https://docs.google.com/file/d/1VyM1QcedEZQqNSohkIH0HbFuqnCVkHXE/edit)
@@ -90,7 +91,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMT
-M0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0
-NTY4NjA5LC04MDMzODk5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE0NjE1NzY2MjIsLTEyMDM3Mjc2ODAsMT
+Y2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3
+NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzODk5MDhdfQ==
 -->
