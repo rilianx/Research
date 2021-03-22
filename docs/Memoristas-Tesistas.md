@@ -87,6 +87,8 @@ Input: Patología (diabetes), peso, restricciones de comida, tratamiento que sig
 
 Optimizar nutrientes -> maximizar contenido nutricional.
 
+Problemas asociada
+
 A partir de minutas de base.
 
 
@@ -99,7 +101,8 @@ A partir de minutas de base.
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4ODQ2MTk5LC0xMjAzNzI3NjgwLDE2Nj
-M1NzMxMDAsLTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYz
-OTQyMywtMTcwNDU2ODYwOSwtODAzMzg5OTA4XX0=
+eyJoaXN0b3J5IjpbLTQxNDk4ODc1LDcyODg0NjE5OSwtMTIwMz
+cyNzY4MCwxNjYzNTczMTAwLC0xMzQwOTkzODg0LC0xMzgyMzg1
+ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLTgwMzM4OTkwOF
+19
 -->
