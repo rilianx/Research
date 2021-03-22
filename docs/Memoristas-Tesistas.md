@@ -59,7 +59,10 @@ TODO
 
 
 ### Byron y Jaime
+
 Patrones flauta traversa
+
+
 
 ### Katrina y Victor
 
@@ -71,7 +74,7 @@ Patrones flauta traversa
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMT
-M4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMz
-ODk5MDhdfQ==
+eyJoaXN0b3J5IjpbMTEzNzU4NjMzOCwxNjYzNTczMTAwLC0xMz
+QwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1
+Njg2MDksLTgwMzM4OTkwOF19
 -->
