@@ -82,6 +82,10 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 
 ### Katrina y Victor
 
+Crear planes de comida para pacientes patológicos.
+A partir de minutas de base.
+
+
 
 
 ### Jorge Pacheco y Sebastián Baeza
@@ -91,7 +95,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 ### José García
 Algoritmo de detección de plagio (código)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE1NzY2MjIsLTEyMDM3Mjc2ODAsMT
-Y2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3
-NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzODk5MDhdfQ==
+eyJoaXN0b3J5IjpbLTU4MDg1MDE0NywtMTIwMzcyNzY4MCwxNj
+YzNTczMTAwLC0xMzQwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2
+Mzk0MjMsLTE3MDQ1Njg2MDksLTgwMzM4OTkwOF19
 -->
