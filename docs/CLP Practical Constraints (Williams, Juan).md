@@ -36,6 +36,16 @@ TODO
 	- Al construir los bloques
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
+**Conflicting items+Separation of Item:** 
+Tabla de conflictos.
+Artículos deben transportarse en distintos contenedores.
+
+**Load Bearing:**
+Límite de peso que puede soportar cada caja.
+
+
+
+
 ### Juan Ávila
 
 **Objetivo:** Proponer un formato adecuado para las instancias e implementar un algoritmo para trabajar con múltiples contenedores.
@@ -70,10 +80,6 @@ Notas sobre las restricciones
 ### Restricciones duras
 
 Se incorporan a momento de evaluar las acciones para un estado. Si la restricción no se cumple para la acción, simplemente no se considera
-
-* **Conflicting items+Separation of Item:** 
-Tabla de conflictos.
-
 
 * **Conflicting items.** Se evalúa que las **cajas del nuevo bloque** mantenga distancia adecuada con los elementos en conflicto. Para una implementación eficiente se puede agregar un mapa `type2simple_aabb` que asocie cada tipo de caja con la lista de cajas de ese tipo ya ubicadas en el contenedor.
 
@@ -214,7 +220,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzcxMDE5NiwtMzM3ODg4OTk2LDIwNj
+eyJoaXN0b3J5IjpbMTkxODc0OTE4MSwtMzM3ODg4OTk2LDIwNj
 Y0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2
 MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0NzldfQ
 ==
