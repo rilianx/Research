@@ -29,8 +29,8 @@ TODO
 
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
-- **Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.**
-- Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.
+- Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
+- **Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.**
 	- Función de evaluación para Greedy par evaluar bloques
 	- Al evaluar un estado
 	- Al construir los bloques
@@ -254,9 +254,9 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzA0NDAwMiw1NzIxOTMxODQsLTEzNz
-AwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMzM3ODg4
-OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4Mi
-wtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2
-NTI0NzldfQ==
+eyJoaXN0b3J5IjpbLTI2NTQwMzg2LDU3MjE5MzE4NCwtMTM3MD
+A0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3NDY4LC0zMzc4ODg5
+OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0MTgyLC
+03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LDYxMTY1
+MjQ3OV19
 -->
