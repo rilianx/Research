@@ -53,6 +53,7 @@ Mínimo área de contacto de la base de cada caja. La m´nima área es definida 
 **¿Estabilidad vertical?**
 Estudiar que ocurre entre entregas.
 
+
 Orden establecido de entregas.
 
 **MultiDrop:**
@@ -243,8 +244,8 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMz
-M3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODky
-NDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNi
-w2MTE2NTI0NzldfQ==
+eyJoaXN0b3J5IjpbLTk0MjI3MDc1MCwtMTEyMjE3NDQ3NiwxNj
+Y5OTc3NDY4LC0zMzc4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAz
+NDk2NSwxNzY4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OC
+wxNjg2OTMxNTA2LDYxMTY1MjQ3OV19
 -->
