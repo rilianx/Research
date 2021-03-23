@@ -36,6 +36,8 @@ TODO
 	- Al construir los bloques
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
+----
+
 ### Restricciones Duras
 
 **Conflicting items+Separation of Item:** 
@@ -52,6 +54,10 @@ Mínimo área de contacto de la base de cada caja. La m´nima área es definida 
 
 ### Restricciones blandas
 
+
+
+
+----
 
 
 
@@ -231,8 +237,8 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY2MzQwOTYsLTMzNzg4ODk5NiwyMD
-Y2NDUwNTc2LC0xNDIzMDM0OTY1LDE3Njg5MjQxODIsLTcyMDE2
-NjE4MywtNjA2MTE1NDg4LDE2ODY5MzE1MDYsNjExNjUyNDc5XX
-0=
+eyJoaXN0b3J5IjpbMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNj
+Y0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2
+MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0NzldfQ
+==
 -->
