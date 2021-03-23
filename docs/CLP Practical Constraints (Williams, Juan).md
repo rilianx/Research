@@ -50,7 +50,12 @@ Límite de peso que puede soportar cada caja.
 **Cargo Stability (horizontal):**
 Mínimo área de contacto de la base de cada caja. La m´nima área es definida por la instancia y es igual para todas las cajas. (% de la base)
 
-¿Estabilidad vertical?
+**¿Estabilidad vertical?**
+Estudiar que ocurre entre entregas.
+
+Orden establecido de entregas.
+
+
 
 ### Restricciones blandas
 
@@ -237,8 +242,8 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNj
-Y0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2
-MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0NzldfQ
-==
+eyJoaXN0b3J5IjpbMTIxMDU4MDc4MiwxNjY5OTc3NDY4LC0zMz
+c4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0
+MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LD
+YxMTY1MjQ3OV19
 -->
