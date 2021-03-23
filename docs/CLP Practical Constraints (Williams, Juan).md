@@ -55,7 +55,8 @@ Estudiar que ocurre entre entregas.
 
 Orden establecido de entregas.
 
-
+**MultiDrop:**
+No hay movimientos adicionales entre clientes.
 
 ### Restricciones blandas
 
@@ -242,8 +243,8 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDU4MDc4MiwxNjY5OTc3NDY4LC0zMz
-c4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0
-MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LD
-YxMTY1MjQ3OV19
+eyJoaXN0b3J5IjpbLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMz
+M3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODky
+NDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNi
+w2MTE2NTI0NzldfQ==
 -->
