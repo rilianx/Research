@@ -45,7 +45,8 @@ Artículos deben transportarse en distintos contenedores.
 **Load Bearing:**
 Límite de peso que puede soportar cada caja.
 
-**
+**Cargo Stability:**
+
 
 
 ### Juan Ávila
@@ -222,7 +223,8 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNjM0ODg2LC0zMzc4ODg5OTYsMjA2Nj
-Q1MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0MTgyLC03MjAxNjYx
-ODMsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LDYxMTY1MjQ3OV19
+eyJoaXN0b3J5IjpbLTE0Mzg1NTMxMDcsLTMzNzg4ODk5NiwyMD
+Y2NDUwNTc2LC0xNDIzMDM0OTY1LDE3Njg5MjQxODIsLTcyMDE2
+NjE4MywtNjA2MTE1NDg4LDE2ODY5MzE1MDYsNjExNjUyNDc5XX
+0=
 -->
