@@ -265,10 +265,16 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
+
+
+Tipo de carga
+Contenedor riffer
+Balance del contenedor (punto de gravedad)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOT
-MxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2
-OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMT
-c2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4Njkz
-MTUwNiw2MTE2NTI0NzldfQ==
+eyJoaXN0b3J5IjpbLTE4NTk5ODY3MjMsNDE3NTI3MjUxLC0yNj
+U0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0
+NzYsMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLT
+E0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYx
+MTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0NzldfQ==
 -->
