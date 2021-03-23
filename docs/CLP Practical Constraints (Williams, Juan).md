@@ -36,6 +36,8 @@ TODO
 	- Al construir los bloques
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
+### Restricciones Duras
+
 **Conflicting items+Separation of Item:** 
 Tabla de conflictos.
 Artículos deben transportarse en distintos contenedores.
@@ -43,7 +45,7 @@ Artículos deben transportarse en distintos contenedores.
 **Load Bearing:**
 Límite de peso que puede soportar cada caja.
 
-
+**
 
 
 ### Juan Ávila
@@ -220,8 +222,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODc0OTE4MSwtMzM3ODg4OTk2LDIwNj
-Y0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2
-MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2NTI0NzldfQ
-==
+eyJoaXN0b3J5IjpbODczNjM0ODg2LC0zMzc4ODg5OTYsMjA2Nj
+Q1MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0MTgyLC03MjAxNjYx
+ODMsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LDYxMTY1MjQ3OV19
 -->
