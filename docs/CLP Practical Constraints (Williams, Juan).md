@@ -66,7 +66,9 @@ Puede ser considerada por forma de llenado.
 
 **Complete Shipment** Se prioriza pedidos completos. --> 2021.
 
+**Load Balance**
 
+- Priorizar cajas pesadas más abajo (tanto en generación de bloques como al llenar el contenedor).
 
 
 ----
@@ -249,7 +251,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2ODM1OTkyLC0xMzcwMDQ3MDA2LC0xMT
+eyJoaXN0b3J5IjpbNTcyMTkzMTg0LC0xMzcwMDQ3MDA2LC0xMT
 IyMTc0NDc2LDE2Njk5Nzc0NjgsLTMzNzg4ODk5NiwyMDY2NDUw
 NTc2LC0xNDIzMDM0OTY1LDE3Njg5MjQxODIsLTcyMDE2NjE4My
 wtNjA2MTE1NDg4LDE2ODY5MzE1MDYsNjExNjUyNDc5XX0=
