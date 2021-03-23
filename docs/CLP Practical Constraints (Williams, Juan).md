@@ -64,7 +64,7 @@ Puede ser considerada por forma de llenado.
 
 ### Restricciones blandas
 
-
+**Complete Shipment** Se prioriza pedidos completos.
 
 
 ----
@@ -247,7 +247,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDQxMjkzOCwtMTM3MDA0NzAwNiwtMT
+eyJoaXN0b3J5IjpbMTg3MDMxMDIxMywtMTM3MDA0NzAwNiwtMT
 EyMjE3NDQ3NiwxNjY5OTc3NDY4LC0zMzc4ODg5OTYsMjA2NjQ1
 MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0MTgyLC03MjAxNjYxOD
 MsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LDYxMTY1MjQ3OV19
