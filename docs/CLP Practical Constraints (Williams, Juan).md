@@ -68,16 +68,19 @@ Orden establecido de entregas.
 **MultiDrop:**
 No hay movimientos adicionales entre clientes.
 
-> Llenar contenedor en orden de entrega
+> Llenar contenedor en orden de entrega.
 
 ### Restricciones blandas
 
 **Complete Shipment** Se prioriza pedidos completos. --> 2021.
+> Ordenamiento previo
 
 **Load Balance**
+Tomar en cuenta el p
 
-- Priorizar cajas pesadas más abajo (tanto en generación de bloques como al llenar el contenedor).
-- Se puede evaluar a medida que se colocan los bloques (tomando contenedor)
+> Construir bloques con cajas más pesadas abajo
+> Colocar bloques más pesados abajo/centro
+> Evaluar a medida que se colocan los bloques 
 
 
 
@@ -262,9 +265,9 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwODg1NjEyLC0yNjU0MDM4Niw1NzIxOT
-MxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2
-OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMT
-c2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4Njkz
-MTUwNiw2MTE2NTI0NzldfQ==
+eyJoaXN0b3J5IjpbLTkwODY0OTgzNSwtMjY1NDAzODYsNTcyMT
+kzMTg0LC0xMzcwMDQ3MDA2LC0xMTIyMTc0NDc2LDE2Njk5Nzc0
+NjgsLTMzNzg4ODk5NiwyMDY2NDUwNTc2LC0xNDIzMDM0OTY1LD
+E3Njg5MjQxODIsLTcyMDE2NjE4MywtNjA2MTE1NDg4LDE2ODY5
+MzE1MDYsNjExNjUyNDc5XX0=
 -->
