@@ -46,7 +46,7 @@ Artículos deben transportarse en distintos contenedores.
 Límite de peso que puede soportar cada caja.
 
 **Cargo Stability:**
-
+Mínimo área de contacto de la base de cada caja.
 
 
 ### Juan Ávila
@@ -223,7 +223,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg1NTMxMDcsLTMzNzg4ODk5NiwyMD
+eyJoaXN0b3J5IjpbLTE5NDEzNzIwOTcsLTMzNzg4ODk5NiwyMD
 Y2NDUwNTc2LC0xNDIzMDM0OTY1LDE3Njg5MjQxODIsLTcyMDE2
 NjE4MywtNjA2MTE1NDg4LDE2ODY5MzE1MDYsNjExNjUyNDc5XX
 0=
