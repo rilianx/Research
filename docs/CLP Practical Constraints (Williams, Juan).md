@@ -69,7 +69,7 @@ Puede ser considerada por forma de llenado.
 **Load Balance**
 
 - Priorizar cajas pesadas más abajo (tanto en generación de bloques como al llenar el contenedor).
-- 
+- Se puede evaluar a medida que se colocan los bloques (tomando contenedor)
 
 
 ----
@@ -252,9 +252,9 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc0NDE1OTUsNTcyMTkzMTg0LC0xMz
-cwMDQ3MDA2LC0xMTIyMTc0NDc2LDE2Njk5Nzc0NjgsLTMzNzg4
-ODk5NiwyMDY2NDUwNTc2LC0xNDIzMDM0OTY1LDE3Njg5MjQxOD
-IsLTcyMDE2NjE4MywtNjA2MTE1NDg4LDE2ODY5MzE1MDYsNjEx
-NjUyNDc5XX0=
+eyJoaXN0b3J5IjpbMTc3MzMyODA1OCw1NzIxOTMxODQsLTEzNz
+AwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMzM3ODg4
+OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4Mi
+wtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2
+NTI0NzldfQ==
 -->
