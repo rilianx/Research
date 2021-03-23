@@ -54,9 +54,9 @@ Límite de peso que puede soportar cada caja.
 > * Al construir los bloques  -> máximo soporte del bloque.
 
 **Cargo Stability (horizontal):**
-Mínimo área de contacto de la base de cada caja. La m´nima área es definida por la instancia y es igual para todas las cajas. (% de la base)
+Mínimo área de contacto de la base de cada caja. La mínima área es definida por la instancia y es igual para todas las cajas. (% de la base)
 > Debería considerarse al construir los bloques
-> En función de evaluación de bloques como restricción dura
+> Calcular en función de evaluación de bloques como restricción dura
 
 **¿Estabilidad vertical?**
 Estudiar que ocurre entre entregas.
@@ -76,7 +76,8 @@ No hay movimientos adicionales entre clientes.
 > Ordenamiento previo
 
 **Load Balance**
-Tomar en cuenta el p
+Tomar en cuenta el peso del contenedor
+Calcular ángulo de volcamiento
 
 > Construir bloques con cajas más pesadas abajo
 > Colocar bloques más pesados abajo/centro
@@ -265,9 +266,9 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODY0OTgzNSwtMjY1NDAzODYsNTcyMT
-kzMTg0LC0xMzcwMDQ3MDA2LC0xMTIyMTc0NDc2LDE2Njk5Nzc0
-NjgsLTMzNzg4ODk5NiwyMDY2NDUwNTc2LC0xNDIzMDM0OTY1LD
-E3Njg5MjQxODIsLTcyMDE2NjE4MywtNjA2MTE1NDg4LDE2ODY5
-MzE1MDYsNjExNjUyNDc5XX0=
+eyJoaXN0b3J5IjpbNDE3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOT
+MxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2
+OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMT
+c2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4Njkz
+MTUwNiw2MTE2NTI0NzldfQ==
 -->
