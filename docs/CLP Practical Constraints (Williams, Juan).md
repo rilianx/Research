@@ -72,6 +72,8 @@ Puede ser considerada por forma de llenado.
 - Se puede evaluar a medida que se colocan los bloques (tomando contenedor)
 
 
+
+
 ----
 
 
@@ -252,7 +254,7 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzMyODA1OCw1NzIxOTMxODQsLTEzNz
+eyJoaXN0b3J5IjpbLTM5MzA0NDAwMiw1NzIxOTMxODQsLTEzNz
 AwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMzM3ODg4
 OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4Mi
 wtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4NjkzMTUwNiw2MTE2
