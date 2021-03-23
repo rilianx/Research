@@ -60,6 +60,8 @@ Orden establecido de entregas.
 **MultiDrop:**
 No hay movimientos adicionales entre clientes.
 
+Puede ser considerada por forma de llenado.
+
 ### Restricciones blandas
 
 
@@ -245,8 +247,8 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMT
-Y2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMw
-MzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0OD
-gsMTY4NjkzMTUwNiw2MTE2NTI0NzldfQ==
+eyJoaXN0b3J5IjpbMTY1MDQxMjkzOCwtMTM3MDA0NzAwNiwtMT
+EyMjE3NDQ3NiwxNjY5OTc3NDY4LC0zMzc4ODg5OTYsMjA2NjQ1
+MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0MTgyLC03MjAxNjYxOD
+MsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LDYxMTY1MjQ3OV19
 -->
