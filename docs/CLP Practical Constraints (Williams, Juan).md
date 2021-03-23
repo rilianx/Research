@@ -270,9 +270,9 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 Tipo de carga
 Contenedor riffer
 Balance del contenedor (punto de gravedad)
-
+Soporte de cajas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk5ODY3MjMsNDE3NTI3MjUxLC0yNj
+eyJoaXN0b3J5IjpbLTE4Mzc0MzAxMzgsNDE3NTI3MjUxLC0yNj
 U0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0
 NzYsMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLT
 E0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYx
