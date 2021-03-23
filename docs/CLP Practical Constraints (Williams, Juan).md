@@ -41,14 +41,22 @@ TODO
 ### Restricciones Duras
 
 **Conflicting items+Separation of Item:** 
-Tabla de conflictos.
-Artículos deben transportarse en distintos contenedores.
+Tabla de conflictos. Artículos deben transportarse en distintos contenedores.
+
+> Debería considerarse al momento de repartir los elementos entre distintos TUs
+
 
 **Load Bearing:**
 Límite de peso que puede soportar cada caja.
 
+> Debería considerarse:
+> * En función de evaluación de bloques(mayor soporte abajo)
+> * Al construir los bloques  -> máximo soporte del bloque.
+
 **Cargo Stability (horizontal):**
 Mínimo área de contacto de la base de cada caja. La m´nima área es definida por la instancia y es igual para todas las cajas. (% de la base)
+> Debería considerarse al construir los bloques
+> En función de evaluación de bloques como restricción dura
 
 **¿Estabilidad vertical?**
 Estudiar que ocurre entre entregas.
@@ -60,7 +68,7 @@ Orden establecido de entregas.
 **MultiDrop:**
 No hay movimientos adicionales entre clientes.
 
-Puede ser considerada por forma de llenado.
+> Llenar contenedor en orden de entrega
 
 ### Restricciones blandas
 
@@ -254,9 +262,9 @@ id_box l rot_l w rot_w h rot_h n w type w_support alpha beta gamma
 - Restricciones duras aun las tengo que copiar del código de Adolfo y Sebastián en `VCS_Function::eval_action`.
 ![image](https://i.imgur.com/DUVnuvl.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTQwMzg2LDU3MjE5MzE4NCwtMTM3MD
-A0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3NDY4LC0zMzc4ODg5
-OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNzY4OTI0MTgyLC
-03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMxNTA2LDYxMTY1
-MjQ3OV19
+eyJoaXN0b3J5IjpbMzIwODg1NjEyLC0yNjU0MDM4Niw1NzIxOT
+MxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2
+OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMT
+c2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4Njkz
+MTUwNiw2MTE2NTI0NzldfQ==
 -->
