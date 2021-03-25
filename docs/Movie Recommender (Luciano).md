@@ -17,7 +17,7 @@ TODO
 - Leer [paper](https://mail.google.com/mail/u/0/#search/serendipity/KtbxLwGkKGhCrrMZSPkZQhlpcPcdTdDdxV?projector=1&messagePartId=0.1)
 - Diseñar función de similitud (item similarity) en base a parámetros/pesos ajustables --> para próxima semana.
 - Diseñar experimentos (basados en listas de usuarios) y que apunten a *utility*, *diversity* y *serendipity*.
-- Función `validate` que reciba el vector de pesos v y el conjunto de listas. Selecciona una película random de cada lista, llama al recomendador para que retorne N películas las que se comparan con las películas de la lista. La función retorna la cantidad de aciertos dividida por la cantidad de listas.
+- Función `eval_utility` que reciba el vector de pesos v y el conjunto de listas. Selecciona una película random de cada lista, llama al recomendador para que retorne N películas las que se comparan con las películas de la lista. La función retorna la cantidad de aciertos dividida por la cantidad de listas.
 
 
 
@@ -51,7 +51,7 @@ es decir, la cardinalidad de la intersección de categorías dividida por la car
 
 N listas
 
-1. Toma un lista L
+1. Toma la primera lista L
 2. Selecciona una película al azar P
 3. Se obtienen 10 recomendaciones para P ( R )
 4. Se cuentan los aciertos.
@@ -107,6 +107,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM1NjQ2ODcsMTg5MzE3MjIzMywtMT
-Y1OTg5MDM1LDIyNTY5NDExOCwtMTg2MDEwMTgwM119
+eyJoaXN0b3J5IjpbLTU2ODI2Nzg1MiwtMTQyMzU2NDY4NywxOD
+kzMTcyMjMzLC0xNjU5ODkwMzUsMjI1Njk0MTE4LC0xODYwMTAx
+ODAzXX0=
 -->
