@@ -66,7 +66,7 @@ def hill-climbing(initial_weights):
    max_hits = eval_utility(v)
    no_improvements = 0
    while no_improvements<50:
-      i = random_parameter(v)
+      i = random_weight(v)
       old_value = v[i]
       v[i] = random_value (v[i])
       hits = eval_utility(v)
@@ -107,7 +107,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODI2Nzg1MiwtMTQyMzU2NDY4NywxOD
-kzMTcyMjMzLC0xNjU5ODkwMzUsMjI1Njk0MTE4LC0xODYwMTAx
-ODAzXX0=
+eyJoaXN0b3J5IjpbOTY3OTI3NjgxLC0xNDIzNTY0Njg3LDE4OT
+MxNzIyMzMsLTE2NTk4OTAzNSwyMjU2OTQxMTgsLTE4NjAxMDE4
+MDNdfQ==
 -->
