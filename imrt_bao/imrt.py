@@ -31,9 +31,13 @@ def show_dvh(dose_vectors):
     plt.legend(['organ1', 'organ2', 'tumor'], loc='best')
     plt.show()
 
+def exec(cmd):
+    stdin, stdout, stderr = self.ssh.exec_command(self.home+cmd)
+    
 import ast 
 import copy
 class imrt:
+    
     def init_instance(self, files, max_voxels=500, targeted=True, min_impr=0.05, vsize=0.002):
         transport = self.ssh.get_transport()
         self.channel = transport.open_session(timeout=3600)
