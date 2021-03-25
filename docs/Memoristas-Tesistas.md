@@ -100,9 +100,12 @@ Encuesta para entender el problema.
 
 ### José García
 Algoritmo de detección de plagio (código)
+
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0Nj
-E5OSwtMTIwMzcyNzY4MCwxNjYzNTczMTAwLC0xMzQwOTkzODg0
-LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLT
-gwMzM4OTkwOF19
+eyJoaXN0b3J5IjpbLTIwNTA0NTA0OTEsNjYxNjMyMzQsLTQxND
+k4ODc1LDcyODg0NjE5OSwtMTIwMzcyNzY4MCwxNjYzNTczMTAw
+LC0xMzQwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLT
+E3MDQ1Njg2MDksLTgwMzM4OTkwOF19
 -->
