@@ -17,7 +17,7 @@ TODO
 - Leer [paper](https://mail.google.com/mail/u/0/#search/serendipity/KtbxLwGkKGhCrrMZSPkZQhlpcPcdTdDdxV?projector=1&messagePartId=0.1)
 - Diseñar función de similitud (item similarity) en base a parámetros/pesos ajustables --> para próxima semana.
 - Diseñar experimentos (basados en listas de usuarios) y que apunten a *utility*, *diversity* y *serendipity*.
-- 
+- Función validate que reciba el vector de pesos v y el conjunto de listas. 
 
 
 
@@ -107,6 +107,6 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAwMDY1NzQsMTg5MzE3MjIzMywtMT
-Y1OTg5MDM1LDIyNTY5NDExOCwtMTg2MDEwMTgwM119
+eyJoaXN0b3J5IjpbMTk5NjAxNjk4OSwxODkzMTcyMjMzLC0xNj
+U5ODkwMzUsMjI1Njk0MTE4LC0xODYwMTAxODAzXX0=
 -->
