@@ -31,7 +31,7 @@ TODO
 
 - Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
 - **Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.**
-- Tablita restricciones vs. momentos del algoritmo
+- **Tablita restricciones vs. momentos del algoritmo**
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
 ----
@@ -274,7 +274,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA4NDY5ODksNDM2Mjg2NDgsLTU5Nj
+eyJoaXN0b3J5IjpbLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5Nj
 QwMDg1OSwxNjQzNzgxMjkxLC0xODM3NDMwMTM4LDQxNzUyNzI1
 MSwtMjY1NDAzODYsNTcyMTkzMTg0LC0xMzcwMDQ3MDA2LC0xMT
 IyMTc0NDc2LDE2Njk5Nzc0NjgsLTMzNzg4ODk5NiwyMDY2NDUw
