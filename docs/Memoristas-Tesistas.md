@@ -102,10 +102,11 @@ Encuesta para entender el problema.
 Algoritmo de detección de plagio (código)
 
 
-###
+### Mario Dorochesi
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA0NTA0OTEsNjYxNjMyMzQsLTQxND
-k4ODc1LDcyODg0NjE5OSwtMTIwMzcyNzY4MCwxNjYzNTczMTAw
-LC0xMzQwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLT
-E3MDQ1Njg2MDksLTgwMzM4OTkwOF19
+eyJoaXN0b3J5IjpbLTgzNzM5NjIyMyw2NjE2MzIzNCwtNDE0OT
+g4NzUsNzI4ODQ2MTk5LC0xMjAzNzI3NjgwLDE2NjM1NzMxMDAs
+LTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMT
+cwNDU2ODYwOSwtODAzMzg5OTA4XX0=
 -->
