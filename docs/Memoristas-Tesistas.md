@@ -96,6 +96,7 @@ Encuesta para entender el problema.
 
 [DQN para juegos](https://docs.google.com/file/d/1VyM1QcedEZQqNSohkIH0HbFuqnCVkHXE/edit)
 
+[https://paperswithcode.com/task/openai-gym]
 
 
 ### José García
@@ -107,9 +108,9 @@ Algoritmo de detección de plagio (código)
 [Gdrive]([https://drive.google.com/drive/folders/1cedE7d42QyY1Ujf7PnIt2TDvdcjnBc9t?usp=sharing](https://drive.google.com/drive/folders/1cedE7d42QyY1Ujf7PnIt2TDvdcjnBc9t?usp=sharing))
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc3NTI3NzYsMTgwOTU1OTM3MCwtOD
-M3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mjg4NDYxOTks
-LTEyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMT
-M4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMz
-ODk5MDhdfQ==
+eyJoaXN0b3J5IjpbLTEyNjU4OTU2OTEsLTE3Mzc3NTI3NzYsMT
+gwOTU1OTM3MCwtODM3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3
+NSw3Mjg4NDYxOTksLTEyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMT
+M0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0
+NTY4NjA5LC04MDMzODk5MDhdfQ==
 -->
