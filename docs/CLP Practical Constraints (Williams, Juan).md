@@ -32,11 +32,11 @@ TODO
 - Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
 - **Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.**
 - **Tablita restricciones vs. momentos decisivos del algoritmo**
-- Escritura de informe
+- **Escritura de informe
 	- Introducción (Se hable del contexto, el problema, y la propuesta)
 	- Estado del Arte (Hablar de las técnicas existentes para resolver el problema, desventajas de estas técnicas)
 	- Background. Problema explicado formalmente, con función objetivo (formula matemática) y las restricciones. BSG (paper 2017), desventaja: no considera restricciones prácticas.
-	- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG.
+	- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG. ¿Cómo se integrarían las restricciones al BSG?
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
 ----
@@ -279,11 +279,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk0MjYxODIsNDg3MTQ4NDA2LC0xNz
-YwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5
-MSwtMTgzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3Mj
-E5MzE4NCwtMTM3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3
-NDY4LC0zMzc4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NS
-wxNzY4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2
-OTMxNTA2XX0=
+eyJoaXN0b3J5IjpbMjE0NzUxMDQsNDg3MTQ4NDA2LC0xNzYwNT
+g5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwt
+MTgzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3MjE5Mz
+E4NCwtMTM3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3NDY4
+LC0zMzc4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNz
+Y4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2OTMx
+NTA2XX0=
 -->
