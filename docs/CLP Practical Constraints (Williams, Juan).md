@@ -36,7 +36,7 @@ TODO
 	- Introducción (Se hable del contexto, el problema, y la propuesta)
 	- Estado del Arte (Hablar de las técnicas existentes para resolver el problema, desventajas de estas técnicas)
 	- Background. Problema explicado formalmente, con función objetivo (formula matemática) y las restricciones. BSG (paper 2017), desventaja: no considera restricciones prácticas.
-	- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG. Propuesta de algoritmo. ¿Cómo se integrarían las restricciones al BSG?
+	- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG. Propuesta de algoritmo. ¿Cómo se integrarían las restricciones? Tablita + explicaciones detalladas.
 	- Experimentos preliminares
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
@@ -280,11 +280,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNz
-YwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5
-MSwtMTgzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3Mj
-E5MzE4NCwtMTM3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3
-NDY4LC0zMzc4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NS
-wxNzY4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2
-OTMxNTA2XX0=
+eyJoaXN0b3J5IjpbMTE2MzY4MDg0LC0xNDcyNzYxODExLDQ4Nz
+E0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0OCwtNTk2NDAwODU5
+LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsNDE3NTI3MjUxLC0yNj
+U0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0
+NzYsMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLT
+E0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYx
+MTU0ODhdfQ==
 -->
