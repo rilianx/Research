@@ -12,7 +12,7 @@ El objetivo de esta continuación sería el de ajustar los componentes del solve
 
 Links de interés:
 
-> - [2017 - VCS: A new heuristic function for selecting boxes in the single container loading problem](ttps://drive.google.com/file/d/1q6AP892-bcuZ1LzkxNJmjHw-HVsfgwG4/view)
+> - [2017 - VCS: A new heuristic function for selecting boxes in the single container loading problem](https://drive.google.com/file/d/1q6AP892-bcuZ1LzkxNJmjHw-HVsfgwG4/view)
 > - [2021 - Practical Constraints in the Container Loading Problem: Comprehensive Formulations and Exact Algorithm](https://drive.google.com/file/d/140Cc5hsvMkzfqlAbjS8LQZFJBCIu1YrL/view)
 > - [202X - A MILP Approach for the Multi-Drop Container Loading Problem](https://drive.google.com/file/d/10DjpuIa6jcbinnr6foMSsag67MQvvm_w/view)
 > - [Memoria de Adolfo y Seba](https://drive.google.com/file/d/15Hz83as3dUzeZaU2c3hhjcY_9ujwsBkG/view?usp=sharing).
@@ -280,11 +280,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjgzMzgzLDQ4NzE0ODQwNiwtMTc2MD
-U4OTk2NSw0MzYyODY0OCwtNTk2NDAwODU5LDE2NDM3ODEyOTEs
-LTE4Mzc0MzAxMzgsNDE3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOT
-MxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2
-OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMT
-c2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYxMTU0ODgsMTY4Njkz
-MTUwNl19
+eyJoaXN0b3J5IjpbLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNz
+YwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5
+MSwtMTgzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3Mj
+E5MzE4NCwtMTM3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3
+NDY4LC0zMzc4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NS
+wxNzY4OTI0MTgyLC03MjAxNjYxODMsLTYwNjExNTQ4OCwxNjg2
+OTMxNTA2XX0=
 -->
