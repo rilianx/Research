@@ -63,8 +63,18 @@ Generalmente lo divido en párrafos:
 - Arreglar detalles y dibujos
 - Comenzar redacción en inglés?
 
+### KD-Tree
+
+[Overleaf](https://www.overleaf.com/project/5f7cc504d82a7900017178fa)
+
+- Descripción del KD-Tree tradicional
+- Descripción de algoritmo IKD-Tree
+
+### Practical Constraints
+
+- R
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgyNjcyNjEsMjAxMjM4Njk3MSwtMT
+eyJoaXN0b3J5IjpbLTEwNDI3MzQxMDQsMjAxMjM4Njk3MSwtMT
 I0NzcyNTc2MiwtMTExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3
 MTYzMDcsLTExMzQ0MjYzNTRdfQ==
 -->
