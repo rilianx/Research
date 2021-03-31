@@ -27,15 +27,10 @@ Revisión del estado del arte
 Propongo realizar los siguientes pasos:
 
 1. Formular una o varias preguntas que queramos responder en nuestra revisión del estado del arte.
-
 2. Definir strings de búsqueda para realizar una búsqueda sistemática de artículos usando [google scholar](http://scholar.google.es/).
-
 3. Leer a la rápida títulos y abstracts e ir guardando los links de los artículos que parecen tener relación con lo que andamos buscando. Adjuntar en título del artículo, año y cantidad de citas. (Sugiero usar planilla excel). En este paso es posible que nos demos cuenta que existen strings de búsqueda más adecuados por lo que habría que repetir la búsqueda. 
-
 4. Una vez seleccionados los artículos (al menos unos 10-20 dependiendo de la cantidad de estudios encontrados), leer con más detención el abstract/intro, e indicar, para cada uno de ellos, las ideas principales, si se trate de un review, o en qué consiste la propuesta. Adjuntar textos resumen en excel.
-
 5. Leer en mayor profundidad los papers más relevantes.
-
 6. Hacerse una idea general de lo que existe y comenzar a bosquejar los temas que se abordarán y papers que se citarán en el estado del arte.
 
 TODO
@@ -106,28 +101,12 @@ Encuesta para entender el problema.
 ### José García
 Algoritmo de detección de plagio (código)
 
----
-
-### Mario Dorochesi
-
- [Pointer network para Strip Packing](https://docs.google.com/file/d/16rEuyZvjUEz97w8JB2fqRzhR4UbZYEEV/edit)
-[Gdrive]([https://drive.google.com/drive/folders/1cedE7d42QyY1Ujf7PnIt2TDvdcjnBc9t?usp=sharing](https://drive.google.com/drive/folders/1cedE7d42QyY1Ujf7PnIt2TDvdcjnBc9t?usp=sharing))
-
-
-### Alen
-Aprendizaje en optimización ([DQN+node selection](https://docs.google.com/file/d/1ma_yMXg5BGIQD7mN_ivIWvUrEvG_LSD2/edit))
-
-### Braulio
-- **Braulio:**  Sitio web para comparación de políticas
-[RL-dictionary](https://towardsdatascience.com/the-complete-reinforcement-learning-dictionary-e16230b7d24e)
-[Greedy Algorithms](https://brilliant.org/wiki/greedy-algorithm/#:~:text=A%20greedy%20algorithm%20is%20a,to%20solve%20the%20entire%20problem.)
-[Doc Tesis](https://www.icloud.com/pages/0kgVh7Aw6mPGxySoSILZwrgfw#Informe_Seminario)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQxNDc0NDUsLTIwNTIxMTMwNDksLT
-EyNjU4OTU2OTEsLTE3Mzc3NTI3NzYsMTgwOTU1OTM3MCwtODM3
-Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mjg4NDYxOTksLT
-EyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4
-MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzOD
-k5MDhdfQ==
+eyJoaXN0b3J5IjpbMTEyMjIxOTg0NCwtMjA1MjExMzA0OSwtMT
+I2NTg5NTY5MSwtMTczNzc1Mjc3NiwxODA5NTU5MzcwLC04Mzcz
+OTYyMjMsNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0NjE5OSwtMT
+IwMzcyNzY4MCwxNjYzNTczMTAwLC0xMzQwOTkzODg0LC0xMzgy
+Mzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLTgwMzM4OT
+kwOF19
 -->
