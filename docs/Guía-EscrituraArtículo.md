@@ -42,7 +42,7 @@ Generalmente lo divido en párrafos:
 ---
 ###  Gonzalo Tello
 
- [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) --> no hay avance
+ [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
 ---
 ### Stephanie Gómez
@@ -50,6 +50,7 @@ Generalmente lo divido en párrafos:
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc3MjU3NjIsLTExMTYwNjc4NzgsLT
-E0OTcxMDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
+eyJoaXN0b3J5IjpbMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMT
+ExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0
+MjYzNTRdfQ==
 -->
