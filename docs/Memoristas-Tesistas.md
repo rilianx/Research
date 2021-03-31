@@ -68,6 +68,8 @@ Encuesta para entender el problema.
 Algoritmo de detección de plagio (código)
 
 
+## Trabajo en Memoria
+
 
 - Definir objetivos del trabajo
    - Objetivo principal: Desarrollar/Implementar...
@@ -106,10 +108,10 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDk4NjE2OCwtMjA1MjExMzA0OSwtMT
-I2NTg5NTY5MSwtMTczNzc1Mjc3NiwxODA5NTU5MzcwLC04Mzcz
-OTYyMjMsNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0NjE5OSwtMT
-IwMzcyNzY4MCwxNjYzNTczMTAwLC0xMzQwOTkzODg0LC0xMzgy
-Mzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLTgwMzM4OT
-kwOF19
+eyJoaXN0b3J5IjpbNDY2MzIzMzQsLTIwNTIxMTMwNDksLTEyNj
+U4OTU2OTEsLTE3Mzc3NTI3NzYsMTgwOTU1OTM3MCwtODM3Mzk2
+MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mjg4NDYxOTksLTEyMD
+M3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4MjM4
+NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzODk5MD
+hdfQ==
 -->
