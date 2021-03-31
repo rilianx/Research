@@ -42,21 +42,29 @@ Generalmente lo divido en párrafos:
 ---
 ### Bruno Aguilar y Rodrigo Maureira:** [Paper CPMP ANN](https://docs.google.com/file/d/1rNgoqX7F4aYK2gNjj-sRVo5PFScYCWnj/edit) - [overleaf](https://es.overleaf.com/project/6052a394d94c256a6c081b9a)
 
-- Estudiar Pytorch, redes convolucionales
-- 
+- Estudiar [PyTorch](https://github.com/mariodorochesi/jupyter_pytorch)
+- Diseñar red (convolutional 1D + [invariante a permutaciones](https://ai.stackexchange.com/questions/4655/how-could-we-build-a-neural-network-that-is-invariant-to-permutations-of-the-inp)) 
+- Comparar con fully connected y paper.
 
 ---
 ###  Gonzalo Tello
 
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
+- Mejorar descripción del problema
+- Describir algoritmos BSG y para resolver BinPacking
+- Escribir propusta
+
 ---
 ### Stephanie Gómez
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
 
+- Arreglar detalles y dibujos
+- Comenzar redacción en inglés?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY1MTgyNDgsMjAxMjM4Njk3MSwtMT
+eyJoaXN0b3J5IjpbLTE4NjgyNjcyNjEsMjAxMjM4Njk3MSwtMT
 I0NzcyNTc2MiwtMTExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3
 MTYzMDcsLTExMzQ0MjYzNTRdfQ==
 -->
