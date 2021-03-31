@@ -16,8 +16,10 @@ Trabajo en memoria/tesis
 	- Definir propuesta destacando sus contribuciones en relación a los otros trabajos presentados.
 - Trabajar en Marco Teórico o Background
 	- Definir el problema de manera formal (si es posible).
-	- Definir métodos o técnicas que se aplicarán en la propuesta. Explicar en detalle, incluir definiciones, fórmulas, etc.
-	- 
+	- Definir métodos o técnicas que se aplicarán en la propuesta. Explicar en detalle, incluir definiciones, fórmulas, etc. 
+- Propuesta
+	- Resumen introductorio de la propuesta
+	- Explicar en detalle cada uno de sus componentes
 
 Revisión del estado del arte
 ---
@@ -122,10 +124,10 @@ Aprendizaje en optimización ([DQN+node selection](https://docs.google.com/file/
 [Doc Tesis](https://www.icloud.com/pages/0kgVh7Aw6mPGxySoSILZwrgfw#Informe_Seminario)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODYwNTYwNCwtMjA1MjExMzA0OSwtMT
-I2NTg5NTY5MSwtMTczNzc1Mjc3NiwxODA5NTU5MzcwLC04Mzcz
-OTYyMjMsNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0NjE5OSwtMT
-IwMzcyNzY4MCwxNjYzNTczMTAwLC0xMzQwOTkzODg0LC0xMzgy
-Mzg1ODE4LC02Nzc2Mzk0MjMsLTE3MDQ1Njg2MDksLTgwMzM4OT
-kwOF19
+eyJoaXN0b3J5IjpbLTEwNzgzMTUwNzIsLTIwNTIxMTMwNDksLT
+EyNjU4OTU2OTEsLTE3Mzc3NTI3NzYsMTgwOTU1OTM3MCwtODM3
+Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mjg4NDYxOTksLT
+EyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4
+MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzOD
+k5MDhdfQ==
 -->
