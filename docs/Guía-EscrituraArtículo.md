@@ -72,9 +72,10 @@ Generalmente lo divido en párrafos:
 
 ### Practical Constraints
 
-- R
+- Revisar contenido. 
+- Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI3MzQxMDQsMjAxMjM4Njk3MSwtMT
-I0NzcyNTc2MiwtMTExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3
-MTYzMDcsLTExMzQ0MjYzNTRdfQ==
+eyJoaXN0b3J5IjpbMTI3ODgwMDkyOCwyMDEyMzg2OTcxLC0xMj
+Q3NzI1NzYyLC0xMTE2MDY3ODc4LC0xNDk3MTAwNTc1LDEwMjcx
+NjMwNywtMTEzNDQyNjM1NF19
 -->
