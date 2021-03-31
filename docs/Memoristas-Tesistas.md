@@ -43,6 +43,7 @@ TODO
 - DONE: Tablita Excel con papers. Mindfulness, papers.
 - TODO: Buscar aplicaciones.
 
+---
 
 ### Ayrton y Bruno Díaz
 
@@ -56,7 +57,7 @@ TODO
 - Crear modelo.
 - Validar el modelo.
 
-
+---
 
 ### Byron y Jaime
 
@@ -75,10 +76,7 @@ Objetivo general: identificar nivel del intérprete en base a los datos.
 - Análisis de datos relacionados con interpretación músical
 	- Análisis de datos en flauta traversa
 
-
-
-
-
+---
 
 ### Katrina y Victor
 
@@ -89,7 +87,7 @@ Optimizar nutrientes -> maximizar contenido nutricional.
 
 Encuesta para entender el problema.
 
-
+---
 
 
 ### Jorge Pacheco y Sebastián Baeza
@@ -98,19 +96,32 @@ Encuesta para entender el problema.
 
 [https://paperswithcode.com/task/openai-gym]
 
+---
 
 ### José García
 Algoritmo de detección de plagio (código)
 
+---
 
 ### Mario Dorochesi
 
+ [Pointer network para Strip Packing](https://docs.google.com/file/d/16rEuyZvjUEz97w8JB2fqRzhR4UbZYEEV/edit)
 [Gdrive]([https://drive.google.com/drive/folders/1cedE7d42QyY1Ujf7PnIt2TDvdcjnBc9t?usp=sharing](https://drive.google.com/drive/folders/1cedE7d42QyY1Ujf7PnIt2TDvdcjnBc9t?usp=sharing))
 
+
+### Alen
+Aprendizaje en optimización ([DQN+node selection](https://docs.google.com/file/d/1ma_yMXg5BGIQD7mN_ivIWvUrEvG_LSD2/edit))
+
+### Braulio
+- **Braulio:**  Sitio web para comparación de políticas
+[RL-dictionary](https://towardsdatascience.com/the-complete-reinforcement-learning-dictionary-e16230b7d24e)
+[Greedy Algorithms](https://brilliant.org/wiki/greedy-algorithm/#:~:text=A%20greedy%20algorithm%20is%20a,to%20solve%20the%20entire%20problem.)
+[Doc Tesis](https://www.icloud.com/pages/0kgVh7Aw6mPGxySoSILZwrgfw#Informe_Seminario)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU4OTU2OTEsLTE3Mzc3NTI3NzYsMT
-gwOTU1OTM3MCwtODM3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3
-NSw3Mjg4NDYxOTksLTEyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMT
-M0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0
-NTY4NjA5LC04MDMzODk5MDhdfQ==
+eyJoaXN0b3J5IjpbLTIwNTIxMTMwNDksLTEyNjU4OTU2OTEsLT
+E3Mzc3NTI3NzYsMTgwOTU1OTM3MCwtODM3Mzk2MjIzLDY2MTYz
+MjM0LC00MTQ5ODg3NSw3Mjg4NDYxOTksLTEyMDM3Mjc2ODAsMT
+Y2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3
+NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzODk5MDhdfQ==
 -->
