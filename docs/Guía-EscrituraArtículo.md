@@ -30,14 +30,20 @@ Generalmente lo divido en párrafos:
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
+- Trabajando en background
+
 ---
 ### Lucas Agullo
 
 [Paper CPMP_RL](https://docs.google.com/file/d/1r_kHXnKd40upiHzVqo7C8qObaCLjnRpT/edit) - [overleaf](https://www.overleaf.com/project/60424d0a17d15d7bfaeabbf0)
 
+- Diseño de experimentos
+
 ---
-### Bruno Aguilar y Rodrigo Maureira:** [Paper CPMP ANN]
-(https://docs.google.com/file/d/1rNgoqX7F4aYK2gNjj-sRVo5PFScYCWnj/edit) - [overleaf](https://es.overleaf.com/project/6052a394d94c256a6c081b9a)
+### Bruno Aguilar y Rodrigo Maureira:** [Paper CPMP ANN](https://docs.google.com/file/d/1rNgoqX7F4aYK2gNjj-sRVo5PFScYCWnj/edit) - [overleaf](https://es.overleaf.com/project/6052a394d94c256a6c081b9a)
+
+- Estudiar Pytorch, redes convolucionales
+- 
 
 ---
 ###  Gonzalo Tello
@@ -50,7 +56,7 @@ Generalmente lo divido en párrafos:
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMT
-ExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0
-MjYzNTRdfQ==
+eyJoaXN0b3J5IjpbLTE3MTY1MTgyNDgsMjAxMjM4Njk3MSwtMT
+I0NzcyNTc2MiwtMTExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3
+MTYzMDcsLTExMzQ0MjYzNTRdfQ==
 -->
