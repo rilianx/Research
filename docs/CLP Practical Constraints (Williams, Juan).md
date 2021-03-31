@@ -4,7 +4,7 @@ CLP Practical Constraints (continuación).
 Resumen
 ----
 
-Continuar con el trabajo realizado por Adolfo y Sebastián.
+Continuar con el trabajo realizado por [Adolfo y Sebastián](https://docs.google.com/file/d/1IU5kcuR0HzSkFmUjP3vdXEEV5wOA6QQP/edit).
 
 El objetivo del trabajo original era el de incorporar restricciones prácticas a un solver para problemas de **carga de contenedores**.
 
@@ -280,11 +280,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzY4MDg0LC0xNDcyNzYxODExLDQ4Nz
-E0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0OCwtNTk2NDAwODU5
-LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsNDE3NTI3MjUxLC0yNj
-U0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0
-NzYsMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLT
-E0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIwMTY2MTgzLC02MDYx
-MTU0ODhdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC0xND
+cyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0
+OCwtNTk2NDAwODU5LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsND
+E3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcw
+MDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LD
+IwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIw
+MTY2MTgzXX0=
 -->
