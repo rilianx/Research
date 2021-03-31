@@ -1,4 +1,4 @@
-Trabajo en memoria/tesis
+Memoristas
 --
 
 - Definir objetivos del trabajo
@@ -124,7 +124,7 @@ Aprendizaje en optimización ([DQN+node selection](https://docs.google.com/file/
 [Doc Tesis](https://www.icloud.com/pages/0kgVh7Aw6mPGxySoSILZwrgfw#Informe_Seminario)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzgzMTUwNzIsLTIwNTIxMTMwNDksLT
+eyJoaXN0b3J5IjpbLTExMzQxNDc0NDUsLTIwNTIxMTMwNDksLT
 EyNjU4OTU2OTEsLTE3Mzc3NTI3NzYsMTgwOTU1OTM3MCwtODM3
 Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mjg4NDYxOTksLT
 EyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4
