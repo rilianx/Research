@@ -5,10 +5,16 @@ Reinforcement Learning - CPMP
 TODO
 ---
 
+- Diseñar experimentos
+- Revisar implementación
+
+----
+
 ### Trabajar en paper
 
 Los objetivos de trabajar en la redacción del paper son:
 1. Por un lado, tener algo más concreto, detallado y mejor explicado. Aunque sólo se tengan resultados preliminares, es posible enviarlo a alguna conferencia o revista para obtener feedback.
+
 2. Trabajar en la redacción de un paper nos permitirá mejorar el entendimiento del algoritmo pudiendo vislumbrar maneras de mejorarlo u otras oportunidades.
 
 ### Estructura de paper
@@ -79,5 +85,5 @@ Presentación
 	* Aumento incremental de la dificultad de las instancias de prueba (por ejemplo: cantidad de contenedores).
 	* Ajuste de hiper-parámetros del modelo. Uso de otras modelos DQN.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTUzOTI0XX0=
+eyJoaXN0b3J5IjpbLTIwOTU1MDIxNTMsLTg5MTUzOTI0XX0=
 -->
