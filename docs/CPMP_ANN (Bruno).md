@@ -6,9 +6,8 @@ Para hacerlo se entrena la red usando estados->acciones presentes en resolucione
 TODO
 ---
 - Estudiar [PyTorch](https://github.com/mariodorochesi/jupyter_pytorch)
-- weight sharing (locality connected networks)
-- terminar implementación
-- ¿Qué tan modificable son las redes en keras? (ver arquitectura propuesta)
+- Diseñar red (convolutional 1D + [invariante a permutaciones](https://ai.stackexchange.com/questions/4655/how-could-we-build-a-neural-network-that-is-invariant-to-permutations-of-the-inp)) 
+
 
 Pasos
 --
@@ -58,6 +57,6 @@ El resultado es independiente de la permutación entre stacks iniciales.
 
 ![image](https://docs.google.com/drawings/d/e/2PACX-1vQYqsi0dM52vV5GrgT41Ve2EnBsUNyAOBf904zeLhzjUI1MMjhQSbv_RcG_sevxM65x-SGNFsKlbVce/pub?w=476&h=349)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc2NjU3OTgsNTgzMTE0OTMwLC0yMT
+eyJoaXN0b3J5IjpbLTIwNTIyOTgwODUsNTgzMTE0OTMwLC0yMT
 I2MzE4NTEwLDE0MTQzNzY0ODhdfQ==
 -->
