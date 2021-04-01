@@ -18,14 +18,15 @@ void solve(layout)
 * Ver en paper que es `Memoization_Heuristic`
 
 ````python
-def DFS(layout, l, u):
+def DFS(layout, LB, UB):
    S = stack()
    while s is not empty:
       n = pop(s)
       lb = LB(n) #compute the lower bound of the node
-      ifl
-      for each children in n:
-         push(s,n)
+      if lb >= UB: continue
+      children = get_children(n)
+      for each c in children:
+         push(s,c)
 ````
 
 Basado en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view):
@@ -52,6 +53,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mjk5ODQ1MSwtMTIwMzMxOTk0NCwtMT
+eyJoaXN0b3J5IjpbLTY2MTIwNTM3NywtMTIwMzMxOTk0NCwtMT
 kyNzI0MTUxNCwxNDk5NTk1ODkxXX0=
 -->
