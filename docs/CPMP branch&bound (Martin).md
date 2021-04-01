@@ -33,7 +33,7 @@ A move is dominated when one of the dominance rules is satisfied
 or the **lower bound of the layout** is larger than the current depth
 limit. --> calcula lower-bounds en cada nodo.
 
-We try to complete partial solutions by using the **greedy heuristic algorithm. In this way, the value u is updated during the search every time a better solution is found. The search ends if a solution of value l is reached.
+We try to complete partial solutions by using the **greedy heuristic algorithm**. In this way, the value u is updated during the search every time a better solution is found. The search ends if a solution of value l is reached.
 
 
 ### Referencias
@@ -41,6 +41,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm. 
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDI1NTc2MywtMTIwMzMxOTk0NCwtMT
+eyJoaXN0b3J5IjpbLTczNjQ4MDYyMSwtMTIwMzMxOTk0NCwtMT
 kyNzI0MTUxNCwxNDk5NTk1ODkxXX0=
 -->
