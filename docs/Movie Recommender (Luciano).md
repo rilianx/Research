@@ -30,7 +30,12 @@ TODO
 	- Explicar el problema de manera más formal
 	- Conceptos y definiciones (utilidad, serendipity)
 	- Se explicar fórmula para calcular similitud (sacada de otros trabajos)
-
+- Propuesta
+	- Extracción de datos
+	- Clasificación
+	- Sistema de recomendación
+- Experimentos
+- Conclusión
 
 
 
@@ -121,7 +126,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0NzYzOTcsOTY3OTI3NjgxLC0xNDIzNT
-Y0Njg3LDE4OTMxNzIyMzMsLTE2NTk4OTAzNSwyMjU2OTQxMTgs
-LTE4NjAxMDE4MDNdfQ==
+eyJoaXN0b3J5IjpbMTQ0ODIwNjI0MCw5Njc5Mjc2ODEsLTE0Mj
+M1NjQ2ODcsMTg5MzE3MjIzMywtMTY1OTg5MDM1LDIyNTY5NDEx
+OCwtMTg2MDEwMTgwM119
 -->
