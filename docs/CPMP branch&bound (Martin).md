@@ -9,7 +9,8 @@ Implementar siguiente algoritmo:
 ````c++
 void solve(layout)    
     u = greedy(layout) 
-    opt = DFS(layout,u) 
+    LB()
+    opt = BFS(layout,u) 
 ````
 
 Basado en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view):
@@ -21,6 +22,6 @@ Basado en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDIzNDU0MywtMTkyNzI0MTUxNCwxND
+eyJoaXN0b3J5IjpbMTU1NzY0NDg1OCwtMTkyNzI0MTUxNCwxND
 k5NTk1ODkxXX0=
 -->
