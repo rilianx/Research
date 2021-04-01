@@ -19,6 +19,14 @@ TODO
 - Diseñar experimentos (basados en listas de usuarios) y que apunten a *utility*, *diversity* y *serendipity*.
 - Función `eval_utility` que reciba el vector de pesos v y el conjunto de listas. Selecciona una película random de cada lista, llama al recomendador para que retorne N películas las que se comparan con las películas de la lista. La función retorna la cantidad de aciertos dividida por la cantidad de listas.
 
+### Paper
+
+- Abstract
+- Introduction
+	- Contexto del problema
+	- Se menciona un poco lo que se ha hecho 
+
+
 
 
 **Experimentos**
@@ -107,7 +115,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3OTI3NjgxLC0xNDIzNTY0Njg3LDE4OT
-MxNzIyMzMsLTE2NTk4OTAzNSwyMjU2OTQxMTgsLTE4NjAxMDE4
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTE3MzE2NzI5OSw5Njc5Mjc2ODEsLTE0Mj
+M1NjQ2ODcsMTg5MzE3MjIzMywtMTY1OTg5MDM1LDIyNTY5NDEx
+OCwtMTg2MDEwMTgwM119
 -->
