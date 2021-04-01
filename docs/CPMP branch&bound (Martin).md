@@ -18,8 +18,8 @@ void solve(layout)
 * Ver en paper que es `Memoization_Heuristic`
 
 ````python
-def DFS(layout, LB, UB):
-   S = stack()
+def search(layout, LB, UB):
+   S = stack() # por ahora
    while S is not empty:
       n = S.pop()
       ub = greedy(n) # compute upper bound
@@ -28,7 +28,7 @@ def DFS(layout, LB, UB):
       lb = LB(n) #compute the lower bound of the node
       if lb >= UB: continue
       children = get_children(n)
-      #en pap
+      # en paper ordenan los nodos antes de guardarlos
       for each c in children:
          S.push(c)
 ````
@@ -57,6 +57,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjQwMTc4MywtMTIwMzMxOTk0NCwtMT
+eyJoaXN0b3J5IjpbLTEyNTM5NTY1NCwtMTIwMzMxOTk0NCwtMT
 kyNzI0MTUxNCwxNDk5NTk1ODkxXX0=
 -->
