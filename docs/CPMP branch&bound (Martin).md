@@ -29,7 +29,7 @@ def search(layout, L, U): #lower y upperbound
       ##
       l = lower_bound(n) #compute the lower bound of the node
       if l >= U: continue
-      children = get_children(n)
+      children = get_children(n) #usan dom
       # en paper ordenan los nodos antes 
       # de guardarlos usando 7 criterios
       for each c in children:
@@ -61,6 +61,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTU0MTE1MywtMTIwMzMxOTk0NCwtMT
-kyNzI0MTUxNCwxNDk5NTk1ODkxXX0=
+eyJoaXN0b3J5IjpbMjA2MzAzMDE2MSwxNDE1NTQxMTUzLC0xMj
+AzMzE5OTQ0LC0xOTI3MjQxNTE0LDE0OTk1OTU4OTFdfQ==
 -->
