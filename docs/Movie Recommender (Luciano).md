@@ -24,7 +24,9 @@ TODO
 - Abstract
 - Introduction
 	- Contexto del problema
-	- Se menciona un poco lo que se ha hecho 
+	- Se menciona un poco lo que se ha hecho (estado del arte en general y lo más relacionado con nuestra propuesta)
+	- Se resume la propuesta destacando la contribución (adición de vectores usando análisis de texto)
+- 
 
 
 
@@ -115,7 +117,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE2NzI5OSw5Njc5Mjc2ODEsLTE0Mj
+eyJoaXN0b3J5IjpbLTY4ODI1NTUzOSw5Njc5Mjc2ODEsLTE0Mj
 M1NjQ2ODcsMTg5MzE3MjIzMywtMTY1OTg5MDM1LDIyNTY5NDEx
 OCwtMTg2MDEwMTgwM119
 -->
