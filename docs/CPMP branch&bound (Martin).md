@@ -40,7 +40,7 @@ def search(layout, L, U): #lower y upperbound
 
 ### Componentes claves del paper (deberíamos replicar)
 
-- Cálculo del lower_bound (permite descart
+- Cálculo del lower_bound (se usa para descartar nodos sub-óptimos)
 - Movimientos son filtrados usando **reglas de dominancia**, es decir, se eliminan movimientos que con 100% de certeza no llegarán a la solución óptima del problema.
 - Nodos se ordenan antes de ser almacenados en el stack. De esta manera se exploran ramas más prometedoras primero.
 
@@ -69,6 +69,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5NDA1Mzk5LDE0MTU1NDExNTMsLTEyMD
-MzMTk5NDQsLTE5MjcyNDE1MTQsMTQ5OTU5NTg5MV19
+eyJoaXN0b3J5IjpbMTQyNzcyOTk1OSwxNDE1NTQxMTUzLC0xMj
+AzMzE5OTQ0LC0xOTI3MjQxNTE0LDE0OTk1OTU4OTFdfQ==
 -->
