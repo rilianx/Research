@@ -25,7 +25,7 @@ def search(layout, LB, UB):
       ub = greedy(n) # compute upper bound
       if ub < UB: 
          UB = ub
-         if UB=LB: return #
+         if LB==UB: return #termina algoritmo
       ##
       lb = LB(n) #compute the lower bound of the node
       if lb >= UB: continue
@@ -59,6 +59,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE5NzIyNDgsLTEyMDMzMTk5NDQsLT
+eyJoaXN0b3J5IjpbLTE4ODc0OTQyMDEsLTEyMDMzMTk5NDQsLT
 E5MjcyNDE1MTQsMTQ5OTU5NTg5MV19
 -->
