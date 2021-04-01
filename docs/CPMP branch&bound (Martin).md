@@ -40,7 +40,7 @@ def search(layout, L, U): #lower y upperbound
 
 **Componetes claves del paper:**
 - Cálculo del lower_bound
-- Movimientos son filtrados usando *reglas de dominancia*
+- Movimientos son filtrados usando *reglas de dominancia*, es decir, movimie
 
 
 
@@ -67,6 +67,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDM5OTg5MywxNDE1NTQxMTUzLC0xMj
+eyJoaXN0b3J5IjpbLTgwOTQ0NjE1OCwxNDE1NTQxMTUzLC0xMj
 AzMzE5OTQ0LC0xOTI3MjQxNTE0LDE0OTk1OTU4OTFdfQ==
 -->
