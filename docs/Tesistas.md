@@ -11,6 +11,8 @@
 Aprendizaje en optimización ([DQN+node selection](https://docs.google.com/file/d/1ma_yMXg5BGIQD7mN_ivIWvUrEvG_LSD2/edit))
 [Doc](https://drive.google.com/drive/folders/1OF70LOVH-SEvnIcca68kWEruzN_Tyd14?usp=sharing)
 
+- Agregar citas en backgro
+
 
 ### Braulio
  
@@ -58,6 +60,6 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAxMjk1MjcsOTA3MjA4MDE3LC01Mj
-YyODU1MzNdfQ==
+eyJoaXN0b3J5IjpbLTEzNjkwNzczNjUsLTE3NzAxMjk1MjcsOT
+A3MjA4MDE3LC01MjYyODU1MzNdfQ==
 -->
