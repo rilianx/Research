@@ -1,5 +1,6 @@
 CPMP branch & bound
 ===
+Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view).
 
 Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
@@ -29,7 +30,7 @@ def search(layout, L, U): #lower y upperbound
       ##
       l = lower_bound(n) #compute the lower bound of the node
       if l >= U: continue
-      children = get_children(n) #usan dom
+      children = get_children(n) 
       # en paper ordenan los nodos antes 
       # de guardarlos usando 7 criterios
       for each c in children:
@@ -37,7 +38,12 @@ def search(layout, L, U): #lower y upperbound
       L = update(L) # nodo con menor l
 ````
 
-Basado en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view):
+**Componetes claves del paper:**
+- Cálculo del lower_bound
+- Movimientos son filtrados usando *reglas de dominancia*
+
+
+
 
 ![image](https://i.imgur.com/inpzkaD.png)
 
@@ -61,6 +67,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzAzMDE2MSwxNDE1NTQxMTUzLC0xMj
+eyJoaXN0b3J5IjpbMTk3NDM5OTg5MywxNDE1NTQxMTUzLC0xMj
 AzMzE5OTQ0LC0xOTI3MjQxNTE0LDE0OTk1OTU4OTFdfQ==
 -->
