@@ -10,6 +10,7 @@
 ### Alen
 Aprendizaje en optimización ([DQN+node selection](https://docs.google.com/file/d/1ma_yMXg5BGIQD7mN_ivIWvUrEvG_LSD2/edit))
 
+
 ### Braulio
  
  Sitio web para comparación de agentes
@@ -56,5 +57,5 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjI4NTUzM119
+eyJoaXN0b3J5IjpbOTA3MjA4MDE3LC01MjYyODU1MzNdfQ==
 -->
