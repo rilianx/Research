@@ -20,16 +20,17 @@ void solve(layout)
 ````python
 def DFS(layout, LB, UB):
    S = stack()
-   while s is not empty:
-      n = pop(s)
+   while S is not empty:
+      n = S.pop()
       ub = greedy(n) # compute upper bound
       if ub < UB: UB = ub
       ##
       lb = LB(n) #compute the lower bound of the node
       if lb >= UB: continue
       children = get_children(n)
+      #en pap
       for each c in children:
-         push(s,c)
+         S.push(c)
 ````
 
 Basado en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view):
@@ -56,6 +57,6 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTA5NjkwMCwtMTIwMzMxOTk0NCwtMT
+eyJoaXN0b3J5IjpbMTU5NjQwMTc4MywtMTIwMzMxOTk0NCwtMT
 kyNzI0MTUxNCwxNDk5NTk1ODkxXX0=
 -->
