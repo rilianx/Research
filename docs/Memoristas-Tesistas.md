@@ -105,22 +105,22 @@ Encuesta para entender el problema.
 
 ## Formato de la memoria
 
-### 1ra entrega
+### 1ra entrega avance
 
 - Resumen
 - Introducción
 - Estado del Arte (lo más completo posible)
-- Marco o Teórico o Background
+- Marco Teórico o Background (algunas cosas)
 - Propuesta (una idea sin tanto detalle)
 - Planificación
 
-### 2da entrega
+### Entrega final (seminario)
 - Resumen
 - Introducción
-- Estado del Arte (lo más completo posible)
-- Marco o Teórico o Background
-- Propuesta (una idea sin tanto detalle)
-- Resultados preliminares (Experimentos)
+- Estado del Arte 
+- Marco Teórico o Background
+- Propuesta (detallada)
+- Resultados preliminares 
 - Conclusiones y trabajo futuro
 
 
@@ -142,7 +142,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTE0NzIzNiwtMjE2NzgwODAxLC0xMD
+eyJoaXN0b3J5IjpbMTE1MTI0MzM0NCwtMjE2NzgwODAxLC0xMD
 Q4NTc2ODUxLC0xODg2MzM5NjQ0LC0yNjM3OTM5Niw0NjYzMjMz
 NCwtMjA1MjExMzA0OSwtMTI2NTg5NTY5MSwtMTczNzc1Mjc3Ni
 wxODA5NTU5MzcwLC04MzczOTYyMjMsNjYxNjMyMzQsLTQxNDk4
