@@ -29,6 +29,11 @@ Memoristas
 - Preparar entregable
 
 
+### José García
+
+Algoritmo de detección de plagio (código)
+
+
 ---
 
 ### Byron y Jaime
@@ -70,9 +75,6 @@ Encuesta para entender el problema.
 
 ---
 
-### José García
-
-Algoritmo de detección de plagio (código)
 
 
 
@@ -116,11 +118,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjc4MDgwMSwtMTA0ODU3Njg1MSwtMT
-g4NjMzOTY0NCwtMjYzNzkzOTYsNDY2MzIzMzQsLTIwNTIxMTMw
-NDksLTEyNjU4OTU2OTEsLTE3Mzc3NTI3NzYsMTgwOTU1OTM3MC
-wtODM3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mjg4NDYx
-OTksLTEyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NC
-wtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04
-MDMzODk5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE2MTQ4NzEzMjUsLTIxNjc4MDgwMSwtMT
+A0ODU3Njg1MSwtMTg4NjMzOTY0NCwtMjYzNzkzOTYsNDY2MzIz
+MzQsLTIwNTIxMTMwNDksLTEyNjU4OTU2OTEsLTE3Mzc3NTI3Nz
+YsMTgwOTU1OTM3MCwtODM3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5
+ODg3NSw3Mjg4NDYxOTksLTEyMDM3Mjc2ODAsMTY2MzU3MzEwMC
+wtMTM0MDk5Mzg4NCwtMTM4MjM4NTgxOCwtNjc3NjM5NDIzLC0x
+NzA0NTY4NjA5XX0=
 -->
