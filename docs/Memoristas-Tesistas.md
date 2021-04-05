@@ -111,7 +111,7 @@ Encuesta para entender el problema.
 - Introducción
 - Estado del Arte (lo más completo posible)
 - Marco Teórico o Background (algunas cosas)
-- Propuesta (una idea sin tanto detalle)
+- Propuesta (resumen de una página)
 - Planificación
 
 ### Entrega final (seminario)
@@ -142,11 +142,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTI0MzM0NCwtMjE2NzgwODAxLC0xMD
-Q4NTc2ODUxLC0xODg2MzM5NjQ0LC0yNjM3OTM5Niw0NjYzMjMz
-NCwtMjA1MjExMzA0OSwtMTI2NTg5NTY5MSwtMTczNzc1Mjc3Ni
-wxODA5NTU5MzcwLC04MzczOTYyMjMsNjYxNjMyMzQsLTQxNDk4
-ODc1LDcyODg0NjE5OSwtMTIwMzcyNzY4MCwxNjYzNTczMTAwLC
-0xMzQwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3
-MDQ1Njg2MDldfQ==
+eyJoaXN0b3J5IjpbLTYzMjIwNTYxNCwxMTUxMjQzMzQ0LC0yMT
+Y3ODA4MDEsLTEwNDg1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5
+Mzk2LDQ2NjMyMzM0LC0yMDUyMTEzMDQ5LC0xMjY1ODk1NjkxLC
+0xNzM3NzUyNzc2LDE4MDk1NTkzNzAsLTgzNzM5NjIyMyw2NjE2
+MzIzNCwtNDE0OTg4NzUsNzI4ODQ2MTk5LC0xMjAzNzI3NjgwLD
+E2NjM1NzMxMDAsLTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLTY3
+NzYzOTQyM119
 -->
