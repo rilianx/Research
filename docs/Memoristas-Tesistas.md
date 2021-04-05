@@ -22,9 +22,10 @@ Memoristas
 - Crear modelo.
 - Validar el modelo.
 
-**¿En qué están?**
+**TODO**
 
 - Análisis y etiquetado de datos
+- Diseñar el modelo
 
 
 ---
@@ -113,10 +114,10 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mzc5Mzk2LDQ2NjMyMzM0LC0yMDUyMT
-EzMDQ5LC0xMjY1ODk1NjkxLC0xNzM3NzUyNzc2LDE4MDk1NTkz
-NzAsLTgzNzM5NjIyMyw2NjE2MzIzNCwtNDE0OTg4NzUsNzI4OD
-Q2MTk5LC0xMjAzNzI3NjgwLDE2NjM1NzMxMDAsLTEzNDA5OTM4
-ODQsLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMTcwNDU2ODYwOS
-wtODAzMzg5OTA4XX0=
+eyJoaXN0b3J5IjpbLTE4ODYzMzk2NDQsLTI2Mzc5Mzk2LDQ2Nj
+MyMzM0LC0yMDUyMTEzMDQ5LC0xMjY1ODk1NjkxLC0xNzM3NzUy
+Nzc2LDE4MDk1NTkzNzAsLTgzNzM5NjIyMyw2NjE2MzIzNCwtND
+E0OTg4NzUsNzI4ODQ2MTk5LC0xMjAzNzI3NjgwLDE2NjM1NzMx
+MDAsLTEzNDA5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYzOTQyMy
+wtMTcwNDU2ODYwOSwtODAzMzg5OTA4XX0=
 -->
