@@ -22,6 +22,11 @@ Memoristas
 - Crear modelo.
 - Validar el modelo.
 
+**¿En qué están?**
+
+- Análisis y etiquetado de datos
+
+
 ---
 
 ### Byron y Jaime
@@ -108,10 +113,10 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MzIzMzQsLTIwNTIxMTMwNDksLTEyNj
-U4OTU2OTEsLTE3Mzc3NTI3NzYsMTgwOTU1OTM3MCwtODM3Mzk2
-MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mjg4NDYxOTksLTEyMD
-M3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5Mzg4NCwtMTM4MjM4
-NTgxOCwtNjc3NjM5NDIzLC0xNzA0NTY4NjA5LC04MDMzODk5MD
-hdfQ==
+eyJoaXN0b3J5IjpbLTI2Mzc5Mzk2LDQ2NjMyMzM0LC0yMDUyMT
+EzMDQ5LC0xMjY1ODk1NjkxLC0xNzM3NzUyNzc2LDE4MDk1NTkz
+NzAsLTgzNzM5NjIyMyw2NjE2MzIzNCwtNDE0OTg4NzUsNzI4OD
+Q2MTk5LC0xMjAzNzI3NjgwLDE2NjM1NzMxMDAsLTEzNDA5OTM4
+ODQsLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMTcwNDU2ODYwOS
+wtODAzMzg5OTA4XX0=
 -->
