@@ -103,8 +103,15 @@ Encuesta para entender el problema.
 	- Resumen introductorio de la propuesta
 	- Explicar en detalle cada uno de sus componentes
 
-Formato
----
+## Formato de la memoria
+
+- Resumen
+- Introducción
+- Estado del Arte
+- Marco o Teórico o Background
+- Propuesta
+- Resultados preliminares (Experimentos)
+- Conclusiones y trabajo futuro
 
 
 
@@ -125,11 +132,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTAxNjk2LC0yMTY3ODA4MDEsLTEwND
-g1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5Mzk2LDQ2NjMyMzM0
-LC0yMDUyMTEzMDQ5LC0xMjY1ODk1NjkxLC0xNzM3NzUyNzc2LD
-E4MDk1NTkzNzAsLTgzNzM5NjIyMyw2NjE2MzIzNCwtNDE0OTg4
-NzUsNzI4ODQ2MTk5LC0xMjAzNzI3NjgwLDE2NjM1NzMxMDAsLT
-EzNDA5OTM4ODQsLTEzODIzODU4MTgsLTY3NzYzOTQyMywtMTcw
-NDU2ODYwOV19
+eyJoaXN0b3J5IjpbMTg3MjA5ODQxNiwtMjE2NzgwODAxLC0xMD
+Q4NTc2ODUxLC0xODg2MzM5NjQ0LC0yNjM3OTM5Niw0NjYzMjMz
+NCwtMjA1MjExMzA0OSwtMTI2NTg5NTY5MSwtMTczNzc1Mjc3Ni
+wxODA5NTU5MzcwLC04MzczOTYyMjMsNjYxNjMyMzQsLTQxNDk4
+ODc1LDcyODg0NjE5OSwtMTIwMzcyNzY4MCwxNjYzNTczMTAwLC
+0xMzQwOTkzODg0LC0xMzgyMzg1ODE4LC02Nzc2Mzk0MjMsLTE3
+MDQ1Njg2MDldfQ==
 -->
