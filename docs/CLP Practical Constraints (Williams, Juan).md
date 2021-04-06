@@ -44,6 +44,7 @@ Estado del arte:
 - Técnicas exactas (branch and bound)
 - Heurísticas constructivas
 - Restricciones prácticas
+- 2021 y 202x
 
 
 ----
@@ -286,7 +287,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQxODI1NTUsLTE0Mzk5ODU5MTcsMT
+eyJoaXN0b3J5IjpbLTIwOTU2MjU1ODIsLTE0Mzk5ODU5MTcsMT
 E2MzY4MDg0LC0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4
 OTk2NSw0MzYyODY0OCwtNTk2NDAwODU5LDE2NDM3ODEyOTEsLT
 E4Mzc0MzAxMzgsNDE3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOTMx
