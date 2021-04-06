@@ -1,27 +1,3 @@
-# Tesistas
-
-
-### Mario Dorochesi
-
- [Pointer network para Strip Packing](https://docs.google.com/file/d/16rEuyZvjUEz97w8JB2fqRzhR4UbZYEEV/edit)
-[Gdrive](https://drive.google.com/drive/folders/1cedE7d42QyY1Ujf7PnIt2TDvdcjnBc9t?usp=sharing)
-
-
-### Alen
-Aprendizaje en optimización ([DQN+node selection](https://docs.google.com/file/d/1ma_yMXg5BGIQD7mN_ivIWvUrEvG_LSD2/edit))
-[Doc](https://drive.google.com/drive/folders/1OF70LOVH-SEvnIcca68kWEruzN_Tyd14?usp=sharing)
-
-- Agregar citas en background
-
-
-### Braulio
- 
- Sitio web para comparación de agentes
- 
-[RL-dictionary](https://towardsdatascience.com/the-complete-reinforcement-learning-dictionary-e16230b7d24e)
-[Greedy Algorithms](https://brilliant.org/wiki/greedy-algorithm/#:~:text=A%20greedy%20algorithm%20is%20a,to%20solve%20the%20entire%20problem.)
-[Doc Tesis](https://www.icloud.com/pages/0kgVh7Aw6mPGxySoSILZwrgfw#Informe_Seminario)
-
 
 ## Desarrollo de la tesis
 
@@ -60,6 +36,6 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MTA2NDcyLC0xNzcwMTI5NTI3LDkwNz
-IwODAxNywtNTI2Mjg1NTMzXX0=
+eyJoaXN0b3J5IjpbMTMxMTExMDQwOSw0NzYxMDY0NzIsLTE3Nz
+AxMjk1MjcsOTA3MjA4MDE3LC01MjYyODU1MzNdfQ==
 -->
