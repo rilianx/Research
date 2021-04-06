@@ -56,94 +56,14 @@ Propongo realizar los siguientes pasos:
 6. Hacerse una idea general de lo que existe y comenzar a bosquejar los temas que se abordarán y papers que se citarán en el estado del arte.
 
 
-Memoristas
---
-
-### Juan y Sebastián: 
-
-[ToDo App](https://docs.google.com/file/d/1yQS1kjmL7xa3prQmHJI0EGcXyQ60qM1p/edit)
-
-- DONE: Tablita Excel con papers. Mindfulness, papers.
-- TODO: Buscar aplicaciones.
-
----
-
-### Ayrton y Bruno Díaz
-
-**Idea:** Tratar de adivinar lo que está haciendo el usuario (e.g., ) en base a sensores de smartphone incluyendo a audio.
-
-[Drive](https://drive.google.com/drive/folders/1J-RoZXGb6gB5YeBXbBBzzacjT0t-Wc5S)
-
-[doc](https://www.overleaf.com/read/kjfwgpmckhhr)
-
-**Context-Aware Human Activity Recognition**
-
-- Limpiar información. Identificar los atributos más relevantes. Normalizar.
-- Crear modelo.
-- Validar el modelo.
-
-**TODO**
-
-- Análisis y etiquetado de datos
-- Diseñar el modelo
-- Preparar entregable
-
-
-### José García
-
-Algoritmo de detección de plagio (código)
-[doc](https://www.overleaf.com/8942898488hqmfbyxdxdvd)
-
----
-
-### Byron y Jaime
-
-- Contexto de interpretación de flauta traversa
-- Obtención de datos a partir de sensores
-- Preprocesamiento de datos y sincronización
-
-Objetivo general: identificar nivel del intérprete en base a los datos.
-
-**Marco Teórico:**
-
-- Interpretación Musical (lectura musical)
-	- Interpretación Flauta Traversa (elemento de viento)
-	- Sight Reading --> general
-	- Gestión del Aire --> flauta traversa
-- Análisis de datos relacionados con interpretación músical
-	- Análisis de datos en flauta traversa
-
----
-
-### Katrina y Victor
-
-Crear planes de comida para pacientes patológicos.
-Input: Patología (diabetes), peso, restricciones de comida, tratamiento que sigue, etc...
-
-Optimizar nutrientes -> maximizar contenido nutricional.
-
-Encuesta para entender el problema.
-
----
-
-
-### Jorge Pacheco y Sebastián Baeza
-
-[DQN para juegos](https://docs.google.com/file/d/1VyM1QcedEZQqNSohkIH0HbFuqnCVkHXE/edit)
-
-[https://paperswithcode.com/task/openai-gym]
-
-[colab](https://colab.research.google.com/drive/1hhQqqLlPSTlJGtJoWnQffC5H0BTYWB5A?usp=sharing)
-
----
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MzY2OTc2LDU5Nzc0Nzg1NCwtNjMyMj
-A1NjE0LDExNTEyNDMzNDQsLTIxNjc4MDgwMSwtMTA0ODU3Njg1
-MSwtMTg4NjMzOTY0NCwtMjYzNzkzOTYsNDY2MzIzMzQsLTIwNT
-IxMTMwNDksLTEyNjU4OTU2OTEsLTE3Mzc3NTI3NzYsMTgwOTU1
-OTM3MCwtODM3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5ODg3NSw3Mj
-g4NDYxOTksLTEyMDM3Mjc2ODAsMTY2MzU3MzEwMCwtMTM0MDk5
-Mzg4NF19
+eyJoaXN0b3J5IjpbLTg2MjM0MTY2Nyw1NjgzNjY5NzYsNTk3Nz
+Q3ODU0LC02MzIyMDU2MTQsMTE1MTI0MzM0NCwtMjE2NzgwODAx
+LC0xMDQ4NTc2ODUxLC0xODg2MzM5NjQ0LC0yNjM3OTM5Niw0Nj
+YzMjMzNCwtMjA1MjExMzA0OSwtMTI2NTg5NTY5MSwtMTczNzc1
+Mjc3NiwxODA5NTU5MzcwLC04MzczOTYyMjMsNjYxNjMyMzQsLT
+QxNDk4ODc1LDcyODg0NjE5OSwtMTIwMzcyNzY4MCwxNjYzNTcz
+MTAwXX0=
 -->
