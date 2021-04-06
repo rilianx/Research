@@ -1,6 +1,5 @@
 ## Trabajo en Memoria
 
-
 - Definir objetivos del trabajo
    - Objetivo principal: Desarrollar/Implementar...
    - Estudio de estado del arte
@@ -59,11 +58,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjM0MTY2Nyw1NjgzNjY5NzYsNTk3Nz
-Q3ODU0LC02MzIyMDU2MTQsMTE1MTI0MzM0NCwtMjE2NzgwODAx
-LC0xMDQ4NTc2ODUxLC0xODg2MzM5NjQ0LC0yNjM3OTM5Niw0Nj
-YzMjMzNCwtMjA1MjExMzA0OSwtMTI2NTg5NTY5MSwtMTczNzc1
-Mjc3NiwxODA5NTU5MzcwLC04MzczOTYyMjMsNjYxNjMyMzQsLT
-QxNDk4ODc1LDcyODg0NjE5OSwtMTIwMzcyNzY4MCwxNjYzNTcz
-MTAwXX0=
+eyJoaXN0b3J5IjpbLTE0MTkxNzY4ODUsLTg2MjM0MTY2Nyw1Nj
+gzNjY5NzYsNTk3NzQ3ODU0LC02MzIyMDU2MTQsMTE1MTI0MzM0
+NCwtMjE2NzgwODAxLC0xMDQ4NTc2ODUxLC0xODg2MzM5NjQ0LC
+0yNjM3OTM5Niw0NjYzMjMzNCwtMjA1MjExMzA0OSwtMTI2NTg5
+NTY5MSwtMTczNzc1Mjc3NiwxODA5NTU5MzcwLC04MzczOTYyMj
+MsNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0NjE5OSwtMTIwMzcy
+NzY4MF19
 -->
