@@ -40,6 +40,9 @@ TODO
 	- Experimentos preliminares
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
+Estado del arte:
+- Técnicas exactas (branch and bound)
+- Técnicas 
 
 
 ----
@@ -282,7 +285,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDAxNDExOSwtMTQzOTk4NTkxNywxMT
+eyJoaXN0b3J5IjpbMTMzMTE2MjI4MSwtMTQzOTk4NTkxNywxMT
 YzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5
 OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMT
 gzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3MjE5MzE4
