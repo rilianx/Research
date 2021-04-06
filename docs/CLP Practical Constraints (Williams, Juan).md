@@ -40,6 +40,8 @@ TODO
 	- Experimentos preliminares
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
+
+
 ----
 
 ### Restricciones Duras
@@ -280,11 +282,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC0xND
-cyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0
-OCwtNTk2NDAwODU5LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsND
-E3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcw
-MDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LD
-IwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2ODkyNDE4MiwtNzIw
-MTY2MTgzXX0=
+eyJoaXN0b3J5IjpbMTQzMDAxNDExOSwtMTQzOTk4NTkxNywxMT
+YzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5
+OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMT
+gzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3MjE5MzE4
+NCwtMTM3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3NDY4LC
+0zMzc4ODg5OTYsMjA2NjQ1MDU3NiwtMTQyMzAzNDk2NSwxNzY4
+OTI0MTgyXX0=
 -->
