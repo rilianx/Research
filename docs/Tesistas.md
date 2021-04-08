@@ -1,8 +1,8 @@
-## 1ra entrega avance
+## 1ra entrega avance ()
 
 - Resumen
 - Introducción
-- Objetivos, plan de trabajo
+- Objetivos, plan de trabajo, metodología
 - Estado del Arte (lo más completo posible)
 - Marco Teórico o Background (algunas cosas)
 - Propuesta (resumen de una página)
@@ -47,7 +47,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzNzIyMzIzLDEzMTExMTA0MDksNDc2MT
-A2NDcyLC0xNzcwMTI5NTI3LDkwNzIwODAxNywtNTI2Mjg1NTMz
-XX0=
+eyJoaXN0b3J5IjpbMzk4NDU5NDgsMTMxMTExMDQwOSw0NzYxMD
+Y0NzIsLTE3NzAxMjk1MjcsOTA3MjA4MDE3LC01MjYyODU1MzNd
+fQ==
 -->
