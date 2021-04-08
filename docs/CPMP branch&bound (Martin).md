@@ -6,8 +6,10 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### TODO
 
-* Buscar fuga de memoria
+* update(L): menor l de los nodos guardados en el stack
+* 
 
+---
 * Implementar siguiente algoritmo:
 
 ````c++
@@ -70,7 +72,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjY1NzMwMCwyNzM2MDE1MDYsMTU1Nz
-UyMzY4LDE0MTU1NDExNTMsLTEyMDMzMTk5NDQsLTE5MjcyNDE1
-MTQsMTQ5OTU5NTg5MV19
+eyJoaXN0b3J5IjpbMTYxMDIyNDAsLTQ2NjY1NzMwMCwyNzM2MD
+E1MDYsMTU1NzUyMzY4LDE0MTU1NDExNTMsLTEyMDMzMTk5NDQs
+LTE5MjcyNDE1MTQsMTQ5OTU5NTg5MV19
 -->
