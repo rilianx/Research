@@ -29,20 +29,20 @@ def search(layout, L, U): #lower y upperbound
    S = stack() # por ahora
    lbs = multiset() # aquí se guardan todos los lbs de menor a mayor
    while S is not empty:
-      n = S.pop()
+      n = S.pop(); lbs.remove(n.l)
       u = greedy(n) # compute upper bound
       if u < U: 
          U = ub
          if L==U: return #termina algoritmo
       ##
-      l = lower_bound(n)+n.steps
-      lbs.add(l)
-      if l >= U: continue
+      n.l = lower_bound(n)+n.steps
+      lbs.add(n.l)
+      if n.l >= U: continue
       children = get_children(n) 
       # en paper ordenan los nodos antes de guardarlos usando 7 criterios
       for each c in children:
          S.push(c)
-      L = update(L) # menor l de los nodos en S
+      L = first(lbs) # primer valor del multiset
 ````
 
 ### Componentes claves del paper (deberíamos replicar)
@@ -76,7 +76,8 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDkzMzkxLC0zMzY5ODI2MjgsLTQ2Nj
-Y1NzMwMCwyNzM2MDE1MDYsMTU1NzUyMzY4LDE0MTU1NDExNTMs
-LTEyMDMzMTk5NDQsLTE5MjcyNDE1MTQsMTQ5OTU5NTg5MV19
+eyJoaXN0b3J5IjpbLTE4NDM0NDczMzAsLTMzNjk4MjYyOCwtND
+Y2NjU3MzAwLDI3MzYwMTUwNiwxNTU3NTIzNjgsMTQxNTU0MTE1
+MywtMTIwMzMxOTk0NCwtMTkyNzI0MTUxNCwxNDk5NTk1ODkxXX
+0=
 -->
