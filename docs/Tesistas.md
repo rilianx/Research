@@ -1,4 +1,4 @@
-## 1ra entrega avance ()
+## 1ra entrega avance (jueves 13 de mayo)
 
 - Resumen
 - Introducción
@@ -47,7 +47,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NDU5NDgsMTMxMTExMDQwOSw0NzYxMD
-Y0NzIsLTE3NzAxMjk1MjcsOTA3MjA4MDE3LC01MjYyODU1MzNd
-fQ==
+eyJoaXN0b3J5IjpbMTMwMTYyMDIzLDEzMTExMTA0MDksNDc2MT
+A2NDcyLC0xNzcwMTI5NTI3LDkwNzIwODAxNywtNTI2Mjg1NTMz
+XX0=
 -->
