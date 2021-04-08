@@ -35,8 +35,7 @@ def search(layout, L, U): #lower y upperbound
          U = ub
          if L==U: return #termina algoritmo
       ##
-      n.l = lower_bound(n)+n.steps
-      lbs.add(n.l)
+      n.l = lower_bound(n)+n.steps; lbs.add(n.l)
       if n.l >= U: continue
       children = get_children(n) 
       # en paper ordenan los nodos antes de guardarlos usando 7 criterios
@@ -76,8 +75,8 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM0NDczMzAsLTMzNjk4MjYyOCwtND
-Y2NjU3MzAwLDI3MzYwMTUwNiwxNTU3NTIzNjgsMTQxNTU0MTE1
-MywtMTIwMzMxOTk0NCwtMTkyNzI0MTUxNCwxNDk5NTk1ODkxXX
-0=
+eyJoaXN0b3J5IjpbLTE1NjgzMDMzNDMsLTE4NDM0NDczMzAsLT
+MzNjk4MjYyOCwtNDY2NjU3MzAwLDI3MzYwMTUwNiwxNTU3NTIz
+NjgsMTQxNTU0MTE1MywtMTIwMzMxOTk0NCwtMTkyNzI0MTUxNC
+wxNDk5NTk1ODkxXX0=
 -->
