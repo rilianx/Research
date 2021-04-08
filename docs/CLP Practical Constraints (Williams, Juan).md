@@ -27,8 +27,6 @@ TODO
 
 ### Williams
 
-[link]()
-
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
 - Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
@@ -289,7 +287,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTg3MTAzLC0yMDk1NjI1NTgyLC0xND
+eyJoaXN0b3J5IjpbMTQyMjI5MDc0LC0yMDk1NjI1NTgyLC0xND
 M5OTg1OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0
 MDYsLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQwMDg1OSwxNj
 QzNzgxMjkxLC0xODM3NDMwMTM4LDQxNzUyNzI1MSwtMjY1NDAz
