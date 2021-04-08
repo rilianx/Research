@@ -69,8 +69,11 @@ es decir, la cardinalidad de la intersección de categorías dividida por la car
 **Función para evaluar utilidad en base al vector de pesos**
 
 ````
-def eval(v, listas):
-   L = 
+def eval(v, listas_de prueba):
+   for L in listas_de_prueba:
+       m = sample(L,1)
+       recomendadas = recommend(v,m,10)
+       aciertos += len(L.intersect(recomendadas))
 ````
 
 N listas
@@ -131,7 +134,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzY2OTI2MywxNDQ4MjA2MjQwLDk2Nz
+eyJoaXN0b3J5IjpbLTMxMjg5MzEwNywxNDQ4MjA2MjQwLDk2Nz
 kyNzY4MSwtMTQyMzU2NDY4NywxODkzMTcyMjMzLC0xNjU5ODkw
 MzUsMjI1Njk0MTE4LC0xODYwMTAxODAzXX0=
 -->
