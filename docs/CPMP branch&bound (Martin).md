@@ -6,9 +6,10 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### TODO
 
+* ordenar de los hijos
 * update(L): menor l de los nodos guardados en el stack
 *  `lower_bound`
-* orden de los hijos
+* Como filtrar acciones usando regl
 
 ---
 * Implementar siguiente algoritmo:
@@ -73,7 +74,8 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjk4MjYyOCwtNDY2NjU3MzAwLDI3Mz
-YwMTUwNiwxNTU3NTIzNjgsMTQxNTU0MTE1MywtMTIwMzMxOTk0
-NCwtMTkyNzI0MTUxNCwxNDk5NTk1ODkxXX0=
+eyJoaXN0b3J5IjpbLTIxMjg0MTU0MzgsLTMzNjk4MjYyOCwtND
+Y2NjU3MzAwLDI3MzYwMTUwNiwxNTU3NTIzNjgsMTQxNTU0MTE1
+MywtMTIwMzMxOTk0NCwtMTkyNzI0MTUxNCwxNDk5NTk1ODkxXX
+0=
 -->
