@@ -53,7 +53,9 @@ Background
 Propuesta
 - Explicar propuesta, usar tabla y notas que hemos realizado.
 	- Resumen de la propuesta. En este trabajo...
-	- 
+	- Para integrar las restricciones prácticas al solver. Consideramos que el solver se puede dividir en varias partes...
+	- De acuerdo a esta división, se planea incorporar cada restricción en alguna de esta secciones como se muestra la tabla...
+	- Explicar cada restricción y la manera en que se piense i
 
 
 ----
@@ -296,11 +298,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTM5NzI2LC0yMDk1NjI1NTgyLC0xND
-M5OTg1OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0
-MDYsLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQwMDg1OSwxNj
-QzNzgxMjkxLC0xODM3NDMwMTM4LDQxNzUyNzI1MSwtMjY1NDAz
-ODYsNTcyMTkzMTg0LC0xMzcwMDQ3MDA2LC0xMTIyMTc0NDc2LD
-E2Njk5Nzc0NjgsLTMzNzg4ODk5NiwyMDY2NDUwNTc2LC0xNDIz
-MDM0OTY1XX0=
+eyJoaXN0b3J5IjpbMTIxMDIxNzYyNiwtMjA5NTYyNTU4MiwtMT
+QzOTk4NTkxNywxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4
+NDA2LC0xNzYwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMT
+Y0Mzc4MTI5MSwtMTgzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQw
+Mzg2LDU3MjE5MzE4NCwtMTM3MDA0NzAwNiwtMTEyMjE3NDQ3Ni
+wxNjY5OTc3NDY4LC0zMzc4ODg5OTYsMjA2NjQ1MDU3NiwtMTQy
+MzAzNDk2NV19
 -->
