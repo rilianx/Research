@@ -68,6 +68,11 @@ es decir, la cardinalidad de la intersección de categorías dividida por la car
 
 **Función para evaluar utilidad en base al vector de pesos**
 
+````
+def eval(v, listas):
+   L = 
+````
+
 N listas
 
 1. Toma la primera lista L
@@ -126,7 +131,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODIwNjI0MCw5Njc5Mjc2ODEsLTE0Mj
-M1NjQ2ODcsMTg5MzE3MjIzMywtMTY1OTg5MDM1LDIyNTY5NDEx
-OCwtMTg2MDEwMTgwM119
+eyJoaXN0b3J5IjpbMTEyNzY2OTI2MywxNDQ4MjA2MjQwLDk2Nz
+kyNzY4MSwtMTQyMzU2NDY4NywxODkzMTcyMjMzLC0xNjU5ODkw
+MzUsMjI1Njk0MTE4LC0xODYwMTAxODAzXX0=
 -->
