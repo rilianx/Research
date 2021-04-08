@@ -72,7 +72,7 @@ es decir, la cardinalidad de la intersección de categorías dividida por la car
 def eval(v, listas_de prueba):
    for L in listas_de_prueba:
        m = sample(L,1)
-       recomendadas = recommend(v,m,10)
+       recomendadas = recommend(v,m,N) #N es el numero de pelis
        aciertos += len(L.intersect(recomendadas))
 	return aciertos
 ````
@@ -135,7 +135,8 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgyNTEwOTMsMTQ0ODIwNjI0MCw5Nj
-c5Mjc2ODEsLTE0MjM1NjQ2ODcsMTg5MzE3MjIzMywtMTY1OTg5
-MDM1LDIyNTY5NDExOCwtMTg2MDEwMTgwM119
+eyJoaXN0b3J5IjpbMTI1MzM4NjkyOCwtMTQyODI1MTA5MywxND
+Q4MjA2MjQwLDk2NzkyNzY4MSwtMTQyMzU2NDY4NywxODkzMTcy
+MjMzLC0xNjU5ODkwMzUsMjI1Njk0MTE4LC0xODYwMTAxODAzXX
+0=
 -->
