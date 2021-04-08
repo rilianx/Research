@@ -7,7 +7,8 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 ### TODO
 
 * update(L): menor l de los nodos guardados en el stack
-* 
+*  `lower_bound`
+* orden de los hijos
 
 ---
 * Implementar siguiente algoritmo:
@@ -72,7 +73,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDIyNDAsLTQ2NjY1NzMwMCwyNzM2MD
-E1MDYsMTU1NzUyMzY4LDE0MTU1NDExNTMsLTEyMDMzMTk5NDQs
-LTE5MjcyNDE1MTQsMTQ5OTU5NTg5MV19
+eyJoaXN0b3J5IjpbLTMzNjk4MjYyOCwtNDY2NjU3MzAwLDI3Mz
+YwMTUwNiwxNTU3NTIzNjgsMTQxNTU0MTE1MywtMTIwMzMxOTk0
+NCwtMTkyNzI0MTUxNCwxNDk5NTk1ODkxXX0=
 -->
