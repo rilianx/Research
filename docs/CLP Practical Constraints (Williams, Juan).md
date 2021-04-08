@@ -50,7 +50,10 @@ Background
 - Problema, restricciones prácticas
 - BSG
 
-
+Propuesta
+- Explicar propuesta, usar tabla y notas que hemos realizado.
+	- Resumen de la propuesta. En este trabajo...
+	- 
 
 
 ----
@@ -293,7 +296,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjU1MTgxLC0yMDk1NjI1NTgyLC0xND
+eyJoaXN0b3J5IjpbMTAyNTM5NzI2LC0yMDk1NjI1NTgyLC0xND
 M5OTg1OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0
 MDYsLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQwMDg1OSwxNj
 QzNzgxMjkxLC0xODM3NDMwMTM4LDQxNzUyNzI1MSwtMjY1NDAz
