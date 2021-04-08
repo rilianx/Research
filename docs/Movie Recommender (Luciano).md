@@ -68,12 +68,13 @@ es decir, la cardinalidad de la intersección de categorías dividida por la car
 
 **Función para evaluar utilidad en base al vector de pesos**
 
-````
+````python
 def eval(v, listas_de prueba):
    for L in listas_de_prueba:
        m = sample(L,1)
        recomendadas = recommend(v,m,10)
        aciertos += len(L.intersect(recomendadas))
+	return aciertos
 ````
 
 N listas
@@ -90,13 +91,13 @@ Retornar promedio de aciertos (hits) por lista.
 ````python
 def hill-climbing(initial_weights):
    v = initial_weights
-   max_hits = eval_utility(v)
+   max_hits = eval(v)
    no_improvements = 0
    while no_improvements<50:
       i = random_weight(v)
       old_value = v[i]
       v[i] = random_value (v[i])
-      hits = eval_utility(v)
+      hits = eval(v)
       if hits > max_hits :
          max_hits = hits
          no_improvements = 0
@@ -134,7 +135,7 @@ Links
 - [colab](https://colab.research.google.com/drive/1xmwnyA3oZazqGUSLQKT-3OYBDESkGdc_)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjg5MzEwNywxNDQ4MjA2MjQwLDk2Nz
-kyNzY4MSwtMTQyMzU2NDY4NywxODkzMTcyMjMzLC0xNjU5ODkw
-MzUsMjI1Njk0MTE4LC0xODYwMTAxODAzXX0=
+eyJoaXN0b3J5IjpbLTE0MjgyNTEwOTMsMTQ0ODIwNjI0MCw5Nj
+c5Mjc2ODEsLTE0MjM1NjQ2ODcsMTg5MzE3MjIzMywtMTY1OTg5
+MDM1LDIyNTY5NDExOCwtMTg2MDEwMTgwM119
 -->
