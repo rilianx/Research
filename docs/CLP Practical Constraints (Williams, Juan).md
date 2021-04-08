@@ -27,6 +27,8 @@ TODO
 
 ### Williams
 
+[link]()
+
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
 - Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
@@ -34,7 +36,7 @@ TODO
 - **Tablita restricciones vs. momentos decisivos del algoritmo**
 - **Escritura de informe**
 	- Introducción (Se hable del contexto, el problema, y la propuesta)
-	- Estado del Arte (Hablar de las técnicas existentes para resolver el problema, desventajas de estas técnicas)
+	- **Estado del Arte (Hablar de las técnicas existentes para resolver el problema, desventajas de estas técnicas)**
 	- Background. Problema explicado formalmente, con función objetivo (formula matemática) y las restricciones. BSG (paper 2017), desventaja: no considera restricciones prácticas.
 	- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG. Propuesta de algoritmo. ¿Cómo se integrarían las restricciones? Tablita + explicaciones detalladas.
 	- Experimentos preliminares
@@ -287,11 +289,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU2MjU1ODIsLTE0Mzk5ODU5MTcsMT
-E2MzY4MDg0LC0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4
-OTk2NSw0MzYyODY0OCwtNTk2NDAwODU5LDE2NDM3ODEyOTEsLT
-E4Mzc0MzAxMzgsNDE3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOTMx
-ODQsLTEzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OC
-wtMzM3ODg4OTk2LDIwNjY0NTA1NzYsLTE0MjMwMzQ5NjUsMTc2
-ODkyNDE4Ml19
+eyJoaXN0b3J5IjpbMTMzOTg3MTAzLC0yMDk1NjI1NTgyLC0xND
+M5OTg1OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0
+MDYsLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQwMDg1OSwxNj
+QzNzgxMjkxLC0xODM3NDMwMTM4LDQxNzUyNzI1MSwtMjY1NDAz
+ODYsNTcyMTkzMTg0LC0xMzcwMDQ3MDA2LC0xMTIyMTc0NDc2LD
+E2Njk5Nzc0NjgsLTMzNzg4ODk5NiwyMDY2NDUwNTc2LC0xNDIz
+MDM0OTY1XX0=
 -->
