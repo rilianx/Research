@@ -46,6 +46,12 @@ Estado del arte:
 - Restricciones prácticas
 - 2021 y 202x
 
+Background
+- Problema, restricciones prácticas
+- BSG
+
+
+
 
 ----
 
@@ -287,7 +293,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjI5MDc0LC0yMDk1NjI1NTgyLC0xND
+eyJoaXN0b3J5IjpbMTg3MjU1MTgxLC0yMDk1NjI1NTgyLC0xND
 M5OTg1OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0
 MDYsLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQwMDg1OSwxNj
 QzNzgxMjkxLC0xODM3NDMwMTM4LDQxNzUyNzI1MSwtMjY1NDAz
