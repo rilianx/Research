@@ -3,9 +3,9 @@
 - Resumen
 - Introducción
 - Objetivos, plan de trabajo, metodología
-- Estado del Arte (lo más completo posible)
+- Estado del Arte (lo más completo posible)==
 - Marco Teórico o Background (algunas cosas)
-- Propuesta (resumen de una página)
+- Propuesta (resumen de una/dos páginas)
 - Conclusiones
 
 
@@ -47,7 +47,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTYyMDIzLDEzMTExMTA0MDksNDc2MT
+eyJoaXN0b3J5IjpbNTI4ODM5MjA1LDEzMTExMTA0MDksNDc2MT
 A2NDcyLC0xNzcwMTI5NTI3LDkwNzIwODAxNywtNTI2Mjg1NTMz
 XX0=
 -->
