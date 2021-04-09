@@ -21,7 +21,6 @@ Links de interés:
 > - [A biased random key genetic algorithm for 2D and 3D bin packing problems](https://sci-hub.se/10.1016/j.ijpe.2013.04.019)
 
 - Revisar tema de los pallets
-- Acercamientos MCLP
 
 TODO
 --
@@ -309,11 +308,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyMDM0MjgzLC0xNzgzNjQyNTYsLTE0Nz
-Q2MDA3NTMsNTI2NjUyMDY2LDIxNDQ0MzMwNTcsLTIwOTU2MjU1
-ODIsLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC0xNDcyNzYxODExLD
-Q4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0OCwtNTk2NDAw
-ODU5LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsNDE3NTI3MjUxLC
-0yNjU0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcwMDYsLTExMjIx
-NzQ0NzZdfQ==
+eyJoaXN0b3J5IjpbMTAyODM5Njk0Niw2NzIwMzQyODMsLTE3OD
+M2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1
+NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgwODQsLT
+E0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LDQzNjI4
+NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMTgzNzQzMDEzOC
+w0MTc1MjcyNTEsLTI2NTQwMzg2LDU3MjE5MzE4NCwtMTM3MDA0
+NzAwNl19
 -->
