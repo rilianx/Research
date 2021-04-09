@@ -15,6 +15,8 @@ TODO (Juan)
 ---
 **Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
 
+
+
 - **Usar distintos target**. Actual: mean(p$p2). Faltaría considerar np (nota presentación) y mean (p\$), promedio pruebas.
 
 - Comparar resultados normalizando toda la columna y normalizando por semestre.
@@ -170,8 +172,9 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDc0MTc1NSwxOTU2MTI2NzMzLC0xND
-Q3NTk2NzIzLC0xMDEyMDk3ODA3LDE3NTA5MTU4MDEsLTIyMjIx
-NDcyMSwtMTM5NDMzOTgyLDY4OTI0NTM0NiwtMTI1NjkxMzEsMT
-M5NTUxNjY5OCwxOTQxODYwNDkwLDkxMjczMjk1M119
+eyJoaXN0b3J5IjpbMzYwMjY5MTEsMTY1MDc0MTc1NSwxOTU2MT
+I2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LDE3NTA5MTU4
+MDEsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OTI0NTM0NiwtMT
+I1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYwNDkwLDkxMjczMjk1
+M119
 -->
