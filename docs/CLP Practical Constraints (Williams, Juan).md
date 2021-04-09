@@ -16,9 +16,9 @@ Links de interés:
 > - [2021 - Practical Constraints in the Container Loading Problem: Comprehensive Formulations and Exact Algorithm](https://drive.google.com/file/d/140Cc5hsvMkzfqlAbjS8LQZFJBCIu1YrL/view)
 > - [202X - A MILP Approach for the Multi-Drop Container Loading Problem](https://drive.google.com/file/d/10DjpuIa6jcbinnr6foMSsag67MQvvm_w/view)
 > - [Memoria de Adolfo y Seba](https://drive.google.com/file/d/15Hz83as3dUzeZaU2c3hhjcY_9ujwsBkG/view?usp=sharing).
-> - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf)
 > - [2017 - A two-dimensional heuristic decomposition approach to a three-dimensional multiple container problem](https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0377221716305707)
 > - [A biased random key genetic algorithm for 2D and 3D bin packing problems](https://sci-hub.se/10.1016/j.ijpe.2013.04.019)
+> - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf): Colocar pallets en camiones. Dimensiones de pallets un poco restrictivas por lo que no se ajustarían a nuestros bloques.
 
 - Revisar tema de los pallets
 
@@ -308,7 +308,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODM5Njk0Niw2NzIwMzQyODMsLTE3OD
+eyJoaXN0b3J5IjpbMTg0MzkxMjQ0Niw2NzIwMzQyODMsLTE3OD
 M2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1
 NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgwODQsLT
 E0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LDQzNjI4
