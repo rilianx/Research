@@ -28,6 +28,8 @@
 - Introducción
 - Estado del Arte (lo más completo posible)
 - Marco Teórico o Background (algunas cosas)
+	- Problema
+	- Métodos existentes que necesitan para la propuesta
 - Propuesta (resumen de una página)
 - Planificación
 
@@ -58,11 +60,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTkxNzY4ODUsLTg2MjM0MTY2Nyw1Nj
-gzNjY5NzYsNTk3NzQ3ODU0LC02MzIyMDU2MTQsMTE1MTI0MzM0
-NCwtMjE2NzgwODAxLC0xMDQ4NTc2ODUxLC0xODg2MzM5NjQ0LC
-0yNjM3OTM5Niw0NjYzMjMzNCwtMjA1MjExMzA0OSwtMTI2NTg5
-NTY5MSwtMTczNzc1Mjc3NiwxODA5NTU5MzcwLC04MzczOTYyMj
-MsNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0NjE5OSwtMTIwMzcy
-NzY4MF19
+eyJoaXN0b3J5IjpbLTEwOTQ2NTU1NzUsLTE0MTkxNzY4ODUsLT
+g2MjM0MTY2Nyw1NjgzNjY5NzYsNTk3NzQ3ODU0LC02MzIyMDU2
+MTQsMTE1MTI0MzM0NCwtMjE2NzgwODAxLC0xMDQ4NTc2ODUxLC
+0xODg2MzM5NjQ0LC0yNjM3OTM5Niw0NjYzMjMzNCwtMjA1MjEx
+MzA0OSwtMTI2NTg5NTY5MSwtMTczNzc1Mjc3NiwxODA5NTU5Mz
+cwLC04MzczOTYyMjMsNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0
+NjE5OV19
 -->
