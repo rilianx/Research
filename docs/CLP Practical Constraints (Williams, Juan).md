@@ -19,10 +19,9 @@ Links de interés:
 > - [A biased random key genetic algorithm for 2D and 3D bin packing problems](https://sci-hub.se/10.1016/j.ijpe.2013.04.019)
 
 Habla de los pallets:
-> - [2017 - A two-dimensional heuristic decomposition approach to a three-dimensional multiple container problem](https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0377221716305707)
 > - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf): Colocar pallets en camiones. Dimensiones de pallets un poco restrictivas por lo que no se ajustarían a nuestros bloques.
 
-- Revisar tema de los pallets
+
 
 TODO
 --
@@ -310,7 +309,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MDg3MDkwLDY3MjAzNDI4MywtMTc4Mz
+eyJoaXN0b3J5IjpbLTg3MDA2OTU0LDY3MjAzNDI4MywtMTc4Mz
 Y0MjU2LC0xNDc0NjAwNzUzLDUyNjY1MjA2NiwyMTQ0NDMzMDU3
 LC0yMDk1NjI1NTgyLC0xNDM5OTg1OTE3LDExNjM2ODA4NCwtMT
 Q3Mjc2MTgxMSw0ODcxNDg0MDYsLTE3NjA1ODk5NjUsNDM2Mjg2
