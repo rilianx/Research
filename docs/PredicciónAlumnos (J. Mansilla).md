@@ -15,19 +15,11 @@ TODO (Juan)
 ---
 **Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
 
-- Identificar todos los atributos seleccionados 
-
-![image](https://i.imgur.com/mHBQJij.png)
-
-- Modificar normalización para normalizar por por columna+semestre (actualmente se normaliza toda la columna en conjunto). Dejar comentado para poder comparar en los experimentos
-
-![image](https://i.imgur.com/MSX49Zn.png)
-
 - Aplicar RFE (Recursive Feature Elimination) + GridSearchCV para obtener los atributos relevantes de cada lab.
 
 - Aplicar los distintos modelos (SVR, RF, Lineal, ANN)  a los distintos conjuntos de datos (lab1,lab2,lab3,lab4, lab1-lab2, lab1-lab3, lab1-lab4) usando GridSearchCv (o RandomSearchCV) para considerar los mejores hiperparámetros de cada modelo.  Obtener R2 y MSE para reportar resultados.
 
-- **Usar distintos target**. Actual: mean(p$p2). Faltaría considerar np (nota presentación).
+- **Usar distintos target**. Actual: mean(p$p2). Faltaría considerar np (nota presentación) y mean (p\$), promedio pruebas.
 
 
 
@@ -181,8 +173,8 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjEyNjczMywtMTQ0NzU5NjcyMywtMT
-AxMjA5NzgwNywxNzUwOTE1ODAxLC0yMjIyMTQ3MjEsLTEzOTQz
-Mzk4Miw2ODkyNDUzNDYsLTEyNTY5MTMxLDEzOTU1MTY2OTgsMT
-k0MTg2MDQ5MCw5MTI3MzI5NTNdfQ==
+eyJoaXN0b3J5IjpbNjA5NTczMzU5LDE5NTYxMjY3MzMsLTE0ND
+c1OTY3MjMsLTEwMTIwOTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0
+NzIxLC0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMz
+k1NTE2Njk4LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
 -->
