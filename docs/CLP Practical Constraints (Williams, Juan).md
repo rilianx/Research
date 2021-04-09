@@ -17,6 +17,7 @@ Links de interés:
 > - [202X - A MILP Approach for the Multi-Drop Container Loading Problem](https://drive.google.com/file/d/10DjpuIa6jcbinnr6foMSsag67MQvvm_w/view)
 > - [Memoria de Adolfo y Seba](https://drive.google.com/file/d/15Hz83as3dUzeZaU2c3hhjcY_9ujwsBkG/view?usp=sharing).
 > - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf)
+> - [2017 - A two-dimensional heuristic decomposition approach to a three-dimensional multiple container problem](https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0377221716305707)
 
 TODO
 --
@@ -304,11 +305,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODM5MTM1Nyw1MjY2NTIwNjYsMjE0ND
-QzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgw
-ODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LD
-QzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMTgzNzQz
-MDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3MjE5MzE4NCwtMT
-M3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3NDY4LC0zMzc4
-ODg5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIxND
+Q0MzMwNTcsLTIwOTU2MjU1ODIsLTE0Mzk5ODU5MTcsMTE2MzY4
+MDg0LC0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4OTk2NS
+w0MzYyODY0OCwtNTk2NDAwODU5LDE2NDM3ODEyOTEsLTE4Mzc0
+MzAxMzgsNDE3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOTMxODQsLT
+EzNzAwNDcwMDYsLTExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMzM3
+ODg4OTk2XX0=
 -->
