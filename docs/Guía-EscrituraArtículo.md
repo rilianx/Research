@@ -46,6 +46,8 @@ Generalmente lo divido en párrafos:
 - Diseñar red (convolutional 1D + [invariante a permutaciones](https://ai.stackexchange.com/questions/4655/how-could-we-build-a-neural-network-that-is-invariant-to-permutations-of-the-inp)) 
 - Comparar con fully connected y paper.
 
+
+
 ---
 ###  Gonzalo Tello
 
@@ -75,7 +77,7 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODgwMDkyOCwyMDEyMzg2OTcxLC0xMj
-Q3NzI1NzYyLC0xMTE2MDY3ODc4LC0xNDk3MTAwNTc1LDEwMjcx
-NjMwNywtMTEzNDQyNjM1NF19
+eyJoaXN0b3J5IjpbLTMyOTcwNTczMiwxMjc4ODAwOTI4LDIwMT
+IzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4NzgsLTE0OTcx
+MDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
 -->
