@@ -4,7 +4,7 @@ CLP Practical Constraints (continuación).
 TODO (profe)
 ---
 
-- Revisar definición del problema
+- Revisar definición del problema, agregar restricciones
 
 Resumen
 ----
@@ -313,11 +313,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyNzc3Nzg2LDI4NDU1MzI4OCw2NzIwMz
-QyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYs
-MjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMT
-YzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5
-OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMT
-gzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3MjE5MzE4
-NF19
+eyJoaXN0b3J5IjpbMTA0NDk3NDQ2MiwyODQ1NTMyODgsNjcyMD
+M0MjgzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2
+LDIxNDQ0MzMwNTcsLTIwOTU2MjU1ODIsLTE0Mzk5ODU5MTcsMT
+E2MzY4MDg0LC0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4
+OTk2NSw0MzYyODY0OCwtNTk2NDAwODU5LDE2NDM3ODEyOTEsLT
+E4Mzc0MzAxMzgsNDE3NTI3MjUxLC0yNjU0MDM4Niw1NzIxOTMx
+ODRdfQ==
 -->
