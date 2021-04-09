@@ -4,7 +4,7 @@ CLP Practical Constraints (continuación).
 TODO (profe)
 ---
 
-- Revisar definición del problema, agregar restricciones
+- Revisar definición del problema, agregar restricciones?
 
 Resumen
 ----
@@ -313,7 +313,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDk3NDQ2MiwyODQ1NTMyODgsNjcyMD
+eyJoaXN0b3J5IjpbLTU1ODk1NTc3MywyODQ1NTMyODgsNjcyMD
 M0MjgzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2
 LDIxNDQ0MzMwNTcsLTIwOTU2MjU1ODIsLTE0Mzk5ODU5MTcsMT
 E2MzY4MDg0LC0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4
