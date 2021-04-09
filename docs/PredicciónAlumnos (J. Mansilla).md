@@ -15,7 +15,7 @@ TODO (Juan)
 ---
 **Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
 
-
+- No hacer pruebas con red neuronal (coeficientes de determinación con valores negativos)
 
 - **Usar distintos target**. Actual: mean(p$p2). Faltaría considerar np (nota presentación) y mean (p\$), promedio pruebas.
 
@@ -172,9 +172,9 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMjY5MTEsMTY1MDc0MTc1NSwxOTU2MT
-I2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LDE3NTA5MTU4
-MDEsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OTI0NTM0NiwtMT
-I1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYwNDkwLDkxMjczMjk1
-M119
+eyJoaXN0b3J5IjpbLTY4MzU1NjgwNiwxNjUwNzQxNzU1LDE5NT
+YxMjY3MzMsLTE0NDc1OTY3MjMsLTEwMTIwOTc4MDcsMTc1MDkx
+NTgwMSwtMjIyMjE0NzIxLC0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC
+0xMjU2OTEzMSwxMzk1NTE2Njk4LDE5NDE4NjA0OTAsOTEyNzMy
+OTUzXX0=
 -->
