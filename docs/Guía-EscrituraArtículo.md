@@ -62,8 +62,8 @@ Generalmente lo divido en párrafos:
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
 
-- Arreglar detalles y dibujos
-- Comenzar redacción en inglés?
+- Hill Climbing
+- Estrategia General
 
 ### KD-Tree
 
@@ -77,7 +77,8 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTcwNTczMiwxMjc4ODAwOTI4LDIwMT
-IzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4NzgsLTE0OTcx
-MDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
+eyJoaXN0b3J5IjpbLTE0OTUzMzA4NjEsLTMyOTcwNTczMiwxMj
+c4ODAwOTI4LDIwMTIzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYw
+Njc4NzgsLTE0OTcxMDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2Mz
+U0XX0=
 -->
