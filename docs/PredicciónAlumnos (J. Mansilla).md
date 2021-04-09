@@ -27,7 +27,7 @@ TODO (Juan)
 
 - Aplicar los distintos modelos (SVR, RF, Lineal, ANN)  a los distintos conjuntos de datos (lab1,lab2,lab3,lab4, lab1-lab2, lab1-lab3, lab1-lab4) usando GridSearchCv (o RandomSearchCV) para considerar los mejores hiperparámetros de cada modelo.  Obtener R2 y MSE para reportar resultados.
 
-- Usar distintos target. Actual: mean(p$p2). Faltaría considerar np (nota presentación).
+- **Usar distintos target**. Actual: mean(p$p2). Faltaría considerar np (nota presentación).
 
 
 
@@ -181,8 +181,8 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc1OTY3MjMsLTEwMTIwOTc4MDcsMT
-c1MDkxNTgwMSwtMjIyMjE0NzIxLC0xMzk0MzM5ODIsNjg5MjQ1
-MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4LDE5NDE4NjA0OTAsOT
-EyNzMyOTUzXX0=
+eyJoaXN0b3J5IjpbMTk1NjEyNjczMywtMTQ0NzU5NjcyMywtMT
+AxMjA5NzgwNywxNzUwOTE1ODAxLC0yMjIyMTQ3MjEsLTEzOTQz
+Mzk4Miw2ODkyNDUzNDYsLTEyNTY5MTMxLDEzOTU1MTY2OTgsMT
+k0MTg2MDQ5MCw5MTI3MzI5NTNdfQ==
 -->
