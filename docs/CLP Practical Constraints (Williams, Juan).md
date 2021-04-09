@@ -18,6 +18,7 @@ Links de interés:
 > - [Memoria de Adolfo y Seba](https://drive.google.com/file/d/15Hz83as3dUzeZaU2c3hhjcY_9ujwsBkG/view?usp=sharing).
 > - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf)
 > - [2017 - A two-dimensional heuristic decomposition approach to a three-dimensional multiple container problem](https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0377221716305707)
+> - [A biased random key genetic algorithm for 2D and 3D bin packing problems](https://sci-hub.se/10.1016/j.ijpe.2013.04.019)
 
 - Revisar tema de los pallets
 - Acercamientos MCLP
@@ -308,11 +309,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1Mj
-Y2NTIwNjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4
-NTkxNywxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC
-0xNzYwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4
-MTI5MSwtMTgzNzQzMDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LD
-U3MjE5MzE4NCwtMTM3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5
-OTc3NDY4XX0=
+eyJoaXN0b3J5IjpbNjcyMDM0MjgzLC0xNzgzNjQyNTYsLTE0Nz
+Q2MDA3NTMsNTI2NjUyMDY2LDIxNDQ0MzMwNTcsLTIwOTU2MjU1
+ODIsLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC0xNDcyNzYxODExLD
+Q4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0OCwtNTk2NDAw
+ODU5LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsNDE3NTI3MjUxLC
+0yNjU0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcwMDYsLTExMjIx
+NzQ0NzZdfQ==
 -->
