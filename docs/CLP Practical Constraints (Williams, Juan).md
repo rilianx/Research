@@ -16,6 +16,7 @@ Links de interés:
 > - [2021 - Practical Constraints in the Container Loading Problem: Comprehensive Formulations and Exact Algorithm](https://drive.google.com/file/d/140Cc5hsvMkzfqlAbjS8LQZFJBCIu1YrL/view)
 > - [202X - A MILP Approach for the Multi-Drop Container Loading Problem](https://drive.google.com/file/d/10DjpuIa6jcbinnr6foMSsag67MQvvm_w/view)
 > - [Memoria de Adolfo y Seba](https://drive.google.com/file/d/15Hz83as3dUzeZaU2c3hhjcY_9ujwsBkG/view?usp=sharing).
+> - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf)
 
 TODO
 --
@@ -303,11 +304,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NjUyMDY2LDIxNDQ0MzMwNTcsLTIwOT
-U2MjU1ODIsLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC0xNDcyNzYx
-ODExLDQ4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0OCwtNT
-k2NDAwODU5LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsNDE3NTI3
-MjUxLC0yNjU0MDM4Niw1NzIxOTMxODQsLTEzNzAwNDcwMDYsLT
-ExMjIxNzQ0NzYsMTY2OTk3NzQ2OCwtMzM3ODg4OTk2LDIwNjY0
-NTA1NzZdfQ==
+eyJoaXN0b3J5IjpbMTQxODM5MTM1Nyw1MjY2NTIwNjYsMjE0ND
+QzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgw
+ODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LD
+QzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMTgzNzQz
+MDEzOCw0MTc1MjcyNTEsLTI2NTQwMzg2LDU3MjE5MzE4NCwtMT
+M3MDA0NzAwNiwtMTEyMjE3NDQ3NiwxNjY5OTc3NDY4LC0zMzc4
+ODg5OTZdfQ==
 -->
