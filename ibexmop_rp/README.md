@@ -10,7 +10,7 @@ Removing points from the non-dominated set
 + [ibex_NDS.h](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h).
 	+ Crear clase punto que guarde un puntero al anterior y al siguiente, el valor del *hv* y el dato x del segmento asociado.
 	+ Creando clase NDSrp, que extiende a NDS_seg. Trabaja con la lista enlazada de puntos. 
-	+ Probar clase NDSrp en rremplazo de NDS_seg
+	+ Probar clase NDSrp en reemplazo de NDS_seg
 	+ Agregar función filtrado de puntos.
 
 
@@ -124,11 +124,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDAzODk5OCwtMTQzMzkyNDQ1MiwtMT
-c0NzMxMzA4NiwtMTY1ODA0MjAyOCwxNzIxNjg4ODU4LDk4NDU1
-NTYzMSwtOTg2OTg3MjU0LC0yMDYyMDAwNjMyLDEzMzUyMTg5Ni
-wyMjc1MjM5NzcsLTIxMjA5MTY2MDQsLTE4MDY4MDA3ODIsMTQw
-OTUyOTgzMCw2NDQwMjU2NCwxNDczMjEwNDAzLDQwNjk2MjQ1MS
-wtNzMyODQ2MTY2LDM3NTU3MzcxNywtMTg5MDkxMTgwNSw5OTEy
-NjcyMDNdfQ==
+eyJoaXN0b3J5IjpbNzAzMTQ0NzA3LDE2NDQwMzg5OTgsLTE0Mz
+M5MjQ0NTIsLTE3NDczMTMwODYsLTE2NTgwNDIwMjgsMTcyMTY4
+ODg1OCw5ODQ1NTU2MzEsLTk4Njk4NzI1NCwtMjA2MjAwMDYzMi
+wxMzM1MjE4OTYsMjI3NTIzOTc3LC0yMTIwOTE2NjA0LC0xODA2
+ODAwNzgyLDE0MDk1Mjk4MzAsNjQ0MDI1NjQsMTQ3MzIxMDQwMy
+w0MDY5NjI0NTEsLTczMjg0NjE2NiwzNzU1NzM3MTcsLTE4OTA5
+MTE4MDVdfQ==
 -->
