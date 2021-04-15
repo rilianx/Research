@@ -1,6 +1,10 @@
 Trabajo en paper
 ==
 
+### Links
+
+[How to write high quality papers in algorithmic or experimental Computer Science](https://www.ae-info.org/attach/Acad_Main/Sections/Informatics/Activities/12-08-14-Paper-VM-for-AE.pdf) (ver sección 4)
+
 ## Instrucciones
 
 - Creen documento en overleaf con la estructura del paper. Pueden basarse en la estructura de [este paper](https://www.overleaf.com/read/vfmzmfmbvqpt).
@@ -77,8 +81,8 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUzMzA4NjEsLTMyOTcwNTczMiwxMj
-c4ODAwOTI4LDIwMTIzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYw
-Njc4NzgsLTE0OTcxMDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2Mz
-U0XX0=
+eyJoaXN0b3J5IjpbOTcxMDU2NzcsLTE0OTUzMzA4NjEsLTMyOT
+cwNTczMiwxMjc4ODAwOTI4LDIwMTIzODY5NzEsLTEyNDc3MjU3
+NjIsLTExMTYwNjc4NzgsLTE0OTcxMDA1NzUsMTAyNzE2MzA3LC
+0xMTM0NDI2MzU0XX0=
 -->
