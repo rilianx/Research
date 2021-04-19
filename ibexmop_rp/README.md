@@ -8,8 +8,8 @@ Removing points from the non-dominated set
 
 + Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
 + [ibex_NDS.h](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h).
-	+ ==
-    + ==Cálculo de hv para puntos==
+	+ ==Crear ejemplo en main para graficar y probar==
+    + ==Cálculo de hv_reduction==
 	+ ==Adaptar función filtrado de puntos.==
 
 
@@ -123,11 +123,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwNTY2Mjg5LDE5Mzc4NzMzOTQsNzAzMT
-Q0NzA3LDE2NDQwMzg5OTgsLTE0MzM5MjQ0NTIsLTE3NDczMTMw
-ODYsLTE2NTgwNDIwMjgsMTcyMTY4ODg1OCw5ODQ1NTU2MzEsLT
-k4Njk4NzI1NCwtMjA2MjAwMDYzMiwxMzM1MjE4OTYsMjI3NTIz
-OTc3LC0yMTIwOTE2NjA0LC0xODA2ODAwNzgyLDE0MDk1Mjk4Mz
-AsNjQ0MDI1NjQsMTQ3MzIxMDQwMyw0MDY5NjI0NTEsLTczMjg0
-NjE2Nl19
+eyJoaXN0b3J5IjpbMTAxMDM2MTEyMSwxOTM3ODczMzk0LDcwMz
+E0NDcwNywxNjQ0MDM4OTk4LC0xNDMzOTI0NDUyLC0xNzQ3MzEz
+MDg2LC0xNjU4MDQyMDI4LDE3MjE2ODg4NTgsOTg0NTU1NjMxLC
+05ODY5ODcyNTQsLTIwNjIwMDA2MzIsMTMzNTIxODk2LDIyNzUy
+Mzk3NywtMjEyMDkxNjYwNCwtMTgwNjgwMDc4MiwxNDA5NTI5OD
+MwLDY0NDAyNTY0LDE0NzMyMTA0MDMsNDA2OTYyNDUxLC03MzI4
+NDYxNjZdfQ==
 -->
