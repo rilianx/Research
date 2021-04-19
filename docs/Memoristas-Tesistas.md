@@ -33,6 +33,11 @@
 - Propuesta (resumen de una página)
 - Planificación
 
+### Presentación
+- Introducción
+- 
+
+
 ### Entrega final (seminario) (25 de junio?)
 - Resumen
 - Introducción
@@ -60,11 +65,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ2NTU1NzUsLTE0MTkxNzY4ODUsLT
-g2MjM0MTY2Nyw1NjgzNjY5NzYsNTk3NzQ3ODU0LC02MzIyMDU2
-MTQsMTE1MTI0MzM0NCwtMjE2NzgwODAxLC0xMDQ4NTc2ODUxLC
-0xODg2MzM5NjQ0LC0yNjM3OTM5Niw0NjYzMjMzNCwtMjA1MjEx
-MzA0OSwtMTI2NTg5NTY5MSwtMTczNzc1Mjc3NiwxODA5NTU5Mz
-cwLC04MzczOTYyMjMsNjYxNjMyMzQsLTQxNDk4ODc1LDcyODg0
-NjE5OV19
+eyJoaXN0b3J5IjpbMTE0MzI3OTY3OCwtMTA5NDY1NTU3NSwtMT
+QxOTE3Njg4NSwtODYyMzQxNjY3LDU2ODM2Njk3Niw1OTc3NDc4
+NTQsLTYzMjIwNTYxNCwxMTUxMjQzMzQ0LC0yMTY3ODA4MDEsLT
+EwNDg1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5Mzk2LDQ2NjMy
+MzM0LC0yMDUyMTEzMDQ5LC0xMjY1ODk1NjkxLC0xNzM3NzUyNz
+c2LDE4MDk1NTkzNzAsLTgzNzM5NjIyMyw2NjE2MzIzNCwtNDE0
+OTg4NzVdfQ==
 -->
