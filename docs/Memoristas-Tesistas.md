@@ -34,8 +34,11 @@
 - Planificación
 
 ### Presentación
-- Introducción
-- 
+- Introducción (Contexto del problema, problema, propuesta y contribución)
+- Objetivos
+- Estado del arte (hablar de otros trabajos en temáticas similares, pro/contras y diferenciación)
+- Marco teórico
+- Propuesta
 
 
 ### Entrega final (seminario) (25 de junio?)
@@ -65,7 +68,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzI3OTY3OCwtMTA5NDY1NTU3NSwtMT
+eyJoaXN0b3J5IjpbMjE0NzAxMTIwMCwtMTA5NDY1NTU3NSwtMT
 QxOTE3Njg4NSwtODYyMzQxNjY3LDU2ODM2Njk3Niw1OTc3NDc4
 NTQsLTYzMjIwNTYxNCwxMTUxMjQzMzQ0LC0yMTY3ODA4MDEsLT
 EwNDg1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5Mzk2LDQ2NjMy
