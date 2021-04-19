@@ -38,7 +38,7 @@
 - Objetivos
 - Estado del arte (hablar de otros trabajos en temáticas similares, pro/contras y diferenciación)
 - Marco teórico
-- Propuesta (idea general )
+- Propuesta (idea general)
 - Plan de trabajo (fechas y actividades a realizar)
 
 
@@ -69,7 +69,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTA1MjcyNiwtMTA5NDY1NTU3NSwtMT
+eyJoaXN0b3J5IjpbMTQ5MjAyNzc3MiwtMTA5NDY1NTU3NSwtMT
 QxOTE3Njg4NSwtODYyMzQxNjY3LDU2ODM2Njk3Niw1OTc3NDc4
 NTQsLTYzMjIwNTYxNCwxMTUxMjQzMzQ0LC0yMTY3ODA4MDEsLT
 EwNDg1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5Mzk2LDQ2NjMy
