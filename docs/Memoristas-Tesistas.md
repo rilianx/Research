@@ -38,7 +38,7 @@
 - Objetivos
 - Estado del arte (hablar de otros trabajos en temáticas similares, pro/contras y diferenciación)
 - Marco teórico
-- Propuesta (idea general)
+- Propuesta (idea general) -> por lo menos 5 min
 - Plan de trabajo (fechas y actividades a realizar)
 
 
@@ -69,11 +69,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjAyNzc3MiwtMTA5NDY1NTU3NSwtMT
-QxOTE3Njg4NSwtODYyMzQxNjY3LDU2ODM2Njk3Niw1OTc3NDc4
-NTQsLTYzMjIwNTYxNCwxMTUxMjQzMzQ0LC0yMTY3ODA4MDEsLT
-EwNDg1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5Mzk2LDQ2NjMy
-MzM0LC0yMDUyMTEzMDQ5LC0xMjY1ODk1NjkxLC0xNzM3NzUyNz
-c2LDE4MDk1NTkzNzAsLTgzNzM5NjIyMyw2NjE2MzIzNCwtNDE0
-OTg4NzVdfQ==
+eyJoaXN0b3J5IjpbNjUwNjcyMTI0LC0xMDk0NjU1NTc1LC0xND
+E5MTc2ODg1LC04NjIzNDE2NjcsNTY4MzY2OTc2LDU5Nzc0Nzg1
+NCwtNjMyMjA1NjE0LDExNTEyNDMzNDQsLTIxNjc4MDgwMSwtMT
+A0ODU3Njg1MSwtMTg4NjMzOTY0NCwtMjYzNzkzOTYsNDY2MzIz
+MzQsLTIwNTIxMTMwNDksLTEyNjU4OTU2OTEsLTE3Mzc3NTI3Nz
+YsMTgwOTU1OTM3MCwtODM3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5
+ODg3NV19
 -->
