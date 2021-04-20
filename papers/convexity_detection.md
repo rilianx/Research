@@ -72,12 +72,13 @@ In contrast to the AVM, the McCormick technique **does not introduce any auxilia
 
 When propagating **all combinations with the McCormick** method, we have to compute all facets explicitly and thus, also all vertices of the underlying polytope. In contrast to the computation of vertices in the linear programming simplex algorithm, this propagation thus inevitably results in exponential computational runtime.
 
+AVM and the McCormick (with al relaxations provide **equally tight relaxations if common factors occurring at least twice are recognized**.
+
 In order to achieve a similar tightness without the necessity of propagating all combinations of the affine functions and avoiding the combinatorial complexity, the following possibility can be considered. We choose only a **limited number of what we think are promising linearizations in each factor** and **propagate only a small part of all possible combinations**.
 
 > Para linearizar un factor, me imagino que se usan puntos de expansión, entonces se deben escoger un pequeño conjunto de *buenos puntos*.
 
-**AVM vs McCormick (análogo a CSE)**
-AVM and the McCormick relaxations provide **equally tight relaxations if common factors occurring at least twice are recognized**.
+
 
 
 
@@ -85,6 +86,6 @@ AVM and the McCormick relaxations provide **equally tight relaxations if common 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDY0NTc1OCwtNzg4NzE2NjYsMTY4Mj
+eyJoaXN0b3J5IjpbLTgwMjUyMTcwNCwtNzg4NzE2NjYsMTY4Mj
 U1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF19
 -->
