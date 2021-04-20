@@ -88,7 +88,7 @@ First, we need to clarify what we denote as a promising set of linearization poi
 
 We propose an approach based on the computation of all vertices of an n-simplex. An n-simplex is defined as an n-dimensional polytope which also is the convex hull of its n + 1 vertices. The idea is to compute all n + 1 vertices of an n-simplex, with all vertices lying on an n-dimensional Ball centered at 0 in [−1,1] n with radius r ∈ (0,1]. These points can then be rescaled to the original interval domains of the optimization variables and then used for the computation of subgradients and McCormick relaxations.
 
-
+![image](https://i.imgur.com/ZCid3q9.png)
 
 
 
@@ -101,7 +101,7 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzM1MzAzMywyNTUzMTQwMDUsLTc4OD
-cxNjY2LDE2ODI1NTMyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkx
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC03OD
+g3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5
+MTA4XX0=
 -->
