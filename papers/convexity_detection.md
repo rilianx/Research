@@ -78,9 +78,11 @@ In order to achieve a similar tightness without the necessity of propagating all
 
 > Para linearizar un factor, me imagino que se usan puntos de expansión, entonces se deben escoger un pequeño conjunto de *buenos puntos*.
 
-**Método de Kelley**
+**Método de Kelley (para agregar puntos de linearización)**
 
-Agregar relajaciones iterativamente. Cada relajación usa como punto de expansión el LB encontrado por la 
+Agregar relajaciones iterativamente al sistema lineal L. Cada relajación usa como punto de linearización el LB del L previo.
+
+
 
 
 
@@ -92,7 +94,7 @@ Agregar relajaciones iterativamente. Cada relajación usa como punto de expansi�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI0MzQ0MzMsMjU1MzE0MDA1LC03OD
+eyJoaXN0b3J5IjpbLTEwMjE2ODIzNDEsMjU1MzE0MDA1LC03OD
 g3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5
 MTA4XX0=
 -->
