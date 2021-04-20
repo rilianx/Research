@@ -82,9 +82,13 @@ In order to achieve a similar tightness without the necessity of propagating all
 
 Agregar relajaciones iterativamente al sistema lineal L. Cada relajación usa como punto de linearización el LB del L previo.
 
-**Otro método para encontrar estos puntos**
+**Otro método para encontrar estos puntos (n-simplex)**
 
 First, we need to clarify what we denote as a promising set of linearization points. A promising set of linearization points consists of points, that are well-distributed among the n-dimensional interval domain of the optimization variables and at the same time is not too large.
+
+We propose an approach based on the computation of all vertices of an n-simplex. An n-simplex is defined as an n-dimensional polytope which also is the convex hull of its n + 1 vertices. The idea is to compute all n + 1 vertices of an n-simplex, with all vertices lying on an n-dimensional Ball centered at 0 in [−1,1] n with radius r ∈ (0,1]. These points can then be rescaled to the original interval domains of the optimization variables and then used for the computation of subgradients and McCormick relaxations.
+
+
 
 
 
@@ -97,7 +101,7 @@ First, we need to clarify what we denote as a promising set of linearization poi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjA3OTc3LDI1NTMxNDAwNSwtNzg4Nz
-E2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEw
-OF19
+eyJoaXN0b3J5IjpbMTQ1NzM1MzAzMywyNTUzMTQwMDUsLTc4OD
+cxNjY2LDE2ODI1NTMyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkx
+MDhdfQ==
 -->
