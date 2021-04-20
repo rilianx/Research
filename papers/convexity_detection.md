@@ -78,7 +78,7 @@ In order to achieve a similar tightness without the necessity of propagating all
 
 > Para linearizar un factor, me imagino que se usan puntos de expansión, entonces se deben escoger un pequeño conjunto de *buenos puntos*.
 
-Thus, we focus the scope of this paper on the iterative and direct computation of the set of linearization points LMC **providing the linear lower bounding problem** in the space of original variables
+
 
 
 
@@ -88,6 +88,6 @@ Thus, we focus the scope of this paper on the iterative and direct computation o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MTE3OTMzLC03ODg3MTY2NiwxNjgyNT
+eyJoaXN0b3J5IjpbMjU1MzE0MDA1LC03ODg3MTY2NiwxNjgyNT
 UzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5MTA4XX0=
 -->
