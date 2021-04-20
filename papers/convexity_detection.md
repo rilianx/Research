@@ -53,19 +53,22 @@ Otros papers relacionados:
 
 **Jaromił Najman · Dominik Bongartz · Alexander Mitsos**
 
-The **difficulty** of determining a good set of linearization points for the McCormick technique lies in the fact that **no auxiliary variables are introduced** and thus, the **linearization points have to be determined in the space of original optimization variables**. 
+The **difficulty** of determining a good set of linearization points for the McCormick technique lies in the fact that **no auxiliary variables are introduced** and thus, the **linearization points have to be determined in the space of original optimization variables**. The selection of points for linearization affects the tightness of the linear relaxation and consequently the lower bound obtained through the solution of the resulting linear program
 
 We propose algorithms for the **computation of linearization points** for convex relaxations constructed via the (multivariate) McCormick theorems.
 
 
-The selection of points for linearization affects the tightness of the linear relaxation and consequently the lower bound obtained through the solution of the resulting linear program
+
 
 **The auxiliary variable method (AVM)**
 
 The AVM is a general method  [33, 35, 36] for the **construction of convex and concave relaxations of factorable functions**. The AVM introduces an auxiliary variable together with a corresponding auxiliary equality constraint for every intermediate nonlinear factor of a given function. Then, the convex and concave envelopes of each factor are constructed providing a convex relaxation and a concave relaxation of the original function. To linearize the convex and concave envelopes of each factor provided by the AVM, the so-called sandwich algorithm has been developed. The resulting linear program suffers from an **increased dimensionality** and a **large number of constraints because** of the auxiliary variables and equality constraints added.
 
+**The method of McCormick [26]**
+
+In contrast to the AVM, the McCormick technique does not introduce any auxiliary variables when constructing convex and concave relaxations of a given function, thus always preserving the original dimension of the underlying function. Since the resulting McCormick relaxations may be nonsmooth, we use subgradient propagation [28] in order to construct valid affine under- and overestimators for the convex and concave McCormick relaxations. It is also possible to use the recently developed differentiable McCormick relaxations [23] in order to replace the computation of subgradients by the computation of derivatives, but they are not as tight as the nonsmooth McCormick relaxations and are computationally more costly to calculate.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NTYzMDA4LC0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbMTYzMTUzMDAwNCwtMjA4NDcxOTEwOF19
 -->
