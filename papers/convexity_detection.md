@@ -55,8 +55,13 @@ Otros papers relacionados:
 
 The **difficulty** of determining a good set of linearization points for the McCormick technique lies in the fact that **no auxiliary variables are introduced** and thus, the **linearization points have to be determined in the space of original optimization variables**. 
 
-We propose algorithms for the **computation of linearization points** for convex relaxations constructed via the (multivariate) McCormick theorems. We discuss alternative approaches based on an adaptation of Kelley’s algorithm; computation of all vertices of an n-simplex; a combination of the two; and random selection. A
+We propose algorithms for the **computation of linearization points** for convex relaxations constructed via the (multivariate) McCormick theorems.
+
+
+The selection of points for linearization affects the tightness of the linear relaxation and consequently the lower bound obtained through the solution of the resulting linear program
+
+The auxiliary variable method (AVM) [33, 35, 36] is a general method for the **construction of convex and concave relaxations of factorable functions**, i.e., functions representable as a finite recursion of addition, multiplication and composition of intrinsic functions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMDkxNjEsLTIwODQ3MTkxMDhdfQ==
+eyJoaXN0b3J5IjpbNzE0MTY2ODcyLC0yMDg0NzE5MTA4XX0=
 -->
