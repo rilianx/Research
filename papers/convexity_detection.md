@@ -14,6 +14,7 @@ In this paper, we introduce a new relaxation paradigm for global optimization. T
 En sección 2.2 aparecen una serie de reglas para detectar *subexpresiones convexas*
 
 **Cut generation** 
+
 If $f_j(x)$ is a convex function (resp. concave function) that is not recognized as such by the conventional factorable scheme and $y_j^∗ < f_j(x^∗)$, then a cut of the form
 
 ![image](https://i.imgur.com/hODcDxL.png)
@@ -48,5 +49,5 @@ Otros papers relacionados:
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTg2NzEyLC0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbMTUyMTczMDc5NCwtMjA4NDcxOTEwOF19
 -->
