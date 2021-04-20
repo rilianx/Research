@@ -36,6 +36,7 @@
 ### Presentación
 - Introducción (Contexto del problema, problema, propuesta y contribución)
 - Objetivos
+	- Específicos (Estudio, 
 - Estado del arte (hablar de otros trabajos en temáticas similares, pro/contras y diferenciación)
 - Marco teórico
 - Propuesta (idea general) -> por lo menos 5 min
@@ -69,11 +70,11 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNjcyMTI0LC0xMDk0NjU1NTc1LC0xND
-E5MTc2ODg1LC04NjIzNDE2NjcsNTY4MzY2OTc2LDU5Nzc0Nzg1
-NCwtNjMyMjA1NjE0LDExNTEyNDMzNDQsLTIxNjc4MDgwMSwtMT
-A0ODU3Njg1MSwtMTg4NjMzOTY0NCwtMjYzNzkzOTYsNDY2MzIz
-MzQsLTIwNTIxMTMwNDksLTEyNjU4OTU2OTEsLTE3Mzc3NTI3Nz
-YsMTgwOTU1OTM3MCwtODM3Mzk2MjIzLDY2MTYzMjM0LC00MTQ5
-ODg3NV19
+eyJoaXN0b3J5IjpbNDE2NTA0NzEzLDY1MDY3MjEyNCwtMTA5ND
+Y1NTU3NSwtMTQxOTE3Njg4NSwtODYyMzQxNjY3LDU2ODM2Njk3
+Niw1OTc3NDc4NTQsLTYzMjIwNTYxNCwxMTUxMjQzMzQ0LC0yMT
+Y3ODA4MDEsLTEwNDg1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5
+Mzk2LDQ2NjMyMzM0LC0yMDUyMTEzMDQ5LC0xMjY1ODk1NjkxLC
+0xNzM3NzUyNzc2LDE4MDk1NTkzNzAsLTgzNzM5NjIyMyw2NjE2
+MzIzNF19
 -->
