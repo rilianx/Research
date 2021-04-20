@@ -68,6 +68,11 @@ The AVM is a general method  [33, 35, 36] for the **construction of convex and c
 
 In contrast to the AVM, the McCormick technique **does not introduce any auxiliary variables** when constructing convex and concave relaxations of a given function, thus always preserving the original dimension of the underlying function. Since the resulting McCormick relaxations may be **nonsmooth**, we use subgradient propagation [28] in order to construct valid affine under- and overestimators for the convex and concave McCormick relaxations.
 
+>Creo que el método de McCormick construye una serie de inecuaciones sin agregar variables auxiliares, pero que podría ser exponencial. Ya que cada vez cada relajación generada para un nodo debe usarse para seguir construyendo las relajaciones de la función completa.
+
+When propagating **all combinations with the McCormick** method, we have to compute all facets explicitly and thus, also all vertices of the underlying polytope. In contrast to the computation of vertices in the linear programming simplex algorithm, this propagation thus inevitably results in exponential computational runtime.
+
+In order to achieve a similar tightness without the necessity of propagating all combinations of the affine functions and avoiding the combinatorial complexity, the following possibility can be considered. We choose only a limited number of what we think are promising linearizations in each factor and propagate only a small part of all possible combinations
 
 **AVM vs McCormick (análogo a CSE)**
 AVM and the McCormick relaxations provide **equally tight relaxations if common factors occurring at least twice are recognized**.
@@ -78,6 +83,6 @@ AVM and the McCormick relaxations provide **equally tight relaxations if common 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDczNjY4MzQsLTc4ODcxNjY2LDE2OD
-I1NTMyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
+eyJoaXN0b3J5IjpbMTczODI0ODYwLC03ODg3MTY2NiwxNjgyNT
+UzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5MTA4XX0=
 -->
