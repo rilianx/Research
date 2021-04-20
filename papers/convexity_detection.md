@@ -82,6 +82,9 @@ In order to achieve a similar tightness without the necessity of propagating all
 
 Agregar relajaciones iterativamente al sistema lineal L. Cada relajación usa como punto de linearización el LB del L previo.
 
+**Otro método para encontrar estos puntos**
+
+First, we need to clarify what we denote as a promising set of linearization points. A promising set of linearization points consists of points, that are well-distributed among the n-dimensional interval domain of the optimization variables and at the same time is not too large.
 
 
 
@@ -94,7 +97,7 @@ Agregar relajaciones iterativamente al sistema lineal L. Cada relajación usa co
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE2ODIzNDEsMjU1MzE0MDA1LC03OD
-g3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5
-MTA4XX0=
+eyJoaXN0b3J5IjpbMjEwNjA3OTc3LDI1NTMxNDAwNSwtNzg4Nz
+E2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEw
+OF19
 -->
