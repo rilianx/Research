@@ -53,7 +53,10 @@ Otros papers relacionados:
 
 **Jaromił Najman · Dominik Bongartz · Alexander Mitsos**
 
+The **difficulty** of determining a good set of linearization points for the McCormick technique lies in the fact that **no auxiliary variables are introduced** and thus, the **linearization points have to be determined in the space of original optimization variables**. 
+
+We propose algorithms for the **computation of linearization points** for convex relaxations constructed via the (multivariate) McCormick theorems. We discuss alternative approaches based on an adaptation of Kelley’s algorithm; computation of all vertices of an n-simplex; a combination of the two; and random selection. A
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ4Mzk5LC0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbMjkxMDkxNjEsLTIwODQ3MTkxMDhdfQ==
 -->
