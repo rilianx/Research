@@ -48,6 +48,12 @@ Otros papers relacionados:
 - [On the complexity of detecting convexity over a box](https://link.springer.com/content/pdf/10.1007/s10107-019-01396-x.pdf)
 
 ---
+
+### [Linearization of McCormick Relaxations and Hybridization with the Auxiliary Variable Method](http://www.optimization-online.org/DB_FILE/2020/11/8122.pdf) (2021)
+
+**Jaromił Najman · Dominik Bongartz · Alexander Mitsos**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTczMDc5NCwtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbLTE2OTQ4Mzk5LC0yMDg0NzE5MTA4XX0=
 -->
