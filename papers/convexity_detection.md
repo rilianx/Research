@@ -60,9 +60,12 @@ We propose algorithms for the **computation of linearization points** for convex
 
 The selection of points for linearization affects the tightness of the linear relaxation and consequently the lower bound obtained through the solution of the resulting linear program
 
-The **auxiliary variable method** (AVM) [33, 35, 36] is a general method for the **construction of convex and concave relaxations of factorable functions**. The AVM introduces an auxiliary variable together with a corresponding auxiliary equality constraint for every intermediate nonlinear factor of a given function. Then, the convex and concave envelopes of each factor are constructed providing a convex relaxation and a concave relaxation of the original function. To linearize the convex and concave envelopes of each factor provided by the AVM, the so-called sandwich algorithm has been developed.
+**The auxiliary variable method (AVM)**
+
+The AVM is a general method  [33, 35, 36] for the **construction of convex and concave relaxations of factorable functions**. The AVM introduces an auxiliary variable together with a corresponding auxiliary equality constraint for every intermediate nonlinear factor of a given function. Then, the convex and concave envelopes of each factor are constructed providing a convex relaxation and a concave relaxation of the original function. To linearize the convex and concave envelopes of each factor provided by the AVM, the so-called sandwich algorithm has been developed. The resulting linear program suffers from an **increased dimensionality** and a **large number of constraints because** of the auxiliary variables and equality constraints added.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEzODYzMTUsLTIwODQ3MTkxMDhdfQ
-==
+eyJoaXN0b3J5IjpbNjM0NTYzMDA4LC0yMDg0NzE5MTA4XX0=
 -->
