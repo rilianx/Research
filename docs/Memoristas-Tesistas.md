@@ -38,7 +38,7 @@
 - Objetivos
 	- Específicos (Estudio, Desarrollo, Validar)
 - Estado del arte (hablar de otros trabajos en temáticas similares, pro/contras y diferenciación)
-- Marco teórico (problema MCLP)
+- Marco teórico (problema+restricciones, métodos que se necesitan para la propuesta)
 - Propuesta (idea general) -> por lo menos 5 min
 - Plan de trabajo (fechas y actividades a realizar)
 
@@ -70,7 +70,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3MjE0NDk3LDY1MDY3MjEyNCwtMTA5ND
+eyJoaXN0b3J5IjpbLTYzOTM4NDkzLDY1MDY3MjEyNCwtMTA5ND
 Y1NTU3NSwtMTQxOTE3Njg4NSwtODYyMzQxNjY3LDU2ODM2Njk3
 Niw1OTc3NDc4NTQsLTYzMjIwNTYxNCwxMTUxMjQzMzQ0LC0yMT
 Y3ODA4MDEsLTEwNDg1NzY4NTEsLTE4ODYzMzk2NDQsLTI2Mzc5
