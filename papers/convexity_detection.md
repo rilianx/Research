@@ -68,18 +68,14 @@ The AVM is a general method  [33, 35, 36] for the **construction of convex and c
 
 In contrast to the AVM, the McCormick technique does not introduce any auxiliary variables when constructing convex and concave relaxations of a given function, thus always preserving the original dimension of the underlying function. Since the resulting McCormick relaxations may be **nonsmooth**, we use subgradient propagation [28] in order to construct valid affine under- and overestimators for the convex and concave McCormick relaxations.
 
-**AVM vs McCormick**
-Tawarmalani and Sahinidis [36] showed that for a specific set of linearization points, the linear outer approximation obtained via the AVM can be tighter than the linear outer approximation computed with McCormick relaxations. Later Tsoukalas and Mitsos demonstrated that the McCormick method extended to multivariate outer functions provides the same convex and concave relaxations if no **reoccurring intermediate factors** of a given function are recognized by the AVM. However, if the AVM recognizes reoccurring intermediate factors, it provides tighter convex relaxations than the multivariate McCormick approach. This problem, can, at least in princible, be solved by the addition of only a sufficient number of auxiliary optimization variables when applying the McCormick method, thus providing equally tight relaxations as the AVM.
+**AVM vs McCormick (análogo a CSE)**
+AVM and the McCormick relaxations provide equally tight relaxations if common factors occurring at least twice are recognized.
+
+
+
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJidlVVT0pWNmJWSUs1Tmg1Ijp7In
-N0YXJ0Ijo3NDU4LCJlbmQiOjc0OTAsInRleHQiOiJyZW9jY3Vy
-cmluZyBpbnRlcm1lZGlhdGUgZmFjdG9ycyJ9fSwiY29tbWVudH
-MiOnsiZkJ2clRXTlQwVWNqaldQRiI6eyJkaXNjdXNzaW9uSWQi
-OiJidlVVT0pWNmJWSUs1Tmg1Iiwic3ViIjoiZ286MTAyNjEwNT
-Q5NDMxMjgyNTA4Njc1IiwidGV4dCI6IkVzdG8gZXMgY29tbyBz
-dWJleHByZXNpb25lcyBjb211bmVzIiwiY3JlYXRlZCI6MTYxOD
-kyNzcwMzg1Mn19LCJoaXN0b3J5IjpbMTY4MjU1MzI5MSwtMTYx
-MTcxMjIwNSwtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbNTE0NTcxMTIyLDE2ODI1NTMyOTEsLTE2MT
+E3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
 -->
