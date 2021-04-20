@@ -66,9 +66,11 @@ The AVM is a general method  [33, 35, 36] for the **construction of convex and c
 
 **The method of McCormick [26]**
 
-In contrast to the AVM, the McCormick technique does not introduce any auxiliary variables when constructing convex and concave relaxations of a given function, thus always preserving the original dimension of the underlying function. Since the resulting McCormick relaxations may be nonsmooth, we use subgradient propagation [28] in order to construct valid affine under- and overestimators for the convex and concave McCormick relaxations. It is also possible to use the recently developed differentiable McCormick relaxations [23] in order to replace the computation of subgradients by the computation of derivatives, but they are not as tight as the nonsmooth McCormick relaxations and are computationally more costly to calculate.
+In contrast to the AVM, the McCormick technique does not introduce any auxiliary variables when constructing convex and concave relaxations of a given function, thus always preserving the original dimension of the underlying function. Since the resulting McCormick relaxations may be **nonsmooth**, we use subgradient propagation [28] in order to construct valid affine under- and overestimators for the convex and concave McCormick relaxations.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTUzMDAwNCwtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ
+==
 -->
