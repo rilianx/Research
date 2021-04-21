@@ -1,11 +1,13 @@
 IbexOpt: Primeros pasos
 ==
 
-> * [Código en github](https://github.com/ibex-team/ibex-lib)
-[Documentación](http://www.ibex-lib.org/doc/)
-[Documentación ibexOpt](http://www.ibex-lib.org/doc/optim.html)
+### Links de interés
 
-Archivos, clases y funciones importantes:
+* [Código en github](https://github.com/ibex-team/ibex-lib)
+* [Documentación](http://www.ibex-lib.org/doc/)
+* [Documentación ibexOpt](http://www.ibex-lib.org/doc/optim.html)
+
+### Archivos, clases y funciones importantes:
 
 * Main de ibexOpt: [src/bin/ibexopt.cpp](https://github.com/ibex-team/ibex-lib/blob/master/src/bin/ibexopt.cpp)
 * Función  `optimize` de la clase `Optimizer`: [src/optim/ibex_Optimizer.cpp](https://github.com/ibex-team/ibex-lib/blob/master/src/optim/ibex_Optimizer.cpp#L415) 
@@ -22,5 +24,5 @@ La decisión de si queremos continuar con FeasibleDiving o pasar a otro nodo se 
 
 ![image](https://i.imgur.com/V4gdnik.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDQzODMzMCwtNDcwMjM0MTQyXX0=
+eyJoaXN0b3J5IjpbOTU1NjkyNzE0LC00NzAyMzQxNDJdfQ==
 -->
