@@ -1,7 +1,7 @@
 IbexOpt: Primeros pasos
 ==
 
-[Código en github](https://github.com/ibex-team/ibex-lib)
+> * [Código en github](https://github.com/ibex-team/ibex-lib)
 [Documentación](http://www.ibex-lib.org/doc/)
 [Documentación ibexOpt](http://www.ibex-lib.org/doc/optim.html)
 
@@ -22,5 +22,5 @@ La decisión de si queremos continuar con FeasibleDiving o pasar a otro nodo se 
 
 ![image](https://i.imgur.com/V4gdnik.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDIzNDE0Ml19
+eyJoaXN0b3J5IjpbMTcwMDQzODMzMCwtNDcwMjM0MTQyXX0=
 -->
