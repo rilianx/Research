@@ -24,8 +24,11 @@ La decisión de si queremos continuar con FeasibleDiving o pasar a otro nodo se 
 
 ![image](https://i.imgur.com/V4gdnik.png)
 
-Aquí es donde encontramos soluciones 
+Aquí es donde se encuentran soluciones dentro de la caja.  [(`Optimizer::update_loup`](https://github.com/ibex-team/ibex-lib/blob/master/src/optim/ibex_Optimizer.cpp#L103)). Sin embargo, creo que `loup_finder.find` sólo retorna soluciones mejorea
+
+
+![image](https://i.imgur.com/LOn1q6z.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDQxODQ1NywxNzkyOTYwMzQ0LC00Nz
+eyJoaXN0b3J5IjpbMTg0MTg3MTEyMCwxNzkyOTYwMzQ0LC00Nz
 AyMzQxNDJdfQ==
 -->
