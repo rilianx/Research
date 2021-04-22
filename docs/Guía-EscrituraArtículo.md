@@ -66,8 +66,10 @@ Generalmente lo divido en párrafos:
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
 
-- Hill Climbing
-- Estrategia General
+- Traducción, dibujo
+- Función Ranking
+- Explicar HC
+
 
 ### KD-Tree
 
@@ -81,8 +83,8 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMDU2NzcsLTE0OTUzMzA4NjEsLTMyOT
-cwNTczMiwxMjc4ODAwOTI4LDIwMTIzODY5NzEsLTEyNDc3MjU3
-NjIsLTExMTYwNjc4NzgsLTE0OTcxMDA1NzUsMTAyNzE2MzA3LC
-0xMTM0NDI2MzU0XX0=
+eyJoaXN0b3J5IjpbLTE3MDk3MzQ5NjMsOTcxMDU2NzcsLTE0OT
+UzMzA4NjEsLTMyOTcwNTczMiwxMjc4ODAwOTI4LDIwMTIzODY5
+NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4NzgsLTE0OTcxMDA1Nz
+UsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
 -->
