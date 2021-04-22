@@ -6,8 +6,8 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### TODO
 
-* ==Ordenar de los hijos== ==ver lo que hacen en [paper]==(https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view) y proponer versión mejorada
-* ==Explicar lo que hacen en paper vs lo propuesto==
+* Ordenar de los hijos== ==ver lo que hacen eny proponer versión mejorada
+* ==Explicar lo que hacen en  [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view) vs lo propuesto==
 * Contar cantidad de nodos que tarda en llegar a la mejor solución
 * `update(L)`: menor l de los nodos guardados en el stack (profe) Listo!
 *  `lower_bound(nodo)`: ver lo que hacen en paper y proponer versión parecida (hace una buena función lower_bound es *very difficult*)
@@ -34,18 +34,19 @@ def search(layout, L, U): #lower y upperbound
    lbs = multiset() # aquí se guardan todos los lbs de menor a mayor
    lbs.add(layout.unsorted_containers)
    while S is not empty:
-      n = S.pop(); lbs.remove(n.l)
+      n = S.pop(); lbs.remove(n.unsorted_containers)
       u = greedy(n) # compute upper bound
       if u < U: 
          U = ub
          if L==U: return #termina algoritmo
       ##
-      n.l = lower_bound(n)+n.steps; lbs.add(n.l)
+      n.l = lower_bound(n)+n.steps;
       if n.l >= U: continue
       children = get_children(n) 
       # en paper ordenan los nodos antes de guardarlos usando 7 criterios
       for each c in children:
          S.push(c)
+         lbs.add(c.unsorted_containers)
       L = first(lbs) # primer valor del multiset
 ````
 
@@ -80,9 +81,9 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNTQyNzcxLDE2NzM4MTk0MjMsMTc1MD
-Q5Mzk4OCwtMTcwMDkwMzk2NSwtMTU2ODMwMzM0MywtMTg0MzQ0
-NzMzMCwtMzM2OTgyNjI4LC00NjY2NTczMDAsMjczNjAxNTA2LD
-E1NTc1MjM2OCwxNDE1NTQxMTUzLC0xMjAzMzE5OTQ0LC0xOTI3
-MjQxNTE0LDE0OTk1OTU4OTFdfQ==
+eyJoaXN0b3J5IjpbMTcxNjg2NTI1NCwxNjczODE5NDIzLDE3NT
+A0OTM5ODgsLTE3MDA5MDM5NjUsLTE1NjgzMDMzNDMsLTE4NDM0
+NDczMzAsLTMzNjk4MjYyOCwtNDY2NjU3MzAwLDI3MzYwMTUwNi
+wxNTU3NTIzNjgsMTQxNTU0MTE1MywtMTIwMzMxOTk0NCwtMTky
+NzI0MTUxNCwxNDk5NTk1ODkxXX0=
 -->
