@@ -30,7 +30,9 @@ void solve(layout)
 ````python
 def search(layout, L, U): #lower y upperbound
    S = stack() # por ahora
+   S.push(layout)
    lbs = multiset() # aquí se guardan todos los lbs de menor a mayor
+   lbs.add(layout.un
    while S is not empty:
       n = S.pop(); lbs.remove(n.l)
       u = greedy(n) # compute upper bound
@@ -78,9 +80,9 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzgxOTQyMywxNzUwNDkzOTg4LC0xNz
-AwOTAzOTY1LC0xNTY4MzAzMzQzLC0xODQzNDQ3MzMwLC0zMzY5
-ODI2MjgsLTQ2NjY1NzMwMCwyNzM2MDE1MDYsMTU1NzUyMzY4LD
-E0MTU1NDExNTMsLTEyMDMzMTk5NDQsLTE5MjcyNDE1MTQsMTQ5
-OTU5NTg5MV19
+eyJoaXN0b3J5IjpbMjAwNzcwNzI0MCwxNjczODE5NDIzLDE3NT
+A0OTM5ODgsLTE3MDA5MDM5NjUsLTE1NjgzMDMzNDMsLTE4NDM0
+NDczMzAsLTMzNjk4MjYyOCwtNDY2NjU3MzAwLDI3MzYwMTUwNi
+wxNTU3NTIzNjgsMTQxNTU0MTE1MywtMTIwMzMxOTk0NCwtMTky
+NzI0MTUxNCwxNDk5NTk1ODkxXX0=
 -->
