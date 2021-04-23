@@ -50,6 +50,8 @@ Generalmente lo divido en párrafos:
 - Diseñar red (convolutional 1D + [invariante a permutaciones](https://ai.stackexchange.com/questions/4655/how-could-we-build-a-neural-network-that-is-invariant-to-permutations-of-the-inp)) 
 - Comparar con fully connected y paper.
 
+---
+
 - Uso del Modelo --> a partir de un estado generar una acción
 - Componentes de la propuesta
 	- Generar soluciones óptimas
@@ -94,7 +96,7 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODE5NDgxNywtMTcwOTczNDk2Myw5Nz
+eyJoaXN0b3J5IjpbMTQ2NzMwNzQxOCwtMTcwOTczNDk2Myw5Nz
 EwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1NzMyLDEyNzg4MDA5
 MjgsMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMTExNjA2Nzg3OC
 wtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0MjYzNTRdfQ==
