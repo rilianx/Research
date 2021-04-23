@@ -52,6 +52,9 @@ Generalmente lo divido en párrafos:
 
 - Uso del Modelo --> a partir de un estado generar una acción
 - Árbol de estados 
+- Pros: más rápido que una heurística?
+- No código!
+- 
 
 
 
@@ -87,7 +90,7 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1MzU5ODM1LC0xNzA5NzM0OTYzLDk3MT
+eyJoaXN0b3J5IjpbNTg0OTM5MDI2LC0xNzA5NzM0OTYzLDk3MT
 A1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMTI3ODgwMDky
 OCwyMDEyMzg2OTcxLC0xMjQ3NzI1NzYyLC0xMTE2MDY3ODc4LC
 0xNDk3MTAwNTc1LDEwMjcxNjMwNywtMTEzNDQyNjM1NF19
