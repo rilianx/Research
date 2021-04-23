@@ -68,7 +68,8 @@ Incluir parámetros A*?
 
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
-- Resumir sección 
+- Resumir sección bin packing
+- Comenzar a redactar propuesta
 
 ---
 ### Stephanie Gómez
@@ -92,7 +93,7 @@ Incluir parámetros A*?
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMjE4NzE3LC03NzUyNDIzNzAsLTgwMD
+eyJoaXN0b3J5IjpbOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMD
 Q3ODQyOCwtMTgyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0
 OTYzLDk3MTA1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMT
 I3ODgwMDkyOCwyMDEyMzg2OTcxLC0xMjQ3NzI1NzYyLC0xMTE2
