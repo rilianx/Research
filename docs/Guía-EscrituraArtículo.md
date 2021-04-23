@@ -68,9 +68,7 @@ Incluir parámetros A*?
 
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
-- Mejorar descripción del problema
-- Describir algoritmos BSG y para resolver BinPacking
-- Escribir propusta
+- Resumir sección 
 
 ---
 ### Stephanie Gómez
@@ -94,9 +92,10 @@ Incluir parámetros A*?
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xOD
-IyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2
-NzcsLTE0OTUzMzA4NjEsLTMyOTcwNTczMiwxMjc4ODAwOTI4LD
-IwMTIzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4NzgsLTE0
-OTcxMDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
+eyJoaXN0b3J5IjpbMzIzMjE4NzE3LC03NzUyNDIzNzAsLTgwMD
+Q3ODQyOCwtMTgyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0
+OTYzLDk3MTA1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMT
+I3ODgwMDkyOCwyMDEyMzg2OTcxLC0xMjQ3NzI1NzYyLC0xMTE2
+MDY3ODc4LC0xNDk3MTAwNTc1LDEwMjcxNjMwNywtMTEzNDQyNj
+M1NF19
 -->
