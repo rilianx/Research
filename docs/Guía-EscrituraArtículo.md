@@ -51,10 +51,14 @@ Generalmente lo divido en párrafos:
 - Comparar con fully connected y paper.
 
 - Uso del Modelo --> a partir de un estado generar una acción
+- Componentes de la propuesta
+	- Generar soluciones óptimas
+	- Red se entrena con pares estado->acción óptima
+	- Usar modelo para resolver instancias de prueba
 - Árbol de estados 
 - Pros: más rápido que una heurística?
 - No código!
-- 
+
 
 
 
@@ -90,8 +94,9 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0OTM5MDI2LC0xNzA5NzM0OTYzLDk3MT
-A1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMTI3ODgwMDky
-OCwyMDEyMzg2OTcxLC0xMjQ3NzI1NzYyLC0xMTE2MDY3ODc4LC
-0xNDk3MTAwNTc1LDEwMjcxNjMwNywtMTEzNDQyNjM1NF19
+eyJoaXN0b3J5IjpbMTI5ODE5NDgxNywtMTcwOTczNDk2Myw5Nz
+EwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1NzMyLDEyNzg4MDA5
+MjgsMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMTExNjA2Nzg3OC
+wtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0MjYzNTRdfQ==
+
 -->
