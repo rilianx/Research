@@ -61,6 +61,8 @@ Generalmente lo divido en párrafos:
 - Pros: más rápido que una heurística?
 - No código!
 
+Incluir parámetros A*?
+
 
 
 
@@ -96,9 +98,9 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzMwNzQxOCwtMTcwOTczNDk2Myw5Nz
-EwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1NzMyLDEyNzg4MDA5
-MjgsMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMTExNjA2Nzg3OC
-wtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0MjYzNTRdfQ==
-
+eyJoaXN0b3J5IjpbLTE4MjIzODUwOTgsMTQ2NzMwNzQxOCwtMT
+cwOTczNDk2Myw5NzEwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1
+NzMyLDEyNzg4MDA5MjgsMjAxMjM4Njk3MSwtMTI0NzcyNTc2Mi
+wtMTExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTEx
+MzQ0MjYzNTRdfQ==
 -->
