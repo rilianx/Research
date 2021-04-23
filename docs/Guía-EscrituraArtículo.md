@@ -63,11 +63,6 @@ Generalmente lo divido en párrafos:
 
 Incluir parámetros A*?
 
-
-
-
-
-
 ---
 ###  Gonzalo Tello
 
@@ -99,9 +94,9 @@ Incluir parámetros A*?
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OCwxND
-Y3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1MzMw
-ODYxLC0zMjk3MDU3MzIsMTI3ODgwMDkyOCwyMDEyMzg2OTcxLC
-0xMjQ3NzI1NzYyLC0xMTE2MDY3ODc4LC0xNDk3MTAwNTc1LDEw
-MjcxNjMwNywtMTEzNDQyNjM1NF19
+eyJoaXN0b3J5IjpbLTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xOD
+IyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2
+NzcsLTE0OTUzMzA4NjEsLTMyOTcwNTczMiwxMjc4ODAwOTI4LD
+IwMTIzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4NzgsLTE0
+OTcxMDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
 -->
