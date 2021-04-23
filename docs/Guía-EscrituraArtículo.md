@@ -50,7 +50,8 @@ Generalmente lo divido en párrafos:
 - Diseñar red (convolutional 1D + [invariante a permutaciones](https://ai.stackexchange.com/questions/4655/how-could-we-build-a-neural-network-that-is-invariant-to-permutations-of-the-inp)) 
 - Comparar con fully connected y paper.
 
-Arbol de estados
+- Árbol de estados 
+- Uso de Modelo --> a partir de un estado generar una acción
 
 ---
 ###  Gonzalo Tello
@@ -83,9 +84,9 @@ Arbol de estados
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU4OTMyMzUsLTE3MDk3MzQ5NjMsOT
-cxMDU2NzcsLTE0OTUzMzA4NjEsLTMyOTcwNTczMiwxMjc4ODAw
-OTI4LDIwMTIzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4Nz
-gsLTE0OTcxMDA1NzUsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
+eyJoaXN0b3J5IjpbLTE3MzMzNzc0NywtMTcwOTczNDk2Myw5Nz
+EwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1NzMyLDEyNzg4MDA5
+MjgsMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMTExNjA2Nzg3OC
+wtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0MjYzNTRdfQ==
 
 -->
