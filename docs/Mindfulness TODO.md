@@ -36,8 +36,10 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 - Nombre de la actividad
 - Tipo de actividad (establecer una por defecto -> la que más se repite por ejemplo)
 - Descripción (especificar lo que se quiere lograr o avanzar durante este bloque)
-- Fijar Horario o Realizar antes de...
-	- Fijar Horario: Mostrar disponibilidad 
+- Duración (50min por defecto)
+- Fijar Horario o Automático
+	- Fijar Horario: Mostrar disponibilidad día/semana/mes; 
+	- Automático: Realizar antes de un día específico
 
 
 
@@ -71,6 +73,6 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODA3MzU4MSwtOTE5Njk3MDA2LDE1MD
-g1NjQzNiwtMTg4NDUwNzMyXX0=
+eyJoaXN0b3J5IjpbLTIwNDM5NzEyMDUsLTkxOTY5NzAwNiwxNT
+A4NTY0MzYsLTE4ODQ1MDczMl19
 -->
