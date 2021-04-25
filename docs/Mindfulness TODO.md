@@ -66,6 +66,7 @@ Existen varias cosas que podrían mejorar la interacción del usuario, por ejemp
 - Cuando una misma tarea se repite en el tiempo (diariamente, o semanalmente), se podría ir coloreando. Luego de varias repeticiones se podría preguntar al usuario si quiere establecerla como una actividad rutinaria (cada cierto número de días exactos o app).
 - Cuando una tarea se posterga también se puede ir coloreando. Cuando una tarea se ha postergado muchas veces la cantidad de días puede ir aumentando. Además se le puede mostrar un mensaje preguntando al usuario si realmente quiere hacer esa tarea o mejor la elimina definitivamente.
 - Puede ocurrir que un usuario tenga una tarea en mente pero no ha decidido aun cuando hacerla ni definido los detalles. Estas tareas las puede ir dejando en un archivador temporal. La aplicación puede sugerir como tarea adicional, ver las tareas pendientes.
+- Si el usuario alarga una tarea demasiado tiempo. Recomendar que pase a otra.
 
 
 
@@ -98,6 +99,6 @@ Existen varias cosas que podrían mejorar la interacción del usuario, por ejemp
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ2MzM1MDUsLTkxOTY5NzAwNiwxNT
-A4NTY0MzYsLTE4ODQ1MDczMl19
+eyJoaXN0b3J5IjpbMTc1NDYzMzM5OCwtOTE5Njk3MDA2LDE1MD
+g1NjQzNiwtMTg4NDUwNzMyXX0=
 -->
