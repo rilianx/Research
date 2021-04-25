@@ -42,6 +42,10 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 	- Automático: Realizar antes de un día específico
 - Avisar 5/10/30 min antes. (Y como opción: no agendar nada antes).
 
+### Comienzo de una actividad
+
+De acuerdo a la configuración, la a
+
 ### Término de una actividad
 
 Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda dar un término adecuado a la tarea que se encuentra realizando. Las opciones podrían ser las siguientes:
@@ -87,6 +91,6 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA0NzkwMzMsLTkxOTY5NzAwNiwxNT
+eyJoaXN0b3J5IjpbLTEwOTEwNDczNzEsLTkxOTY5NzAwNiwxNT
 A4NTY0MzYsLTE4ODQ1MDczMl19
 -->
