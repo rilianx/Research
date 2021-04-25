@@ -9,6 +9,13 @@ Aplicación para organizar tareas y actividades inspirada en ideas [mindfulness]
 - Reducir procrastinación. Que el usuario se enfoque en realizar las tareas que planificó con antelación.
 - Que el usuario pase más tiempo haciendo y menos planificando lo que tiene que hacer.
 
+### Esencia de la propuesta
+
+Usuario es encargado de crear actividades o tareas y guardarlas en la aplicación
+
+
+
+
 ### Base
 
 * Podría ser una especie de asistente que a partir de una lista de tareas te ayude a organizarlos en un calendario (por ejemplo de google)
@@ -29,5 +36,5 @@ Aplicación para organizar tareas y actividades inspirada en ideas [mindfulness]
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ1MDczMl19
+eyJoaXN0b3J5IjpbNTk5NzkyOTQ2LC0xODg0NTA3MzJdfQ==
 -->
