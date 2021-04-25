@@ -50,6 +50,8 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 - Dar por terminada la actividad.
 	- ¿Generar una nueva actividad como continuación o relacionada? Si es así, se puede mostrar una copia de la actividad editable.
 	- Si no, la actividad se cierra definitivamente.
+- Mostrar la actividad que sigue (si es fija). Si no es fija se pueden mostrar 2 o 3 alternativas para que el usuario escoja la que más le apetece realizar a continuación.
+- Cronómetro de pausa.
 
 
 
@@ -85,6 +87,6 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjY2MzUxNiwtOTE5Njk3MDA2LDE1MD
-g1NjQzNiwtMTg4NDUwNzMyXX0=
+eyJoaXN0b3J5IjpbLTE1MDA0NzkwMzMsLTkxOTY5NzAwNiwxNT
+A4NTY0MzYsLTE4ODQ1MDczMl19
 -->
