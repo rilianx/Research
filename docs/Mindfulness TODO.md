@@ -44,7 +44,12 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 
 ### Comienzo de una actividad
 
-De acuerdo a la configuración, la app avisa con minutos de anticipación la actividad que viene a continuación. Mostrando los detalles de esta y el tiempo que falta para comenzar. El usuario puede comenzar antes o el comienzo se realiza de manera automática.
+De acuerdo a la configuración, la app avisa con minutos de anticipación la actividad que viene a continuación. Pueden ser varias opciones o sólo una (cuando ya no quedan muchas alternativas). El usuario puede decidir postergar la tarea
+
+
+Mostrando los detalles de esta y el tiempo que falta para comenzar. El usuario puede 
+
+El usuario puede comenzar antes o el comienzo se realiza de manera automática.
 
 ### Término de una actividad
 
@@ -61,7 +66,8 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 
 Existen varias cosas que podrían mejorar la interacción del usuario, por ejemplo:
 
-- Cuando una misma tarea se repite en el tiempo (diariamente, o semanalmente), se podría ir coloreando. Luego de varias repeticiones se podría preguntar al usuario si quiere establecerla como una actividad rutinaria (cada cierto número de días más omenos)
+- Cuando una misma tarea se repite en el tiempo (diariamente, o semanalmente), se podría ir coloreando. Luego de varias repeticiones se podría preguntar al usuario si quiere establecerla como una actividad rutinaria (cada cierto número de días exactos o app).
+- Cuando 
 
 
 
@@ -94,6 +100,6 @@ Existen varias cosas que podrían mejorar la interacción del usuario, por ejemp
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODIwNjI1MywtOTE5Njk3MDA2LDE1MD
-g1NjQzNiwtMTg4NDUwNzMyXX0=
+eyJoaXN0b3J5IjpbLTExNjUyODU0OTIsLTkxOTY5NzAwNiwxNT
+A4NTY0MzYsLTE4ODQ1MDczMl19
 -->
