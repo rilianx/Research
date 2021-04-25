@@ -44,11 +44,13 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 
 ### Término de una actividad
 
- Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda dar un término adecuado a la tarea que se encuentra realizando. Las opciones podrían ser las siguientes:
+Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda dar un término adecuado a la tarea que se encuentra realizando. Las opciones podrían ser las siguientes:
  
 - Continuar con la actividad luego de la pausa o inmediatamente por otros X min.
 - Dar por terminada la actividad.
-	- ¿Generar una nueva actividad como continuación o relacionada? Si es así, se puede mostrar una copia de la actividad editable
+	- ¿Generar una nueva actividad como continuación o relacionada? Si es así, se puede mostrar una copia de la actividad editable.
+	- Si no, la actividad se cierra definitivamente.
+
 
 
 
@@ -83,6 +85,6 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTkxMTcxNiwtOTE5Njk3MDA2LDE1MD
+eyJoaXN0b3J5IjpbMTY1NjY2MzUxNiwtOTE5Njk3MDA2LDE1MD
 g1NjQzNiwtMTg4NDUwNzMyXX0=
 -->
