@@ -16,12 +16,13 @@ Aplicación organiza y muestra al usuario las tareas o actividades que debe real
 
 Para el funcionamiento adecuado de la aplicación, debería permitir una configuración inicial en donde se establezcan
 
-**Intervalos horarios para distintos tipos de actividades.** Por ejemplo:
-- Trabajo: Lunes a viernes de 9 a 18 (con pausa entre 1 y 2:30 para almorzar)
+**Intervalos horarios para distintos tipos de actividades.** 
+Por ejemplo:
+- Trabajo. Lunes a viernes de 9 a 18 (con pausa entre 13 y 14:30 para almorzar)
 - Recreación. Todas las mañanas entre 7 y 9 y en las tardes entre 19 y 21.
-- 
+- Hogar. Día sábado de 9 a 13
 
-
+**
 
 
 ### Base
@@ -44,5 +45,5 @@ Para el funcionamiento adecuado de la aplicación, debería permitir una configu
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDcxMTY2OCwtMTg4NDUwNzMyXX0=
+eyJoaXN0b3J5IjpbMTUwODU2NDM2LC0xODg0NTA3MzJdfQ==
 -->
