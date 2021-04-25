@@ -29,7 +29,15 @@ Por ejemplo:
 ¿Cuánto tiempo dedicarle a cada o subtarea? Y cuánto tiempo descansar entre tareas.
 Podrían establecerse por defecto bloques de 1hr: 50(activo)/10(descanso)
 
-### Interac
+### Creación de actividades
+
+La idea es que cada vez que el usuario quiera/necesita realizar una 
+
+
+### Uso de palabras
+Usar "quiero hacer algo" 
+
+
 
 
 
@@ -53,6 +61,6 @@ Podrían establecerse por defecto bloques de 1hr: 50(activo)/10(descanso)
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTM0NzEwMCwxNTA4NTY0MzYsLTE4OD
+eyJoaXN0b3J5IjpbMTE2OTc0MjU1MiwxNTA4NTY0MzYsLTE4OD
 Q1MDczMl19
 -->
