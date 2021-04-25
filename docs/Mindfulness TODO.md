@@ -31,7 +31,10 @@ Podrían establecerse por defecto bloques de 1hr: 50(activo)/10(descanso)
 
 ### Creación de actividades
 
-La idea es que cada vez que el usuario quiera/necesita realizar una 
+La idea es que cada vez que el usuario quiera/necesita realizar una actividad o tarea la registre en la aplicación. Los at
+
+
+
 
 
 ### Uso de expresiones anti-estrés
@@ -62,6 +65,6 @@ La idea es que cada vez que el usuario quiera/necesita realizar una
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjI4MzU2MCwxNTA4NTY0MzYsLTE4OD
-Q1MDczMl19
+eyJoaXN0b3J5IjpbMjU3NjkxMjY1LDE1MDg1NjQzNiwtMTg4ND
+UwNzMyXX0=
 -->
