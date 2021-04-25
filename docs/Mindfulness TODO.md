@@ -31,7 +31,12 @@ Podrían establecerse por defecto bloques de 1hr: 50(activo)/10(descanso)
 
 ### Creación de actividades
 
-La idea es que cada vez que el usuario quiera/necesita realizar una actividad o tarea la registre en la aplicación. Los at
+La idea es que cada vez que el usuario quiera/necesita realizar una actividad o tarea la registre en la aplicación. Los atributos mínimos necesarios para crear una actividad podrían ser:
+
+- Nombre de la actividad
+- Tipo de actividad (establecer una por defecto -> la que más se repite por ejemplo)
+- Descripción (especificar lo que se quiere lograr o avanzar durante este bloque)
+- 
 
 
 
@@ -65,6 +70,6 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NjkxMjY1LDE1MDg1NjQzNiwtMTg4ND
-UwNzMyXX0=
+eyJoaXN0b3J5IjpbLTkxOTY5NzAwNiwxNTA4NTY0MzYsLTE4OD
+Q1MDczMl19
 -->
