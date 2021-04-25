@@ -57,7 +57,11 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 - Mostrar la actividad que sigue (si es fija). Si no es fija se pueden mostrar 2 o 3 alternativas para que el usuario escoja la que más le apetece realizar a continuación.
 - Cronómetro de pausa.
 
-### Aprendiz
+### Detalles
+
+Existen varias cosas que podrían mejorar la interacción del usuario, por ejemplo:
+
+- Cuando una misma tarea se repite en el tiempo, se podría ir coloreando 
 
 
 
@@ -90,6 +94,6 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM1ODIzMTIsLTkxOTY5NzAwNiwxNT
-A4NTY0MzYsLTE4ODQ1MDczMl19
+eyJoaXN0b3J5IjpbLTI0MTE1NzYzMiwtOTE5Njk3MDA2LDE1MD
+g1NjQzNiwtMTg4NDUwNzMyXX0=
 -->
