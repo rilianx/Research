@@ -64,7 +64,8 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 Existen varias cosas que podrían mejorar la interacción del usuario, por ejemplo:
 
 - Cuando una misma tarea se repite en el tiempo (diariamente, o semanalmente), se podría ir coloreando. Luego de varias repeticiones se podría preguntar al usuario si quiere establecerla como una actividad rutinaria (cada cierto número de días exactos o app).
-- Cuando una tarea se posterga también se puede ir coloreando. Cuando una tarea se ha postergado muchas veces 
+- Cuando una tarea se posterga también se puede ir coloreando. Cuando una tarea se ha postergado muchas veces la cantidad de días puede ir aumentando. Además se le puede mostrar un mensaje preguntando al usuario si realmente quiere hacer esa tarea o mejor la elimina definitivamente.
+- Puede ocurrir que un usuario tenga una tarea en mente pero no ha decidido aun cuando hacerla. Estas tareas las puede 
 
 
 
@@ -97,6 +98,6 @@ Existen varias cosas que podrían mejorar la interacción del usuario, por ejemp
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDI1Mzc5LC05MTk2OTcwMDYsMTUwOD
-U2NDM2LC0xODg0NTA3MzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMTE4OTI3MzIsLTkxOTY5NzAwNiwxNT
+A4NTY0MzYsLTE4ODQ1MDczMl19
 -->
