@@ -14,7 +14,9 @@ Aplicación para organizar tareas y actividades inspirada en ideas [mindfulness]
 Usuario crear actividades o tareas y las guarda en la aplicación.
 Aplicación organiza y muestra al usuario las tareas o actividades que debe realizar en cada momento.
 
-Para el funcionamiento adecuado de la aplicación, el usuario de 
+Para el funcionamiento adecuado de la aplicación, debería permitir una configuración inicial en donde se establezcan
+
+**Intervalos horarios para distintos tipos de actividades.** Por ejemplo, intervalos de 
 
 
 
@@ -39,5 +41,5 @@ Para el funcionamiento adecuado de la aplicación, el usuario de
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjAzMzIzMCwtMTg4NDUwNzMyXX0=
+eyJoaXN0b3J5IjpbLTQzNDY3NzkyNiwtMTg4NDUwNzMyXX0=
 -->
