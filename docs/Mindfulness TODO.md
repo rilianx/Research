@@ -34,8 +34,9 @@ Podrían establecerse por defecto bloques de 1hr: 50(activo)/10(descanso)
 La idea es que cada vez que el usuario quiera/necesita realizar una 
 
 
-### Uso de palabras
-Usar "quiero hacer algo" 
+### Uso de expresiones anti-estrés
+
+- Incentivar al decir en vez de "tengo que hacer algo" --> "quiero hacer esto durante estos días".
 
 
 
@@ -61,6 +62,6 @@ Usar "quiero hacer algo"
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTc0MjU1MiwxNTA4NTY0MzYsLTE4OD
+eyJoaXN0b3J5IjpbLTc1NjI4MzU2MCwxNTA4NTY0MzYsLTE4OD
 Q1MDczMl19
 -->
