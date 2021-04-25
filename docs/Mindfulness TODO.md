@@ -41,6 +41,7 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 	- Fijar Horario: Mostrar disponibilidad día/semana/mes; 
 	- Automático: Realizar antes de un día específico
 - Avisar 5/10/30 min antes. (Y como opción: no agendar nada antes).
+- Indicar si ac
 
 ### Comienzo de una actividad
 
@@ -100,6 +101,6 @@ Existen varias cosas que podrían mejorar la interacción del usuario, por ejemp
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDE1MzkwMSwtOTE5Njk3MDA2LDE1MD
-g1NjQzNiwtMTg4NDUwNzMyXX0=
+eyJoaXN0b3J5IjpbMTQzNjU4ODE1MCwtMzAwMTUzOTAxLC05MT
+k2OTcwMDYsMTUwODU2NDM2LC0xODg0NTA3MzJdfQ==
 -->
