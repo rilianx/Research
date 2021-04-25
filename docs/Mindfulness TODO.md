@@ -40,7 +40,11 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 - Fijar Horario o Automático
 	- Fijar Horario: Mostrar disponibilidad día/semana/mes; 
 	- Automático: Realizar antes de un día específico
-- Avisar X min antes. (Opcional: no agendar nada antes)
+- Avisar 5/10/30 min antes. (Y como opción: no agendar nada antes).
+
+### Término de una actividad
+
+ Unos 5 minutos antes de que el bloque termine
 
 
 
@@ -75,6 +79,6 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE5MzUxNDEsLTkxOTY5NzAwNiwxNT
+eyJoaXN0b3J5IjpbLTE4MzAxODA5NzgsLTkxOTY5NzAwNiwxNT
 A4NTY0MzYsLTE4ODQ1MDczMl19
 -->
