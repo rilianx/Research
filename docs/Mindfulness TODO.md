@@ -44,7 +44,7 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 
 ### Comienzo de una actividad
 
-De acuerdo a la configuración, la app avisa con minutos de anticipación la actividad que viene a continuación. Mostrando los detalles de esta y el tiempo que falta para comenzar. Cuando el usua
+De acuerdo a la configuración, la app avisa con minutos de anticipación la actividad que viene a continuación. Mostrando los detalles de esta y el tiempo que falta para comenzar. El usuario puede comenzar antes o el comienzo se realiza de manera automática.
 
 ### Término de una actividad
 
@@ -57,8 +57,7 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 - Mostrar la actividad que sigue (si es fija). Si no es fija se pueden mostrar 2 o 3 alternativas para que el usuario escoja la que más le apetece realizar a continuación.
 - Cronómetro de pausa.
 
-
-
+### Aprendiz
 
 
 
@@ -91,6 +90,6 @@ Unos 5 minutos antes de que el bloque termine avisar al usuario para que pueda d
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzNDc2NjM4LC05MTk2OTcwMDYsMTUwOD
-U2NDM2LC0xODg0NTA3MzJdfQ==
+eyJoaXN0b3J5IjpbLTEzMjM1ODIzMTIsLTkxOTY5NzAwNiwxNT
+A4NTY0MzYsLTE4ODQ1MDczMl19
 -->
