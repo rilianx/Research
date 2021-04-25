@@ -22,8 +22,8 @@ Por ejemplo:
 - Recreación. Todas las mañanas entre 7 y 9 y en las tardes entre 19 y 21.
 - Hogar. Día sábado de 9 a 13
 
-**Establecer tiempos de tarea/descanso**
-La duración de los bloques de actividad"
+**Duración de bloques de actividad/descanso**
+¿Cuánto tiempo dedicarle a cada o subtarea? Y cuánto tiempo descan
 
 
 ### Base
@@ -46,6 +46,6 @@ La duración de los bloques de actividad"
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODQxMjMwNCwxNTA4NTY0MzYsLTE4OD
+eyJoaXN0b3J5IjpbLTQ2NjUxMzQ3MCwxNTA4NTY0MzYsLTE4OD
 Q1MDczMl19
 -->
