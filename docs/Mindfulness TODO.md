@@ -36,12 +36,12 @@ La idea es que cada vez que el usuario quiera/necesita realizar una actividad o 
 - Nombre de la actividad
 - Tipo de actividad (establecer una por defecto -> la que más se repite por ejemplo)
 - Descripción (especificar lo que se quiere lograr o avanzar durante este bloque). Se debería poder adjuntar link o archivo.
-- Duración (50min por defecto)
+- Duración (50min por defecto). Si 
 - Fijar Horario o Automático
 	- Fijar Horario: Mostrar disponibilidad día/semana/mes; 
 	- Automático: Realizar antes de un día específico
 - Avisar 5/10/30 min antes. (Y como opción: no agendar nada antes).
-- Indicar si ac
+- Indicar si actividad tiene como prerrequisito alguna actividad o es requerida por otra actividad.
 
 ### Comienzo de una actividad
 
@@ -101,6 +101,6 @@ Existen varias cosas que podrían mejorar la interacción del usuario, por ejemp
 - Si una tarea es postergada varias veces, indicar al usuario. Que se tome un tiempo para asignar la nueva fecha. Quizás la tarea no sea importante y simplemente puede eliminarla.
 - Instar a que usuario descanse en tiempos muertos cortos. Que respire, medite, camine, elongue, etc. Incluso podrían ser distintos consejos que se van intercalando o mensajes positivos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjU4ODE1MCwtMzAwMTUzOTAxLC05MT
+eyJoaXN0b3J5IjpbMTU1MzgyMDAyOCwtMzAwMTUzOTAxLC05MT
 k2OTcwMDYsMTUwODU2NDM2LC0xODg0NTA3MzJdfQ==
 -->
