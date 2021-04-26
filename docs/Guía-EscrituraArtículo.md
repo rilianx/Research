@@ -44,26 +44,6 @@ Generalmente lo divido en párrafos:
 - Diseño de experimentos
 
 ---
-### Bruno Aguilar y Rodrigo Maureira:** [Paper CPMP ANN](https://docs.google.com/file/d/1rNgoqX7F4aYK2gNjj-sRVo5PFScYCWnj/edit) - [overleaf](https://es.overleaf.com/project/6052a394d94c256a6c081b9a)
-
-- Estudiar [PyTorch](https://github.com/mariodorochesi/jupyter_pytorch)
-- Diseñar red (convolutional 1D + [invariante a permutaciones](https://ai.stackexchange.com/questions/4655/how-could-we-build-a-neural-network-that-is-invariant-to-permutations-of-the-inp)) 
-- Comparar con fully connected y paper.
-
----
-
-- Uso del Modelo --> a partir de un estado generar una acción
-- Componentes de la propuesta
-	- Generar soluciones óptimas
-	- Red se entrena con pares estado->acción óptima
-	- Usar modelo para resolver instancias de prueba
-- Árbol de estados 
-- Pros: más rápido que una heurística?
-- No código!
-
-Incluir parámetros A*?
-
----
 ###  Gonzalo Tello
 
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
@@ -93,10 +73,10 @@ Incluir parámetros A*?
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMD
-Q3ODQyOCwtMTgyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0
-OTYzLDk3MTA1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMT
-I3ODgwMDkyOCwyMDEyMzg2OTcxLC0xMjQ3NzI1NzYyLC0xMTE2
-MDY3ODc4LC0xNDk3MTAwNTc1LDEwMjcxNjMwNywtMTEzNDQyNj
-M1NF19
+eyJoaXN0b3J5IjpbLTE4NDI0Nzc0NDIsOTc2NTE1NzE3LC03Nz
+UyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OCwxNDY3MzA3
+NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1MzMwODYxLC
+0zMjk3MDU3MzIsMTI3ODgwMDkyOCwyMDEyMzg2OTcxLC0xMjQ3
+NzI1NzYyLC0xMTE2MDY3ODc4LC0xNDk3MTAwNTc1LDEwMjcxNj
+MwNywtMTEzNDQyNjM1NF19
 -->
