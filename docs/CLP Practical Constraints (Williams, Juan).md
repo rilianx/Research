@@ -38,7 +38,7 @@ TODO
 **TODO**
 
 - Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
-- En sección de BSG, agregar el pseudocódigo:
+- En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
 ````python
 def BSG(TU, C, w):
@@ -330,11 +330,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjczMDgzNSwxNzEyMzAzNjMsMTc2NT
-I3MDkwMCwtMjA2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNzg2NjQ0
-MTgsMzEwNzc3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4LDY3Mj
-AzNDI4MywtMTc4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNjY1MjA2
-NiwyMTQ0NDMzMDU3LC0yMDk1NjI1NTgyLC0xNDM5OTg1OTE3LD
-ExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0MDYsLTE3NjA1
-ODk5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3Nj
+UyNzA5MDAsLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0
+NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2Nz
+IwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIw
+NjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNy
+wxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYw
+NTg5OTY1XX0=
 -->
