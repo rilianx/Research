@@ -42,7 +42,12 @@ TODO
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
 - Restricciones prácticas
-- 
+
+````python
+def BSG():
+   
+
+````
 
 
 - Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
@@ -319,11 +324,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMD
-c3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMs
-LTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0ND
-QzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgw
-ODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LD
-QzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMTgzNzQz
-MDEzOF19
+eyJoaXN0b3J5IjpbMTQyOTcyNjQzOCwtMzU3NDA3NTY3LDIwNz
+g2NjQ0MTgsMzEwNzc3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4
+LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNj
+Y1MjA2NiwyMTQ0NDMzMDU3LC0yMDk1NjI1NTgyLC0xNDM5OTg1
+OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0MDYsLT
+E3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQwMDg1OSwxNjQzNzgx
+MjkxXX0=
 -->
