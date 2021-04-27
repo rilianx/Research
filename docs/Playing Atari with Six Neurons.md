@@ -56,7 +56,15 @@ In order to ensure continuity in training (i.e. the change needs to be transpare
 A variation of Exponential Natural Evolution Strategy(XNES; [30]) tailored for evolving networks with dynamic varying size.
 
 
+
+**Idea nueva**
+
+![image](https://i.imgur.com/EEW0kDY.png)una especie de compresor para la imagen (para pasarle el output a una red multilayer normal). Partir con un juego específico y luego tratar de generalizarlo para juegos similares.
+El compresor haría algo como esto:
+1. Identificar ubicación del jugador dentro de la imagen
+2. Identificar objetos y obtener sus distancias y ángulo con respecto al jugador
+3. Si los objetos son muy numerosos, seleccionar subconjunto representativo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDYzNTcxMywxMDEyMTQyOTI5LC0xMz
+eyJoaXN0b3J5IjpbLTIzODkyMzAxNiwxMDEyMTQyOTI5LC0xMz
 A0MTcyMjU4XX0=
 -->
