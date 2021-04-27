@@ -40,7 +40,6 @@ TODO
 - Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
 - En sección de BSG, agregar el pseudocódigo:
 
-
 ````python
 def BSG(TU, C, w):
    B = block_generator(C, TU)
@@ -331,11 +330,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNj
-QzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAx
-MSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3OD
-M2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1
-NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgwODQsLT
-E0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LDQzNjI4
-NjQ4XX0=
+eyJoaXN0b3J5IjpbLTIzMjczMDgzNSwxNzEyMzAzNjMsMTc2NT
+I3MDkwMCwtMjA2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNzg2NjQ0
+MTgsMzEwNzc3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4LDY3Mj
+AzNDI4MywtMTc4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNjY1MjA2
+NiwyMTQ0NDMzMDU3LC0yMDk1NjI1NTgyLC0xNDM5OTg1OTE3LD
+ExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0MDYsLTE3NjA1
+ODk5NjVdfQ==
 -->
