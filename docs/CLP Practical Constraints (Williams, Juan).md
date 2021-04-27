@@ -47,7 +47,11 @@ TODO
 def BSG(TU, C):
    B = block_generator(C, TU)
    s_0 = State(B, TU)
-   
+   S = {s_0} #conjunto de estados del nivel
+   while S is not empty:
+       SS = set() # estados del siguiente niv
+       for s in S:
+          SS = SS.union(expand(s))
 
 ````
 
@@ -326,11 +330,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNzQ1MDcxLC0zNTc0MDc1NjcsMjA3OD
-Y2NDQxOCwzMTA3NzcwMTEsLTU1ODk1NTc3MywyODQ1NTMyODgs
-NjcyMDM0MjgzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2Nj
-UyMDY2LDIxNDQ0MzMwNTcsLTIwOTU2MjU1ODIsLTE0Mzk5ODU5
-MTcsMTE2MzY4MDg0LC0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMT
-c2MDU4OTk2NSw0MzYyODY0OCwtNTk2NDAwODU5LDE2NDM3ODEy
-OTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MDQ3Mzg3MjcsLTM1NzQwNzU2NywyMD
+c4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4
+OCw2NzIwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1Mj
+Y2NTIwNjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4
+NTkxNywxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC
+0xNzYwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4
+MTI5MV19
 -->
