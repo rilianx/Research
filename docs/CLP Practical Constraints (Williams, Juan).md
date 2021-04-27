@@ -41,6 +41,10 @@ TODO
 
 **Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
 
+- Restricciones prácticas
+- 
+
+
 - Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
 - **Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.**
 - **Tablita restricciones vs. momentos decisivos del algoritmo**
@@ -315,11 +319,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODY2NDQxOCwzMTA3NzcwMTEsLTU1OD
-k1NTc3MywyODQ1NTMyODgsNjcyMDM0MjgzLC0xNzgzNjQyNTYs
-LTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIxNDQ0MzMwNTcsLTIwOT
-U2MjU1ODIsLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC0xNDcyNzYx
-ODExLDQ4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYyODY0OCwtNT
-k2NDAwODU5LDE2NDM3ODEyOTEsLTE4Mzc0MzAxMzgsNDE3NTI3
-MjUxXX0=
+eyJoaXN0b3J5IjpbLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMD
+c3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMs
+LTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0ND
+QzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgw
+ODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LD
+QzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4MTI5MSwtMTgzNzQz
+MDEzOF19
 -->
