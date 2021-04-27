@@ -55,6 +55,8 @@ In order to ensure continuity in training (i.e. the change needs to be transpare
 
 A variation of Exponential Natural Evolution Strategy(XNES; [30]) tailored for evolving networks with dynamic varying size.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjE0MjkyOSwtMTMwNDE3MjI1OF19
+eyJoaXN0b3J5IjpbLTI1NDYzNTcxMywxMDEyMTQyOTI5LC0xMz
+A0MTcyMjU4XX0=
 -->
