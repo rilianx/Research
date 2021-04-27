@@ -56,7 +56,7 @@ def BSG(TU, C, w):
 ````
 mejor solución encontrada por greedy se va guardando
 
-`expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**
+`expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**. (una vez)
 
 `greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
 
@@ -340,11 +340,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMD
-c4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4
-OCw2NzIwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1Mj
-Y2NTIwNjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4
-NTkxNywxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC
-0xNzYwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4
-MTI5MV19
+eyJoaXN0b3J5IjpbMTc2NTI3MDkwMCwtMjA2NDM0MTQwMCwtMz
+U3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3MDExLC01NTg5NTU3
+NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0xND
+c0NjAwNzUzLDUyNjY1MjA2NiwyMTQ0NDMzMDU3LC0yMDk1NjI1
+NTgyLC0xNDM5OTg1OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMS
+w0ODcxNDg0MDYsLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQw
+MDg1OV19
 -->
