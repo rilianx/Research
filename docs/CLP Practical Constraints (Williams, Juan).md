@@ -32,16 +32,13 @@ Habla de los pallets:
 TODO
 --
 
-### Antes de comenzar
-- Leer papers, y este documento.
-- Echar un vistazo a archivos de código principales (main, estado, funciones para cálculo de restricciones blandas).
-
 
 ### Williams
 
-**Objetivo:** Mejorar implementaciones de las **restricciones blandas** (multi-drop, load balance y complete shipment).
+**TODO**
 
-- Restricciones prácticas
+- Revisar restricciones en paper 
+
 
 ````python
 def BSG(TU, C, w):
@@ -66,14 +63,7 @@ mejor solución encontrada por greedy se va guardando
 
 
 
-- Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
-- **Definir detalladamente cómo calcular y utilizar las distintas restricciones en las siguientes secciones del algoritmo.**
-- **Tablita restricciones vs. momentos decisivos del algoritmo**
-- **Escritura de informe**
-	- Introducción (Se hable del contexto, el problema, y la propuesta)
-	- **Estado del Arte (Hablar de las técnicas existentes para resolver el problema, desventajas de estas técnicas)**
-	- Background. Problema explicado formalmente, con función objetivo (formula matemática) y las restricciones. BSG (paper 2017), desventaja: no considera restricciones prácticas.
-	- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG. Propuesta de algoritmo. ¿Cómo se integrarían las restricciones? Tablita + explicaciones detalladas.
+- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG. Propuesta de algoritmo. ¿Cómo se integrarían las restricciones? Tablita + explicaciones detalladas.
 	- Experimentos preliminares
 - Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
 
@@ -340,11 +330,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTI3MDkwMCwtMjA2NDM0MTQwMCwtMz
-U3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3MDExLC01NTg5NTU3
-NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0xND
-c0NjAwNzUzLDUyNjY1MjA2NiwyMTQ0NDMzMDU3LC0yMDk1NjI1
-NTgyLC0xNDM5OTg1OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMS
-w0ODcxNDg0MDYsLTE3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQw
-MDg1OV19
+eyJoaXN0b3J5IjpbLTE2NjUyMjg2NDgsMTc2NTI3MDkwMCwtMj
+A2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3
+MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMT
+c4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNjY1MjA2NiwyMTQ0NDMz
+MDU3LC0yMDk1NjI1NTgyLC0xNDM5OTg1OTE3LDExNjM2ODA4NC
+wtMTQ3Mjc2MTgxMSw0ODcxNDg0MDYsLTE3NjA1ODk5NjUsNDM2
+Mjg2NDhdfQ==
 -->
