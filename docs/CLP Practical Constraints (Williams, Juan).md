@@ -11,7 +11,7 @@ TODO (profe)
 Resumen
 ----
 
-Continuar con el trabajo realizado por [Adolfo y Sebastián](https://docs.google.com/file/d/1IU5kcuR0HzSkFmUjP3vdXEEV5wOA6QQP/edit). [overleaf](https://www.overleaf.com/project/5ff5d46edfbcbf41f15e3fa6)
+Continuar con el trabajo realizado por [Adolfo y Sebastián](https://docs.google.com/file/d/1IU5kcuR0HzSkFmUjP3vdXEEV5wOA6QQP/edit). [overleaf](https://www.overleaf.com/6689583734gwrmtknhtzmt)
 
 El objetivo del trabajo original era el de incorporar restricciones prácticas a un solver para problemas de **carga de contenedores**.
 
@@ -37,7 +37,7 @@ TODO
 
 **TODO**
 
-- Revisar restricciones en paper 
+- Revisar restricciones en paper. Agregar de
 
 
 ````python
@@ -330,11 +330,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUyMjg2NDgsMTc2NTI3MDkwMCwtMj
-A2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3
-MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMT
-c4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNjY1MjA2NiwyMTQ0NDMz
-MDU3LC0yMDk1NjI1NTgyLC0xNDM5OTg1OTE3LDExNjM2ODA4NC
-wtMTQ3Mjc2MTgxMSw0ODcxNDg0MDYsLTE3NjA1ODk5NjUsNDM2
-Mjg2NDhdfQ==
+eyJoaXN0b3J5IjpbMTAwNjUxNzgzOCwxNzY1MjcwOTAwLC0yMD
+Y0MzQxNDAwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwzMTA3Nzcw
+MTEsLTU1ODk1NTc3MywyODQ1NTMyODgsNjcyMDM0MjgzLC0xNz
+gzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIxNDQ0MzMw
+NTcsLTIwOTU2MjU1ODIsLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC
+0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYy
+ODY0OF19
 -->
