@@ -58,7 +58,9 @@ mejor solución encontrada por greedy se va guardando
 
 `expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**
 
-`greedy` construye una solución paso a paso. En cada paso selecciona una ubicación disponible y la mejor acción se
+`greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
+
+
 
 
 
@@ -338,7 +340,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMwMjM0NTgsLTM1NzQwNzU2NywyMD
+eyJoaXN0b3J5IjpbLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMD
 c4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4
 OCw2NzIwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1Mj
 Y2NTIwNjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4
