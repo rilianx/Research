@@ -37,7 +37,8 @@ TODO
 
 **TODO**
 
-- Revisar restricciones en paper. Agregar de
+- Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
+- En sección de BSG, agregar el pseudocódigo:
 
 
 ````python
@@ -330,11 +331,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjUxNzgzOCwxNzY1MjcwOTAwLC0yMD
-Y0MzQxNDAwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwzMTA3Nzcw
-MTEsLTU1ODk1NTc3MywyODQ1NTMyODgsNjcyMDM0MjgzLC0xNz
-gzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIxNDQ0MzMw
-NTcsLTIwOTU2MjU1ODIsLTE0Mzk5ODU5MTcsMTE2MzY4MDg0LC
-0xNDcyNzYxODExLDQ4NzE0ODQwNiwtMTc2MDU4OTk2NSw0MzYy
-ODY0OF19
+eyJoaXN0b3J5IjpbMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNj
+QzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAx
+MSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3OD
+M2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1
+NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgwODQsLT
+E0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYwNTg5OTY1LDQzNjI4
+NjQ4XX0=
 -->
