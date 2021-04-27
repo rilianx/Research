@@ -44,16 +44,21 @@ TODO
 - Restricciones prácticas
 
 ````python
-def BSG(TU, C):
+def BSG(TU, C, w):
    B = block_generator(C, TU)
    s_0 = State(B, TU)
    S = {s_0} #conjunto de estados del nivel
    while S is not empty:
-       SS = set() # estados del siguiente niv
+       SS = set() # estados del siguiente nivel
        for s in S:
-          SS = SS.union(expand(s))
-
+          SS = SS.union(expand(s,w))
+       S = best w states in SS # de acuerdo a greedy
 ````
+
+Consideraciones:
+
+- mejor solución encontrada por greedy se va guardando
+
 
 
 - Definir propuesta de restricciones duras y blandas basadas en las del documento y de los papers para conversar en próxima reunión.
@@ -330,11 +335,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ3Mzg3MjcsLTM1NzQwNzU2NywyMD
-c4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4
-OCw2NzIwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1Mj
-Y2NTIwNjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4
-NTkxNywxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC
-0xNzYwNTg5OTY1LDQzNjI4NjQ4LC01OTY0MDA4NTksMTY0Mzc4
-MTI5MV19
+eyJoaXN0b3J5IjpbMTI3MzI4MjAwOSwtMzU3NDA3NTY3LDIwNz
+g2NjQ0MTgsMzEwNzc3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4
+LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNj
+Y1MjA2NiwyMTQ0NDMzMDU3LC0yMDk1NjI1NTgyLC0xNDM5OTg1
+OTE3LDExNjM2ODA4NCwtMTQ3Mjc2MTgxMSw0ODcxNDg0MDYsLT
+E3NjA1ODk5NjUsNDM2Mjg2NDgsLTU5NjQwMDg1OSwxNjQzNzgx
+MjkxXX0=
 -->
