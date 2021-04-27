@@ -1,6 +1,8 @@
 
 [**Playing Atari with Six Neurons**](https://arxiv.org/pdf/1806.01363.pdf)
 
+[**Rotation, Translation, and Cropping for Zero-Shot Generalization**](https://arxiv.org/pdf/2001.09908.pdf)
+
 [Github repo](https://github.com/giuse/DNE/tree/six_neurons)
 
 By separating the image processing (learning features) from decision-making, one could better understand the complexity of each task, as well as potentially find **smaller policy representations** that are easier for humans to understand and may generalize better.
@@ -54,5 +56,5 @@ In order to ensure continuity in training (i.e. the change needs to be transpare
 A variation of Exponential Natural Evolution Strategy(XNES; [30]) tailored for evolving networks with dynamic varying size.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQxNzIyNThdfQ==
+eyJoaXN0b3J5IjpbMTAxMjE0MjkyOSwtMTMwNDE3MjI1OF19
 -->
