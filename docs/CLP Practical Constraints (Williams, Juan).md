@@ -54,10 +54,10 @@ def BSG(TU, C, w):
           SS = SS.union(expand(s,w))
        S = best w states in SS # de acuerdo a greedy
 ````
+mejor solución encontrada por greedy se va guardando
 
-Consideraciones:
+`expand` 
 
-- mejor solución encontrada por greedy se va guardando
 
 
 
@@ -335,7 +335,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzI4MjAwOSwtMzU3NDA3NTY3LDIwNz
+eyJoaXN0b3J5IjpbMTgzMDg5ODg1OSwtMzU3NDA3NTY3LDIwNz
 g2NjQ0MTgsMzEwNzc3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4
 LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNj
 Y1MjA2NiwyMTQ0NDMzMDU3LC0yMDk1NjI1NTgyLC0xNDM5OTg1
