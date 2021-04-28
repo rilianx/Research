@@ -57,36 +57,10 @@ mejor solución encontrada por greedy se va guardando
 
 `greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
 
+- Redactar sección sobre función heurística VCS
 
 
 
-
-
-
-- Propuesta. Resumen: integrar restricciones prácticas al algoritmo BSG. Propuesta de algoritmo. ¿Cómo se integrarían las restricciones? Tablita + explicaciones detalladas.
-	- Experimentos preliminares
-- Partiendo como base de los algoritmos implementados actualmente, repararlos/modificarlos/optimizarlos para que se comporten de la manera deseada.
-
-Introducción
-
-Objetivos y planificación
-
-Estado del arte:
-- Técnicas exactas (branch and bound)
-- Heurísticas constructivas
-- Restricciones prácticas
-- 2021 y 202x
-
-Background (marco teórica)
-- Problema, **restricciones prácticas**
-- BSG
-
-Propuesta
-- Explicar propuesta, usar tabla y notas que hemos realizado.
-	- Resumen de la propuesta. En este trabajo...
-	- Para integrar las restricciones prácticas al solver. Consideramos que el solver se puede dividir en varias partes...
-	- De acuerdo a esta división, se planea incorporar cada restricción en alguna de esta secciones como se muestra la tabla...
-	- Explicar cada restricción y la manera en que se piensa incorporar.
 
 
 
@@ -330,11 +304,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODk1MjEyMjYsLTE1Njc4MzQ2ODgsMT
-cxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQzNDE0MDAsLTM1NzQw
-NzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLD
-I4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYw
-MDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4Mi
-wtMTQzOTk4NTkxNywxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3
-MTQ4NDA2XX0=
+eyJoaXN0b3J5IjpbLTEyNjM0NjA5MDQsLTE2ODk1MjEyMjYsLT
+E1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQz
+NDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMS
+wtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2
+NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1Ny
+wtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgwODQsLTE0
+NzI3NjE4MTFdfQ==
 -->
