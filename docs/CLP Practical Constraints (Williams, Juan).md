@@ -4,9 +4,9 @@ CLP Practical Constraints (continuación).
 TODO (profe)
 ---
 
-- Revisar BSG
-- Williams: Revisar sección de restricciones prácticas
-- Revisar fusión de Williams
+Paper: Organizar sección 5
+Solver: Revisar Algoritmo de Juan
+
 
 Resumen
 ----
@@ -330,11 +330,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3Nj
-UyNzA5MDAsLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0
-NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2Nz
-IwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIw
-NjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNy
-wxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3MTQ4NDA2LC0xNzYw
-NTg5OTY1XX0=
+eyJoaXN0b3J5IjpbLTE2ODk1MjEyMjYsLTE1Njc4MzQ2ODgsMT
+cxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQzNDE0MDAsLTM1NzQw
+NzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OTU1NzczLD
+I4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYw
+MDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1NywtMjA5NTYyNTU4Mi
+wtMTQzOTk4NTkxNywxMTYzNjgwODQsLTE0NzI3NjE4MTEsNDg3
+MTQ4NDA2XX0=
 -->
