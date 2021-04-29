@@ -14,6 +14,8 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 * ¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.
 * Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
 
+
+
 ---
 * Implementar siguiente algoritmo:
 
@@ -81,9 +83,9 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA3OTE3MiwxNjczODE5NDIzLDE3NT
-A0OTM5ODgsLTE3MDA5MDM5NjUsLTE1NjgzMDMzNDMsLTE4NDM0
-NDczMzAsLTMzNjk4MjYyOCwtNDY2NjU3MzAwLDI3MzYwMTUwNi
-wxNTU3NTIzNjgsMTQxNTU0MTE1MywtMTIwMzMxOTk0NCwtMTky
-NzI0MTUxNCwxNDk5NTk1ODkxXX0=
+eyJoaXN0b3J5IjpbLTYyNDM2MTI0OCwtMTMyMDc5MTcyLDE2Nz
+M4MTk0MjMsMTc1MDQ5Mzk4OCwtMTcwMDkwMzk2NSwtMTU2ODMw
+MzM0MywtMTg0MzQ0NzMzMCwtMzM2OTgyNjI4LC00NjY2NTczMD
+AsMjczNjAxNTA2LDE1NTc1MjM2OCwxNDE1NTQxMTUzLC0xMjAz
+MzE5OTQ0LC0xOTI3MjQxNTE0LDE0OTk1OTU4OTFdfQ==
 -->
