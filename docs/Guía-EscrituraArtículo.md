@@ -35,6 +35,7 @@ Generalmente lo divido en párrafos:
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
 - Trabajando en background
+- Calcular MSE y R^2
 
 ---
 ### Lucas Agullo
@@ -73,10 +74,10 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI0Nzc0NDIsOTc2NTE1NzE3LC03Nz
-UyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OCwxNDY3MzA3
-NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1MzMwODYxLC
-0zMjk3MDU3MzIsMTI3ODgwMDkyOCwyMDEyMzg2OTcxLC0xMjQ3
-NzI1NzYyLC0xMTE2MDY3ODc4LC0xNDk3MTAwNTc1LDEwMjcxNj
-MwNywtMTEzNDQyNjM1NF19
+eyJoaXN0b3J5IjpbMTkzODE4MzI5NCwtMTg0MjQ3NzQ0Miw5Nz
+Y1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xODIyMzg1
+MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2NzcsLT
+E0OTUzMzA4NjEsLTMyOTcwNTczMiwxMjc4ODAwOTI4LDIwMTIz
+ODY5NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4NzgsLTE0OTcxMD
+A1NzUsMTAyNzE2MzA3LC0xMTM0NDI2MzU0XX0=
 -->
