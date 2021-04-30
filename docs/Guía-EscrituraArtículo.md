@@ -58,7 +58,7 @@ Generalmente lo divido en párrafos:
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
 
 - Traducción
-- 
+- Diagrama de la estrategia general
 
 
 ### KD-Tree
@@ -73,11 +73,11 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4Njk3ODQsNjA0MTg4MzY5LC0xOD
-QyNDc3NDQyLDk3NjUxNTcxNywtNzc1MjQyMzcwLC04MDA0Nzg0
-MjgsLTE4MjIzODUwOTgsMTQ2NzMwNzQxOCwtMTcwOTczNDk2My
-w5NzEwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1NzMyLDEyNzg4
-MDA5MjgsMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMTExNjA2Nz
-g3OCwtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0MjYzNTRd
-fQ==
+eyJoaXN0b3J5IjpbLTEwMTMzMzE1ODUsLTE0NDA4Njk3ODQsNj
+A0MTg4MzY5LC0xODQyNDc3NDQyLDk3NjUxNTcxNywtNzc1MjQy
+MzcwLC04MDA0Nzg0MjgsLTE4MjIzODUwOTgsMTQ2NzMwNzQxOC
+wtMTcwOTczNDk2Myw5NzEwNTY3NywtMTQ5NTMzMDg2MSwtMzI5
+NzA1NzMyLDEyNzg4MDA5MjgsMjAxMjM4Njk3MSwtMTI0NzcyNT
+c2MiwtMTExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3MTYzMDcs
+LTExMzQ0MjYzNTRdfQ==
 -->
