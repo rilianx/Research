@@ -57,9 +57,8 @@ Generalmente lo divido en párrafos:
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
 
-- Traducción, dibujo
-- Función Ranking
-- Explicar HC
+- Traducción
+- 
 
 
 ### KD-Tree
@@ -74,10 +73,11 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MTg4MzY5LC0xODQyNDc3NDQyLDk3Nj
-UxNTcxNywtNzc1MjQyMzcwLC04MDA0Nzg0MjgsLTE4MjIzODUw
-OTgsMTQ2NzMwNzQxOCwtMTcwOTczNDk2Myw5NzEwNTY3NywtMT
-Q5NTMzMDg2MSwtMzI5NzA1NzMyLDEyNzg4MDA5MjgsMjAxMjM4
-Njk3MSwtMTI0NzcyNTc2MiwtMTExNjA2Nzg3OCwtMTQ5NzEwMD
-U3NSwxMDI3MTYzMDcsLTExMzQ0MjYzNTRdfQ==
+eyJoaXN0b3J5IjpbLTE0NDA4Njk3ODQsNjA0MTg4MzY5LC0xOD
+QyNDc3NDQyLDk3NjUxNTcxNywtNzc1MjQyMzcwLC04MDA0Nzg0
+MjgsLTE4MjIzODUwOTgsMTQ2NzMwNzQxOCwtMTcwOTczNDk2My
+w5NzEwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1NzMyLDEyNzg4
+MDA5MjgsMjAxMjM4Njk3MSwtMTI0NzcyNTc2MiwtMTExNjA2Nz
+g3OCwtMTQ5NzEwMDU3NSwxMDI3MTYzMDcsLTExMzQ0MjYzNTRd
+fQ==
 -->
