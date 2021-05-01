@@ -60,6 +60,7 @@ Generalmente lo divido en párrafos:
 - Traducción
 - Diagrama de la estrategia general
 
+![image]()
 
 ### KD-Tree
 
@@ -73,11 +74,11 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMzMzE1ODUsLTE0NDA4Njk3ODQsNj
-A0MTg4MzY5LC0xODQyNDc3NDQyLDk3NjUxNTcxNywtNzc1MjQy
-MzcwLC04MDA0Nzg0MjgsLTE4MjIzODUwOTgsMTQ2NzMwNzQxOC
-wtMTcwOTczNDk2Myw5NzEwNTY3NywtMTQ5NTMzMDg2MSwtMzI5
-NzA1NzMyLDEyNzg4MDA5MjgsMjAxMjM4Njk3MSwtMTI0NzcyNT
-c2MiwtMTExNjA2Nzg3OCwtMTQ5NzEwMDU3NSwxMDI3MTYzMDcs
-LTExMzQ0MjYzNTRdfQ==
+eyJoaXN0b3J5IjpbMTk5ODQwNTEzNiwtMTAxMzMzMTU4NSwtMT
+Q0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1
+NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OC
+wxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1
+MzMwODYxLC0zMjk3MDU3MzIsMTI3ODgwMDkyOCwyMDEyMzg2OT
+cxLC0xMjQ3NzI1NzYyLC0xMTE2MDY3ODc4LC0xNDk3MTAwNTc1
+LDEwMjcxNjMwN119
 -->
