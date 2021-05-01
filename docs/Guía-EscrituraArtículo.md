@@ -60,7 +60,10 @@ Generalmente lo divido en párrafos:
 - Traducción
 - Diagrama de la estrategia general
 
-![image]()
+Atributos de nodos
+![image](https://i.imgur.com/Tayv9cj.png =500x)
+
+
 
 ### KD-Tree
 
@@ -74,7 +77,7 @@ Generalmente lo divido en párrafos:
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODQwNTEzNiwtMTAxMzMzMTU4NSwtMT
+eyJoaXN0b3J5IjpbMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMT
 Q0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1
 NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OC
 wxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1
