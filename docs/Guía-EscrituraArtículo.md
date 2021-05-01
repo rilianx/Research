@@ -81,6 +81,8 @@ def dfs_greedy(self):
 ````python
 def bfs(self):
     self.sat (-)
+    self.depth (-)
+    self.s
 	return 
 ````
 
@@ -97,7 +99,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTA0ODgxMCwxMTIwNDc4ODUyLC0xMD
+eyJoaXN0b3J5IjpbLTQ0MTk5MzMwOCwxMTIwNDc4ODUyLC0xMD
 EzMzMxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3
 NzQ0Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4NDI4LC
 0xODIyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcx
