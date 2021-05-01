@@ -70,8 +70,7 @@ def best-first(self):
 
 ````python
 def diving(self):
-	self.parent == last_selected 
-	return self.s
+	return 1000*(self.parent == last_selected) + self.s
 ````
 
 
@@ -87,7 +86,7 @@ def diving(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIxODgzODYsMTEyMDQ3ODg1MiwtMT
+eyJoaXN0b3J5IjpbLTE5ODY5ODcwODUsMTEyMDQ3ODg1MiwtMT
 AxMzMzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0
 Nzc0NDIsOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOC
 wtMTgyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLDk3
