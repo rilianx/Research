@@ -64,12 +64,18 @@ Atributos de nodos
 ![image](https://i.imgur.com/Tayv9cj.png =500x)
 
 ````python
-def best-first(self): 
+def best_first(self): 
 	return self.s
 ````
 
 ````python
 def diving(self):
+	return 1000*(self.parent == last_selected) + self.s
+````
+
+````python
+def dfs_greedy(self):
+    return 10self.depth + self.s
 	return 1000*(self.parent == last_selected) + self.s
 ````
 
@@ -86,11 +92,11 @@ def diving(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY5ODcwODUsMTEyMDQ3ODg1MiwtMT
-AxMzMzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0
-Nzc0NDIsOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOC
-wtMTgyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLDk3
-MTA1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMTI3ODgwMD
-kyOCwyMDEyMzg2OTcxLC0xMjQ3NzI1NzYyLC0xMTE2MDY3ODc4
-LC0xNDk3MTAwNTc1XX0=
+eyJoaXN0b3J5IjpbLTkyNTYxMjY2MywxMTIwNDc4ODUyLC0xMD
+EzMzMxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3
+NzQ0Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4NDI4LC
+0xODIyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcx
+MDU2NzcsLTE0OTUzMzA4NjEsLTMyOTcwNTczMiwxMjc4ODAwOT
+I4LDIwMTIzODY5NzEsLTEyNDc3MjU3NjIsLTExMTYwNjc4Nzgs
+LTE0OTcxMDA1NzVdfQ==
 -->
