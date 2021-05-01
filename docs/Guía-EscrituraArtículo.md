@@ -75,8 +75,13 @@ def diving(self):
 
 ````python
 def dfs_greedy(self):
-    return 10self.depth + self.s
-	return 1000*(self.parent == last_selected) + self.s
+    return 1000*self.depth + self.s
+````
+
+````python
+def bfs(self):
+    self.sat (-)
+	return 
 ````
 
 
@@ -92,7 +97,7 @@ def dfs_greedy(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTYxMjY2MywxMTIwNDc4ODUyLC0xMD
+eyJoaXN0b3J5IjpbMTQwNTA0ODgxMCwxMTIwNDc4ODUyLC0xMD
 EzMzMxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3
 NzQ0Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4NDI4LC
 0xODIyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcx
