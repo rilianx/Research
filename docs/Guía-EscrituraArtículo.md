@@ -78,7 +78,7 @@ def dfs_greedy(self):
     return 1000*self.depth + self.s
 ````
 
-
+sat: nodes_in_level/max_nodes_in_level
 
 ````python
 def bfs(self):
@@ -98,11 +98,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTIwNjQ0Niw3NDczODIwMjYsLTEwMT
-U1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MDg2
-OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1NzE3LC
-03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OCwxNDY3
-MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1MzMwOD
-YxLC0zMjk3MDU3MzIsMTI3ODgwMDkyOCwyMDEyMzg2OTcxLC0x
-MjQ3NzI1NzYyXX0=
+eyJoaXN0b3J5IjpbNzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAxNT
+U5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1LC0xNDQwODY5
+Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcsLT
+c3NTI0MjM3MCwtODAwNDc4NDI4LC0xODIyMzg1MDk4LDE0Njcz
+MDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2NzcsLTE0OTUzMzA4Nj
+EsLTMyOTcwNTczMiwxMjc4ODAwOTI4LDIwMTIzODY5NzEsLTEy
+NDc3MjU3NjJdfQ==
 -->
