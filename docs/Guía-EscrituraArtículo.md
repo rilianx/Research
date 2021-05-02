@@ -82,7 +82,7 @@ sat: nodes_in_level/max_nodes_in_level
 
 ````python
 def bfs(self):
-	return 100*max(self.sat-1,0) - 10*self.depth + self.s + sqrt(1/self.children)
+	return -10000*sat - 10*self.depth + self.s + c*sqrt(1/(len(self.ch)+1))
 ````
 
 
@@ -99,11 +99,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4Mj
-AyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1
-LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0Miw5Nz
-Y1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xODIyMzg1
-MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2NzcsLT
-E0OTUzMzA4NjEsLTMyOTcwNTczMiwxMjc4ODAwOTI4LDIwMTIz
-ODY5NzFdfQ==
+eyJoaXN0b3J5IjpbMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxND
+A5Miw3NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1Miwt
+MTAxMzMzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4ND
+I0Nzc0NDIsOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQy
+OCwtMTgyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLD
+k3MTA1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMTI3ODgw
+MDkyOF19
 -->
