@@ -7,11 +7,11 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 ### TODO
 
 * :ok: Ordenar de los hijos 
-* ==Presentación: Explicar lo que hacen en  [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view) vs  **propuesta inédita**==
+* =**IN COMING**=Presentación: Explicar lo que hacen en  [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view) vs  **propuesta inédita**==
 * ==Contar cantidad de nodos que tarda en llegar a la mejor solución==
 * ==`update(L)`: menor l de los nodos guardados en el stack (profe) Listo!==
 * :ok: `lower_bound(nodo)`: ver lo que hacen en paper ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))
-* ¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.
+* :ok: ¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.
 * Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
 
 
