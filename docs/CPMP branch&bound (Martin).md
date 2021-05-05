@@ -13,6 +13,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 * :ok: `lower_bound(nodo)`: ver lo que hacen en paper ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))
 * :ok: ¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.
 * Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
+* :ok: Imprementar multiset
 
 
 
