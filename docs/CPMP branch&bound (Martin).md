@@ -32,6 +32,7 @@ void solve(layout)
 
 * Ver en paper como calculan LB y tratar de implementar algo
 * Ver en paper que es `Memoization_Heuristic`
+* Comparar version normal vs version con orden de hijos
 
 ````python
 def search(layout, L, U): #lower y upperbound
