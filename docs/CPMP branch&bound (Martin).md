@@ -11,7 +11,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 * :ok:Contar cantidad de nodos que tarda en llegar a la mejor solución==
 * :ok:`update(L)`: menor l de los nodos guardados en el stack (profe) Listo!==
 * :ok: `lower_bound(nodo)`: ver lo que hacen en paper ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))
-* :ok: ¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.
+* ==¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.==
 * Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
 * :ok: Imprementar multiset
 
@@ -88,11 +88,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDI2NDQyNCwtMTIwNzk5NzY0OCwtMT
-czNDQ5OTMxNywtNzU0Njc2NjMyLC02MjQzNjEyNDgsLTEzMjA3
-OTE3MiwxNjczODE5NDIzLDE3NTA0OTM5ODgsLTE3MDA5MDM5Nj
-UsLTE1NjgzMDMzNDMsLTE4NDM0NDczMzAsLTMzNjk4MjYyOCwt
-NDY2NjU3MzAwLDI3MzYwMTUwNiwxNTU3NTIzNjgsMTQxNTU0MT
-E1MywtMTIwMzMxOTk0NCwtMTkyNzI0MTUxNCwxNDk5NTk1ODkx
-XX0=
+eyJoaXN0b3J5IjpbMTE4MzA2MjUwMSwxNjIwMjY0NDI0LC0xMj
+A3OTk3NjQ4LC0xNzM0NDk5MzE3LC03NTQ2NzY2MzIsLTYyNDM2
+MTI0OCwtMTMyMDc5MTcyLDE2NzM4MTk0MjMsMTc1MDQ5Mzk4OC
+wtMTcwMDkwMzk2NSwtMTU2ODMwMzM0MywtMTg0MzQ0NzMzMCwt
+MzM2OTgyNjI4LC00NjY2NTczMDAsMjczNjAxNTA2LDE1NTc1Mj
+M2OCwxNDE1NTQxMTUzLC0xMjAzMzE5OTQ0LC0xOTI3MjQxNTE0
+LDE0OTk1OTU4OTFdfQ==
 -->
