@@ -84,10 +84,10 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ0OTkzMTcsLTc1NDY3NjYzMiwtNj
-I0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMywxNzUwNDkz
-OTg4LC0xNzAwOTAzOTY1LC0xNTY4MzAzMzQzLC0xODQzNDQ3Mz
-MwLC0zMzY5ODI2MjgsLTQ2NjY1NzMwMCwyNzM2MDE1MDYsMTU1
-NzUyMzY4LDE0MTU1NDExNTMsLTEyMDMzMTk5NDQsLTE5MjcyND
-E1MTQsMTQ5OTU5NTg5MV19
+eyJoaXN0b3J5IjpbLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLT
+c1NDY3NjYzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3Mzgx
+OTQyMywxNzUwNDkzOTg4LC0xNzAwOTAzOTY1LC0xNTY4MzAzMz
+QzLC0xODQzNDQ3MzMwLC0zMzY5ODI2MjgsLTQ2NjY1NzMwMCwy
+NzM2MDE1MDYsMTU1NzUyMzY4LDE0MTU1NDExNTMsLTEyMDMzMT
+k5NDQsLTE5MjcyNDE1MTQsMTQ5OTU5NTg5MV19
 -->
