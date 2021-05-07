@@ -41,8 +41,9 @@ Generalmente lo divido en párrafos:
 	- Reescritura anti-plagio
 	- Hablar de interpolación y métodos existentes
 - Background
-	- Intervals :ok: (revisión anti-plagio)
-	- 
+	- Intervals :ok: (falta corrección anti-plagio)
+	- Biobjective problems (revisar y arreglar)
+	- Interpolación
 	- 
 
 ---
@@ -107,7 +108,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MjA2ODM4LDM3NjI5NDkwMCwxNzU0Nz
+eyJoaXN0b3J5IjpbNjc1MjQ3ODAwLDM3NjI5NDkwMCwxNzU0Nz
 Y5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAx
 NTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1LC0xNDQwOD
 Y5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcs
