@@ -36,8 +36,9 @@ Generalmente lo divido en párrafos:
 
 - Figura spline
 - Calcular errores de predicción
-- Algoritmo para la estrategia general. Algo bonito como:
-![image]()
+- Algoritmo para la estrategia general. Algo bonito como el del SearchEfficient.
+
+---
 
 - Introducción
 	- Reescritura anti-plagio
@@ -46,8 +47,10 @@ Generalmente lo divido en párrafos:
 	- Intervals :ok: (falta corrección anti-plagio)
 	- Biobjective problems (revisar y arreglar)
 	- Interpolación (traducir, faltan referencias)
-	- 
-	- 
+- Propuesta
+	- Estrategia general
+	- SearchEfficient
+	-  
 
 ---
 ### Lucas Agullo
@@ -111,7 +114,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzEwNzEwMSwzNzYyOTQ5MDAsMTc1ND
+eyJoaXN0b3J5IjpbLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1ND
 c2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEw
 MTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MD
 g2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1NzE3
