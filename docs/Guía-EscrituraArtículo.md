@@ -34,7 +34,7 @@ Generalmente lo divido en párrafos:
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
-- Figura spline
+- Agregar figura de ejemplo para explicar spline
 - Calcular errores de predicción
 
 **En propuesta**
@@ -44,9 +44,10 @@ Generalmente lo divido en párrafos:
 	- Segunda caja (en caso de fallo)
 - En subsecciones explicar detalles de las distintas partes del algoritmo.
 	- Selección de $y_1$
-	- Creación de caja para búsqueda. Qué hacer 
+	- Creación de caja para búsqueda. ¿Qué pasa si falla?
 	- Reducción en x (mejora?)
-	- Search Efficent
+	- Search Efficient
+- Definición de experimentos
 
 ---
 
@@ -58,9 +59,9 @@ Generalmente lo divido en párrafos:
 	- Biobjective problems (revisar y arreglar)
 	- Interpolación (traducir, faltan referencias)
 - Propuesta
-	- Estrategia general
-	- SearchEfficient
-	-  
+- Experimentos
+	- Definir
+- Conclusiones
 
 ---
 ### Lucas Agullo
@@ -124,7 +125,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ4OTAwNTYsLTIzMTI1MjcxMSwzNz
+eyJoaXN0b3J5IjpbLTIxMjY1NTkyOTUsLTIzMTI1MjcxMSwzNz
 YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
 NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
 MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
