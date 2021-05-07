@@ -36,7 +36,11 @@ Generalmente lo divido en párrafos:
 
 - Figura spline
 - Calcular errores de predicción
-- Algoritmo para la estrategia general. Algo bonito como el del SearchEfficient.
+- Agregar pseudocódigo al algorimo de la estrategia general. También agregar imágenes que muestren:
+	- Creación de la primera caja y
+	- Estimación del punto eficiente usando spline y creación de caja
+	- Segunda caja (en caso de fallo)
+- En subsecciones 
 
 ---
 
@@ -114,11 +118,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1ND
-c2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEw
-MTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MD
-g2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1NzE3
-LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OCwxND
-Y3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1MzMw
-ODYxXX0=
+eyJoaXN0b3J5IjpbLTQ5MzU5MjQxNywtMjMxMjUyNzExLDM3Nj
+I5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0
+NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMz
+MxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0
+Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xOD
+IyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2
+NzddfQ==
 -->
