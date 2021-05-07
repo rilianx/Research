@@ -43,7 +43,8 @@ Generalmente lo divido en párrafos:
 - Background
 	- Intervals :ok: (falta corrección anti-plagio)
 	- Biobjective problems (revisar y arreglar)
-	- Interpolación
+	- Interpolación (traducir, faltan referencias)
+	- 
 	- 
 
 ---
@@ -108,11 +109,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1MjQ3ODAwLDM3NjI5NDkwMCwxNzU0Nz
-Y5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAx
-NTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1LC0xNDQwOD
-Y5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcs
-LTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xODIyMzg1MDk4LDE0Nj
-czMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2NzcsLTE0OTUzMzA4
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTc0MzAwNDkwNywzNzYyOTQ5MDAsMTc1ND
+c2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEw
+MTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MD
+g2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1NzE3
+LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OCwxND
+Y3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1MzMw
+ODYxXX0=
 -->
