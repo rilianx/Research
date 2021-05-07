@@ -38,6 +38,7 @@ Generalmente lo divido en párrafos:
 - Calcular errores de predicción
 
 - Introducción
+	- Reescritura anti-plagio
 	- Hablar de interpolación y métodos existentes
 - Background
 
@@ -103,7 +104,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ3Nzc3ODEsMzc2Mjk0OTAwLDE3NT
+eyJoaXN0b3J5IjpbLTEzNzEzNDgyMzAsMzc2Mjk0OTAwLDE3NT
 Q3NjkxNiwzNDYxMDM2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0x
 MDE1NTk5Mjc1LDExMjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0ND
 A4Njk3ODQsNjA0MTg4MzY5LC0xODQyNDc3NDQyLDk3NjUxNTcx
