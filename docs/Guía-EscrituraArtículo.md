@@ -34,11 +34,9 @@ Generalmente lo divido en párrafos:
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
-- Agregar figura de ejemplo para explicar spline
+- (**En background**) Agregar figura de ejemplo para explicar spline
 - Calcular errores de predicción
-
-**En propuesta**
-- Agregar pseudocódigo al algoritmo de la estrategia general. También agregar imágenes que muestren:
+- (**En propuesta**) Agregar pseudocódigo al algoritmo de la estrategia general. También agregar imágenes que muestren:
 	- Creación de la primera caja y
 	- Estimación del punto eficiente usando spline y creación de caja
 	- Segunda caja (en caso de fallo)
@@ -47,7 +45,7 @@ Generalmente lo divido en párrafos:
 	- Creación de caja para búsqueda. ¿Qué pasa si falla?
 	- Reducción en x (mejora?)
 	- Search Efficient
-- Definición de experimentos
+- (**Experimentos**) Definir
 
 ---
 
@@ -76,6 +74,7 @@ Generalmente lo divido en párrafos:
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
 - Entender algoritmo para mejorar sección de bin packing
+- Bosquejar propuesta (dividir en subsecciones
 - Comenzar a redactar propuesta
 
 ---
@@ -125,7 +124,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY1NTkyOTUsLTIzMTI1MjcxMSwzNz
+eyJoaXN0b3J5IjpbLTEyODg2Njg3OTUsLTIzMTI1MjcxMSwzNz
 YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
 NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
 MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
