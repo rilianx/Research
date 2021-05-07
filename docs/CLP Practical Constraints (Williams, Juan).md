@@ -62,7 +62,7 @@ mejor solución encontrada por greedy se va guardando
 
 - Redactar sección sobre función heurística VCS --> ==profe==
 - Tablita de momentos
-- Agregar integración de restricciones en el solver
+- Describir integración de restricciones en el solver.
 
 
 
@@ -309,11 +309,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc1NTk2MTQsNDkzMzAxOTA1LC0xMj
-cxMTM4MTc2LC0xMjYzNDYwOTA0LC0xNjg5NTIxMjI2LC0xNTY3
-ODM0Njg4LDE3MTIzMDM2MywxNzY1MjcwOTAwLC0yMDY0MzQxND
-AwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwzMTA3NzcwMTEsLTU1
-ODk1NTc3MywyODQ1NTMyODgsNjcyMDM0MjgzLC0xNzgzNjQyNT
-YsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIxNDQ0MzMwNTcsLTIw
-OTU2MjU1ODJdfQ==
+eyJoaXN0b3J5IjpbMjA0MDM5MTI3MCwtMTA5NzU1OTYxNCw0OT
+MzMDE5MDUsLTEyNzExMzgxNzYsLTEyNjM0NjA5MDQsLTE2ODk1
+MjEyMjYsLTE1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MD
+AsLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMx
+MDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyOD
+MsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0
+NDQzMzA1N119
 -->
