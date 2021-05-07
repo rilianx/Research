@@ -74,7 +74,7 @@ Generalmente lo divido en párrafos:
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
 - Entender algoritmo para mejorar sección de bin packing
-- Bosquejar propuesta (dividir en subsecciones
+- Bosquejar propuesta (dividir en subsecciones)
 - Comenzar a redactar propuesta
 
 ---
@@ -124,7 +124,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg2Njg3OTUsLTIzMTI1MjcxMSwzNz
+eyJoaXN0b3J5IjpbLTIwNjc5MzU0OTgsLTIzMTI1MjcxMSwzNz
 YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
 NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
 MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
