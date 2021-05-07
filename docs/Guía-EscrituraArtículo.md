@@ -44,8 +44,9 @@ Generalmente lo divido en párrafos:
 	- Segunda caja (en caso de fallo)
 - En subsecciones explicar detalles de las distintas partes del algoritmo.
 	- Selección de $y_1$
-	- Estimación usando spline
-	- 
+	- Creación de caja para búsqueda. Qué hacer 
+	- Reducción en x (mejora?)
+	- Search Efficent
 
 ---
 
@@ -123,11 +124,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjQxNTM0MCwtMjMxMjUyNzExLDM3Nj
-I5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0
-NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMz
-MxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0
-Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xOD
-IyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2
-NzddfQ==
+eyJoaXN0b3J5IjpbLTE5OTQ4OTAwNTYsLTIzMTI1MjcxMSwzNz
+YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
+NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
+MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
+NDIsOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMT
+gyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1
+Njc3XX0=
 -->
