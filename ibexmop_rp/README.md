@@ -8,8 +8,7 @@ Removing points from the non-dominated set
 
 + Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
 + [ibex_NDS.h](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h).
-	+ ==Implementar eliminación de puntos y conjunto ordenado por hv==
-	+ Dejar NDShv dentro de Point
+	+ O
 	+ Actualización de elementos en Set dentro de point
 
 
@@ -123,11 +122,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUzMjIyOTQsLTE2NDIxNjU4OTUsMT
-AzMzc2MzA0MiwxNzU0MjY3MTU4LC02MDgxNjI1NzgsLTE3NTgw
-NDUyNTEsMTAxMDM2MTEyMSwxOTM3ODczMzk0LDcwMzE0NDcwNy
-wxNjQ0MDM4OTk4LC0xNDMzOTI0NDUyLC0xNzQ3MzEzMDg2LC0x
-NjU4MDQyMDI4LDE3MjE2ODg4NTgsOTg0NTU1NjMxLC05ODY5OD
-cyNTQsLTIwNjIwMDA2MzIsMTMzNTIxODk2LDIyNzUyMzk3Nywt
-MjEyMDkxNjYwNF19
+eyJoaXN0b3J5IjpbLTc5OTk4NTU2MiwtMTkwNTMyMjI5NCwtMT
+Y0MjE2NTg5NSwxMDMzNzYzMDQyLDE3NTQyNjcxNTgsLTYwODE2
+MjU3OCwtMTc1ODA0NTI1MSwxMDEwMzYxMTIxLDE5Mzc4NzMzOT
+QsNzAzMTQ0NzA3LDE2NDQwMzg5OTgsLTE0MzM5MjQ0NTIsLTE3
+NDczMTMwODYsLTE2NTgwNDIwMjgsMTcyMTY4ODg1OCw5ODQ1NT
+U2MzEsLTk4Njk4NzI1NCwtMjA2MjAwMDYzMiwxMzM1MjE4OTYs
+MjI3NTIzOTc3XX0=
 -->
