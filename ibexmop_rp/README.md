@@ -8,11 +8,7 @@ Removing points from the non-dominated set
 
 + Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
 + [ibex_NDS.h](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h).
-	+ ==Ordenar código y revisar==
-	+ Juntar con NDSh
-	+ Probar con instancias reales
-	+ 
-	+ 
+	+ ==Probar con instancias reales y reparar fallos==
 ````
 python3 plugins/optim-mop/main/plot3.py &
 ./__build__/plugins/optim-mop/ibexmop plugins/optim-mop/benchs/binh.txt  --cy-contract-full --eps-contract --ub=ub1 --eps=1 --print_nds
@@ -128,11 +124,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NTA2MDEzLC0xOTExNzE0NDI3LC0xOT
-A1MzIyMjk0LC0xNjQyMTY1ODk1LDEwMzM3NjMwNDIsMTc1NDI2
-NzE1OCwtNjA4MTYyNTc4LC0xNzU4MDQ1MjUxLDEwMTAzNjExMj
-EsMTkzNzg3MzM5NCw3MDMxNDQ3MDcsMTY0NDAzODk5OCwtMTQz
-MzkyNDQ1MiwtMTc0NzMxMzA4NiwtMTY1ODA0MjAyOCwxNzIxNj
-g4ODU4LDk4NDU1NTYzMSwtOTg2OTg3MjU0LC0yMDYyMDAwNjMy
-LDEzMzUyMTg5Nl19
+eyJoaXN0b3J5IjpbNTc3ODg1NzM0LDM2NTUwNjAxMywtMTkxMT
+cxNDQyNywtMTkwNTMyMjI5NCwtMTY0MjE2NTg5NSwxMDMzNzYz
+MDQyLDE3NTQyNjcxNTgsLTYwODE2MjU3OCwtMTc1ODA0NTI1MS
+wxMDEwMzYxMTIxLDE5Mzc4NzMzOTQsNzAzMTQ0NzA3LDE2NDQw
+Mzg5OTgsLTE0MzM5MjQ0NTIsLTE3NDczMTMwODYsLTE2NTgwND
+IwMjgsMTcyMTY4ODg1OCw5ODQ1NTU2MzEsLTk4Njk4NzI1NCwt
+MjA2MjAwMDYzMl19
 -->
