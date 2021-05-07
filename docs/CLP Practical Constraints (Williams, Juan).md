@@ -38,6 +38,8 @@ TODO
 **TODO**
 
 - Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
+	- Fusionar conflicting items con spearation of items
+	- Cargo stability -> separar
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
 ````python
@@ -304,11 +306,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM0NjA5MDQsLTE2ODk1MjEyMjYsLT
-E1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQz
-NDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMS
-wtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2
-NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1Ny
-wtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywxMTYzNjgwODQsLTE0
-NzI3NjE4MTFdfQ==
+eyJoaXN0b3J5IjpbLTEyNzExMzgxNzYsLTEyNjM0NjA5MDQsLT
+E2ODk1MjEyMjYsLTE1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3NjUy
+NzA5MDAsLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0ND
+E4LDMxMDc3NzAxMSwtNTU4OTU1NzczLDI4NDU1MzI4OCw2NzIw
+MzQyODMsLTE3ODM2NDI1NiwtMTQ3NDYwMDc1Myw1MjY2NTIwNj
+YsMjE0NDQzMzA1NywtMjA5NTYyNTU4MiwtMTQzOTk4NTkxNywx
+MTYzNjgwODRdfQ==
 -->
