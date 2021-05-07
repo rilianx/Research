@@ -55,7 +55,7 @@ Generalmente lo divido en párrafos:
 ---
 ### Stephanie Gómez
 
- [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a)
+ [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
 
 - Traducción
 - Diagrama de la estrategia general
@@ -99,11 +99,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxND
-A5Miw3NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1Miwt
-MTAxMzMzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4ND
-I0Nzc0NDIsOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQy
-OCwtMTgyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLD
-k3MTA1Njc3LC0xNDk1MzMwODYxLC0zMjk3MDU3MzIsMTI3ODgw
-MDkyOF19
+eyJoaXN0b3J5IjpbMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMD
+M2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDEx
+MjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0NDA4Njk3ODQsNjA0MT
+g4MzY5LC0xODQyNDc3NDQyLDk3NjUxNTcxNywtNzc1MjQyMzcw
+LC04MDA0Nzg0MjgsLTE4MjIzODUwOTgsMTQ2NzMwNzQxOCwtMT
+cwOTczNDk2Myw5NzEwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1
+NzMyXX0=
 -->
