@@ -49,7 +49,7 @@ Generalmente lo divido en párrafos:
 
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
-- Resumir sección bin packing
+- Mejorar sección de bin pack
 - Comenzar a redactar propuesta
 
 ---
@@ -99,11 +99,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMD
-M2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDEx
-MjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0NDA4Njk3ODQsNjA0MT
-g4MzY5LC0xODQyNDc3NDQyLDk3NjUxNTcxNywtNzc1MjQyMzcw
-LC04MDA0Nzg0MjgsLTE4MjIzODUwOTgsMTQ2NzMwNzQxOCwtMT
-cwOTczNDk2Myw5NzEwNTY3NywtMTQ5NTMzMDg2MSwtMzI5NzA1
-NzMyXX0=
+eyJoaXN0b3J5IjpbMTE3NjAwMjkzOCwzNzYyOTQ5MDAsMTc1ND
+c2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEw
+MTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MD
+g2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1NzE3
+LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4NTA5OCwxND
+Y3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1Njc3LC0xNDk1MzMw
+ODYxXX0=
 -->
