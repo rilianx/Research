@@ -41,6 +41,9 @@ Generalmente lo divido en párrafos:
 	- Reescritura anti-plagio
 	- Hablar de interpolación y métodos existentes
 - Background
+	- Intervals :ok: (revisión anti-plagio)
+	- 
+	- 
 
 ---
 ### Lucas Agullo
@@ -104,11 +107,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzEzNDgyMzAsMzc2Mjk0OTAwLDE3NT
-Q3NjkxNiwzNDYxMDM2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0x
-MDE1NTk5Mjc1LDExMjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0ND
-A4Njk3ODQsNjA0MTg4MzY5LC0xODQyNDc3NDQyLDk3NjUxNTcx
-NywtNzc1MjQyMzcwLC04MDA0Nzg0MjgsLTE4MjIzODUwOTgsMT
-Q2NzMwNzQxOCwtMTcwOTczNDk2Myw5NzEwNTY3NywtMTQ5NTMz
-MDg2MV19
+eyJoaXN0b3J5IjpbNjk4MjA2ODM4LDM3NjI5NDkwMCwxNzU0Nz
+Y5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAx
+NTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1LC0xNDQwOD
+Y5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcs
+LTc3NTI0MjM3MCwtODAwNDc4NDI4LC0xODIyMzg1MDk4LDE0Nj
+czMDc0MTgsLTE3MDk3MzQ5NjMsOTcxMDU2NzcsLTE0OTUzMzA4
+NjFdfQ==
 -->
