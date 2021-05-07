@@ -5,9 +5,7 @@
 - Objetivos, plan de trabajo, metodología
 - ==Estado del Arte (lo más completo posible)==
 - Marco Teórico o Background (algunas cosas)
-- Propuesta (resumen de una/dos páginas)
-- Conclusiones
-
+- **Propuesta** (resumen de una/dos páginas) 
 
 
 ## Desarrollo de la tesis
@@ -47,7 +45,7 @@ Propongo realizar los siguientes pasos:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzMzY5MjIxLDEzMTExMTA0MDksNDc2MT
-A2NDcyLC0xNzcwMTI5NTI3LDkwNzIwODAxNywtNTI2Mjg1NTMz
-XX0=
+eyJoaXN0b3J5IjpbLTExNjE5ODIzNzEsNzIzMzY5MjIxLDEzMT
+ExMTA0MDksNDc2MTA2NDcyLC0xNzcwMTI5NTI3LDkwNzIwODAx
+NywtNTI2Mjg1NTMzXX0=
 -->
