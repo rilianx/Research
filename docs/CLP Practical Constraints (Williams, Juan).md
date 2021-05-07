@@ -40,7 +40,7 @@ TODO
 - Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
 	- Fusionar conflicting items con separation of items
 	- Cargo stability -> separar
-	- Load Bearing --> Profe
+	- Load Bearing --> ==profe==
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
 ````python
@@ -60,7 +60,9 @@ mejor solución encontrada por greedy se va guardando
 
 `greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
 
-- Redactar sección sobre función heurística VCS
+- Redactar sección sobre función heurística VCS --> ==profe==
+- 
+- 
 
 
 
@@ -307,11 +309,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMj
-YzNDYwOTA0LC0xNjg5NTIxMjI2LC0xNTY3ODM0Njg4LDE3MTIz
-MDM2MywxNzY1MjcwOTAwLC0yMDY0MzQxNDAwLC0zNTc0MDc1Nj
-csMjA3ODY2NDQxOCwzMTA3NzcwMTEsLTU1ODk1NTc3MywyODQ1
-NTMyODgsNjcyMDM0MjgzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NT
-MsNTI2NjUyMDY2LDIxNDQ0MzMwNTcsLTIwOTU2MjU1ODIsLTE0
-Mzk5ODU5MTddfQ==
+eyJoaXN0b3J5IjpbMTcwMzQ3NDQzNyw0OTMzMDE5MDUsLTEyNz
+ExMzgxNzYsLTEyNjM0NjA5MDQsLTE2ODk1MjEyMjYsLTE1Njc4
+MzQ2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQzNDE0MD
+AsLTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMSwtNTU4
+OTU1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2NDI1Ni
+wtMTQ3NDYwMDc1Myw1MjY2NTIwNjYsMjE0NDQzMzA1NywtMjA5
+NTYyNTU4Ml19
 -->
