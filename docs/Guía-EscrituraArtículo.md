@@ -36,11 +36,16 @@ Generalmente lo divido en párrafos:
 
 - Figura spline
 - Calcular errores de predicción
-- Agregar pseudocódigo al algorimo de la estrategia general. También agregar imágenes que muestren:
+
+**En propuesta**
+- Agregar pseudocódigo al algoritmo de la estrategia general. También agregar imágenes que muestren:
 	- Creación de la primera caja y
 	- Estimación del punto eficiente usando spline y creación de caja
 	- Segunda caja (en caso de fallo)
-- En subsecciones 
+- En subsecciones explicar detalles de las distintas partes del algoritmo.
+	- Selección de $y_1$
+	- Estimación usando spline
+	- 
 
 ---
 
@@ -118,7 +123,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzU5MjQxNywtMjMxMjUyNzExLDM3Nj
+eyJoaXN0b3J5IjpbMTU2MjQxNTM0MCwtMjMxMjUyNzExLDM3Nj
 I5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0
 NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMz
 MxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0
