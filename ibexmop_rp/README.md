@@ -11,7 +11,12 @@ Removing points from the non-dominated set
 	+ ==Ordenar código y revisar==
 	+ Juntar con NDSh
 	+ Probar con instancias reales
-
+	+ 
+	+ 
+````
+python3 plugins/optim-mop/main/plot3.py &
+./__build__/plugins/optim-mop/ibexmop plugins/optim-mop/benchs/binh.txt  --cy-contract-full --eps-contract --ub=ub1 --eps=1 --print_nds
+````
 
 ### Tutorial (detalles faltantes)
 
@@ -123,11 +128,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTE3MTQ0MjcsLTE5MDUzMjIyOTQsLT
-E2NDIxNjU4OTUsMTAzMzc2MzA0MiwxNzU0MjY3MTU4LC02MDgx
-NjI1NzgsLTE3NTgwNDUyNTEsMTAxMDM2MTEyMSwxOTM3ODczMz
-k0LDcwMzE0NDcwNywxNjQ0MDM4OTk4LC0xNDMzOTI0NDUyLC0x
-NzQ3MzEzMDg2LC0xNjU4MDQyMDI4LDE3MjE2ODg4NTgsOTg0NT
-U1NjMxLC05ODY5ODcyNTQsLTIwNjIwMDA2MzIsMTMzNTIxODk2
-LDIyNzUyMzk3N119
+eyJoaXN0b3J5IjpbMzY1NTA2MDEzLC0xOTExNzE0NDI3LC0xOT
+A1MzIyMjk0LC0xNjQyMTY1ODk1LDEwMzM3NjMwNDIsMTc1NDI2
+NzE1OCwtNjA4MTYyNTc4LC0xNzU4MDQ1MjUxLDEwMTAzNjExMj
+EsMTkzNzg3MzM5NCw3MDMxNDQ3MDcsMTY0NDAzODk5OCwtMTQz
+MzkyNDQ1MiwtMTc0NzMxMzA4NiwtMTY1ODA0MjAyOCwxNzIxNj
+g4ODU4LDk4NDU1NTYzMSwtOTg2OTg3MjU0LC0yMDYyMDAwNjMy
+LDEzMzUyMTg5Nl19
 -->
