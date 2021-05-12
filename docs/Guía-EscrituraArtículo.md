@@ -82,7 +82,7 @@ Generalmente lo divido en párrafos:
 
 Modificaciones al código:
 - Que se puedan simular varios nodos a la vez
-- Que se pueda reiniciar el árbol
+- Que las simulaciones se vayan agregando en el mismo archivo
 
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
@@ -130,11 +130,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI1ODc3NTMsLTQ3MDc1MjkyNCwtMj
-A2NzkzNTQ5OCwtMjMxMjUyNzExLDM3NjI5NDkwMCwxNzU0NzY5
-MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAxNT
-U5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1LC0xNDQwODY5
-Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcsLT
-c3NTI0MjM3MCwtODAwNDc4NDI4LC0xODIyMzg1MDk4LDE0Njcz
-MDc0MThdfQ==
+eyJoaXN0b3J5IjpbOTkwMTE5MjA3LC0xMDQyNTg3NzUzLC00Nz
+A3NTI5MjQsLTIwNjc5MzU0OTgsLTIzMTI1MjcxMSwzNzYyOTQ5
+MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczOD
+IwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4
+NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOT
+c2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4
+NTA5OF19
 -->
