@@ -80,6 +80,11 @@ Generalmente lo divido en párrafos:
 ---
 ### Stephanie Gómez
 
+Modificaciones al código:
+- Que se puedan simular varios nodos a la vez
+- Que se pueda reiniciar el árbol
+
+
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
 
 - Traducción
@@ -125,11 +130,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMj
-MxMjUyNzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIs
-NzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwND
-c4ODUyLC0xMDEzMzMxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2
-OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtOD
-AwNDc4NDI4LC0xODIyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3
-MzQ5NjNdfQ==
+eyJoaXN0b3J5IjpbLTEwNDI1ODc3NTMsLTQ3MDc1MjkyNCwtMj
+A2NzkzNTQ5OCwtMjMxMjUyNzExLDM3NjI5NDkwMCwxNzU0NzY5
+MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAxNT
+U5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1LC0xNDQwODY5
+Nzg0LDYwNDE4ODM2OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcsLT
+c3NTI0MjM3MCwtODAwNDc4NDI4LC0xODIyMzg1MDk4LDE0Njcz
+MDc0MThdfQ==
 -->
