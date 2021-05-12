@@ -112,6 +112,7 @@ def bfs(self):
 
 
 
+
 ### KD-Tree
 
 [Overleaf](https://www.overleaf.com/project/5f7cc504d82a7900017178fa)
@@ -124,11 +125,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc5MzU0OTgsLTIzMTI1MjcxMSwzNz
-YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
-NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
-MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
-NDIsOTc2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMT
-gyMjM4NTA5OCwxNDY3MzA3NDE4LC0xNzA5NzM0OTYzLDk3MTA1
-Njc3XX0=
+eyJoaXN0b3J5IjpbLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMj
+MxMjUyNzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIs
+NzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwND
+c4ODUyLC0xMDEzMzMxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2
+OSwtMTg0MjQ3NzQ0Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtOD
+AwNDc4NDI4LC0xODIyMzg1MDk4LDE0NjczMDc0MTgsLTE3MDk3
+MzQ5NjNdfQ==
 -->
