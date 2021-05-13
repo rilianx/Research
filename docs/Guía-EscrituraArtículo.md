@@ -73,9 +73,11 @@ Generalmente lo divido en párrafos:
 
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
-- Entender algoritmo para mejorar sección de bin packing
-- Bosquejar propuesta (dividir en subsecciones)
-- Comenzar a redactar propuesta
+- Terminar de armar la propuesta
+
+Código:
+- Usar instancias BRx50
+-  
 
 ---
 ### Stephanie Gómez
@@ -130,11 +132,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwMTE5MjA3LC0xMDQyNTg3NzUzLC00Nz
-A3NTI5MjQsLTIwNjc5MzU0OTgsLTIzMTI1MjcxMSwzNzYyOTQ5
-MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczOD
-IwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4
-NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0NDIsOT
-c2NTE1NzE3LC03NzUyNDIzNzAsLTgwMDQ3ODQyOCwtMTgyMjM4
-NTA5OF19
+eyJoaXN0b3J5IjpbLTE4MDkxMjQ3NCw5OTAxMTkyMDcsLTEwND
+I1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUy
+NzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxND
+E0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUy
+LC0xMDEzMzMxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMT
+g0MjQ3NzQ0Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4
+NDI4XX0=
 -->
