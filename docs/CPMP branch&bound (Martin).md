@@ -41,7 +41,7 @@ def lower_bound():
 	vacate_stacks <- sup(diff/H) #redondeo hacia arriba
 	sorted_stacks <- stacks.sort()  #de menos a más contenedores ordenados
 	gx <- 0
-	for i=0; i<vacate_stacks):
+	for i=0; i<vacate_stacks; i++:
 		gx+=sorted_stacks[i].sorted_containers
 	return bx+gx
 ```` 
@@ -116,11 +116,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU1MzY5NjcsLTIwOTI2NDUwMjIsMT
-EyOTk1MzMyMiwxMTgzMDYyNTAxLDE2MjAyNjQ0MjQsLTEyMDc5
-OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3NjYzMiwtNjI0MzYxMj
-Q4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMywxNzUwNDkzOTg4LC0x
-NzAwOTAzOTY1LC0xNTY4MzAzMzQzLC0xODQzNDQ3MzMwLC0zMz
-Y5ODI2MjgsLTQ2NjY1NzMwMCwyNzM2MDE1MDYsMTU1NzUyMzY4
-LDE0MTU1NDExNTNdfQ==
+eyJoaXN0b3J5IjpbNDAwNTg0Mjg2LC0yMDkyNjQ1MDIyLDExMj
+k5NTMzMjIsMTE4MzA2MjUwMSwxNjIwMjY0NDI0LC0xMjA3OTk3
+NjQ4LC0xNzM0NDk5MzE3LC03NTQ2NzY2MzIsLTYyNDM2MTI0OC
+wtMTMyMDc5MTcyLDE2NzM4MTk0MjMsMTc1MDQ5Mzk4OCwtMTcw
+MDkwMzk2NSwtMTU2ODMwMzM0MywtMTg0MzQ0NzMzMCwtMzM2OT
+gyNjI4LC00NjY2NTczMDAsMjczNjAxNTA2LDE1NTc1MjM2OCwx
+NDE1NTQxMTUzXX0=
 -->
