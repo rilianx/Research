@@ -17,10 +17,12 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 **TODO**
 Comparar cantidad de nodos:
-- sin ordenar hijos
+- sin ordenar hijos (opcional)
 - LB
+- UB
 - LB + UB
-- LB + 
+- LB + UB + prom
+- 
 
 
 ---
@@ -91,7 +93,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzczMTM2NywxMTgzMDYyNTAxLDE2Mj
+eyJoaXN0b3J5IjpbMTEyOTk1MzMyMiwxMTgzMDYyNTAxLDE2Mj
 AyNjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3
 NjYzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMy
 wxNzUwNDkzOTg4LC0xNzAwOTAzOTY1LC0xNTY4MzAzMzQzLC0x
