@@ -16,13 +16,22 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 * :ok: Imprementar multiset
 
 **TODO**
+
 Comparar cantidad de nodos:
+
 - sin ordenar hijos (opcional)
-- LB
+- LB -> implementar
 - UB
 - LB + UB
 - LB + UB + prom
-- 
+
+
+````python
+def lower_bound():
+    
+    
+```` 
+
 
 
 ---
@@ -93,11 +102,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTk1MzMyMiwxMTgzMDYyNTAxLDE2Mj
-AyNjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3
-NjYzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMy
-wxNzUwNDkzOTg4LC0xNzAwOTAzOTY1LC0xNTY4MzAzMzQzLC0x
-ODQzNDQ3MzMwLC0zMzY5ODI2MjgsLTQ2NjY1NzMwMCwyNzM2MD
-E1MDYsMTU1NzUyMzY4LDE0MTU1NDExNTMsLTEyMDMzMTk5NDQs
-LTE5MjcyNDE1MTRdfQ==
+eyJoaXN0b3J5IjpbLTc0MjI0OTYyMCwxMTI5OTUzMzIyLDExOD
+MwNjI1MDEsMTYyMDI2NDQyNCwtMTIwNzk5NzY0OCwtMTczNDQ5
+OTMxNywtNzU0Njc2NjMyLC02MjQzNjEyNDgsLTEzMjA3OTE3Mi
+wxNjczODE5NDIzLDE3NTA0OTM5ODgsLTE3MDA5MDM5NjUsLTE1
+NjgzMDMzNDMsLTE4NDM0NDczMzAsLTMzNjk4MjYyOCwtNDY2Nj
+U3MzAwLDI3MzYwMTUwNiwxNTU3NTIzNjgsMTQxNTU0MTE1Mywt
+MTIwMzMxOTk0NF19
 -->
