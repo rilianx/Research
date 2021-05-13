@@ -71,6 +71,9 @@ Generalmente lo divido en párrafos:
 ---
 ###  Gonzalo Tello
 
+
+[code](https://github.com/skjolber/3d-bin-container-packing)
+
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
 - Terminar de armar la propuesta
@@ -133,11 +136,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzOTM4NDczLDE5MjYxMTkxNzUsOTkwMT
-E5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNjc5MzU0
-OTgsLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2LDM0Nj
-EwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEwMTU1OTkyNzUs
-MTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MDg2OTc4NCw2MD
-QxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1NzE3LC03NzUyNDIz
-NzBdfQ==
+eyJoaXN0b3J5IjpbOTk1OTgwMzQxLDY0MzkzODQ3MywxOTI2MT
+E5MTc1LDk5MDExOTIwNywtMTA0MjU4Nzc1MywtNDcwNzUyOTI0
+LC0yMDY3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mjk0OTAwLDE3NT
+Q3NjkxNiwzNDYxMDM2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0x
+MDE1NTk5Mjc1LDExMjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0ND
+A4Njk3ODQsNjA0MTg4MzY5LC0xODQyNDc3NDQyLDk3NjUxNTcx
+N119
 -->
