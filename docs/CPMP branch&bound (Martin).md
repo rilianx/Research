@@ -15,9 +15,12 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 * Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
 * :ok: Imprementar multiset
 
-Para ordenar los hijos:
-- Hacer una función de evaluación de estados. Recibe un estado y retorna una valor.
-- Hacer una función para ordenar hijos.  Recibe los hijos y los ordena.
+**TODO**
+Comparar cantidad de nodos:
+- sin ordenar hijos
+- LB
+- LB + UB
+- LB + 
 
 
 ---
@@ -88,11 +91,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzA2MjUwMSwxNjIwMjY0NDI0LC0xMj
-A3OTk3NjQ4LC0xNzM0NDk5MzE3LC03NTQ2NzY2MzIsLTYyNDM2
-MTI0OCwtMTMyMDc5MTcyLDE2NzM4MTk0MjMsMTc1MDQ5Mzk4OC
-wtMTcwMDkwMzk2NSwtMTU2ODMwMzM0MywtMTg0MzQ0NzMzMCwt
-MzM2OTgyNjI4LC00NjY2NTczMDAsMjczNjAxNTA2LDE1NTc1Mj
-M2OCwxNDE1NTQxMTUzLC0xMjAzMzE5OTQ0LC0xOTI3MjQxNTE0
-LDE0OTk1OTU4OTFdfQ==
+eyJoaXN0b3J5IjpbLTg0MzczMTM2NywxMTgzMDYyNTAxLDE2Mj
+AyNjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3
+NjYzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMy
+wxNzUwNDkzOTg4LC0xNzAwOTAzOTY1LC0xNTY4MzAzMzQzLC0x
+ODQzNDQ3MzMwLC0zMzY5ODI2MjgsLTQ2NjY1NzMwMCwyNzM2MD
+E1MDYsMTU1NzUyMzY4LDE0MTU1NDExNTMsLTEyMDMzMTk5NDQs
+LTE5MjcyNDE1MTRdfQ==
 -->
