@@ -74,10 +74,11 @@ Generalmente lo divido en párrafos:
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
 - Terminar de armar la propuesta
+- ¿En qué consiste algoritmo de la competencia?
 
-Código:
+Tareas:
 - Usar instancias BRx50
--  
+- Buscar algoritmo de la competencia para comparar
 
 ---
 ### Stephanie Gómez
@@ -132,7 +133,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkxMjQ3NCw5OTAxMTkyMDcsLTEwND
+eyJoaXN0b3J5IjpbMTkyNjExOTE3NSw5OTAxMTkyMDcsLTEwND
 I1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUy
 NzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxND
 E0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUy
