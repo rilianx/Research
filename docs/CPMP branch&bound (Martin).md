@@ -33,8 +33,7 @@ def lower_bound():
     for gv in G: # para cada prioridad (calculo de demanda)
        D[gv] <- cantidad de contenedores con prioridad >= gv
     for gv in G: # cálculo de available slots
-	   AS[gv] <- slots disponibles (obviando mal ubicados)
-	   para colocar contenedores con prioridad >= gv
+	   AS[gv] <- slots disponibles en Layout limpio (sin contar mal ubicados) para colocar contenedores con prioridad >= gv
 	max_diff <- 0
 	for gv in G:
 		diff <- D[gv] - AS[gv]
@@ -42,7 +41,7 @@ def lower_bound():
 	vacate_stacks <- sup(diff/H) #redondeo hacia arriba
 	sorted_stacks <- stacks.sort()  #de menos a más contenedores ordenados
 	gx <- 0
-	for i in Rand(0,vacate_stacks):
+	for i=0; i<vacate_stacks):
 		gx+=sorted_stacks[i].sorted_containers
 	return bx+gx
 ```` 
@@ -117,11 +116,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI2NDUwMjIsMTEyOTk1MzMyMiwxMT
-gzMDYyNTAxLDE2MjAyNjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0
-OTkzMTcsLTc1NDY3NjYzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNz
-IsMTY3MzgxOTQyMywxNzUwNDkzOTg4LC0xNzAwOTAzOTY1LC0x
-NTY4MzAzMzQzLC0xODQzNDQ3MzMwLC0zMzY5ODI2MjgsLTQ2Nj
-Y1NzMwMCwyNzM2MDE1MDYsMTU1NzUyMzY4LDE0MTU1NDExNTMs
-LTEyMDMzMTk5NDRdfQ==
+eyJoaXN0b3J5IjpbLTE3NjU1MzY5NjcsLTIwOTI2NDUwMjIsMT
+EyOTk1MzMyMiwxMTgzMDYyNTAxLDE2MjAyNjQ0MjQsLTEyMDc5
+OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3NjYzMiwtNjI0MzYxMj
+Q4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMywxNzUwNDkzOTg4LC0x
+NzAwOTAzOTY1LC0xNTY4MzAzMzQzLC0xODQzNDQ3MzMwLC0zMz
+Y5ODI2MjgsLTQ2NjY1NzMwMCwyNzM2MDE1MDYsMTU1NzUyMzY4
+LDE0MTU1NDExNTNdfQ==
 -->
