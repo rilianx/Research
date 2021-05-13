@@ -32,8 +32,9 @@ def lower_bound():
     bx <- bx + contenedores mal ubicados en stack con menos contenedores mal ubicados
     for gv in G: # para cada prioridad (calculo de demanda)
        D[gv] <- cantidad de contenedores con prioridad >= gv
-    for gv in G: # cálculo de available slotrs
-	   AS[gv] <- slots di
+    for gv in G: # cálculo de available slots
+	   AS[gv] <- slots disponibles (obviando mal ubicados)
+	   para colocar contenedores con prioridad >= gv 
     
 ```` 
 
@@ -107,7 +108,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI3NzMyMjMsMTEyOTk1MzMyMiwxMT
+eyJoaXN0b3J5IjpbLTIwOTY3MDY0NDksMTEyOTk1MzMyMiwxMT
 gzMDYyNTAxLDE2MjAyNjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0
 OTkzMTcsLTc1NDY3NjYzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNz
 IsMTY3MzgxOTQyMywxNzUwNDkzOTg4LC0xNzAwOTAzOTY1LC0x
