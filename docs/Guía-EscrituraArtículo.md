@@ -78,7 +78,7 @@ Generalmente lo divido en párrafos:
 
 Tareas:
 - Usar instancias BRx50
-- Buscar algoritmo de la competencia para comparar
+- Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
 
 ---
 ### Stephanie Gómez
@@ -133,11 +133,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjExOTE3NSw5OTAxMTkyMDcsLTEwND
-I1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUy
-NzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxND
-E0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUy
-LC0xMDEzMzMxNTg1LC0xNDQwODY5Nzg0LDYwNDE4ODM2OSwtMT
-g0MjQ3NzQ0Miw5NzY1MTU3MTcsLTc3NTI0MjM3MCwtODAwNDc4
-NDI4XX0=
+eyJoaXN0b3J5IjpbNjQzOTM4NDczLDE5MjYxMTkxNzUsOTkwMT
+E5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNjc5MzU0
+OTgsLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2LDM0Nj
+EwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEwMTU1OTkyNzUs
+MTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MDg2OTc4NCw2MD
+QxODgzNjksLTE4NDI0Nzc0NDIsOTc2NTE1NzE3LC03NzUyNDIz
+NzBdfQ==
 -->
