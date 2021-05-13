@@ -31,6 +31,8 @@ TODO
 
 **TODO**
 
+[The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
+
 - Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
 	- Fusionar conflicting items con separation of items
 	- Cargo stability -> separar
@@ -303,11 +305,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1ODI0MzU2LC0xMDk3NTU5NjE0LDQ5Mz
-MwMTkwNSwtMTI3MTEzODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUy
-MTIyNiwtMTU2NzgzNDY4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMC
-wtMjA2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEw
-Nzc3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4LDY3MjAzNDI4My
-wtMTc4MzY0MjU2LC0xNDc0NjAwNzUzLDUyNjY1MjA2NiwyMTQ0
-NDMzMDU3XX0=
+eyJoaXN0b3J5IjpbLTEyNzY5ODQ5MTYsLTEwOTc1NTk2MTQsND
+kzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMjYzNDYwOTA0LC0xNjg5
+NTIxMjI2LC0xNTY3ODM0Njg4LDE3MTIzMDM2MywxNzY1MjcwOT
+AwLC0yMDY0MzQxNDAwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwz
+MTA3NzcwMTEsLTU1ODk1NTc3MywyODQ1NTMyODgsNjcyMDM0Mj
+gzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIx
+NDQ0MzMwNTddfQ==
 -->
