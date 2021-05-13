@@ -15,7 +15,7 @@ Los objetivos de trabajar en la redacción del paper son:
 ### Pasos
 
 - Estructura de paper (seguir estructura de presentación)
-- Background (sacar de [BSG-CLP](https://www.sciencedirect.com/science/article/abs/pii/S0305054817300023) y [BinPacking](https://d1wqtxts1xzle7.cloudfront.net/45338902/2002-COR-BPP.pdf)
+- Background (sacar de [BSG-CLP](https://www.sciencedirect.com/science/article/abs/pii/S0305054817300023) y [BinPacking](https://www.sciencedirect.com/science/article/abs/pii/S0305054800000824)
 - Descripción de Algoritmo propuesto
 - Diseño de Experimentos
 
@@ -64,6 +64,6 @@ Para enviar instrucciones al servidor por consola:
 	echo <instruccion> | netcat localhost <puerto>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ2OTQ0MzYsLTE0Mjk3NDQxNzVdfQ
-==
+eyJoaXN0b3J5IjpbLTI3MzY2NjM3NCwtMTE0NDY5NDQzNiwtMT
+QyOTc0NDE3NV19
 -->
