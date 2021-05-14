@@ -17,7 +17,9 @@ TODO Paper
 - Metrics
 - Experiments
 	- Data Collection :ok:
-	- Proce
+	- Procedure
+	- Results and analysis
+- Conclusiones
 
 
 TODO (Juan)
@@ -181,9 +183,9 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg2NTI1NjYsLTY4MzU1NjgwNiwxNj
-UwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3MjMsLTEwMTIw
-OTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC0xMzk0MzM5OD
-IsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4LDE5NDE4
-NjA0OTAsOTEyNzMyOTUzXX0=
+eyJoaXN0b3J5IjpbNjQwMjgzMjEyLC02ODM1NTY4MDYsMTY1MD
+c0MTc1NSwxOTU2MTI2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3
+ODA3LDE3NTA5MTU4MDEsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLD
+Y4OTI0NTM0NiwtMTI1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYw
+NDkwLDkxMjczMjk1M119
 -->
