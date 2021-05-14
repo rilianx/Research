@@ -45,7 +45,7 @@ Generalmente lo divido en párrafos:
 	- Creación de caja para búsqueda. ¿Qué pasa si falla?
 	- Reducción en x (mejora?)
 	- Search Efficient
-- (**Experimentos**) Definir
+- (**Experimentos**) Algritmo de base. 
 
 ---
 
@@ -137,11 +137,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Nzc5Mjk1OCw5OTU5ODAzNDEsNjQzOT
-M4NDczLDE5MjYxMTkxNzUsOTkwMTE5MjA3LC0xMDQyNTg3NzUz
-LC00NzA3NTI5MjQsLTIwNjc5MzU0OTgsLTIzMTI1MjcxMSwzNz
-YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
-NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
-MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
-NDJdfQ==
+eyJoaXN0b3J5IjpbNDk0ODkzODkyLDE4Nzc3OTI5NTgsOTk1OT
+gwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywt
+MTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMz
+EyNTI3MTEsMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3
+MjE0MTQwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDExMjA0Nz
+g4NTIsLTEwMTMzMzE1ODUsLTE0NDA4Njk3ODQsNjA0MTg4MzY5
+XX0=
 -->
