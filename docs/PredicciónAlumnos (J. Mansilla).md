@@ -9,6 +9,15 @@ En este trabajo, analizaremos, con un modelo estadístico, la relación existent
 >  [tablita de resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0): atributos más importantes para cada modelo
 > [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv) ∙ [Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Documento](https://docs.google.com/document/d/1dUICocY5QTchHlduz-gUTFHLoHi2ZSNOctBCjjNcpDc/edit#) ∙ [Tabla resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0) ∙ [Entrevista](https://drive.google.com/file/d/1JTUxY0T8-jlIMr-DVqbL-TkDwSS2l_8x/view?usp=sharing) ∙ [Colab](https://colab.research.google.com/drive/1wxa3EcwF5qdCBR7LuuvRtR6zbvAmN9yW?usp=sharingiKhAqXwgqj_9NRDyX9_DCG7_4415Urpy) ∙ [Libro proyectos](http://innovaciondocente.ucv.cl/?thegem_pf_item=libro-de-proyectos-de-mejoramiento-innovacion-e-investigacion-de-la-docencia-universitaria-2018-2)
 
+TODO Paper
+--
+
+- Abstract
+- Intro :ok:
+- Metrics
+- Experiments
+	- Data Collection :ok:
+	- Proce
 
 
 TODO (Juan)
@@ -172,9 +181,9 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzU1NjgwNiwxNjUwNzQxNzU1LDE5NT
-YxMjY3MzMsLTE0NDc1OTY3MjMsLTEwMTIwOTc4MDcsMTc1MDkx
-NTgwMSwtMjIyMjE0NzIxLC0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC
-0xMjU2OTEzMSwxMzk1NTE2Njk4LDE5NDE4NjA0OTAsOTEyNzMy
-OTUzXX0=
+eyJoaXN0b3J5IjpbLTEwMDg2NTI1NjYsLTY4MzU1NjgwNiwxNj
+UwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3MjMsLTEwMTIw
+OTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC0xMzk0MzM5OD
+IsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4LDE5NDE4
+NjA0OTAsOTEyNzMyOTUzXX0=
 -->
