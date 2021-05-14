@@ -74,6 +74,7 @@ Generalmente lo divido en párrafos:
 
 [code](https://github.com/skjolber/3d-bin-container-packing)
 [code2](https://github.com/Janet-19/3d-bin-packing-problem)
+
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
 - Terminar de armar la propuesta
@@ -136,11 +137,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTAxMDQ0MDQsOTk1OTgwMzQxLDY0Mz
-kzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0MjU4Nzc1
-MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3MTEsMz
-c2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3MjE0MTQwOTIs
-NzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDExMjA0Nzg4NTIsLTEwMT
-MzMzE1ODUsLTE0NDA4Njk3ODQsNjA0MTg4MzY5LC0xODQyNDc3
-NDQyXX0=
+eyJoaXN0b3J5IjpbMTg3Nzc5Mjk1OCw5OTU5ODAzNDEsNjQzOT
+M4NDczLDE5MjYxMTkxNzUsOTkwMTE5MjA3LC0xMDQyNTg3NzUz
+LC00NzA3NTI5MjQsLTIwNjc5MzU0OTgsLTIzMTI1MjcxMSwzNz
+YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
+NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
+MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
+NDJdfQ==
 -->
