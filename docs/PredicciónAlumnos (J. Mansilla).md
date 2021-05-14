@@ -11,6 +11,10 @@ En este trabajo, analizaremos, con un modelo estadístico, la relación existent
 
 TODO Paper
 --
++ Tablitas
++ Figuras (pred vs real)
++ Revisar otros paper para saber qué agregar
+
 
 - Abstract
 - Intro :ok:
@@ -183,9 +187,9 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMjgzMjEyLC02ODM1NTY4MDYsMTY1MD
-c0MTc1NSwxOTU2MTI2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3
-ODA3LDE3NTA5MTU4MDEsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLD
-Y4OTI0NTM0NiwtMTI1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYw
-NDkwLDkxMjczMjk1M119
+eyJoaXN0b3J5IjpbLTgwNjk0NjcyNSw2NDAyODMyMTIsLTY4Mz
+U1NjgwNiwxNjUwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3
+MjMsLTEwMTIwOTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC
+0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2
+Njk4LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
 -->
