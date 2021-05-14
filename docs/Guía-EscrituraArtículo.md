@@ -46,6 +46,9 @@ Generalmente lo divido en párrafos:
 	- Reducción en x (mejora?)
 	- Search Efficient
 - (**Experimentos**) Algoritmo de base (2000) -> HV
+Y sin reducir y. Comparación con/sin reducir en x. 
+
+
 
 ---
 
@@ -137,11 +140,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg5MDE2MjcsMTg3Nzc5Mjk1OCw5OT
-U5ODAzNDEsNjQzOTM4NDczLDE5MjYxMTkxNzUsOTkwMTE5MjA3
-LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNjc5MzU0OTgsLT
-IzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYy
-LDcyMTQxNDA5Miw3NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMD
-Q3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgz
-NjldfQ==
+eyJoaXN0b3J5IjpbMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OT
+gwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywt
+MTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMz
+EyNTI3MTEsMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3
+MjE0MTQwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDExMjA0Nz
+g4NTIsLTEwMTMzMzE1ODUsLTE0NDA4Njk3ODQsNjA0MTg4MzY5
+XX0=
 -->
