@@ -13,7 +13,10 @@ TODO Paper
 --
 + Revisar lab4 en Final Grades
 + Tablitas (rehacer av.students Grades)
-+ Figuras (pred vs real): 3xRF + RL (Final G
++ Figuras (pred vs real): 3xRF + RL (Final Grades)
++ Agregar sección para comentar los atributos más relevantes
+	+ Usando RF
+	+ Usando RL
 + Revisar otros paper para saber qué agregar
 
 
@@ -188,9 +191,10 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1OTA1MzQ1LC04MDY5NDY3MjUsNjQwMj
-gzMjEyLC02ODM1NTY4MDYsMTY1MDc0MTc1NSwxOTU2MTI2NzMz
-LC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LDE3NTA5MTU4MDEsLT
-IyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OTI0NTM0NiwtMTI1Njkx
-MzEsMTM5NTUxNjY5OCwxOTQxODYwNDkwLDkxMjczMjk1M119
+eyJoaXN0b3J5IjpbLTE0NTU4MDM5NDMsLTgwNjk0NjcyNSw2ND
+AyODMyMTIsLTY4MzU1NjgwNiwxNjUwNzQxNzU1LDE5NTYxMjY3
+MzMsLTE0NDc1OTY3MjMsLTEwMTIwOTc4MDcsMTc1MDkxNTgwMS
+wtMjIyMjE0NzIxLC0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2
+OTEzMSwxMzk1NTE2Njk4LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX
+0=
 -->
