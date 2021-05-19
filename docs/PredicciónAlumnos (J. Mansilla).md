@@ -11,7 +11,6 @@ En este trabajo, analizaremos, con un modelo estadístico, la relación existent
 
 TODO Paper
 --
-+ Revisar lab4 en Final Grades
 + Tablitas (rehacer av.students Grades)
 + Figuras (pred vs real): 3xRF + RL (Final Grades)
 + Agregar sección para comentar los atributos más relevantes
@@ -191,10 +190,10 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU4MDM5NDMsLTgwNjk0NjcyNSw2ND
-AyODMyMTIsLTY4MzU1NjgwNiwxNjUwNzQxNzU1LDE5NTYxMjY3
-MzMsLTE0NDc1OTY3MjMsLTEwMTIwOTc4MDcsMTc1MDkxNTgwMS
-wtMjIyMjE0NzIxLC0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2
-OTEzMSwxMzk1NTE2Njk4LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX
-0=
+eyJoaXN0b3J5IjpbNTA2MDY4MjM2LC0xNDU1ODAzOTQzLC04MD
+Y5NDY3MjUsNjQwMjgzMjEyLC02ODM1NTY4MDYsMTY1MDc0MTc1
+NSwxOTU2MTI2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LD
+E3NTA5MTU4MDEsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OTI0
+NTM0NiwtMTI1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYwNDkwLD
+kxMjczMjk1M119
 -->
