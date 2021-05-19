@@ -94,7 +94,8 @@ Modificaciones al código:
 - Que se puedan simular varios nodos a la vez
 - Que las simulaciones se vayan agregando en el mismo archivo
 
-P
+Para la próxima reunión:
+- Explicar entrenamiento en base a sección 3.2.1 del paper.
 
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
@@ -142,7 +143,7 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTk3NjQ2NywyMzI3Njk4MjUsMTg3Nz
+eyJoaXN0b3J5IjpbMTk2MjA3NzY3MiwyMzI3Njk4MjUsMTg3Nz
 c5Mjk1OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYxMTkxNzUs
 OTkwMTE5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNj
 c5MzU0OTgsLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2
