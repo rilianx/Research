@@ -14,7 +14,7 @@ TODO Paper
 + Tablitas (rehacer av.students Grades) --> corriendo semestre
 + Figuras (pred vs real): 3xRF + RL (Final Grades)
 + Agregar sección para comentar los atributos más relevantes
-	+ Usando RF (==points==, final grades)
+	+ Usando RF (points, final grades)
 	+ Usando RL (final grades)
 + Revisar otros paper para saber qué agregar
 
@@ -190,10 +190,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNj
-A2ODIzNiwtMTQ1NTgwMzk0MywtODA2OTQ2NzI1LDY0MDI4MzIx
-MiwtNjgzNTU2ODA2LDE2NTA3NDE3NTUsMTk1NjEyNjczMywtMT
-Q0NzU5NjcyMywtMTAxMjA5NzgwNywxNzUwOTE1ODAxLC0yMjIy
-MTQ3MjEsLTEzOTQzMzk4Miw2ODkyNDUzNDYsLTEyNTY5MTMxLD
-EzOTU1MTY2OTgsMTk0MTg2MDQ5MCw5MTI3MzI5NTNdfQ==
+eyJoaXN0b3J5IjpbMTA2MzIxNzk4OCwxNDQ4ODYxNjM2LDE3NT
+c3OTIzNDcsNTA2MDY4MjM2LC0xNDU1ODAzOTQzLC04MDY5NDY3
+MjUsNjQwMjgzMjEyLC02ODM1NTY4MDYsMTY1MDc0MTc1NSwxOT
+U2MTI2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LDE3NTA5
+MTU4MDEsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OTI0NTM0Ni
+wtMTI1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYwNDkwLDkxMjcz
+Mjk1M119
 -->
