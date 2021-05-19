@@ -95,7 +95,7 @@ Modificaciones al código:
 - Que las simulaciones se vayan agregando en el mismo archivo
 
 Para la próxima reunión:
-- Explicar entrenamiento en base a sección 3.2.1 del paper.
+- Explicar entrenamiento en base a sección 3.2.1 del [paper](https://www.overleaf.com/project/603fd453d9101a1150f06d6c).
 
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
@@ -143,11 +143,11 @@ def bfs(self):
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjA3NzY3MiwyMzI3Njk4MjUsMTg3Nz
-c5Mjk1OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYxMTkxNzUs
-OTkwMTE5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNj
-c5MzU0OTgsLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2
-LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEwMTU1OT
-kyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MDg2OTc4
-NF19
+eyJoaXN0b3J5IjpbLTExNjAwMTAxMjQsMjMyNzY5ODI1LDE4Nz
+c3OTI5NTgsOTk1OTgwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1
+LDk5MDExOTIwNywtMTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMD
+Y3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mjk0OTAwLDE3NTQ3Njkx
+NiwzNDYxMDM2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0xMDE1NT
+k5Mjc1LDExMjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0NDA4Njk3
+ODRdfQ==
 -->
