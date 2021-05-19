@@ -11,11 +11,11 @@ En este trabajo, analizaremos, con un modelo estadístico, la relación existent
 
 TODO Paper
 --
-+ Tablitas (rehacer av.students Grades) --> corriendo part I
++ Tablitas (rehacer av.students Grades) --> corriendo semestre
 + Figuras (pred vs real): 3xRF + RL (Final Grades)
 + Agregar sección para comentar los atributos más relevantes
-	+ Usando RF
-	+ Usando RL
+	+ Usando RF (==points==, final grades)
+	+ Usando RL (final grades)
 + Revisar otros paper para saber qué agregar
 
 
@@ -190,10 +190,10 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Nzc5MjM0Nyw1MDYwNjgyMzYsLTE0NT
-U4MDM5NDMsLTgwNjk0NjcyNSw2NDAyODMyMTIsLTY4MzU1Njgw
-NiwxNjUwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3MjMsLT
-EwMTIwOTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC0xMzk0
-MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4LD
-E5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
+eyJoaXN0b3J5IjpbMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNj
+A2ODIzNiwtMTQ1NTgwMzk0MywtODA2OTQ2NzI1LDY0MDI4MzIx
+MiwtNjgzNTU2ODA2LDE2NTA3NDE3NTUsMTk1NjEyNjczMywtMT
+Q0NzU5NjcyMywtMTAxMjA5NzgwNywxNzUwOTE1ODAxLC0yMjIy
+MTQ3MjEsLTEzOTQzMzk4Miw2ODkyNDUzNDYsLTEyNTY5MTMxLD
+EzOTU1MTY2OTgsMTk0MTg2MDQ5MCw5MTI3MzI5NTNdfQ==
 -->
