@@ -34,6 +34,8 @@ Generalmente lo divido en párrafos:
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
+**TODO**
+
 - (**En background**) Agregar figura de ejemplo para explicar spline
 - Calcular errores de predicción
 - (**En propuesta**) Agregar pseudocódigo al algoritmo de la estrategia general. También agregar imágenes que muestren:
@@ -49,8 +51,7 @@ Generalmente lo divido en párrafos:
 Y sin reducir y. Comparación con/sin reducir en x. 
 
 
-
----
+**Estructura paper**
 
 - Introducción
 	- Reescritura anti-plagio
@@ -64,12 +65,6 @@ Y sin reducir y. Comparación con/sin reducir en x.
 	- Definir
 - Conclusiones
 
----
-### Lucas Agullo
-
-[Paper CPMP_RL](https://docs.google.com/file/d/1r_kHXnKd40upiHzVqo7C8qObaCLjnRpT/edit) - [overleaf](https://www.overleaf.com/project/60424d0a17d15d7bfaeabbf0)
-
-- Diseño de experimentos
 
 ---
 ###  Gonzalo Tello
@@ -96,7 +91,7 @@ Modificaciones al código:
 
 Para la próxima reunión:
 - Explicar entrenamiento en base a sección 3.2.1 del [paper](https://www.overleaf.com/project/603fd453d9101a1150f06d6c).
-- 
+
 
 
  [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
@@ -143,12 +138,19 @@ def bfs(self):
 
 - Revisar contenido. 
 - Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
+
+---
+### Lucas Agullo
+
+[Paper CPMP_RL](https://docs.google.com/file/d/1r_kHXnKd40upiHzVqo7C8qObaCLjnRpT/edit) - [overleaf](https://www.overleaf.com/project/60424d0a17d15d7bfaeabbf0)
+
+- Diseño de experimentos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NzYwODc5LDIzMjc2OTgyNSwxODc3Nz
-kyOTU4LDk5NTk4MDM0MSw2NDM5Mzg0NzMsMTkyNjExOTE3NSw5
-OTAxMTkyMDcsLTEwNDI1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2Nz
-kzNTQ5OCwtMjMxMjUyNzExLDM3NjI5NDkwMCwxNzU0NzY5MTYs
-MzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OT
-I3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1LC0xNDQwODY5Nzg0
-XX0=
+eyJoaXN0b3J5IjpbLTEyMzY2NzQ2MSwyMzI3Njk4MjUsMTg3Nz
+c5Mjk1OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYxMTkxNzUs
+OTkwMTE5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNj
+c5MzU0OTgsLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2
+LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEwMTU1OT
+kyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MDg2OTc4
+NF19
 -->
