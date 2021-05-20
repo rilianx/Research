@@ -31,9 +31,7 @@ TODO
 
 **TODO**
 
-- Redactar sección sobre función heurística VCS --> ==profe==
-- Tablita de momentos
-- Describir integración de restricciones en el solver.
+- Integración solver
 
 [The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
 
@@ -307,11 +305,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIxMDQ0OTYsLTEyNzY5ODQ5MTYsLT
-EwOTc1NTk2MTQsNDkzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMjYz
-NDYwOTA0LC0xNjg5NTIxMjI2LC0xNTY3ODM0Njg4LDE3MTIzMD
-M2MywxNzY1MjcwOTAwLC0yMDY0MzQxNDAwLC0zNTc0MDc1Njcs
-MjA3ODY2NDQxOCwzMTA3NzcwMTEsLTU1ODk1NTc3MywyODQ1NT
-MyODgsNjcyMDM0MjgzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMs
-NTI2NjUyMDY2XX0=
+eyJoaXN0b3J5IjpbNTY1MTYxMjIxLC0xODUyMTA0NDk2LC0xMj
+c2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMwMTkwNSwtMTI3MTEz
+ODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMTIyNiwtMTU2NzgzND
+Y4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMCwtMjA2NDM0MTQwMCwt
+MzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3MDExLC01NTg5NT
+U3NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0x
+NDc0NjAwNzUzXX0=
 -->
