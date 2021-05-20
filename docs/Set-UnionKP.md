@@ -2,10 +2,10 @@
 
 
 - Estudiar C++. [link clase ejemplo](https://dis.unal.edu.co/~fgonza/courses/2003/poo/c++.htm), [documentación c++](http://www.cplusplus.com/reference/list/list/)
-- **Estudiar bien el problema (set union knapsack)** (Explicar lunes)
+- **Estudiar bien el problema (set union knapsack) (Explicar lunes)**
 - **Buscar instancias de prueba usadas en [paper](https://sci-hub.se/10.1016/j.future.2019.07.062)**.
 - Proponer la organización de los datos.
-- Tratar de leer archivos de entrada y guardarlos dentro del problema.
+- Tratar de leer archivos de entrada y guardarlos dentro del problema. :ok:
 
 Idea
 ==
@@ -70,5 +70,5 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0NjU4OTA3XX0=
+eyJoaXN0b3J5IjpbLTE2MjAxOTYwODMsOTE0NjU4OTA3XX0=
 -->
