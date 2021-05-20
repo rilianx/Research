@@ -109,7 +109,11 @@ Para la próxima reunión:
 	3.0. Intro :ok: (en espanglish)
 	3.1. Data Collection :ok:
 	3.2. Training Phase
-	    3.2.1. 
+	    3.2.1. Parameterized heuristic (falta explicar HC)
+	    3.2.2. Training a regression model :ok:
+4. Node Atrributes :ok:
+5. Experiments
+6. Conclusions
 - 
 
 
@@ -164,11 +168,11 @@ def bfs(self):
 
 - Diseño de experimentos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTY3ODk2NywyMzI3Njk4MjUsMTg3Nz
-c5Mjk1OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYxMTkxNzUs
-OTkwMTE5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNj
-c5MzU0OTgsLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2
-LDM0NjEwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEwMTU1OT
-kyNzUsMTEyMDQ3ODg1MiwtMTAxMzMzMTU4NSwtMTQ0MDg2OTc4
-NF19
+eyJoaXN0b3J5IjpbLTE0ODUzMzUxOTQsMjMyNzY5ODI1LDE4Nz
+c3OTI5NTgsOTk1OTgwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1
+LDk5MDExOTIwNywtMTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMD
+Y3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mjk0OTAwLDE3NTQ3Njkx
+NiwzNDYxMDM2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0xMDE1NT
+k5Mjc1LDExMjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0NDA4Njk3
+ODRdfQ==
 -->
