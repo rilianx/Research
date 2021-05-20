@@ -3,10 +3,8 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
-- Integración solver
-
-[The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
-
+- Integración con solver
+	- 
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
 ````python
@@ -28,11 +26,10 @@ mejor solución encontrada por greedy se va guardando
 
 
 
-
 Resumen
 ----
 
-Continuar con el trabajo realizado por [Adolfo y Sebastián](https://docs.google.com/file/d/1IU5kcuR0HzSkFmUjP3vdXEEV5wOA6QQP/edit). [overleaf](https://www.overleaf.com/6689583734gwrmtknhtzmt)
+[overleaf](https://www.overleaf.com/6689583734gwrmtknhtzmt)
 
 El objetivo del trabajo original era el de incorporar restricciones prácticas a un solver para problemas de **carga de contenedores**.
 
@@ -45,6 +42,7 @@ Links de interés:
 > - [202X - A MILP Approach for the Multi-Drop Container Loading Problem](https://drive.google.com/file/d/10DjpuIa6jcbinnr6foMSsag67MQvvm_w/view)
 > - [Memoria de Adolfo y Seba](https://drive.google.com/file/d/15Hz83as3dUzeZaU2c3hhjcY_9ujwsBkG/view?usp=sharing).
 > - [A biased random key genetic algorithm for 2D and 3D bin packing problems](https://sci-hub.se/10.1016/j.ijpe.2013.04.019)
+> [The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
 
 Habla de los pallets:
 > - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf): Colocar pallets en camiones. Dimensiones de pallets un poco restrictivas por lo que no se ajustan a nuestros bloques.
@@ -297,11 +295,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDQ1NzgyNSwtMTg1MjEwNDQ5NiwtMT
-I3Njk4NDkxNiwtMTA5NzU1OTYxNCw0OTMzMDE5MDUsLTEyNzEx
-MzgxNzYsLTEyNjM0NjA5MDQsLTE2ODk1MjEyMjYsLTE1Njc4Mz
-Q2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQzNDE0MDAs
-LTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OT
-U1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2NDI1Niwt
-MTQ3NDYwMDc1M119
+eyJoaXN0b3J5IjpbNjQxMDAyMTk0LC0xODUyMTA0NDk2LC0xMj
+c2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMwMTkwNSwtMTI3MTEz
+ODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMTIyNiwtMTU2NzgzND
+Y4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMCwtMjA2NDM0MTQwMCwt
+MzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3MDExLC01NTg5NT
+U3NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0x
+NDc0NjAwNzUzXX0=
 -->
