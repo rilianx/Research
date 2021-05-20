@@ -4,7 +4,8 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - Integración con solver
-	- 
+![image](https://i.imgur.com/ZmXRUFK.png)
+- ==**Profe:** Explicar integración en paper==
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
 ````python
@@ -23,7 +24,6 @@ mejor solución encontrada por greedy se va guardando
 `expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**. (una vez)
 
 `greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
-
 
 
 Resumen
@@ -295,11 +295,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMDAyMTk0LC0xODUyMTA0NDk2LC0xMj
-c2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMwMTkwNSwtMTI3MTEz
-ODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMTIyNiwtMTU2NzgzND
-Y4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMCwtMjA2NDM0MTQwMCwt
-MzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3MDExLC01NTg5NT
-U3NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0x
-NDc0NjAwNzUzXX0=
+eyJoaXN0b3J5IjpbLTE2MzczMDMyODEsLTE4NTIxMDQ0OTYsLT
+EyNzY5ODQ5MTYsLTEwOTc1NTk2MTQsNDkzMzAxOTA1LC0xMjcx
+MTM4MTc2LC0xMjYzNDYwOTA0LC0xNjg5NTIxMjI2LC0xNTY3OD
+M0Njg4LDE3MTIzMDM2MywxNzY1MjcwOTAwLC0yMDY0MzQxNDAw
+LC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwzMTA3NzcwMTEsLTU1OD
+k1NTc3MywyODQ1NTMyODgsNjcyMDM0MjgzLC0xNzgzNjQyNTYs
+LTE0NzQ2MDA3NTNdfQ==
 -->
