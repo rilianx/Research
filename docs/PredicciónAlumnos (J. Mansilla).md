@@ -15,16 +15,6 @@ TODO Paper
 - Conclusiones
 
 
-TODO (Juan)
----
-**Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
-
-- No hacer pruebas con red neuronal (coeficientes de determinación con valores negativos)
-
-- **Usar distintos target**. Actual: mean(p$p2). Faltaría considerar np (nota presentación) y mean (p\$), promedio pruebas.
-
-- Comparar resultados normalizando toda la columna y normalizando por semestre.
-
 Abstract
 ---
 
@@ -186,7 +176,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjE0NTQ0OCwtNTMyNzY5MTEwLDE0ND
+eyJoaXN0b3J5IjpbLTY3ODMxMTI0OSwtNTMyNzY5MTEwLDE0ND
 g4NjE2MzYsMTc1Nzc5MjM0Nyw1MDYwNjgyMzYsLTE0NTU4MDM5
 NDMsLTgwNjk0NjcyNSw2NDAyODMyMTIsLTY4MzU1NjgwNiwxNj
 UwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3MjMsLTEwMTIw
