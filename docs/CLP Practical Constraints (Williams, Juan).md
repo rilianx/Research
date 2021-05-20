@@ -1,6 +1,33 @@
 CLP Practical Constraints (continuación).
 ==
 
+**TODO**
+
+- Integración solver
+
+[The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
+
+- En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
+
+````python
+def BSG(TU, C, w):
+   B = block_generator(C, TU)
+   s_0 = State(B, TU)
+   S = {s_0} #conjunto de estados del nivel
+   while S is not empty:
+       SS = set() # estados del siguiente nivel
+       for s in S:
+          SS = SS.union(expand(s,w))
+       S = best w states in SS # de acuerdo a greedy
+````
+mejor solución encontrada por greedy se va guardando
+
+`expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**. (una vez)
+
+`greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
+
+
+
 
 Resumen
 ----
@@ -22,41 +49,6 @@ Links de interés:
 Habla de los pallets:
 > - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf): Colocar pallets en camiones. Dimensiones de pallets un poco restrictivas por lo que no se ajustan a nuestros bloques.
 
-
-TODO
---
-
-
-### Williams
-
-**TODO**
-
-- Integración solver
-
-[The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
-
-- Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
-	- Fusionar conflicting items con separation of items
-	- Cargo stability -> separar
-	- Load Bearing --> ==profe==
-- En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
-
-````python
-def BSG(TU, C, w):
-   B = block_generator(C, TU)
-   s_0 = State(B, TU)
-   S = {s_0} #conjunto de estados del nivel
-   while S is not empty:
-       SS = set() # estados del siguiente nivel
-       for s in S:
-          SS = SS.union(expand(s,w))
-       S = best w states in SS # de acuerdo a greedy
-````
-mejor solución encontrada por greedy se va guardando
-
-`expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**. (una vez)
-
-`greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
 
 
 
@@ -305,11 +297,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MTYxMjIxLC0xODUyMTA0NDk2LC0xMj
-c2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMwMTkwNSwtMTI3MTEz
-ODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMTIyNiwtMTU2NzgzND
-Y4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMCwtMjA2NDM0MTQwMCwt
-MzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNzc3MDExLC01NTg5NT
-U3NzMsMjg0NTUzMjg4LDY3MjAzNDI4MywtMTc4MzY0MjU2LC0x
-NDc0NjAwNzUzXX0=
+eyJoaXN0b3J5IjpbLTI5MDQ1NzgyNSwtMTg1MjEwNDQ5NiwtMT
+I3Njk4NDkxNiwtMTA5NzU1OTYxNCw0OTMzMDE5MDUsLTEyNzEx
+MzgxNzYsLTEyNjM0NjA5MDQsLTE2ODk1MjEyMjYsLTE1Njc4Mz
+Q2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQzNDE0MDAs
+LTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OT
+U1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2NDI1Niwt
+MTQ3NDYwMDc1M119
 -->
