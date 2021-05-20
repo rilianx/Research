@@ -1,23 +1,9 @@
 Predicting student performance in computing courses based on programming behavior
 ==
-Ayudar de manera temprana y personalizada a los alumnos que tienen mayores dificultades resolviendo problemas de código es fundamental para  mejorar el desempeño en las asignaturas de programación.
-
-Para tal fin, se hace deseable y necesario detectar a tiempo a aquellos alumnos que presenten patrones conductuales de bajo rendimiento.
-
-En este trabajo, analizaremos, con un modelo estadístico, la relación existente entre una serie de datos extraídos de una plataforma de programación virtual y las calificaciones obtenidas por los estudiantes  en las instancias de evaluación individuales. La herramienta CodeRunner permite realizar ejercicios de código y entrega retroalimentación inmediata a los estudiantes sobre errores de compilación y ejecución. En la escuela se utiliza hace algún tiempo en los ramos de Fundamentos de Programación (8 semestres) y Estructura de Datos (6 semestres).
-
->  [tablita de resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0): atributos más importantes para cada modelo
-> [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv) ∙ [Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Documento](https://docs.google.com/document/d/1dUICocY5QTchHlduz-gUTFHLoHi2ZSNOctBCjjNcpDc/edit#) ∙ [Tabla resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0) ∙ [Entrevista](https://drive.google.com/file/d/1JTUxY0T8-jlIMr-DVqbL-TkDwSS2l_8x/view?usp=sharing) ∙ [Colab](https://colab.research.google.com/drive/1wxa3EcwF5qdCBR7LuuvRtR6zbvAmN9yW?usp=sharingiKhAqXwgqj_9NRDyX9_DCG7_4415Urpy) ∙ [Libro proyectos](http://innovaciondocente.ucv.cl/?thegem_pf_item=libro-de-proyectos-de-mejoramiento-innovacion-e-investigacion-de-la-docencia-universitaria-2018-2)
 
 TODO Paper
 --
-+ Tablitas (rehacer av.students Grades) --> corriendo semestre
-+ Figuras (pred vs real): 3xRF + RL (Final Grades) :ok:
-+ Agregar sección para comentar los atributos más relevantes
-	+ Usando RF (points, final grades) :ok:
-	+ Usando RL (final grades) :ok:
-+ Revisar otros paper para saber qué agregar
-
+**Revisar otros paper para saber qué agregar**
 
 - Abstract
 - Intro :ok:
@@ -39,7 +25,17 @@ TODO (Juan)
 
 - Comparar resultados normalizando toda la columna y normalizando por semestre.
 
+Abstract
+---
 
+Ayudar de manera temprana y personalizada a los alumnos que tienen mayores dificultades resolviendo problemas de código es fundamental para  mejorar el desempeño en las asignaturas de programación.
+
+Para tal fin, se hace deseable y necesario detectar a tiempo a aquellos alumnos que presenten patrones conductuales de bajo rendimiento.
+
+En este trabajo, analizaremos, con un modelo estadístico, la relación existente entre una serie de datos extraídos de una plataforma de programación virtual y las calificaciones obtenidas por los estudiantes  en las instancias de evaluación individuales. La herramienta CodeRunner permite realizar ejercicios de código y entrega retroalimentación inmediata a los estudiantes sobre errores de compilación y ejecución. En la escuela se utiliza hace algún tiempo en los ramos de Fundamentos de Programación (8 semestres) y Estructura de Datos (6 semestres).
+
+>  [tablita de resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0): atributos más importantes para cada modelo
+> [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv) ∙ [Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Documento](https://docs.google.com/document/d/1dUICocY5QTchHlduz-gUTFHLoHi2ZSNOctBCjjNcpDc/edit#) ∙ [Tabla resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0) ∙ [Entrevista](https://drive.google.com/file/d/1JTUxY0T8-jlIMr-DVqbL-TkDwSS2l_8x/view?usp=sharing) ∙ [Colab](https://colab.research.google.com/drive/1wxa3EcwF5qdCBR7LuuvRtR6zbvAmN9yW?usp=sharingiKhAqXwgqj_9NRDyX9_DCG7_4415Urpy)
 
 Experimentos finales
 ---
@@ -190,11 +186,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjc2OTExMCwxNDQ4ODYxNjM2LDE3NT
-c3OTIzNDcsNTA2MDY4MjM2LC0xNDU1ODAzOTQzLC04MDY5NDY3
-MjUsNjQwMjgzMjEyLC02ODM1NTY4MDYsMTY1MDc0MTc1NSwxOT
-U2MTI2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LDE3NTA5
-MTU4MDEsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OTI0NTM0Ni
-wtMTI1NjkxMzEsMTM5NTUxNjY5OCwxOTQxODYwNDkwLDkxMjcz
-Mjk1M119
+eyJoaXN0b3J5IjpbMTc1MjE0NTQ0OCwtNTMyNzY5MTEwLDE0ND
+g4NjE2MzYsMTc1Nzc5MjM0Nyw1MDYwNjgyMzYsLTE0NTU4MDM5
+NDMsLTgwNjk0NjcyNSw2NDAyODMyMTIsLTY4MzU1NjgwNiwxNj
+UwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3MjMsLTEwMTIw
+OTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC0xMzk0MzM5OD
+IsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4LDE5NDE4
+NjA0OTBdfQ==
 -->
