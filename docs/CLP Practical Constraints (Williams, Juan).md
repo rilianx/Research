@@ -31,6 +31,10 @@ TODO
 
 **TODO**
 
+- Redactar sección sobre función heurística VCS --> ==profe==
+- Tablita de momentos
+- Describir integración de restricciones en el solver.
+
 [The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
 
 - Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
@@ -56,9 +60,7 @@ mejor solución encontrada por greedy se va guardando
 
 `greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
 
-- Redactar sección sobre función heurística VCS --> ==profe==
-- Tablita de momentos
-- Describir integración de restricciones en el solver.
+
 
 
 
@@ -305,11 +307,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY5ODQ5MTYsLTEwOTc1NTk2MTQsND
-kzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMjYzNDYwOTA0LC0xNjg5
-NTIxMjI2LC0xNTY3ODM0Njg4LDE3MTIzMDM2MywxNzY1MjcwOT
-AwLC0yMDY0MzQxNDAwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwz
-MTA3NzcwMTEsLTU1ODk1NTc3MywyODQ1NTMyODgsNjcyMDM0Mj
-gzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIx
-NDQ0MzMwNTddfQ==
+eyJoaXN0b3J5IjpbLTE4NTIxMDQ0OTYsLTEyNzY5ODQ5MTYsLT
+EwOTc1NTk2MTQsNDkzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMjYz
+NDYwOTA0LC0xNjg5NTIxMjI2LC0xNTY3ODM0Njg4LDE3MTIzMD
+M2MywxNzY1MjcwOTAwLC0yMDY0MzQxNDAwLC0zNTc0MDc1Njcs
+MjA3ODY2NDQxOCwzMTA3NzcwMTEsLTU1ODk1NTc3MywyODQ1NT
+MyODgsNjcyMDM0MjgzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMs
+NTI2NjUyMDY2XX0=
 -->
