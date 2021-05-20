@@ -106,16 +106,15 @@ Para la próxima reunión:
 1.  Introducción :ok:
 2. MCTS :ok:
 3. Policy
-	3.0. Intro :ok: (en espanglish)
+	3.0. Intro :ok: (en spanglish)
 	3.1. Data Collection :ok:
 	3.2. Training Phase
 	    3.2.1. Parameterized heuristic (falta explicar HC)
 	    3.2.2. Training a regression model :ok:
-4. Node Atrributes :ok:
+4. Node Attributes :ok:
 5. Experiments
+	5.1. Solvers (CPMP, BSG-CLP, IbexOpt)
 6. Conclusions
-- 
-
 
 **Links**
 
@@ -168,7 +167,7 @@ def bfs(self):
 
 - Diseño de experimentos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUzMzUxOTQsMjMyNzY5ODI1LDE4Nz
+eyJoaXN0b3J5IjpbLTE1NTk3NjI2NDgsMjMyNzY5ODI1LDE4Nz
 c3OTI5NTgsOTk1OTgwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1
 LDk5MDExOTIwNywtMTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMD
 Y3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mjk0OTAwLDE3NTQ3Njkx
