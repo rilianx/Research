@@ -1,17 +1,18 @@
 Removing points from the non-dominated set
 ==
-[Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing)
-
-[Link github](https://github.com/rilianx/Research/tree/main/ibexmop_rp)
 
 ### TODO
 
-+ ==Probar con instancias reales y reparar fallos==
++ ==Reparara fallos, probar con instancias reales==
 + [Resultados preliminares](https://docs.google.com/spreadsheets/d/1P5stPHPnAHs9bKms3UX0Mkq3IiJTuWwBUMPa5iTad_c/edit#gid=0)
 ````
 python3 plugins/optim-mop/main/plot3.py &
 ./__build__/plugins/optim-mop/ibexmop plugins/optim-mop/benchs/binh.txt  --cy-contract-full --eps-contract --ub=ub1 --eps=1 --print_nds
 ````
+
+
+[Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing) - [Link github](https://github.com/rilianx/Research/tree/main/ibexmop_rp)
+
 
 ### Tutorial (detalles faltantes)
 
@@ -123,11 +124,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNTM4ODI2LC0xMTMwMzc0MDE2LDM2NT
-UwNjAxMywtMTkxMTcxNDQyNywtMTkwNTMyMjI5NCwtMTY0MjE2
-NTg5NSwxMDMzNzYzMDQyLDE3NTQyNjcxNTgsLTYwODE2MjU3OC
-wtMTc1ODA0NTI1MSwxMDEwMzYxMTIxLDE5Mzc4NzMzOTQsNzAz
-MTQ0NzA3LDE2NDQwMzg5OTgsLTE0MzM5MjQ0NTIsLTE3NDczMT
-MwODYsLTE2NTgwNDIwMjgsMTcyMTY4ODg1OCw5ODQ1NTU2MzEs
-LTk4Njk4NzI1NF19
+eyJoaXN0b3J5IjpbLTE1ODU2ODE1NTksNjQwNTM4ODI2LC0xMT
+MwMzc0MDE2LDM2NTUwNjAxMywtMTkxMTcxNDQyNywtMTkwNTMy
+MjI5NCwtMTY0MjE2NTg5NSwxMDMzNzYzMDQyLDE3NTQyNjcxNT
+gsLTYwODE2MjU3OCwtMTc1ODA0NTI1MSwxMDEwMzYxMTIxLDE5
+Mzc4NzMzOTQsNzAzMTQ0NzA3LDE2NDQwMzg5OTgsLTE0MzM5Mj
+Q0NTIsLTE3NDczMTMwODYsLTE2NTgwNDIwMjgsMTcyMTY4ODg1
+OCw5ODQ1NTU2MzFdfQ==
 -->
