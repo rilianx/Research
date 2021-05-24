@@ -120,20 +120,6 @@ def bfs(self):
 	return -10000*sat - 10*self.depth + self.s + c*sqrt(1/(len(self.ch)+1))
 ````
 
-
-
-### KD-Tree
-
-[Overleaf](https://www.overleaf.com/project/5f7cc504d82a7900017178fa)
-
-- Descripción del KD-Tree tradicional
-- Descripción de algoritmo IKD-Tree
-
-### Practical Constraints
-
-- Revisar contenido. 
-- Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
-
 ---
 ### Lucas Agullo
 
@@ -143,8 +129,10 @@ def bfs(self):
 
 ---
 ### Martín Toledo
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY3NTQ3OTEsOTgzMzg3OTkwLC0xNT
+eyJoaXN0b3J5IjpbLTEyMzM1MTEzMDAsOTgzMzg3OTkwLC0xNT
 U5NzYyNjQ4LDIzMjc2OTgyNSwxODc3NzkyOTU4LDk5NTk4MDM0
 MSw2NDM5Mzg0NzMsMTkyNjExOTE3NSw5OTAxMTkyMDcsLTEwND
 I1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUy
