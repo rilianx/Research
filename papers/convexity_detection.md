@@ -1,3 +1,9 @@
+## TODO
+
+
+
+---
+
 ### [2018 - A hybrid LP/NLP paradigm for global optimization relaxations](http://mpc.zib.de/archive/2018/3/Khajavirad-Sahinidis2018_Article_AHybridLPNLPParadigmForGlobalO.pdf)
 
 **Autores: Aida Khajavirad · Nikolaos V. Sahinidis**
@@ -101,7 +107,7 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC03OD
-g3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5
-MTA4XX0=
+eyJoaXN0b3J5IjpbLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNT
+UzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NTMyOTEsLTE2MTE3MTIy
+MDUsLTIwODQ3MTkxMDhdfQ==
 -->
