@@ -1,34 +1,4 @@
-Trabajo en paper
-==
-
-### Links
-
-[How to write high quality papers in algorithmic or experimental Computer Science](https://www.ae-info.org/attach/Acad_Main/Sections/Informatics/Activities/12-08-14-Paper-VM-for-AE.pdf) (ver sección 4)
-
-## Instrucciones
-
-- Creen documento en overleaf con la estructura del paper. Pueden basarse en la estructura de [este paper](https://www.overleaf.com/read/vfmzmfmbvqpt).
-
-- Escriban bosquejo de **abstract**. Quizás yo ya haya escrito alguno en sus documentos en github. Pueden basarse en el que está en el paper. Es sólo un bosquejo, la idea por ahora es que ayude a recordarnos hacia donde estamos apuntando.
-Generalmente lo divido en párrafos:
-	- Descripción del problema
-	- Estado del arte (lo que hay hecho hasta ahora)
-	- Propuesta (qué es lo **nuevo** que se propone?)
-	- Resultados
-
-![image](https://i.imgur.com/zpn4DKO.png)
-
-- Escriban el **background**, es decir todo aquello que necesitan para poder explicar la propuesta con claridad. Por ejemplo, en qué consiste el problema, como se realiza una búsqueda en árbol, detalles sobre las redes neuronales, etc. El detalle tiene que ser suficiente como para que alguien no muy experto del tema entienda. También tienen que referenciar los métodos y algoritmos existentes.
-
-- Pueden continuar con la **descripción de la propuesta**. Esta debe ser escrita de manera detallada y rigurosa. Con pseudocódigos explicados y figuras si es necesario. A partir de esta descripción deberíamos ser capaces de implementarla.
-
-- Luego se puede pasar a diseñar los experimentos que se realizarán para validar la propuesta. Esto lo podemos ir conversando más adelante.
-
-[Aquí](https://www.froihofer.net/en/students/how-to-write-a-computer-science-paper.html) más tips sobre escritura de artículos.
-
----
-
-## Alumnos
+[Escritura Papers](https://docs.google.com/file/d/15zz-n1lxaeyiZhJYtRrL0X-gYwOn6I41/edit)
 
 ### Giselle Vásquez
 
@@ -174,11 +144,11 @@ def bfs(self):
 ---
 ### Martín Toledo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODAyMDMwMCw5ODMzODc5OTAsLTE1NT
-k3NjI2NDgsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQx
-LDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0Mj
-U4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3
-MTEsMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3MjE0MT
-QwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDExMjA0Nzg4NTJd
-fQ==
+eyJoaXN0b3J5IjpbLTEzNjY3NTQ3OTEsOTgzMzg3OTkwLC0xNT
+U5NzYyNjQ4LDIzMjc2OTgyNSwxODc3NzkyOTU4LDk5NTk4MDM0
+MSw2NDM5Mzg0NzMsMTkyNjExOTE3NSw5OTAxMTkyMDcsLTEwND
+I1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUy
+NzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxND
+E0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUy
+XX0=
 -->
