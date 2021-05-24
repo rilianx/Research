@@ -120,6 +120,16 @@ def bfs(self):
 	return -10000*sat - 10*self.depth + self.s + c*sqrt(1/(len(self.ch)+1))
 ````
 
+
+---
+### Luciano
+
+**TODO**
+- Revisar/retroalimentar experimentos
+- Avance en paper
+
+[Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
+
 ---
 
 ### Lucas Agullo (en pausa)
@@ -130,11 +140,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NT
-k3NjI2NDgsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQx
-LDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0Mj
-U4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3
-MTEsMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3MjE0MT
-QwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDExMjA0Nzg4NTJd
+eyJoaXN0b3J5IjpbLTg4ODczNTg5NSwxMDU5MTE0ODM0LDk4Mz
+M4Nzk5MCwtMTU1OTc2MjY0OCwyMzI3Njk4MjUsMTg3Nzc5Mjk1
+OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYxMTkxNzUsOTkwMT
+E5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5MjQsLTIwNjc5MzU0
+OTgsLTIzMTI1MjcxMSwzNzYyOTQ5MDAsMTc1NDc2OTE2LDM0Nj
+EwMzYyLDcyMTQxNDA5Miw3NDczODIwMjYsLTEwMTU1OTkyNzVd
 fQ==
 -->
