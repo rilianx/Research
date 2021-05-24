@@ -7,6 +7,8 @@
 - Proponer la organización de los datos.
 - Tratar de leer archivos de entrada y guardarlos dentro del problema. :ok:
 
+
+
 Idea
 ==
 
@@ -70,5 +72,6 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjAxOTYwODMsOTE0NjU4OTA3XX0=
+eyJoaXN0b3J5IjpbLTEzNDAyMzE5LC0xNjIwMTk2MDgzLDkxND
+Y1ODkwN119
 -->
