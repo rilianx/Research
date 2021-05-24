@@ -69,18 +69,23 @@ Y sin reducir y. Comparación con/sin reducir en x.
 ---
 ###  Gonzalo Tello
 
+**TODO**
+
+- Terminar de armar la propuesta
+- ¿En qué consiste algoritmo de la competencia?
+
+Tareas (Ignacio):
+
+- Usar instancias BRx50
+- Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
+
+---
 
 [code](https://github.com/skjolber/3d-bin-container-packing)
 [code2](https://github.com/Janet-19/3d-bin-packing-problem)
 
  [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
 
-- Terminar de armar la propuesta
-- ¿En qué consiste algoritmo de la competencia?
-
-Tareas:
-- Usar instancias BRx50
-- Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
 
 ---
 ### Stephanie Gómez
@@ -167,11 +172,11 @@ def bfs(self):
 
 - Diseño de experimentos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk3NjI2NDgsMjMyNzY5ODI1LDE4Nz
-c3OTI5NTgsOTk1OTgwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1
-LDk5MDExOTIwNywtMTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMD
-Y3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mjk0OTAwLDE3NTQ3Njkx
-NiwzNDYxMDM2Miw3MjE0MTQwOTIsNzQ3MzgyMDI2LC0xMDE1NT
-k5Mjc1LDExMjA0Nzg4NTIsLTEwMTMzMzE1ODUsLTE0NDA4Njk3
-ODRdfQ==
+eyJoaXN0b3J5IjpbOTgzMzg3OTkwLC0xNTU5NzYyNjQ4LDIzMj
+c2OTgyNSwxODc3NzkyOTU4LDk5NTk4MDM0MSw2NDM5Mzg0NzMs
+MTkyNjExOTE3NSw5OTAxMTkyMDcsLTEwNDI1ODc3NTMsLTQ3MD
+c1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUyNzExLDM3NjI5NDkw
+MCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4Mj
+AyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1
+XX0=
 -->
