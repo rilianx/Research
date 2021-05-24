@@ -152,7 +152,6 @@ def bfs(self):
 
 
 
-
 ### KD-Tree
 
 [Overleaf](https://www.overleaf.com/project/5f7cc504d82a7900017178fa)
@@ -171,12 +170,15 @@ def bfs(self):
 [Paper CPMP_RL](https://docs.google.com/file/d/1r_kHXnKd40upiHzVqo7C8qObaCLjnRpT/edit) - [overleaf](https://www.overleaf.com/project/60424d0a17d15d7bfaeabbf0)
 
 - Diseño de experimentos
+
+---
+### Martín Toledo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMzg3OTkwLC0xNTU5NzYyNjQ4LDIzMj
-c2OTgyNSwxODc3NzkyOTU4LDk5NTk4MDM0MSw2NDM5Mzg0NzMs
-MTkyNjExOTE3NSw5OTAxMTkyMDcsLTEwNDI1ODc3NTMsLTQ3MD
-c1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUyNzExLDM3NjI5NDkw
-MCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4Mj
-AyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUyLC0xMDEzMzMxNTg1
-XX0=
+eyJoaXN0b3J5IjpbLTM1ODAyMDMwMCw5ODMzODc5OTAsLTE1NT
+k3NjI2NDgsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQx
+LDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0Mj
+U4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3
+MTEsMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3MjE0MT
+QwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDExMjA0Nzg4NTJd
+fQ==
 -->
