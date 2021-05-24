@@ -126,8 +126,8 @@ def bfs(self):
 
 **TODO**
 
-- HillClimbing con todas las listas
-- Avance en paper
+- HillClimbing **1 vector x todas las listas**
+- Avance en paper (sección experimentos)
 
 [Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
 
@@ -141,10 +141,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMDg3NTcsLTEwNDEwODg1LDEwNTkxMT
-Q4MzQsOTgzMzg3OTkwLC0xNTU5NzYyNjQ4LDIzMjc2OTgyNSwx
-ODc3NzkyOTU4LDk5NTk4MDM0MSw2NDM5Mzg0NzMsMTkyNjExOT
-E3NSw5OTAxMTkyMDcsLTEwNDI1ODc3NTMsLTQ3MDc1MjkyNCwt
-MjA2NzkzNTQ5OCwtMjMxMjUyNzExLDM3NjI5NDkwMCwxNzU0Nz
-Y5MTYsMzQ2MTAzNjIsNzIxNDE0MDkyLDc0NzM4MjAyNl19
+eyJoaXN0b3J5IjpbMTcwMzQ3OTk4NSw4NjEwODc1NywtMTA0MT
+A4ODUsMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NTk3NjI2NDgs
+MjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQxLDY0MzkzOD
+Q3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0MjU4Nzc1Mywt
+NDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mj
+k0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3MjE0MTQwOTJdfQ==
+
 -->
