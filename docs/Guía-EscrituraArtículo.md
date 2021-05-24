@@ -121,22 +121,20 @@ def bfs(self):
 ````
 
 ---
-### Lucas Agullo
+
+### Lucas Agullo (en pausa)
 
 [Paper CPMP_RL](https://docs.google.com/file/d/1r_kHXnKd40upiHzVqo7C8qObaCLjnRpT/edit) - [overleaf](https://www.overleaf.com/project/60424d0a17d15d7bfaeabbf0)
 
 - Diseño de experimentos
 
----
-### Martín Toledo
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM1MTEzMDAsOTgzMzg3OTkwLC0xNT
-U5NzYyNjQ4LDIzMjc2OTgyNSwxODc3NzkyOTU4LDk5NTk4MDM0
-MSw2NDM5Mzg0NzMsMTkyNjExOTE3NSw5OTAxMTkyMDcsLTEwND
-I1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMjUy
-NzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjIsNzIxND
-E0MDkyLDc0NzM4MjAyNiwtMTAxNTU5OTI3NSwxMTIwNDc4ODUy
-XX0=
+eyJoaXN0b3J5IjpbMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NT
+k3NjI2NDgsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQx
+LDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0Mj
+U4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3
+MTEsMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3MjE0MT
+QwOTIsNzQ3MzgyMDI2LC0xMDE1NTk5Mjc1LDExMjA0Nzg4NTJd
+fQ==
 -->
