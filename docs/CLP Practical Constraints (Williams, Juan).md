@@ -26,6 +26,12 @@ mejor solución encontrada por greedy se va guardando
 `greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
 
 
+**Comando para ejecutar ejemplo:**
+````
+
+
+````
+
 Resumen
 ----
 
@@ -295,11 +301,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjc4NDkxMSwtMTg1MjEwNDQ5NiwtMT
-I3Njk4NDkxNiwtMTA5NzU1OTYxNCw0OTMzMDE5MDUsLTEyNzEx
-MzgxNzYsLTEyNjM0NjA5MDQsLTE2ODk1MjEyMjYsLTE1Njc4Mz
-Q2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQzNDE0MDAs
-LTM1NzQwNzU2NywyMDc4NjY0NDE4LDMxMDc3NzAxMSwtNTU4OT
-U1NzczLDI4NDU1MzI4OCw2NzIwMzQyODMsLTE3ODM2NDI1Niwt
-MTQ3NDYwMDc1M119
+eyJoaXN0b3J5IjpbMjAyMDQ3NzE0NywxOTM2Nzg0OTExLC0xOD
+UyMTA0NDk2LC0xMjc2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMw
+MTkwNSwtMTI3MTEzODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMT
+IyNiwtMTU2NzgzNDY4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMCwt
+MjA2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNz
+c3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4LDY3MjAzNDI4Mywt
+MTc4MzY0MjU2XX0=
 -->
