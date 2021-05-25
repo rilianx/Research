@@ -26,10 +26,9 @@ mejor solución encontrada por greedy se va guardando
 `greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
 
 
-**Comando para ejecutar ejemplo:**
+**Comando para ejecutar ejemplo (`/home/practica/clp_pc_juan/Metasolver`):**
 ````
-
-
+./BSG_CLP problems/clp/benchs/BRpc/BRrwtm0.txt -i 9 -t 1 -f BRpc
 ````
 
 Resumen
@@ -301,7 +300,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDQ3NzE0NywxOTM2Nzg0OTExLC0xOD
+eyJoaXN0b3J5IjpbLTk3MDA3NjkyOSwxOTM2Nzg0OTExLC0xOD
 UyMTA0NDk2LC0xMjc2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMw
 MTkwNSwtMTI3MTEzODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMT
 IyNiwtMTU2NzgzNDY4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMCwt
