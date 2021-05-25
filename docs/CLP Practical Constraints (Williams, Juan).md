@@ -3,8 +3,8 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
-- Integración con solver
 ![image](https://i.imgur.com/ZmXRUFK.png)
+- Momento 1
 - ==**Profe:** Explicar integración en paper==
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
@@ -300,11 +300,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDA3NjkyOSwxOTM2Nzg0OTExLC0xOD
-UyMTA0NDk2LC0xMjc2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMw
-MTkwNSwtMTI3MTEzODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMT
-IyNiwtMTU2NzgzNDY4OCwxNzEyMzAzNjMsMTc2NTI3MDkwMCwt
-MjA2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNzg2NjQ0MTgsMzEwNz
-c3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4LDY3MjAzNDI4Mywt
-MTc4MzY0MjU2XX0=
+eyJoaXN0b3J5IjpbLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwxOT
+M2Nzg0OTExLC0xODUyMTA0NDk2LC0xMjc2OTg0OTE2LC0xMDk3
+NTU5NjE0LDQ5MzMwMTkwNSwtMTI3MTEzODE3NiwtMTI2MzQ2MD
+kwNCwtMTY4OTUyMTIyNiwtMTU2NzgzNDY4OCwxNzEyMzAzNjMs
+MTc2NTI3MDkwMCwtMjA2NDM0MTQwMCwtMzU3NDA3NTY3LDIwNz
+g2NjQ0MTgsMzEwNzc3MDExLC01NTg5NTU3NzMsMjg0NTUzMjg4
+LDY3MjAzNDI4M119
 -->
