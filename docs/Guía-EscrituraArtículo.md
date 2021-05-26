@@ -54,7 +54,7 @@ Tareas (Ignacio):
 [code](https://github.com/skjolber/3d-bin-container-packing)
 [code2](https://github.com/Janet-19/3d-bin-packing-problem)
 
- [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
+ [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) - [dibujos]()
 
 
 ---
@@ -141,11 +141,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNTI5Mzg0LDE3MDM0Nzk5ODUsODYxMD
-g3NTcsLTEwNDEwODg1LDEwNTkxMTQ4MzQsOTgzMzg3OTkwLC0x
-NTU5NzYyNjQ4LDIzMjc2OTgyNSwxODc3NzkyOTU4LDk5NTk4MD
-M0MSw2NDM5Mzg0NzMsMTkyNjExOTE3NSw5OTAxMTkyMDcsLTEw
-NDI1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMj
-UyNzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjJdfQ==
+eyJoaXN0b3J5IjpbLTE0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4Nj
+EwODc1NywtMTA0MTA4ODUsMTA1OTExNDgzNCw5ODMzODc5OTAs
+LTE1NTk3NjI2NDgsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OT
+gwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywt
+MTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMz
+EyNTI3MTEsMzc2Mjk0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Ml19
 
 -->
