@@ -64,17 +64,17 @@ Tareas (Ignacio):
 
 Modificaciones al código:
 
-- Que se puedan simular varios nodos a la vez
-- Que las simulaciones se vayan agregando en el mismo archivo
+- CollectedData mantiene una lista de muestras (Data)
+- Cada muestra (Data) debería estar compuesta de: información del árbol, nodos (N) y nodos seleccionados (S)
+- En el archivo cada vez que llego a un ;, debería resetear StateMap
+- La función eval_heuristic(v, data), debería recibir un Data de CollectedData y generar el ranking
+- Verificar que eval_heuristic funcione correctamente antes de implementar HC.
+- HC
 
 En Paper:
 
 - Traducción
 - Diagrama de la estrategia general
-
-Para la próxima reunión:
-
-- Explicar entrenamiento en base a sección 3.2.1 del [paper](https://www.overleaf.com/project/603fd453d9101a1150f06d6c).
 
 **Estructura Paper**
 0. Abstract :ok:
@@ -141,11 +141,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzQ3OTk4NSw4NjEwODc1NywtMTA0MT
-A4ODUsMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NTk3NjI2NDgs
-MjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQxLDY0MzkzOD
-Q3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0MjU4Nzc1Mywt
-NDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mj
-k0OTAwLDE3NTQ3NjkxNiwzNDYxMDM2Miw3MjE0MTQwOTJdfQ==
+eyJoaXN0b3J5IjpbNzcwNTI5Mzg0LDE3MDM0Nzk5ODUsODYxMD
+g3NTcsLTEwNDEwODg1LDEwNTkxMTQ4MzQsOTgzMzg3OTkwLC0x
+NTU5NzYyNjQ4LDIzMjc2OTgyNSwxODc3NzkyOTU4LDk5NTk4MD
+M0MSw2NDM5Mzg0NzMsMTkyNjExOTE3NSw5OTAxMTkyMDcsLTEw
+NDI1ODc3NTMsLTQ3MDc1MjkyNCwtMjA2NzkzNTQ5OCwtMjMxMj
+UyNzExLDM3NjI5NDkwMCwxNzU0NzY5MTYsMzQ2MTAzNjJdfQ==
 
 -->
