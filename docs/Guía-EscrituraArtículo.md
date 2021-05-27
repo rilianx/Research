@@ -70,27 +70,23 @@ Modificaciones al código:
 - La función eval_heuristic(v, data), debería recibir un Data de CollectedData y generar el ranking
 - Verificar que eval_heuristic funcione correctamente antes de implementar HC.
 - HC y verificar correcto funcionamiento
-- Experimentos con simulación
+- Experimentos con simulación --> pasar a paper
 - ==Integración de Solvers (profe)==
-
-En Paper:
-
-- Traducción
-- Diagrama de la estrategia general
 
 **Estructura Paper**
 0. Abstract :ok:
 1.  Introducción :ok:
 2. MCTS :ok:
 3. Policy
-	3.0. Intro :ok: (en spanglish)
+	3.0. Intro :ok: (en spanglish). Faltaría diagrama
 	3.1. Data Collection :ok:
 	3.2. Training Phase
 	    3.2.1. Parameterized heuristic (falta explicar HC)
 	    3.2.2. Training a regression model :ok:
 4. Node Attributes :ok:
 5. Experiments
-	5.1. Solvers (CPMP, BSG-CLP, IbexOpt)
+	5.1 Simulaciones
+	5.2. Solvers (CPMP, BSG-CLP, IbexOpt)
 6. Conclusions
 
 **Links**
@@ -143,11 +139,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI0OTA5MDAsLTE0NjgyOTgzNjIsLT
-E0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4NjEwODc1NywtMTA0MTA4
-ODUsMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NTk3NjI2NDgsMj
-MyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQxLDY0MzkzODQ3
-MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0MjU4Nzc1MywtND
-cwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3MTEsMzc2Mjk0
-OTAwXX0=
+eyJoaXN0b3J5IjpbNjEzNTk3MDUsLTEzMTI0OTA5MDAsLTE0Nj
+gyOTgzNjIsLTE0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4NjEwODc1
+NywtMTA0MTA4ODUsMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NT
+k3NjI2NDgsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQx
+LDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MDExOTIwNywtMTA0Mj
+U4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1NDk4LC0yMzEyNTI3
+MTFdfQ==
 -->
