@@ -44,7 +44,9 @@ Y sin reducir y. Comparación con/sin reducir en x.
 - Terminar de armar la propuesta
 - ¿En qué consiste algoritmo de la competencia?
 
-Tareas (Ignacio):
+
+
+**Tareas (Ignacio):**
 
 - Usar instancias BRx50
 - Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
@@ -139,11 +141,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzk2OTA2MywtMTMxMjQ5MDkwMCwtMT
-Q2ODI5ODM2MiwtMTQxNzcwNjk2MCwxNzAzNDc5OTg1LDg2MTA4
-NzU3LC0xMDQxMDg4NSwxMDU5MTE0ODM0LDk4MzM4Nzk5MCwtMT
-U1OTc2MjY0OCwyMzI3Njk4MjUsMTg3Nzc5Mjk1OCw5OTU5ODAz
-NDEsNjQzOTM4NDczLDE5MjYxMTkxNzUsOTkwMTE5MjA3LC0xMD
-QyNTg3NzUzLC00NzA3NTI5MjQsLTIwNjc5MzU0OTgsLTIzMTI1
-MjcxMV19
+eyJoaXN0b3J5IjpbMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMT
+I0OTA5MDAsLTE0NjgyOTgzNjIsLTE0MTc3MDY5NjAsMTcwMzQ3
+OTk4NSw4NjEwODc1NywtMTA0MTA4ODUsMTA1OTExNDgzNCw5OD
+MzODc5OTAsLTE1NTk3NjI2NDgsMjMyNzY5ODI1LDE4Nzc3OTI5
+NTgsOTk1OTgwMzQxLDY0MzkzODQ3MywxOTI2MTE5MTc1LDk5MD
+ExOTIwNywtMTA0MjU4Nzc1MywtNDcwNzUyOTI0LC0yMDY3OTM1
+NDk4XX0=
 -->
