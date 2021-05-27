@@ -51,7 +51,13 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 **Paper**
 
-
+- Abstract :ok:
+- Introduction
+- Background
+	- MCLP :ok:
+	- BSG :ok:
+	- Bin Packing :ok:
+- Proposal
 
 ---
 
@@ -143,11 +149,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2MzI1NjMzLDMxODAxMjk4OSwtOTI3OT
-Y5MDYzLC0xMzEyNDkwOTAwLC0xNDY4Mjk4MzYyLC0xNDE3NzA2
-OTYwLDE3MDM0Nzk5ODUsODYxMDg3NTcsLTEwNDEwODg1LDEwNT
-kxMTQ4MzQsOTgzMzg3OTkwLC0xNTU5NzYyNjQ4LDIzMjc2OTgy
-NSwxODc3NzkyOTU4LDk5NTk4MDM0MSw2NDM5Mzg0NzMsMTkyNj
-ExOTE3NSw5OTAxMTkyMDcsLTEwNDI1ODc3NTMsLTQ3MDc1Mjky
-NF19
+eyJoaXN0b3J5IjpbLTMxODQ0MzU4MiwzMTgwMTI5ODksLTkyNz
+k2OTA2MywtMTMxMjQ5MDkwMCwtMTQ2ODI5ODM2MiwtMTQxNzcw
+Njk2MCwxNzAzNDc5OTg1LDg2MTA4NzU3LC0xMDQxMDg4NSwxMD
+U5MTE0ODM0LDk4MzM4Nzk5MCwtMTU1OTc2MjY0OCwyMzI3Njk4
+MjUsMTg3Nzc5Mjk1OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5Mj
+YxMTkxNzUsOTkwMTE5MjA3LC0xMDQyNTg3NzUzLC00NzA3NTI5
+MjRdfQ==
 -->
