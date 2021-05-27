@@ -9,6 +9,7 @@
 [Instancias de prueba](https://www.researchgate.net/publication/336126211_Three_kinds_of_SUKP_instances)
 Profit de items
 Peso de elementos
+Matriz elementos x item
 
 
 
@@ -75,6 +76,6 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM3MDA4OTIsOTcyNjQ2NDYzLC0xMz
-QwMjMxOSwtMTYyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
+eyJoaXN0b3J5IjpbMTAzNzUxMjYyMiw5NzI2NDY0NjMsLTEzND
+AyMzE5LC0xNjIwMTk2MDgzLDkxNDY1ODkwN119
 -->
