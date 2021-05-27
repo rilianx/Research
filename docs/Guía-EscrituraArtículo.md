@@ -51,6 +51,7 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 - Usar instancias BRx50
 - Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
+- 
 
 **Paper**
 
@@ -154,11 +155,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLT
-MxODQ0MzU4MiwzMTgwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5
-MDkwMCwtMTQ2ODI5ODM2MiwtMTQxNzcwNjk2MCwxNzAzNDc5OT
-g1LDg2MTA4NzU3LC0xMDQxMDg4NSwxMDU5MTE0ODM0LDk4MzM4
-Nzk5MCwtMTU1OTc2MjY0OCwyMzI3Njk4MjUsMTg3Nzc5Mjk1OC
-w5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYxMTkxNzUsOTkwMTE5
-MjA3XX0=
+eyJoaXN0b3J5IjpbLTE1NDY2NjAwNzIsLTE3NTQ2ODIzODEsLT
+EwMzk5Nzg2MTIsLTMxODQ0MzU4MiwzMTgwMTI5ODksLTkyNzk2
+OTA2MywtMTMxMjQ5MDkwMCwtMTQ2ODI5ODM2MiwtMTQxNzcwNj
+k2MCwxNzAzNDc5OTg1LDg2MTA4NzU3LC0xMDQxMDg4NSwxMDU5
+MTE0ODM0LDk4MzM4Nzk5MCwtMTU1OTc2MjY0OCwyMzI3Njk4Mj
+UsMTg3Nzc5Mjk1OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYx
+MTkxNzVdfQ==
 -->
