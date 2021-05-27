@@ -1,15 +1,15 @@
-# TODO
+### TODO
 
 
 - Estudiar C++. [link clase ejemplo](https://dis.unal.edu.co/~fgonza/courses/2003/poo/c++.htm), [documentación c++](http://www.cplusplus.com/reference/list/list/)
-- **Estudiar bien el problema (set union knapsack) (Explicar lunes)**
-- Proponer la organización de los datos.
-- Tratar de leer archivos de entrada y guardarlos dentro del problema. :ok:
+- Organización de los datos.
+- Implementación del greedy (inicialización de mochila)
 
-[Instancias de prueba](https://www.researchgate.net/publication/336126211_Three_kinds_of_SUKP_instances)
-Profit de items
-Peso de elementos
-Matriz elementos x item
+---
+### [Instancias de prueba](https://www.researchgate.net/publication/336126211_Three_kinds_of_SUKP_instances)
+- Profit de items
+- Peso de elementos
+- Matriz elementos x item
 
 
 
@@ -76,6 +76,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzUxMjYyMiw5NzI2NDY0NjMsLTEzND
-AyMzE5LC0xNjIwMTk2MDgzLDkxNDY1ODkwN119
+eyJoaXN0b3J5IjpbMjgzNzkwNzksMTAzNzUxMjYyMiw5NzI2ND
+Y0NjMsLTEzNDAyMzE5LC0xNjIwMTk2MDgzLDkxNDY1ODkwN119
+
 -->
