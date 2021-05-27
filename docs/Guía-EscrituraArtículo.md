@@ -51,7 +51,7 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 - Usar instancias BRx50
 - Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
-- 
+- BSG: pruning branches that cannot place all the boxes
 
 **Paper**
 
@@ -155,11 +155,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY2NjAwNzIsLTE3NTQ2ODIzODEsLT
-EwMzk5Nzg2MTIsLTMxODQ0MzU4MiwzMTgwMTI5ODksLTkyNzk2
-OTA2MywtMTMxMjQ5MDkwMCwtMTQ2ODI5ODM2MiwtMTQxNzcwNj
-k2MCwxNzAzNDc5OTg1LDg2MTA4NzU3LC0xMDQxMDg4NSwxMDU5
-MTE0ODM0LDk4MzM4Nzk5MCwtMTU1OTc2MjY0OCwyMzI3Njk4Mj
-UsMTg3Nzc5Mjk1OCw5OTU5ODAzNDEsNjQzOTM4NDczLDE5MjYx
-MTkxNzVdfQ==
+eyJoaXN0b3J5IjpbLTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMT
+AzOTk3ODYxMiwtMzE4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5
+MDYzLC0xMzEyNDkwOTAwLC0xNDY4Mjk4MzYyLC0xNDE3NzA2OT
+YwLDE3MDM0Nzk5ODUsODYxMDg3NTcsLTEwNDEwODg1LDEwNTkx
+MTQ4MzQsOTgzMzg3OTkwLC0xNTU5NzYyNjQ4LDIzMjc2OTgyNS
+wxODc3NzkyOTU4LDk5NTk4MDM0MSw2NDM5Mzg0NzMsMTkyNjEx
+OTE3NV19
 -->
