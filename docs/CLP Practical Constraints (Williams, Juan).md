@@ -3,9 +3,8 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
-![image](https://i.imgur.com/ZmXRUFK.png)
-- Momento 1
-- **Profe:** Explicar integración en paper. Explicando estrategia general, ==falta el algoritmo==
+- Implementar Momento 1 en código
+- **Profe:** Explicar integración en paper.
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
 ````python
@@ -30,6 +29,12 @@ mejor solución encontrada por greedy se va guardando
 ````
 ./BSG_CLP problems/clp/benchs/BRpc/BRrwtm0.txt -i 9 -t 1 -f BRpc
 ````
+
+----
+
+### Momentos
+
+![image](https://i.imgur.com/ZmXRUFK.png)
 
 Resumen
 ----
@@ -300,11 +305,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODA5NjkxOCwtMTQyMzAxMTIwMSwtOT
-cwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYsLTEyNzY5
-ODQ5MTYsLTEwOTc1NTk2MTQsNDkzMzAxOTA1LC0xMjcxMTM4MT
-c2LC0xMjYzNDYwOTA0LC0xNjg5NTIxMjI2LC0xNTY3ODM0Njg4
-LDE3MTIzMDM2MywxNzY1MjcwOTAwLC0yMDY0MzQxNDAwLC0zNT
-c0MDc1NjcsMjA3ODY2NDQxOCwzMTA3NzcwMTEsLTU1ODk1NTc3
-MywyODQ1NTMyODhdfQ==
+eyJoaXN0b3J5IjpbLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMT
+QyMzAxMTIwMSwtOTcwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIx
+MDQ0OTYsLTEyNzY5ODQ5MTYsLTEwOTc1NTk2MTQsNDkzMzAxOT
+A1LC0xMjcxMTM4MTc2LC0xMjYzNDYwOTA0LC0xNjg5NTIxMjI2
+LC0xNTY3ODM0Njg4LDE3MTIzMDM2MywxNzY1MjcwOTAwLC0yMD
+Y0MzQxNDAwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwzMTA3Nzcw
+MTEsLTU1ODk1NTc3M119
 -->
