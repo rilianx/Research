@@ -70,12 +70,12 @@ Modificaciones al código:
 - La función eval_heuristic(v, data), debería recibir un Data de CollectedData y generar el ranking
 - Verificar que eval_heuristic funcione correctamente antes de implementar HC.
 - HC
+- ==Integración de Solvers (profe)==
 
 En Paper:
 
 - Traducción
 - Diagrama de la estrategia general
-- Inter
 
 **Estructura Paper**
 0. Abstract :ok:
@@ -142,7 +142,7 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk4NzIwNDUsLTE0NjgyOTgzNjIsLT
+eyJoaXN0b3J5IjpbLTIwMDM0NjQzODgsLTE0NjgyOTgzNjIsLT
 E0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4NjEwODc1NywtMTA0MTA4
 ODUsMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NTk3NjI2NDgsMj
 MyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQxLDY0MzkzODQ3
