@@ -4,17 +4,6 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 
 Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
-### TODO
-
-* :ok: Ordenar de los hijos 
-* =**IN COMING**=Presentación: Explicar lo que hacen en  [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view) vs  **propuesta inédita**==
-* :ok:Contar cantidad de nodos que tarda en llegar a la mejor solución==
-* :ok:`update(L)`: menor l de los nodos guardados en el stack (profe) Listo!==
-* :ok: `lower_bound(nodo)`: ver lo que hacen en paper ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))
-* ==¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.==
-* Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
-* :ok: Imprementar multiset
-
 **TODO**
 
 - Implementar función LB
@@ -24,6 +13,20 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 	- UB
 	- LB + UB
 	- LB + UB + prom
+
+
+### TODO
+
+* :ok: Ordenar de los hijos 
+* :ok:Contar cantidad de nodos que tarda en llegar a la mejor solución==
+* :ok:`update(L)`: menor l de los nodos guardados en el stack (profe) Listo!==
+* :ok: `lower_bound(nodo)`: ver lo que hacen en paper ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))
+* ==¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.==
+* Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
+* :ok: Imprementar multiset
+
+
+
 
 
 ````python
@@ -116,11 +119,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4NzgwMDIwLC0yMDkyNjQ1MDIyLDExMj
-k5NTMzMjIsMTE4MzA2MjUwMSwxNjIwMjY0NDI0LC0xMjA3OTk3
-NjQ4LC0xNzM0NDk5MzE3LC03NTQ2NzY2MzIsLTYyNDM2MTI0OC
-wtMTMyMDc5MTcyLDE2NzM4MTk0MjMsMTc1MDQ5Mzk4OCwtMTcw
-MDkwMzk2NSwtMTU2ODMwMzM0MywtMTg0MzQ0NzMzMCwtMzM2OT
-gyNjI4LC00NjY2NTczMDAsMjczNjAxNTA2LDE1NTc1MjM2OCwx
-NDE1NTQxMTUzXX0=
+eyJoaXN0b3J5IjpbLTE4MjYzMjI4Niw3ODg3ODAwMjAsLTIwOT
+I2NDUwMjIsMTEyOTk1MzMyMiwxMTgzMDYyNTAxLDE2MjAyNjQ0
+MjQsLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3NjYzMi
+wtNjI0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMywxNzUw
+NDkzOTg4LC0xNzAwOTAzOTY1LC0xNTY4MzAzMzQzLC0xODQzND
+Q3MzMwLC0zMzY5ODI2MjgsLTQ2NjY1NzMwMCwyNzM2MDE1MDYs
+MTU1NzUyMzY4XX0=
 -->
