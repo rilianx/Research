@@ -6,6 +6,7 @@
 
 **TODO**
 
+- ==Revisar seudocódigo en reunión==
 - (**En background**) Agregar figura de ejemplo para explicar spline
 - Calcular errores de predicción
 - (**En propuesta**) Agregar pseudocódigo al algoritmo de la estrategia general. También agregar imágenes que muestren:
@@ -155,11 +156,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMT
-AzOTk3ODYxMiwtMzE4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5
-MDYzLC0xMzEyNDkwOTAwLC0xNDY4Mjk4MzYyLC0xNDE3NzA2OT
-YwLDE3MDM0Nzk5ODUsODYxMDg3NTcsLTEwNDEwODg1LDEwNTkx
-MTQ4MzQsOTgzMzg3OTkwLC0xNTU5NzYyNjQ4LDIzMjc2OTgyNS
-wxODc3NzkyOTU4LDk5NTk4MDM0MSw2NDM5Mzg0NzMsMTkyNjEx
-OTE3NV19
+eyJoaXN0b3J5IjpbMjAxMzE1MjgyOCwtNTkyMDU2NzM3LC0xNz
+U0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMTg0NDM1ODIsMzE4MDEy
+OTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5MDAsLTE0NjgyOTgzNj
+IsLTE0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4NjEwODc1NywtMTA0
+MTA4ODUsMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NTk3NjI2ND
+gsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQxLDY0Mzkz
+ODQ3M119
 -->
