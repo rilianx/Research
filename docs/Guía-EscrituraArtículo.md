@@ -58,7 +58,8 @@ Y sin reducir y. Comparación con/sin reducir en x.
 	- BSG :ok:
 	- Bin Packing :ok:
 - Proposal :ok:
-	- Generaci
+	- Generación inicial
+	- Transfer&Swap
 
 ---
 
@@ -150,7 +151,7 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc5MjE0MTUsLTMxODQ0MzU4MiwzMT
+eyJoaXN0b3J5IjpbLTEwMzk5Nzg2MTIsLTMxODQ0MzU4MiwzMT
 gwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5MDkwMCwtMTQ2ODI5
 ODM2MiwtMTQxNzcwNjk2MCwxNzAzNDc5OTg1LDg2MTA4NzU3LC
 0xMDQxMDg4NSwxMDU5MTE0ODM0LDk4MzM4Nzk5MCwtMTU1OTc2
