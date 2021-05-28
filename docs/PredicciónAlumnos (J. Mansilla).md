@@ -1,8 +1,12 @@
 Predicting student performance in computing courses based on programming behavior
 ==
 
-Seguir analizando atributos más relevantes. (Hacer tablita)
-Tratar de agrupar datos (mean, max)
+- Agrupar datos de todos los labs, usar RF y RL para encontrar atributos relevantes
+- 
+- Seguir analizando atributos más relevantes. (Hacer tablita)
+
+
+
 
 ### Paper
 
@@ -181,11 +185,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTQ2MjYxMiwtMTcyODMyNjk4LC02Nz
-gzMTEyNDksLTUzMjc2OTExMCwxNDQ4ODYxNjM2LDE3NTc3OTIz
-NDcsNTA2MDY4MjM2LC0xNDU1ODAzOTQzLC04MDY5NDY3MjUsNj
-QwMjgzMjEyLC02ODM1NTY4MDYsMTY1MDc0MTc1NSwxOTU2MTI2
-NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LDE3NTA5MTU4MD
-EsLTIyMjIxNDcyMSwtMTM5NDMzOTgyLDY4OTI0NTM0NiwtMTI1
-NjkxMzFdfQ==
+eyJoaXN0b3J5IjpbODM5MjUxMTc0LC0xNzI4MzI2OTgsLTY3OD
+MxMTI0OSwtNTMyNzY5MTEwLDE0NDg4NjE2MzYsMTc1Nzc5MjM0
+Nyw1MDYwNjgyMzYsLTE0NTU4MDM5NDMsLTgwNjk0NjcyNSw2ND
+AyODMyMTIsLTY4MzU1NjgwNiwxNjUwNzQxNzU1LDE5NTYxMjY3
+MzMsLTE0NDc1OTY3MjMsLTEwMTIwOTc4MDcsMTc1MDkxNTgwMS
+wtMjIyMjE0NzIxLC0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2
+OTEzMV19
 -->
