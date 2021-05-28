@@ -1,9 +1,7 @@
 Predicting student performance in computing courses based on programming behavior
 ==
 
-TODO Paper
---
-**Revisar otros paper para saber qué agregar**
+### Paper
 
 - Abstract
 - Intro :ok:
@@ -11,9 +9,13 @@ TODO Paper
 - Experiments
 	- Data Collection :ok:
 	- Procedure
-	- Results and analysis
+	- ==Results==
+	- ==Analysis==
 - Conclusiones
 
+Links:
+
+> - [Using Programming Process Data to Detect Differences in Students' Patterns of Programming](https://sci-hub.se/10.1145/3017680.3017785)
 
 Abstract
 ---
@@ -176,11 +178,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODMxMTI0OSwtNTMyNzY5MTEwLDE0ND
-g4NjE2MzYsMTc1Nzc5MjM0Nyw1MDYwNjgyMzYsLTE0NTU4MDM5
-NDMsLTgwNjk0NjcyNSw2NDAyODMyMTIsLTY4MzU1NjgwNiwxNj
-UwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3MjMsLTEwMTIw
-OTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC0xMzk0MzM5OD
-IsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2Njk4LDE5NDE4
-NjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MjgzMjY5OCwtNjc4MzExMjQ5LC01Mz
+I3NjkxMTAsMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNjA2ODIz
+NiwtMTQ1NTgwMzk0MywtODA2OTQ2NzI1LDY0MDI4MzIxMiwtNj
+gzNTU2ODA2LDE2NTA3NDE3NTUsMTk1NjEyNjczMywtMTQ0NzU5
+NjcyMywtMTAxMjA5NzgwNywxNzUwOTE1ODAxLC0yMjIyMTQ3Mj
+EsLTEzOTQzMzk4Miw2ODkyNDUzNDYsLTEyNTY5MTMxLDEzOTU1
+MTY2OThdfQ==
 -->
