@@ -47,11 +47,12 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 **TODO**
 
+- ==**Profe:** Pensar generación de bins==
 
 - Terminar de armar la propuesta
-	- Generación de bins
-	- Transfer&Swap
-	- Check
+	- Generación de bins :ok:
+	- ==Transfer&Swap==
+	- ==Check==
 - ¿En qué consiste algoritmo de la competencia?
 
 **Tareas (Ignacio):**
@@ -162,11 +163,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzgwNDg1MDgsLTExNTIyMDc1MzAsMT
-QzODEyNzMzNSwyMDEzMTUyODI4LC01OTIwNTY3MzcsLTE3NTQ2
-ODIzODEsLTEwMzk5Nzg2MTIsLTMxODQ0MzU4MiwzMTgwMTI5OD
-ksLTkyNzk2OTA2MywtMTMxMjQ5MDkwMCwtMTQ2ODI5ODM2Miwt
-MTQxNzcwNjk2MCwxNzAzNDc5OTg1LDg2MTA4NzU3LC0xMDQxMD
-g4NSwxMDU5MTE0ODM0LDk4MzM4Nzk5MCwtMTU1OTc2MjY0OCwy
-MzI3Njk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTUwMDQwNDQ2NCwtMTE1MjIwNzUzMCwxND
+M4MTI3MzM1LDIwMTMxNTI4MjgsLTU5MjA1NjczNywtMTc1NDY4
+MjM4MSwtMTAzOTk3ODYxMiwtMzE4NDQzNTgyLDMxODAxMjk4OS
+wtOTI3OTY5MDYzLC0xMzEyNDkwOTAwLC0xNDY4Mjk4MzYyLC0x
+NDE3NzA2OTYwLDE3MDM0Nzk5ODUsODYxMDg3NTcsLTEwNDEwOD
+g1LDEwNTkxMTQ4MzQsOTgzMzg3OTkwLC0xNTU5NzYyNjQ4LDIz
+Mjc2OTgyNV19
 -->
