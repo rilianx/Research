@@ -7,6 +7,7 @@
 **TODO**
 
 - ==Revisar seudocódigo en reunión==
+- Preprocesamiento para obtener caja inicial **y**
 - (**En background**) Agregar figura de ejemplo para explicar spline
 - Calcular errores de predicción
 - (**En propuesta**) Agregar pseudocódigo al algoritmo de la estrategia general. También agregar imágenes que muestren:
@@ -156,11 +157,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzE1MjgyOCwtNTkyMDU2NzM3LC0xNz
-U0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMTg0NDM1ODIsMzE4MDEy
-OTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5MDAsLTE0NjgyOTgzNj
-IsLTE0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4NjEwODc1NywtMTA0
-MTA4ODUsMTA1OTExNDgzNCw5ODMzODc5OTAsLTE1NTk3NjI2ND
-gsMjMyNzY5ODI1LDE4Nzc3OTI5NTgsOTk1OTgwMzQxLDY0Mzkz
-ODQ3M119
+eyJoaXN0b3J5IjpbMTQzODEyNzMzNSwyMDEzMTUyODI4LC01OT
+IwNTY3MzcsLTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLTMxODQ0
+MzU4MiwzMTgwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5MDkwMC
+wtMTQ2ODI5ODM2MiwtMTQxNzcwNjk2MCwxNzAzNDc5OTg1LDg2
+MTA4NzU3LC0xMDQxMDg4NSwxMDU5MTE0ODM0LDk4MzM4Nzk5MC
+wtMTU1OTc2MjY0OCwyMzI3Njk4MjUsMTg3Nzc5Mjk1OCw5OTU5
+ODAzNDFdfQ==
 -->
