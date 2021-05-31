@@ -1,9 +1,7 @@
 ### TODO
 
-- Calcular peso (no contar 2 veces los elementos)
-- 
-- ==Organización de los datos.==
-- ==Implementación del greedy (inicialización de mochila)==
+- ==Calcular peso (no contar 2 veces los elementos)==
+- ==Calcular ratio, usando peso considerando elementos ya cargados==
 
 ### Future work
 
@@ -87,7 +85,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDI4NjMxNSwtODQxNjUyOTc4LDI4Mz
-c5MDc5LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwt
-MTYyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
+eyJoaXN0b3J5IjpbMjY3Mzk2NzIsLTg0MTY1Mjk3OCwyODM3OT
+A3OSwxMDM3NTEyNjIyLDk3MjY0NjQ2MywtMTM0MDIzMTksLTE2
+MjAxOTYwODMsOTE0NjU4OTA3XX0=
 -->
