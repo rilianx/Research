@@ -2,7 +2,7 @@
 
 - ==Calcular peso (no contar 2 veces los elementos)==
 - ==Calcular ratio, usando peso considerando elementos ya cargados==
-
+- Implementar local search
 
 
 ### Future work
@@ -86,7 +86,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNTQ2OTE4LC04NDE2NTI5NzgsMjgzNz
-kwNzksMTAzNzUxMjYyMiw5NzI2NDY0NjMsLTEzNDAyMzE5LC0x
-NjIwMTk2MDgzLDkxNDY1ODkwN119
+eyJoaXN0b3J5IjpbMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mz
+c5MDc5LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwt
+MTYyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
 -->
