@@ -1,6 +1,7 @@
 ### TODO
 
--
+- Calcular peso (no contar 2 veces los elementos)
+- 
 - ==Organización de los datos.==
 - ==Implementación del greedy (inicialización de mochila)==
 
@@ -86,7 +87,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTMyMjQ2ODcsLTg0MTY1Mjk3OCwyOD
-M3OTA3OSwxMDM3NTEyNjIyLDk3MjY0NjQ2MywtMTM0MDIzMTks
-LTE2MjAxOTYwODMsOTE0NjU4OTA3XX0=
+eyJoaXN0b3J5IjpbLTcxNDI4NjMxNSwtODQxNjUyOTc4LDI4Mz
+c5MDc5LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwt
+MTYyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
 -->
