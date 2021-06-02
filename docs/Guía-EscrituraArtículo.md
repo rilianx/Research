@@ -94,7 +94,7 @@ Modificaciones al código:
 - En el archivo cada vez que llego a un ;, debería resetear StateMap. ==Y resetear state==+
 - Probar si se están guardando
 - La función eval_heuristic(v, data), debería recibir un Data de CollectedData y generar el ranking
-- Verificar que eval_heuristic funcione correctamente antes de implementar HC.
+- ==Verificar que eval_heuristic funcione correctamente antes de implementar HC.==
 - HC y verificar correcto funcionamiento
 - Experimentos con simulación --> pasar a paper
 - ==Integración de Solvers (profe)==
@@ -165,11 +165,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwOD
-g4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0LC0x
-MTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwtNTkyMD
-U2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMTg0NDM1
-ODIsMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5MDAsLT
-E0NjgyOTgzNjIsLTE0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4NjEw
-ODc1N119
+eyJoaXN0b3J5IjpbODc4OTQwMjQzLC0yNTc2NDI5LDE3NDM4MT
+M1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUw
+MDQwNDQ2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNT
+I4MjgsLTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMTAzOTk3ODYx
+MiwtMzE4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5MDYzLC0xMz
+EyNDkwOTAwLC0xNDY4Mjk4MzYyLC0xNDE3NzA2OTYwLDE3MDM0
+Nzk5ODVdfQ==
 -->
