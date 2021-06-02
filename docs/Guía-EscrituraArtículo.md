@@ -92,7 +92,7 @@ Modificaciones al código:
 - CollectedData mantiene una lista de muestras (Data)
 - Cada muestra (Data) debería estar compuesta de: ==información del árbol==, nodos (N) y nodos seleccionados (S)
 - En el archivo cada vez que llego a un ;, debería resetear StateMap. ==Y resetear state==+
-- Probar si se están guardan
+- Probar si se están guardando
 - La función eval_heuristic(v, data), debería recibir un Data de CollectedData y generar el ranking
 - Verificar que eval_heuristic funcione correctamente antes de implementar HC.
 - HC y verificar correcto funcionamiento
@@ -165,11 +165,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYxODE2MjQsMTc0MzgxMzUsLTIxMT
-IwODg4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0
-LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwtNT
-kyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMTg0
-NDM1ODIsMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5MD
-AsLTE0NjgyOTgzNjIsLTE0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4
-NjEwODc1N119
+eyJoaXN0b3J5IjpbLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwOD
+g4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0LC0x
+MTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwtNTkyMD
+U2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMTg0NDM1
+ODIsMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5MDAsLT
+E0NjgyOTgzNjIsLTE0MTc3MDY5NjAsMTcwMzQ3OTk4NSw4NjEw
+ODc1N119
 -->
