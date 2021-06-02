@@ -3,7 +3,7 @@ Removing points from the non-dominated set
 
 ### TODO
 
-+ ==Reparara fallos, probar con instancias reales==
++ ==Verificar correctitud: puntos originales deberían ser dominados por nueva curva==
 + [Resultados preliminares](https://docs.google.com/spreadsheets/d/1P5stPHPnAHs9bKms3UX0Mkq3IiJTuWwBUMPa5iTad_c/edit#gid=0)
 ````
 python3 plugins/optim-mop/main/plot3.py &
@@ -124,11 +124,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU2ODE1NTksNjQwNTM4ODI2LC0xMT
-MwMzc0MDE2LDM2NTUwNjAxMywtMTkxMTcxNDQyNywtMTkwNTMy
-MjI5NCwtMTY0MjE2NTg5NSwxMDMzNzYzMDQyLDE3NTQyNjcxNT
-gsLTYwODE2MjU3OCwtMTc1ODA0NTI1MSwxMDEwMzYxMTIxLDE5
-Mzc4NzMzOTQsNzAzMTQ0NzA3LDE2NDQwMzg5OTgsLTE0MzM5Mj
-Q0NTIsLTE3NDczMTMwODYsLTE2NTgwNDIwMjgsMTcyMTY4ODg1
-OCw5ODQ1NTU2MzFdfQ==
+eyJoaXN0b3J5IjpbLTEzODE5NTY1OSwtMTU4NTY4MTU1OSw2ND
+A1Mzg4MjYsLTExMzAzNzQwMTYsMzY1NTA2MDEzLC0xOTExNzE0
+NDI3LC0xOTA1MzIyMjk0LC0xNjQyMTY1ODk1LDEwMzM3NjMwND
+IsMTc1NDI2NzE1OCwtNjA4MTYyNTc4LC0xNzU4MDQ1MjUxLDEw
+MTAzNjExMjEsMTkzNzg3MzM5NCw3MDMxNDQ3MDcsMTY0NDAzOD
+k5OCwtMTQzMzkyNDQ1MiwtMTc0NzMxMzA4NiwtMTY1ODA0MjAy
+OCwxNzIxNjg4ODU4XX0=
 -->
