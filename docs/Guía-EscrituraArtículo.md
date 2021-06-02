@@ -90,7 +90,7 @@ Y sin reducir y. Comparación con/sin reducir en x.
 Modificaciones al código:
 
 - CollectedData mantiene una lista de muestras (Data)
-- Cada muestra (Data) debería estar compuesta de: información del árbol, nodos (N) y nodos seleccionados (S)
+- Cada muestra (Data) debería estar compuesta de: ==información del árbol==, nodos (N) y nodos seleccionados (S)
 - En el archivo cada vez que llego a un ;, debería resetear StateMap
 - La función eval_heuristic(v, data), debería recibir un Data de CollectedData y generar el ranking
 - Verificar que eval_heuristic funcione correctamente antes de implementar HC.
@@ -164,11 +164,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwND
-A0NDY0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1Mjgy
-OCwtNTkyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4NjEyLC
-0zMTg0NDM1ODIsMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMTI0
-OTA5MDAsLTE0NjgyOTgzNjIsLTE0MTc3MDY5NjAsMTcwMzQ3OT
-k4NSw4NjEwODc1NywtMTA0MTA4ODUsMTA1OTExNDgzNCw5ODMz
-ODc5OTBdfQ==
+eyJoaXN0b3J5IjpbLTIxMTIwODg4OTAsLTU4NTgwMTU0LDg3OD
+M5NjAxNSwtNTAwNDA0NDY0LC0xMTUyMjA3NTMwLDE0MzgxMjcz
+MzUsMjAxMzE1MjgyOCwtNTkyMDU2NzM3LC0xNzU0NjgyMzgxLC
+0xMDM5OTc4NjEyLC0zMTg0NDM1ODIsMzE4MDEyOTg5LC05Mjc5
+NjkwNjMsLTEzMTI0OTA5MDAsLTE0NjgyOTgzNjIsLTE0MTc3MD
+Y5NjAsMTcwMzQ3OTk4NSw4NjEwODc1NywtMTA0MTA4ODUsMTA1
+OTExNDgzNF19
 -->
