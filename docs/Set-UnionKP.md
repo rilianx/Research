@@ -3,7 +3,7 @@
 - ==Calcular peso (no contar 2 veces los elementos)==
 - ==Calcular ratio, usando peso considerando elementos ya cargados==
 - Implementar local search
-	- Swaps: sacar elementos de uno o dos items (que no se encuentren en otros items en la mochila), luego colocar items para reem
+	- Swaps: sacar elementos de uno o dos items (que no se encuentren en otros items en la mochila), luego colocar items para reemplazar los que se sacaron.
 
 
 ### Future work
@@ -87,7 +87,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3NzI1Njg4LDEzMDc5MjY5NTQsLTg0MT
-Y1Mjk3OCwyODM3OTA3OSwxMDM3NTEyNjIyLDk3MjY0NjQ2Mywt
-MTM0MDIzMTksLTE2MjAxOTYwODMsOTE0NjU4OTA3XX0=
+eyJoaXN0b3J5IjpbLTQ1MDUyNDM3NCwxMzA3OTI2OTU0LC04ND
+E2NTI5NzgsMjgzNzkwNzksMTAzNzUxMjYyMiw5NzI2NDY0NjMs
+LTEzNDAyMzE5LC0xNjIwMTk2MDgzLDkxNDY1ODkwN119
 -->
