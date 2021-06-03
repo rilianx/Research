@@ -3,7 +3,6 @@ Removing points from the non-dominated set
 
 ### TODO
 
-+ Calcular hv antes de insertar
 + Buscar instancias en donde **eliminar puntos valga la pena**
 + Revisar que actualización hv sea correcta
 + Verificar correctitud: puntos originales deberían ser dominados por nueva curva
@@ -127,11 +126,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI0NzAwNzksLTcwNjE5MTA4NSw0OD
-U4NTM5NDgsLTY3MTQzODMzNSwtMTM4MTk1NjU5LC0xNTg1Njgx
-NTU5LDY0MDUzODgyNiwtMTEzMDM3NDAxNiwzNjU1MDYwMTMsLT
-E5MTE3MTQ0MjcsLTE5MDUzMjIyOTQsLTE2NDIxNjU4OTUsMTAz
-Mzc2MzA0MiwxNzU0MjY3MTU4LC02MDgxNjI1NzgsLTE3NTgwND
-UyNTEsMTAxMDM2MTEyMSwxOTM3ODczMzk0LDcwMzE0NDcwNywx
-NjQ0MDM4OTk4XX0=
+eyJoaXN0b3J5IjpbLTcwNjE5MTA4NSwtMTA2MjQ3MDA3OSwtNz
+A2MTkxMDg1LDQ4NTg1Mzk0OCwtNjcxNDM4MzM1LC0xMzgxOTU2
+NTksLTE1ODU2ODE1NTksNjQwNTM4ODI2LC0xMTMwMzc0MDE2LD
+M2NTUwNjAxMywtMTkxMTcxNDQyNywtMTkwNTMyMjI5NCwtMTY0
+MjE2NTg5NSwxMDMzNzYzMDQyLDE3NTQyNjcxNTgsLTYwODE2Mj
+U3OCwtMTc1ODA0NTI1MSwxMDEwMzYxMTIxLDE5Mzc4NzMzOTQs
+NzAzMTQ0NzA3XX0=
 -->
