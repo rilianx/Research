@@ -6,7 +6,7 @@
 	
 ---
 
-- Idea: Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente.
+- Idea: Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente. Si se mantiene, se selecciona
 
 ### Future work
 
@@ -89,7 +89,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0NDkwNTcwLC0xNjYyNzE0OTMyLC00NT
+eyJoaXN0b3J5IjpbLTQ2OTM4MDE5LC0xNjYyNzE0OTMyLC00NT
 A1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5MDc5
 LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwtMTYyMD
 E5NjA4Myw5MTQ2NTg5MDddfQ==
