@@ -4,7 +4,9 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - ==Trabajar en momentos 1 y 2==
-- **Profe:** Explicar integración en paper.
+- **Profe:** 
+	- Explicar integración en paper.
+	- Cálculo de base en contacto (box vs. block)
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
 ````python
@@ -305,11 +307,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTIzOTY0NCwtMTU4ODAzNjE0OCwxNT
-A4MDk2OTE4LC0xNDIzMDExMjAxLC05NzAwNzY5MjksMTkzNjc4
-NDkxMSwtMTg1MjEwNDQ5NiwtMTI3Njk4NDkxNiwtMTA5NzU1OT
-YxNCw0OTMzMDE5MDUsLTEyNzExMzgxNzYsLTEyNjM0NjA5MDQs
-LTE2ODk1MjEyMjYsLTE1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3Nj
-UyNzA5MDAsLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0
-NDE4LDMxMDc3NzAxMV19
+eyJoaXN0b3J5IjpbLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1OD
+gwMzYxNDgsMTUwODA5NjkxOCwtMTQyMzAxMTIwMSwtOTcwMDc2
+OTI5LDE5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYsLTEyNzY5ODQ5MT
+YsLTEwOTc1NTk2MTQsNDkzMzAxOTA1LC0xMjcxMTM4MTc2LC0x
+MjYzNDYwOTA0LC0xNjg5NTIxMjI2LC0xNTY3ODM0Njg4LDE3MT
+IzMDM2MywxNzY1MjcwOTAwLC0yMDY0MzQxNDAwLC0zNTc0MDc1
+NjcsMjA3ODY2NDQxOF19
 -->
