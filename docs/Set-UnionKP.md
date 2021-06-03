@@ -3,7 +3,8 @@
 - Algoritmo constructivo casi listo
 - ==Implementar local search==
 	- ==Swaps:== sacar elementos de uno o dos items (que no se encuentren en otros items en la mochila), luego colocar items para reemplazar los que se sacaron.
-
+---
+- Cola con prioridad para
 
 ### Future work
 
@@ -86,8 +87,8 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI3MTQ5MzIsLTQ1MDUyNDM3NCwxMz
-A3OTI2OTU0LC04NDE2NTI5NzgsMjgzNzkwNzksMTAzNzUxMjYy
-Miw5NzI2NDY0NjMsLTEzNDAyMzE5LC0xNjIwMTk2MDgzLDkxND
-Y1ODkwN119
+eyJoaXN0b3J5IjpbMTE2MzM2MzkzLC0xNjYyNzE0OTMyLC00NT
+A1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5MDc5
+LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwtMTYyMD
+E5NjA4Myw5MTQ2NTg5MDddfQ==
 -->
