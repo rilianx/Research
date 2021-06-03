@@ -6,7 +6,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### TODO
 
-- ==Implementar función LB ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))==
+- ==Re LB ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))==
 - ==Comparar cantidad de nodos para obtener mejor solución:==
 	- sin ordenar hijos (opcional), LB, UB, LB + UB, LB + UB + prom
 - **Profe:** Revisar código
@@ -111,11 +111,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NDgwMjg3LC02OTc0NTYyNzcsLTE4Mj
-YzMjI4Niw3ODg3ODAwMjAsLTIwOTI2NDUwMjIsMTEyOTk1MzMy
-MiwxMTgzMDYyNTAxLDE2MjAyNjQ0MjQsLTEyMDc5OTc2NDgsLT
-E3MzQ0OTkzMTcsLTc1NDY3NjYzMiwtNjI0MzYxMjQ4LC0xMzIw
-NzkxNzIsMTY3MzgxOTQyMywxNzUwNDkzOTg4LC0xNzAwOTAzOT
-Y1LC0xNTY4MzAzMzQzLC0xODQzNDQ3MzMwLC0zMzY5ODI2Mjgs
-LTQ2NjY1NzMwMF19
+eyJoaXN0b3J5IjpbLTYzNTQ4MjI2Miw5NTk0ODAyODcsLTY5Nz
+Q1NjI3NywtMTgyNjMyMjg2LDc4ODc4MDAyMCwtMjA5MjY0NTAy
+MiwxMTI5OTUzMzIyLDExODMwNjI1MDEsMTYyMDI2NDQyNCwtMT
+IwNzk5NzY0OCwtMTczNDQ5OTMxNywtNzU0Njc2NjMyLC02MjQz
+NjEyNDgsLTEzMjA3OTE3MiwxNjczODE5NDIzLDE3NTA0OTM5OD
+gsLTE3MDA5MDM5NjUsLTE1NjgzMDMzNDMsLTE4NDM0NDczMzAs
+LTMzNjk4MjYyOF19
 -->
