@@ -3,7 +3,7 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
-- Implementar Momento 1 en código
+- ==Trabajar en momentos 1 y 2==
 - **Profe:** Explicar integración en paper.
 - En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
 
@@ -305,11 +305,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMT
-QyMzAxMTIwMSwtOTcwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIx
-MDQ0OTYsLTEyNzY5ODQ5MTYsLTEwOTc1NTk2MTQsNDkzMzAxOT
-A1LC0xMjcxMTM4MTc2LC0xMjYzNDYwOTA0LC0xNjg5NTIxMjI2
-LC0xNTY3ODM0Njg4LDE3MTIzMDM2MywxNzY1MjcwOTAwLC0yMD
-Y0MzQxNDAwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwzMTA3Nzcw
-MTEsLTU1ODk1NTc3M119
+eyJoaXN0b3J5IjpbLTg1OTIzOTY0NCwtMTU4ODAzNjE0OCwxNT
+A4MDk2OTE4LC0xNDIzMDExMjAxLC05NzAwNzY5MjksMTkzNjc4
+NDkxMSwtMTg1MjEwNDQ5NiwtMTI3Njk4NDkxNiwtMTA5NzU1OT
+YxNCw0OTMzMDE5MDUsLTEyNzExMzgxNzYsLTEyNjM0NjA5MDQs
+LTE2ODk1MjEyMjYsLTE1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3Nj
+UyNzA5MDAsLTIwNjQzNDE0MDAsLTM1NzQwNzU2NywyMDc4NjY0
+NDE4LDMxMDc3NzAxMV19
 -->
