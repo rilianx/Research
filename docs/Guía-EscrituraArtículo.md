@@ -51,24 +51,23 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
-+ Porcentaje de cajas grandes (difíciles), cajas medianas y pequeñas.
+
 
 
 ````python
 def generate_bins(B, Vmax):
 	while B is not empty:
-		B[large],B[median],B[small] <- split(B)
 		C <- {}
-
-		    while vol(C) < r*Vmax:
-				b <- pop random box from B[size]
-				C <- C U {b}
-			r <- r+1.0
+		while vol(C) < r*Vmax:
+			b <- pop box from B
+			C <- C U {b}
+		r <- r+1.0
 		B' <- BSG(C)
 		B <- B U B'
 ````
 
-- La selección aleatoria (por random box) debiera priorizar las cajas de los tipos ya seleccionados. Por ejemplo, con el 90% de probabilidad seleccionar cajas de tipos ya seleccionados.
+- La probabilidad de seleccionar una caja (pop box) debiera ser proporcional al volumen.
+- 
 - split se debería hacer por volumen. Es decir, dejar 33% del volumen total de cajas en B[large]....
 
 ----
@@ -189,7 +188,7 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzU5MDYzNSwxNjgzOTcyNDc0LDk0Nj
+eyJoaXN0b3J5IjpbLTU4MTgwNjIzNiwxNjgzOTcyNDc0LDk0Nj
 k1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0NjAsLTI1NzY0Mjks
 MTc0MzgxMzUsLTIxMTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5Nj
 AxNSwtNTAwNDA0NDY0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUs
