@@ -70,7 +70,7 @@ def generate_bins(B, Vmax):
 ----
 
 - Terminar de armar la propuesta
-	- ==Generación de bins== Incorporar al paper
+	- ==Generación de bins:== Incorporar al paper
 	- Swapping :ok:
 	- ==Check==
 - Cambiar figuras
@@ -185,11 +185,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzNzk2NjU2LC0xODU1Nzg5NTcyLDE2OD
-M5NzI0NzQsOTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OTQxMzQ2
-MCwtMjU3NjQyOSwxNzQzODEzNSwtMjExMjA4ODg5MCwtNTg1OD
-AxNTQsODc4Mzk2MDE1LC01MDA0MDQ0NjQsLTExNTIyMDc1MzAs
-MTQzODEyNzMzNSwyMDEzMTUyODI4LC01OTIwNTY3MzcsLTE3NT
-Q2ODIzODEsLTEwMzk5Nzg2MTIsLTMxODQ0MzU4MiwzMTgwMTI5
-ODldfQ==
+eyJoaXN0b3J5IjpbMjA4OTU2NDk2OCwtMTg1NTc4OTU3MiwxNj
+gzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0
+NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwODg4OTAsLTU4NT
+gwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0LC0xMTUyMjA3NTMw
+LDE0MzgxMjczMzUsMjAxMzE1MjgyOCwtNTkyMDU2NzM3LC0xNz
+U0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMTg0NDM1ODIsMzE4MDEy
+OTg5XX0=
 -->
