@@ -50,6 +50,7 @@ Y sin reducir y. Comparación con/sin reducir en x.
 **TODO**
 
 - ==**Profe:** Pensar generación de bins==
+- 
 
 - Terminar de armar la propuesta
 	- Generación de bins
@@ -167,11 +168,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OT
-QxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwtMjExMjA4ODg5MCwt
-NTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MDQ0NjQsLTExNTIyMD
-c1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4LC01OTIwNTY3Mzcs
-LTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLTMxODQ0MzU4MiwzMT
-gwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5MDkwMCwtMTQ2ODI5
-ODM2Ml19
+eyJoaXN0b3J5IjpbNDA3MDAxNzUyLDk0Njk1NjU3MywxMzk1Mz
+kzMjU2LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIx
+MTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0ND
+Y0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwt
+NTkyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMT
+g0NDM1ODIsMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5
+MDBdfQ==
 -->
