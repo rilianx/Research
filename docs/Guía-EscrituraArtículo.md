@@ -50,15 +50,13 @@ Y sin reducir y. Comparación con/sin reducir en x.
 **TODO**
 
 **Generación de bins**
-Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
-
-
+Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
 
 ````python
 def generate_bins(B, Vmax):
 	while B is not empty:
 		C <- {}
-		while vol(C) < 3*Vmax and B is not empty:
+		while vol(C) < 1.5*Vmax and B is not empty:
 			b <- pop box from B
 			C <- C U {b}
 		r <- r+1.0
@@ -66,7 +64,7 @@ def generate_bins(B, Vmax):
 		B <- B U B'
 ````
 
-- La probabilidad de seleccionar una caja (pop box) debiera ser proporcional al volumen.
+- Para tener una buena distribución, la probabilidad de seleccionar una caja (pop box) debiera ser **proporcional al volumen**.
 - 
 
 ----
@@ -187,7 +185,7 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQyNTk0OTMsMTY4Mzk3MjQ3NCw5ND
+eyJoaXN0b3J5IjpbLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3NCw5ND
 Y5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5
 LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOT
 YwMTUsLTUwMDQwNDQ2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1
