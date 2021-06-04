@@ -49,8 +49,9 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 **TODO**
 
-- ==**Profe:** Pensar generación de bins==
-- 
+**Generación de bins**
+Pasar al contenedor cajas suficientes para llenar 2 contenedores.
+
 
 - Terminar de armar la propuesta
 	- Generación de bins
@@ -168,11 +169,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MDAxNzUyLDk0Njk1NjU3MywxMzk1Mz
-kzMjU2LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIx
-MTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0ND
-Y0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwt
-NTkyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMT
-g0NDM1ODIsMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5
-MDBdfQ==
+eyJoaXN0b3J5IjpbMTE3MzIxMTMxNSw5NDY5NTY1NzMsMTM5NT
+M5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MTM1LC0y
+MTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUwMDQwND
+Q2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNTI4Mjgs
+LTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMTAzOTk3ODYxMiwtMz
+E4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5MDYzLC0xMzEyNDkw
+OTAwXX0=
 -->
