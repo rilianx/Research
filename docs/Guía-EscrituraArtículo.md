@@ -59,8 +59,7 @@ def generate_bins(B, Vmax):
 	while B is not empty:
 		B[large],B[median],B[small] <- split(B)
 		C <- {}
-		for size in {large, median, small}:
-	   	    r <- 1.0
+
 		    while vol(C) < r*Vmax:
 				b <- pop random box from B[size]
 				C <- C U {b}
@@ -190,11 +189,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Mzk3MjQ3NCw5NDY5NTY1NzMsMTM5NT
-M5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MTM1LC0y
-MTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUwMDQwND
-Q2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNTI4Mjgs
-LTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMTAzOTk3ODYxMiwtMz
-E4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5MDYzLC0xMzEyNDkw
-OTAwXX0=
+eyJoaXN0b3J5IjpbMTIyNzU5MDYzNSwxNjgzOTcyNDc0LDk0Nj
+k1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0NjAsLTI1NzY0Mjks
+MTc0MzgxMzUsLTIxMTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5Nj
+AxNSwtNTAwNDA0NDY0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUs
+MjAxMzE1MjgyOCwtNTkyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMD
+M5OTc4NjEyLC0zMTg0NDM1ODIsMzE4MDEyOTg5LC05Mjc5Njkw
+NjNdfQ==
 -->
