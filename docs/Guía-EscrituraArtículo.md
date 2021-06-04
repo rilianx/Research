@@ -55,9 +55,11 @@ Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
 + Priorizar cajas del mismo tipo (hasta porcentaje del volumen?)
 
 ````python
-def generate_bins():
-	b <- select random difficult box
-	
+def generate_bins(B, Vmax):
+	C <- {}
+	while vol(C) < 0.3*Vmax
+		b <- select random difficult box from B
+		C <- C U {b}
 
 ````
 
@@ -179,7 +181,7 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM2ODQyMjAsOTQ2OTU2NTczLDEzOT
+eyJoaXN0b3J5IjpbLTE3OTcwNzc0MTEsOTQ2OTU2NTczLDEzOT
 UzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwt
 MjExMjA4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MD
 Q0NjQsLTExNTIyMDc1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4
