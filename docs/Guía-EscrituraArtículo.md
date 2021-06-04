@@ -58,7 +58,7 @@ Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
 def generate_bins(B, Vmax):
 	while B is not empty:
 		C <- {}
-		while vol(C) < r*Vmax:
+		while vol(C) < 3*Vmax and B is not empty:
 			b <- pop box from B
 			C <- C U {b}
 		r <- r+1.0
@@ -68,7 +68,6 @@ def generate_bins(B, Vmax):
 
 - La probabilidad de seleccionar una caja (pop box) debiera ser proporcional al volumen.
 - 
-- split se debería hacer por volumen. Es decir, dejar 33% del volumen total de cajas en B[large]....
 
 ----
 
@@ -188,11 +187,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTgwNjIzNiwxNjgzOTcyNDc0LDk0Nj
-k1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0NjAsLTI1NzY0Mjks
-MTc0MzgxMzUsLTIxMTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5Nj
-AxNSwtNTAwNDA0NDY0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUs
-MjAxMzE1MjgyOCwtNTkyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMD
-M5OTc4NjEyLC0zMTg0NDM1ODIsMzE4MDEyOTg5LC05Mjc5Njkw
-NjNdfQ==
+eyJoaXN0b3J5IjpbLTE1ODQyNTk0OTMsMTY4Mzk3MjQ3NCw5ND
+Y5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5
+LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOT
+YwMTUsLTUwMDQwNDQ2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1
+LDIwMTMxNTI4MjgsLTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMT
+AzOTk3ODYxMiwtMzE4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5
+MDYzXX0=
 -->
