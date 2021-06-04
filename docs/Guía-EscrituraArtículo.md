@@ -52,17 +52,21 @@ Y sin reducir y. Comparación con/sin reducir en x.
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
 + Porcentaje de cajas grandes (difíciles), cajas medianas y pequeñas.
-+ Priorizar cajas del mismo tipo (porcentaje)
+
 
 ````python
 def generate_bins(B, Vmax):
 	C <- {}
-	
+	B[complex],B[median],B[easy] <- split(B)
 	for type in {complex, median, easy}:
-	    while vol(C) < 0.3*Vmax:
+   	    r <- 1.0
+	    while vol(C) < r*Vmax:
 			b <- select random box from B[type]
 			C <- C U {b}
+		r <- r+1.0
 ````
+
+La selección aleatoria debiera priorizar las cajas
 
 ----
 
@@ -182,7 +186,7 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjkxODE3NzAsOTQ2OTU2NTczLDEzOT
+eyJoaXN0b3J5IjpbLTIxMDUwNTQ4ODUsOTQ2OTU2NTczLDEzOT
 UzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwt
 MjExMjA4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MD
 Q0NjQsLTExNTIyMDc1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4
