@@ -69,7 +69,8 @@ def generate_bins(B, Vmax):
 		B <- B U B'
 ````
 
-La selección aleatoria (por random box) debiera priorizar las cajas de los tipos ya seleccionados. Por ejemplo, con el 90% de probabilidad seleccionar cajas de tipos ya sele
+- La selección aleatoria (por random box) debiera priorizar las cajas de los tipos ya seleccionados. Por ejemplo, con el 90% de probabilidad seleccionar cajas de tipos ya seleccionados.
+- split se debería hacer por volumen. Es decir, dejar 33% del volumen total de cajas en B[large]....
 
 ----
 
@@ -189,7 +190,7 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjEwOTc3Nyw5NDY5NTY1NzMsMTM5NT
+eyJoaXN0b3J5IjpbMTY4Mzk3MjQ3NCw5NDY5NTY1NzMsMTM5NT
 M5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MTM1LC0y
 MTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUwMDQwND
 Q2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNTI4Mjgs
