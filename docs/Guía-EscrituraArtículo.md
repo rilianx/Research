@@ -56,15 +56,16 @@ Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
 
 ````python
 def generate_bins(B, Vmax):
-	C <- {}
-	B[complex],B[median],B[easy] <- split(B)
-	for dfcty in {complex, median, easy}:
-   	    r <- 1.0
-	    while vol(C) < r*Vmax:
-			b <- select random box from B[dfcty]
-			C <- C U {b}
-		r <- r+1.0
-BSG(C)
+	while B is not empty:
+		B[complex],B[median],B[easy] <- split(B)
+		C <- {}
+		for dfcty in {complex, median, easy}:
+	   	    r <- 1.0
+		    while vol(C) < r*Vmax:
+				b <- pop random box from B[dfcty]
+				C <- C U {b}
+			r <- r+1.0
+		B <- B U BSG(C)
 ````
 
 La selección aleatoria debiera priorizar las cajas de los tipos ya seleccionados
@@ -187,11 +188,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc5OTgwMjUsOTQ2OTU2NTczLDEzOT
-UzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwt
-MjExMjA4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MD
-Q0NjQsLTExNTIyMDc1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4
-LC01OTIwNTY3MzcsLTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLT
-MxODQ0MzU4MiwzMTgwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5
-MDkwMF19
+eyJoaXN0b3J5IjpbNTUwODg4MDU1LDk0Njk1NjU3MywxMzk1Mz
+kzMjU2LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIx
+MTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0ND
+Y0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwt
+NTkyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMT
+g0NDM1ODIsMzE4MDEyOTg5LC05Mjc5NjkwNjMsLTEzMTI0OTA5
+MDBdfQ==
 -->
