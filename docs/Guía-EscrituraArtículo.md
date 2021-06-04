@@ -51,8 +51,10 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
-+ Porcentaje de cajas grandes
++ Porcentaje de cajas grandes (difíciles), cajas medianas y pequeñas.
++ Priorizar cajas del mismo tipo (hasta porcentaje del volumen?)
 
+----
 
 - Terminar de armar la propuesta
 	- Generación de bins
@@ -170,11 +172,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI4MjM0ODgsOTQ2OTU2NTczLDEzOT
-UzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwt
-MjExMjA4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MD
-Q0NjQsLTExNTIyMDc1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4
-LC01OTIwNTY3MzcsLTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLT
-MxODQ0MzU4MiwzMTgwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5
-MDkwMF19
+eyJoaXN0b3J5IjpbLTM2MTU2NjI5Myw5NDY5NTY1NzMsMTM5NT
+M5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MTM1LC0y
+MTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUwMDQwND
+Q2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNTI4Mjgs
+LTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMTAzOTk3ODYxMiwtMz
+E4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5MDYzLC0xMzEyNDkw
+OTAwXX0=
 -->
