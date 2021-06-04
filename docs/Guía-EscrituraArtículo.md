@@ -52,15 +52,21 @@ Y sin reducir y. Comparación con/sin reducir en x.
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 2 o 3 contenedores.
 + Porcentaje de cajas grandes (difíciles), cajas medianas y pequeñas.
-+ Priorizar cajas del mismo tipo (hasta porcentaje del volumen?)
++ Priorizar cajas del mismo tipo (porcentaje)
 
 ````python
 def generate_bins(B, Vmax):
 	C <- {}
+	for type in {complex, median, easy}
 	while vol(C) < 0.3*Vmax
 		b <- select random difficult box from B
 		C <- C U {b}
-
+	while vol(C) < 0.7*Vmax
+		b <- select random median box from B
+		C <- C U {b}	
+	while vol(C) < 0.3*Vmax
+		b <- select random easy box from B
+		C <- C U {b}
 ````
 
 ----
@@ -181,11 +187,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTcwNzc0MTEsOTQ2OTU2NTczLDEzOT
-UzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwt
-MjExMjA4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MD
-Q0NjQsLTExNTIyMDc1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4
-LC01OTIwNTY3MzcsLTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLT
-MxODQ0MzU4MiwzMTgwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5
-MDkwMF19
+eyJoaXN0b3J5IjpbLTY0MjMxMjAsOTQ2OTU2NTczLDEzOTUzOT
+MyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwtMjEx
+MjA4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MDQ0Nj
+QsLTExNTIyMDc1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4LC01
+OTIwNTY3MzcsLTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLTMxOD
+Q0MzU4MiwzMTgwMTI5ODksLTkyNzk2OTA2MywtMTMxMjQ5MDkw
+MF19
 -->
