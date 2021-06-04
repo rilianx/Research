@@ -65,7 +65,7 @@ def generate_bins(B, Vmax):
 ````
 
 - Para tener una buena distribución, la probabilidad de seleccionar una caja (pop box) debiera ser **proporcional al volumen**.
-- 
+- Si hay varias cajas del
 
 ----
 
@@ -185,11 +185,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3NCw5ND
-Y5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5
-LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOT
-YwMTUsLTUwMDQwNDQ2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1
-LDIwMTMxNTI4MjgsLTU5MjA1NjczNywtMTc1NDY4MjM4MSwtMT
-AzOTk3ODYxMiwtMzE4NDQzNTgyLDMxODAxMjk4OSwtOTI3OTY5
-MDYzXX0=
+eyJoaXN0b3J5IjpbMTAwMTQyNjUyMywtMTg1NTc4OTU3MiwxNj
+gzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0
+NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwODg4OTAsLTU4NT
+gwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0LC0xMTUyMjA3NTMw
+LDE0MzgxMjczMzUsMjAxMzE1MjgyOCwtNTkyMDU2NzM3LC0xNz
+U0NjgyMzgxLC0xMDM5OTc4NjEyLC0zMTg0NDM1ODIsMzE4MDEy
+OTg5XX0=
 -->
