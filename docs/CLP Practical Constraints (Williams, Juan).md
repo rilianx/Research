@@ -4,6 +4,7 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - ==Trabajar en momentos 1 y 2==
+- **Profe:** Enviar a Will
 - **Profe:** Implementación --> Cálculo de superficie en contacto (box vs. block)
 - **Profe:** Relacionar momentos como procedimientos  específicos del algoritmo que después se explicarán en detalle.
 - **Profe:** Resumir análisis de la tabla. (Enfocarse en explicar los momentos)
@@ -289,11 +290,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIwNTU4MCwxMDIyNTYzNDczLC05MD
-A2NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1MDgwOTY5
-MTgsLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwxOTM2Nzg0OTExLC
-0xODUyMTA0NDk2LC0xMjc2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5
-MzMwMTkwNSwtMTI3MTEzODE3NiwtMTI2MzQ2MDkwNCwtMTY4OT
-UyMTIyNiwtMTU2NzgzNDY4OCwxNzEyMzAzNjMsMTc2NTI3MDkw
-MCwtMjA2NDM0MTQwMF19
+eyJoaXN0b3J5IjpbMTYzOTA1NTQyMSwtMTM5MjA1NTgwLDEwMj
+I1NjM0NzMsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgwMzYx
+NDgsMTUwODA5NjkxOCwtMTQyMzAxMTIwMSwtOTcwMDc2OTI5LD
+E5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYsLTEyNzY5ODQ5MTYsLTEw
+OTc1NTk2MTQsNDkzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMjYzND
+YwOTA0LC0xNjg5NTIxMjI2LC0xNTY3ODM0Njg4LDE3MTIzMDM2
+MywxNzY1MjcwOTAwXX0=
 -->
