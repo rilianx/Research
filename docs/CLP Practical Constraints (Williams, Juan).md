@@ -5,24 +5,7 @@ CLP Practical Constraints (continuación).
 
 - ==Trabajar en momentos 1 y 2==
 - **Profe:** Cálculo de superficie en contacto (box vs. block)
-- En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
-
-````python
-def BSG(TU, C, w):
-   B = block_generator(C, TU)
-   s_0 = State(B, TU)
-   S = {s_0} #conjunto de estados del nivel
-   while S is not empty:
-       SS = set() # estados del siguiente nivel
-       for s in S:
-          SS = SS.union(expand(s,w))
-       S = best w states in SS # de acuerdo a greedy
-````
-mejor solución encontrada por greedy se va guardando
-
-`expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**. (una vez)
-
-`greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
+- **Profe:** Identificar momentos como procedimientos del algoritmo que después se explicarán en detalle.
 
 
 **Comando para ejecutar ejemplo (`/home/practica/clp_pc_juan/Metasolver`):**
@@ -305,11 +288,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjU2MzQ3MywtOTAwNjUzOTMsLTg1OT
-IzOTY0NCwtMTU4ODAzNjE0OCwxNTA4MDk2OTE4LC0xNDIzMDEx
-MjAxLC05NzAwNzY5MjksMTkzNjc4NDkxMSwtMTg1MjEwNDQ5Ni
-wtMTI3Njk4NDkxNiwtMTA5NzU1OTYxNCw0OTMzMDE5MDUsLTEy
-NzExMzgxNzYsLTEyNjM0NjA5MDQsLTE2ODk1MjEyMjYsLTE1Nj
-c4MzQ2ODgsMTcxMjMwMzYzLDE3NjUyNzA5MDAsLTIwNjQzNDE0
-MDAsLTM1NzQwNzU2N119
+eyJoaXN0b3J5IjpbLTEwMjY4NDg5MTgsMTAyMjU2MzQ3MywtOT
+AwNjUzOTMsLTg1OTIzOTY0NCwtMTU4ODAzNjE0OCwxNTA4MDk2
+OTE4LC0xNDIzMDExMjAxLC05NzAwNzY5MjksMTkzNjc4NDkxMS
+wtMTg1MjEwNDQ5NiwtMTI3Njk4NDkxNiwtMTA5NzU1OTYxNCw0
+OTMzMDE5MDUsLTEyNzExMzgxNzYsLTEyNjM0NjA5MDQsLTE2OD
+k1MjEyMjYsLTE1Njc4MzQ2ODgsMTcxMjMwMzYzLDE3NjUyNzA5
+MDAsLTIwNjQzNDE0MDBdfQ==
 -->
