@@ -54,7 +54,7 @@ Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
 
 ````python
 def generate_bins(B, Vmax):
-	
+	bins <- {}
 	while B is not empty:
 		C <- {}
 		while vol(C) < 1.5*Vmax and B is not empty:
@@ -63,6 +63,7 @@ def generate_bins(B, Vmax):
 		bin, B' <- BSG(C)
 		B <- B U B'
 		bins <-- bins U {bin}
+	return bins
 ````
 
 - Para tener una buena distribución, la probabilidad de seleccionar una caja (pop box) debiera ser **proporcional al volumen**.
@@ -186,11 +187,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM3MjIyLDIwODk1NjQ5NjgsLTE4NT
-U3ODk1NzIsMTY4Mzk3MjQ3NCw5NDY5NTY1NzMsMTM5NTM5MzI1
-NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MTM1LC0yMTEyMD
-g4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUwMDQwNDQ2NCwt
-MTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNTI4MjgsLTU5Mj
-A1NjczNywtMTc1NDY4MjM4MSwtMTAzOTk3ODYxMiwtMzE4NDQz
-NTgyXX0=
+eyJoaXN0b3J5IjpbMTg3MzMzNzAwNywyMDg5NTY0OTY4LC0xOD
+U1Nzg5NTcyLDE2ODM5NzI0NzQsOTQ2OTU2NTczLDEzOTUzOTMy
+NTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwtMjExMj
+A4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MDE1LC01MDA0MDQ0NjQs
+LTExNTIyMDc1MzAsMTQzODEyNzMzNSwyMDEzMTUyODI4LC01OT
+IwNTY3MzcsLTE3NTQ2ODIzODEsLTEwMzk5Nzg2MTIsLTMxODQ0
+MzU4Ml19
 -->
