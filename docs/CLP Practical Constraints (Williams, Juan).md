@@ -4,7 +4,7 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - ==Trabajar en momentos 1 y 2==
-- **Profe:** Implementación --> Cálculo de superficie en contacto (insert block & creación) :ok:
+- **Profe:** Implementación --> Cálculo de superficie en contacto (insert block & creación) :ok: Revisar ejemplo==
 - **Profe:** Relacionar momentos como procedimientos  específicos del algoritmo que después se explicarán en detalle.
 - **Profe:** Resumir análisis de la tabla. (Enfocarse en explicar los momentos)
 
@@ -289,7 +289,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTkxNzk2MSw1Mzg5OTY0OTUsLTEzOT
+eyJoaXN0b3J5IjpbMjA4NjU3MjA0NSw1Mzg5OTY0OTUsLTEzOT
 IwNTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0NzMsLTkwMDY1Mzkz
 LC04NTkyMzk2NDQsLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMT
 QyMzAxMTIwMSwtOTcwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIx
