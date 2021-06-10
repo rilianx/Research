@@ -12,6 +12,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 - En los resultados comenzar a agregar valores paper 
 - ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
 
+![image](https://i.imgur.com/tRCtZ4H.png)
 
 ---
 
@@ -113,7 +114,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTMzNDY4MCwtMjc1ODUxODE5LDk1OT
+eyJoaXN0b3J5IjpbMTY3OTg0ODM2MywtMjc1ODUxODE5LDk1OT
 Q4MDI4NywtNjk3NDU2Mjc3LC0xODI2MzIyODYsNzg4NzgwMDIw
 LC0yMDkyNjQ1MDIyLDExMjk5NTMzMjIsMTE4MzA2MjUwMSwxNj
 IwMjY0NDI0LC0xMjA3OTk3NjQ4LC0xNzM0NDk5MzE3LC03NTQ2
