@@ -4,6 +4,7 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - ==Trabajar en momentos 1 y 2==
+- Cálculo de contacto lateral
 - **Profe:** Implementación --> Cálculo de superficie en contacto (insert block & creación) :ok: ==Revisar ejemplo==
 - **Profe:** Relacionar momentos como procedimientos  específicos del algoritmo que después se explicarán en detalle.
 - **Profe:** Resumir análisis de la tabla. (Enfocarse en explicar los momentos)
@@ -289,11 +290,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA2NDU3NzksNTM4OTk2NDk1LC0xMz
-kyMDU1ODAsLTEzOTIwNTU4MCwxMDIyNTYzNDczLC05MDA2NTM5
-MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1MDgwOTY5MTgsLT
-E0MjMwMTEyMDEsLTk3MDA3NjkyOSwxOTM2Nzg0OTExLC0xODUy
-MTA0NDk2LC0xMjc2OTg0OTE2LC0xMDk3NTU5NjE0LDQ5MzMwMT
-kwNSwtMTI3MTEzODE3NiwtMTI2MzQ2MDkwNCwtMTY4OTUyMTIy
-NiwtMTU2NzgzNDY4OF19
+eyJoaXN0b3J5IjpbMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mz
+g5OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0
+NzMsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgwMzYxNDgsMT
+UwODA5NjkxOCwtMTQyMzAxMTIwMSwtOTcwMDc2OTI5LDE5MzY3
+ODQ5MTEsLTE4NTIxMDQ0OTYsLTEyNzY5ODQ5MTYsLTEwOTc1NT
+k2MTQsNDkzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMjYzNDYwOTA0
+LC0xNjg5NTIxMjI2XX0=
 -->
