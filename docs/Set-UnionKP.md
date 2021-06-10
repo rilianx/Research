@@ -24,6 +24,8 @@ Ayuda C++. [link clase ejemplo](https://dis.unal.edu.co/~fgonza/courses/2003/poo
 - Peso de elementos
 - Matriz elementos x item
 
+### Resultados paper
+
 ![image](https://i.imgur.com/J9p4CUq.png)
 
 Idea
@@ -89,7 +91,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDg3MTg1MywxNDQ1MDI4MDc5LC00Nj
+eyJoaXN0b3J5IjpbLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC00Nj
 kzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LDEzMDc5MjY5
 NTQsLTg0MTY1Mjk3OCwyODM3OTA3OSwxMDM3NTEyNjIyLDk3Mj
 Y0NjQ2MywtMTM0MDIzMTksLTE2MjAxOTYwODMsOTE0NjU4OTA3
