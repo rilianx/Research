@@ -9,6 +9,10 @@ Predicting student performance in computing courses based on programming behavio
 - Graficar función RF([0,0,0,0,p,0,0,0]) para ver de qué manera afectan los parámetros
 - Seguir analizando atributos más relevantes. (Hacer tablita)
 
+RF plots
+x: cer, y=6.5
+![image](https://i.imgur.com/qIxwtrO.png)
+
 
 
 
@@ -189,11 +193,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDcwNjcyODgsLTk3NDY2MTYyMCwxMz
-E3MDUwNjkwLC0xNzA3MDk2NzY2LDE2MjMxMjgzOTEsLTE3Mjgz
-MjY5OCwtNjc4MzExMjQ5LC01MzI3NjkxMTAsMTQ0ODg2MTYzNi
-wxNzU3NzkyMzQ3LDUwNjA2ODIzNiwtMTQ1NTgwMzk0MywtODA2
-OTQ2NzI1LDY0MDI4MzIxMiwtNjgzNTU2ODA2LDE2NTA3NDE3NT
-UsMTk1NjEyNjczMywtMTQ0NzU5NjcyMywtMTAxMjA5NzgwNywx
-NzUwOTE1ODAxXX0=
+eyJoaXN0b3J5IjpbMTMwNTQ1NDU2MSwtMTE0NzA2NzI4OCwtOT
+c0NjYxNjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEy
+ODM5MSwtMTcyODMyNjk4LC02NzgzMTEyNDksLTUzMjc2OTExMC
+wxNDQ4ODYxNjM2LDE3NTc3OTIzNDcsNTA2MDY4MjM2LC0xNDU1
+ODAzOTQzLC04MDY5NDY3MjUsNjQwMjgzMjEyLC02ODM1NTY4MD
+YsMTY1MDc0MTc1NSwxOTU2MTI2NzMzLC0xNDQ3NTk2NzIzLC0x
+MDEyMDk3ODA3XX0=
 -->
