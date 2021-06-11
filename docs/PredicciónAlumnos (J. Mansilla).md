@@ -15,8 +15,13 @@ x: cer, y=6.5
 y=5.2
 ![image](https://i.imgur.com/6ScfRbR.png)
 
+x=avgtime y=5.2
+![image](https://i.imgur.com/OeTNFM3.png)
 
+y=6.5
+![image](https://i.imgur.com/kR3AMZx.png)
 
+x=
 
 ### Paper
 
@@ -195,11 +200,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTAzNjgxOCwtMTE0NzA2NzI4OCwtOT
-c0NjYxNjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEy
-ODM5MSwtMTcyODMyNjk4LC02NzgzMTEyNDksLTUzMjc2OTExMC
-wxNDQ4ODYxNjM2LDE3NTc3OTIzNDcsNTA2MDY4MjM2LC0xNDU1
-ODAzOTQzLC04MDY5NDY3MjUsNjQwMjgzMjEyLC02ODM1NTY4MD
-YsMTY1MDc0MTc1NSwxOTU2MTI2NzMzLC0xNDQ3NTk2NzIzLC0x
-MDEyMDk3ODA3XX0=
+eyJoaXN0b3J5IjpbMjQ2NTY1NDY5LC0xMTQ3MDY3Mjg4LC05Nz
+Q2NjE2MjAsMTMxNzA1MDY5MCwtMTcwNzA5Njc2NiwxNjIzMTI4
+MzkxLC0xNzI4MzI2OTgsLTY3ODMxMTI0OSwtNTMyNzY5MTEwLD
+E0NDg4NjE2MzYsMTc1Nzc5MjM0Nyw1MDYwNjgyMzYsLTE0NTU4
+MDM5NDMsLTgwNjk0NjcyNSw2NDAyODMyMTIsLTY4MzU1NjgwNi
+wxNjUwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3MjMsLTEw
+MTIwOTc4MDddfQ==
 -->
