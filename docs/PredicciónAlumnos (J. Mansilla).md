@@ -12,6 +12,8 @@ Predicting student performance in computing courses based on programming behavio
 RF plots
 x: cer, y=6.5
 ![image](https://i.imgur.com/qIxwtrO.png)
+y=5.2
+![image](https://i.imgur.com/6ScfRbR.png)
 
 
 
@@ -193,7 +195,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTQ1NDU2MSwtMTE0NzA2NzI4OCwtOT
+eyJoaXN0b3J5IjpbLTY2OTAzNjgxOCwtMTE0NzA2NzI4OCwtOT
 c0NjYxNjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEy
 ODM5MSwtMTcyODMyNjk4LC02NzgzMTEyNDksLTUzMjc2OTExMC
 wxNDQ4ODYxNjM2LDE3NTc3OTIzNDcsNTA2MDY4MjM2LC0xNDU1
