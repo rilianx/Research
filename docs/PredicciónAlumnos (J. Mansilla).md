@@ -4,6 +4,10 @@ Predicting student performance in computing courses based on programming behavio
 - Agrupar datos de los labs (3y4) y usar RF y RL para encontrar **atributos relevantes**.
 	- -0.11414792, -0.06641489, -0.06220719, -0.05690556, -0.05562589,  -0.05455574
 	- qmsr (similarity ratio), time, cer, rtr (ratio debugging), (attempts), rt (debugging)
+	- -1.463578798746905, 1.1098811185544601,
+ 0.7940811220830507,
+ -0.5367948259104787,
+ -0.43370641952751654,
 - Graficar función RF([0,0,0,0,p,0,0,0]) para ver de qué manera afectan los parámetros
 - Seguir analizando atributos más relevantes. (Hacer tablita)
 
@@ -187,11 +191,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDY2MTYyMCwxMzE3MDUwNjkwLC0xNz
-A3MDk2NzY2LDE2MjMxMjgzOTEsLTE3MjgzMjY5OCwtNjc4MzEx
-MjQ5LC01MzI3NjkxMTAsMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LD
-UwNjA2ODIzNiwtMTQ1NTgwMzk0MywtODA2OTQ2NzI1LDY0MDI4
-MzIxMiwtNjgzNTU2ODA2LDE2NTA3NDE3NTUsMTk1NjEyNjczMy
-wtMTQ0NzU5NjcyMywtMTAxMjA5NzgwNywxNzUwOTE1ODAxLC0y
-MjIyMTQ3MjFdfQ==
+eyJoaXN0b3J5IjpbLTcxNjcyNjg4NiwtOTc0NjYxNjIwLDEzMT
+cwNTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEyODM5MSwtMTcyODMy
+Njk4LC02NzgzMTEyNDksLTUzMjc2OTExMCwxNDQ4ODYxNjM2LD
+E3NTc3OTIzNDcsNTA2MDY4MjM2LC0xNDU1ODAzOTQzLC04MDY5
+NDY3MjUsNjQwMjgzMjEyLC02ODM1NTY4MDYsMTY1MDc0MTc1NS
+wxOTU2MTI2NzMzLC0xNDQ3NTk2NzIzLC0xMDEyMDk3ODA3LDE3
+NTA5MTU4MDFdfQ==
 -->
