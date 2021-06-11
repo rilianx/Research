@@ -10,19 +10,25 @@ Predicting student performance in computing courses based on programming behavio
 - Seguir analizando atributos más relevantes. (Hacer tablita)
 
 RF plots
-x: cer, y=6.5
+
+### CER
+y=6.5
 ![image](https://i.imgur.com/qIxwtrO.png)
 y=5.2
 ![image](https://i.imgur.com/6ScfRbR.png)
 
-x=avgtime y=5.2
+### Avgtime 
+y=5.2
 ![image](https://i.imgur.com/OeTNFM3.png)
 
 y=6.5
 ![image](https://i.imgur.com/kR3AMZx.png)
 
-x=similitud y=6.5
+### similitud 
+y=6.5
 ![image](https://i.imgur.com/M3K21Z8.png)
+y=6
+![image](https://i.imgur.com/rA6tpde.png)
 
 ### Paper
 
@@ -201,11 +207,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjM0ODc4OCwtMTE0NzA2NzI4OCwtOT
-c0NjYxNjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEy
-ODM5MSwtMTcyODMyNjk4LC02NzgzMTEyNDksLTUzMjc2OTExMC
-wxNDQ4ODYxNjM2LDE3NTc3OTIzNDcsNTA2MDY4MjM2LC0xNDU1
-ODAzOTQzLC04MDY5NDY3MjUsNjQwMjgzMjEyLC02ODM1NTY4MD
-YsMTY1MDc0MTc1NSwxOTU2MTI2NzMzLC0xNDQ3NTk2NzIzLC0x
-MDEyMDk3ODA3XX0=
+eyJoaXN0b3J5IjpbLTI5MzI5MjUsLTExNDcwNjcyODgsLTk3ND
+Y2MTYyMCwxMzE3MDUwNjkwLC0xNzA3MDk2NzY2LDE2MjMxMjgz
+OTEsLTE3MjgzMjY5OCwtNjc4MzExMjQ5LC01MzI3NjkxMTAsMT
+Q0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNjA2ODIzNiwtMTQ1NTgw
+Mzk0MywtODA2OTQ2NzI1LDY0MDI4MzIxMiwtNjgzNTU2ODA2LD
+E2NTA3NDE3NTUsMTk1NjEyNjczMywtMTQ0NzU5NjcyMywtMTAx
+MjA5NzgwN119
 -->
