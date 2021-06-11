@@ -3,7 +3,7 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 - Revisar cuartiles en conglomerado `Datos de Exp/ExpXSemestre/..np`
-- Graficar 
+- Graficar relación de atributos para distintos tipos de alumno.
 
 
 **Atributos relevantes**
@@ -215,7 +215,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDYyNzMzLC00NDc0NzQ1NTIsLTExND
+eyJoaXN0b3J5IjpbLTkxMDk5NDI1LC00NDc0NzQ1NTIsLTExND
 cwNjcyODgsLTk3NDY2MTYyMCwxMzE3MDUwNjkwLC0xNzA3MDk2
 NzY2LDE2MjMxMjgzOTEsLTE3MjgzMjY5OCwtNjc4MzExMjQ5LC
 01MzI3NjkxMTAsMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNjA2
