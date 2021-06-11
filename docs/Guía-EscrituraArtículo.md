@@ -49,6 +49,9 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 **TODO**
 
+- Leer archivo de instancias
+- Ejecutar BSG y retornar mapas de cajas
+
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
 
@@ -187,11 +190,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1MzM3OTAyLDE4NzMzMzcwMDcsMjA4OT
-U2NDk2OCwtMTg1NTc4OTU3MiwxNjgzOTcyNDc0LDk0Njk1NjU3
-MywxMzk1MzkzMjU2LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0Mz
-gxMzUsLTIxMTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwt
-NTAwNDA0NDY0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMz
-E1MjgyOCwtNTkyMDU2NzM3LC0xNzU0NjgyMzgxLC0xMDM5OTc4
-NjEyXX0=
+eyJoaXN0b3J5IjpbNDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMz
+M3MDA3LDIwODk1NjQ5NjgsLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3
+NCw5NDY5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNT
+c2NDI5LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4
+NzgzOTYwMTUsLTUwMDQwNDQ2NCwtMTE1MjIwNzUzMCwxNDM4MT
+I3MzM1LDIwMTMxNTI4MjgsLTU5MjA1NjczNywtMTc1NDY4MjM4
+MV19
 -->
