@@ -1,6 +1,5 @@
 ### TODO
 
-- Algoritmo constructivo casi listo (probar con **cálculo dinámico de ratio**)
 - **Implementar local search**
 	- **Swaps:** sacar elementos de uno o dos items (que no se encuentren en otros items en la mochila), luego colocar items para reemplazar los que se sacaron.
 	
@@ -91,9 +90,9 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC00Nj
-kzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LDEzMDc5MjY5
-NTQsLTg0MTY1Mjk3OCwyODM3OTA3OSwxMDM3NTEyNjIyLDk3Mj
-Y0NjQ2MywtMTM0MDIzMTksLTE2MjAxOTYwODMsOTE0NjU4OTA3
-XX0=
+eyJoaXN0b3J5IjpbOTc2ODIyNzEzLC03ODE5OTkyNjIsMTQ0NT
+AyODA3OSwtNDY5MzgwMTksLTE2NjI3MTQ5MzIsLTQ1MDUyNDM3
+NCwxMzA3OTI2OTU0LC04NDE2NTI5NzgsMjgzNzkwNzksMTAzNz
+UxMjYyMiw5NzI2NDY0NjMsLTEzNDAyMzE5LC0xNjIwMTk2MDgz
+LDkxNDY1ODkwN119
 -->
