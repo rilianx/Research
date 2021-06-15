@@ -6,9 +6,7 @@
 
 **TODO**
 
-- Preprocesamiento para obtener caja inicial **y**
-- ==Arreglar código ($\mu$)==
-- Arreglar algoritmo
+- Organizar algoritmo para dejar como en el paper
 
 ----
 
@@ -190,11 +188,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMz
-M3MDA3LDIwODk1NjQ5NjgsLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3
-NCw5NDY5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNT
-c2NDI5LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4
-NzgzOTYwMTUsLTUwMDQwNDQ2NCwtMTE1MjIwNzUzMCwxNDM4MT
-I3MzM1LDIwMTMxNTI4MjgsLTU5MjA1NjczNywtMTc1NDY4MjM4
-MV19
+eyJoaXN0b3J5IjpbLTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1Mz
+M3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3
+MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNz
+k0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwODg4OTAs
+LTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0LC0xMTUyMj
+A3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwtNTkyMDU2NzM3
+XX0=
 -->
