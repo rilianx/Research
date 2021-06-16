@@ -6,7 +6,7 @@ Prec_hv = (prec^2)/10
 ### TODO
 
 + Cantidad dinámica de puntos (finder)
-+ Buscar instancias en donde **eliminar puntos valga la pena**. Problemas que se puedan resolver usando HC4 
++ Buscar instancias en donde **eliminar puntos valga la pena**. Problemas que se puedan resolver usando HC4 (cf3?)
 + Revisar que actualización hv sea correcta
 + Verificar correctitud: puntos originales deberían ser dominados por nueva curva
 + [Resultados preliminares](https://docs.google.com/spreadsheets/d/1P5stPHPnAHs9bKms3UX0Mkq3IiJTuWwBUMPa5iTad_c/edit#gid=0)
@@ -129,7 +129,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM3MzMxMzgsLTEzMTMzMjQ5ODAsLT
+eyJoaXN0b3J5IjpbLTEwODkzMDA5OTIsLTEzMTMzMjQ5ODAsLT
 UzNzIwMDc3OCwxNjc0NTk1NDMsLTcwNjE5MTA4NSwtMTA2MjQ3
 MDA3OSwtNzA2MTkxMDg1LDQ4NTg1Mzk0OCwtNjcxNDM4MzM1LC
 0xMzgxOTU2NTksLTE1ODU2ODE1NTksNjQwNTM4ODI2LC0xMTMw
