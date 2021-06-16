@@ -120,7 +120,10 @@ Modificaciones al código:
 - ==Verificar que eval_heuristic funcione correctamente==
 - HC y verificar correcto funcionamiento
 - Experimentos con simulación --> pasar a paper
-- ==Integración de Solvers (profe)==
+
+**Profe:**
+	- Ajuste de modelo de clasificación
+	- Integración de otros s
 
 **Estructura Paper**
 0. Abstract :ok:
@@ -188,11 +191,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1Mz
-M3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3
-MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNz
-k0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwODg4OTAs
-LTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0LC0xMTUyMj
-A3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOCwtNTkyMDU2NzM3
-XX0=
+eyJoaXN0b3J5IjpbNDE5MzAxMzUxLC0xNjg2ODY2MTMsNDU4OD
+E3Mjc4LDg3NTMzNzkwMiwxODczMzM3MDA3LDIwODk1NjQ5Njgs
+LTE4NTU3ODk1NzIsMTY4Mzk3MjQ3NCw5NDY5NTY1NzMsMTM5NT
+M5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MTM1LC0y
+MTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUwMDQwND
+Q2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNTI4Mjhd
+fQ==
 -->
