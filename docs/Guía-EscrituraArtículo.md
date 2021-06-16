@@ -123,7 +123,7 @@ Modificaciones al código:
 
 **Profe:**
 	- Ajuste de modelo de clasificación
-	- Integración de otros s
+	- Integración de otros solvers
 
 **Estructura Paper**
 0. Abstract :ok:
@@ -191,11 +191,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5MzAxMzUxLC0xNjg2ODY2MTMsNDU4OD
-E3Mjc4LDg3NTMzNzkwMiwxODczMzM3MDA3LDIwODk1NjQ5Njgs
-LTE4NTU3ODk1NzIsMTY4Mzk3MjQ3NCw5NDY5NTY1NzMsMTM5NT
-M5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MTM1LC0y
-MTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTUsLTUwMDQwND
-Q2NCwtMTE1MjIwNzUzMCwxNDM4MTI3MzM1LDIwMTMxNTI4Mjhd
-fQ==
+eyJoaXN0b3J5IjpbNDU3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MT
+cyNzgsODc1MzM3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwt
+MTg1NTc4OTU3MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMzk1Mz
+kzMjU2LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIx
+MTIwODg4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0ND
+Y0LC0xMTUyMjA3NTMwLDE0MzgxMjczMzUsMjAxMzE1MjgyOF19
+
 -->
