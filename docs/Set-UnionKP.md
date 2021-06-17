@@ -40,12 +40,12 @@ def solve()
    s <- random_greedy() #construcción de solución inicial
    while time < time_limit
       s' <- local_search(s) # e.g., hill climbing o SA para mejorar resultados
-      if f(s'
-      perturbation() # or random_greedy()
+      if f(s') < f(s): s <- s'
+      s <- perturbation(s) # or random_greedy()
 ````
 
 ````python
-def local_search(s):
+def local_search(s): # hill_climbing
 	
 ````
 
@@ -97,9 +97,9 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwNzIxNzQxLDk3NjgyMjcxMywtNzgxOT
-k5MjYyLDE0NDUwMjgwNzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMy
-LC00NTA1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mz
-c5MDc5LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwt
-MTYyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
+eyJoaXN0b3J5IjpbMTY2OTI1MDMyMSw5NzY4MjI3MTMsLTc4MT
+k5OTI2MiwxNDQ1MDI4MDc5LC00NjkzODAxOSwtMTY2MjcxNDkz
+MiwtNDUwNTI0Mzc0LDEzMDc5MjY5NTQsLTg0MTY1Mjk3OCwyOD
+M3OTA3OSwxMDM3NTEyNjIyLDk3MjY0NjQ2MywtMTM0MDIzMTks
+LTE2MjAxOTYwODMsOTE0NjU4OTA3XX0=
 -->
