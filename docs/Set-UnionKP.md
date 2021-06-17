@@ -47,7 +47,8 @@ def solve()
 ````python
 def local_search(s): # hill_climbing
     #moves: (item a sacar, item a colocar, mejora)
-    while 
+    while iter < 100:
+        
 	M1 <- generate_moves1() #swap1 
 	M2 <- generate_moves2() #swap2
 	M3 <- generate_moves3() #swap3
@@ -101,7 +102,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODI2NTQ3MiwtMTE4MDIxNDA5NiwxNj
+eyJoaXN0b3J5IjpbLTY2OTEwMDc1MywtMTE4MDIxNDA5NiwxNj
 Y5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5MjYyLDE0NDUwMjgw
 NzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMyLC00NTA1MjQzNzQsMT
 MwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5MDc5LDEwMzc1MTI2
