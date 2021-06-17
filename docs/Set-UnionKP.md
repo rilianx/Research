@@ -37,11 +37,12 @@ Algoritmo que mantiene la "esencia" del paper.
 
 ````python
 def solve()
-   
-   s <- random_greedy() #construcción de solución inicial
+   s = random_greedy() #construcción de solución inicial
+   sb = s #mejor solución
    while time < time_limit
-      s <- local_search(s) # e.g., hill climbing o SA para mejorar resultados
-      s <- perturbation(s) # or random_greedy()
+      s = local_search(s) # e.g., hill climbing o SA para mejorar resultados
+      if f(s) > f(sb): sb = s
+      s = perturbation(sb) # or random_greedy()
 ````
 
 ````python
@@ -105,10 +106,10 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNzg3NDEsLTY2OTEwMDc1MywtMTE4MD
-IxNDA5NiwxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5MjYy
-LDE0NDUwMjgwNzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMyLC00NT
-A1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5MDc5
-LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwtMTYyMD
-E5NjA4Myw5MTQ2NTg5MDddfQ==
+eyJoaXN0b3J5IjpbLTE0ODg4OTc1NTYsLTY2OTEwMDc1MywtMT
+E4MDIxNDA5NiwxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5
+MjYyLDE0NDUwMjgwNzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMyLC
+00NTA1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5
+MDc5LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwtMT
+YyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
 -->
