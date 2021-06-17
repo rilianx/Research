@@ -48,8 +48,8 @@ def solve()
 def local_search(s): # hill_climbing
     #moves: (item a sacar, item a colocar, mejora)
 	M1 <- generate_moves1() #swap1 
-	M2 <- generate_neighbourhood2() #swap2
-	M3 <- generate_neighbourhood2() #swap3
+	M2 <- generate_moves2() #swap2
+	M3 <- generate_moves3() #swap3
 ````
 
 
@@ -100,9 +100,10 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAyMTQwOTYsMTY2OTI1MDMyMSw5Nz
-Y4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC00NjkzODAx
-OSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LDEzMDc5MjY5NTQsLT
-g0MTY1Mjk3OCwyODM3OTA3OSwxMDM3NTEyNjIyLDk3MjY0NjQ2
-MywtMTM0MDIzMTksLTE2MjAxOTYwODMsOTE0NjU4OTA3XX0=
+eyJoaXN0b3J5IjpbLTc5NjMxNTg1LC0xMTgwMjE0MDk2LDE2Nj
+kyNTAzMjEsOTc2ODIyNzEzLC03ODE5OTkyNjIsMTQ0NTAyODA3
+OSwtNDY5MzgwMTksLTE2NjI3MTQ5MzIsLTQ1MDUyNDM3NCwxMz
+A3OTI2OTU0LC04NDE2NTI5NzgsMjgzNzkwNzksMTAzNzUxMjYy
+Miw5NzI2NDY0NjMsLTEzNDAyMzE5LC0xNjIwMTk2MDgzLDkxND
+Y1ODkwN119
 -->
