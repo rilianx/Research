@@ -37,11 +37,18 @@ Algoritmo que mantiene la "esencia" del paper.
 
 ````python
 def solve()
-   random_greedy() #construcción de solución inicial
+   s <- random_greedy() #construcción de solución inicial
    while time < time_limit
-      local_search() # e.g., hill climbing o SA para mejorar resultados
+      s' <- local_search(s) # e.g., hill climbing o SA para mejorar resultados
+      if f(s'
       perturbation() # or random_greedy()
 ````
+
+````python
+def local_search(s):
+	
+````
+
 
 El `random_greedy` básicamente coloca los items uno a uno en la mochila. En el paper usan un greedy determinista. Yo lo haría aleatorio (e.g, escoger uno de los mejores en vez del mejor).
 
@@ -90,9 +97,9 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2ODIyNzEzLC03ODE5OTkyNjIsMTQ0NT
-AyODA3OSwtNDY5MzgwMTksLTE2NjI3MTQ5MzIsLTQ1MDUyNDM3
-NCwxMzA3OTI2OTU0LC04NDE2NTI5NzgsMjgzNzkwNzksMTAzNz
-UxMjYyMiw5NzI2NDY0NjMsLTEzNDAyMzE5LC0xNjIwMTk2MDgz
-LDkxNDY1ODkwN119
+eyJoaXN0b3J5IjpbNDYwNzIxNzQxLDk3NjgyMjcxMywtNzgxOT
+k5MjYyLDE0NDUwMjgwNzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMy
+LC00NTA1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mz
+c5MDc5LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwt
+MTYyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
 -->
