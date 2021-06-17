@@ -40,7 +40,7 @@ def solve()
    s = random_greedy() #construcción de solución inicial
    sb = s #mejor solución
    while time < time_limit
-      s = local_search(s) # e.g., hill climbing o SA para mejorar resultados
+      s = local_search(s) # e.g., hill climbing o Simmulated Annealing para mejorar resultados
       if f(s) > f(sb): sb = s
       s = perturbation(sb) # or random_greedy()
 ````
@@ -106,10 +106,10 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg4OTc1NTYsLTY2OTEwMDc1MywtMT
-E4MDIxNDA5NiwxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5
-MjYyLDE0NDUwMjgwNzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMyLC
-00NTA1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5
-MDc5LDEwMzc1MTI2MjIsOTcyNjQ2NDYzLC0xMzQwMjMxOSwtMT
-YyMDE5NjA4Myw5MTQ2NTg5MDddfQ==
+eyJoaXN0b3J5IjpbMTQwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNj
+Y5MTAwNzUzLC0xMTgwMjE0MDk2LDE2NjkyNTAzMjEsOTc2ODIy
+NzEzLC03ODE5OTkyNjIsMTQ0NTAyODA3OSwtNDY5MzgwMTksLT
+E2NjI3MTQ5MzIsLTQ1MDUyNDM3NCwxMzA3OTI2OTU0LC04NDE2
+NTI5NzgsMjgzNzkwNzksMTAzNzUxMjYyMiw5NzI2NDY0NjMsLT
+EzNDAyMzE5LC0xNjIwMTk2MDgzLDkxNDY1ODkwN119
 -->
