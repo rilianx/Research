@@ -47,9 +47,14 @@ def solve()
 ````python
 def local_search(s): # hill_climbing
     #moves: (item a sacar, item a colocar, mejora)
-    while iter < 100:
-       m <- generar movimiento aletaroio (considerandos swaps) 
-       si m mejora: s <-
+    no_improvements = 0
+    while no_improvements < 100:
+       m = generar movimiento aletaroio (considerandos swaps) 
+       si m mejora: 
+	       s = s.apply(m)
+	       no_improvements = 0
+	   sino: no_improvements+=1
+       
 ````
 
 
@@ -100,7 +105,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTI1NTMwOSwtNjY5MTAwNzUzLC0xMT
+eyJoaXN0b3J5IjpbLTk1NDIyMjYwOCwtNjY5MTAwNzUzLC0xMT
 gwMjE0MDk2LDE2NjkyNTAzMjEsOTc2ODIyNzEzLC03ODE5OTky
 NjIsMTQ0NTAyODA3OSwtNDY5MzgwMTksLTE2NjI3MTQ5MzIsLT
 Q1MDUyNDM3NCwxMzA3OTI2OTU0LC04NDE2NTI5NzgsMjgzNzkw
