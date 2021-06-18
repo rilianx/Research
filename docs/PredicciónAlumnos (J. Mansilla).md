@@ -2,7 +2,7 @@ Predicting student performance in computing courses based on programming behavio
 ==
 
 ### TODO
-- Plots x atributo. Distintos alumnos en mismo plot ([-1
+- Plots x atributo. Distintos alumnos en mismo plot ([-1,1])
 - Graficar relación de atributos para distintos tipos de alumno.
 
 
@@ -223,7 +223,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzA1Mzk5NiwtMTI0MDExNTExMiwxOT
+eyJoaXN0b3J5IjpbLTkzMDY4NzcxNSwtMTI0MDExNTExMiwxOT
 c2ODgxNDkxLC0xMDQ1NDM5ODY1LC05MTA5OTQyNSwtNDQ3NDc0
 NTUyLC0xMTQ3MDY3Mjg4LC05NzQ2NjE2MjAsMTMxNzA1MDY5MC
 wtMTcwNzA5Njc2NiwxNjIzMTI4MzkxLC0xNzI4MzI2OTgsLTY3
