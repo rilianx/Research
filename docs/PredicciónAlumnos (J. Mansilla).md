@@ -2,7 +2,7 @@ Predicting student performance in computing courses based on programming behavio
 ==
 
 ### TODO
-- Revisar cuartiles en conglomerado `Datos de Exp/ExpXSemestre/..np`
+- Plots x atributo. Distintos alumnos
 - Graficar relación de atributos para distintos tipos de alumno.
 
 
@@ -223,11 +223,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Njg4MTQ5MSwtMTA0NTQzOTg2NSwtOT
-EwOTk0MjUsLTQ0NzQ3NDU1MiwtMTE0NzA2NzI4OCwtOTc0NjYx
-NjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEyODM5MS
-wtMTcyODMyNjk4LC02NzgzMTEyNDksLTUzMjc2OTExMCwxNDQ4
-ODYxNjM2LDE3NTc3OTIzNDcsNTA2MDY4MjM2LC0xNDU1ODAzOT
-QzLC04MDY5NDY3MjUsNjQwMjgzMjEyLC02ODM1NTY4MDYsMTY1
-MDc0MTc1NV19
+eyJoaXN0b3J5IjpbLTEyNDAxMTUxMTIsMTk3Njg4MTQ5MSwtMT
+A0NTQzOTg2NSwtOTEwOTk0MjUsLTQ0NzQ3NDU1MiwtMTE0NzA2
+NzI4OCwtOTc0NjYxNjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3Nj
+YsMTYyMzEyODM5MSwtMTcyODMyNjk4LC02NzgzMTEyNDksLTUz
+Mjc2OTExMCwxNDQ4ODYxNjM2LDE3NTc3OTIzNDcsNTA2MDY4Mj
+M2LC0xNDU1ODAzOTQzLC04MDY5NDY3MjUsNjQwMjgzMjEyLC02
+ODM1NTY4MDZdfQ==
 -->
