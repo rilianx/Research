@@ -29,6 +29,7 @@ y=6.5
 ![image](https://i.imgur.com/kR3AMZx.png)
 
 ### similitud 
+Impacto en 
 y=6.5
 ![image](https://i.imgur.com/M3K21Z8.png)
 
@@ -215,11 +216,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDk5NDI1LC00NDc0NzQ1NTIsLTExND
-cwNjcyODgsLTk3NDY2MTYyMCwxMzE3MDUwNjkwLC0xNzA3MDk2
-NzY2LDE2MjMxMjgzOTEsLTE3MjgzMjY5OCwtNjc4MzExMjQ5LC
-01MzI3NjkxMTAsMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNjA2
-ODIzNiwtMTQ1NTgwMzk0MywtODA2OTQ2NzI1LDY0MDI4MzIxMi
-wtNjgzNTU2ODA2LDE2NTA3NDE3NTUsMTk1NjEyNjczMywtMTQ0
-NzU5NjcyM119
+eyJoaXN0b3J5IjpbLTE1NDQ5ODMwMDksLTkxMDk5NDI1LC00ND
+c0NzQ1NTIsLTExNDcwNjcyODgsLTk3NDY2MTYyMCwxMzE3MDUw
+NjkwLC0xNzA3MDk2NzY2LDE2MjMxMjgzOTEsLTE3MjgzMjY5OC
+wtNjc4MzExMjQ5LC01MzI3NjkxMTAsMTQ0ODg2MTYzNiwxNzU3
+NzkyMzQ3LDUwNjA2ODIzNiwtMTQ1NTgwMzk0MywtODA2OTQ2Nz
+I1LDY0MDI4MzIxMiwtNjgzNTU2ODA2LDE2NTA3NDE3NTUsMTk1
+NjEyNjczM119
 -->
