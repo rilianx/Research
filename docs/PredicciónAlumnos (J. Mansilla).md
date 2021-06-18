@@ -29,7 +29,7 @@ y=6.5
 ![image](https://i.imgur.com/kR3AMZx.png)
 
 ### similitud 
-Impacto en 
+Impacto en predicción de valores bajos
 y=6.5
 ![image](https://i.imgur.com/M3K21Z8.png)
 
@@ -216,7 +216,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ5ODMwMDksLTkxMDk5NDI1LC00ND
+eyJoaXN0b3J5IjpbLTEwNDU0Mzk4NjUsLTkxMDk5NDI1LC00ND
 c0NzQ1NTIsLTExNDcwNjcyODgsLTk3NDY2MTYyMCwxMzE3MDUw
 NjkwLC0xNzA3MDk2NzY2LDE2MjMxMjgzOTEsLTE3MjgzMjY5OC
 wtNjc4MzExMjQ5LC01MzI3NjkxMTAsMTQ0ODg2MTYzNiwxNzU3
