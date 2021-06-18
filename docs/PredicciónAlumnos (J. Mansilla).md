@@ -3,6 +3,7 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 - Plots x atributo. Distintos alumnos en mismo plot ([-2,2])
+- Análisis de resultados
 
 
 **Atributos relevantes**
@@ -222,11 +223,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzYwMDA0NSwxNDY5Mzc5NTUxLC0xMj
-QwMTE1MTEyLDE5NzY4ODE0OTEsLTEwNDU0Mzk4NjUsLTkxMDk5
-NDI1LC00NDc0NzQ1NTIsLTExNDcwNjcyODgsLTk3NDY2MTYyMC
-wxMzE3MDUwNjkwLC0xNzA3MDk2NzY2LDE2MjMxMjgzOTEsLTE3
-MjgzMjY5OCwtNjc4MzExMjQ5LC01MzI3NjkxMTAsMTQ0ODg2MT
-YzNiwxNzU3NzkyMzQ3LDUwNjA2ODIzNiwtMTQ1NTgwMzk0Mywt
-ODA2OTQ2NzI1XX0=
+eyJoaXN0b3J5IjpbNzQyOTU3MTMsMjA0MzYwMDA0NSwxNDY5Mz
+c5NTUxLC0xMjQwMTE1MTEyLDE5NzY4ODE0OTEsLTEwNDU0Mzk4
+NjUsLTkxMDk5NDI1LC00NDc0NzQ1NTIsLTExNDcwNjcyODgsLT
+k3NDY2MTYyMCwxMzE3MDUwNjkwLC0xNzA3MDk2NzY2LDE2MjMx
+MjgzOTEsLTE3MjgzMjY5OCwtNjc4MzExMjQ5LC01MzI3NjkxMT
+AsMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNjA2ODIzNiwtMTQ1
+NTgwMzk0M119
 -->
