@@ -106,66 +106,6 @@ def generate_bins(B, Vmax):
 
 
 ---
-### Stephanie Gómez (Tifa)
-
-**TODO**
-
-Modificaciones al código:
-
-- HC y verificar correcto funcionamiento
-- Experimentos con simulación --> pasar a paper
-
-**Profe:**
-	- Ajuste de modelo de clasificación
-	- Integración de otros solvers
-
-**Estructura Paper**
-0. Abstract :ok:
-1.  Introducción :ok:
-2. MCTS :ok:
-3. Policy
-	3.0. Intro :ok: (en spanglish). Faltaría diagrama
-	3.1. Data Collection :ok:
-	3.2. Training Phase
-	    3.2.1. Parameterized heuristic (falta explicar HC)
-	    3.2.2. Training a regression model :ok:
-4. Node Attributes :ok:
-5. Experiments
-	5.1 Simulaciones
-	5.2. Solvers (CPMP, BSG-CLP, IbexOpt)
-6. Conclusions
-
-**Links**
-
- [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
-
-Atributos de nodos
-![image](https://i.imgur.com/Tayv9cj.png =500x)
-
-````python
-def best_first(self): 
-	return self.s
-````
-
-````python
-def diving(self):
-	return 1000*(self.parent == last_selected) + self.s
-````
-
-````python
-def dfs_greedy(self):
-    return 1000*self.depth + self.s
-````
-
-sat: nodes_in_level/max_nodes_in_level
-
-````python
-def bfs(self):
-	return -10000*sat - 10*self.depth + self.s + c*sqrt(1/(len(self.ch)+1))
-````
-
-
----
 ### Luciano
 
 **TODO**
@@ -185,11 +125,11 @@ def bfs(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODUzMDQxOSw0NTc0ODU5NiwtMTY4Nj
-g2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5MDIsMTg3MzMzNzAwNywy
-MDg5NTY0OTY4LC0xODU1Nzg5NTcyLDE2ODM5NzI0NzQsOTQ2OT
-U2NTczLDEzOTUzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwx
-NzQzODEzNSwtMjExMjA4ODg5MCwtNTg1ODAxNTQsODc4Mzk2MD
-E1LC01MDA0MDQ0NjQsLTExNTIyMDc1MzAsMTQzODEyNzMzNV19
+eyJoaXN0b3J5IjpbMTcxNzExNTA0NCwtODE4NTMwNDE5LDQ1Nz
+Q4NTk2LC0xNjg2ODY2MTMsNDU4ODE3Mjc4LDg3NTMzNzkwMiwx
+ODczMzM3MDA3LDIwODk1NjQ5NjgsLTE4NTU3ODk1NzIsMTY4Mz
+k3MjQ3NCw5NDY5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYw
+LC0yNTc2NDI5LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MD
+E1NCw4NzgzOTYwMTUsLTUwMDQwNDQ2NCwtMTE1MjIwNzUzMF19
 
 -->
