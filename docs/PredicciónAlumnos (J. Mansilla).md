@@ -41,7 +41,7 @@ y=4.6
 
 ### Q1
 
-https://i.imgur.com/JpG4ggq.png
+![image](https://i.imgur.com/JpG4ggq.png)
 
 ### Q2
 ![image](https://i.imgur.com/yBwhExh.png)
@@ -223,7 +223,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTI3NDI1NiwtMTA0NTQzOTg2NSwtOT
+eyJoaXN0b3J5IjpbMTk3Njg4MTQ5MSwtMTA0NTQzOTg2NSwtOT
 EwOTk0MjUsLTQ0NzQ3NDU1MiwtMTE0NzA2NzI4OCwtOTc0NjYx
 NjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEyODM5MS
 wtMTcyODMyNjk4LC02NzgzMTEyNDksLTUzMjc2OTExMCwxNDQ4
