@@ -10,6 +10,7 @@ Predicting student performance in computing courses based on programming behavio
 RF
 ![image](https://i.imgur.com/jECMnkT.png)
 LR
+![image](https://i.imgur.com/UAINWUt.png)
 
 RF plots
 
@@ -221,11 +222,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjY0NjYxOSwtMjIxMTkzMDY3LDc0Mj
-k1NzEzLDIwNDM2MDAwNDUsMTQ2OTM3OTU1MSwtMTI0MDExNTEx
-MiwxOTc2ODgxNDkxLC0xMDQ1NDM5ODY1LC05MTA5OTQyNSwtND
-Q3NDc0NTUyLC0xMTQ3MDY3Mjg4LC05NzQ2NjE2MjAsMTMxNzA1
-MDY5MCwtMTcwNzA5Njc2NiwxNjIzMTI4MzkxLC0xNzI4MzI2OT
-gsLTY3ODMxMTI0OSwtNTMyNzY5MTEwLDE0NDg4NjE2MzYsMTc1
-Nzc5MjM0N119
+eyJoaXN0b3J5IjpbLTExOTU3NjYwNzYsLTIyMTE5MzA2Nyw3ND
+I5NTcxMywyMDQzNjAwMDQ1LDE0NjkzNzk1NTEsLTEyNDAxMTUx
+MTIsMTk3Njg4MTQ5MSwtMTA0NTQzOTg2NSwtOTEwOTk0MjUsLT
+Q0NzQ3NDU1MiwtMTE0NzA2NzI4OCwtOTc0NjYxNjIwLDEzMTcw
+NTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEyODM5MSwtMTcyODMyNj
+k4LC02NzgzMTEyNDksLTUzMjc2OTExMCwxNDQ4ODYxNjM2LDE3
+NTc3OTIzNDddfQ==
 -->
