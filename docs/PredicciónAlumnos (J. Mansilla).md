@@ -7,10 +7,8 @@ Predicting student performance in computing courses based on programming behavio
 
 
 **Atributos relevantes**
-	- -0.11414792, -0.06641489, -0.06220719, -0.05690556, -0.05562589,  -0.05455574
-	- qmsr (similarity ratio), time, cer, rtr (ratio debugging), (attempts), rt (debugging)
-	- -1.463578798746905,  1.1098811185544601,  0.7940811220830507,  -0.5367948259104787,  -0.43370641952751654,
-	- act, rt, at, cer, rtr,
+RF
+![image](https://i.imgur.com/jECMnkT.png)
 
 
 RF plots
@@ -223,11 +221,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyOTU3MTMsMjA0MzYwMDA0NSwxNDY5Mz
-c5NTUxLC0xMjQwMTE1MTEyLDE5NzY4ODE0OTEsLTEwNDU0Mzk4
-NjUsLTkxMDk5NDI1LC00NDc0NzQ1NTIsLTExNDcwNjcyODgsLT
-k3NDY2MTYyMCwxMzE3MDUwNjkwLC0xNzA3MDk2NzY2LDE2MjMx
-MjgzOTEsLTE3MjgzMjY5OCwtNjc4MzExMjQ5LC01MzI3NjkxMT
-AsMTQ0ODg2MTYzNiwxNzU3NzkyMzQ3LDUwNjA2ODIzNiwtMTQ1
-NTgwMzk0M119
+eyJoaXN0b3J5IjpbLTIyMTE5MzA2Nyw3NDI5NTcxMywyMDQzNj
+AwMDQ1LDE0NjkzNzk1NTEsLTEyNDAxMTUxMTIsMTk3Njg4MTQ5
+MSwtMTA0NTQzOTg2NSwtOTEwOTk0MjUsLTQ0NzQ3NDU1MiwtMT
+E0NzA2NzI4OCwtOTc0NjYxNjIwLDEzMTcwNTA2OTAsLTE3MDcw
+OTY3NjYsMTYyMzEyODM5MSwtMTcyODMyNjk4LC02NzgzMTEyND
+ksLTUzMjc2OTExMCwxNDQ4ODYxNjM2LDE3NTc3OTIzNDcsNTA2
+MDY4MjM2XX0=
 -->
