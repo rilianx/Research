@@ -9,9 +9,11 @@ Predicting student performance in computing courses based on programming behavio
 **Atributos relevantes**
 RF
 ![image](https://i.imgur.com/jECMnkT.png)
+![image](https://i.imgur.com/2SgbWNi.png)
 LR
 ![image](https://i.imgur.com/UAINWUt.png)
 
+![image](https://i.imgur.com/gSEj90Z.png)
 RF plots
 
 
@@ -192,11 +194,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc2NTY1NTAsLTIyMTE5MzA2Nyw3ND
-I5NTcxMywyMDQzNjAwMDQ1LDE0NjkzNzk1NTEsLTEyNDAxMTUx
-MTIsMTk3Njg4MTQ5MSwtMTA0NTQzOTg2NSwtOTEwOTk0MjUsLT
-Q0NzQ3NDU1MiwtMTE0NzA2NzI4OCwtOTc0NjYxNjIwLDEzMTcw
-NTA2OTAsLTE3MDcwOTY3NjYsMTYyMzEyODM5MSwtMTcyODMyNj
-k4LC02NzgzMTEyNDksLTUzMjc2OTExMCwxNDQ4ODYxNjM2LDE3
-NTc3OTIzNDddfQ==
+eyJoaXN0b3J5IjpbMTk1NTA1MjM2NCwtMTczNzY1NjU1MCwtMj
+IxMTkzMDY3LDc0Mjk1NzEzLDIwNDM2MDAwNDUsMTQ2OTM3OTU1
+MSwtMTI0MDExNTExMiwxOTc2ODgxNDkxLC0xMDQ1NDM5ODY1LC
+05MTA5OTQyNSwtNDQ3NDc0NTUyLC0xMTQ3MDY3Mjg4LC05NzQ2
+NjE2MjAsMTMxNzA1MDY5MCwtMTcwNzA5Njc2NiwxNjIzMTI4Mz
+kxLC0xNzI4MzI2OTgsLTY3ODMxMTI0OSwtNTMyNzY5MTEwLDE0
+NDg4NjE2MzZdfQ==
 -->
