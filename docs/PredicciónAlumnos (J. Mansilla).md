@@ -14,36 +14,6 @@ LR
 
 RF plots
 
-### CER
-y=6.5
-![image](https://i.imgur.com/qIxwtrO.png)
-y=5.2
-![image](https://i.imgur.com/6ScfRbR.png)
-
-### Avgtime 
-y=5.2
-![image](https://i.imgur.com/OeTNFM3.png)
-
-y=6.5
-![image](https://i.imgur.com/kR3AMZx.png)
-
-### similitud 
-Impacto en predicción de valores bajos
-y=6.5
-![image](https://i.imgur.com/M3K21Z8.png)
-
-y=6
-![image](https://i.imgur.com/rA6tpde.png)
-
-y=4.6
-![image](https://i.imgur.com/ifdlR5c.png)
-
-### Q1
-
-![image](https://i.imgur.com/JpG4ggq.png)
-
-### Q2
-![image](https://i.imgur.com/yBwhExh.png)
 
 ### Paper
 
@@ -222,7 +192,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU3NjYwNzYsLTIyMTE5MzA2Nyw3ND
+eyJoaXN0b3J5IjpbLTE3Mzc2NTY1NTAsLTIyMTE5MzA2Nyw3ND
 I5NTcxMywyMDQzNjAwMDQ1LDE0NjkzNzk1NTEsLTEyNDAxMTUx
 MTIsMTk3Njg4MTQ5MSwtMTA0NTQzOTg2NSwtOTEwOTk0MjUsLT
 Q0NzQ3NDU1MiwtMTE0NzA2NzI4OCwtOTc0NjYxNjIwLDEzMTcw
