@@ -3,7 +3,9 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 - Terminar con análisis de atributos
-- 
+- Metodología experimentos
+- Repasar introducción (contribuciones)
+- Conclusiones
 
 
 
@@ -184,7 +186,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTk3OTgwNSwtMTA4MjgwODc0NiwxOT
+eyJoaXN0b3J5IjpbLTU2NjU0Nzc5MCwtMTA4MjgwODc0NiwxOT
 U1MDUyMzY0LC0xNzM3NjU2NTUwLC0yMjExOTMwNjcsNzQyOTU3
 MTMsMjA0MzYwMDA0NSwxNDY5Mzc5NTUxLC0xMjQwMTE1MTEyLD
 E5NzY4ODE0OTEsLTEwNDU0Mzk4NjUsLTkxMDk5NDI1LC00NDc0
