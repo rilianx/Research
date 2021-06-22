@@ -1,8 +1,8 @@
 ### TODO
 
-Camiar set<Item*>
+Cambiar set<Item*>
 
-**Swap++**
+**Swap-v2**
   - Seleccionar elemento random, y sacar todos los items de la mochila
   - Ordenar elementos fuera de la mochila por ratio y comenzar a insertarlos
 	
@@ -109,7 +109,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MzU0NDkyLDk1OTM2MTAzLDE0OTQ5OT
+eyJoaXN0b3J5IjpbMzM5ODMyMzA1LDk1OTM2MTAzLDE0OTQ5OT
 AwNzIsMTQwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAwNzUz
 LC0xMTgwMjE0MDk2LDE2NjkyNTAzMjEsOTc2ODIyNzEzLC03OD
 E5OTkyNjIsMTQ0NTAyODA3OSwtNDY5MzgwMTksLTE2NjI3MTQ5
