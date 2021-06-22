@@ -2,13 +2,9 @@
 
 
 
-- **Implementar local search**
-
-Swap++: 
+**Swap++**
   - Seleccionar elemento random, y sacar todos los items de la mochila
-  - Ordenarlos por ratio
-
-	- **Swaps:** sacar elementos de uno o dos items (que no se encuentren en otros items en la mochila), luego colocar items para reemplazar los que se sacaron.
+  - Ordenar elementos fuera de la mochila por ratio y comenzar a insertarlos
 	
 ---
 
@@ -113,7 +109,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxODAwNTQ3LDE0OTQ5OTAwNzIsMTQwMD
+eyJoaXN0b3J5IjpbNDY2Njc1Njg4LDE0OTQ5OTAwNzIsMTQwMD
 Y3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAwNzUzLC0xMTgwMjE0
 MDk2LDE2NjkyNTAzMjEsOTc2ODIyNzEzLC03ODE5OTkyNjIsMT
 Q0NTAyODA3OSwtNDY5MzgwMTksLTE2NjI3MTQ5MzIsLTQ1MDUy
