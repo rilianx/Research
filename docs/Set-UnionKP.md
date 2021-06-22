@@ -1,6 +1,6 @@
 ### TODO
 
-set<Item*>
+Camiar set<Item*>
 
 **Swap++**
   - Seleccionar elemento random, y sacar todos los items de la mochila
@@ -109,11 +109,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNj
-c5MDQ4LC0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTExODAyMTQw
-OTYsMTY2OTI1MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2MiwxND
-Q1MDI4MDc5LC00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0
-Mzc0LDEzMDc5MjY5NTQsLTg0MTY1Mjk3OCwyODM3OTA3OSwxMD
-M3NTEyNjIyLDk3MjY0NjQ2MywtMTM0MDIzMTksLTE2MjAxOTYw
-ODNdfQ==
+eyJoaXN0b3J5IjpbNTI4MzU0NDkyLDk1OTM2MTAzLDE0OTQ5OT
+AwNzIsMTQwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAwNzUz
+LC0xMTgwMjE0MDk2LDE2NjkyNTAzMjEsOTc2ODIyNzEzLC03OD
+E5OTkyNjIsMTQ0NTAyODA3OSwtNDY5MzgwMTksLTE2NjI3MTQ5
+MzIsLTQ1MDUyNDM3NCwxMzA3OTI2OTU0LC04NDE2NTI5NzgsMj
+gzNzkwNzksMTAzNzUxMjYyMiw5NzI2NDY0NjMsLTEzNDAyMzE5
+XX0=
 -->
