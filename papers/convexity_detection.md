@@ -100,6 +100,8 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 ### Decision Focused Learning [link](https://ojs.aaai.org/index.php/AAAI/article/view/3982/3860)
 
 **Idea:** to train a predictive model using the quality of the decisions which it induces via the optimization algorithm.
+
+The starting point is to relax the combinatorial problem to a continuous one. Then, we analytically differentiate the optimal solution to the continuous problem as a function of the model’s predictions. This allows us to train using a continuous proxy for the discrete problem. At test time, we round the continuous solution to a discrete point.
 .
 
 
@@ -111,8 +113,8 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTEwNDczMywxODc1ODYyNjM2LC0xOT
-EwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0
-MDA1LC03ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC
-0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMT
+kxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMx
+NDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNS
+wtMjA4NDcxOTEwOF19
 -->
