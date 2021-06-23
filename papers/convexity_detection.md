@@ -97,6 +97,7 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 ![image](https://i.imgur.com/ZCid3q9.png)
 
 
+### Decision Focused Learning
 
 
 
@@ -107,7 +108,7 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNT
-UzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NTMyOTEsLTE2MTE3MTIy
-MDUsLTIwODQ3MTkxMDhdfQ==
+eyJoaXN0b3J5IjpbLTE5MTAzNDQ0NDMsLTI4MjM5ODg5NywtMj
+AzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NTMy
+OTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
 -->
