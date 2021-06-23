@@ -107,8 +107,9 @@ El objetivo es que la solución óptima usando parámetros  predichos por el mod
 
 ![image](https://i.imgur.com/xybgXlV.png)
 .
-
-
+El gradiente de una muestra:
+![image](https://i.imgur.com/jZm68aM.png)
+The first term is just the gradient of the objective with respect to the decision variable x, and the last term is the gradient of the model’s predictions with respect to its own internal parameterization. The key is computing the middle term, which measures how the optimal decision changes with respect to the prediction $\Theta.
 
 
 
@@ -117,8 +118,8 @@ El objetivo es que la solución óptima usando parámetros  predichos por el mod
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc0NjgyMTAsLTExMzM0NjI3MjEsMT
-g3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4
-MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5MS
-wtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbLTg0MTM0ODY2MCwtMTEzMzQ2MjcyMSwxOD
+c1ODYyNjM2LC0xOTEwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgw
+Mzg5MzIsMjU1MzE0MDA1LC03ODg3MTY2NiwxNjgyNTUzMjkxLC
+0xNjExNzEyMjA1LC0yMDg0NzE5MTA4XX0=
 -->
