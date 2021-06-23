@@ -102,6 +102,8 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 **Idea:** to train a predictive model using the quality of the decisions which it induces via the optimization algorithm.
 
 The starting point is to relax the combinatorial problem to a continuous one. Then, we analytically differentiate the optimal solution to the continuous problem as a function of the model’s predictions. This allows us to train using a continuous proxy for the discrete problem. At test time, we round the continuous solution to a discrete point.
+
+
 .
 
 
@@ -113,8 +115,8 @@ The starting point is to relax the combinatorial problem to a continuous one. Th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMT
-kxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMx
-NDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNS
-wtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbLTE5NDcwNjg1NzMsLTExMzM0NjI3MjEsMT
+g3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4
+MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5MS
+wtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF19
 -->
