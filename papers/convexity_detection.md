@@ -103,7 +103,7 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 The starting point is to relax the combinatorial problem to a continuous one. Then, we analytically differentiate the optimal solution to the continuous problem as a function of the model’s predictions. This allows us to train using a continuous proxy for the discrete problem. At test time, we round the continuous solution to a discrete point.
 
-El objetivo es maximizar la 
+El objetivo es que la solución óptima usando parámetros  predichos por el modelo m, maximice el valor de la función f.
 
 ![image](https://i.imgur.com/xybgXlV.png)
 .
@@ -117,8 +117,8 @@ El objetivo es maximizar la
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjI3NjI0MSwtMTEzMzQ2MjcyMSwxOD
-c1ODYyNjM2LC0xOTEwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgw
-Mzg5MzIsMjU1MzE0MDA1LC03ODg3MTY2NiwxNjgyNTUzMjkxLC
-0xNjExNzEyMjA1LC0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbLTE2Mzc0NjgyMTAsLTExMzM0NjI3MjEsMT
+g3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4
+MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5MS
+wtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF19
 -->
