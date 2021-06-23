@@ -109,7 +109,8 @@ El objetivo es que la solución óptima usando parámetros  predichos por el mod
 .
 El gradiente de una muestra:
 ![image](https://i.imgur.com/jZm68aM.png)
-The first term is just the gradient of the objective with respect to the decision variable x, and the last term is the gradient of the model’s predictions with respect to its own internal parameterization. The key is computing the middle term, which measures how the optimal decision changes with respect to the prediction $\Theta.
+The first term is just the gradient of the objective with respect to the decision variable x, and the last term is the gradient of the model’s predictions with respect to its own internal parameterization. The key is computing the middle term, which measures how the optimal decision changes with respect to the prediction $\hat{\theta}$.
+For continuous problems, the optimal continuous decision x must satisfy the KKT conditions (which are sufficient for convex problems). By solving this system of linear equations, we can obtain the desired term. However, the above approach is a general framework; our main technical contribution is to instantiate it for specific classes of combinatorial problems. Specifically, we need (1) an appropriate continuous relaxation, along with a means of solving the continuous optimization problem and (2) efficient access to the terms in Equation 2 which are needed for the backward pass (i.e., gradient computation). We provide both ingredients for two broad classes of problems: linear programming and submodular maximization. In each setting, the high-level challenge is to ensure that the continuous relaxation is differentiable, a feature not satisfied by naive alternatives. We also show how to efficiently compute terms needed for the backward pass, especially for the more intricate submodular case
 
 
 
@@ -118,7 +119,7 @@ The first term is just the gradient of the objective with respect to the decisio
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTM0ODY2MCwtMTEzMzQ2MjcyMSwxOD
+eyJoaXN0b3J5IjpbMTk4Nzc1NTg5OSwtMTEzMzQ2MjcyMSwxOD
 c1ODYyNjM2LC0xOTEwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgw
 Mzg5MzIsMjU1MzE0MDA1LC03ODg3MTY2NiwxNjgyNTUzMjkxLC
 0xNjExNzEyMjA1LC0yMDg0NzE5MTA4XX0=
