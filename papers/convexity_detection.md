@@ -99,7 +99,9 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 ### Decision Focused Learning
 
+These components are typically approached separately: a **machine learning model** is first trained via a measure of predictive accuracy, and then its predictions are used as input into an **optimization algorithm** which produces a decision.
 
+In decision focused learning, the machine learning model is directly trained in conjunction with the optimization algorithm to produce high quality decisions.
 
 
 
@@ -108,7 +110,8 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAzNDQ0NDMsLTI4MjM5ODg5NywtMj
-AzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NTMy
-OTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
+eyJoaXN0b3J5IjpbMjA5ODczMzQ0MiwtMTkxMDM0NDQ0MywtMj
+gyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2
+NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF
+19
 -->
