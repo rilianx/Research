@@ -8,6 +8,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 - ==Probar distintos criterios de Branching==
 	- cantidad de slots disponibles de stack menos (mientras menos mejor)
+	- diferencia entre tops bien ubicados
 	- 
 - En los resultados comenzar a agregar valores paper 
 - ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
@@ -114,11 +115,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjQzNzAwOSwtOTI2MDU4MzMwLC0xNz
-U0MDE0Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOSw5NTk0ODAy
-ODcsLTY5NzQ1NjI3NywtMTgyNjMyMjg2LDc4ODc4MDAyMCwtMj
-A5MjY0NTAyMiwxMTI5OTUzMzIyLDExODMwNjI1MDEsMTYyMDI2
-NDQyNCwtMTIwNzk5NzY0OCwtMTczNDQ5OTMxNywtNzU0Njc2Nj
-MyLC02MjQzNjEyNDgsLTEzMjA3OTE3MiwxNjczODE5NDIzLDE3
-NTA0OTM5ODhdfQ==
+eyJoaXN0b3J5IjpbLTE0ODE5MTM4MzAsLTkyNjA1ODMzMCwtMT
+c1NDAxNDI3OCwxNjc5ODQ4MzYzLC0yNzU4NTE4MTksOTU5NDgw
+Mjg3LC02OTc0NTYyNzcsLTE4MjYzMjI4Niw3ODg3ODAwMjAsLT
+IwOTI2NDUwMjIsMTEyOTk1MzMyMiwxMTgzMDYyNTAxLDE2MjAy
+NjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3Nj
+YzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMywx
+NzUwNDkzOTg4XX0=
 -->
