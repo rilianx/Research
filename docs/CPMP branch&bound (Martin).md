@@ -1,6 +1,7 @@
 CPMP branch & bound
 ===
 Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view).
+[resultados](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=376661203)
 
 Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
@@ -114,11 +115,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgzNTcwNjUsLTkyNjA1ODMzMCwtMT
-c1NDAxNDI3OCwxNjc5ODQ4MzYzLC0yNzU4NTE4MTksOTU5NDgw
-Mjg3LC02OTc0NTYyNzcsLTE4MjYzMjI4Niw3ODg3ODAwMjAsLT
-IwOTI2NDUwMjIsMTEyOTk1MzMyMiwxMTgzMDYyNTAxLDE2MjAy
-NjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLTc1NDY3Nj
-YzMiwtNjI0MzYxMjQ4LC0xMzIwNzkxNzIsMTY3MzgxOTQyMywx
-NzUwNDkzOTg4XX0=
+eyJoaXN0b3J5IjpbNzMyOTEwNjgzLC0yMDM4MzU3MDY1LC05Mj
+YwNTgzMzAsLTE3NTQwMTQyNzgsMTY3OTg0ODM2MywtMjc1ODUx
+ODE5LDk1OTQ4MDI4NywtNjk3NDU2Mjc3LC0xODI2MzIyODYsNz
+g4NzgwMDIwLC0yMDkyNjQ1MDIyLDExMjk5NTMzMjIsMTE4MzA2
+MjUwMSwxNjIwMjY0NDI0LC0xMjA3OTk3NjQ4LC0xNzM0NDk5Mz
+E3LC03NTQ2NzY2MzIsLTYyNDM2MTI0OCwtMTMyMDc5MTcyLDE2
+NzM4MTk0MjNdfQ==
 -->
