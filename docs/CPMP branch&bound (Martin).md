@@ -18,7 +18,8 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 ### Criterios para evaluar nodos
 
 - lb, ub
-![ima
+- estimateUB
+![image](https://docs.google.com/drawings/d/e/2PACX-1vTb19uGv3c3yVvWNG4aoH9Bv2w107e6vbTyQDgyWjap3FYEEZh29RN1KlQR7DKk689qwQdxqVhYcTYI/pub?w=548&h=717)
 
 ### Future Work
 
@@ -118,11 +119,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5MjY4MTUsMjA0NDA2MjA1MywxMj
-YxNTkzMDk1LDczMjkxMDY4MywtMjAzODM1NzA2NSwtOTI2MDU4
-MzMwLC0xNzU0MDE0Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOS
-w5NTk0ODAyODcsLTY5NzQ1NjI3NywtMTgyNjMyMjg2LDc4ODc4
-MDAyMCwtMjA5MjY0NTAyMiwxMTI5OTUzMzIyLDExODMwNjI1MD
-EsMTYyMDI2NDQyNCwtMTIwNzk5NzY0OCwtMTczNDQ5OTMxNywt
-NzU0Njc2NjMyXX0=
+eyJoaXN0b3J5IjpbOTMwOTcwMDUwLDIwNDQwNjIwNTMsMTI2MT
+U5MzA5NSw3MzI5MTA2ODMsLTIwMzgzNTcwNjUsLTkyNjA1ODMz
+MCwtMTc1NDAxNDI3OCwxNjc5ODQ4MzYzLC0yNzU4NTE4MTksOT
+U5NDgwMjg3LC02OTc0NTYyNzcsLTE4MjYzMjI4Niw3ODg3ODAw
+MjAsLTIwOTI2NDUwMjIsMTEyOTk1MzMyMiwxMTgzMDYyNTAxLD
+E2MjAyNjQ0MjQsLTEyMDc5OTc2NDgsLTE3MzQ0OTkzMTcsLTc1
+NDY3NjYzMl19
 -->
