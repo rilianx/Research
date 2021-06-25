@@ -18,7 +18,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 ### Criterios para evaluar nodos
 
 - lb, ub
-- pilas y tiers adicionales que se requerirían para colocar todos los elementos usando BG moves, contenedores que quedaría fuera de la bahía
+![ima
 
 ### Future Work
 
@@ -118,11 +118,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDA2MjA1MywxMjYxNTkzMDk1LDczMj
-kxMDY4MywtMjAzODM1NzA2NSwtOTI2MDU4MzMwLC0xNzU0MDE0
-Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOSw5NTk0ODAyODcsLT
-Y5NzQ1NjI3NywtMTgyNjMyMjg2LDc4ODc4MDAyMCwtMjA5MjY0
-NTAyMiwxMTI5OTUzMzIyLDExODMwNjI1MDEsMTYyMDI2NDQyNC
-wtMTIwNzk5NzY0OCwtMTczNDQ5OTMxNywtNzU0Njc2NjMyLC02
-MjQzNjEyNDhdfQ==
+eyJoaXN0b3J5IjpbLTIxMzc5MjY4MTUsMjA0NDA2MjA1MywxMj
+YxNTkzMDk1LDczMjkxMDY4MywtMjAzODM1NzA2NSwtOTI2MDU4
+MzMwLC0xNzU0MDE0Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOS
+w5NTk0ODAyODcsLTY5NzQ1NjI3NywtMTgyNjMyMjg2LDc4ODc4
+MDAyMCwtMjA5MjY0NTAyMiwxMTI5OTUzMzIyLDExODMwNjI1MD
+EsMTYyMDI2NDQyNCwtMTIwNzk5NzY0OCwtMTczNDQ5OTMxNywt
+NzU0Njc2NjMyXX0=
 -->
