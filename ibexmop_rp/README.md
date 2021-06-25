@@ -5,7 +5,7 @@ Prec_hv = (prec^2)/10
 
 ### TODO
 
-+ Corriendo instancias en 158.251.88.197 para eps=1e-5, N=50, ub=no
++ ==Corriendo instancias en 158.251.88.197 para eps=1e-5, N=50, ub=no==
 + Verificar correctitud: puntos originales deberían ser dominados por nueva curva
 + [Resultados preliminares](https://docs.google.com/spreadsheets/d/1P5stPHPnAHs9bKms3UX0Mkq3IiJTuWwBUMPa5iTad_c/edit#gid=0)
 ````
@@ -127,7 +127,7 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTMxMjEwOSwxMjU3NTAwMzE1LC0xMD
+eyJoaXN0b3J5IjpbLTI2MjU1NDYwNSwxMjU3NTAwMzE1LC0xMD
 g5MzAwOTkyLC0xMzEzMzI0OTgwLC01MzcyMDA3NzgsMTY3NDU5
 NTQzLC03MDYxOTEwODUsLTEwNjI0NzAwNzksLTcwNjE5MTA4NS
 w0ODU4NTM5NDgsLTY3MTQzODMzNSwtMTM4MTk1NjU5LC0xNTg1
