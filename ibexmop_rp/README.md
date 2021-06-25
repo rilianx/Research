@@ -5,8 +5,7 @@ Prec_hv = (prec^2)/10
 
 ### TODO
 
-+ Correr instancias para eps=1e-5, N=50
-+ Revisar que actualización hv sea correcta
++ Corriendo instancias en 158.251.88.197 para eps=1e-5, N=50, ub=no
 + Verificar correctitud: puntos originales deberían ser dominados por nueva curva
 + [Resultados preliminares](https://docs.google.com/spreadsheets/d/1P5stPHPnAHs9bKms3UX0Mkq3IiJTuWwBUMPa5iTad_c/edit#gid=0)
 ````
@@ -128,11 +127,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzUwMDMxNSwtMTA4OTMwMDk5MiwtMT
-MxMzMyNDk4MCwtNTM3MjAwNzc4LDE2NzQ1OTU0MywtNzA2MTkx
-MDg1LC0xMDYyNDcwMDc5LC03MDYxOTEwODUsNDg1ODUzOTQ4LC
-02NzE0MzgzMzUsLTEzODE5NTY1OSwtMTU4NTY4MTU1OSw2NDA1
-Mzg4MjYsLTExMzAzNzQwMTYsMzY1NTA2MDEzLC0xOTExNzE0ND
-I3LC0xOTA1MzIyMjk0LC0xNjQyMTY1ODk1LDEwMzM3NjMwNDIs
-MTc1NDI2NzE1OF19
+eyJoaXN0b3J5IjpbLTkxOTMxMjEwOSwxMjU3NTAwMzE1LC0xMD
+g5MzAwOTkyLC0xMzEzMzI0OTgwLC01MzcyMDA3NzgsMTY3NDU5
+NTQzLC03MDYxOTEwODUsLTEwNjI0NzAwNzksLTcwNjE5MTA4NS
+w0ODU4NTM5NDgsLTY3MTQzODMzNSwtMTM4MTk1NjU5LC0xNTg1
+NjgxNTU5LDY0MDUzODgyNiwtMTEzMDM3NDAxNiwzNjU1MDYwMT
+MsLTE5MTE3MTQ0MjcsLTE5MDUzMjIyOTQsLTE2NDIxNjU4OTUs
+MTAzMzc2MzA0Ml19
 -->
