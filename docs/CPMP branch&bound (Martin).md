@@ -17,7 +17,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### Criterios para evaluar nodos
 - lb, ub
-- 
+- slots disponibles en stack ordenados ponderado con 
 
 ### Future Work
 
@@ -117,7 +117,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkyNzk5MzksNzMyOTEwNjgzLC0yMD
+eyJoaXN0b3J5IjpbLTExMjM4NDU3MjQsNzMyOTEwNjgzLC0yMD
 M4MzU3MDY1LC05MjYwNTgzMzAsLTE3NTQwMTQyNzgsMTY3OTg0
 ODM2MywtMjc1ODUxODE5LDk1OTQ4MDI4NywtNjk3NDU2Mjc3LC
 0xODI2MzIyODYsNzg4NzgwMDIwLC0yMDkyNjQ1MDIyLDExMjk5
