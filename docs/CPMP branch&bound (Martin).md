@@ -22,6 +22,9 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 - estimateUB -> calcular para estado inicial
 ![image](https://docs.google.com/drawings/d/e/2PACX-1vTb19uGv3c3yVvWNG4aoH9Bv2w107e6vbTyQDgyWjap3FYEEZh29RN1KlQR7DKk689qwQdxqVhYcTYI/pub?w=548&h=717)
 
+### ¿Qué acciones filtrar?
+
+
 
 
 ### Future Work
@@ -122,11 +125,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjc1OTYwMjQsLTE4ODE2MTgwMTUsLT
-E4MTg3MTM5MjUsOTMwOTcwMDUwLDIwNDQwNjIwNTMsMTI2MTU5
-MzA5NSw3MzI5MTA2ODMsLTIwMzgzNTcwNjUsLTkyNjA1ODMzMC
-wtMTc1NDAxNDI3OCwxNjc5ODQ4MzYzLC0yNzU4NTE4MTksOTU5
-NDgwMjg3LC02OTc0NTYyNzcsLTE4MjYzMjI4Niw3ODg3ODAwMj
-AsLTIwOTI2NDUwMjIsMTEyOTk1MzMyMiwxMTgzMDYyNTAxLDE2
-MjAyNjQ0MjRdfQ==
+eyJoaXN0b3J5IjpbLTYyNDgxOTUwMSwtMTg4MTYxODAxNSwtMT
+gxODcxMzkyNSw5MzA5NzAwNTAsMjA0NDA2MjA1MywxMjYxNTkz
+MDk1LDczMjkxMDY4MywtMjAzODM1NzA2NSwtOTI2MDU4MzMwLC
+0xNzU0MDE0Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOSw5NTk0
+ODAyODcsLTY5NzQ1NjI3NywtMTgyNjMyMjg2LDc4ODc4MDAyMC
+wtMjA5MjY0NTAyMiwxMTI5OTUzMzIyLDExODMwNjI1MDEsMTYy
+MDI2NDQyNF19
 -->
