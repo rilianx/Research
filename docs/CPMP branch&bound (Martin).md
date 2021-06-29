@@ -32,6 +32,8 @@ Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$,
 **Evitar mover el mismo contenedor varias veces**
 Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
 
+¿Cómo estandarizar secuencia de movimientos?
+
 ### Future Work
 
 * ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
@@ -130,11 +132,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc5NzU0MDksMTE2MzY4ODExMCwtMT
-czNjcxNTUyOSwtOTcwNTQwMzAyLC02MjQ4MTk1MDEsLTE4ODE2
-MTgwMTUsLTE4MTg3MTM5MjUsOTMwOTcwMDUwLDIwNDQwNjIwNT
-MsMTI2MTU5MzA5NSw3MzI5MTA2ODMsLTIwMzgzNTcwNjUsLTky
-NjA1ODMzMCwtMTc1NDAxNDI3OCwxNjc5ODQ4MzYzLC0yNzU4NT
-E4MTksOTU5NDgwMjg3LC02OTc0NTYyNzcsLTE4MjYzMjI4Niw3
-ODg3ODAwMjBdfQ==
+eyJoaXN0b3J5IjpbNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNj
+M2ODgxMTAsLTE3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5
+NTAxLC0xODgxNjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3MDA1MC
+wyMDQ0MDYyMDUzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC0yMDM4
+MzU3MDY1LC05MjYwNTgzMzAsLTE3NTQwMTQyNzgsMTY3OTg0OD
+M2MywtMjc1ODUxODE5LDk1OTQ4MDI4NywtNjk3NDU2Mjc3LC0x
+ODI2MzIyODZdfQ==
 -->
