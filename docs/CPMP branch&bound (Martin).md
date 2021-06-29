@@ -30,7 +30,7 @@ Stack **invariante** a secuencia de movimientos.
 Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento $(s_o,s_d)$ después de la secuencia $S$ (ya que se puede hacer antes). Salvo que el stack $s_d$ se haya llenado en algún momento de la secuencia.
 
 **Evitar mover el mismo contenedor varias veces**
-Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede 
+Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
 
 ### Future Work
 
@@ -130,11 +130,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjQ5NDcxOSwxMTYzNjg4MTEwLC0xNz
-M2NzE1NTI5LC05NzA1NDAzMDIsLTYyNDgxOTUwMSwtMTg4MTYx
-ODAxNSwtMTgxODcxMzkyNSw5MzA5NzAwNTAsMjA0NDA2MjA1My
-wxMjYxNTkzMDk1LDczMjkxMDY4MywtMjAzODM1NzA2NSwtOTI2
-MDU4MzMwLC0xNzU0MDE0Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MT
-gxOSw5NTk0ODAyODcsLTY5NzQ1NjI3NywtMTgyNjMyMjg2LDc4
-ODc4MDAyMF19
+eyJoaXN0b3J5IjpbLTIxMDc5NzU0MDksMTE2MzY4ODExMCwtMT
+czNjcxNTUyOSwtOTcwNTQwMzAyLC02MjQ4MTk1MDEsLTE4ODE2
+MTgwMTUsLTE4MTg3MTM5MjUsOTMwOTcwMDUwLDIwNDQwNjIwNT
+MsMTI2MTU5MzA5NSw3MzI5MTA2ODMsLTIwMzgzNTcwNjUsLTky
+NjA1ODMzMCwtMTc1NDAxNDI3OCwxNjc5ODQ4MzYzLC0yNzU4NT
+E4MTksOTU5NDgwMjg3LC02OTc0NTYyNzcsLTE4MjYzMjI4Niw3
+ODg3ODAwMjBdfQ==
 -->
