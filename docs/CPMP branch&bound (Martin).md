@@ -24,7 +24,8 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### ¿Qué acciones filtrar?
 
-Stack invariante a secuencia de movimientos.
+Stack **invariante** a secuencia de movimientos.
+
 
 
 
@@ -126,7 +127,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzQyNzc0NCwtNjI0ODE5NTAxLC0xOD
+eyJoaXN0b3J5IjpbLTk3MDU0MDMwMiwtNjI0ODE5NTAxLC0xOD
 gxNjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3MDA1MCwyMDQ0MDYy
 MDUzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC0yMDM4MzU3MDY1LC
 05MjYwNTgzMzAsLTE3NTQwMTQyNzgsMTY3OTg0ODM2MywtMjc1
