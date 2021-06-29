@@ -27,7 +27,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 Stack **invariante** a secuencia de movimientos.
 
 **Unrelated move symmetries**
-Si una secuencia es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento 
+Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento $s_o,s_d$ después de la secuencia $S$.
 
 
 ### Future Work
@@ -128,11 +128,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQzNTI2MDQsLTk3MDU0MDMwMiwtNj
-I0ODE5NTAxLC0xODgxNjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3
-MDA1MCwyMDQ0MDYyMDUzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC
-0yMDM4MzU3MDY1LC05MjYwNTgzMzAsLTE3NTQwMTQyNzgsMTY3
-OTg0ODM2MywtMjc1ODUxODE5LDk1OTQ4MDI4NywtNjk3NDU2Mj
-c3LC0xODI2MzIyODYsNzg4NzgwMDIwLC0yMDkyNjQ1MDIyLDEx
-Mjk5NTMzMjJdfQ==
+eyJoaXN0b3J5IjpbOTM5MTc5NDY4LC05NzA1NDAzMDIsLTYyND
+gxOTUwMSwtMTg4MTYxODAxNSwtMTgxODcxMzkyNSw5MzA5NzAw
+NTAsMjA0NDA2MjA1MywxMjYxNTkzMDk1LDczMjkxMDY4MywtMj
+AzODM1NzA2NSwtOTI2MDU4MzMwLC0xNzU0MDE0Mjc4LDE2Nzk4
+NDgzNjMsLTI3NTg1MTgxOSw5NTk0ODAyODcsLTY5NzQ1NjI3Ny
+wtMTgyNjMyMjg2LDc4ODc4MDAyMCwtMjA5MjY0NTAyMiwxMTI5
+OTUzMzIyXX0=
 -->
