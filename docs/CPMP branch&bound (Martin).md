@@ -27,7 +27,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 Stack **invariante** a secuencia de movimientos.
 
 **Unrelated move symmetries**
-Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento $s_o,s_d$ después de la secuencia $S$.
+Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento $(s_o,s_d)$ después de la secuencia $S$ (ya que se puede hacer antes). Salvo que 
 
 
 ### Future Work
@@ -128,7 +128,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5MTc5NDY4LC05NzA1NDAzMDIsLTYyND
+eyJoaXN0b3J5IjpbMjg3MzIyNzIyLC05NzA1NDAzMDIsLTYyND
 gxOTUwMSwtMTg4MTYxODAxNSwtMTgxODcxMzkyNSw5MzA5NzAw
 NTAsMjA0NDA2MjA1MywxMjYxNTkzMDk1LDczMjkxMDY4MywtMj
 AzODM1NzA2NSwtOTI2MDU4MzMwLC0xNzU0MDE0Mjc4LDE2Nzk4
