@@ -15,6 +15,7 @@
 
 **Idea:** Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente. Si se mantiene, se selecciona
 
+
 ### Future work
 
 - Implementar perturbation
@@ -114,7 +115,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTUxMjE2NywxMTk5MTQ4MjgyLC0xMz
+eyJoaXN0b3J5IjpbLTc5MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMz
 Q2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEwMywxNDk0OTkwMDcy
 LDE0MDA2NzkwNDgsLTE0ODg4OTc1NTYsLTY2OTEwMDc1MywtMT
 E4MDIxNDA5NiwxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5
