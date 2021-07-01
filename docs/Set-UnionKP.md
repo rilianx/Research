@@ -13,7 +13,7 @@
 	
 ---
 
-- Idea: Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente. Si se mantiene, se selecciona
+**Idea:** Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente. Si se mantiene, se selecciona
 
 ### Future work
 
@@ -114,11 +114,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMz
-k4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4
-LC0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMT
-Y2OTI1MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4
-MDc5LC00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LD
-EzMDc5MjY5NTQsLTg0MTY1Mjk3OCwyODM3OTA3OSwxMDM3NTEy
-NjIyXX0=
+eyJoaXN0b3J5IjpbMTAzNTUxMjE2NywxMTk5MTQ4MjgyLC0xMz
+Q2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEwMywxNDk0OTkwMDcy
+LDE0MDA2NzkwNDgsLTE0ODg4OTc1NTYsLTY2OTEwMDc1MywtMT
+E4MDIxNDA5NiwxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5
+MjYyLDE0NDUwMjgwNzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMyLC
+00NTA1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5
+MDc5XX0=
 -->
