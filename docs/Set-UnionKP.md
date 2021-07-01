@@ -4,8 +4,8 @@
 - Va seleccionando aleatoriamente entre los n items con mayores *dynamic-ratios* para ir ingresando en la mochila.
 
 **Swap**
-  - Seleccionar elemento random, y sacar todos los items de la mochila
-  - Aplica Greedy/GRASP a la solución 
+  - Seleccionar elemento random, y sacar todos los items asociados de la mochila
+  - Aplicar Greedy/GRASP a la solución 
 
 **Swap-noelite** (sólo perturbación)
   - Seleccionar elemento random, y sacar todos los items de la mochila
@@ -114,11 +114,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY2MjU5OTIsMzM5ODMyMzA1LDk1OT
-M2MTAzLDE0OTQ5OTAwNzIsMTQwMDY3OTA0OCwtMTQ4ODg5NzU1
-NiwtNjY5MTAwNzUzLC0xMTgwMjE0MDk2LDE2NjkyNTAzMjEsOT
-c2ODIyNzEzLC03ODE5OTkyNjIsMTQ0NTAyODA3OSwtNDY5Mzgw
-MTksLTE2NjI3MTQ5MzIsLTQ1MDUyNDM3NCwxMzA3OTI2OTU0LC
-04NDE2NTI5NzgsMjgzNzkwNzksMTAzNzUxMjYyMiw5NzI2NDY0
-NjNdfQ==
+eyJoaXN0b3J5IjpbMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMz
+k4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4
+LC0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMT
+Y2OTI1MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4
+MDc5LC00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LD
+EzMDc5MjY5NTQsLTg0MTY1Mjk3OCwyODM3OTA3OSwxMDM3NTEy
+NjIyXX0=
 -->
