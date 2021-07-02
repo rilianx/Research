@@ -3,6 +3,7 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 - Terminar con análisis de atributos :ok:
+- RepExperimento
 - Metodología experimentos
 - Correlation table
 - Repasar introducción (contribuciones)
@@ -187,11 +188,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODc5NjgzMywtMTA4NjE0NDY0NiwtNT
-Y2NTQ3NzkwLC0xMDgyODA4NzQ2LDE5NTUwNTIzNjQsLTE3Mzc2
-NTY1NTAsLTIyMTE5MzA2Nyw3NDI5NTcxMywyMDQzNjAwMDQ1LD
-E0NjkzNzk1NTEsLTEyNDAxMTUxMTIsMTk3Njg4MTQ5MSwtMTA0
-NTQzOTg2NSwtOTEwOTk0MjUsLTQ0NzQ3NDU1MiwtMTE0NzA2Nz
-I4OCwtOTc0NjYxNjIwLDEzMTcwNTA2OTAsLTE3MDcwOTY3NjYs
-MTYyMzEyODM5MV19
+eyJoaXN0b3J5IjpbMTU0NDA3MzUxMSwxODQ4Nzk2ODMzLC0xMD
+g2MTQ0NjQ2LC01NjY1NDc3OTAsLTEwODI4MDg3NDYsMTk1NTA1
+MjM2NCwtMTczNzY1NjU1MCwtMjIxMTkzMDY3LDc0Mjk1NzEzLD
+IwNDM2MDAwNDUsMTQ2OTM3OTU1MSwtMTI0MDExNTExMiwxOTc2
+ODgxNDkxLC0xMDQ1NDM5ODY1LC05MTA5OTQyNSwtNDQ3NDc0NT
+UyLC0xMTQ3MDY3Mjg4LC05NzQ2NjE2MjAsMTMxNzA1MDY5MCwt
+MTcwNzA5Njc2Nl19
 -->
