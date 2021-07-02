@@ -3,7 +3,7 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 - Terminar con análisis de atributos :ok:
-- RepExperimento
+- Repetir experimentos para RF, usando sólo los atributos seleccionados --> nuevo notebook
 - Metodología experimentos
 - Correlation table
 - Repasar introducción (contribuciones)
@@ -188,7 +188,7 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDA3MzUxMSwxODQ4Nzk2ODMzLC0xMD
+eyJoaXN0b3J5IjpbLTYwMDcwMTIxOCwxODQ4Nzk2ODMzLC0xMD
 g2MTQ0NjQ2LC01NjY1NDc3OTAsLTEwODI4MDg3NDYsMTk1NTA1
 MjM2NCwtMTczNzY1NjU1MCwtMjIxMTkzMDY3LDc0Mjk1NzEzLD
 IwNDM2MDAwNDUsMTQ2OTM3OTU1MSwtMTI0MDExNTExMiwxOTc2
