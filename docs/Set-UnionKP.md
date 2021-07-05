@@ -11,6 +11,9 @@
   - Seleccionar elemento random, y sacar todos los items de la mochila
   - Llenar la mochila con items seleccionados de manera aleatoria
 	
+
+
+
 ---
 
 **Idea:** Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente. Si se mantiene, se selecciona
@@ -115,11 +118,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMz
-Q2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEwMywxNDk0OTkwMDcy
-LDE0MDA2NzkwNDgsLTE0ODg4OTc1NTYsLTY2OTEwMDc1MywtMT
-E4MDIxNDA5NiwxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5
-MjYyLDE0NDUwMjgwNzksLTQ2OTM4MDE5LC0xNjYyNzE0OTMyLC
-00NTA1MjQzNzQsMTMwNzkyNjk1NCwtODQxNjUyOTc4LDI4Mzc5
-MDc5XX0=
+eyJoaXN0b3J5IjpbLTE2NTYyMDgzNTMsLTc5MTk0NDIzNSwxMT
+k5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEw
+MywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0ODg4OTc1NTYsLT
+Y2OTEwMDc1MywtMTE4MDIxNDA5NiwxNjY5MjUwMzIxLDk3Njgy
+MjcxMywtNzgxOTk5MjYyLDE0NDUwMjgwNzksLTQ2OTM4MDE5LC
+0xNjYyNzE0OTMyLC00NTA1MjQzNzQsMTMwNzkyNjk1NCwtODQx
+NjUyOTc4XX0=
 -->
