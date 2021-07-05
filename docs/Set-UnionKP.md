@@ -16,6 +16,7 @@
 - Porcentaje del RGreedy: {10%, 20%, 50%}
 - no_improvements (swap): 50
 - perturbation: {1-3} swaps (sin importar si mejoran o no)
+- iteraciones de la estrategia: 10
 
 
 ---
@@ -122,7 +123,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDAyMDE5MSwzODUxODg2MTIsLTc5MT
+eyJoaXN0b3J5IjpbLTU5MjU5NTY2OCwzODUxODg2MTIsLTc5MT
 k0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMw
 NSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0OD
 g4OTc1NTYsLTY2OTEwMDc1MywtMTE4MDIxNDA5NiwxNjY5MjUw
