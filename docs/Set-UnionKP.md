@@ -18,6 +18,9 @@
 - perturbation: {1-3} swaps (sin importar si mejoran o no)
 - iteraciones de la estrategia: 10
 
+**Experimentos iniciales**
+- 
+
 
 ---
 
@@ -123,11 +126,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjU5NTY2OCwzODUxODg2MTIsLTc5MT
-k0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMw
-NSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0OD
-g4OTc1NTYsLTY2OTEwMDc1MywtMTE4MDIxNDA5NiwxNjY5MjUw
-MzIxLDk3NjgyMjcxMywtNzgxOTk5MjYyLDE0NDUwMjgwNzksLT
-Q2OTM4MDE5LC0xNjYyNzE0OTMyLC00NTA1MjQzNzQsMTMwNzky
-Njk1NF19
+eyJoaXN0b3J5IjpbMzk2Mzg2MTExLDM4NTE4ODYxMiwtNzkxOT
+Q0MjM1LDExOTkxNDgyODIsLTEzNDY2MjU5OTIsMzM5ODMyMzA1
+LDk1OTM2MTAzLDE0OTQ5OTAwNzIsMTQwMDY3OTA0OCwtMTQ4OD
+g5NzU1NiwtNjY5MTAwNzUzLC0xMTgwMjE0MDk2LDE2NjkyNTAz
+MjEsOTc2ODIyNzEzLC03ODE5OTkyNjIsMTQ0NTAyODA3OSwtND
+Y5MzgwMTksLTE2NjI3MTQ5MzIsLTQ1MDUyNDM3NCwxMzA3OTI2
+OTU0XX0=
 -->
