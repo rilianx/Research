@@ -12,9 +12,9 @@
   - Llenar la mochila con items seleccionados de manera aleatoria
 	
 
-- Porcentaje del GRASP: {10%, 20%, 50%}
+- Porcentaje del RGreedy: {10%, 20%, 50%}
 - no_improvements (swap): 50
-- perturbation_size: 
+- perturbation: 
 
 
 ---
@@ -121,7 +121,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExODE5OTA3LC03OTE5NDQyMzUsMTE5OT
+eyJoaXN0b3J5IjpbMzg1MTg4NjEyLC03OTE5NDQyMzUsMTE5OT
 E0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOTU5MzYxMDMs
 MTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xNDg4ODk3NTU2LC02Nj
 kxMDA3NTMsLTExODAyMTQwOTYsMTY2OTI1MDMyMSw5NzY4MjI3
