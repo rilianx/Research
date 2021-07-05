@@ -21,7 +21,7 @@
 **Experimentos iniciales**
 - Sin perturbaciones
 1. Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
-2. Rellenar tablita. Probar distintos parámetros. Probar varias veces cada instancia (con 10 semillas aleatorias)
+2. Rellenar tablita. Probar distintos parámetros, varias veces cada instancia (10 semillas aleatorias)
 
 
 ---
@@ -128,11 +128,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTEyNDk4OSwzODUxODg2MTIsLTc5MT
-k0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMw
-NSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0OD
-g4OTc1NTYsLTY2OTEwMDc1MywtMTE4MDIxNDA5NiwxNjY5MjUw
-MzIxLDk3NjgyMjcxMywtNzgxOTk5MjYyLDE0NDUwMjgwNzksLT
-Q2OTM4MDE5LC0xNjYyNzE0OTMyLC00NTA1MjQzNzQsMTMwNzky
-Njk1NF19
+eyJoaXN0b3J5IjpbLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OT
+E5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIz
+MDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xND
+g4ODk3NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMTY2OTI1
+MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC
+00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LDEzMDc5
+MjY5NTRdfQ==
 -->
