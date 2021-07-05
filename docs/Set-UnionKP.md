@@ -11,10 +11,11 @@
   - Seleccionar elemento random, y sacar todos los items de la mochila
   - Llenar la mochila con items seleccionados de manera aleatoria
 	
+**Parámetros del algoritmo**
 
 - Porcentaje del RGreedy: {10%, 20%, 50%}
 - no_improvements (swap): 50
-- perturbation: 
+- perturbation: {1-3} swaps (sin importar si mejoran o no)
 
 
 ---
@@ -121,11 +122,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1MTg4NjEyLC03OTE5NDQyMzUsMTE5OT
-E0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOTU5MzYxMDMs
-MTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xNDg4ODk3NTU2LC02Nj
-kxMDA3NTMsLTExODAyMTQwOTYsMTY2OTI1MDMyMSw5NzY4MjI3
-MTMsLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC00NjkzODAxOSwtMT
-Y2MjcxNDkzMiwtNDUwNTI0Mzc0LDEzMDc5MjY5NTQsLTg0MTY1
-Mjk3OF19
+eyJoaXN0b3J5IjpbMjExMDAyMDE5MSwzODUxODg2MTIsLTc5MT
+k0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMw
+NSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0OD
+g4OTc1NTYsLTY2OTEwMDc1MywtMTE4MDIxNDA5NiwxNjY5MjUw
+MzIxLDk3NjgyMjcxMywtNzgxOTk5MjYyLDE0NDUwMjgwNzksLT
+Q2OTM4MDE5LC0xNjYyNzE0OTMyLC00NTA1MjQzNzQsMTMwNzky
+Njk1NF19
 -->
