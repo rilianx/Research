@@ -20,8 +20,8 @@
 
 **Experimentos iniciales**
 - Sin perturbaciones
-- Graficar convergencia (beneficio vs. iteraciones)
-- Probar varias veces 
+- Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias
+- Probar varias veces cada instancia (con 10 semillas aleatorias)
 
 
 ---
@@ -128,11 +128,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzY4OTkzMCwzODUxODg2MTIsLTc5MT
-k0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMw
-NSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0OD
-g4OTc1NTYsLTY2OTEwMDc1MywtMTE4MDIxNDA5NiwxNjY5MjUw
-MzIxLDk3NjgyMjcxMywtNzgxOTk5MjYyLDE0NDUwMjgwNzksLT
-Q2OTM4MDE5LC0xNjYyNzE0OTMyLC00NTA1MjQzNzQsMTMwNzky
-Njk1NF19
+eyJoaXN0b3J5IjpbLTE0NjI4NTk1NzEsMzg1MTg4NjEyLC03OT
+E5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIz
+MDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xND
+g4ODk3NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMTY2OTI1
+MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC
+00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LDEzMDc5
+MjY5NTRdfQ==
 -->
