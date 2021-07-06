@@ -126,13 +126,10 @@ is used to solve large scale global optimization (LSGO) problems.
 LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
 
 
-The authors propose in the paper a decomposition method for dealing with large scale global optimization problems. The idea seems to be interesting, I thinkk however the paper is poorly written
+The authors propose in the paper a decomposition method for dealing with large scale global optimization problems. The idea seems to be interesting, however i think the paper is poorly written (need english proofreading) and needs to be restructured.
 
+Methods and concepts are not clearly introduced. For instac
 
- bidirection-detection differential grouping
- method to reduce the computational cost of DG and to improve the decomposition accuracy of DG-based methods. BSSG uses a bidirectional detection structure (BDS) to detect the relationships between variables in two directions in a one-to-many manner.
-
-English proofreading is required
 
 Avoid **acronyms** in the **abstract** unless the **acronym** is commonly understood and used multiple times in the **abstract**. If an **acronym** is used in the **abstract**, it must be spelled out (defined) in the **abstract**, and then spelled out again the first time it is used in the body of the paper.
 
@@ -147,7 +144,7 @@ complexity --> time complexity?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzkzODg0NCwtMTU4ODc1MzMyNSwtMT
+eyJoaXN0b3J5IjpbLTMzNzQ3NjkyOSwtMTU4ODc1MzMyNSwtMT
 cwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4
 NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0ND
 MsLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4
