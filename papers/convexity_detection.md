@@ -126,7 +126,8 @@ is used to solve large scale global optimization (LSGO) problems.
 LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
 
 
-The authors propose in the paper a grouping 
+The authors propose in the paper a decomposition method for dealing with large scale global optimization problems. The idea seems to be interesting, I thinkk however the paper is poorly written
+
 
  bidirection-detection differential grouping
  method to reduce the computational cost of DG and to improve the decomposition accuracy of DG-based methods. BSSG uses a bidirectional detection structure (BDS) to detect the relationships between variables in two directions in a one-to-many manner.
@@ -146,7 +147,7 @@ complexity --> time complexity?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzU0NDg3OSwtMTU4ODc1MzMyNSwtMT
+eyJoaXN0b3J5IjpbLTg1NzkzODg0NCwtMTU4ODc1MzMyNSwtMT
 cwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4
 NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0ND
 MsLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4
