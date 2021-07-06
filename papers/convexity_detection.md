@@ -125,12 +125,11 @@ is used to solve large scale global optimization (LSGO) problems.
 
 LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
 
-
 The authors propose in the paper a decomposition method for dealing with large scale global optimization problems. The idea seems to be interesting, however i think the paper is poorly written (need english proofreading) and needs to be restructured.
 
 Methods and concepts are not clearly introduced. For instance, LSGO problems should be introduced with more details in the introduction (are discrete/continuous, convex/nonconvex, differentiable, have constraints?); it is not clear **what decomposition methods actually do**; also is not clear what do you mean with accuracy of the decomposition. 
 
-The paper lacks a background section which explains clearly the problem and the notation that will be used in the rest of the paper. Assume that readers are not expert in your field, thus concept should be explained patient and clearly to them. For instance, Fig. 1 is very difficult to understand, because the notation has not been explained before. Also, I am not familiarized with the concept "variables interaction structure"
+The paper lacks a background section which explains clearly the problem and the notation that will be used in the rest of the paper. Assume that readers are not expert in your field, thus concept should be explained patient and clearly to them. For instance, Fig. 1 is very difficult to understand, because the notation has not been explained before. Also, I am not familiarized with the concept "variables interaction structure", thus I do not understand what are you talking about in section 2.1
 
 
 
@@ -147,10 +146,10 @@ complexity --> time complexity?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzMzUwMzIwLC0xNTg4NzUzMzI1LC0xNz
-AwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3
-MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0My
-wtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4
-NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOT
-EwOF19
+eyJoaXN0b3J5IjpbLTEwMDAwOTY3NTAsLTE1ODg3NTMzMjUsLT
+E3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OTIzLDE0MjEy
+ODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0ND
+QzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC03
+ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0Nz
+E5MTA4XX0=
 -->
