@@ -126,11 +126,10 @@ is used to solve large scale global optimization (LSGO) problems.
 LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
 
 
-To reduce the computational cost of DG and to improve the decomposition accuracy of DG-based improved methods for certain problems, a bidirection-detection differential 
-grouping (BDDG) method is proposed in this paper, which uses the bidirectional detection structure (BDS) proposed in this paper to detect the relationships between variables in two directions in a one-to-many manner. 
+The authors propose in the paper a grouping 
 
---> rewrite the paragraph for clarity (my attempt):
-In this paper we propose a bidirection-detection differential grouping (BDDG) method to reduce the computational cost of DG and to improve the decomposition accuracy of DG-based methods. BSSG uses a bidirectional detection structure (BDS) to detect the relationships between variables in two directions in a one-to-many manner.
+ bidirection-detection differential grouping
+ method to reduce the computational cost of DG and to improve the decomposition accuracy of DG-based methods. BSSG uses a bidirectional detection structure (BDS) to detect the relationships between variables in two directions in a one-to-many manner.
 
 English proofreading is required
 
@@ -147,9 +146,10 @@ complexity --> time complexity?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3NTMzMjUsLTE3MDA4NjQ2MSwtMT
-I3OTI1ODM2NSwxMzQ4Nzg2OTIzLDE0MjEyODcxMSwtMTEzMzQ2
-MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0NDQzLC0yODIzOTg4OT
-csLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC03ODg3MTY2NiwxNjgy
-NTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbLTM0NzU0NDg3OSwtMTU4ODc1MzMyNSwtMT
+cwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4
+NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0ND
+MsLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4
+ODcxNjY2LDE2ODI1NTMyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MT
+kxMDhdfQ==
 -->
