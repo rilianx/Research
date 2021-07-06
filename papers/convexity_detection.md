@@ -128,7 +128,7 @@ LSGO problems generally refer to optimization problems with dimension greater th
 
 The authors propose in the paper a decomposition method for dealing with large scale global optimization problems. The idea seems to be interesting, however i think the paper is poorly written (need english proofreading) and needs to be restructured.
 
-Methods and concepts are not clearly introduced. For instac
+Methods and concepts are not clearly introduced. For instance, LSGO problems should be introduced with more details in the introduction (are discrete/continuous, convex/nonconvex, differentiable, have constraints?); it is not clear **what decomposition methods actually do**; also is not clear what do you mean with accuracy of the decomposition. 
 
 
 Avoid **acronyms** in the **abstract** unless the **acronym** is commonly understood and used multiple times in the **abstract**. If an **acronym** is used in the **abstract**, it must be spelled out (defined) in the **abstract**, and then spelled out again the first time it is used in the body of the paper.
@@ -144,7 +144,7 @@ complexity --> time complexity?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzQ3NjkyOSwtMTU4ODc1MzMyNSwtMT
+eyJoaXN0b3J5IjpbMTQzNzk4NDI0NCwtMTU4ODc1MzMyNSwtMT
 cwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4
 NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0ND
 MsLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4
