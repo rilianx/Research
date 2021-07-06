@@ -135,9 +135,12 @@ In this paper we propose a bidirection-detection differential grouping (BDDG) me
 English proofreading is required
 
 LSGO problems are not clearly defined in the introduction. Are discrete/continuous, convex/nonconvex, differentiable, have constraints?
-Ab
+
+Avoid **acronyms** in the **abstract** unless the **acronym** is commonly understood and used multiple times in the **abstract**. If an **acronym** is used in the **abstract**, it must be spelled out (defined) in the **abstract**, and then spelled out again the first time it is used in the body of the paper.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTUyMDg4MSwtMTI3OTI1ODM2NSwxMz
+eyJoaXN0b3J5IjpbLTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMz
 Q4Nzg2OTIzLDE0MjEyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYy
 NjM2LC0xOTEwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5Mz
 IsMjU1MzE0MDA1LC03ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjEx
