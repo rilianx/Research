@@ -115,12 +115,17 @@ For continuous problems, the optimal continuous decision x must satisfy the KKT 
 (2) efficient access to the terms in Equation 2 which are needed for the backward pass (i.e., gradient computation).
 
 
+## [Review] An Improved Decomposition Method for Large-Scale Global Optimization: Bidirection-Detection Differential Grouping
 
+**Differential grouping** (DG) is an efficient decomposition method, which
+is used to solve large scale global optimization (LSGO) problems.
 
-
+To reduce the computational cost of DG and to improve the decomposition accuracy of DG-based improved methods for certain problems, a bidirection-detection differential 
+grouping (BDDG) method is proposed in this paper, which uses the bidirectional detection structure (BDS) proposed in this paper to detect the relationships between variables in two directions in a one-to-many manner. --> r
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMz
-M0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4
-ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMT
-Y4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbMTEwMzk4NDMxMywxMzQ4Nzg2OTIzLDE0Mj
+EyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0
+NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC
+03ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0
+NzE5MTA4XX0=
 -->
