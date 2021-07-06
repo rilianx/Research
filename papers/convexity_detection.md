@@ -127,10 +127,12 @@ grouping (BDDG) method is proposed in this paper, which uses the bidirectional d
 In this paper we propose a bidirection-detection differential grouping (BDDG) method to reduce the computational cost of DG and to improve the decomposition accuracy of DG-based methods. BSSG uses a bidirectional detection structure (BDS) to detect the relationships between variables in two directions in a one-to-many manner.
 
 English proofreading is required
+
+LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDUzMTA0MywxMzQ4Nzg2OTIzLDE0Mj
-EyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0
-NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC
-03ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0
-NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxND
+IxMjg3MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0
+NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNS
+wtNzg4NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4
+NDcxOTEwOF19
 -->
