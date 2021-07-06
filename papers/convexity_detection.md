@@ -120,6 +120,12 @@ For continuous problems, the optimal continuous decision x must satisfy the KKT 
 **Differential grouping** (DG) is an efficient decomposition method, which
 is used to solve large scale global optimization (LSGO) problems.
 
+
+
+
+LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
+
+
 To reduce the computational cost of DG and to improve the decomposition accuracy of DG-based improved methods for certain problems, a bidirection-detection differential 
 grouping (BDDG) method is proposed in this paper, which uses the bidirectional detection structure (BDS) proposed in this paper to detect the relationships between variables in two directions in a one-to-many manner. 
 
@@ -128,11 +134,11 @@ In this paper we propose a bidirection-detection differential grouping (BDDG) me
 
 English proofreading is required
 
-LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
+LSGO problems are not clearly defined in the introduction. Are discrete/continuous, convex/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxND
-IxMjg3MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0
-NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNS
-wtNzg4NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4
-NDcxOTEwOF19
+eyJoaXN0b3J5IjpbMzM2Mzg2MDEzLC0xMjc5MjU4MzY1LDEzND
+g3ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2
+MzYsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5NywtMjAzODAzODkzMi
+wyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NTMyOTEsLTE2MTE3
+MTIyMDUsLTIwODQ3MTkxMDhdfQ==
 -->
