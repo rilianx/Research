@@ -130,6 +130,8 @@ The authors propose in the paper a decomposition method for dealing with large s
 
 Methods and concepts are not clearly introduced. For instance, LSGO problems should be introduced with more details in the introduction (are discrete/continuous, convex/nonconvex, differentiable, have constraints?); it is not clear **what decomposition methods actually do**; also is not clear what do you mean with accuracy of the decomposition. 
 
+The paper lacks a background section which explains clearly the problem and the notation that will be used in the rest of the paper. Now, for instance, I do not understand what are talking about in related work sections
+
 
 Avoid **acronyms** in the **abstract** unless the **acronym** is commonly understood and used multiple times in the **abstract**. If an **acronym** is used in the **abstract**, it must be spelled out (defined) in the **abstract**, and then spelled out again the first time it is used in the body of the paper.
 
@@ -144,7 +146,7 @@ complexity --> time complexity?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzk4NDI0NCwtMTU4ODc1MzMyNSwtMT
+eyJoaXN0b3J5IjpbMTI3MzYyMDYwMCwtMTU4ODc1MzMyNSwtMT
 cwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4
 NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0ND
 MsLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4
