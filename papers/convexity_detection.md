@@ -121,9 +121,11 @@ For continuous problems, the optimal continuous decision x must satisfy the KKT 
 is used to solve large scale global optimization (LSGO) problems.
 
 To reduce the computational cost of DG and to improve the decomposition accuracy of DG-based improved methods for certain problems, a bidirection-detection differential 
-grouping (BDDG) method is proposed in this paper, which uses the bidirectional detection structure (BDS) proposed in this paper to detect the relationships between variables in two directions in a one-to-many manner. --> r
+grouping (BDDG) method is proposed in this paper, which uses the bidirectional detection structure (BDS) proposed in this paper to detect the relationships between variables in two directions in a one-to-many manner. --> rewrite this paragraph:
+
+In this paper we propose a bidirection-detection differential grouping (BDDG) method to reduce the computational cost of DG and to improve the decomposition accuracy of DG-based methods. BSSG uses the bidirectional detection structure (BDS) proposed in this paper to detect the relationships between variables in two directions in a one-to-many manner.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzk4NDMxMywxMzQ4Nzg2OTIzLDE0Mj
+eyJoaXN0b3J5IjpbMTY5MTE5MzI0NSwxMzQ4Nzg2OTIzLDE0Mj
 EyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0
 NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC
 03ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0
