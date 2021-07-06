@@ -134,15 +134,18 @@ In this paper we propose a bidirection-detection differential grouping (BDDG) me
 
 English proofreading is required
 
+Avoid **acronyms** in the **abstract** unless the **acronym** is commonly understood and used multiple times in the **abstract**. If an **acronym** is used in the **abstract**, it must be spelled out (defined) in the **abstract**, and then spelled out again the first time it is used in the body of the paper.
+
 LSGO problems are not clearly defined in the introduction. Are discrete/continuous, convex/nonconvex, differentiable, have constraints?
 
-Avoid **acronyms** in the **abstract** unless the **acronym** is commonly understood and used multiple times in the **abstract**. If an **acronym** is used in the **abstract**, it must be spelled out (defined) in the **abstract**, and then spelled out again the first time it is used in the body of the paper.
+From introduction I do not fully understand what decomposition methods actually do. It should be explained in a more detailed way.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMz
-Q4Nzg2OTIzLDE0MjEyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYy
-NjM2LC0xOTEwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5Mz
-IsMjU1MzE0MDA1LC03ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjEx
-NzEyMjA1LC0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbMTA5NzQ4MTI2OCwtMTcwMDg2NDYxLC0xMj
+c5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYy
+NzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5Ny
+wtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1
+NTMyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
 -->
