@@ -138,14 +138,14 @@ Avoid **acronyms** in the **abstract** unless the **acronym** is commonly unders
 
 LSGO problems are not clearly defined in the introduction. Are discrete/continuous, convex/nonconvex, differentiable, have constraints?
 
-From introduction I do not fully understand **what decomposition methods actually do**. It should be explained in a much more detailed way.
+From introduction I do not fully understand **what decomposition methods actually do**. It should be explained in a much more detailed way. Also is not clear what do you mean with accuracy of the decomposition.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDAzMTMyMSwtMTcwMDg2NDYxLC0xMj
-c5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYy
-NzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5Ny
-wtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1
-NTMyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
+eyJoaXN0b3J5IjpbMjkyMTA3ODc1LC0xNzAwODY0NjEsLTEyNz
+kyNTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMzM0NjI3
+MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC
+0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMTY4MjU1
+MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF19
 -->
