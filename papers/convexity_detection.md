@@ -130,7 +130,7 @@ The authors propose in the paper a decomposition method for dealing with large s
 
 Methods and concepts are not clearly introduced. For instance, LSGO problems should be introduced with more details in the introduction (are discrete/continuous, convex/nonconvex, differentiable, have constraints?); it is not clear **what decomposition methods actually do**; also is not clear what do you mean with accuracy of the decomposition. 
 
-The paper lacks a background section which explains clearly the problem and the notation that will be used in the rest of the paper. Assume that readers are not expert in your field, thus concept should be explained patient and clearly to them. For instance, Fig. 1 is very difficult to understand, because the notation
+The paper lacks a background section which explains clearly the problem and the notation that will be used in the rest of the paper. Assume that readers are not expert in your field, thus concept should be explained patient and clearly to them. For instance, Fig. 1 is very difficult to understand, because the notation has not been explained before. Also, I am not familiarized with the concept "variables interaction structure"
 
 
 
@@ -147,10 +147,10 @@ complexity --> time complexity?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODg2NDE5NSwtMTU4ODc1MzMyNSwtMT
-cwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4
-NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0ND
-MsLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4
-ODcxNjY2LDE2ODI1NTMyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MT
-kxMDhdfQ==
+eyJoaXN0b3J5IjpbNTUzMzUwMzIwLC0xNTg4NzUzMzI1LC0xNz
+AwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3
+MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0My
+wtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4
+NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOT
+EwOF19
 -->
