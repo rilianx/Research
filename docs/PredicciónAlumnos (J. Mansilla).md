@@ -3,7 +3,7 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 - Terminar con análisis de atributos :ok:
-- Repetir experimentos para RF, usando sólo los atributos seleccionados --> nuevo notebook
+- Repetir experimentos para RF, usando sólo los atributos seleccionados --> nuevo notebook -> obtención de variables significativas
 	- Remplazar 0s por promedios
 - Calcular correlación de variables con predictores (labs 3 o 4)
 - Explicar procedimiento
@@ -190,11 +190,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDkzMjUxOSwyNjU4ODE2OCwxODQ4Nz
-k2ODMzLC0xMDg2MTQ0NjQ2LC01NjY1NDc3OTAsLTEwODI4MDg3
-NDYsMTk1NTA1MjM2NCwtMTczNzY1NjU1MCwtMjIxMTkzMDY3LD
-c0Mjk1NzEzLDIwNDM2MDAwNDUsMTQ2OTM3OTU1MSwtMTI0MDEx
-NTExMiwxOTc2ODgxNDkxLC0xMDQ1NDM5ODY1LC05MTA5OTQyNS
-wtNDQ3NDc0NTUyLC0xMTQ3MDY3Mjg4LC05NzQ2NjE2MjAsMTMx
-NzA1MDY5MF19
+eyJoaXN0b3J5IjpbMTg4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NT
+g4MTY4LDE4NDg3OTY4MzMsLTEwODYxNDQ2NDYsLTU2NjU0Nzc5
+MCwtMTA4MjgwODc0NiwxOTU1MDUyMzY0LC0xNzM3NjU2NTUwLC
+0yMjExOTMwNjcsNzQyOTU3MTMsMjA0MzYwMDA0NSwxNDY5Mzc5
+NTUxLC0xMjQwMTE1MTEyLDE5NzY4ODE0OTEsLTEwNDU0Mzk4Nj
+UsLTkxMDk5NDI1LC00NDc0NzQ1NTIsLTExNDcwNjcyODgsLTk3
+NDY2MTYyMF19
 -->
