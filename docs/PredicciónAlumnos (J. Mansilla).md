@@ -2,7 +2,6 @@ Predicting student performance in computing courses based on programming behavio
 ==
 
 ### TODO
-- Terminar con análisis de atributos :ok:
 - Matriz de correlación labs 3 y 4 (predictoras vs objetivo)
 - Repetir experimento (conglomerado lab3-4) para obtención de coeficientes Gini de variables predictoras. Realizar también para regresión lineal.
 - Explicar procedimiento
@@ -189,11 +188,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMzc1ODAsMTg4NjUzMzQ1NSwyMDU0OT
-MyNTE5LDI2NTg4MTY4LDE4NDg3OTY4MzMsLTEwODYxNDQ2NDYs
-LTU2NjU0Nzc5MCwtMTA4MjgwODc0NiwxOTU1MDUyMzY0LC0xNz
-M3NjU2NTUwLC0yMjExOTMwNjcsNzQyOTU3MTMsMjA0MzYwMDA0
-NSwxNDY5Mzc5NTUxLC0xMjQwMTE1MTEyLDE5NzY4ODE0OTEsLT
-EwNDU0Mzk4NjUsLTkxMDk5NDI1LC00NDc0NzQ1NTIsLTExNDcw
-NjcyODhdfQ==
+eyJoaXN0b3J5IjpbLTIwMjQyNzU3MDEsODYxMzc1ODAsMTg4Nj
+UzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4LDE4NDg3OTY4MzMs
+LTEwODYxNDQ2NDYsLTU2NjU0Nzc5MCwtMTA4MjgwODc0NiwxOT
+U1MDUyMzY0LC0xNzM3NjU2NTUwLC0yMjExOTMwNjcsNzQyOTU3
+MTMsMjA0MzYwMDA0NSwxNDY5Mzc5NTUxLC0xMjQwMTE1MTEyLD
+E5NzY4ODE0OTEsLTEwNDU0Mzk4NjUsLTkxMDk5NDI1LC00NDc0
+NzQ1NTJdfQ==
 -->
