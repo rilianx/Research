@@ -7,8 +7,8 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### TODO
 
-- Implementar EstimDibujito
-- ==Ajustar pesos de los criterios para que predigan de mejor manera el óptimo== ¿regresión lineal?
+- ==Implementar EstimateLB==
+- ==Regresión lineal para ajuste de pesos==
 - Cambiar Stack por Heap.
 - ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
 
@@ -130,11 +130,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzE5NDk2OCw1OTg5MTU2MDQsLTIxMD
-c5NzU0MDksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwtOTcwNTQw
-MzAyLC02MjQ4MTk1MDEsLTE4ODE2MTgwMTUsLTE4MTg3MTM5Mj
-UsOTMwOTcwMDUwLDIwNDQwNjIwNTMsMTI2MTU5MzA5NSw3MzI5
-MTA2ODMsLTIwMzgzNTcwNjUsLTkyNjA1ODMzMCwtMTc1NDAxND
-I3OCwxNjc5ODQ4MzYzLC0yNzU4NTE4MTksOTU5NDgwMjg3LC02
-OTc0NTYyNzddfQ==
+eyJoaXN0b3J5IjpbODg5OTI1Njk0LDU5ODkxNTYwNCwtMjEwNz
+k3NTQwOSwxMTYzNjg4MTEwLC0xNzM2NzE1NTI5LC05NzA1NDAz
+MDIsLTYyNDgxOTUwMSwtMTg4MTYxODAxNSwtMTgxODcxMzkyNS
+w5MzA5NzAwNTAsMjA0NDA2MjA1MywxMjYxNTkzMDk1LDczMjkx
+MDY4MywtMjAzODM1NzA2NSwtOTI2MDU4MzMwLC0xNzU0MDE0Mj
+c4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOSw5NTk0ODAyODcsLTY5
+NzQ1NjI3N119
 -->
