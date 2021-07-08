@@ -7,9 +7,7 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 
 ### TODO
 
-- ==Probar distintos criterios de Branching==
-	- cantidad de slots disponibles de stack menos (mientras menos mejor)
-	- diferencia entre tops bien ubicados
+- Implementar EstimDibujito
 - ==Ajustar pesos de los criterios para que predigan de mejor manera el óptimo== ¿regresión lineal?
 - Cambiar Stack por Heap.
 - ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
@@ -132,11 +130,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNj
-M2ODgxMTAsLTE3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5
-NTAxLC0xODgxNjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3MDA1MC
-wyMDQ0MDYyMDUzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC0yMDM4
-MzU3MDY1LC05MjYwNTgzMzAsLTE3NTQwMTQyNzgsMTY3OTg0OD
-M2MywtMjc1ODUxODE5LDk1OTQ4MDI4NywtNjk3NDU2Mjc3LC0x
-ODI2MzIyODZdfQ==
+eyJoaXN0b3J5IjpbMjE0MzE5NDk2OCw1OTg5MTU2MDQsLTIxMD
+c5NzU0MDksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwtOTcwNTQw
+MzAyLC02MjQ4MTk1MDEsLTE4ODE2MTgwMTUsLTE4MTg3MTM5Mj
+UsOTMwOTcwMDUwLDIwNDQwNjIwNTMsMTI2MTU5MzA5NSw3MzI5
+MTA2ODMsLTIwMzgzNTcwNjUsLTkyNjA1ODMzMCwtMTc1NDAxND
+I3OCwxNjc5ODQ4MzYzLC0yNzU4NTE4MTksOTU5NDgwMjg3LC02
+OTc0NTYyNzddfQ==
 -->
