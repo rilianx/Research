@@ -2,7 +2,7 @@
 
 - Arreglar problemas con punteros
 - Lanzar experimentos
-- Identificar cuello de botella
+- Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
 
 **Greedy/GRASP**
 - Va seleccionando aleatoriamente entre los n items con mayores *dynamic-ratios* para ir ingresando en la mochila.
@@ -131,11 +131,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNj
-kyNTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgy
-ODIsLTEzNDY2MjU5OTIsMzM5ODMyMzA1LDk1OTM2MTAzLDE0OT
-Q5OTAwNzIsMTQwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAw
-NzUzLC0xMTgwMjE0MDk2LDE2NjkyNTAzMjEsOTc2ODIyNzEzLC
-03ODE5OTkyNjIsMTQ0NTAyODA3OSwtNDY5MzgwMTksLTE2NjI3
-MTQ5MzJdfQ==
+eyJoaXN0b3J5IjpbLTcwMTI1MjU4OCwtMTQzMjI4NDA5NSw0Mj
+I0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQy
+MzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOT
+U5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xNDg4ODk3
+NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMTY2OTI1MDMyMS
+w5NzY4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC00Njkz
+ODAxOV19
 -->
