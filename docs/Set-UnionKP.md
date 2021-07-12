@@ -5,7 +5,7 @@
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
 
 **Greedy/GRASP**
-- Va seleccionando aleatoriamente entre los n items con mayores *dynamic-ratios* para ir ingresando en la mochila.
+- Va seleccionando aleatoriamente entre el n% de los items con mayores *dynamic-ratios* para ir ingresando en la mochila.
 
 **Swap**
   - Seleccionar elemento random, y sacar todos los items asociados de la mochila
@@ -17,6 +17,8 @@
 - no_improvements (swap): 50
 - perturbation: {1-3} swaps (sin importar si mejoran o no)
 - iteraciones de la estrategia: 10
+
+
 
 **Experimentos**
 
@@ -43,10 +45,8 @@ Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
 Ayuda C++. [link clase ejemplo](https://dis.unal.edu.co/~fgonza/courses/2003/poo/c++.htm), [documentación c++](http://www.cplusplus.com/reference/list/list/)
 
 ---
-### [Instancias de prueba](https://www.researchgate.net/publication/336126211_Three_kinds_of_SUKP_instances)
-- Profit de items
-- Peso de elementos
-- Matriz elementos x item
+
+
 
 ### Resultados paper
 
@@ -131,7 +131,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTI1MjU4OCwtMTQzMjI4NDA5NSw0Mj
+eyJoaXN0b3J5IjpbLTQzNDMxMjQ0NCwtMTQzMjI4NDA5NSw0Mj
 I0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQy
 MzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOT
 U5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xNDg4ODk3
