@@ -14,7 +14,13 @@
 - perturbation: {1-3} swaps (sin importar si mejoran o no)
 - iteraciones de la estrategia: 10
 
-**Experimentos iniciales**
+**Experimentos**
+
+Probar distintas combinaciones de parámetros. Comparar:
+- Greedy
+- RGreedy
+- RGreedy+swaps
+- RGreedy+swaps+pert
 
 1. Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
 2. Rellenar tablita. Probar distintos parámetros, varias veces cada instancia (10 semillas aleatorias)
@@ -124,11 +130,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk4ODEwMTgsLTE2OTI1MzUyOTEsMz
-g1MTg4NjEyLC03OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYy
-NTk5MiwzMzk4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxND
-AwNjc5MDQ4LC0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTExODAy
-MTQwOTYsMTY2OTI1MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2Mi
-wxNDQ1MDI4MDc5LC00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUw
-NTI0Mzc0XX0=
+eyJoaXN0b3J5IjpbNjIzODQ4NjE4LC0xNjkyNTM1MjkxLDM4NT
+E4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyODIsLTEzNDY2MjU5
+OTIsMzM5ODMyMzA1LDk1OTM2MTAzLDE0OTQ5OTAwNzIsMTQwMD
+Y3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAwNzUzLC0xMTgwMjE0
+MDk2LDE2NjkyNTAzMjEsOTc2ODIyNzEzLC03ODE5OTkyNjIsMT
+Q0NTAyODA3OSwtNDY5MzgwMTksLTE2NjI3MTQ5MzIsLTQ1MDUy
+NDM3NF19
 -->
