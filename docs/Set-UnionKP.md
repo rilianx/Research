@@ -3,6 +3,7 @@
 - Arreglar problemas con punteros
 - Lanzar experimentos
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
+- Selección de soluciones para perturbar
 
 ----
 
@@ -136,11 +137,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzE4MjI1MywtMTQzMjI4NDA5NSw0Mj
-I0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQy
-MzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOT
-U5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xNDg4ODk3
-NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMTY2OTI1MDMyMS
-w5NzY4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC00Njkz
-ODAxOV19
+eyJoaXN0b3J5IjpbLTg2NTA1MjUzNywtODAzMTgyMjUzLC0xND
+MyMjg0MDk1LDQyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2
+MTIsLTc5MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLD
+MzOTgzMjMwNSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2Nzkw
+NDgsLTE0ODg4OTc1NTYsLTY2OTEwMDc1MywtMTE4MDIxNDA5Ni
+wxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgxOTk5MjYyLDE0NDUw
+MjgwNzldfQ==
 -->
