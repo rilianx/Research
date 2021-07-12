@@ -16,26 +16,23 @@
 
 **Experimentos**
 
-Probar distintas combinaciones de parámetros. Comparar:
+Probar distintas combinaciones de parámetros. Comparar (10 corridas aleatorias):
 - Greedy
 - RGreedy
 - RGreedy+swaps
 - RGreedy+swaps+pert
 
-1. Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
-2. Rellenar tablita. Probar distintos parámetros, varias veces cada instancia (10 semillas aleatorias)
+Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
+
+
 
 
 ---
 
-**Idea:** Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente. Si se mantiene, se selecciona
+### Optimización
 
+* Heap para guardar items de mayor a menor ratio. Cada vez que se seleccione un item, se recalcula su ratio, si se reduce, se manda de vuelta al Heap y se selecciona el siguiente. Si se mantiene, se selecciona
 
-### Future work
-
-- Implementar perturbation
-- Realizar pruebas y comparaciones con estado del arte
-- **Profe:** Revisar código
 
 --- 
 
@@ -130,7 +127,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzODQ4NjE4LC0xNjkyNTM1MjkxLDM4NT
+eyJoaXN0b3J5IjpbNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLDM4NT
 E4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyODIsLTEzNDY2MjU5
 OTIsMzM5ODMyMzA1LDk1OTM2MTAzLDE0OTQ5OTAwNzIsMTQwMD
 Y3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAwNzUzLC0xMTgwMjE0
