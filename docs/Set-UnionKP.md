@@ -4,6 +4,10 @@
 - Lanzar experimentos
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
 
+----
+
+### Algoritmo
+
 **Greedy/GRASP**
 - Va seleccionando aleatoriamente entre el n% de los items con mayores *dynamic-ratios* para ir ingresando en la mochila.
 
@@ -18,7 +22,10 @@
 - perturbation: {1-3} swaps (sin importar si mejoran o no)
 - iteraciones de la estrategia: 10
 
-
+**[Instancias de prueba](https://www.researchgate.net/publication/336126211_Three_kinds_of_SUKP_instances)**
+- Profit de items
+- Peso de elementos
+- Matriz elementos x item
 
 **Experimentos**
 
@@ -29,8 +36,6 @@ Probar distintas combinaciones de parámetros. Comparar (10 corridas aleatorias)
 - RGreedy+swaps+pert
 
 Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
-
-
 
 
 ---
@@ -131,7 +136,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDMxMjQ0NCwtMTQzMjI4NDA5NSw0Mj
+eyJoaXN0b3J5IjpbLTgwMzE4MjI1MywtMTQzMjI4NDA5NSw0Mj
 I0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQy
 MzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOT
 U5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xNDg4ODk3
