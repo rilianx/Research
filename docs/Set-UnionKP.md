@@ -6,10 +6,6 @@
 **Swap**
   - Seleccionar elemento random, y sacar todos los items asociados de la mochila
   - Aplicar Greedy/GRASP a la solución 
-
-**Swap-noelite** (sólo perturbación)
-  - Seleccionar elemento random, y sacar todos los items de la mochila
-  - Llenar la mochila con items seleccionados de manera aleatoria
 	
 **Parámetros del algoritmo**
 
@@ -19,7 +15,7 @@
 - iteraciones de la estrategia: 10
 
 **Experimentos iniciales**
-- Sin perturbaciones
+
 1. Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
 2. Rellenar tablita. Probar distintos parámetros, varias veces cada instancia (10 semillas aleatorias)
 
@@ -128,11 +124,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OT
-E5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIz
-MDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xND
-g4ODk3NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMTY2OTI1
-MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2MiwxNDQ1MDI4MDc5LC
-00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUwNTI0Mzc0LDEzMDc5
-MjY5NTRdfQ==
+eyJoaXN0b3J5IjpbLTExNDk4ODEwMTgsLTE2OTI1MzUyOTEsMz
+g1MTg4NjEyLC03OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYy
+NTk5MiwzMzk4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxND
+AwNjc5MDQ4LC0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTExODAy
+MTQwOTYsMTY2OTI1MDMyMSw5NzY4MjI3MTMsLTc4MTk5OTI2Mi
+wxNDQ1MDI4MDc5LC00NjkzODAxOSwtMTY2MjcxNDkzMiwtNDUw
+NTI0Mzc0XX0=
 -->
