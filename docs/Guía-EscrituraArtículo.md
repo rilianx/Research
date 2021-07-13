@@ -65,6 +65,8 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 - Reparar y revisar el algoritmo
 - Realizar experimentos
+	- Instancias originales
+	- Instancias aumentadas (x100 cajas, x2x2x2 bin size)
 
 **Resultados de la competencia**
 ![image](https://i.imgur.com/pcr6qSW.png)
@@ -133,11 +135,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA4NDk3NzAsLTEyNjA5NDY1ODYsLT
-U0NzIyMzIzMSw0NDg3OTE3NjQsMTc0ODAyMzYxNiwxNzE3MTE1
-MDQ0LC04MTg1MzA0MTksNDU3NDg1OTYsLTE2ODY4NjYxMyw0NT
-g4MTcyNzgsODc1MzM3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2
-OCwtMTg1NTc4OTU3MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMz
-k1MzkzMjU2LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzVd
-fQ==
+eyJoaXN0b3J5IjpbMTE5MTA2MTM1OCwtMTk5MDg0OTc3MCwtMT
+I2MDk0NjU4NiwtNTQ3MjIzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIz
+NjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOSw0NTc0ODU5NiwtMT
+Y4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5MDIsMTg3MzMzNzAw
+NywyMDg5NTY0OTY4LC0xODU1Nzg5NTcyLDE2ODM5NzI0NzQsOT
+Q2OTU2NTczLDEzOTUzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQy
+OV19
 -->
