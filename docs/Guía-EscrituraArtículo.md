@@ -125,7 +125,10 @@ def generate_bins(B, Vmax):
 
 **TODO**
 
-- ==HillClimbing **1 vector x todas las listas**==
+- Realizar experimentos
+	- H
+
+==HillClimbing **1 vector x todas las listas**==
 - ==Avance en paper (sección experimentos)==
 
 [Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
@@ -135,11 +138,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTA2MTM1OCwtMTk5MDg0OTc3MCwtMT
-I2MDk0NjU4NiwtNTQ3MjIzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIz
-NjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOSw0NTc0ODU5NiwtMT
-Y4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5MDIsMTg3MzMzNzAw
-NywyMDg5NTY0OTY4LC0xODU1Nzg5NTcyLDE2ODM5NzI0NzQsOT
-Q2OTU2NTczLDEzOTUzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQy
-OV19
+eyJoaXN0b3J5IjpbLTE5MTg5ODgxOTIsMTE5MTA2MTM1OCwtMT
+k5MDg0OTc3MCwtMTI2MDk0NjU4NiwtNTQ3MjIzMjMxLDQ0ODc5
+MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOS
+w0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5
+MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4LC0xODU1Nzg5NTcyLD
+E2ODM5NzI0NzQsOTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OTQx
+MzQ2MF19
 -->
