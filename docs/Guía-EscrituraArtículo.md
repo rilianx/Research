@@ -4,8 +4,12 @@
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
-**TODO**
+**Plan**
 
+- Experimentos
+	- Comparar con algoritmo completo: tiempos, HV
+	- Cálculo de error (interpolación 
+	- 
 - Graficar resultados del solver original
 - Identificar ejemplo en donde search_eficcient falla
 
@@ -121,11 +125,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4NzkxNzY0LDE3NDgwMjM2MTYsMTcxNz
-ExNTA0NCwtODE4NTMwNDE5LDQ1NzQ4NTk2LC0xNjg2ODY2MTMs
-NDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMzM3MDA3LDIwODk1Nj
-Q5NjgsLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3NCw5NDY5NTY1NzMs
-MTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MT
-M1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTVdfQ==
+eyJoaXN0b3J5IjpbODc2Nzg3NTg0LDQ0ODc5MTc2NCwxNzQ4MD
+IzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOSw0NTc0ODU5Niwt
+MTY4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5MDIsMTg3MzMzNz
+AwNywyMDg5NTY0OTY4LC0xODU1Nzg5NTcyLDE2ODM5NzI0NzQs
+OTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3Nj
+QyOSwxNzQzODEzNSwtMjExMjA4ODg5MCwtNTg1ODAxNTRdfQ==
 
 -->
