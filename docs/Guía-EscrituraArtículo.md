@@ -58,14 +58,15 @@ Y sin reducir y. Comparación con/sin reducir en x.
 **TODO**
 
 - Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
-- Al verificar soluciones, BSG podría e
+- Al verificar soluciones, para acelerar el proceso, BSG podría descartar estado que no puedan ubicar todas las cajas.
 
 **Plan**
 
 - Reparar y revisar el algoritmo
 - Realizar experimentos
 
-**
+**Resultados de la competencia**
+![image](https://i.imgur.com/pcr6qSW.png)
 
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
@@ -131,11 +132,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTQxOTI0OSwtNTQ3MjIzMjMxLDQ0OD
-c5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQx
-OSw0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMz
-c5MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4LC0xODU1Nzg5NTcy
-LDE2ODM5NzI0NzQsOTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OT
-QxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwtMjExMjA4ODg5MF19
-
+eyJoaXN0b3J5IjpbLTEyNjA5NDY1ODYsLTU0NzIyMzIzMSw0ND
+g3OTE3NjQsMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC04MTg1MzA0
+MTksNDU3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1Mz
+M3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3
+MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNz
+k0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwODg4OTBd
+fQ==
 -->
