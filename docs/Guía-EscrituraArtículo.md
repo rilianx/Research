@@ -56,7 +56,9 @@ Y sin reducir y. Comparación con/sin reducir en x.
 [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499)
 
 **Plan**
-- 
+
+- Reparar y revisar el algoritmo
+- Realizar experimentos
 
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
@@ -128,11 +130,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU1ODQ4MzgsNDQ4NzkxNzY0LDE3ND
-gwMjM2MTYsMTcxNzExNTA0NCwtODE4NTMwNDE5LDQ1NzQ4NTk2
-LC0xNjg2ODY2MTMsNDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMz
-M3MDA3LDIwODk1NjQ5NjgsLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3
-NCw5NDY5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNT
-c2NDI5LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MDE1NF19
+eyJoaXN0b3J5IjpbLTU0NzIyMzIzMSw0NDg3OTE3NjQsMTc0OD
+AyMzYxNiwxNzE3MTE1MDQ0LC04MTg1MzA0MTksNDU3NDg1OTYs
+LTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1MzM3OTAyLDE4NzMzMz
+cwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3MiwxNjgzOTcyNDc0
+LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0NjAsLTI1Nz
+Y0MjksMTc0MzgxMzUsLTIxMTIwODg4OTAsLTU4NTgwMTU0XX0=
 
 -->
