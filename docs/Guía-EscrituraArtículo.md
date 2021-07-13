@@ -126,10 +126,10 @@ def generate_bins(B, Vmax):
 **TODO**
 
 - Realizar experimentos
-	- H
+	- Hill-Climbing para optimizar vector de pesos
+	- Usar atributos normales, +director-likeness, +emotion, +both
 
-==HillClimbing **1 vector x todas las listas**==
-- ==Avance en paper (sección experimentos)==
+
 
 [Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
 
@@ -138,11 +138,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg5ODgxOTIsMTE5MTA2MTM1OCwtMT
-k5MDg0OTc3MCwtMTI2MDk0NjU4NiwtNTQ3MjIzMjMxLDQ0ODc5
-MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOS
-w0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5
-MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4LC0xODU1Nzg5NTcyLD
-E2ODM5NzI0NzQsOTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OTQx
-MzQ2MF19
+eyJoaXN0b3J5IjpbNzExMjI2NTE1LDExOTEwNjEzNTgsLTE5OT
+A4NDk3NzAsLTEyNjA5NDY1ODYsLTU0NzIyMzIzMSw0NDg3OTE3
+NjQsMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC04MTg1MzA0MTksND
+U3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1MzM3OTAy
+LDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3MiwxNj
+gzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0
+NjBdfQ==
 -->
