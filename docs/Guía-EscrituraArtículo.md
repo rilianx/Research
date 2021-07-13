@@ -58,8 +58,7 @@ Y sin reducir y. Comparación con/sin reducir en x.
  
 **TODO**
 
-- Buscar algoritmo de la competencia para comparar
-- https://github.com/bobotu/kaosu-packer
+- Buscar algoritmo de la competencia para comparar ([Rust code](https://github.com/bobotu/kaosu-packer))
 - Al verificar soluciones, para acelerar el proceso, BSG podría descartar estado que no puedan ubicar todas las cajas.
 
 **Plan**
@@ -134,11 +133,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDM3NTcyNiwtMTI2MDk0NjU4NiwtNT
-Q3MjIzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUw
-NDQsLTgxODUzMDQxOSw0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1OD
-gxNzI3OCw4NzUzMzc5MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4
-LC0xODU1Nzg5NTcyLDE2ODM5NzI0NzQsOTQ2OTU2NTczLDEzOT
-UzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNV19
-
+eyJoaXN0b3J5IjpbLTE5OTA4NDk3NzAsLTEyNjA5NDY1ODYsLT
+U0NzIyMzIzMSw0NDg3OTE3NjQsMTc0ODAyMzYxNiwxNzE3MTE1
+MDQ0LC04MTg1MzA0MTksNDU3NDg1OTYsLTE2ODY4NjYxMyw0NT
+g4MTcyNzgsODc1MzM3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2
+OCwtMTg1NTc4OTU3MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMz
+k1MzkzMjU2LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzVd
+fQ==
 -->
