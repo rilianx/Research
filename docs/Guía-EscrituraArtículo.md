@@ -4,6 +4,11 @@
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
+**TODO**
+- Graficar resultados de Ibex para comparar
+- Identificar errores SearchEfficient
+- Reparar algoritmo
+
 **Plan**
 
 - Experimentos
@@ -11,8 +16,7 @@
 	- Cálculo de error (interpolación vs. SearchEfficient)
 	- Graficar interpolación vs. curva original
 	- Incorporar hull(x)
-- Graficar resultados del solver original
-- Identificar ejemplo en donde search_eficcient falla
+- Volver redacción de paper
 
 ----
 
@@ -51,10 +55,8 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499)
 
-**TODO**
-
-- Leer archivo de instancias
-- Ejecutar BSG y retornar mapas de cajas
+**Plan**
+- 
 
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
@@ -126,7 +128,7 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM5NTQxNjgsNDQ4NzkxNzY0LDE3ND
+eyJoaXN0b3J5IjpbLTE1NDU1ODQ4MzgsNDQ4NzkxNzY0LDE3ND
 gwMjM2MTYsMTcxNzExNTA0NCwtODE4NTMwNDE5LDQ1NzQ4NTk2
 LC0xNjg2ODY2MTMsNDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMz
 M3MDA3LDIwODk1NjQ5NjgsLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3
