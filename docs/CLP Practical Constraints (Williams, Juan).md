@@ -3,6 +3,8 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
+- Revisar código y armar plan
+
 - ==Trabajar en momentos 2==
 - Cálculo de contacto lateral
 - **Profe:** Implementación --> Cálculo de superficie en contacto (insert block & creación) :ok: ==Revisar ejemplo==
@@ -289,11 +291,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDAzNjk2MSwtMjE0MjA4Nzc4OCwtMT
-g2NTg0NjIzMCwxNDMyNjI4ODAwLC0xMTAwNjQ1Nzc5LDUzODk5
-NjQ5NSwtMTM5MjA1NTgwLC0xMzkyMDU1ODAsMTAyMjU2MzQ3My
-wtOTAwNjUzOTMsLTg1OTIzOTY0NCwtMTU4ODAzNjE0OCwxNTA4
-MDk2OTE4LC0xNDIzMDExMjAxLC05NzAwNzY5MjksMTkzNjc4ND
-kxMSwtMTg1MjEwNDQ5NiwtMTI3Njk4NDkxNiwtMTA5NzU1OTYx
-NCw0OTMzMDE5MDVdfQ==
+eyJoaXN0b3J5IjpbLTUyNjQwNzM4MiwtNTA0MDM2OTYxLC0yMT
+QyMDg3Nzg4LC0xODY1ODQ2MjMwLDE0MzI2Mjg4MDAsLTExMDA2
+NDU3NzksNTM4OTk2NDk1LC0xMzkyMDU1ODAsLTEzOTIwNTU4MC
+wxMDIyNTYzNDczLC05MDA2NTM5MywtODU5MjM5NjQ0LC0xNTg4
+MDM2MTQ4LDE1MDgwOTY5MTgsLTE0MjMwMTEyMDEsLTk3MDA3Nj
+kyOSwxOTM2Nzg0OTExLC0xODUyMTA0NDk2LC0xMjc2OTg0OTE2
+LC0xMDk3NTU5NjE0XX0=
 -->
