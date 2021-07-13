@@ -8,8 +8,9 @@
 
 - Experimentos
 	- Comparar con algoritmo completo: tiempos, HV
-	- Cálculo de error (interpolación 
-	- 
+	- Cálculo de error (interpolación vs. SearchEfficient)
+	- Graficar interpolación vs. curva original
+	- Incorporar hull(x)
 - Graficar resultados del solver original
 - Identificar ejemplo en donde search_eficcient falla
 
@@ -125,11 +126,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2Nzg3NTg0LDQ0ODc5MTc2NCwxNzQ4MD
-IzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOSw0NTc0ODU5Niwt
-MTY4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5MDIsMTg3MzMzNz
-AwNywyMDg5NTY0OTY4LC0xODU1Nzg5NTcyLDE2ODM5NzI0NzQs
-OTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3Nj
-QyOSwxNzQzODEzNSwtMjExMjA4ODg5MCwtNTg1ODAxNTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjM5NTQxNjgsNDQ4NzkxNzY0LDE3ND
+gwMjM2MTYsMTcxNzExNTA0NCwtODE4NTMwNDE5LDQ1NzQ4NTk2
+LC0xNjg2ODY2MTMsNDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMz
+M3MDA3LDIwODk1NjQ5NjgsLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3
+NCw5NDY5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNT
+c2NDI5LDE3NDM4MTM1LC0yMTEyMDg4ODkwLC01ODU4MDE1NF19
 
 -->
