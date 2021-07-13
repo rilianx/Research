@@ -54,10 +54,12 @@ Y sin reducir y. Comparación con/sin reducir en x.
 ###  B. Gonzalo Tello
 
 [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499)
-
+ [(2013) A biased random key genetic algorithm for 2D and 3D binpacking problems](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
+ 
 **TODO**
 
-- Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
+- Buscar algoritmo de la competencia para comparar
+- https://github.com/bobotu/kaosu-packer
 - Al verificar soluciones, para acelerar el proceso, BSG podría descartar estado que no puedan ubicar todas las cajas.
 
 **Plan**
@@ -132,11 +134,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA5NDY1ODYsLTU0NzIyMzIzMSw0ND
-g3OTE3NjQsMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC04MTg1MzA0
-MTksNDU3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1Mz
-M3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3
-MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNz
-k0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwODg4OTBd
-fQ==
+eyJoaXN0b3J5IjpbLTMyMDM3NTcyNiwtMTI2MDk0NjU4NiwtNT
+Q3MjIzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUw
+NDQsLTgxODUzMDQxOSw0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1OD
+gxNzI3OCw4NzUzMzc5MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4
+LC0xODU1Nzg5NTcyLDE2ODM5NzI0NzQsOTQ2OTU2NTczLDEzOT
+UzOTMyNTYsLTE3OTQxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNV19
+
 -->
