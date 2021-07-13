@@ -1,6 +1,6 @@
 [Escritura Papers](https://docs.google.com/file/d/15zz-n1lxaeyiZhJYtRrL0X-gYwOn6I41/edit)
 
-### Giselle Vásquez
+### A. Giselle Vásquez
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
@@ -42,7 +42,7 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 
 ---
-###  Gonzalo Tello
+###  B. Gonzalo Tello
 
 [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499)
 
@@ -107,7 +107,7 @@ def generate_bins(B, Vmax):
 
 
 ---
-### Luciano
+### C. Luciano
 
 **TODO**
 
@@ -118,19 +118,14 @@ def generate_bins(B, Vmax):
 
 ---
 
-### Lucas Agullo (en pausa)
-
-[Paper CPMP_RL](https://docs.google.com/file/d/1r_kHXnKd40upiHzVqo7C8qObaCLjnRpT/edit) - [overleaf](https://www.overleaf.com/project/60424d0a17d15d7bfaeabbf0)
-
-- Diseño de experimentos
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC04MT
-g1MzA0MTksNDU3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcyNzgs
-ODc1MzM3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NT
-c4OTU3MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2
-LC0xNzk0MTM0NjAsLTI1NzY0MjksMTc0MzgxMzUsLTIxMTIwOD
-g4OTAsLTU4NTgwMTU0LDg3ODM5NjAxNSwtNTAwNDA0NDY0XX0=
+eyJoaXN0b3J5IjpbNDQ4NzkxNzY0LDE3NDgwMjM2MTYsMTcxNz
+ExNTA0NCwtODE4NTMwNDE5LDQ1NzQ4NTk2LC0xNjg2ODY2MTMs
+NDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMzM3MDA3LDIwODk1Nj
+Q5NjgsLTE4NTU3ODk1NzIsMTY4Mzk3MjQ3NCw5NDY5NTY1NzMs
+MTM5NTM5MzI1NiwtMTc5NDEzNDYwLC0yNTc2NDI5LDE3NDM4MT
+M1LC0yMTEyMDg4ODkwLC01ODU4MDE1NCw4NzgzOTYwMTVdfQ==
 
 -->
