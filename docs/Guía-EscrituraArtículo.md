@@ -55,10 +55,17 @@ Y sin reducir y. Comparación con/sin reducir en x.
 
 [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499)
 
+**TODO**
+
+- Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
+- Al verificar soluciones, BSG podría e
+
 **Plan**
 
 - Reparar y revisar el algoritmo
 - Realizar experimentos
+
+**
 
 **Generación de bins**
 Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
@@ -88,12 +95,6 @@ def generate_bins(B, Vmax):
 	- ==Check==
 - Cambiar figuras
 - ¿En qué consiste algoritmo de la competencia?
-
-**Tareas (Ignacio):**
-
-- Usar instancias BRx50
-- Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
-- BSG: pruning branches that cannot place all the boxes
 
 **Paper**
 
@@ -130,11 +131,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzIyMzIzMSw0NDg3OTE3NjQsMTc0OD
-AyMzYxNiwxNzE3MTE1MDQ0LC04MTg1MzA0MTksNDU3NDg1OTYs
-LTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1MzM3OTAyLDE4NzMzMz
-cwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3MiwxNjgzOTcyNDc0
-LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0NjAsLTI1Nz
-Y0MjksMTc0MzgxMzUsLTIxMTIwODg4OTAsLTU4NTgwMTU0XX0=
+eyJoaXN0b3J5IjpbLTQ0OTQxOTI0OSwtNTQ3MjIzMjMxLDQ0OD
+c5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQx
+OSw0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMz
+c5MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4LC0xODU1Nzg5NTcy
+LDE2ODM5NzI0NzQsOTQ2OTU2NTczLDEzOTUzOTMyNTYsLTE3OT
+QxMzQ2MCwtMjU3NjQyOSwxNzQzODEzNSwtMjExMjA4ODg5MF19
 
 -->
