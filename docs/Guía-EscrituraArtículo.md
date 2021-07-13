@@ -123,26 +123,24 @@ def generate_bins(B, Vmax):
 ---
 ### C. Luciano
 
+[Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
+
 **TODO**
 
-- Realizar experimentos
+- Revisar experimentos
 	- Hill-Climbing para optimizar vector de pesos
 	- Usar atributos normales, +director-likeness, +emotion, +both
-
-
-
-[Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
 
 ---
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExMjI2NTE1LDExOTEwNjEzNTgsLTE5OT
-A4NDk3NzAsLTEyNjA5NDY1ODYsLTU0NzIyMzIzMSw0NDg3OTE3
-NjQsMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC04MTg1MzA0MTksND
-U3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1MzM3OTAy
-LDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3MiwxNj
-gzOTcyNDc0LDk0Njk1NjU3MywxMzk1MzkzMjU2LC0xNzk0MTM0
-NjBdfQ==
+eyJoaXN0b3J5IjpbMTI1OTYwNDA2MywxMTkxMDYxMzU4LC0xOT
+kwODQ5NzcwLC0xMjYwOTQ2NTg2LC01NDcyMjMyMzEsNDQ4Nzkx
+NzY0LDE3NDgwMjM2MTYsMTcxNzExNTA0NCwtODE4NTMwNDE5LD
+Q1NzQ4NTk2LC0xNjg2ODY2MTMsNDU4ODE3Mjc4LDg3NTMzNzkw
+MiwxODczMzM3MDA3LDIwODk1NjQ5NjgsLTE4NTU3ODk1NzIsMT
+Y4Mzk3MjQ3NCw5NDY5NTY1NzMsMTM5NTM5MzI1NiwtMTc5NDEz
+NDYwXX0=
 -->
