@@ -6,6 +6,7 @@ CLP Practical Constraints (continuación).
 - Revisar código+paper y armar plan con tareas faltantes
 
 **Observaciones presentación**
+- Organizar mejor
 - Solución más óptima x
 - Explicar mejor el problema, restricciones prácticas
 - Explicar procesos y momentos del BSG
@@ -295,11 +296,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA3NDk1MDEsODUwMjI5NDU2LC01MD
-QwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMTQzMjYy
-ODgwMCwtMTEwMDY0NTc3OSw1Mzg5OTY0OTUsLTEzOTIwNTU4MC
-wtMTM5MjA1NTgwLDEwMjI1NjM0NzMsLTkwMDY1MzkzLC04NTky
-Mzk2NDQsLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMTQyMzAxMT
-IwMSwtOTcwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYs
-LTEyNzY5ODQ5MTZdfQ==
+eyJoaXN0b3J5IjpbLTk3MDcxMzg0Miw4NTAyMjk0NTYsLTUwND
+AzNjk2MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4
+ODAwLC0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5MjA1NTgwLC
+0xMzkyMDU1ODAsMTAyMjU2MzQ3MywtOTAwNjUzOTMsLTg1OTIz
+OTY0NCwtMTU4ODAzNjE0OCwxNTA4MDk2OTE4LC0xNDIzMDExMj
+AxLC05NzAwNzY5MjksMTkzNjc4NDkxMSwtMTg1MjEwNDQ5Niwt
+MTI3Njk4NDkxNl19
 -->
