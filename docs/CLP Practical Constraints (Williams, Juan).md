@@ -7,7 +7,10 @@ CLP Practical Constraints (continuación).
 
 **Observaciones presentación**
 - Solución más óptima x
-- Procesos del a
+- Adaptación de BSG a múltiples contenedores
+- Explicar procesos y momentos del BSG
+- Explicar las restricciones antes de mostrar tabla
+
 
 ---
 
@@ -291,7 +294,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTQzMjc1Myw4NTAyMjk0NTYsLTUwND
+eyJoaXN0b3J5IjpbLTE2OTc5NjE1OSw4NTAyMjk0NTYsLTUwND
 AzNjk2MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4
 ODAwLC0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5MjA1NTgwLC
 0xMzkyMDU1ODAsMTAyMjU2MzQ3MywtOTAwNjUzOTMsLTg1OTIz
