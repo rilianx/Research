@@ -11,7 +11,7 @@
 
 **Eliminación de elemento+items**
 1. Eliminar elemento e items asociados
-2. Iterar por los ele
+2. Iterar por los elementos de la mochila y eliminar los que no tengan padre al interior
 
 **Greedy/GRASP**
 - Va seleccionando aleatoriamente entre el n% de los items con mayores *dynamic-ratios* para ir ingresando en la mochila.
@@ -141,11 +141,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTY1MjQ2NCwtNDYyNTAwNTY1LC04MD
-MxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjkyNTM1
-MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyODIsLT
-EzNDY2MjU5OTIsMzM5ODMyMzA1LDk1OTM2MTAzLDE0OTQ5OTAw
-NzIsMTQwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAwNzUzLC
-0xMTgwMjE0MDk2LDE2NjkyNTAzMjEsOTc2ODIyNzEzLC03ODE5
-OTkyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE5MTMyNzQ5NDMsLTQ2MjUwMDU2NSwtOD
+AzMTgyMjUzLC0xNDMyMjg0MDk1LDQyMjQ3Nzc4NiwtMTY5MjUz
+NTI5MSwzODUxODg2MTIsLTc5MTk0NDIzNSwxMTk5MTQ4MjgyLC
+0xMzQ2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEwMywxNDk0OTkw
+MDcyLDE0MDA2NzkwNDgsLTE0ODg4OTc1NTYsLTY2OTEwMDc1My
+wtMTE4MDIxNDA5NiwxNjY5MjUwMzIxLDk3NjgyMjcxMywtNzgx
+OTk5MjYyXX0=
 -->
