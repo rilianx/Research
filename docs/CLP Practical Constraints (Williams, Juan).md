@@ -12,6 +12,7 @@ CLP Practical Constraints (continuación).
 - Explicar procesos y momentos del BSG
 - Adaptación de BSG a múltiples contenedores -> explicar con más claridad (grupos, clientes?)
 - Mostrar tabla
+- Resultados preliminares: que restricciones se consideraron?
 
 
 ---
@@ -296,11 +297,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDcxMzg0Miw4NTAyMjk0NTYsLTUwND
-AzNjk2MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4
-ODAwLC0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5MjA1NTgwLC
-0xMzkyMDU1ODAsMTAyMjU2MzQ3MywtOTAwNjUzOTMsLTg1OTIz
-OTY0NCwtMTU4ODAzNjE0OCwxNTA4MDk2OTE4LC0xNDIzMDExMj
-AxLC05NzAwNzY5MjksMTkzNjc4NDkxMSwtMTg1MjEwNDQ5Niwt
-MTI3Njk4NDkxNl19
+eyJoaXN0b3J5IjpbLTE2NzkwMDczNDIsLTk3MDcxMzg0Miw4NT
+AyMjk0NTYsLTUwNDAzNjk2MSwtMjE0MjA4Nzc4OCwtMTg2NTg0
+NjIzMCwxNDMyNjI4ODAwLC0xMTAwNjQ1Nzc5LDUzODk5NjQ5NS
+wtMTM5MjA1NTgwLC0xMzkyMDU1ODAsMTAyMjU2MzQ3MywtOTAw
+NjUzOTMsLTg1OTIzOTY0NCwtMTU4ODAzNjE0OCwxNTA4MDk2OT
+E4LC0xNDIzMDExMjAxLC05NzAwNzY5MjksMTkzNjc4NDkxMSwt
+MTg1MjEwNDQ5Nl19
 -->
