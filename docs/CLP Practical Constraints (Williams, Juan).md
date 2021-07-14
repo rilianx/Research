@@ -5,6 +5,9 @@ CLP Practical Constraints (continuación).
 
 - Revisar código+paper y armar plan con tareas faltantes
 
+**Observaciones presentación**
+- 
+
 ---
 
 **Comando para ejecutar ejemplo (`/home/practica/clp_pc_juan/Metasolver`):**
@@ -287,11 +290,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxND
-IwODc3ODgsLTE4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0
-NTc3OSw1Mzg5OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLD
-EwMjI1NjM0NzMsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgw
-MzYxNDgsMTUwODA5NjkxOCwtMTQyMzAxMTIwMSwtOTcwMDc2OT
-I5LDE5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYsLTEyNzY5ODQ5MTYs
-LTEwOTc1NTk2MTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NTU5Mjk3ODEsODUwMjI5NDU2LC01MD
+QwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMTQzMjYy
+ODgwMCwtMTEwMDY0NTc3OSw1Mzg5OTY0OTUsLTEzOTIwNTU4MC
+wtMTM5MjA1NTgwLDEwMjI1NjM0NzMsLTkwMDY1MzkzLC04NTky
+Mzk2NDQsLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMTQyMzAxMT
+IwMSwtOTcwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYs
+LTEyNzY5ODQ5MTZdfQ==
 -->
