@@ -6,7 +6,7 @@ CLP Practical Constraints (continuación).
 - Revisar código+paper y armar plan con tareas faltantes
 
 **Observaciones presentación**
-- 
+- Solución más óptima x
 
 ---
 
@@ -290,11 +290,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU5Mjk3ODEsODUwMjI5NDU2LC01MD
-QwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMTQzMjYy
-ODgwMCwtMTEwMDY0NTc3OSw1Mzg5OTY0OTUsLTEzOTIwNTU4MC
-wtMTM5MjA1NTgwLDEwMjI1NjM0NzMsLTkwMDY1MzkzLC04NTky
-Mzk2NDQsLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMTQyMzAxMT
-IwMSwtOTcwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYs
-LTEyNzY5ODQ5MTZdfQ==
+eyJoaXN0b3J5IjpbMzE1NzE4ODIsODUwMjI5NDU2LC01MDQwMz
+Y5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMTQzMjYyODgw
+MCwtMTEwMDY0NTc3OSw1Mzg5OTY0OTUsLTEzOTIwNTU4MCwtMT
+M5MjA1NTgwLDEwMjI1NjM0NzMsLTkwMDY1MzkzLC04NTkyMzk2
+NDQsLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMTQyMzAxMTIwMS
+wtOTcwMDc2OTI5LDE5MzY3ODQ5MTEsLTE4NTIxMDQ0OTYsLTEy
+NzY5ODQ5MTZdfQ==
 -->
