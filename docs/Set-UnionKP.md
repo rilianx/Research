@@ -1,6 +1,6 @@
 ### TODO
 
-- Arreglar problemas con punteros
+- Eliminación de elemento+items
 - Lanzar experimentos
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
 - Perturbación y selección de soluciones
@@ -137,7 +137,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDU1NjUwMSwtODAzMTgyMjUzLC0xND
+eyJoaXN0b3J5IjpbLTQ2MjUwMDU2NSwtODAzMTgyMjUzLC0xND
 MyMjg0MDk1LDQyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2
 MTIsLTc5MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLD
 MzOTgzMjMwNSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2Nzkw
