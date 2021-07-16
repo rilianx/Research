@@ -33,7 +33,7 @@ LABELS_BASE = {
     'p2p2':                          ['p2p2'],
     
     # Parámetros del laboratorio (Features)
-    'grade':                         ['g_lab#'],
+    #'grade':                         ['g_lab#'],
     'attempts':                      ['a_lab#'],
     'usedtime':                      ['ut_lab#'],
     'activetime':                    ['act_lab#'],
@@ -46,7 +46,7 @@ LABELS_BASE = {
     'compilationerrorsratio':        ['cer_lab#'],
     'activequartiles':               ['actq1_lab#','actq2_lab#','actq3_lab#'],
     'questionsdifficulty':           ['qd$_lab#'],
-    'questionsgrades':               ['qg$_lab#'],      # Promedio
+    #'questionsgrades':               ['qg$_lab#'],      # Promedio
     'questionsattempts':             ['qat$_lab#'],     # Sumar - Max   # log
     'questionsactivetime':           ['qact$_lab#'],    # Promedio
     'questionsavgtime':              ['qavt$_lab#'],    # Promedio

@@ -34,26 +34,17 @@ LABELS_BASE = {
     
     # Parámetros del laboratorio (Features)
     'grade':                         ['g_lab#'],
-    'attempts':                      ['a_lab#'],
-    'usedtime':                      ['ut_lab#'],
+    #'attempts':                      ['a_lab#'],     #log
+    'compilationerrorsratio':        ['cer_lab#'],   # attempts ratio
     'activetime':                    ['act_lab#'],
-    'disconnections':                ['dis_lab#'],      # log
-    'compilationtime':               ['ct_lab#'],
-    'runtimedebuggingtime':          ['rt_lab#'],
+    #first attempt ratio
     'compilationtimeratio':          ['ctr_lab#'],
     'runtimedebuggingtimeratio':     ['rtr_lab#'],
-    'errorsreductionratio':          ['err_lab#'],
-    'compilationerrorsratio':        ['cer_lab#'],
+    'errorsreductionratio':          ['err_lab#'],   
+    'disconnections':                ['dis_lab#'],      # log
     'activequartiles':               ['actq1_lab#','actq2_lab#','actq3_lab#'],
-    'questionsdifficulty':           ['qd$_lab#'],
-    #'questionsgrades':               ['qg$_lab#'],      # Promedio
-    'questionsattempts':             ['qat$_lab#'],     # Sumar - Max   # log
-    'questionsactivetime':           ['qact$_lab#'],    # Promedio
-    'questionsavgtime':              ['qavt$_lab#'],    # Promedio
-    'questionsmaxerrors':            ['qme$_lab#'],     # Max
-    'questionsmaxconsecutiveerrors': ['qmce$_lab#'],    # Max
-    'questionsmaxsimilarityratio':   ['qmsr$_lab#'],    # Promedio
-    'questionscorrectness':          ['qc$_lab#']       # Promedio
+    'questionsattempts':             ['qat$_lab#'],     # LogMax    
+    'questionsmaxsimilarityratio':   ['qmsr$_lab#'],    # mean
 }
  
  
@@ -122,7 +113,7 @@ def get_custom_data(labs:list, obj_param:list, params:list, data:dict, index:str
         
     cursoData = []
     for v1 in data['courses'].values():
-        print(curso[contador])
+        #print(curso[contador])
         for k2,v2 in v1['students'].items():
             if index == 'id':
                 idxs.append(k2)
@@ -302,14 +293,14 @@ def apply(df:pd.core.frame.DataFrame, columns, func, c=None, replace:bool=True):
     def get_merged_name(basename:str):
         merged_name = ''
         flag = True
-        for i in range(len(basename)-1,-1,-1):
+        for i in range(len(basename)):
             if flag and basename[i].isnumeric():
                 merged_name += '$'
                 flag = False
             else:
                 merged_name += basename[i]
  
-        return merged_name[::-1]
+        return merged_name
  
  
     def are_valid_column_names(columns):
