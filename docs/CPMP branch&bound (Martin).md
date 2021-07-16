@@ -1,30 +1,47 @@
 CPMP branch & bound
 ===
-Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view).
+Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view). [Resultados](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=376661203)
 
 Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
 ### TODO
 
-* :ok: Ordenar de los hijos 
-* =**IN COMING**=Presentación: Explicar lo que hacen en  [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view) vs  **propuesta inédita**==
-* :ok:Contar cantidad de nodos que tarda en llegar a la mejor solución==
-* :ok:`update(L)`: menor l de los nodos guardados en el stack (profe) Listo!==
-* :ok: `lower_bound(nodo)`: ver lo que hacen en paper ([diapos](https://docs.google.com/presentation/d/1qEVyoo__6dQEuYPuQDa9EDCGHHn1lt6ZDjF4cfe-jGM/edit#slide=id.p))
-* ==¿Cómo filtrar acciones usando reglas de dominancia?. Ver cómo lo hacen en paper.==
-* Feasible Diving? -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
-* :ok: Imprementar multiset
+- ==Implementar EstimateLB==
+- ==Regresión lineal para ajuste de pesos==
+- Cambiar estrategia de búsqueda (profe)
+- Implementar filtrado de acciones.
 
-**TODO**
+---
 
-- Implementar función LB
-- Comparar cantidad de nodos:
-	- sin ordenar hijos (opcional)
-	- LB
-	- UB
-	- LB + UB
-	- LB + UB + prom
+### Resultados estado del arte
 
+![image](https://i.imgur.com/tRCtZ4H.png)
+
+### Criterios para evaluar nodos
+
+- lb, ub
+- estimateUB -> calcular para estado inicial
+![image](https://docs.google.com/drawings/d/e/2PACX-1vTb19uGv3c3yVvWNG4aoH9Bv2w107e6vbTyQDgyWjap3FYEEZh29RN1KlQR7DKk689qwQdxqVhYcTYI/pub?w=548&h=717)
+
+### ¿Qué acciones filtrar?
+
+Stack **invariante** a secuencia de movimientos.
+
+**Unrelated move symmetries**
+Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento $(s_o,s_d)$ después de la secuencia $S$ (ya que se puede hacer antes). Salvo que el stack $s_d$ se haya llenado en algún momento de la secuencia.
+
+**Evitar mover el mismo contenedor varias veces**
+Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
+
+¿Cómo estandarizar secuencia de movimientos?
+
+### Future Work
+
+* ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
+* Implementar Feasible Diving -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
+
+---
+### LowerBound
 
 ````python
 def lower_bound():
@@ -116,11 +133,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4NzgwMDIwLC0yMDkyNjQ1MDIyLDExMj
-k5NTMzMjIsMTE4MzA2MjUwMSwxNjIwMjY0NDI0LC0xMjA3OTk3
-NjQ4LC0xNzM0NDk5MzE3LC03NTQ2NzY2MzIsLTYyNDM2MTI0OC
-wtMTMyMDc5MTcyLDE2NzM4MTk0MjMsMTc1MDQ5Mzk4OCwtMTcw
-MDkwMzk2NSwtMTU2ODMwMzM0MywtMTg0MzQ0NzMzMCwtMzM2OT
-gyNjI4LC00NjY2NTczMDAsMjczNjAxNTA2LDE1NTc1MjM2OCwx
-NDE1NTQxMTUzXX0=
+eyJoaXN0b3J5IjpbLTExMzkyMDIzNDIsODg5OTI1Njk0LDU5OD
+kxNTYwNCwtMjEwNzk3NTQwOSwxMTYzNjg4MTEwLC0xNzM2NzE1
+NTI5LC05NzA1NDAzMDIsLTYyNDgxOTUwMSwtMTg4MTYxODAxNS
+wtMTgxODcxMzkyNSw5MzA5NzAwNTAsMjA0NDA2MjA1MywxMjYx
+NTkzMDk1LDczMjkxMDY4MywtMjAzODM1NzA2NSwtOTI2MDU4Mz
+MwLC0xNzU0MDE0Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOSw5
+NTk0ODAyODddfQ==
 -->

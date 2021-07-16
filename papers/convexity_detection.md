@@ -1,3 +1,9 @@
+## TODO
+
+
+
+---
+
 ### [2018 - A hybrid LP/NLP paradigm for global optimization relaxations](http://mpc.zib.de/archive/2018/3/Khajavirad-Sahinidis2018_Article_AHybridLPNLPParadigmForGlobalO.pdf)
 
 **Autores: Aida Khajavirad · Nikolaos V. Sahinidis**
@@ -91,9 +97,39 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 ![image](https://i.imgur.com/ZCid3q9.png)
 
 
+### Decision Focused Learning [link](https://ojs.aaai.org/index.php/AAAI/article/view/3982/3860)
+
+**Idea:** to train a predictive model using the quality of the decisions which it induces via the optimization algorithm.
+
+The starting point is to relax the combinatorial problem to a continuous one. Then, we analytically differentiate the optimal solution to the continuous problem as a function of the model’s predictions. This allows us to train using a continuous proxy for the discrete problem. At test time, we round the continuous solution to a discrete point.
+
+El objetivo es que la solución óptima usando parámetros  predichos por el modelo m, maximice el valor de la función f.
+
+![image](https://i.imgur.com/xybgXlV.png)
+.
+El gradiente de una muestra:
+![image](https://i.imgur.com/jZm68aM.png)
+The first term is just the gradient of the objective with respect to the decision variable x, and the last term is the gradient of the model’s predictions with respect to its own internal parameterization. The key is computing the middle term, which measures how the optimal decision changes with respect to the prediction $\hat{\theta}$.
+For continuous problems, the optimal continuous decision x must satisfy the KKT conditions (which are sufficient for convex problems). By solving this system of linear equations, we can obtain the desired term. However, the above approach is a general framework; our main technical contribution is to instantiate it for specific classes of combinatorial problems. Specifically, we need 
+(1) an appropriate continuous relaxation, along with a means of solving the continuous optimization problem and 
+(2) efficient access to the terms in Equation 2 which are needed for the backward pass (i.e., gradient computation).
 
 
+## [Review] An Improved Decomposition Method for Large-Scale Global Optimization: Bidirection-Detection Differential Grouping
 
+**Differential grouping** (DG) is an efficient decomposition method, which
+is used to solve large scale global optimization (LSGO) problems.
+
+
+LSGO problems generally refer to optimization problems with dimension greater than or equal to 1000.
+
+The authors propose in the paper a decomposition method for dealing with large scale global optimization problems. The idea seems to be interesting, however i think the paper is poorly written (need english proofreading) and needs to be restructured.
+
+Methods and concepts are not clearly introduced. For instance, LSGO problems should be introduced with more details in the introduction (are discrete/continuous, convex/nonconvex, differentiable, have constraints?); it is not clear **what decomposition methods actually do**; also is not clear what do you mean with accuracy of the decomposition. 
+
+The paper lacks a background section which explains clearly the problem and the notation that will be used in the rest of the paper. Assume that readers are not expert in your field, thus concept should be explained patient and clearly to them. For instance, Fig. 1 is very difficult to understand, because the notation has not been explained before. Also, I am not familiarized with the concept "variables interaction structure", thus I do not understand what are you talking about in section 2.1. 
+
+If an acronym is used in the abstract, it must be defined again the first time it is used in the body of the paper.
 
 
 
@@ -101,7 +137,10 @@ We propose an approach based on the computation of all vertices of an n-simplex.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC03OD
-g3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0NzE5
-MTA4XX0=
+eyJoaXN0b3J5IjpbLTE1NDc5MjU2ODIsLTE1ODg3NTMzMjUsLT
+E3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OTIzLDE0MjEy
+ODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0ND
+QzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC03
+ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0Nz
+E5MTA4XX0=
 -->

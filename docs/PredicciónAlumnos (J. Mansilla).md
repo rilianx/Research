@@ -1,5 +1,34 @@
 Predicting student performance in computing courses based on programming behavior
 ==
+
+### TODO
+- Explicar procedimiento
+- Repasar experimentos (nuevos resultados)
+- Repasar introducción (contribuciones)
+- Conclusiones
+
+
+
+### Paper
+
+- Abstract
+- Intro :ok:
+- Metrics
+- Experiments
+	- Data Collection y variables :ok:
+	- Procedure
+	- Correlación de variables
+	- Modelos predictivos
+	- Análisis de predictores
+- Conclusiones
+
+Links:
+
+> - [Using Programming Process Data to Detect Differences in Students' Patterns of Programming](https://sci-hub.se/10.1145/3017680.3017785)
+
+Abstract
+---
+
 Ayudar de manera temprana y personalizada a los alumnos que tienen mayores dificultades resolviendo problemas de código es fundamental para  mejorar el desempeño en las asignaturas de programación.
 
 Para tal fin, se hace deseable y necesario detectar a tiempo a aquellos alumnos que presenten patrones conductuales de bajo rendimiento.
@@ -7,36 +36,7 @@ Para tal fin, se hace deseable y necesario detectar a tiempo a aquellos alumnos 
 En este trabajo, analizaremos, con un modelo estadístico, la relación existente entre una serie de datos extraídos de una plataforma de programación virtual y las calificaciones obtenidas por los estudiantes  en las instancias de evaluación individuales. La herramienta CodeRunner permite realizar ejercicios de código y entrega retroalimentación inmediata a los estudiantes sobre errores de compilación y ejecución. En la escuela se utiliza hace algún tiempo en los ramos de Fundamentos de Programación (8 semestres) y Estructura de Datos (6 semestres).
 
 >  [tablita de resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0): atributos más importantes para cada modelo
-> [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv) ∙ [Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Documento](https://docs.google.com/document/d/1dUICocY5QTchHlduz-gUTFHLoHi2ZSNOctBCjjNcpDc/edit#) ∙ [Tabla resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0) ∙ [Entrevista](https://drive.google.com/file/d/1JTUxY0T8-jlIMr-DVqbL-TkDwSS2l_8x/view?usp=sharing) ∙ [Colab](https://colab.research.google.com/drive/1wxa3EcwF5qdCBR7LuuvRtR6zbvAmN9yW?usp=sharingiKhAqXwgqj_9NRDyX9_DCG7_4415Urpy) ∙ [Libro proyectos](http://innovaciondocente.ucv.cl/?thegem_pf_item=libro-de-proyectos-de-mejoramiento-innovacion-e-investigacion-de-la-docencia-universitaria-2018-2)
-
-TODO Paper
---
-+ Tablitas
-+ Figuras (pred vs real)
-+ Revisar otros paper para saber qué agregar
-
-
-- Abstract
-- Intro :ok:
-- Metrics
-- Experiments
-	- Data Collection :ok:
-	- Procedure
-	- Results and analysis
-- Conclusiones
-
-
-TODO (Juan)
----
-**Objetivo**: Retomar trabajo de Katrina y Victor, principalmente el tema de los experimentos y análisis. Terminar paper.
-
-- No hacer pruebas con red neuronal (coeficientes de determinación con valores negativos)
-
-- **Usar distintos target**. Actual: mean(p$p2). Faltaría considerar np (nota presentación) y mean (p\$), promedio pruebas.
-
-- Comparar resultados normalizando toda la columna y normalizando por semestre.
-
-
+> [Paper](https://www.overleaf.com/7645516685xtwjkrbxrqfv) ∙ [Breve Escrito](https://drive.google.com/file/d/1-v2PCrE5WWuAHUAM8brDkWSPJb7qPPXu/view?usp=sharing) ∙ [Documento](https://docs.google.com/document/d/1dUICocY5QTchHlduz-gUTFHLoHi2ZSNOctBCjjNcpDc/edit#) ∙ [Tabla resultados](https://docs.google.com/spreadsheets/d/1xsDs9ov-X9dYYZN2RpkTmVngrGAhJww1FxfhFckyhi0/edit?ts=5f7b6447#gid=0) ∙ [Entrevista](https://drive.google.com/file/d/1JTUxY0T8-jlIMr-DVqbL-TkDwSS2l_8x/view?usp=sharing) ∙ [Colab](https://colab.research.google.com/drive/1wxa3EcwF5qdCBR7LuuvRtR6zbvAmN9yW?usp=sharingiKhAqXwgqj_9NRDyX9_DCG7_4415Urpy)
 
 Experimentos finales
 ---
@@ -187,9 +187,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjk0NjcyNSw2NDAyODMyMTIsLTY4Mz
-U1NjgwNiwxNjUwNzQxNzU1LDE5NTYxMjY3MzMsLTE0NDc1OTY3
-MjMsLTEwMTIwOTc4MDcsMTc1MDkxNTgwMSwtMjIyMjE0NzIxLC
-0xMzk0MzM5ODIsNjg5MjQ1MzQ2LC0xMjU2OTEzMSwxMzk1NTE2
-Njk4LDE5NDE4NjA0OTAsOTEyNzMyOTUzXX0=
+eyJoaXN0b3J5IjpbLTE3ODYyNjE0MjUsLTIwMjQyNzU3MDEsOD
+YxMzc1ODAsMTg4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4
+LDE4NDg3OTY4MzMsLTEwODYxNDQ2NDYsLTU2NjU0Nzc5MCwtMT
+A4MjgwODc0NiwxOTU1MDUyMzY0LC0xNzM3NjU2NTUwLC0yMjEx
+OTMwNjcsNzQyOTU3MTMsMjA0MzYwMDA0NSwxNDY5Mzc5NTUxLC
+0xMjQwMTE1MTEyLDE5NzY4ODE0OTEsLTEwNDU0Mzk4NjUsLTkx
+MDk5NDI1XX0=
 -->

@@ -1,38 +1,24 @@
-Trabajo en paper
-==
+[Escritura Papers](https://docs.google.com/file/d/15zz-n1lxaeyiZhJYtRrL0X-gYwOn6I41/edit)
 
-### Links
-
-[How to write high quality papers in algorithmic or experimental Computer Science](https://www.ae-info.org/attach/Acad_Main/Sections/Informatics/Activities/12-08-14-Paper-VM-for-AE.pdf) (ver sección 4)
-
-## Instrucciones
-
-- Creen documento en overleaf con la estructura del paper. Pueden basarse en la estructura de [este paper](https://www.overleaf.com/read/vfmzmfmbvqpt).
-
-- Escriban bosquejo de **abstract**. Quizás yo ya haya escrito alguno en sus documentos en github. Pueden basarse en el que está en el paper. Es sólo un bosquejo, la idea por ahora es que ayude a recordarnos hacia donde estamos apuntando.
-Generalmente lo divido en párrafos:
-	- Descripción del problema
-	- Estado del arte (lo que hay hecho hasta ahora)
-	- Propuesta (qué es lo **nuevo** que se propone?)
-	- Resultados
-
-![image](https://i.imgur.com/zpn4DKO.png)
-
-- Escriban el **background**, es decir todo aquello que necesitan para poder explicar la propuesta con claridad. Por ejemplo, en qué consiste el problema, como se realiza una búsqueda en árbol, detalles sobre las redes neuronales, etc. El detalle tiene que ser suficiente como para que alguien no muy experto del tema entienda. También tienen que referenciar los métodos y algoritmos existentes.
-
-- Pueden continuar con la **descripción de la propuesta**. Esta debe ser escrita de manera detallada y rigurosa. Con pseudocódigos explicados y figuras si es necesario. A partir de esta descripción deberíamos ser capaces de implementarla.
-
-- Luego se puede pasar a diseñar los experimentos que se realizarán para validar la propuesta. Esto lo podemos ir conversando más adelante.
-
-[Aquí](https://www.froihofer.net/en/students/how-to-write-a-computer-science-paper.html) más tips sobre escritura de artículos.
-
----
-
-## Alumnos
-
-### Giselle Vásquez
+### A. Giselle Vásquez
 
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
+
+**TODO**
+- Graficar resultados de Ibex para comparar
+- Identificar errores SearchEfficient
+- Reparar algoritmo
+
+**Plan**
+
+- Experimentos
+	- Comparar con algoritmo completo: tiempos, HV
+	- Cálculo de error (interpolación vs. SearchEfficient)
+	- Graficar interpolación vs. curva original
+	- Incorporar hull(x)
+- Volver redacción de paper
+
+----
 
 - (**En background**) Agregar figura de ejemplo para explicar spline
 - Calcular errores de predicción
@@ -45,9 +31,11 @@ Generalmente lo divido en párrafos:
 	- Creación de caja para búsqueda. ¿Qué pasa si falla?
 	- Reducción en x (mejora?)
 	- Search Efficient
-- (**Experimentos**) Definir
+- (**Experimentos**) Algoritmo de base (2000) -> HV
+Y sin reducir y. Comparación con/sin reducir en x. 
 
----
+
+**Estructura paper**
 
 - Introducción
 	- Reescritura anti-plagio
@@ -61,87 +49,97 @@ Generalmente lo divido en párrafos:
 	- Definir
 - Conclusiones
 
----
-### Lucas Agullo
-
-[Paper CPMP_RL](https://docs.google.com/file/d/1r_kHXnKd40upiHzVqo7C8qObaCLjnRpT/edit) - [overleaf](https://www.overleaf.com/project/60424d0a17d15d7bfaeabbf0)
-
-- Diseño de experimentos
 
 ---
-###  Gonzalo Tello
+###  B. Gonzalo Tello
 
+[overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499)
+ [(2013) A biased random key genetic algorithm for 2D and 3D binpacking problems](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
+ 
+**TODO**
+
+- Buscar algoritmo de la competencia para comparar ([Rust code](https://github.com/bobotu/kaosu-packer))
+- Al verificar soluciones, para acelerar el proceso, BSG podría descartar estado que no puedan ubicar todas las cajas.
+
+**Plan**
+
+- Reparar y revisar el algoritmo
+- Realizar experimentos
+	- Instancias originales
+	- Instancias aumentadas (x100 cajas, x2x2x2 bin size)
+
+**Resultados de la competencia**
+![image](https://i.imgur.com/pcr6qSW.png)
+
+**Generación de bins**
+Pasar al contenedor cajas suficientes para llenar 1-2 contenedores.
+
+````python
+def generate_bins(B, Vmax):
+	bins <- {}
+	while B is not empty:
+		C <- {}
+		while vol(C) < 1.5*Vmax and B is not empty:
+			b <- pop box from B
+			C <- C U {b}
+		bin, B' <- BSG(C)
+		B <- B U B'
+		bins <-- bins U {bin}
+	return bins
+````
+
+- Para tener una buena distribución, la probabilidad de seleccionar una caja (pop box) debiera ser **proporcional al volumen**.
+- Si hay varias cajas del mismo tipo, seleccionar un máximo de 8 (2x2x2).
+
+----
+
+- Terminar de armar la propuesta
+	- ==Generación de bins:== Incorporar al paper
+	- Swapping :ok:
+	- ==Check==
+- Cambiar figuras
+- ¿En qué consiste algoritmo de la competencia?
+
+**Paper**
+
+- Abstract :ok:
+- Introduction
+- Background
+	- MCLP :ok:
+	- BSG :ok:
+	- Bin Packing :ok:
+- Proposal :ok:
+	- Generación inicial
+	- Transfer&Swap
+
+---
 
 [code](https://github.com/skjolber/3d-bin-container-packing)
 [code2](https://github.com/Janet-19/3d-bin-packing-problem)
 
- [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) 
+ [Paper BSG+Swapping](https://docs.google.com/file/d/1E_HygrzJMH3dG-WdwKXeX6GIxD5jt3mw/edit) - [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499) - [gdrive](https://docs.google.com/document/d/1RUuVHQWjizS74PkeBlamFq8MKApKk0CRcNDpMESahjU/edit) - [dibujos](https://docs.google.com/presentation/d/1aCljdmWoufgoqwiAFanbBSE-pys-2VLXnzDEegMWQB0/edit#slide=id.gb694a9189a_0_32)
 
-- Terminar de armar la propuesta
-- ¿En qué consiste algoritmo de la competencia?
-
-Tareas:
-- Usar instancias BRx50
-- Buscar algoritmo de la competencia para comparar [paper](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
 
 ---
-### Stephanie Gómez
+### C. Luciano
 
-Modificaciones al código:
-- Que se puedan simular varios nodos a la vez
-- Que las simulaciones se vayan agregando en el mismo archivo
+[Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
 
+**TODO**
 
- [Paper Interactive MCTS](https://docs.google.com/file/d/1U_rvqVXLuZcC21dXv1MnQ4ytoFIhBZyO/edit) - [overleaf](https://www.overleaf.com/5616249127ygnkmzvpjbty) - [gdrive](https://docs.google.com/document/d/1WTBcwIJcoCwo_973JQEIFvmzvkvucJ6cFBYIrxb_Vw0/edit?ts=6055111a) - [diagrama](https://app.diagrams.net/#G1sG15EXnp0rAfnC4jNbBuJybQTwiKGhvm)
-
-- Traducción
-- Diagrama de la estrategia general
-
-Atributos de nodos
-![image](https://i.imgur.com/Tayv9cj.png =500x)
-
-````python
-def best_first(self): 
-	return self.s
-````
-
-````python
-def diving(self):
-	return 1000*(self.parent == last_selected) + self.s
-````
-
-````python
-def dfs_greedy(self):
-    return 1000*self.depth + self.s
-````
-
-sat: nodes_in_level/max_nodes_in_level
-
-````python
-def bfs(self):
-	return -10000*sat - 10*self.depth + self.s + c*sqrt(1/(len(self.ch)+1))
-````
+- Revisar experimentos
+	- Hill-Climbing para optimizar vector de pesos
+	- Usar atributos normales, +director-likeness, +emotion, +both
 
 
 
 
-### KD-Tree
-
-[Overleaf](https://www.overleaf.com/project/5f7cc504d82a7900017178fa)
-
-- Descripción del KD-Tree tradicional
-- Descripción de algoritmo IKD-Tree
-
-### Practical Constraints
-
-- Revisar contenido. 
-- Ajustar secciones de integración con algoritmo --> dejar trabajo a Williams.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Nzc5Mjk1OCw5OTU5ODAzNDEsNjQzOT
-M4NDczLDE5MjYxMTkxNzUsOTkwMTE5MjA3LC0xMDQyNTg3NzUz
-LC00NzA3NTI5MjQsLTIwNjc5MzU0OTgsLTIzMTI1MjcxMSwzNz
-YyOTQ5MDAsMTc1NDc2OTE2LDM0NjEwMzYyLDcyMTQxNDA5Miw3
-NDczODIwMjYsLTEwMTU1OTkyNzUsMTEyMDQ3ODg1MiwtMTAxMz
-MzMTU4NSwtMTQ0MDg2OTc4NCw2MDQxODgzNjksLTE4NDI0Nzc0
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTY1NTc1MDY3NCwxMjU5NjA0MDYzLDExOT
+EwNjEzNTgsLTE5OTA4NDk3NzAsLTEyNjA5NDY1ODYsLTU0NzIy
+MzIzMSw0NDg3OTE3NjQsMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC
+04MTg1MzA0MTksNDU3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcy
+NzgsODc1MzM3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMT
+g1NTc4OTU3MiwxNjgzOTcyNDc0LDk0Njk1NjU3MywxMzk1Mzkz
+MjU2XX0=
 -->

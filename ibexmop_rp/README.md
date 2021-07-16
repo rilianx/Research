@@ -1,19 +1,21 @@
 Removing points from the non-dominated set
 ==
-[Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing)
 
-[Link github](https://github.com/rilianx/Research/tree/main/ibexmop_rp)
+Prec_hv = (prec^2)/10
 
 ### TODO
 
-+ Una vez que se verifique el correcto funcionamiento, implementar en [solver ibex](https://github.com/rilianx/Research/blob/main/ibexmop_rp/README.md#solver-ibex).
-+ [ibex_NDS.h](https://github.com/INFPUCV/ibex-lib/blob/ibexmop-plugin/plugins/optim-mop/src/strategy/ibex_NDS.h).
-	+ ==Eliminación de puntos up no ha sido implementada aun==
-	+ ==Probar con instancias reales y reparar fallos==
++ ==Corriendo instancias en 158.251.88.197 para eps=1e-5, N=50, ub=no==
++ Verificar correctitud: puntos originales deberían ser dominados por nueva curva
++ [Resultados preliminares](https://docs.google.com/spreadsheets/d/1P5stPHPnAHs9bKms3UX0Mkq3IiJTuWwBUMPa5iTad_c/edit#gid=0)
 ````
 python3 plugins/optim-mop/main/plot3.py &
 ./__build__/plugins/optim-mop/ibexmop plugins/optim-mop/benchs/binh.txt  --cy-contract-full --eps-contract --ub=ub1 --eps=1 --print_nds
 ````
+
+
+[Link Colab](https://colab.research.google.com/drive/1obOynZeZWc2APFXb01ckSTlT0T5mtXEZ?usp=sharing) - [Link github](https://github.com/rilianx/Research/tree/main/ibexmop_rp)
+
 
 ### Tutorial (detalles faltantes)
 
@@ -125,11 +127,11 @@ Se podrían ir eliminando puntos con un impacto menor en el hipervolumen.
 --
 ![PuntoRecta](https://docs.google.com/drawings/d/e/2PACX-1vQRYR8NyJxqYsSgqzB25h7siR8vQcHwZ49bHAszUk0YDeQfY3daOpJz7swLbkPAYf9b4QRvedzenxwE/pub?w=628&h=314)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAzNzQwMTYsMzY1NTA2MDEzLC0xOT
-ExNzE0NDI3LC0xOTA1MzIyMjk0LC0xNjQyMTY1ODk1LDEwMzM3
-NjMwNDIsMTc1NDI2NzE1OCwtNjA4MTYyNTc4LC0xNzU4MDQ1Mj
-UxLDEwMTAzNjExMjEsMTkzNzg3MzM5NCw3MDMxNDQ3MDcsMTY0
-NDAzODk5OCwtMTQzMzkyNDQ1MiwtMTc0NzMxMzA4NiwtMTY1OD
-A0MjAyOCwxNzIxNjg4ODU4LDk4NDU1NTYzMSwtOTg2OTg3MjU0
-LC0yMDYyMDAwNjMyXX0=
+eyJoaXN0b3J5IjpbLTI2MjU1NDYwNSwxMjU3NTAwMzE1LC0xMD
+g5MzAwOTkyLC0xMzEzMzI0OTgwLC01MzcyMDA3NzgsMTY3NDU5
+NTQzLC03MDYxOTEwODUsLTEwNjI0NzAwNzksLTcwNjE5MTA4NS
+w0ODU4NTM5NDgsLTY3MTQzODMzNSwtMTM4MTk1NjU5LC0xNTg1
+NjgxNTU5LDY0MDUzODgyNiwtMTEzMDM3NDAxNiwzNjU1MDYwMT
+MsLTE5MTE3MTQ0MjcsLTE5MDUzMjIyOTQsLTE2NDIxNjU4OTUs
+MTAzMzc2MzA0Ml19
 -->

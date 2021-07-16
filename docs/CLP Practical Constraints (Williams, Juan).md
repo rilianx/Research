@@ -1,11 +1,38 @@
 CLP Practical Constraints (continuación).
-==
+--
 
+**TODO**
+
+- Revisar código+paper y armar plan con tareas faltantes
+
+**Observaciones presentación**
+- Organizar mejor
+- Solución más óptima x
+- Explicar mejor el problema, restricciones prácticas
+- Explicar procesos y momentos del BSG
+- Adaptación de BSG a múltiples contenedores -> explicar con más claridad (grupos, clientes?)
+- Mostrar tabla
+- Resultados preliminares: qué restricciones se consideraron? Colores para cada cliente
+- Siendo que se consideran más restricciones. A qué se debe que mejore la distribución?
+
+
+---
+
+**Comando para ejecutar ejemplo (`/home/practica/clp_pc_juan/Metasolver`):**
+````
+./BSG_CLP problems/clp/benchs/BRpc/BRrwtm0.txt -i 9 -t 1 -f BRpc
+````
+
+----
+
+### Momentos
+
+![image](https://i.imgur.com/ZmXRUFK.png)
 
 Resumen
 ----
 
-Continuar con el trabajo realizado por [Adolfo y Sebastián](https://docs.google.com/file/d/1IU5kcuR0HzSkFmUjP3vdXEEV5wOA6QQP/edit). [overleaf](https://www.overleaf.com/6689583734gwrmtknhtzmt)
+[overleaf](https://www.overleaf.com/6689583734gwrmtknhtzmt)
 
 El objetivo del trabajo original era el de incorporar restricciones prácticas a un solver para problemas de **carga de contenedores**.
 
@@ -18,47 +45,13 @@ Links de interés:
 > - [202X - A MILP Approach for the Multi-Drop Container Loading Problem](https://drive.google.com/file/d/10DjpuIa6jcbinnr6foMSsag67MQvvm_w/view)
 > - [Memoria de Adolfo y Seba](https://drive.google.com/file/d/15Hz83as3dUzeZaU2c3hhjcY_9ujwsBkG/view?usp=sharing).
 > - [A biased random key genetic algorithm for 2D and 3D bin packing problems](https://sci-hub.se/10.1016/j.ijpe.2013.04.019)
+> [The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
 
 Habla de los pallets:
 > - [2019 - A GRASP algorithm for multi container loading problems with practical constraints](https://link.springer.com/content/pdf/10.1007/s10288-018-0397-z.pdf): Colocar pallets en camiones. Dimensiones de pallets un poco restrictivas por lo que no se ajustan a nuestros bloques.
 
 
-TODO
---
 
-
-### Williams
-
-**TODO**
-
-[The exact solutions of several types of container loading problems (2020)](https://www.researchgate.net/profile/Jose-Pecora-Jr/publication/337895771_The_exact_solutions_of_several_types_of_container_loading_problems/links/5f20130592851cd5fa4e3c7f/The-exact-solutions-of-several-types-of-container-loading-problems.pdf)
-
-- Ajustar restricciones en paper. Agregar cosas que falten, eliminar lo que sobre.
-	- Fusionar conflicting items con separation of items
-	- Cargo stability -> separar
-	- Load Bearing --> ==profe==
-- En sección de BSG, agregar el pseudocódigo y destacar las 4 decisiones del algoritmo:
-
-````python
-def BSG(TU, C, w):
-   B = block_generator(C, TU)
-   s_0 = State(B, TU)
-   S = {s_0} #conjunto de estados del nivel
-   while S is not empty:
-       SS = set() # estados del siguiente nivel
-       for s in S:
-          SS = SS.union(expand(s,w))
-       S = best w states in SS # de acuerdo a greedy
-````
-mejor solución encontrada por greedy se va guardando
-
-`expand` selecciona la **siguiente ubicación disponible** y genera las w mejores **acciones según la función heurística**. (una vez)
-
-`greedy` construye una solución paso a paso. En cada paso **selecciona una ubicación disponible** y la mejor acción según la **función heurística**. Retorna la **evaluación del estado final** alcanzado.
-
-- Redactar sección sobre función heurística VCS --> ==profe==
-- Tablita de momentos
-- Describir integración de restricciones en el solver.
 
 
 
@@ -305,11 +298,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY5ODQ5MTYsLTEwOTc1NTk2MTQsND
-kzMzAxOTA1LC0xMjcxMTM4MTc2LC0xMjYzNDYwOTA0LC0xNjg5
-NTIxMjI2LC0xNTY3ODM0Njg4LDE3MTIzMDM2MywxNzY1MjcwOT
-AwLC0yMDY0MzQxNDAwLC0zNTc0MDc1NjcsMjA3ODY2NDQxOCwz
-MTA3NzcwMTEsLTU1ODk1NTc3MywyODQ1NTMyODgsNjcyMDM0Mj
-gzLC0xNzgzNjQyNTYsLTE0NzQ2MDA3NTMsNTI2NjUyMDY2LDIx
-NDQ0MzMwNTddfQ==
+eyJoaXN0b3J5IjpbLTIyMzYxODk2MiwtOTcwNzEzODQyLDg1MD
+IyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3Nzg4LC0xODY1ODQ2
+MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3NzksNTM4OTk2NDk1LC
+0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIyNTYzNDczLC05MDA2
+NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1MDgwOTY5MT
+gsLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwxOTM2Nzg0OTExLC0x
+ODUyMTA0NDk2XX0=
 -->
