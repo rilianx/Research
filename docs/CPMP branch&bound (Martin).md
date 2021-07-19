@@ -11,7 +11,6 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 - Cambiar estrategia de búsqueda (profe)
 - Implementar filtrado de acciones.
 
-
 ---
 
 ### Resultados estado del arte
@@ -134,11 +133,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc5MzEyNSwtMTEzOTIwMjM0Miw4OD
-k5MjU2OTQsNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNjM2ODgx
-MTAsLTE3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5NTAxLC
-0xODgxNjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3MDA1MCwyMDQ0
-MDYyMDUzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC0yMDM4MzU3MD
-Y1LC05MjYwNTgzMzAsLTE3NTQwMTQyNzgsMTY3OTg0ODM2Mywt
-Mjc1ODUxODE5XX0=
+eyJoaXN0b3J5IjpbLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMT
+M5MjAyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MDQsLTIxMDc5NzU0
+MDksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwtOTcwNTQwMzAyLC
+02MjQ4MTk1MDEsLTE4ODE2MTgwMTUsLTE4MTg3MTM5MjUsOTMw
+OTcwMDUwLDIwNDQwNjIwNTMsMTI2MTU5MzA5NSw3MzI5MTA2OD
+MsLTIwMzgzNTcwNjUsLTkyNjA1ODMzMCwtMTc1NDAxNDI3OCwx
+Njc5ODQ4MzYzXX0=
 -->
