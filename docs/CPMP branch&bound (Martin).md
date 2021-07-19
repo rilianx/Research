@@ -2,7 +2,7 @@ CPMP branch & bound
 ===
 Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view). [Resultados](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=376661203)
 
-Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
+**PlanImplementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
 ### TODO
 
@@ -10,6 +10,9 @@ Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el pr
 - ==Regresión lineal para ajuste de pesos==
 - Cambiar estrategia de búsqueda (profe)
 - Implementar filtrado de acciones.
+
+
+
 
 ---
 
@@ -133,11 +136,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzkyMDIzNDIsODg5OTI1Njk0LDU5OD
-kxNTYwNCwtMjEwNzk3NTQwOSwxMTYzNjg4MTEwLC0xNzM2NzE1
-NTI5LC05NzA1NDAzMDIsLTYyNDgxOTUwMSwtMTg4MTYxODAxNS
-wtMTgxODcxMzkyNSw5MzA5NzAwNTAsMjA0NDA2MjA1MywxMjYx
-NTkzMDk1LDczMjkxMDY4MywtMjAzODM1NzA2NSwtOTI2MDU4Mz
-MwLC0xNzU0MDE0Mjc4LDE2Nzk4NDgzNjMsLTI3NTg1MTgxOSw5
-NTk0ODAyODddfQ==
+eyJoaXN0b3J5IjpbMTAxMzUzMjA1NywtMTEzOTIwMjM0Miw4OD
+k5MjU2OTQsNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNjM2ODgx
+MTAsLTE3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5NTAxLC
+0xODgxNjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3MDA1MCwyMDQ0
+MDYyMDUzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC0yMDM4MzU3MD
+Y1LC05MjYwNTgzMzAsLTE3NTQwMTQyNzgsMTY3OTg0ODM2Mywt
+Mjc1ODUxODE5XX0=
 -->
