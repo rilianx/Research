@@ -5,6 +5,13 @@
 - Perturbación y selección de soluciones
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
 
+---
+
+### Plan
+- Terminar algoritmo ILS base: Grasp + localSearch + perturbations
+- Exte
+
+
 ----
 
 ### Algoritmo
@@ -141,11 +148,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU0NDM1NjgsLTE4MjU0NDM1NjgsMT
-M1NjgyODU2MCwxNTMzNTYxODU5LC00NjI1MDA1NjUsLTgwMzE4
-MjI1MywtMTQzMjI4NDA5NSw0MjI0Nzc3ODYsLTE2OTI1MzUyOT
-EsMzg1MTg4NjEyLC03OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0
-NjYyNTk5MiwzMzk4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3Mi
-wxNDAwNjc5MDQ4LC0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTEx
-ODAyMTQwOTZdfQ==
+eyJoaXN0b3J5IjpbNDgyNjQxODE4LC0xODI1NDQzNTY4LC0xOD
+I1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAw
+NTY1LC04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC
+0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkx
+NDgyODIsLTEzNDY2MjU5OTIsMzM5ODMyMzA1LDk1OTM2MTAzLD
+E0OTQ5OTAwNzIsMTQwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5
+MTAwNzUzXX0=
 -->
