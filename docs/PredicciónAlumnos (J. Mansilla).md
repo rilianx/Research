@@ -3,6 +3,7 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 
+- Explicar matrices de correlación
 - Repasar experimentos (nuevos resultados)
 - Repasar introducción (contribuciones)
 - Conclusiones
@@ -188,11 +189,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODg3ODkzNywtMTcxMzQ5NDkwMSwzMT
-k2MjE1NjUsLTE3ODYyNjE0MjUsLTIwMjQyNzU3MDEsODYxMzc1
-ODAsMTg4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4LDE4ND
-g3OTY4MzMsLTEwODYxNDQ2NDYsLTU2NjU0Nzc5MCwtMTA4Mjgw
-ODc0NiwxOTU1MDUyMzY0LC0xNzM3NjU2NTUwLC0yMjExOTMwNj
-csNzQyOTU3MTMsMjA0MzYwMDA0NSwxNDY5Mzc5NTUxLC0xMjQw
-MTE1MTEyXX0=
+eyJoaXN0b3J5IjpbOTI0NzgwNTA4LC0xNzEzNDk0OTAxLDMxOT
+YyMTU2NSwtMTc4NjI2MTQyNSwtMjAyNDI3NTcwMSw4NjEzNzU4
+MCwxODg2NTMzNDU1LDIwNTQ5MzI1MTksMjY1ODgxNjgsMTg0OD
+c5NjgzMywtMTA4NjE0NDY0NiwtNTY2NTQ3NzkwLC0xMDgyODA4
+NzQ2LDE5NTUwNTIzNjQsLTE3Mzc2NTY1NTAsLTIyMTE5MzA2Ny
+w3NDI5NTcxMywyMDQzNjAwMDQ1LDE0NjkzNzk1NTEsLTEyNDAx
+MTUxMTJdfQ==
 -->
