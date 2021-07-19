@@ -2,7 +2,6 @@
 
 - Reparar eliminación de elemento random
 - Lanzar experimentos
-	- 
 - Perturbación y selección de soluciones
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
 
@@ -142,11 +141,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMzMyOTQxLC0xODI1NDQzNTY4LDEzNT
-Y4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04MDMxODIy
-NTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLD
-M4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyODIsLTEzNDY2
-MjU5OTIsMzM5ODMyMzA1LDk1OTM2MTAzLDE0OTQ5OTAwNzIsMT
-QwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5MTAwNzUzLC0xMTgw
-MjE0MDk2XX0=
+eyJoaXN0b3J5IjpbLTE4MjU0NDM1NjgsLTE4MjU0NDM1NjgsMT
+M1NjgyODU2MCwxNTMzNTYxODU5LC00NjI1MDA1NjUsLTgwMzE4
+MjI1MywtMTQzMjI4NDA5NSw0MjI0Nzc3ODYsLTE2OTI1MzUyOT
+EsMzg1MTg4NjEyLC03OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0
+NjYyNTk5MiwzMzk4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3Mi
+wxNDAwNjc5MDQ4LC0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTEx
+ODAyMTQwOTZdfQ==
 -->
