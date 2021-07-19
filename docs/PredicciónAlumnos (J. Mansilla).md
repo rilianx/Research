@@ -2,6 +2,7 @@ Predicting student performance in computing courses based on programming behavio
 ==
 
 ### TODO
+
 - Explicar procedimiento
 - Repasar experimentos (nuevos resultados)
 - Repasar introducción (contribuciones)
@@ -187,11 +188,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYyNjE0MjUsLTIwMjQyNzU3MDEsOD
-YxMzc1ODAsMTg4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4
-LDE4NDg3OTY4MzMsLTEwODYxNDQ2NDYsLTU2NjU0Nzc5MCwtMT
-A4MjgwODc0NiwxOTU1MDUyMzY0LC0xNzM3NjU2NTUwLC0yMjEx
-OTMwNjcsNzQyOTU3MTMsMjA0MzYwMDA0NSwxNDY5Mzc5NTUxLC
-0xMjQwMTE1MTEyLDE5NzY4ODE0OTEsLTEwNDU0Mzk4NjUsLTkx
-MDk5NDI1XX0=
+eyJoaXN0b3J5IjpbMzE5NjIxNTY1LC0xNzg2MjYxNDI1LC0yMD
+I0Mjc1NzAxLDg2MTM3NTgwLDE4ODY1MzM0NTUsMjA1NDkzMjUx
+OSwyNjU4ODE2OCwxODQ4Nzk2ODMzLC0xMDg2MTQ0NjQ2LC01Nj
+Y1NDc3OTAsLTEwODI4MDg3NDYsMTk1NTA1MjM2NCwtMTczNzY1
+NjU1MCwtMjIxMTkzMDY3LDc0Mjk1NzEzLDIwNDM2MDAwNDUsMT
+Q2OTM3OTU1MSwtMTI0MDExNTExMiwxOTc2ODgxNDkxLC0xMDQ1
+NDM5ODY1XX0=
 -->
