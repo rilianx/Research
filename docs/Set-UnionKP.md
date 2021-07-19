@@ -8,8 +8,10 @@
 ---
 
 ### Plan
-- Terminar algoritmo ILS base: Grasp + localSearch + perturbations
-- Exte
+
+- Terminar algoritmo ILS base: Grasp + local search + perturbations
+- Experimentos de validación
+- Agregar aprendizaje: seleccionar solución prometedora (luego de perturbación) para realizar búsqueda local. 
 
 
 ----
@@ -148,7 +150,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNjQxODE4LC0xODI1NDQzNTY4LC0xOD
+eyJoaXN0b3J5IjpbMTYyMDMxODA1LC0xODI1NDQzNTY4LC0xOD
 I1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAw
 NTY1LC04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC
 0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkx
