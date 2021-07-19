@@ -11,8 +11,7 @@
 
 - Terminar algoritmo ILS base: Grasp + local search + perturbations
 - Experimentos de validación
-- Agregar aprendizaje: seleccionar solución prometedora (luego de perturbación) para realizar búsqueda local. 
-
+- Agregar aprendizaje: seleccionar solución prometedora (luego de perturbación) para recomenzar búsqueda local. 
 
 ----
 
@@ -150,11 +149,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDMxODA1LC0xODI1NDQzNTY4LC0xOD
-I1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAw
-NTY1LC04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC
-0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkx
-NDgyODIsLTEzNDY2MjU5OTIsMzM5ODMyMzA1LDk1OTM2MTAzLD
-E0OTQ5OTAwNzIsMTQwMDY3OTA0OCwtMTQ4ODg5NzU1NiwtNjY5
-MTAwNzUzXX0=
+eyJoaXN0b3J5IjpbLTM3MTczNzI4OSwtMTgyNTQ0MzU2OCwtMT
+gyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1NjE4NTksLTQ2MjUw
+MDU2NSwtODAzMTgyMjUzLC0xNDMyMjg0MDk1LDQyMjQ3Nzc4Ni
+wtMTY5MjUzNTI5MSwzODUxODg2MTIsLTc5MTk0NDIzNSwxMTk5
+MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEwMy
+wxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0ODg4OTc1NTYsLTY2
+OTEwMDc1M119
 -->
