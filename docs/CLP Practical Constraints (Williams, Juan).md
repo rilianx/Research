@@ -4,12 +4,12 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
+- [ ] 
 
 **General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
 
 **Block Generator (2):**
-- [ ] Include variable for indicating the weights supported by blocks.
 - [ ] When vertical blocks are generated: **maximize the weight supported by the resulting block**: minimum between the upper boxes supported weight and the lower box supported weight minus the weight of the upper block.
 - [X] Verify the vertical stability constraint
 - [ ]  Verify the horizontal stability constraint
@@ -329,11 +329,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTM0NjI2NSwtMTE4MTk0NjUzOSwxOT
-c4MjIwODE4LC0yMTQyMTM3NjMsLTIyMzYxODk2MiwtOTcwNzEz
-ODQyLDg1MDIyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3Nzg4LC
-0xODY1ODQ2MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3NzksNTM4
-OTk2NDk1LC0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIyNTYzND
-czLC05MDA2NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1
-MDgwOTY5MThdfQ==
+eyJoaXN0b3J5IjpbNDQzMDAxNDA5LC0xMTgxOTQ2NTM5LDE5Nz
+gyMjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4
+NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLT
+E4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5
+OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0Nz
+MsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgwMzYxNDgsMTUw
+ODA5NjkxOF19
 -->
