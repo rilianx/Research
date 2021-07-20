@@ -14,7 +14,10 @@ CLP Practical Constraints (continuación).
 - [ ] When vertical blocks are generated: Compute the contact surface of both blocks, verify the corresponding constraint.
 
 **Selecting location of the next block (3)**
-- [X] Place the block in front or above the already placed blocks
+- [X] Place the block in front or above the already placed blocks. Back and bottom locations are preferred.
+
+**Selecting the next block (4)**
+- [ ] Verify the load bearing constraint (supported weight of boxes)
 - [ ] 
 
 
@@ -316,11 +319,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05Nz
-A3MTM4NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3
-ODgsLTE4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OS
-w1Mzg5OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1
-NjM0NzMsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgwMzYxND
-gsMTUwODA5NjkxOCwtMTQyMzAxMTIwMSwtOTcwMDc2OTI5LDE5
-MzY3ODQ5MTFdfQ==
+eyJoaXN0b3J5IjpbMjAxMDU1NzE3MCwtMjE0MjEzNzYzLC0yMj
+M2MTg5NjIsLTk3MDcxMzg0Miw4NTAyMjk0NTYsLTUwNDAzNjk2
+MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4ODAwLC
+0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5MjA1NTgwLC0xMzky
+MDU1ODAsMTAyMjU2MzQ3MywtOTAwNjUzOTMsLTg1OTIzOTY0NC
+wtMTU4ODAzNjE0OCwxNTA4MDk2OTE4LC0xNDIzMDExMjAxLC05
+NzAwNzY5MjldfQ==
 -->
