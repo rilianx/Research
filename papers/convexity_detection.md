@@ -23,7 +23,7 @@ In order to avoid non-functional networks, NEAT marks new evolutions with a hist
 ![image](https://i.imgur.com/HIovF8O.png)
 
 **Speciation**
-Adding new connection without optimizing weight generally lea
+Adding new connection without optimizing weight generally leads to low performances. Speciation simply splits up the population into several species based on the similarity of topology and connections by using some criteria.
 
 
 
@@ -162,11 +162,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzUyMjAwNSwtMzcxODAwNTc1LC0xMz
-Y2NTY4OTcxLDIwODE2MDg3MTUsLTE1NDc5MjU2ODIsLTE1ODg3
-NTMzMjUsLTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OT
-IzLDE0MjEyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0x
-OTEwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1Mz
-E0MDA1LC03ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1
-LC0yMDg0NzE5MTA4XX0=
+eyJoaXN0b3J5IjpbLTE2Nzk4ODA2MTEsLTM3MTgwMDU3NSwtMT
+M2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4
+NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4Nj
+kyMywxNDIxMjg3MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwt
+MTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NT
+MxNDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIw
+NSwtMjA4NDcxOTEwOF19
 -->
