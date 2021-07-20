@@ -11,6 +11,11 @@ Recent papers have even highlighted ways to use NEAT and NEAT-like algorithms to
 **Encoding**
 ![image](https://i.imgur.com/jZyKXdR.png)
 
+**Mutation**
+In NEAT, mutation can either mutate existing connections or can add new structure to a network.
+If a new node is added, it is placed between two nodes that are already connected. The previous connection is disabled (though still present in the genome). The previous start node is linked to the new node with the weight of the old connection and the new node is linked to the previous end node with a weight of 1. This was found to help mitigate issues with new structural additions.
+
+![image](https://i.imgur.com/zRGxXDs.png)
 
 
 
@@ -149,10 +154,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY1Njg5NzEsMjA4MTYwODcxNSwtMT
-U0NzkyNTY4MiwtMTU4ODc1MzMyNSwtMTcwMDg2NDYxLC0xMjc5
-MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYyNz
-IxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5Nywt
-MjAzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NT
-MyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
+eyJoaXN0b3J5IjpbLTM3MTgwMDU3NSwtMTM2NjU2ODk3MSwyMD
+gxNjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4NzUzMzI1LC0xNzAw
+ODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3MT
+EsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0Mywt
+MjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4Nz
+E2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEw
+OF19
 -->
