@@ -22,6 +22,9 @@ In order to avoid non-functional networks, NEAT marks new evolutions with a hist
 
 ![image](https://i.imgur.com/HIovF8O.png)
 
+**Speciation**
+Adding new connection without optimizing weight generally lea
+
 
 
 ---
@@ -159,7 +162,7 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzMyMjAzNiwtMzcxODAwNTc1LC0xMz
+eyJoaXN0b3J5IjpbMTQ2NzUyMjAwNSwtMzcxODAwNTc1LC0xMz
 Y2NTY4OTcxLDIwODE2MDg3MTUsLTE1NDc5MjU2ODIsLTE1ODg3
 NTMzMjUsLTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OT
 IzLDE0MjEyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0x
