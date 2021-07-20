@@ -105,7 +105,7 @@ def search(layout, L, U): #lower y upperbound
 
 ### Búsqueda Diving
 Bastaría con modificar la función de evaluación:
-1000*gre_child - lb
+1000*greedy_child - lb
 
 
 ### Componentes claves del paper (deberíamos replicar)
@@ -139,7 +139,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDQyMDM5NSwxMzI2MDYxNzg1LC05Mj
+eyJoaXN0b3J5IjpbMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05Mj
 A2OTU1NDMsLTEyMjc5MzEyNSwtMTEzOTIwMjM0Miw4ODk5MjU2
 OTQsNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNjM2ODgxMTAsLT
 E3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5NTAxLC0xODgx
