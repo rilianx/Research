@@ -41,7 +41,8 @@ Axis-Parallel Decision Trees (node representation)
 ![image](https://i.imgur.com/8EPOuwt.png)
 In[35-37] a similar approach is used. $node = \{t, label, P, L, R, id, value, size\}$, where $t$ is the node number ($t = 0$ is the root node), $label$ is the class label of a terminal node (meaningful only for terminal nodes), $P$ is a pointer for the parent node, $L$ and $R$ are pointers to the left and right children, respectively (null for terminal nodes). The decision related to the node is $feature[id] < value$.
 
-Oblique Decision 
+Oblique Decision Trees**
+A function node has as its children a tuple $({w_i , x_i}, threshold, ifT rue, ifF lse)$, where $w_i$ and $x_i$ are the $i$-th weight constant and attribute pair, respectively.
 
 
 ---
@@ -179,11 +180,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwOTMyNjg0LC02NTI2MDQzNTEsLTE0ND
-IzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3MTgwMDU3NSwtMTM2NjU2
-ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4NzUzMz
-I1LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywx
-NDIxMjg3MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMD
-M0NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAw
-NSwtNzg4NzE2NjZdfQ==
+eyJoaXN0b3J5IjpbLTEwNzY5Njk4NzMsLTY1MjYwNDM1MSwtMT
+Q0MjM3OTUyOCwtMTIxMzI2NDczMiwtMzcxODAwNTc1LC0xMzY2
+NTY4OTcxLDIwODE2MDg3MTUsLTE1NDc5MjU2ODIsLTE1ODg3NT
+MzMjUsLTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OTIz
+LDE0MjEyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOT
+EwMzQ0NDQzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0
+MDA1LC03ODg3MTY2Nl19
 -->
