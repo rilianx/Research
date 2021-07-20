@@ -1,6 +1,6 @@
 ## TODO
 
-- Buscar sobre NEAT, generación de agentes RF, 
+- Reinforcement learning with decision trees?
 - Construcción de redes neuronales a partir de reglas heurísticas
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
 
@@ -181,11 +181,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xND
-QyMzc5NTI4LC0xMjEzMjY0NzMyLC0zNzE4MDA1NzUsLTEzNjY1
-Njg5NzEsMjA4MTYwODcxNSwtMTU0NzkyNTY4MiwtMTU4ODc1Mz
-MyNSwtMTcwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMs
-MTQyMTI4NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MT
-AzNDQ0NDMsLTI4MjM5ODg5NywtMjAzODAzODkzMiwyNTUzMTQw
-MDUsLTc4ODcxNjY2XX0=
+eyJoaXN0b3J5IjpbLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NT
+I2MDQzNTEsLTE0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3MTgw
+MDU3NSwtMTM2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1Nj
+gyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUs
+MTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMzM0NjI3MjEsMTg3NT
+g2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4
+OTMyLDI1NTMxNDAwNV19
 -->
