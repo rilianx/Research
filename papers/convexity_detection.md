@@ -35,6 +35,8 @@ Evolutionary design of components can be divided into:
 - Pruning method evolution, where an EA is used to handle pruning over an induced decision tree; 
 - Evolution of other methods, such as parameters of the impurity measure used to split nodes
 
+**Encoding**
+
 
 ---
 
@@ -171,11 +173,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLT
-M3MTgwMDU3NSwtMTM2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3
-OTI1NjgyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNT
-gzNjUsMTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMzM0NjI3MjEs
-MTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMD
-M4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5
-MSwtMTYxMTcxMjIwNV19
+eyJoaXN0b3J5IjpbLTE5MzQyMzg5NzUsLTE0NDIzNzk1MjgsLT
+EyMTMyNjQ3MzIsLTM3MTgwMDU3NSwtMTM2NjU2ODk3MSwyMDgx
+NjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4NzUzMzI1LC0xNzAwOD
+Y0NjEsLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3MTEs
+LTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMj
+gyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2
+NjYsMTY4MjU1MzI5MV19
 -->
