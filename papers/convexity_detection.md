@@ -2,7 +2,10 @@
 
 - Buscar sobre NEAT, generación de agentes RF, 
 - Construcción de redes neuronales a partir de reglas heurísticas
-- 
+- KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
+
+
+
 
 ---
 
@@ -139,10 +142,10 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTYwODcxNSwtMTU0NzkyNTY4MiwtMT
-U4ODc1MzMyNSwtMTcwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3
-ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2Mz
-YsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5NywtMjAzODAzODkzMiwy
-NTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NTMyOTEsLTE2MTE3MT
-IyMDUsLTIwODQ3MTkxMDhdfQ==
+eyJoaXN0b3J5IjpbLTE1MDM2MjcyMTMsMjA4MTYwODcxNSwtMT
+U0NzkyNTY4MiwtMTU4ODc1MzMyNSwtMTcwMDg2NDYxLC0xMjc5
+MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYyNz
+IxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5Nywt
+MjAzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NT
+MyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
 -->
