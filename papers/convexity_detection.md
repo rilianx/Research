@@ -37,7 +37,9 @@ Evolutionary design of components can be divided into:
 
 **Encoding**
 
-Axis-Parallel Decision Trees
+Axis-Parallel Decision Trees (node representation)
+![image](https://i.imgur.com/8EPOuwt.png)
+In[35-37] a similar approach is used. $node = {t, label, P, L, R, C, size}$, where $t$ is the node number (t = 0 is the root node), $label$ is the class label of a terminal node (meaningful only for terminal nodes), $P$ is a pointer for the parent node, $L$ and $R are pointers to the left and right children, respectively (null for terminal nodes), and C is a set of registers, where C[0] stores the attribute id and C[1] the threshold value for the test featureC[0] < C[1], whose possible outcomes are “yes” (path to the left-child node) or “no” (path to the right-child node).
 
 
 
@@ -176,11 +178,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxODA4OTQxLC0xNDQyMzc5NTI4LC0xMj
-EzMjY0NzMyLC0zNzE4MDA1NzUsLTEzNjY1Njg5NzEsMjA4MTYw
-ODcxNSwtMTU0NzkyNTY4MiwtMTU4ODc1MzMyNSwtMTcwMDg2ND
-YxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzExLC0x
-MTMzNDYyNzIxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0NDMsLTI4Mj
-M5ODg5NywtMjAzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2
-LDE2ODI1NTMyOTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTI1NzA0MjcsLTE0NDIzNzk1MjgsLT
+EyMTMyNjQ3MzIsLTM3MTgwMDU3NSwtMTM2NjU2ODk3MSwyMDgx
+NjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4NzUzMzI1LC0xNzAwOD
+Y0NjEsLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3MTEs
+LTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMj
+gyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2
+NjYsMTY4MjU1MzI5MV19
 -->
