@@ -10,7 +10,7 @@ CLP Practical Constraints (continuación).
 
 **Block Generator (2):**
 - [ ] Include variable for indicating the weights supported by blocks.
-- [ ] When vertical blocks are generated: **maximize the weight supported by the resulting block**: minimum between the upper box supported weight and the lower box supported weight minus the weight of the upper block.
+- [ ] When vertical blocks are generated: **maximize the weight supported by the resulting block**: minimum between the upper boxes supported weight and the lower box supported weight minus the weight of the upper block.
 - [X] Verify the vertical stability constraint
 - [ ]  Verify the horizontal stability constraint
 
@@ -329,11 +329,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE5NDY1MzksMTk3ODIyMDgxOCwtMj
-E0MjEzNzYzLC0yMjM2MTg5NjIsLTk3MDcxMzg0Miw4NTAyMjk0
-NTYsLTUwNDAzNjk2MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMC
-wxNDMyNjI4ODAwLC0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5
-MjA1NTgwLC0xMzkyMDU1ODAsMTAyMjU2MzQ3MywtOTAwNjUzOT
-MsLTg1OTIzOTY0NCwtMTU4ODAzNjE0OCwxNTA4MDk2OTE4LC0x
-NDIzMDExMjAxXX0=
+eyJoaXN0b3J5IjpbLTQ4OTM0NjI2NSwtMTE4MTk0NjUzOSwxOT
+c4MjIwODE4LC0yMTQyMTM3NjMsLTIyMzYxODk2MiwtOTcwNzEz
+ODQyLDg1MDIyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3Nzg4LC
+0xODY1ODQ2MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3NzksNTM4
+OTk2NDk1LC0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIyNTYzND
+czLC05MDA2NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1
+MDgwOTY5MThdfQ==
 -->
