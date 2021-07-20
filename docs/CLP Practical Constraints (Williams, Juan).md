@@ -5,7 +5,8 @@ CLP Practical Constraints (continuación).
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
 - [ ] **Supported_weight para cada blox** mantener estructura en cada aabb que permita saber cuáles solo los blox que la soportan. Además, cada vez que se agregan nuevas cajas, se deberían identificar sus supporting_bloxs y actualizar sus supported_weights.
-	- [ ] Obtención de 
+	- [ ] Obtención de supporting bloxs para un aabb dado
+	- [ ] Área de contacto entre dos bloxs.
 
 **General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
@@ -330,11 +331,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mzg0OTA2MiwtMTE4MTk0NjUzOSwxOT
-c4MjIwODE4LC0yMTQyMTM3NjMsLTIyMzYxODk2MiwtOTcwNzEz
-ODQyLDg1MDIyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3Nzg4LC
-0xODY1ODQ2MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3NzksNTM4
-OTk2NDk1LC0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIyNTYzND
-czLC05MDA2NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1
-MDgwOTY5MThdfQ==
+eyJoaXN0b3J5IjpbNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5Nz
+gyMjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4
+NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLT
+E4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5
+OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0Nz
+MsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgwMzYxNDgsMTUw
+ODA5NjkxOF19
 -->
