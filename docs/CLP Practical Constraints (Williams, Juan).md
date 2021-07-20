@@ -5,6 +5,12 @@ CLP Practical Constraints (continuación).
 
 - Revisar código+paper y armar plan con tareas faltantes
 
+### Plan
+
+- Implementar algoritmo MCLP-BSG de paper
+
+
+
 **Observaciones presentación**
 - Organizar mejor
 - Solución más óptima x
@@ -298,11 +304,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzYxODk2MiwtOTcwNzEzODQyLDg1MD
-IyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3Nzg4LC0xODY1ODQ2
-MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3NzksNTM4OTk2NDk1LC
-0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIyNTYzNDczLC05MDA2
-NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1MDgwOTY5MT
-gsLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwxOTM2Nzg0OTExLC0x
-ODUyMTA0NDk2XX0=
+eyJoaXN0b3J5IjpbLTE3OTg0MzQ2NzUsLTIyMzYxODk2MiwtOT
+cwNzEzODQyLDg1MDIyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3
+Nzg4LC0xODY1ODQ2MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3Nz
+ksNTM4OTk2NDk1LC0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIy
+NTYzNDczLC05MDA2NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MT
+Q4LDE1MDgwOTY5MTgsLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwx
+OTM2Nzg0OTExXX0=
 -->
