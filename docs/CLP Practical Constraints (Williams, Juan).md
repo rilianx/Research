@@ -22,7 +22,7 @@ CLP Practical Constraints (continuación).
 - [X] **Verify the horizontal stability constraint**, i.e., the back surfaces of the boxes inside the block should be supported by the already placed boxes,
 - [ ] **Prioritize heavy blocks**
 - [ ] **Compute the overturning angle**
-- [ ] **
+- [X] **Verificar peso máximo soportado por el contendor**
 
 **Evaluating solutions (5)**
 - [ ] **Compute a factor for the overturning angle constraint**
@@ -328,11 +328,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg5OTY0ODksMTk3ODIyMDgxOCwtMj
-E0MjEzNzYzLC0yMjM2MTg5NjIsLTk3MDcxMzg0Miw4NTAyMjk0
-NTYsLTUwNDAzNjk2MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMC
-wxNDMyNjI4ODAwLC0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5
-MjA1NTgwLC0xMzkyMDU1ODAsMTAyMjU2MzQ3MywtOTAwNjUzOT
-MsLTg1OTIzOTY0NCwtMTU4ODAzNjE0OCwxNTA4MDk2OTE4LC0x
-NDIzMDExMjAxXX0=
+eyJoaXN0b3J5IjpbMTQ1MjQ1ODU1LDE5NzgyMjA4MTgsLTIxND
+IxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsODUwMjI5NDU2
+LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMT
+QzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5OTY0OTUsLTEzOTIw
+NTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0NzMsLTkwMDY1MzkzLC
+04NTkyMzk2NDQsLTE1ODgwMzYxNDgsMTUwODA5NjkxOCwtMTQy
+MzAxMTIwMV19
 -->
