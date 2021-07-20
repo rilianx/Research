@@ -8,7 +8,10 @@
 
 Recent papers have even highlighted ways to use NEAT and NEAT-like algorithms to evolved neural net structure and then use back propagation and gradient descent to optimize these networks, an area that I think is increasingly going to become relevant and important.
 
-**Encoding
+**Encoding**
+![image](https://i.imgur.com/jZyKXdR.png)
+
+
 
 
 ---
@@ -146,10 +149,10 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTI2Mzg3NSwyMDgxNjA4NzE1LC0xNT
-Q3OTI1NjgyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEsLTEyNzky
-NTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMzM0NjI3Mj
-EsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0y
-MDM4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMTY4MjU1Mz
-I5MSwtMTYxMTcxMjIwNSwtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbLTEzNjY1Njg5NzEsMjA4MTYwODcxNSwtMT
+U0NzkyNTY4MiwtMTU4ODc1MzMyNSwtMTcwMDg2NDYxLC0xMjc5
+MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYyNz
+IxLDE4NzU4NjI2MzYsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5Nywt
+MjAzODAzODkzMiwyNTUzMTQwMDUsLTc4ODcxNjY2LDE2ODI1NT
+MyOTEsLTE2MTE3MTIyMDUsLTIwODQ3MTkxMDhdfQ==
 -->
