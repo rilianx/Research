@@ -8,7 +8,7 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 
 - ==Implementar EstimateLB==
 - ==Regresión lineal para ajuste de pesos==
-- Cambiar estrategia de búsqueda (profe)
+- Comparar stack vs pqueue (profe)
 - Implementar filtrado de acciones.
 
 ---
@@ -139,11 +139,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05Mj
-A2OTU1NDMsLTEyMjc5MzEyNSwtMTEzOTIwMjM0Miw4ODk5MjU2
-OTQsNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNjM2ODgxMTAsLT
-E3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5NTAxLC0xODgx
-NjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3MDA1MCwyMDQ0MDYyMD
-UzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC0yMDM4MzU3MDY1LC05
-MjYwNTgzMzBdfQ==
+eyJoaXN0b3J5IjpbMTczNDUzMTY0MCwxOTExMDk0Mjg3LDEzMj
+YwNjE3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5MjAy
+MzQyLDg4OTkyNTY5NCw1OTg5MTU2MDQsLTIxMDc5NzU0MDksMT
+E2MzY4ODExMCwtMTczNjcxNTUyOSwtOTcwNTQwMzAyLC02MjQ4
+MTk1MDEsLTE4ODE2MTgwMTUsLTE4MTg3MTM5MjUsOTMwOTcwMD
+UwLDIwNDQwNjIwNTMsMTI2MTU5MzA5NSw3MzI5MTA2ODMsLTIw
+MzgzNTcwNjVdfQ==
 -->
