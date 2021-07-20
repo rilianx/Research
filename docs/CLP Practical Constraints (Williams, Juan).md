@@ -3,11 +3,13 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
-- Revisar código+paper y armar plan con tareas faltantes
-- [ ] Implementar algoritmo MCLP-BSG de paper
 - [ ] Modificar visualizador para colorear cajas de los clientes
-- Block Generator (2):
-	- 
+
+**General Strategy**
+- [ ] Implementar algoritmo MCLP-BSG de paper
+
+**Block Generator (2):**
+- [ ] Vertical blocks: place is such wa
 
 
 
@@ -307,11 +309,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg3NTE3MDUsLTIyMzYxODk2MiwtOT
-cwNzEzODQyLDg1MDIyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3
-Nzg4LC0xODY1ODQ2MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3Nz
-ksNTM4OTk2NDk1LC0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIy
-NTYzNDczLC05MDA2NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MT
-Q4LDE1MDgwOTY5MTgsLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwx
-OTM2Nzg0OTExXX0=
+eyJoaXN0b3J5IjpbODUyMjcyNzYxLC0yMjM2MTg5NjIsLTk3MD
+cxMzg0Miw4NTAyMjk0NTYsLTUwNDAzNjk2MSwtMjE0MjA4Nzc4
+OCwtMTg2NTg0NjIzMCwxNDMyNjI4ODAwLC0xMTAwNjQ1Nzc5LD
+UzODk5NjQ5NSwtMTM5MjA1NTgwLC0xMzkyMDU1ODAsMTAyMjU2
+MzQ3MywtOTAwNjUzOTMsLTg1OTIzOTY0NCwtMTU4ODAzNjE0OC
+wxNTA4MDk2OTE4LC0xNDIzMDExMjAxLC05NzAwNzY5MjksMTkz
+Njc4NDkxMV19
 -->
