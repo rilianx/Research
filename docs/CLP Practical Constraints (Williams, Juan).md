@@ -9,8 +9,10 @@ CLP Practical Constraints (continuación).
 - [ ] Implementar algoritmo MCLP-BSG de paper
 
 **Block Generator (2):**
+- [ ] Include variable for indicating the weights supported by blocks.
 - [ ] When vertical blocks are generated: **maximize the weight supoorted by the resulting block**: minimum between the upper box supported weight and the lower box supported weight minus the weight of the upper block.
 - [ ] 
+
 
 
 
@@ -310,11 +312,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE2ODU4NDcsLTIyMzYxODk2MiwtOT
-cwNzEzODQyLDg1MDIyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3
-Nzg4LC0xODY1ODQ2MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3Nz
-ksNTM4OTk2NDk1LC0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIy
-NTYzNDczLC05MDA2NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MT
-Q4LDE1MDgwOTY5MTgsLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwx
-OTM2Nzg0OTExXX0=
+eyJoaXN0b3J5IjpbMTAwNzcxMjg0LC0yMjM2MTg5NjIsLTk3MD
+cxMzg0Miw4NTAyMjk0NTYsLTUwNDAzNjk2MSwtMjE0MjA4Nzc4
+OCwtMTg2NTg0NjIzMCwxNDMyNjI4ODAwLC0xMTAwNjQ1Nzc5LD
+UzODk5NjQ5NSwtMTM5MjA1NTgwLC0xMzkyMDU1ODAsMTAyMjU2
+MzQ3MywtOTAwNjUzOTMsLTg1OTIzOTY0NCwtMTU4ODAzNjE0OC
+wxNTA4MDk2OTE4LC0xNDIzMDExMjAxLC05NzAwNzY5MjksMTkz
+Njc4NDkxMV19
 -->
