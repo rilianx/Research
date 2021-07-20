@@ -104,28 +104,9 @@ def search(layout, L, U): #lower y upperbound
 
 
 ### Búsqueda Diving
-````python
-def search(layout, L, U): #lower y upperbound
-   S = priority_queue() # por ahora
-   S.push(layout)
-   lbs = multiset() # aquí se guardan todos los lbs de menor a mayor
-   lbs.add(layout.unsorted_containers)
-   while S is not empty:
-      n = S.pop(); lbs.remove(n.unsorted_containers)
-      u = greedy(n) # compute upper bound
-      if u < U: 
-         U = ub
-         if L==U: return #termina algoritmo
-      ##
-      n.l = lower_bound(n)+n.steps;
-      if n.l >= U: continue
-      children = get_children(n) 
-      # en paper ordenan los nodos antes de guardarlos usando 7 criterios
-      for each c in children:
-         S.push(c)
-         lbs.add(c.unsorted_containers)
-      L = first(lbs) # primer valor del multiset
-````
+Bastaría con modificar la función de evaluación:
+1000*gre_child - lb
+
 
 ### Componentes claves del paper (deberíamos replicar)
 
@@ -158,11 +139,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjA2MTc4NSwtOTIwNjk1NTQzLC0xMj
-I3OTMxMjUsLTExMzkyMDIzNDIsODg5OTI1Njk0LDU5ODkxNTYw
-NCwtMjEwNzk3NTQwOSwxMTYzNjg4MTEwLC0xNzM2NzE1NTI5LC
-05NzA1NDAzMDIsLTYyNDgxOTUwMSwtMTg4MTYxODAxNSwtMTgx
-ODcxMzkyNSw5MzA5NzAwNTAsMjA0NDA2MjA1MywxMjYxNTkzMD
-k1LDczMjkxMDY4MywtMjAzODM1NzA2NSwtOTI2MDU4MzMwLC0x
-NzU0MDE0Mjc4XX0=
+eyJoaXN0b3J5IjpbMjA5MDQyMDM5NSwxMzI2MDYxNzg1LC05Mj
+A2OTU1NDMsLTEyMjc5MzEyNSwtMTEzOTIwMjM0Miw4ODk5MjU2
+OTQsNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNjM2ODgxMTAsLT
+E3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5NTAxLC0xODgx
+NjE4MDE1LC0xODE4NzEzOTI1LDkzMDk3MDA1MCwyMDQ0MDYyMD
+UzLDEyNjE1OTMwOTUsNzMyOTEwNjgzLC0yMDM4MzU3MDY1LC05
+MjYwNTgzMzBdfQ==
 -->
