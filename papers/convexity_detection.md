@@ -25,6 +25,15 @@ In order to avoid non-functional networks, NEAT marks new evolutions with a hist
 **Speciation**
 Adding new connection without optimizing weight generally leads to low performances. Speciation simply splits up the population into several species based on the similarity of topology and connections by using some criteria. Individuals in a population only have to compete with other individuals within that species.
 
+---
+
+### [A Survey of Evolutionary Algorithms for Decision Tree Induction](https://www.researchgate.net/profile/Rodrigo-Barros-10/publication/224243034_A_Survey_of_Evolutionary_Algorithms_for_Decision-Tree_Induction/links/0fcfd5097f0908a83f000000/A-Survey-of-Evolutionary-Algorithms-for-Decision-Tree-Induction.pdf)
+
+Evolutionary design of components can be divided into:
+
+- Hyperplane evolution, where, at each tree node, an EA evolves a near-optimal (non-) linear combination of attributes for oblique trees;
+- Pruning method evolution, where an EA is used to handle pruning over an induced decision tree; 
+- Evolution of other methods, such as parameters of the impurity measure used to split nodes
 
 
 ---
@@ -162,11 +171,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMyNjQ3MzIsLTM3MTgwMDU3NSwtMT
-M2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4
-NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4Nj
-kyMywxNDIxMjg3MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwt
-MTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4OTMyLDI1NT
-MxNDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5MSwtMTYxMTcxMjIw
-NSwtMjA4NDcxOTEwOF19
+eyJoaXN0b3J5IjpbLTE0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLT
+M3MTgwMDU3NSwtMTM2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3
+OTI1NjgyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNT
+gzNjUsMTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMzM0NjI3MjEs
+MTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMD
+M4MDM4OTMyLDI1NTMxNDAwNSwtNzg4NzE2NjYsMTY4MjU1MzI5
+MSwtMTYxMTcxMjIwNV19
 -->
