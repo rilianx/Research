@@ -2,6 +2,7 @@
 
 - Buscar sobre NEAT, generación de agentes RF, 
 - Construcción de redes neuronales a partir de reglas heurísticas
+- 
 
 ---
 
@@ -138,7 +139,7 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjEyNjU0NCwtMTU0NzkyNTY4MiwtMT
+eyJoaXN0b3J5IjpbMjA4MTYwODcxNSwtMTU0NzkyNTY4MiwtMT
 U4ODc1MzMyNSwtMTcwMDg2NDYxLC0xMjc5MjU4MzY1LDEzNDg3
 ODY5MjMsMTQyMTI4NzExLC0xMTMzNDYyNzIxLDE4NzU4NjI2Mz
 YsLTE5MTAzNDQ0NDMsLTI4MjM5ODg5NywtMjAzODAzODkzMiwy
