@@ -5,13 +5,16 @@ CLP Practical Constraints (continuación).
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
 
-**General Strategy**
+**General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
 
 **Block Generator (2):**
 - [ ] Include variable for indicating the weights supported by blocks.
 - [ ] When vertical blocks are generated: **maximize the weight supported by the resulting block**: minimum between the upper box supported weight and the lower box supported weight minus the weight of the upper block.
 - [ ] When vertical blocks are generated: Compute the contact surface of both blocks, verify the corresponding constraint.
+
+**Selecting location of the next block (3)**
+- [X] Place the block in front or above the already placed blocks
 - [ ] 
 
 
@@ -313,7 +316,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzkxMzY5NCwtMjIzNjE4OTYyLC05Nz
+eyJoaXN0b3J5IjpbLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05Nz
 A3MTM4NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3
 ODgsLTE4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OS
 w1Mzg5OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1
