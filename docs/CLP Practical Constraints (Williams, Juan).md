@@ -24,7 +24,8 @@ CLP Practical Constraints (continuación).
 - [ ] **Compute the overturning angle**
 
 **Evaluating solutions (5)**
-- [ ] 
+- [ ] **Compute a factor for the overturning angle constraint**
+- [ ] **Compute a factor for the complete shipment constraint**
 
 
 
@@ -326,7 +327,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzM5NTM4OCwtMjE0MjEzNzYzLC0yMj
+eyJoaXN0b3J5IjpbMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC0yMj
 M2MTg5NjIsLTk3MDcxMzg0Miw4NTAyMjk0NTYsLTUwNDAzNjk2
 MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4ODAwLC
 0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5MjA1NTgwLC0xMzky
