@@ -17,7 +17,12 @@ If a new node is added, it is placed between two nodes that are already connecte
 
 ![image](https://i.imgur.com/zRGxXDs.png)
 
-*
+**Crossover**
+In order to avoid non-functional networks, NEAT marks new evolutions with a historical number. Thus, when it comes time to crossover two individuals, this can be done with much less chance of creating individuals that are non-functional. Each gene can be aligned and (potentially) crossed-over. Each time a new node or new type of connection occurs, a historical marking is assigned, allowing easy alignment when it comes to breed two of our individuals.
+
+![image](https://i.imgur.com/HIovF8O.png)
+
+
 
 ---
 
@@ -154,7 +159,7 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mjg2NzMwNSwtMzcxODAwNTc1LC0xMz
+eyJoaXN0b3J5IjpbMTY0NzMyMjAzNiwtMzcxODAwNTc1LC0xMz
 Y2NTY4OTcxLDIwODE2MDg3MTUsLTE1NDc5MjU2ODIsLTE1ODg3
 NTMzMjUsLTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OT
 IzLDE0MjEyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0x
