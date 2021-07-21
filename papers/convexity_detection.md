@@ -1,5 +1,6 @@
 ## TODO
 
+- 
 - Reinforcement learning with decision trees?
 - Construcción de redes neuronales a partir de reglas heurísticas
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
@@ -181,11 +182,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NT
-I2MDQzNTEsLTE0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3MTgw
-MDU3NSwtMTM2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1Nj
-gyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUs
-MTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMzM0NjI3MjEsMTg3NT
-g2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4ODk3LC0yMDM4MDM4
-OTMyLDI1NTMxNDAwNV19
+eyJoaXN0b3J5IjpbLTE2ODQxNzA4NDQsLTY1NjA0ODE5MywtMT
+IwMzE1MzAwLC02NTI2MDQzNTEsLTE0NDIzNzk1MjgsLTEyMTMy
+NjQ3MzIsLTM3MTgwMDU3NSwtMTM2NjU2ODk3MSwyMDgxNjA4Nz
+E1LC0xNTQ3OTI1NjgyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEs
+LTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxNDIxMjg3MTEsLTExMz
+M0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0NDQ0MywtMjgyMzk4
+ODk3LC0yMDM4MDM4OTMyXX0=
 -->
