@@ -1,7 +1,7 @@
 ## TODO
 
 - [Multi-objective optimisation of positively homogeneous functions and
-an application in radiation therapy](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
+an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Reinforcement learning with decision trees?
 - Construcción de redes neuronales a partir de reglas heurísticas
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
@@ -183,11 +183,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM0MjA4MDMsLTE2ODQxNzA4NDQsLT
-Y1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2MDQzNTEsLTE0NDIz
-Nzk1MjgsLTEyMTMyNjQ3MzIsLTM3MTgwMDU3NSwtMTM2NjU2OD
-k3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4NzUzMzI1
-LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4NjkyMywxND
-IxMjg3MTEsLTExMzM0NjI3MjEsMTg3NTg2MjYzNiwtMTkxMDM0
-NDQ0MywtMjgyMzk4ODk3XX0=
+eyJoaXN0b3J5IjpbLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNj
+U2MDQ4MTkzLC0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3
+OTUyOCwtMTIxMzI2NDczMiwtMzcxODAwNTc1LC0xMzY2NTY4OT
+cxLDIwODE2MDg3MTUsLTE1NDc5MjU2ODIsLTE1ODg3NTMzMjUs
+LTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OTIzLDE0Mj
+EyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0
+NDQzLC0yODIzOTg4OTddfQ==
 -->
