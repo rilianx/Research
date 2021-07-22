@@ -2,6 +2,7 @@
 
 - Lanzar experimentos con distintos parámetros y componentes
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
+	- Funciones del MultiSet ocupan gran parte del tiempo
 
 ---
 
@@ -151,11 +152,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMjk2MTE4LC02MDM4NDIzNTAsLTEzNz
-E2NzUyMDUsLTE4MjU0NDM1NjgsLTE4MjU0NDM1NjgsMTM1Njgy
-ODU2MCwxNTMzNTYxODU5LC00NjI1MDA1NjUsLTgwMzE4MjI1My
-wtMTQzMjI4NDA5NSw0MjI0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1
-MTg4NjEyLC03OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYyNT
-k5MiwzMzk4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAw
-Njc5MDQ4XX0=
+eyJoaXN0b3J5IjpbMTUyNTIzNDUxMiw4NjEyOTYxMTgsLTYwMz
+g0MjM1MCwtMTM3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMTgyNTQ0
+MzU2OCwxMzU2ODI4NTYwLDE1MzM1NjE4NTksLTQ2MjUwMDU2NS
+wtODAzMTgyMjUzLC0xNDMyMjg0MDk1LDQyMjQ3Nzc4NiwtMTY5
+MjUzNTI5MSwzODUxODg2MTIsLTc5MTk0NDIzNSwxMTk5MTQ4Mj
+gyLC0xMzQ2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEwMywxNDk0
+OTkwMDcyXX0=
 -->
