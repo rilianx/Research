@@ -5,7 +5,7 @@
 	- Funciones del MultiSet ocupan gran parte del tiempo
 
 Solución (cuello de botella):
-- Mantener items no seleccionados en la clase mochila
+- Mantener items no seleccionados en la clase mochila ordenados por ratio
 
 ---
 
@@ -155,11 +155,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMzAzMjM4LDg2MTI5NjExOCwtNjAzOD
-QyMzUwLC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1NDQz
-NTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC
-04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjky
-NTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyOD
-IsLTEzNDY2MjU5OTIsMzM5ODMyMzA1LDk1OTM2MTAzLDE0OTQ5
-OTAwNzJdfQ==
+eyJoaXN0b3J5IjpbMTM3MTE1MDE2NSw4NDEzMDMyMzgsODYxMj
+k2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLTE4MjU0NDM1
+NjgsLTE4MjU0NDM1NjgsMTM1NjgyODU2MCwxNTMzNTYxODU5LC
+00NjI1MDA1NjUsLTgwMzE4MjI1MywtMTQzMjI4NDA5NSw0MjI0
+Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQyMz
+UsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOTU5
+MzYxMDNdfQ==
 -->
