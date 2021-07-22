@@ -2,7 +2,7 @@ Predicting student performance in computing courses based on programming behavio
 ==
 
 ### TODO
-- Explicar procedimiento
+
 - Repasar experimentos (nuevos resultados)
 - Repasar introducción (contribuciones)
 - Conclusiones
@@ -16,10 +16,11 @@ Predicting student performance in computing courses based on programming behavio
 - Metrics
 - Experiments
 	- Data Collection y variables :ok:
-	- Procedure
-	- Correlación de variables
-	- Modelos predictivos
-	- Análisis de predictores
+	- Procedure  :ok:
+	- Results
+		- Correlación de variables
+		- Modelos predictivos
+		- Análisis de predictores
 - Conclusiones
 
 Links:
@@ -187,11 +188,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYyNjE0MjUsLTIwMjQyNzU3MDEsOD
-YxMzc1ODAsMTg4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4
-LDE4NDg3OTY4MzMsLTEwODYxNDQ2NDYsLTU2NjU0Nzc5MCwtMT
-A4MjgwODc0NiwxOTU1MDUyMzY0LC0xNzM3NjU2NTUwLC0yMjEx
-OTMwNjcsNzQyOTU3MTMsMjA0MzYwMDA0NSwxNDY5Mzc5NTUxLC
-0xMjQwMTE1MTEyLDE5NzY4ODE0OTEsLTEwNDU0Mzk4NjUsLTkx
-MDk5NDI1XX0=
+eyJoaXN0b3J5IjpbLTQ2ODg3ODkzNyw5MjQ3ODA1MDgsLTE3MT
+M0OTQ5MDEsMzE5NjIxNTY1LC0xNzg2MjYxNDI1LC0yMDI0Mjc1
+NzAxLDg2MTM3NTgwLDE4ODY1MzM0NTUsMjA1NDkzMjUxOSwyNj
+U4ODE2OCwxODQ4Nzk2ODMzLC0xMDg2MTQ0NjQ2LC01NjY1NDc3
+OTAsLTEwODI4MDg3NDYsMTk1NTA1MjM2NCwtMTczNzY1NjU1MC
+wtMjIxMTkzMDY3LDc0Mjk1NzEzLDIwNDM2MDAwNDUsMTQ2OTM3
+OTU1MV19
 -->

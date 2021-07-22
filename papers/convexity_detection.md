@@ -1,5 +1,51 @@
 ## TODO
 
+- [Multi-objective optimisation of positively homogeneous functions and
+an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
+- Reinforcement learning with decision trees?
+- Construcción de redes neuronales a partir de reglas heurísticas
+- KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
+
+### [NEAT and Neuroevolution](https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f)
+
+Recent papers have even highlighted ways to use NEAT and NEAT-like algorithms to evolved neural net structure and then use back propagation and gradient descent to optimize these networks, an area that I think is increasingly going to become relevant and important.
+
+**Encoding**
+![image](https://i.imgur.com/jZyKXdR.png)
+
+**Mutation**
+In NEAT, mutation can either mutate existing connections or can add new structure to a network.
+If a new node is added, it is placed between two nodes that are already connected. The previous connection is disabled (though still present in the genome). The previous start node is linked to the new node with the weight of the old connection and the new node is linked to the previous end node with a weight of 1. This was found to help mitigate issues with new structural additions.
+
+![image](https://i.imgur.com/zRGxXDs.png)
+
+**Crossover**
+In order to avoid non-functional networks, NEAT marks new evolutions with a historical number. Thus, when it comes time to crossover two individuals, this can be done with much less chance of creating individuals that are non-functional. Each gene can be aligned and (potentially) crossed-over. Each time a new node or new type of connection occurs, a historical marking is assigned, allowing easy alignment when it comes to breed two of our individuals.
+
+![image](https://i.imgur.com/HIovF8O.png)
+
+**Speciation**
+Adding new connection without optimizing weight generally leads to low performances. Speciation simply splits up the population into several species based on the similarity of topology and connections by using some criteria. Individuals in a population only have to compete with other individuals within that species.
+
+---
+
+### [A Survey of Evolutionary Algorithms for Decision Tree Induction](https://www.researchgate.net/profile/Rodrigo-Barros-10/publication/224243034_A_Survey_of_Evolutionary_Algorithms_for_Decision-Tree_Induction/links/0fcfd5097f0908a83f000000/A-Survey-of-Evolutionary-Algorithms-for-Decision-Tree-Induction.pdf)
+
+Evolutionary design of components can be divided into:
+
+- Hyperplane evolution, where, at each tree node, an EA evolves a near-optimal (non-) linear combination of attributes for oblique trees;
+- Pruning method evolution, where an EA is used to handle pruning over an induced decision tree; 
+- Evolution of other methods, such as parameters of the impurity measure used to split nodes
+
+**Encoding**
+
+Axis-Parallel Decision Trees (node representation)
+![image](https://i.imgur.com/8EPOuwt.png)
+In[35-37] a similar approach is used. $node = \{t, label, P, L, R, id, value, size\}$, where $t$ is the node number ($t = 0$ is the root node), $label$ is the class label of a terminal node (meaningful only for terminal nodes), $P$ is a pointer for the parent node, $L$ and $R$ are pointers to the left and right children, respectively (null for terminal nodes). The decision related to the node is $feature[id] < value$.
+
+**Oblique Decision Trees**
+Bot and Langdon [33], [92] propose a GP for evolving oblique decision trees.
+A function node has as its children a tuple $({w_i , x_i}, threshold, ifT rue, ifF lse)$, where $w_i$ and $x_i$ are the $i$-th weight constant and attribute pair, respectively.
 
 
 ---
@@ -137,10 +183,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc5MjU2ODIsLTE1ODg3NTMzMjUsLT
-E3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OTIzLDE0MjEy
-ODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0ND
-QzLC0yODIzOTg4OTcsLTIwMzgwMzg5MzIsMjU1MzE0MDA1LC03
-ODg3MTY2NiwxNjgyNTUzMjkxLC0xNjExNzEyMjA1LC0yMDg0Nz
-E5MTA4XX0=
+eyJoaXN0b3J5IjpbLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNj
+U2MDQ4MTkzLC0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3
+OTUyOCwtMTIxMzI2NDczMiwtMzcxODAwNTc1LC0xMzY2NTY4OT
+cxLDIwODE2MDg3MTUsLTE1NDc5MjU2ODIsLTE1ODg3NTMzMjUs
+LTE3MDA4NjQ2MSwtMTI3OTI1ODM2NSwxMzQ4Nzg2OTIzLDE0Mj
+EyODcxMSwtMTEzMzQ2MjcyMSwxODc1ODYyNjM2LC0xOTEwMzQ0
+NDQzLC0yODIzOTg4OTddfQ==
 -->

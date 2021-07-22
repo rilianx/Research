@@ -1,9 +1,32 @@
 ### TODO
 
-- Reparar eliminación de elemento random
+- Pasar a punteros, usar unordered_set cuando sea posible
+- Mantener items no seleccionados en la clase mochila ordenados por ratio
 - Lanzar experimentos
-- Perturbación y selección de soluciones
-- Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
+
+**Experimentos**
+
+10 corridas (semillas aleatorias) para cada configuración -> script
+Promedio, y la mejor solución encontrada
+- Solución inicial: {Greedy, RGreedy}
+- Porcentaje del RGreedy: {fijo, 5%, 10%, 20%}
+- no_improvements (swap): 50
+- perturbation: {0-3} swaps (sin importar si mejoran o no)
+- iteraciones de la estrategia: 10
+Reportar: RGreedy, perturbation, promedios y mejor (solución inicial, solución alcanzada)
+
+**Graficar convergencia** (beneficio vs. iteraciones), para 1 o dos instancias --> sin perturbación
+x: iteraciones de la búsqueda local  (swaps)
+y: evaluación
+
+
+---
+
+### Plan
+
+- Terminar algoritmo ILS base: Grasp + local search + perturbations
+- Experimentos de validación
+- Agregar aprendizaje: seleccionar solución prometedora (luego de perturbación) para recomenzar búsqueda local. 
 
 ----
 
@@ -20,27 +43,13 @@
   - Seleccionar elemento random, y sacar todos los items asociados de la mochila
   - Aplicar Greedy/GRASP a la solución 
 	
-**Parámetros del algoritmo**
-
-- Porcentaje del RGreedy: {10%, 20%, 50%}
-- no_improvements (swap): 50
-- perturbation: {1-3} swaps (sin importar si mejoran o no)
-- iteraciones de la estrategia: 10
-
 **[Instancias de prueba](https://www.researchgate.net/publication/336126211_Three_kinds_of_SUKP_instances)**
 - Profit de items
 - Peso de elementos
 - Matriz elementos x item
 
-**Experimentos**
 
-Probar distintas combinaciones de parámetros. Comparar (10 corridas aleatorias):
-- Greedy
-- RGreedy
-- RGreedy+swaps
-- RGreedy+swaps+pert
 
-Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
 
 
 ---
@@ -84,7 +93,7 @@ def solve()
 def local_search(s): # hill_climbing
     #moves: (item a sacar, item a colocar, mejora)
     no_improvements = 0
-    while no_improvements < 100:
+    while no_improvements < 50:
        m = generar movimiento aletaroio (considerandos swaps) 
        si m mejora: 
 	       s = s.apply(m)
@@ -141,11 +150,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU0NDM1NjgsMTM1NjgyODU2MCwxNT
-MzNTYxODU5LC00NjI1MDA1NjUsLTgwMzE4MjI1MywtMTQzMjI4
-NDA5NSw0MjI0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC
-03OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4
-MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC
-0xNDg4ODk3NTU2LC02NjkxMDA3NTMsLTExODAyMTQwOTYsMTY2
-OTI1MDMyMV19
+eyJoaXN0b3J5IjpbLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OT
+c5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQyMzUw
+LC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1NDQzNTY4LD
+EzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04MDMx
+ODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjkyNTM1Mj
+kxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyODIsLTEz
+NDY2MjU5OTJdfQ==
 -->

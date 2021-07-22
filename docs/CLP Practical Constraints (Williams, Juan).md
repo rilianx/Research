@@ -3,7 +3,40 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
-- Revisar código+paper y armar plan con tareas faltantes
+- [ ] Modificar visualizador para colorear cajas de los clientes
+- [ ] **Supported_weight para cada blox** mantener estructura en cada aabb que permita saber cuáles solo los blox que la soportan. Además, cada vez que se agregan nuevas cajas, se deberían identificar sus supporting_bloxs y actualizar sus supported_weights.
+	- [ ] Obtención de supporting bloxs para un aabb dado
+	- [ ] Área de contacto entre dos bloxs.
+
+**General Strategy (1)**
+- [ ] Implementar algoritmo MCLP-BSG de paper
+
+**Block Generator (2):**
+- [ ] When vertical blocks are generated: **maximize the weight supported by the resulting block**: minimum between the upper boxes supported weight and the lower box supported weight minus the weight of the upper block.
+- [X] Verify the vertical stability constraint
+- [ ]  Verify the horizontal stability constraint
+
+**Selecting location of the next block (3)**
+- [X] Place the block in front or above the already placed blocks. Back and bottom locations are preferred.
+
+**Selecting the next block (4)**
+- [ ] **Verify the vertical stability constraint** for each evaluated block.
+- [ ] **Verify the load bearing constraint** for each evaluated block. Compute the supported weight by blocks just below b.
+- [X] **Verify the horizontal stability constraint**, i.e., the back surfaces of the boxes inside the block should be supported by the already placed boxes,
+- [ ] **Prioritize heavy blocks**
+- [ ] **Compute the overturning angle**
+- [X] **Verificar peso máximo soportado por el contendor**
+
+**Evaluating solutions (5)**
+- [ ] **Compute a factor for the overturning angle constraint**
+- [ ] **Compute a factor for the complete shipment constraint**
+
+
+
+---
+
+
+
 
 **Observaciones presentación**
 - Organizar mejor
@@ -298,11 +331,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzYxODk2MiwtOTcwNzEzODQyLDg1MD
-IyOTQ1NiwtNTA0MDM2OTYxLC0yMTQyMDg3Nzg4LC0xODY1ODQ2
-MjMwLDE0MzI2Mjg4MDAsLTExMDA2NDU3NzksNTM4OTk2NDk1LC
-0xMzkyMDU1ODAsLTEzOTIwNTU4MCwxMDIyNTYzNDczLC05MDA2
-NTM5MywtODU5MjM5NjQ0LC0xNTg4MDM2MTQ4LDE1MDgwOTY5MT
-gsLTE0MjMwMTEyMDEsLTk3MDA3NjkyOSwxOTM2Nzg0OTExLC0x
-ODUyMTA0NDk2XX0=
+eyJoaXN0b3J5IjpbNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5Nz
+gyMjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4
+NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLT
+E4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5
+OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0Nz
+MsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgwMzYxNDgsMTUw
+ODA5NjkxOF19
 -->
