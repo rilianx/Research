@@ -42,7 +42,7 @@
 
 10 corridas (semillas aleatorias) para cada configuración -> script
 Promedio, y la mejor solución encontrada
-- Porcentaje del RGreedy: {10%, 20%, 50%}
+- Porcentaje del RGreedy: {fijo, 5%, 10%, 20%}
 - no_improvements (swap): 50
 - perturbation: {1-3} swaps (sin importar si mejoran o no)
 - iteraciones de la estrategia: 10
@@ -150,11 +150,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMT
-gyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1
-NjE4NTksLTQ2MjUwMDU2NSwtODAzMTgyMjUzLC0xNDMyMjg0MD
-k1LDQyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2MTIsLTc5
-MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMj
-MwNSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0
-ODg4OTc1NTZdfQ==
+eyJoaXN0b3J5IjpbNjIyNDMzMDEwLC02MDM4NDIzNTAsLTEzNz
+E2NzUyMDUsLTE4MjU0NDM1NjgsLTE4MjU0NDM1NjgsMTM1Njgy
+ODU2MCwxNTMzNTYxODU5LC00NjI1MDA1NjUsLTgwMzE4MjI1My
+wtMTQzMjI4NDA5NSw0MjI0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1
+MTg4NjEyLC03OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYyNT
+k5MiwzMzk4MzIzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAw
+Njc5MDQ4XX0=
 -->
