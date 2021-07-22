@@ -90,7 +90,7 @@ def solve()
 def local_search(s): # hill_climbing
     #moves: (item a sacar, item a colocar, mejora)
     no_improvements = 0
-    while no_improvements < 100:
+    while no_improvements < 50:
        m = generar movimiento aletaroio (considerandos swaps) 
        si m mejora: 
 	       s = s.apply(m)
@@ -147,11 +147,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE2NzUyMDUsLTE4MjU0NDM1NjgsLT
-E4MjU0NDM1NjgsMTM1NjgyODU2MCwxNTMzNTYxODU5LC00NjI1
-MDA1NjUsLTgwMzE4MjI1MywtMTQzMjI4NDA5NSw0MjI0Nzc3OD
-YsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQyMzUsMTE5
-OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOTU5MzYxMD
-MsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0xNDg4ODk3NTU2LC02
-NjkxMDA3NTNdfQ==
+eyJoaXN0b3J5IjpbNjUyNTQzNTM3LC0xMzcxNjc1MjA1LC0xOD
+I1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2
+MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0MzIyODQwOT
+UsNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkx
+OTQ0MjM1LDExOTkxNDgyODIsLTEzNDY2MjU5OTIsMzM5ODMyMz
+A1LDk1OTM2MTAzLDE0OTQ5OTAwNzIsMTQwMDY3OTA0OCwtMTQ4
+ODg5NzU1Nl19
 -->
