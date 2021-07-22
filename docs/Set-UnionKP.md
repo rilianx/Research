@@ -2,7 +2,23 @@
 
 - Pasar a punteros, usar unordered_set cuando sea posible
 - Mantener items no seleccionados en la clase mochila ordenados por ratio
-- Lanzar experimentos con distintos parámetros y componentes
+- Lanzar experimentos
+
+**Experimentos**
+
+10 corridas (semillas aleatorias) para cada configuración -> script
+Promedio, y la mejor solución encontrada
+- Solución inicial: {Greedy, RGreedy}
+- Porcentaje del RGreedy: {fijo, 5%, 10%, 20%}
+- no_improvements (swap): 50
+- perturbation: {0-3} swaps (sin importar si mejoran o no)
+- iteraciones de la estrategia: 10
+Reportar: RGreedy, perturbation, promedios y mejor (solución inicial, solución alcanzada)
+
+**Graficar convergencia** (beneficio vs. iteraciones), para 1 o dos instancias --> sin perturbación
+x: iteraciones de la búsqueda local  (swaps)
+y: evaluación
+
 
 ---
 
@@ -32,20 +48,8 @@
 - Peso de elementos
 - Matriz elementos x item
 
-**Experimentos**
 
-10 corridas (semillas aleatorias) para cada configuración -> script
-Promedio, y la mejor solución encontrada
-- Solución inicial: {Greedy, RGreedy}
-- Porcentaje del RGreedy: {fijo, 5%, 10%, 20%}
-- no_improvements (swap): 50
-- perturbation: {0-3} swaps (sin importar si mejoran o no)
-- iteraciones de la estrategia: 10
-Reportar: RGreedy, perturbation, promedios y mejor (solución inicial, solución alcanzada)
 
-**Graficar convergencia** (beneficio vs. iteraciones), para 1 o dos instancias --> sin perturbación
-x: iteraciones de la búsqueda local  (swaps)
-y: evaluación
 
 
 ---
@@ -146,11 +150,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzE3Nzk5NSwxNzk3OTA3NzIwLDg0MT
-MwMzIzOCw4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMTM3MTY3NTIw
-NSwtMTgyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLD
-E1MzM1NjE4NTksLTQ2MjUwMDU2NSwtODAzMTgyMjUzLC0xNDMy
-Mjg0MDk1LDQyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2MT
-IsLTc5MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMz
-OTgzMjMwNV19
+eyJoaXN0b3J5IjpbLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OT
+c5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQyMzUw
+LC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1NDQzNTY4LD
+EzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04MDMx
+ODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjkyNTM1Mj
+kxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyODIsLTEz
+NDY2MjU5OTJdfQ==
 -->
