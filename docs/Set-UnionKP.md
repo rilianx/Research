@@ -40,6 +40,8 @@
 
 **Experimentos**
 
+- 
+
 Probar distintas combinaciones de parámetros. Comparar (10 corridas aleatorias):
 - Greedy
 - RGreedy
@@ -147,11 +149,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyNTQzNTM3LC0xMzcxNjc1MjA1LC0xOD
-I1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2
-MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0MzIyODQwOT
-UsNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkx
-OTQ0MjM1LDExOTkxNDgyODIsLTEzNDY2MjU5OTIsMzM5ODMyMz
-A1LDk1OTM2MTAzLDE0OTQ5OTAwNzIsMTQwMDY3OTA0OCwtMTQ4
-ODg5NzU1Nl19
+eyJoaXN0b3J5IjpbNDcyODYxNiwtMTM3MTY3NTIwNSwtMTgyNT
+Q0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1NjE4
+NTksLTQ2MjUwMDU2NSwtODAzMTgyMjUzLC0xNDMyMjg0MDk1LD
+QyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2MTIsLTc5MTk0
+NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMjMwNS
+w5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0ODg4
+OTc1NTZdfQ==
 -->
