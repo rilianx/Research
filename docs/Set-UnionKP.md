@@ -1,11 +1,8 @@
 ### TODO
 
-- Lanzar experimentos con distintos parámetros y componentes
-- Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
-	- Funciones del MultiSet ocupan gran parte del tiempo
-
-Solución (cuello de botella):
+- Pasar a punteros
 - Mantener items no seleccionados en la clase mochila ordenados por ratio
+- Lanzar experimentos con distintos parámetros y componentes
 
 ---
 
@@ -149,11 +146,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzkwNzcyMCw4NDEzMDMyMzgsODYxMj
-k2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLTE4MjU0NDM1
-NjgsLTE4MjU0NDM1NjgsMTM1NjgyODU2MCwxNTMzNTYxODU5LC
-00NjI1MDA1NjUsLTgwMzE4MjI1MywtMTQzMjI4NDA5NSw0MjI0
-Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQyMz
-UsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOTU5
-MzYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTMyODUwODEzNCwxNzk3OTA3NzIwLDg0MT
+MwMzIzOCw4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMTM3MTY3NTIw
+NSwtMTgyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLD
+E1MzM1NjE4NTksLTQ2MjUwMDU2NSwtODAzMTgyMjUzLC0xNDMy
+Mjg0MDk1LDQyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2MT
+IsLTc5MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMz
+OTgzMjMwNV19
 -->
