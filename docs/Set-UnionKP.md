@@ -30,13 +30,6 @@ Solución (cuello de botella):
   - Seleccionar elemento random, y sacar todos los items asociados de la mochila
   - Aplicar Greedy/GRASP a la solución 
 	
-**Parámetros del algoritmo**
-
-- Porcentaje del RGreedy: {10%, 20%, 50%}
-- no_improvements (swap): 50
-- perturbation: {1-3} swaps (sin importar si mejoran o no)
-- iteraciones de la estrategia: 10
-
 **[Instancias de prueba](https://www.researchgate.net/publication/336126211_Three_kinds_of_SUKP_instances)**
 - Profit de items
 - Peso de elementos
@@ -155,11 +148,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTE1MDE2NSw4NDEzMDMyMzgsODYxMj
-k2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLTE4MjU0NDM1
-NjgsLTE4MjU0NDM1NjgsMTM1NjgyODU2MCwxNTMzNTYxODU5LC
-00NjI1MDA1NjUsLTgwMzE4MjI1MywtMTQzMjI4NDA5NSw0MjI0
-Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03OTE5NDQyMz
-UsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4MzIzMDUsOTU5
-MzYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzcwNzM5NjgsODQxMzAzMjM4LDg2MT
+I5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xODI1NDQz
+NTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OS
+wtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIy
+NDc3Nzg2LC0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0Mj
+M1LDExOTkxNDgyODIsLTEzNDY2MjU5OTIsMzM5ODMyMzA1LDk1
+OTM2MTAzXX0=
 -->
