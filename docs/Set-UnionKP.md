@@ -4,6 +4,9 @@
 - Identificar cuellos de botella ([gprof](https://www.thegeekstuff.com/2012/08/gprof-tutorial/))
 	- Funciones del MultiSet ocupan gran parte del tiempo
 
+Solución (cuello de botella):
+- Mantener items no seleccionados en la clase mochila
+
 ---
 
 ### Plan
@@ -152,11 +155,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTIzNDUxMiw4NjEyOTYxMTgsLTYwMz
-g0MjM1MCwtMTM3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMTgyNTQ0
-MzU2OCwxMzU2ODI4NTYwLDE1MzM1NjE4NTksLTQ2MjUwMDU2NS
-wtODAzMTgyMjUzLC0xNDMyMjg0MDk1LDQyMjQ3Nzc4NiwtMTY5
-MjUzNTI5MSwzODUxODg2MTIsLTc5MTk0NDIzNSwxMTk5MTQ4Mj
-gyLC0xMzQ2NjI1OTkyLDMzOTgzMjMwNSw5NTkzNjEwMywxNDk0
-OTkwMDcyXX0=
+eyJoaXN0b3J5IjpbODQxMzAzMjM4LDg2MTI5NjExOCwtNjAzOD
+QyMzUwLC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1NDQz
+NTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC
+04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjky
+NTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyOD
+IsLTEzNDY2MjU5OTIsMzM5ODMyMzA1LDk1OTM2MTAzLDE0OTQ5
+OTAwNzJdfQ==
 -->
