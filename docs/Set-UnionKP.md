@@ -48,7 +48,9 @@ Promedio, y la mejor solución encontrada
 - iteraciones de la estrategia: 10
 
 
-Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias.
+Graficar convergencia (beneficio vs. iteraciones), para 1 o dos instancias --> sin perturbación
+x: iteraciones de la búsqueda local 
+y: evaluación
 
 
 ---
@@ -149,11 +151,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDg4Mzg4MywtMTM3MTY3NTIwNSwtMT
-gyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1
-NjE4NTksLTQ2MjUwMDU2NSwtODAzMTgyMjUzLC0xNDMyMjg0MD
-k1LDQyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2MTIsLTc5
-MTk0NDIzNSwxMTk5MTQ4MjgyLC0xMzQ2NjI1OTkyLDMzOTgzMj
-MwNSw5NTkzNjEwMywxNDk0OTkwMDcyLDE0MDA2NzkwNDgsLTE0
-ODg4OTc1NTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDI5MDU1MjEsLTEzNzE2NzUyMDUsLT
+E4MjU0NDM1NjgsLTE4MjU0NDM1NjgsMTM1NjgyODU2MCwxNTMz
+NTYxODU5LC00NjI1MDA1NjUsLTgwMzE4MjI1MywtMTQzMjI4ND
+A5NSw0MjI0Nzc3ODYsLTE2OTI1MzUyOTEsMzg1MTg4NjEyLC03
+OTE5NDQyMzUsMTE5OTE0ODI4MiwtMTM0NjYyNTk5MiwzMzk4Mz
+IzMDUsOTU5MzYxMDMsMTQ5NDk5MDA3MiwxNDAwNjc5MDQ4LC0x
+NDg4ODk3NTU2XX0=
 -->
