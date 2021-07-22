@@ -79,7 +79,7 @@ def eval_genome(genome, config):
             if ev > best_ev: best_ev=ev
         fitness+=best_ev
 
-    fitness/=5.0
+    fitness/=8.0
     return fitness
 
 def eval_genomes(genomes, config):
@@ -141,7 +141,7 @@ def run(config_file):
     p.add_reporter(neat.Checkpointer(50))
 
     # Run for up to 5000 generations.
-    winner = p.run(eval_genomes, 5000)
+    winner = p.run(evaluator.evaluate, 5000)
 
     # Display the winning genome.
     print('\nBest genome:\n{!s}'.format(winner))
