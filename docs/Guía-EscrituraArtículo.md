@@ -5,7 +5,6 @@
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
 **TODO**
-- Revisar si existe error con esos puntos
 - Si el punto se encuentra en parte inferior de la caja pequeña, expandir la caja en Y2.
 - Eliminar puntos dominados
 - Graficar resultados de Ibex para comparar
@@ -137,11 +136,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYwNDc4OTQsLTEwNzU1OTA2MjAsLT
-E0MzkwNTQzNjMsLTY1NTc1MDY3NCwxMjU5NjA0MDYzLDExOTEw
-NjEzNTgsLTE5OTA4NDk3NzAsLTEyNjA5NDY1ODYsLTU0NzIyMz
-IzMSw0NDg3OTE3NjQsMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC04
-MTg1MzA0MTksNDU3NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcyNz
-gsODc1MzM3OTAyLDE4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1
-NTc4OTU3Ml19
+eyJoaXN0b3J5IjpbMjA2MjkxNDU0NCwtMTA3NTU5MDYyMCwtMT
+QzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2MDQwNjMsMTE5MTA2
+MTM1OCwtMTk5MDg0OTc3MCwtMTI2MDk0NjU4NiwtNTQ3MjIzMj
+MxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgx
+ODUzMDQxOSw0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1ODgxNzI3OC
+w4NzUzMzc5MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4LC0xODU1
+Nzg5NTcyXX0=
 -->
