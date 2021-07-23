@@ -7,6 +7,7 @@
 **TODO**
 - Si el punto se encuentra en parte inferior de la caja pequeña, expandir la caja en Y2.
 - Eliminar puntos dominados
+- 
 - Graficar resultados de Ibex para comparar
 - Reparar algoritmo
 
@@ -136,11 +137,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjkxNDU0NCwtMTA3NTU5MDYyMCwtMT
-QzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2MDQwNjMsMTE5MTA2
-MTM1OCwtMTk5MDg0OTc3MCwtMTI2MDk0NjU4NiwtNTQ3MjIzMj
-MxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgx
-ODUzMDQxOSw0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1ODgxNzI3OC
-w4NzUzMzc5MDIsMTg3MzMzNzAwNywyMDg5NTY0OTY4LC0xODU1
-Nzg5NTcyXX0=
+eyJoaXN0b3J5IjpbLTE4ODg2NDgxMSwyMDYyOTE0NTQ0LC0xMD
+c1NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3NTA2NzQsMTI1OTYw
+NDA2MywxMTkxMDYxMzU4LC0xOTkwODQ5NzcwLC0xMjYwOTQ2NT
+g2LC01NDcyMjMyMzEsNDQ4NzkxNzY0LDE3NDgwMjM2MTYsMTcx
+NzExNTA0NCwtODE4NTMwNDE5LDQ1NzQ4NTk2LC0xNjg2ODY2MT
+MsNDU4ODE3Mjc4LDg3NTMzNzkwMiwxODczMzM3MDA3LDIwODk1
+NjQ5NjhdfQ==
 -->
