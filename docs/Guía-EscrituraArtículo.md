@@ -5,6 +5,8 @@
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
 **TODO**
+- Revisar si existe erro con esos puntos
+- 
 - Graficar resultados de Ibex para comparar
 - Identificar errores SearchEfficient
 - Reparar algoritmo
@@ -135,11 +137,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkwNTQzNjMsLTY1NTc1MDY3NCwxMj
-U5NjA0MDYzLDExOTEwNjEzNTgsLTE5OTA4NDk3NzAsLTEyNjA5
-NDY1ODYsLTU0NzIyMzIzMSw0NDg3OTE3NjQsMTc0ODAyMzYxNi
-wxNzE3MTE1MDQ0LC04MTg1MzA0MTksNDU3NDg1OTYsLTE2ODY4
-NjYxMyw0NTg4MTcyNzgsODc1MzM3OTAyLDE4NzMzMzcwMDcsMj
-A4OTU2NDk2OCwtMTg1NTc4OTU3MiwxNjgzOTcyNDc0LDk0Njk1
-NjU3M119
+eyJoaXN0b3J5IjpbMTE4MjcwNDc3NiwtMTQzOTA1NDM2MywtNj
+U1NzUwNjc0LDEyNTk2MDQwNjMsMTE5MTA2MTM1OCwtMTk5MDg0
+OTc3MCwtMTI2MDk0NjU4NiwtNTQ3MjIzMjMxLDQ0ODc5MTc2NC
+wxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOSw0NTc0
+ODU5NiwtMTY4Njg2NjEzLDQ1ODgxNzI3OCw4NzUzMzc5MDIsMT
+g3MzMzNzAwNywyMDg5NTY0OTY4LC0xODU1Nzg5NTcyLDE2ODM5
+NzI0NzRdfQ==
 -->
