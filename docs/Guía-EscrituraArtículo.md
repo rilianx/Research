@@ -6,7 +6,7 @@
 
 **TODO**
 - Revisar si existe error con esos puntos
-- 
+- Si el punto se encuentra en parte inferior de 
 - Graficar resultados de Ibex para comparar
 - Reparar algoritmo
 
@@ -136,11 +136,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU1OTA2MjAsLTE0MzkwNTQzNjMsLT
-Y1NTc1MDY3NCwxMjU5NjA0MDYzLDExOTEwNjEzNTgsLTE5OTA4
-NDk3NzAsLTEyNjA5NDY1ODYsLTU0NzIyMzIzMSw0NDg3OTE3Nj
-QsMTc0ODAyMzYxNiwxNzE3MTE1MDQ0LC04MTg1MzA0MTksNDU3
-NDg1OTYsLTE2ODY4NjYxMyw0NTg4MTcyNzgsODc1MzM3OTAyLD
-E4NzMzMzcwMDcsMjA4OTU2NDk2OCwtMTg1NTc4OTU3MiwxNjgz
-OTcyNDc0XX0=
+eyJoaXN0b3J5IjpbMzQ0ODIzNzc4LC0xMDc1NTkwNjIwLC0xND
+M5MDU0MzYzLC02NTU3NTA2NzQsMTI1OTYwNDA2MywxMTkxMDYx
+MzU4LC0xOTkwODQ5NzcwLC0xMjYwOTQ2NTg2LC01NDcyMjMyMz
+EsNDQ4NzkxNzY0LDE3NDgwMjM2MTYsMTcxNzExNTA0NCwtODE4
+NTMwNDE5LDQ1NzQ4NTk2LC0xNjg2ODY2MTMsNDU4ODE3Mjc4LD
+g3NTMzNzkwMiwxODczMzM3MDA3LDIwODk1NjQ5NjgsLTE4NTU3
+ODk1NzJdfQ==
 -->
