@@ -6,8 +6,8 @@ def compute_sorted_elements(stack):
     
     return sorted_elements
 
-def gvalue(stack):
-    if len(stack)==0: return 100
+def gvalue(stack, max_value=100):
+    if len(stack)==0: return max_value
     else: return stack[-1]
     
     
@@ -26,6 +26,8 @@ class Layout:
         self.last_sd = None
         self.bsg_moves=[]
         self.prev_move=None
+        self.dismantling_stack=None
+        self.max_item=max(set().union(*stacks))
         
         j=0
         

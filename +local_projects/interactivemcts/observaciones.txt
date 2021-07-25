@@ -1,0 +1,7 @@
+CollectedData mantiene una lista de muestras (Data)
+Cada muestra (Data) debería estar compuesta de: información del árbol, nodos (N) y nodos seleccionados (S)
+
+En el archivo cada vez que llego a un ;, debería resetear StateMap
+
+La función eval_heuristic(v, data), debería recibir un Data de CollectedData y generar el ranking
+Verificar que eval_heuristic funcione correctamente antes de implementar HC.

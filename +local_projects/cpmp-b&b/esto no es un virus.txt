@@ -1,0 +1,9 @@
+cd desktop/......carpeta donde esta el cpmp
+
+g++ Greedy.cpp Layout.cpp Bsg.cpp main_cpmp.cpp -o feg -std=c++11
+
+
+
+#Ejemplo para correr instancia
+.\feg 5 ..\Instancias\CVS\3-3\data3-3-1.dat 0 --FERG
+

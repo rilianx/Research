@@ -26,7 +26,24 @@ def SF_move_(layout, pos=0):
     if len(actions)>pos: 
         min_df, s_o, s_d = actions[pos]
         return (s_o, s_d), len(actions)
-    return False, len(actions)
+    return False, min_dif
+
+def SF_moves(layout):
+    s_o = None
+    s_d = None
+    min_dif = 10000
+    actions = []
+    
+    for i in range(len(layout.stacks)):
+        h = len(layout.stacks[i])
+        if(layout.is_sorted_stack(i) and h < layout.H):      
+            top = Layout.gvalue(layout.stacks[i])
+            for k in range(len(layout.stacks)):
+                h = len(layout.stacks[k])
+                if not layout.is_sorted_stack(k) and layout.stacks[k][-1] <= top :
+                        actions.append( (top - layout.stacks[k][-1], k, i))
+    actions.sort()
+    return actions
 
 def SF_move(layout, pos=0):
     s, n_act = SF_move_(layout, pos)

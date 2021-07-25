@@ -1,0 +1,1059 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Creating Beautiful Presentations with Story</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://story.xaprb.com/index.xml">
+		<link rel="canonical" href="https://story.xaprb.com/slides/adirondack/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://story.xaprb.com/apple-touch-icon-precomposed.png">
+		<meta name="description" content="Story&rsquo;s Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts.">
+		
+		<meta name="generator" content="Hugo 0.47.1" />
+
+		
+		<meta property="og:title" content="Creating Beautiful Presentations with Story" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://story.xaprb.com/slides/adirondack/thumbnail.jpg" />
+		<meta property="og:description" content="Story&rsquo;s Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts." />
+		<meta property="og:url" content="https://story.xaprb.com/slides/adirondack/" />
+		<meta property="og:site_name" content="Creating Beautiful Presentations with Story" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@xaprb" />
+
+
+		
+					<link rel="stylesheet" type="text/css" href="https://story.xaprb.com/css/apron.css"></style>
+					<link rel="stylesheet" type="text/css" href="https://story.xaprb.com/css/descartes.css"></style>
+					<link rel="stylesheet" type="text/css" href="https://story.xaprb.com/css/adirondack.css"></style><style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.css" integrity="sha384-TEMocfGvRuD1rIAacqrknm5BQZ7W7uWitoih+jMNFXQIbNl16bO8OZmylH/Vi/Ei" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.js" integrity="sha384-jmxIlussZWB7qCuB+PgKG1uLjjxbVVIayPJwi6cG6Zb4YKq0JIw+OMnkkEC7kYCq" crossorigin="anonymous"></script>
+		<script src="https://story.xaprb.com/js/auto-render.min.js"></script> <script src="https://story.xaprb.com/js/abcjs_basic_5.6.3-min.js"></script>
+		<script src="https://story.xaprb.com/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-slides page-kind-page is-page-true  feature-math feature-qrcode feature-nohighlight feature-music">
+		
+  
+
+		<main role="main">
+		
+    <textarea id="source">class: title, smokescreen, shelf, no-footer
+background-image: url(https://www.thefastmode.com/media/k2/items/src/303b23d200a6dada349bcb0d8afb761a.jpg?t=20210207_020558)
+
+# Interval-based techniques for Global Optimization
+### Ignacio Araya (PUCV, Valparaíso, Chile)
+
+---
+# Intervals 
+- An **interval** \\(\text{\bf x}_i = [\underline{x}_i,\overline{x}_i]\\) defines the set of reals \\(x_i\\) s.t.  \\(\underline{x}_i \leq x_i \leq \overline{x}_i\\).
+- A **box** \\({\bf x}=({\bf x}_1, \ldots, {\bf x}_n)\\) represents the  Cartesian product of intervals \\({\bf x}_1 \times \ldots \times {\bf x}_n\\).
+
+
+![intervals](https://i.imgur.com/v0NlA7t.png center maxw-50pct)
+
+---
+# Interval arithmetic  
+
+Interval arithmetic defines the extension of unary and binary operators:
+
+- \\({\bf x}_1 + {\bf x}_2  = [\underline{x}_1+\underline{x}_2,\overline{x}_1+\overline{x}_2]\\)
+- \\({\bf x}_1 - {\bf x}_2 = [\underline{x}_1-\overline{x}_2,\overline{x}_1-\underline{x}_2]\\)
+- \\({\bf x}_1 * {\bf x}_2 = [\min(\underline{x}_1\underline{x}_2,\underline{x}_1\overline{x}_2,\overline{x}_1\underline{x}_2,\overline{x}_1\overline{x}_2),\max(\underline{x}_1\underline{x}_2,\underline{x}_1\overline{x}_2,\overline{x}_1\underline{x}_2,\overline{x}_1\overline{x}_2)]\\)
+- \\(\log({\bf x}_1) = [\log(\underline{x_1}),\log(\overline{x_1})]\\)
+
+Example:
+\\[
+([2,5]-[1,3])^2 = [-1,4]^2 = [0,16]
+\\]
+
+In this presentation, intervals are used for respreseting **domains** of variables and **images** of functions.
+
+---
+
+# Interval extensions
+
+A function \\(f : \mathbb{R}^n → \mathbb{R}\\) is **factorable** if it can be computed in a finite number of simple
+steps using elementary unary and binary operators. Example:
+
+\\[
+ f(x) = \sqrt{x_1 (x_2^2 - 3 x_2)}
+\\]
+
+\\(\textbf{f}: \mathbb{IR}^n → \mathbb{IR}\\) is said to be an
+**extension** of the factorable function \\(f\\) to intervals. 
+
+\\(\textbf{f}(\textbf{x})\\) contains the image of \\(f\\) over a box **x**, i.e., 
+
+\\[
+ \textbf{f}(\textbf{x}) \supset  \lbrace f(x), x \in \textbf{x} \rbrace
+\\]
+
+Example (natural extension): 
+\\(\textbf{f}([-1,1],[0,2])=\sqrt{[-1,1] \cdot ([0,2]^2 - 3 [0,2])} = \sqrt{[-1,1] \cdot [-2,4]}  = \sqrt{[-4,4]} = [0,2] \\)
+
+
+
+---
+
+# Example
+
+\\[
+\min z(x)=37.3 \cdot x_1 + 0.84 \cdot x_5 \cdot x_1 + 5.4 \cdot x_3^2 - 40792
+\\]
+subject to:
+
+\\(-0.002 \cdot x_3 \cdot x_5 + 0.006 \cdot x_2 \cdot x_5 + 0.0006 \cdot x_1 \cdot x_4 - 6.7 \geq 0 \\)
+\\(-0.002 \cdot x_3 \cdot x_5-0.006 \cdot x_2 \cdot x_5 - 0.0006 \cdot x_1 \cdot x_4 -85.3 \geq 0\\)
+\\(0.007 \cdot x_2 \cdot x_5 + 0.002 \cdot x_3^2 + 0.003 \cdot x_1 \cdot x_2 - 29.5 \geq 0\\)
+\\(-0.007 \cdot x_2 \cdot x_5 - 0.002 \cdot x_3^2 - 0.003 \cdot x_1 \cdot x_2 + 9.5 \geq 0\\)
+\\(0.005 \cdot x_3 \cdot x_5 + 0.002 \cdot x_3 \cdot x_4 + 0.001 \cdot x_1 \cdot x_3 - 15.7 \geq 0\\)
+\\(-0.005 \cdot x_3 \cdot x_5 - 0.002 \cdot x_3 \cdot x_4 - 0.001 \cdot x_1 \cdot x_3 + 10.7 \geq 0\\)
+
+---
+# Contrained optimization problem
+
+\\[
+\min_{x \in \textbf{x}} f(x)  \text{~such that~}  g(x) \leq 0,
+\\]
+
+with \\(x \in \mathbb{R}^n\\) the set of variables varying in the box **x**. 
+
+\\(f: \mathbb{R}^n \rightarrow \mathbb{R}\\) is the real-valued objective function,  \\(g: \mathbb{R}^n \rightarrow \mathbb{R}^m\\) is a set of inequality constraints. 
+
+We considre \\(f(x), g(x)\\) are **factorable functions** with arithmetic operators such as: 
+\\(+, -, *, \log, \sin, \exp,...\\)
+
+
+
+--
+
+A **feasible solution** is a vector \\(x\\) satisfying all the constraints of the problem. 
+
+An **\\(\epsilon\\)-optimal solution** \\(x^\star\\) is a feasible solution such that \\(f(x^\star) \leq f(x)+\epsilon\\) for any feasible solution \\(x \in \mathbb{R}^n\\).
+
+---
+
+# Interval-based optimizer
+
+**Builds a search tree** following a branch & bound strategy:
+
+-  set S ← {**x**}; UB ← \\(\infty\\); \\(x_b\\) ← null
+- While S is not empty:
+	-  **Select** a box **x** from S
+	- The box is **filtered** by removing inconsistent values from its bounds. Values violating the constraint \\(f(x) \leq UB-\epsilon\\) are also filtered.
+	- If box **x** is not completely discarded:
+		- Solutions are searched in **x** (**upperbounding**). UB and \\(x_b\\) are updated.
+		- **x** generates two children nodes by **bisecting** one of its intervals. Children are added into S.
+
+The solver returns a solution \\(x_b\\) with cost  \\(f(x_b)\\)=UB such that:  \\(f(x_b) \leq f(x) + \epsilon \\)
+
+---
+Pequeña animación del árbol de búsqueda.
+
+---
+
+# Node Selection
+
+**Objective:** To find close-to-optimal solutions **as soon as possible**.
+
+- **minLB:** Select the node **x** minimizing a **lower bound** of the objective function.
+   - Tend to search in higher regions of the tree search first. 
+   - Good solutions, however, are found generally in deeper regions.
+
++ **Feasible Diving:** If the last selected node has children, select the *best* of them (deep-first). Otherwise, select the node by using the minLB strategy.
+   - Balance *exploitation* and *exploration* in a good way.
+
+---
+
+# Filtering
+
+**Objectives:** 
+- Remove values that do not satisfy the constraints.
+- Remove values that cannot improve, more than \\(\epsilon\\) the current UB.
+- To be **fast** and **effective**
+
+**Different approaches:**
+- Constraint propagation (e.g., HC4, 3BCID)
+- Convex relaxations for improving domain bounds
+
+---
+# Bisection (variable selection)
+
+**Objective:** Try to fail soon. That is, select the variable with the most impact in the image of functions.
+
+- **Largest-first**: By dividing in half the largest variable domain, probably we impact greatly in the function images.
+
+- **Smear-based**: An impact of each variable is estimated by using first order derivatives. Then, the variable maximizing its **aggregated impact** is selected.
+
+---
+
+# Upper Bounding
+
+**Objectives:**
+- Find good feasible solutions inside the current box **x**
+- To be fast
+
+**Approaches**
+- **Midpoint:** Simple, very fast and bad.
+- **Inner region-based (InHC4, X-Taylor, AbsTaylor):** Fast, good solutions in close-to-linear sub-problems. 
+- **Local search solvers (e.g., IpOpt):** Slow, optimal in convex sub-problems.
+
+---
+class: title, fogscreen
+# AbsTaylor: an inner region-based upperbounding method 
+
+---
+# Inner Region-based Upperbounding (general approach)
+
+1. Find an linear region R in **x** satisfying all the constraints \\(g(x)\leq 0\\) (**inner region**).
+2. Minimize a linearization of the objective function in R by using the Simplex method.
+3. If the solution of the linear problem is better than the best solution found so far, \\(x_b\\) and \\(UB=f(x_b)\\) are updated.
+
+**¿How to find R?**
+
+---
+# Interval Taylor 
+
+The interval Taylor form guarantees that for all \\(x \in\\) **x** and \\(j \in \{1,..,m\}\\):
+
+\\[
+g_j(x) \in g_j(x^\prime) + \sum_i^n {\textbf{J}_i}_j \cdot (x_i - x_i^\prime)
+\\]
+
+\\(\textbf{J}\\) is an interval Jacobian matrix. Any element \\({\textbf{J}_i}_j\\) corresponds to an interval overestimation of the image of the partial derivative \\(\frac{\partial g_j}{\partial x_i}(x)\\) over **x**. 
+
+\\(x_i^\prime \in\\) **x** corresponds to the expansion point. 
+
+The approximation is not convex.
+
+---
+# X-Taylor
+
+By chosing as expansion point a corner of the box  (e.g., \\(\underline{x}\\)) we can generate a **convex inner approximation** of the constraint system \\(g(x) \leq 0\\):
+
+\\[
+g_j(x) \leq h_j(x) = g_j(\underline{x}) + \sum_i^n \overline{{J_i}_j} \cdot (x_i - \underline{x_i})
+\\]
+
+The set of solutions satisfying \\(h(x) \leq 0\\) is subset of the set of solutions satisfying \\(g(x)\leq 0\\).
+
+---
+# AbsTaylor 
+
+**Idea:** Linearization using Taylor and absolute values.
+
+- Interval partial derivatives are decomposed: \\({\textbf{J}_i}_j = {c_i}_j + {\textbf{d}_i}_j\\). 
+- \\({c_i}_j = mid({\textbf{J}_i}_j)\\), \\({\textbf{d}_i}_j = {\textbf{J}_i}_j - {c_i}_j\\)
+
+Then,
+\\[
+    g_j(x) \leq h_j(x)=g_j(x^\prime) + \sum_i^n \left({c_i}_j \cdot (x_i - x_i^\prime) + |{d_i}_j|
+    \cdot |x_i - x_i^\prime| \right)
+\\]
+
+where \\(x^\prime \in \mathbb{R}^n\\) can be any point inside the box \\(\textbf{x}\\). \\(|d_{ij}|=\overline{{d_i}_j}=-\underline{{d_i}_j}\\).
+
+**Agregar figura animada**
+
+---
+
+- Interval partial derivatives are decomposed: \\({\textbf{J}_i}_j = {c_i}_j + {\textbf{d}_i}_j\\). 
+- \\({c_i}_j = mid({\textbf{J}_i}_j)\\) and \\({\textbf{d}_i}_j = {\textbf{J}_i}_j - {c_i}_j\\). 
+- \\(|d_{ij}|=\overline{{d_i}_j}=-\underline{{d_i}_j}\\)
+
+Then,
+
+\\[
+    g_j(x^\prime) + \sum_i^n \left({c_i}_j \cdot (x_i - x_i^\prime) \right)
+\\]
+
+---
+
+- Interval partial derivatives are decomposed: \\({\textbf{J}_i}_j = {c_i}_j + {\textbf{d}_i}_j\\). 
+- \\({c_i}_j = mid({\textbf{J}_i}_j)\\) and \\({\textbf{d}_i}_j = {\textbf{J}_i}_j - {c_i}_j\\).
+- \\(|d_{ij}|=\overline{{d_i}_j}=-\underline{{d_i}_j}\\)
+
+And then,
+
+\\[
+	g_j(x^\prime) + \sum_i^n \left({c_i}_j \cdot (x_i - x_i^\prime) + |{{d}_i}_j|
+\cdot |x_i - x_i^\prime| \right)
+\\]
+
+---
+
+### AbsTaylor
+
+In order to deal with the absolute value functions, we replace the expressions \\(|x_i - x_i^\prime|\\)
+by auxiliary variables \\(u_i\\):
+
+\\[
+g_j(x^\prime) + \sum_i^n \left({c_i}_j \cdot (x_i - x_i^\prime) + |{d_i}_j| \cdot u_i \right) \leq 0
+\\]
+
+where \\(u_i \geq (x_i - x_i^\prime)\\) and \\(u_i \geq -(x_i - x_i^\prime)\\), \\(\forall i=1\ldots n \\). 
+
+An we have our inner linearization!
+
+---
+# Iterative-AbsTaylor (local search)
+
+* Find a candidate feasible solution \\(x_c^{(0)}\\) in **x** by using AbsTaylor or X-Taylor, (+ Simplex).
+* If a feasible solution is found, then iterate:
+	* Reduce and move the box **x** keeping \\(x_c^{(i)}\\) in the center of the box.
+	* \\(x_c^{(i+1)} \leftarrow\\) find a new candidate solution by using AbsTaylor and \\(x_c^{(i)}\\) as the expansion point.
+	* Iterate while \\(x_c^{(i+1)}-x_c^{(i)} \geq \epsilon\\)
+
+**Agregar figura animada**
+---
+
+# Experiments
+
+- Instances from COCONUT solved by the default strategy (IbexOpt) in [2,3600] seconds (44).
+- \\(n \in [4,47]\\), \\(m \in [2,74]\\)
+- \\(\epsilon=1e-6\\)
+- Default strategy: 
+	- Fitering methods: constraint-propagation (ACID-HC4) + linear-relaxation (AF2+XNewton)
+	- Upper bounding: XTaylor + InHc4 + Midpoint
+	- Feasible Diving (node selection) + LSmear (bisection)
+
+---
+
+# Effectiveness
+
+From all the times the UB was improved inside the tree search (by using AbsTaylor+XTaylor)
+
+- XTaylor improved the current UB **24%** of the times
+- AbsTaylor improved the current UB **63%** of the times
+
+In 17 instances, both strategies found feasible solutions in all the nodes. 
+
+In the other 27 instances:
+
++ XTaylor found feasilble solutions in **5%** of the nodes 
++ AbsTaylor found feasible solution in **20%** of the nodes 
+
+---
+
+# Results 
+
+- TwiceTaylor (XTaylor+AbsTaylor)
+- IterativeTaylor (First candidate solution: AbsTaylor)
+- IterativeTaylor2 (First candidate solution: TwiceTaylor)
+
+![](https://i.imgur.com/vpSFd2J.png maxw-60pct  center)
+
+---
+
+class: title, fogscreen
+# Lsmear: A variable selection strategy 
+
+---
+
+# How to selct the next variable to bisect?
+
+Smear-based heuristics
+
+* **Idea:** select variables with the most impact on constraints \\(g(x) \leq 0\\)
+* Impact\\((x_i, g_j)\\): Variation of the evaluation of the function \\(g_j\\) consequent upon a variation of the value of the variable \\(x_i\\).
+* \\(smear(x_i, g_j\\)): Estimation of the impact
+\\[
+	smear(x_i,g_j)=|{\textbf{J}_i}_j| \cdot wid(\textbf{x}_i)
+\\]
+
+
+The variable maximizing an aggregation of the Smear value over the system is selected (variants: sum, max, relative sum)
+
+---
+
+# Issues related to Smear-based strategies
+
+**They consider all the constraints equally important.** Thus, some unexpected situations that may occur:
+
+- If we have a constraint \\(x=y\\), it is ok that both variables have **different** Smear-based evaluations
+- Having redundant constraints increases the chances of selecting the variables belonging to them (sum-based aggregation)
+- Decomposing the system changes the Smear-based evaluations of the variables
+- Nearly feasible and nearly infeasible constraints have the same importance when the impacts are summed up
+
+--
+
+**Idea:** to weight the impact of the constraints over the objective function
+
+---
+
+# The Lagrangian
+
+\\[
+L(x) = x_0 + \sum_j^m \lambda_j g_j (x)
+\\]
+
+* The Lagrangian is a relaxation of the problem by **one objective function and no constraints**.
+* Constraints are **weighted** by Lagrangian multipliers (\\(\lambda_j \geq 0 \\)).
+* The **optimal Lagrangian multipliers**, are the values of \\(\lambda_j\\)  that approximate the Lagrangian to the original problem.
+* Optimal multipliers estimate, in a way, the rate of change in the **optimal value**, consequent upon changes in the constraint functions  \\(\leftarrow\\) **impact of each constraint on the problem**.
+* Optimal multipliers for linear optimization problems *can be easily* computed by the **dual simplex method**.
+
+---
+# L-Smear
+
+The impact of a variable is computed by: \\(smear(x_i,g_j)=|{\textbf{J}_i}_j| \cdot wid(\textbf{x}_i)\\)
+
+We compute the optimal Lagrangian multipliers \\(\lambda_j^\star\\) of a **Taylor-based linearization** of the global optimization problem: \\(
+h(x)=g_j(x^\prime) + \sum\limits_i^n {\textbf{J}_i}_j \cdot (x_i - x_i^\prime) \\)
+
+Optimal Lagrangian multipliers are used for **weighting the constraints** of the system. Thus, the impact of a variable over the system corresponds to the weighted sum:
+
+\\[
+impact(x_i) = \sum_j^m \lambda_j^\star \cdot smear(x_i,g_j)
+\\]
+
+---
+
+[Story](https://github.com/xaprb/story) offers helper themes for creating
+beautiful presentations with [Remark](https://remarkjs.com/), using simple
+Markdown to create slide layouts.
+
+- Apron defines the layouts&#39; structure and size.
+- Adirondack adds typography, theme colors, and helpful features.
+- Descartes provides element and image positioning and colors.
+
+Story has a design goal of clean, simple Markdown content. Avoiding &#34;raw&#34; HTML
+and Remark&#39;s Markdown extensions makes things easier.
+View the source of this page to see the Markdown that creates it.
+
+These characteristics make it easy to build gorgeous slideshows. They&#39;re also
+a great foundation for creating your own themes. 
+
+---
+# What is Remark?
+
+Remark (sometimes called RemarkJS) is a browser-based slideshow system. It&#39;s
+simple but surprisingly powerful:
+
+- You write slides in simple Markdown
+- It supports a presenter mode, slide notes, and dual monitors
+- It supports slide layouts, templates, and incremental slides
+- It&#39;s easy to extend and customize with simple CSS
+
+Story integrates Remark into Hugo, creating a live-reload editing experience,
+and a permanent home for your slides on your own website!
+
+View this page&#39;s source to see how easily you can compose slideshows
+with Remark.
+
+---
+name: getting-started
+# Getting Started
+
+To get started, use `hugo new slides/my-presentation.md` and ensure that the
+following `themes` are in the front matter, for example:
+
+```yaml
+---
+title: &#39;Creating Beautiful Presentations with Story&#39;
+date: &#34;2018-04-25T09:50:00-07:00&#34;
+url: &#34;/slides/adirondack/&#34;
+ratio: &#34;16:9&#34;
+themes:
+- apron
+- descartes
+- adirondack
+```
+
+---
+class: compact
+
+# Apron&#39;s Slide Layouts
+
+It&#39;s easy to create common slide layouts with Remark&#39;s slide classes.
+
+![Slide Layouts](slide-layouts.svg# maxw-70pct center)
+
+---
+class: img-right
+
+# Heading, Content, and Image
+
+![Yosemite](leo-serrat-533922-unsplash.jpg)
+
+This is the `img-right` slide class. The content consists simply of a
+header, an image, and this text. 
+
+* The image&#39;s aspect ratio and cropping are not altered.
+* All content after the image goes in the lefthand column.
+
+Although this text is in the lefthand column, the image comes _first_ in the
+markdown source.
+
+---
+class: img-left
+
+# Heading, Image, and Content
+
+![Yosemite](leo-serrat-533922-unsplash.jpg)
+
+This is the `img-left` slide class. The content is structured in just the same
+way as the `img-right` slide class.
+
+- All content after the image goes in the right-hand column.
+
+--
+- These columns require no wrapper `&lt;div&gt;`, just plain Markdown.
+- This avoids interference with Remark features.
+
+--
+- Incremental builds with `--` work fine, for example.
+
+---
+class: img-right-full
+
+![](kari-shea-272383-unsplash.jpg)
+
+# Content and Image
+
+This is the `img-right-full` class.  The content is simply an image and text
+(including a header in this case).
+
+The image is 2x larger than the visible area and its position is set to `left`.
+This lets you pair this layout with the following one.
+
+- A red flare silhouetted the jagged edge of a wing.
+- Almost before we knew it, we had left the ground.
+
+---
+class: img-left-full
+
+![](kari-shea-272383-unsplash.jpg)
+
+# The Other Side of the Coin
+
+This slide&#39;s class is `img-left-full`. Like the previous slide, it&#39;s just an
+image and some content. The image is exactly the same as the previous slide, but
+it&#39;s positioned to reveal the other half.
+
+- All their equipment and instruments are alive.
+- I watched the storm, so beautiful yet terrific.
+- Almost before we knew it, we had left the ground.
+
+---
+class: img-caption
+![Image](will-turner-508747-unsplash.jpg)
+
+This slide&#39;s class is `img-caption`. Its content is simply an image and this
+text.
+
+---
+class: col-2
+
+# Two-Column Layouts
+
+This is a two-column layout, created with `class: col-2`.
+There&#39;s no columnar markup (no DIVs, for example) in the content.
+
+![](leo-serrat-533922-unsplash.jpg# mw-90 center)
+
+The columns are created natively in CSS. The first H1 spans all columns.
+
+&gt; Relaxing in the Adirondack chair, I felt the gathering dusk creep on kitten
+feet.  It came to me, then, that a day lived in this paradise was better than a
+lifetime anywhere else.
+
+- I watched the storm, so beautiful yet terrific.
+
+---
+class: col-3
+
+# Three-Column Layouts
+
+This is a three-column layout, created with `class: col-3`.
+
+As with `col-2`, Apron assumes the slide begins with an H1 header.
+
+Mist enveloped the ship three hours out from port.
+
+![](tanya-nevidoma-632010-unsplash.jpg# mw-90)
+
+- My two natures had memory in common.
+- The face of the moon was in shadow.
+
+Call me Ishmael. Some years ago---never mind how long precisely---having little or
+no money in my purse, and nothing particular to interest me on shore, I thought
+I would sail about a little and see the watery part of the world. 
+
+---
+# Apron&#39;s Layout Classes
+
+Here are the Apron slide layouts classes and how to use them:
+
+| Class                         | Content structuring guidelines                  |
+|-------------------------------|-------------------------------------------------|
+| title                         | Add a background-image, H1, and optional H2/H3. |
+| img-caption                   | Add an image and optional caption text.         |
+| img-right, img-left           | Add a header, image, and content.               |
+| img-right-full, img-left-full | Add an image, _then_ headers and content.       |
+| col-2, col-3                  | Add a header, then any content desired.         |
+
+---
+class: compact
+
+# A Compact Slide
+
+This slide&#39;s class is `compact`, which reduces font sizes, line heights, and
+slide padding.  This makes it possible to fit more content on the slide, which
+can be useful.
+
+- I watched the storm, so beautiful yet terrific.
+- Almost before we knew it, we had left the ground.
+
+```javascript
+function $initHighlight(block, cls) {
+	if (cls.search(/\bno\-highlight\b/) != -1)
+		return process(block, true, 0x0F) &#43; ` class=&#34;${cls}&#34;`;
+	for (var i = 0 / 2; i &lt; classes.length; i&#43;&#43;) {
+		if (checkCondition(classes[i]) === undefined)
+			console.log(&#39;undefined&#39;);
+	}
+}
+```
+
+---
+class: compact, col-3
+
+# Compact Three-Column Layout
+
+This is a three-column layout,
+created with `class: col-3, compact`.
+
+The `compact` class works well three columns, which have less room.
+
+![](tanya-nevidoma-632010-unsplash.jpg# maxw-90pct)
+
+A shining crescent far beneath the flying vessel.
+
+- It was going to be a lonely trip back.
+- Mist enveloped the ship three hours out from port.
+- My two natures had memory in common.
+- Silver mist suffused the deck of the ship.
+- The face of the moon was in shadow.
+
+Call me Ishmael. Some years ago---never mind how long precisely---having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. 
+
+---
+class: roomy
+# A Roomy Slide
+
+This slide doesn&#39;t have as much content, so I gave it the class `roomy` to let
+its content stretch out a bit for readability.
+
+- A red flare silhouetted the jagged edge of a wing.
+- I watched the storm, so beautiful yet terrific.
+- Almost before we knew it, we had left the ground.
+- All their equipment and instruments are alive.
+
+---
+class: roomy, col-2
+# Room For Two Columns
+
+This roomy slide has two columns: `class: roomy, col-2`. Bulleted lists
+shouldn&#39;t break across columns.
+
+- A red flare silhouetted the jagged edge of a wing.
+- I watched the storm, so beautiful yet terrific.
+- Almost before we knew it, we had left the ground.
+- All their equipment and instruments are alive.
+
+---
+class: compact
+# Apron&#39;s Auxiliary Classes
+
+Apron offers the following additional slide classes:
+
+| Class      | Applies To | Content structuring guidelines                                                     |
+|------------|------------|------------------------------------------------------------------------------------|
+| top        | title      | Moves the title and subtitle to the top of the slide.                              |
+| bottom     | title      | Moves the title and subtitle to the bottom.                                        |
+| shelf      | title      | Extends the title&#39;s background and locates the subtitle above it.                  |
+| compact    | (all)      | Reduces text size and margins to fit more content.                                 |
+| roomy      | (all)      | Increases text size to fill more space.                                            |
+| fullbleed  | (all)      | Removes margins from the slide and its text.                                       |
+| no-footer  | (all)      | Hides the footer (including slide number).                                         |
+| debug      | (all)      | Outlines elements in gold to make formatting visible. Variants: -white and -black. |
+| debug-grid | (all)      | Displays a layout grid. Variants: -8, -16, -solid, and combinations of these.      |
+
+---
+class: title, fogscreen
+background-image: url(tanya-nevidoma-632010-unsplash.jpg)
+# Adirondack&#39;s Typography and Features
+
+---
+# Adirondack
+
+Adirondack is built on top of Apron, and adds beautiful typography, colors, and
+extra features. This section is a demo and documentation of those features.
+
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+
+Text with _italics_, __bold__, ~~strikethrough~~, `&lt;code&gt;`,
+[link](https://www.wikipedia.org/).
+
+---
+class: col-2
+
+# Bulleted Lists Demo
+
+This column illustrates bulleted lists.
+
+* A bulleted list.
+* Another bullet.
+  * Nested bullets.
+  * Another.
+     * Deeply nested.
+* Back to the top-level again.
+
+This column has numbered lists.
+
+2. Another bullet.
+3. The last bullet.
+  1. Nested numbered lists.
+  2. Another.
+      3. Deeper.
+1. Top-level again.
+
+---
+# Code Typography Demo
+
+Remark offers [HighlightJS](https://highlightjs.org/) code syntax highlighting.
+Story enables/disables this with [feature flags](/features/).
+
+```javascript
+function $initHighlight(block, cls) {
+	if (cls.search(/\bno\-highlight\b/) != -1)
+		return process(block, true, 0x0F) &#43; ` class=&#34;${cls}&#34;`;
+	for (var i = 0 / 2; i &lt; classes.length; i&#43;&#43;) {
+		if (checkCondition(classes[i]) === undefined)
+			console.log(&#39;undefined&#39;);
+	}
+}
+```
+
+---
+class: col-2
+# Math Typesetting
+
+Story supports math equation typesetting using the KaTeX library,
+if [`feature-math`](/math/) is enabled.
+
+\\[
+\left( \beta mc^2 &#43; c \left ( \sum_{n=1}^3 \alpha_n p\_n \right ) \right) \psi(x,t) = i \hbar \frac{\partial \psi(x,t) }{\partial t}
+\\]
+
+The coherence is the \\(\kappa\\) coefficient of \\(n^2\\),
+which is \\(e^{i\pi}-1=0\\).
+
+\\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\\]
+
+![Universal Scalability Law](linear3.svg)
+
+You can also display equations inline, such as the quadratic equation, which is
+\\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\\)
+
+---
+class: compact
+# Music Notation and Sheet Music
+
+Story supports [formatting sheet music from ABC](/music).
+
+```abc
+X: 1
+T: Cooley&#39;s
+M: 4/4
+L: 1/8
+K: Emin
+|:D2|EB{c}BA B2 EB|~B2 AB dBAG|FDAD BDAD|FDAD dAFD|
+EBBA B2 EB|B2 AB defg|afe^c dBAF|DEFD E2:|
+```
+
+---
+class: fit-h1, roomy
+# This Slide Has A Very Long Multi-Line Heading That Has Been Shrunk
+
+The `fit-h1` slide class will automatically shrink the first H1 heading until it
+fits on a single line.
+
+This doesn&#39;t work on title slides.
+
+Story also applies 6&#39;2&#34; tall &#34;smartypants&#34; processing to replace &#39;straight
+quotes,&#39; en- and em-dashes (boil for 12--15 minutes---longer if needed),
+and ellipses with their nicer typographical equivalents... isn&#39;t that nice?
+
+---
+# Share Your Slides With QR Codes
+
+.qrcode.db.fr.w-40pct.ml-4[]
+
+Adirondack has built-in support for QR codes to share your slides easily. No
+more emailing links or files! Your audience can simply snap a picture of the
+screen.
+
+Just enable the `feature-qrcode` [flag](/features/) and add markup like the
+following to your slide:
+
+```
+.qrcode.db.fr.w-40pct.ml-4[]
+```
+
+The `qrcode` class is important but the rest is up to you.
+
+---
+# Export Your Slides To PDFs
+
+Remark has support for printing slides to a PDF, using Google Chrome&#39;s print
+dialog (not the native system dialog).
+
+There are some bugs in it... but Story implements workarounds so you don&#39;t even
+need to think about it.
+
+Just print with Chrome and save to a PDF file.
+
+This works for both 16:9 and 4:3 ratio slides. Speaking of which, you select
+that with the `ratio` in the front matter, as shown on the [getting
+started](#getting-started) slide.
+
+---
+layout: true
+
+.footer[
+- @xaprb
+- ![logo](vividcortex-horizontal-web.svg)
+]
+
+---
+class: compact
+# Footer Content
+
+This slide builds on content from the previous (hidden, layout) slide, whose
+content is:
+
+```
+---
+layout: true
+.footer[
+- @xaprb
+- ![logo](vividcortex-horizontal-web.svg)
+]
+```
+
+This content uses Adirondack&#39;s built-in `footer` css styling to define footer
+elements. You can see them at the bottom of this slide. In the next section,
+you&#39;ll learn Descartes classes you can add
+to the div to style it, e.g. `.footer.bt.bc-cornflower[...]`.
+
+You can hide both the Remark and custom footer on any slide with `class: no-footer`.
+
+---
+layout: false
+# Adirondack’s Slide Classes
+
+Here are Adirondack&#39;s slide classes:
+
+| Class         | Notes                                                                |
+|---------------|----------------------------------------------------------------------|
+| `smokescreen` | Creates a dark shaded semi-transparent background on `title` slides. |
+| `fogscreen`   | Similar to `smokescreen`, but uses a white shading.                  |
+| `fit-h1`      | Shrinks the H1 heading&#39;s font-size to fit on a single line.          |
+
+---
+class: title, smokescreen, shelf
+background-image: url(will-turner-508747-unsplash.jpg)
+
+# Positioning Images And Elements
+## Using Descartes To Create Intricate Layouts
+
+---
+# Descartes&#39; Styling Functionality
+
+Descartes is an add-on that gives lots of power over image and element formatting with
+Markdown.  It uses composable, functional pseudo-classes in the image&#39;s URL
+fragment (the part after the `#` character). For example, this image will be 33% width,
+display as block, 2rem right margin, and float left: 
+
+```
+![Image](tom-barrett-364228-unsplash.jpg# w-33pct db fl mr-4)
+```
+
+![Image](tom-barrett-364228-unsplash.jpg# w-33pct db fl mr-4)
+
+That URL has four &#34;words&#34; in the fragment, delimited by whitespace. The
+whitespace is important!
+
+Image classes are also available for `&lt;div&gt;`s.
+
+---
+class: center
+
+This image collage has no &#34;raw&#34; markup or Remark `&lt;div&gt;` extensions. The next
+slide illustrates Descartes&#39;s grid of 12ths.
+
+![](kari-shea-272383-unsplash.jpg# l-0 t-20pct w-two-thirds h-80pct ofv absolute)
+![](leo-serrat-533922-unsplash.jpg# w-third h-40pct t-20pct r-0 ofv absolute)
+![](will-turner-508747-unsplash.jpg# w-third h-40pct t-60pct r-0 ofv absolute)
+
+---
+class: fullbleed
+background-color: black
+
+![](kari-shea-272383-unsplash.jpg# absolute ofv w-9-12th h-7-12th)
+![](leo-serrat-533922-unsplash.jpg# absolute ofv w-3-12th h-3-12th t-0 l-9-12th)
+![](nasa-53884-unsplash.jpg# absolute ofv w-2-12th h-9-12th t-3-12th l-9-12th)
+![](tom-barrett-364228-unsplash.jpg# absolute ofv w-1-12th h-5-12th t-3-12th l-11-12th)
+![](will-turner-508747-unsplash.jpg# absolute ofv w-1-12th h-4-12th t-8-12th l-11-12th opr)
+![](tanya-nevidoma-632010-unsplash.jpg# absolute ofv w-5-12th h-5-12th t-7-12th l-0)
+![](tom-barrett-364228-unsplash.jpg# absolute ofv w-4-12th h-3-12th t-7-12th l-5-12th)
+![](will-turner-508747-unsplash.jpg# absolute ofv w-4-12th h-2-12th t-10-12th l-5-12th)
+
+.absolute.w-7-12th.pa-3.l-1-12th.t-20pct.ba.bw-4.br-4.bg-white-60pct[
+This slide is composed only of simple Markdown markup, no raw HTML.
+]
+
+---
+# Using Descartes&#39; Coordinate Grids
+
+Descartes offers several length scales for element sizes and positions. For
+each, a class naming convention selects the value:
+
+- rems, from 1 rem (-1) to 96rem (-9)
+- tenths, in 10% increments from -10pct to -100pct, plus -33pct, -34pct, and -75pct
+- twelfths, in 1/12th increments from -1-12th to -11-12th
+- thirds, as -third and -two-thirds
+
+There&#39;s always a prefix that specifies what the item is, and a suffix that
+selects the units.  So for example, if you want an element to have a width of
+50%, you can give it a class of `w-50pct`, and if you want it to be 25% width
+you can use `w-3-12th`.
+
+---
+class: col-2
+# Descartes&#39; Coordinate Selectors
+
+You can apply the length scales from the previous slide to a variety of element
+properties (see right). The X can be any of the suffixes discussed on the
+previous slide.
+
+These can be applied as classes to a DIV, or image pseudo-classes:
+
+```
+.w-50pct.h-1-12th.t-0.l-50pct[....]
+![img](pic.jpg# w-50pct h-1-12th t-0 l-50pct)
+```
+
+- w-X: width
+- maxw-X: max-width
+- minw-X: min-width
+- h-X: height
+- maxh-X: max-height
+- minh-X: min-height
+- t-X: top
+- r-X: right
+- b-X: bottom
+- l-X: left
+
+---
+# Descartes&#39; Other Features
+
+Descartes also has classes to control color (text, border, background,
+transparency), opacity, borders (sides, width, radius), spacing (padding,
+margin), centering, display types, floats, clearfix, position types, background
+image fitting and positioning, and box shadows.
+
+For many of these, there&#39;s a set of units and sizing scales.
+
+These cannot be documented fully in this slideshow, but hopefully it gives you a
+sense of what&#39;s possible. You should read the `.less` files; they are short and
+easy to understand.
+
+---
+# Where Did The Names Come From?
+
+For some reason, I named my Remark slideshow layouts after iconic chair designs
+(Monobloc, Adirondack, etc).
+
+![Chair parts](chair-parts.png# fr ml-2)
+
+The apron is the part of the chair upon which everything rests, so I gave the
+underlying &#34;supporting&#34; set of CSS that name. I named Descartes after the famous
+inventor of the Cartesian coordinate system.
+
+Credit: http://www.props.eric-hart.com/
+</textarea>
+    <script type="text/javascript" src="https://story.xaprb.com/js/qrcode.js"></script>
+    <script src="https://story.xaprb.com/js/remark.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+			highlightLanguage: "xaprb",
+			placeholder: "dummy value to end the list without a comma"
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+
+    </script>
+
+		</main>
+		
+  
+
+		
+		
+  
+
+	
+	
+	</body>
+</html>
