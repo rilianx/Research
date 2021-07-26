@@ -10,7 +10,7 @@
 Promedio, y la mejor solución encontrada
 - Solución inicial: {Greedy, RGreedy}
 - Porcentaje del RGreedy: {fijo, 5%, 10%, 20%}
-- no_improvements (swap): {50,20}
+- no_improvements (swap): {50,100}
 - perturbation: {0-3} swaps (sin importar si mejoran o no)
 - iteraciones de la estrategia: 10
 Reportar: RGreedy, perturbation, promedios y mejor (solución inicial, solución alcanzada)
@@ -150,11 +150,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM1Nzc2MjYsLTY2MjA4NjQ1OCwtMz
-UzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjEx
-OCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC
-0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYy
-NTAwNTY1LC04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nz
-g2LC0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDEx
-OTkxNDgyODJdfQ==
+eyJoaXN0b3J5IjpbLTE2MjAyNTE1LC02NjIwODY0NTgsLTM1Mz
+E3Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIzOCw4NjEyOTYxMTgs
+LTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMT
+gyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1NjE4NTksLTQ2MjUw
+MDU2NSwtODAzMTgyMjUzLC0xNDMyMjg0MDk1LDQyMjQ3Nzc4Ni
+wtMTY5MjUzNTI5MSwzODUxODg2MTIsLTc5MTk0NDIzNSwxMTk5
+MTQ4MjgyXX0=
 -->
