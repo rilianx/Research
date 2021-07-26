@@ -4,9 +4,8 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
-- [ ] Se agregan supporting boxes al agregar un bloque -> mejorar
-- [ ] Función para obtener inner_face de AABB (para realizar búsquedas)
-
+- [X] Se agregan supporting_boxes a los AABB 
+ 
 **General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
 
@@ -341,11 +340,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNT
-U3MzQ4NTAyLC0yMTA2NzAzMzkyLDYxMDM3MjQ1MSw0Mjc5NjE5
-NzgsLTExODE5NDY1MzksMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC
-0yMjM2MTg5NjIsLTk3MDcxMzg0Miw4NTAyMjk0NTYsLTUwNDAz
-Njk2MSwtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4OD
-AwLC0xMTAwNjQ1Nzc5LDUzODk5NjQ5NSwtMTM5MjA1NTgwLC0x
-MzkyMDU1ODBdfQ==
+eyJoaXN0b3J5IjpbODMxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2Mz
+QyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0
+NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLT
+IxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsODUwMjI5
+NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMz
+AsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5OTY0OTUsLTEz
+OTIwNTU4MF19
 -->
