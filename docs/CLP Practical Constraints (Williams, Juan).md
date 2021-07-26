@@ -35,7 +35,8 @@ Cada bloque debería tener:
 - Contenedor de AABBoxes
 
 Luego, cada AABBox debería mantener
-* 
+* supporting AABBoxes
+* supported_weight
 
 
 
@@ -337,7 +338,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDg5ODg0MSwtMjEwNjcwMzM5Miw2MT
+eyJoaXN0b3J5IjpbMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MT
 AzNzI0NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4
 MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsOD
 UwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4
