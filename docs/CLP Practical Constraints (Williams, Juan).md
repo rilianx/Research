@@ -4,8 +4,9 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
-- [X] Se agregan supporting_boxes a los AABB 
-- [X] En Block se agrega función BCS_and_LB que permite obtener *bottom contact surface* de las cajas inferiores de un bloque. Además calcula los *supported_weights* actualizados en caso de colocar el bloque.
+- [X] Se agregan supporting_boxes a los AABB. Además, se actualizan cada vez que un bloque es agregado al contenedor.
+- [X] En Block se agrega función `BCS_and_LB` que permite obtener *bottom contact surface* de las cajas inferiores de un bloque. Además calcula los *supported_weights* (para load bearing) actualizados en caso de colocar el bloque.
+- [ ] Agregar ejemplo de uso para `BCS_and_LN`
  
 **General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
@@ -349,11 +350,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTI2MzQsLTYyOTQ5MzI0LC0xNDE3Nz
-AwMTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYyMTQy
-LDgzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLDE1NT
-czNDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2MTk3
-OCwtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3NjMsLT
-IyMzYxODk2MiwtOTcwNzEzODQyLDg1MDIyOTQ1NiwtNTA0MDM2
-OTYxXX0=
+eyJoaXN0b3J5IjpbLTIwMjcyNTE5NTMsLTYyOTQ5MzI0LC0xND
+E3NzAwMTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYy
+MTQyLDgzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLD
+E1NTczNDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2
+MTk3OCwtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3Nj
+MsLTIyMzYxODk2MiwtOTcwNzEzODQyLDg1MDIyOTQ1NiwtNTA0
+MDM2OTYxXX0=
 -->
