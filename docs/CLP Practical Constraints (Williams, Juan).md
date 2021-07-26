@@ -31,11 +31,11 @@ CLP Practical Constraints (continuación).
 
 ### Blocks
 
-Cada bloque debería tener:
+Cada bloque tiene:
 - Contenedor de AABBlocks
 - Contenedor de AABBoxes
 
-Luego, cada AABBox debería mantener
+Luego, cada AABBox tiene
 * supporting AABBoxes:
 * supported_weight
 
@@ -340,11 +340,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2Mz
-QyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0
-NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLT
-IxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsODUwMjI5
-NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMz
-AsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5OTY0OTUsLTEz
-OTIwNTU4MF19
+eyJoaXN0b3J5IjpbLTEwNzIyNjIxNDIsODMxNzkyNTkyLC0xNz
+g3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcw
+MzM5Miw2MTAzNzI0NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LD
+E5NzgyMjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3
+MTM4NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3OD
+gsLTE4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1
+Mzg5OTY0OTVdfQ==
 -->
