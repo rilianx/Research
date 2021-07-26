@@ -5,6 +5,7 @@ CLP Practical Constraints (continuación).
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
 - [X] Se agregan supporting_boxes a los AABB 
+- [ ] C
  
 **General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
@@ -348,11 +349,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc3MDAxODAsMTQxNzE2ODkyLC03MD
-cyOTQ1NjIsLTEwNzIyNjIxNDIsODMxNzkyNTkyLC0xNzg3Mjg3
-NzUwLDE2MzQyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Mi
-w2MTAzNzI0NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5Nzgy
-MjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4ND
-IsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4
-NjU4NDYyMzBdfQ==
+eyJoaXN0b3J5IjpbMjEyNjgzNTkyNiwtMTQxNzcwMDE4MCwxND
+E3MTY4OTIsLTcwNzI5NDU2MiwtMTA3MjI2MjE0Miw4MzE3OTI1
+OTIsLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNTU3MzQ4NTAyLC
+0yMTA2NzAzMzkyLDYxMDM3MjQ1MSw0Mjc5NjE5NzgsLTExODE5
+NDY1MzksMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC0yMjM2MTg5Nj
+IsLTk3MDcxMzg0Miw4NTAyMjk0NTYsLTUwNDAzNjk2MSwtMjE0
+MjA4Nzc4OF19
 -->
