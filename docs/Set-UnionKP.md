@@ -1,9 +1,8 @@
 ### TODO
 
-- Pasar a punteros, usar unordered_set cuando sea posible
-- Mantener items no seleccionados en la clase mochila ordenados por ratio
 - 
-- Lanzar experimentos
+- Buscar en paper número de movimientos
+- Genera tabla de resultados
 
 **Experimentos**
 
@@ -151,7 +150,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTY5ODQwOCwtMTYyMDI1MTUsLTY2Mj
+eyJoaXN0b3J5IjpbLTg1NjgzMTI5NCwtMTYyMDI1MTUsLTY2Mj
 A4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4
 LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xOD
 I1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2
