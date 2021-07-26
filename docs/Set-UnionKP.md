@@ -1,8 +1,6 @@
 ### TODO
 
-- 
-- Buscar en paper número de movimientos
-- Genera tabla de resultados
+- Genera tabla de resultados con varias instancias
 
 **Experimentos**
 
@@ -12,7 +10,7 @@ Promedio, y la mejor solución encontrada
 - Porcentaje del RGreedy: {fijo, 5%, 10%, 20%}
 - no_improvements (swap): {50,100}
 - perturbation: {0-3} swaps (sin importar si mejoran o no)
-- cantidad de movientos: {1000,200
+- cantidad de movimientos: {1000,2000}
 Reportar: RGreedy, perturbation, promedios y mejor (solución inicial, solución alcanzada)
 
 **Graficar convergencia** (beneficio vs. iteraciones), para 1 o dos instancias --> sin perturbación
@@ -150,7 +148,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU4MzM5MzEsLTE2MjAyNTE1LC02Nj
+eyJoaXN0b3J5IjpbLTE3MTY2NDQ1NjgsLTE2MjAyNTE1LC02Nj
 IwODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIz
 OCw4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMT
 gyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1
