@@ -1,6 +1,6 @@
 ### TODO
 
-- Genera tabla de resultados con varias instancias
+- Generar tabla de resultados con varias instancias
 
 **Experimentos**
 
@@ -148,11 +148,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY2NDQ1NjgsLTE2MjAyNTE1LC02Nj
-IwODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIz
-OCw4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMT
-gyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1
-NjE4NTksLTQ2MjUwMDU2NSwtODAzMTgyMjUzLC0xNDMyMjg0MD
-k1LDQyMjQ3Nzc4NiwtMTY5MjUzNTI5MSwzODUxODg2MTIsLTc5
-MTk0NDIzNV19
+eyJoaXN0b3J5IjpbMTU4MjU4NjMzOCwtMTYyMDI1MTUsLTY2Mj
+A4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4
+LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xOD
+I1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2
+MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0MzIyODQwOT
+UsNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkx
+OTQ0MjM1XX0=
 -->
