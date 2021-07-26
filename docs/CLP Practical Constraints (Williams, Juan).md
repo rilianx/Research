@@ -39,6 +39,10 @@ Luego, cada AABBox tiene
 * supporting AABBoxes:
 * supported_weight
 
+### Supported Weight
+
+Cada vez que se inserta una caja, propagar recursivamente el pes
+
 
 
 
@@ -340,11 +344,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIyNjIxNDIsODMxNzkyNTkyLC0xNz
-g3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcw
-MzM5Miw2MTAzNzI0NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LD
-E5NzgyMjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3
-MTM4NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3OD
-gsLTE4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1
-Mzg5OTY0OTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDA5MDY0MDEsLTEwNzIyNjIxNDIsOD
+MxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1NzM0
+ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0NTEsNDI3OTYxOTc4LC
+0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLTIxNDIxMzc2MywtMjIz
+NjE4OTYyLC05NzA3MTM4NDIsODUwMjI5NDU2LC01MDQwMzY5Nj
+EsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMTQzMjYyODgwMCwt
+MTEwMDY0NTc3OV19
 -->
