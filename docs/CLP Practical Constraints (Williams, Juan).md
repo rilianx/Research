@@ -45,6 +45,8 @@ Luego, cada AABBox tiene
 Cada vez que se inserta una caja, propagar recursiva y proporcionalmente el peso a las *supporting boxes*.
 
 
+### Error?
+![image](https://i.imgur.com/FI4c9J9.png)
 
 
 
@@ -346,11 +348,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNz
-IyNjIxNDIsODMxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5
-MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0NTEsND
-I3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLTIxNDIx
-Mzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsODUwMjI5NDU2LC
-01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMTQz
-MjYyODgwMF19
+eyJoaXN0b3J5IjpbLTE0MTc3MDAxODAsMTQxNzE2ODkyLC03MD
+cyOTQ1NjIsLTEwNzIyNjIxNDIsODMxNzkyNTkyLC0xNzg3Mjg3
+NzUwLDE2MzQyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Mi
+w2MTAzNzI0NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5Nzgy
+MjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4ND
+IsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4
+NjU4NDYyMzBdfQ==
 -->
