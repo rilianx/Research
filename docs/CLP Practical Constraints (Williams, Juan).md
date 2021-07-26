@@ -35,8 +35,9 @@ Cada bloque debería tener:
 - Contenedor de AABBoxes
 
 Luego, cada AABBox debería mantener
-* supporting AABBoxes
+* supporting AABBoxes:
 * supported_weight
+al insertar un AABBox en un bloque, se buscan los que intersectan por abajo
 
 
 
@@ -338,11 +339,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MT
-AzNzI0NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4
-MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsOD
-UwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4
-NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5OTY0OT
-UsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0NzMsLTkw
-MDY1MzkzXX0=
+eyJoaXN0b3J5IjpbMTYzNDIwNDkzMCwxNTU3MzQ4NTAyLC0yMT
+A2NzAzMzkyLDYxMDM3MjQ1MSw0Mjc5NjE5NzgsLTExODE5NDY1
+MzksMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC0yMjM2MTg5NjIsLT
+k3MDcxMzg0Miw4NTAyMjk0NTYsLTUwNDAzNjk2MSwtMjE0MjA4
+Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4ODAwLC0xMTAwNjQ1Nz
+c5LDUzODk5NjQ5NSwtMTM5MjA1NTgwLC0xMzkyMDU1ODAsMTAy
+MjU2MzQ3M119
 -->
