@@ -2,6 +2,7 @@
 
 - Pasar a punteros, usar unordered_set cuando sea posible
 - Mantener items no seleccionados en la clase mochila ordenados por ratio
+- 
 - Lanzar experimentos
 
 **Experimentos**
@@ -150,11 +151,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjAyNTE1LC02NjIwODY0NTgsLTM1Mz
-E3Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIzOCw4NjEyOTYxMTgs
-LTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMT
-gyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1NjE4NTksLTQ2MjUw
-MDU2NSwtODAzMTgyMjUzLC0xNDMyMjg0MDk1LDQyMjQ3Nzc4Ni
-wtMTY5MjUzNTI5MSwzODUxODg2MTIsLTc5MTk0NDIzNSwxMTk5
-MTQ4MjgyXX0=
+eyJoaXN0b3J5IjpbMTM5NTY5ODQwOCwtMTYyMDI1MTUsLTY2Mj
+A4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4
+LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xOD
+I1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2
+MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0MzIyODQwOT
+UsNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkx
+OTQ0MjM1XX0=
 -->
