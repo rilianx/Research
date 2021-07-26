@@ -38,6 +38,7 @@ Cada bloque tiene:
 Luego, cada AABBox tiene
 * supporting AABBoxes:
 * supported_weight
+* bottom_contact_surface
 
 ### Supported Weight
 
@@ -345,11 +346,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzI5NDU2MiwtMTA3MjI2MjE0Miw4Mz
-E3OTI1OTIsLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNTU3MzQ4
-NTAyLC0yMTA2NzAzMzkyLDYxMDM3MjQ1MSw0Mjc5NjE5NzgsLT
-ExODE5NDY1MzksMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC0yMjM2
-MTg5NjIsLTk3MDcxMzg0Miw4NTAyMjk0NTYsLTUwNDAzNjk2MS
-wtMjE0MjA4Nzc4OCwtMTg2NTg0NjIzMCwxNDMyNjI4ODAwLC0x
-MTAwNjQ1Nzc5XX0=
+eyJoaXN0b3J5IjpbMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNz
+IyNjIxNDIsODMxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5
+MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0NTEsND
+I3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLTIxNDIx
+Mzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsODUwMjI5NDU2LC
+01MDQwMzY5NjEsLTIxNDIwODc3ODgsLTE4NjU4NDYyMzAsMTQz
+MjYyODgwMF19
 -->
