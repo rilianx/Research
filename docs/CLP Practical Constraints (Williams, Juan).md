@@ -5,8 +5,7 @@ CLP Practical Constraints (continuación).
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
 - [X] Se agregan supporting_boxes a los AABB 
-- [ ] Cálculo de load bearing sin modificar supported_weight (para VCS)
-- [ ] Cálculo de superficie de contacto (para VCS)
+- [ ] En Block se agrega función BCS_and_LB
  
 **General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
@@ -350,11 +349,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTQ5MzI0LC0xNDE3NzAwMTgwLDE0MT
-cxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYyMTQyLDgzMTc5MjU5
-MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLDE1NTczNDg1MDIsLT
-IxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2MTk3OCwtMTE4MTk0
-NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3NjMsLTIyMzYxODk2Mi
-wtOTcwNzEzODQyLDg1MDIyOTQ1NiwtNTA0MDM2OTYxLC0yMTQy
-MDg3Nzg4XX0=
+eyJoaXN0b3J5IjpbMTI1MzA2MDk5OSwtNjI5NDkzMjQsLTE0MT
+c3MDAxODAsMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNzIyNjIx
+NDIsODMxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5MzAsMT
+U1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0NTEsNDI3OTYx
+OTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLTIxNDIxMzc2My
+wtMjIzNjE4OTYyLC05NzA3MTM4NDIsODUwMjI5NDU2LC01MDQw
+MzY5NjFdfQ==
 -->
