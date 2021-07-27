@@ -36,15 +36,15 @@ Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$,
 def validate(seq, s1, s2):
     if s1 < s2: return True
 	h2 = size(s2); h1 = size(s1)
-	h20 = hd; ho0 = ho
-	#se desea saber si el mov: so0->sd0 se puede realizar antes,
+	h20 = h2; h10 = h1
+	#se desea saber si el mov: s1->s2 se puede realizar antes,
 	#si es así: return False
     for so, sd in seq: # vuelve en la secuencia
-       if so==sd0: hd+=1 elif sd==sd0: hd-=1
-       if so==so0: ho+=1 elif sd==so0: ho-=1
-       if hd==H: return True
-       if hd<hd0 or ho<ho0: return True #stacks variantes
-       if hd0==hd and ho0==ho: return False #stacks invariantes
+       if so==s1: h1+=1 elif sd==s1: h1-=1
+       if so==s2: h2+=1 elif sd==s2: h2-=1
+       if h2==H: return True
+       if h2<h20 or h1<h10: return True #stacks variantes
+       if h20==h2 and h10==h1: return False #stacks invariantes
     return True #first move
 ````
 
@@ -53,7 +53,7 @@ def validate(seq, s1, s2):
 Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
 
 ````python
-def validate2(seq, so0, sd0):
+def validate2(seq, s_t, s_d):
     if so0 < sd0: return True
 	hd = size(sd0); ho = size(so0)
 	hd0 = hd; ho0 = ho
@@ -174,11 +174,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg1MTQyODEsLTExNDkyMjQ4NzEsOT
-c4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1OTIy
-NjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3MzQ1MzE2ND
-AsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05MjA2OTU1NDMsLTEy
-Mjc5MzEyNSwtMTEzOTIwMjM0Miw4ODk5MjU2OTQsNTk4OTE1Nj
-A0LC0yMTA3OTc1NDA5LDExNjM2ODgxMTAsLTE3MzY3MTU1Mjks
-LTk3MDU0MDMwMl19
+eyJoaXN0b3J5IjpbODQzOTcxNzEyLC0xMTQ5MjI0ODcxLDk3OD
+k2NzE1OSwtMTYyMTU4NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1
+NDgsLTEzMDY1ODc0MDcsMTUwOTMwOTMzNywxNzM0NTMxNjQwLD
+E5MTEwOTQyODcsMTMyNjA2MTc4NSwtOTIwNjk1NTQzLC0xMjI3
+OTMxMjUsLTExMzkyMDIzNDIsODg5OTI1Njk0LDU5ODkxNTYwNC
+wtMjEwNzk3NTQwOSwxMTYzNjg4MTEwLC0xNzM2NzE1NTI5LC05
+NzA1NDAzMDJdfQ==
 -->
