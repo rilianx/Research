@@ -33,17 +33,18 @@ Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$,
 
 **Implementation**
 ````python
-def validate(seq, so, sd):
-    if so < sd: return True
-	hd = size(sd); ho = size(so)
+def validate(seq, so0, sd0):
+    if so0 < sd0: return True
+	hd = size(sd0); ho = size(so0)
 	hd0 = hd; ho0 = ho
-    for so', sd' in seq:
-       if so'==sd: hd+=1 elif sd'==sd: hd-=1
-       if so'==so: ho+=1 elif sd'==so: ho-=1
+    for so, sd in seq:
+       if so==sd0: hd+=1 elif sd==sd0: hd-=1
+       if so==so0: ho+=1 elif sd==so0: ho-=1
        if hd==H: return True
        if hd<hd0: return True
        if ho<ho0: return True
        if hd0==hd and ho0==ho: return False
+    return True
 ````
 
 
@@ -156,11 +157,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5ODE1Mzc5LDk3ODk2NzE1OSwtMTYyMT
-U4NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1NDgsLTEzMDY1ODc0
-MDcsMTUwOTMwOTMzNywxNzM0NTMxNjQwLDE5MTEwOTQyODcsMT
-MyNjA2MTc4NSwtOTIwNjk1NTQzLC0xMjI3OTMxMjUsLTExMzky
-MDIzNDIsODg5OTI1Njk0LDU5ODkxNTYwNCwtMjEwNzk3NTQwOS
-wxMTYzNjg4MTEwLC0xNzM2NzE1NTI5LC05NzA1NDAzMDIsLTYy
-NDgxOTUwMV19
+eyJoaXN0b3J5IjpbLTExNDkyMjQ4NzEsOTc4OTY3MTU5LC0xNj
+IxNTg0ODY3LDEyODEyMjcyMDUsLTg1OTIyNjU0OCwtMTMwNjU4
+NzQwNywxNTA5MzA5MzM3LDE3MzQ1MzE2NDAsMTkxMTA5NDI4Ny
+wxMzI2MDYxNzg1LC05MjA2OTU1NDMsLTEyMjc5MzEyNSwtMTEz
+OTIwMjM0Miw4ODk5MjU2OTQsNTk4OTE1NjA0LC0yMTA3OTc1ND
+A5LDExNjM2ODgxMTAsLTE3MzY3MTU1MjksLTk3MDU0MDMwMiwt
+NjI0ODE5NTAxXX0=
 -->
