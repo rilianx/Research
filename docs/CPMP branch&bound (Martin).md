@@ -55,12 +55,12 @@ Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $
 ==REVISAR==
 ````python
 def validate2(seq, st, sd):
-	h = size_stacks()
+	h = size_stacks(); variant_stacks
 	h0 = h
     for soo, sdd in seq: # vuelve en la secuencia
        h[soo]+=1; h[sdd]-=1
-       if h[sdd]<h0[sdd]: variant
-       if hd<hd0 or ho<ho0: return True #stacks variantes
+       if h[sdd]<h0[sdd]: variant_stacks.insert(sdd)
+       if sdd==s_t andif h[st]==h0[st] and h[sd]==h0[sd]: 
        if hd0==hd and ho0==ho and sdd==st: return False
     return True #first move
 ````
@@ -171,7 +171,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzQyNzkxNSwtMjA5ODk2NzgwNiwtMT
+eyJoaXN0b3J5IjpbMTIwOTA0NTIxNiwtMjA5ODk2NzgwNiwtMT
 AxMTQ5NzIyNSwtMTE0OTIyNDg3MSw5Nzg5NjcxNTksLTE2MjE1
 ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3ND
 A3LDE1MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LDEz
