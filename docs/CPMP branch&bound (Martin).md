@@ -41,6 +41,9 @@ def validate(seq, so, sd):
        if so'==sd: hd+=1 elif sd'==sd: hd-=1
        if so'==so: ho+=1 elif sd'==so: ho-=1
        if hd==H: return True
+       if hd<hd0: return True
+       if ho<ho0: return True
+       if hd0==hd and ho0==ho: return False
 ````
 
 
@@ -153,11 +156,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDI1MDY1OCw5Nzg5NjcxNTksLTE2Mj
-E1ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3
-NDA3LDE1MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LD
-EzMjYwNjE3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5
-MjAyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MDQsLTIxMDc5NzU0MD
-ksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwtOTcwNTQwMzAyLC02
-MjQ4MTk1MDFdfQ==
+eyJoaXN0b3J5IjpbNTY5ODE1Mzc5LDk3ODk2NzE1OSwtMTYyMT
+U4NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1NDgsLTEzMDY1ODc0
+MDcsMTUwOTMwOTMzNywxNzM0NTMxNjQwLDE5MTEwOTQyODcsMT
+MyNjA2MTc4NSwtOTIwNjk1NTQzLC0xMjI3OTMxMjUsLTExMzky
+MDIzNDIsODg5OTI1Njk0LDU5ODkxNTYwNCwtMjEwNzk3NTQwOS
+wxMTYzNjg4MTEwLC0xNzM2NzE1NTI5LC05NzA1NDAzMDIsLTYy
+NDgxOTUwMV19
 -->
