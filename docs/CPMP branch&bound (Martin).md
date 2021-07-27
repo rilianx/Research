@@ -37,14 +37,12 @@ def validate(seq, so0, sd0):
     if so0 < sd0: return True
 	hd = size(sd0); ho = size(so0)
 	hd0 = hd; ho0 = ho
-	#se desea saber si el mov: so0->sd0 se puede realizar antes 
-	#(return False)
+	#se desea saber si el mov: so0->sd0 se puede realizar antes,
+	#si es así: return False
     for so, sd in seq: # vuelve en la secuencia
        if so==sd0: hd+=1 elif sd==sd0: hd-=1
        if so==so0: ho+=1 elif sd==so0: ho-=1
-       if hd==H: return True
-       if hd<hd0: return True
-       if ho<ho0: return True
+       if hd==H or hd<hd0 or ho<ho0: return True
        if hd0==hd and ho0==ho: return False
     return True
 ````
@@ -159,11 +157,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDQ4NTQ2MSwtMTE0OTIyNDg3MSw5Nz
-g5NjcxNTksLTE2MjE1ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2
-NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMDkzMzcsMTczNDUzMTY0MC
-wxOTExMDk0Mjg3LDEzMjYwNjE3ODUsLTkyMDY5NTU0MywtMTIy
-NzkzMTI1LC0xMTM5MjAyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MD
-QsLTIxMDc5NzU0MDksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwt
-OTcwNTQwMzAyXX0=
+eyJoaXN0b3J5IjpbNjU1Njc5MzUxLC0xMTQ5MjI0ODcxLDk3OD
+k2NzE1OSwtMTYyMTU4NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1
+NDgsLTEzMDY1ODc0MDcsMTUwOTMwOTMzNywxNzM0NTMxNjQwLD
+E5MTEwOTQyODcsMTMyNjA2MTc4NSwtOTIwNjk1NTQzLC0xMjI3
+OTMxMjUsLTExMzkyMDIzNDIsODg5OTI1Njk0LDU5ODkxNTYwNC
+wtMjEwNzk3NTQwOSwxMTYzNjg4MTEwLC0xNzM2NzE1NTI5LC05
+NzA1NDAzMDJdfQ==
 -->
