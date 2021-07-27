@@ -34,8 +34,12 @@ Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$,
 **Implementation**
 ````python
 def validate(seq, s_o, s_d):
+    
+	h_d= size(s_d)
     for s_o', s_d' in seq:
-       if 
+       if s_o'==s_d: h_d+=1
+       if s_d'==s_d: h_d-=1
+       if h_d==H: return true
 ````
 
 
@@ -148,11 +152,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODE3Nzc2Niw5Nzg5NjcxNTksLTE2Mj
-E1ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3
-NDA3LDE1MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LD
-EzMjYwNjE3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5
-MjAyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MDQsLTIxMDc5NzU0MD
-ksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwtOTcwNTQwMzAyLC02
-MjQ4MTk1MDFdfQ==
+eyJoaXN0b3J5IjpbLTEwMzE1MjEzODgsOTc4OTY3MTU5LC0xNj
+IxNTg0ODY3LDEyODEyMjcyMDUsLTg1OTIyNjU0OCwtMTMwNjU4
+NzQwNywxNTA5MzA5MzM3LDE3MzQ1MzE2NDAsMTkxMTA5NDI4Ny
+wxMzI2MDYxNzg1LC05MjA2OTU1NDMsLTEyMjc5MzEyNSwtMTEz
+OTIwMjM0Miw4ODk5MjU2OTQsNTk4OTE1NjA0LC0yMTA3OTc1ND
+A5LDExNjM2ODgxMTAsLTE3MzY3MTU1MjksLTk3MDU0MDMwMiwt
+NjI0ODE5NTAxXX0=
 -->
