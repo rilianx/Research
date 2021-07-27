@@ -52,19 +52,17 @@ def validate(seq, s1, s2):
 **Evitar mover el mismo contenedor varias veces**
 Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
 
-==REVISAR==
 ````python
 def validate2(seq, st, sd):
-	h = size_stacks(); variant_stacks
-	h0 = h
+	h = size_stacks(); h0=h 
     for so, sdd in seq: # vuelve en la secuencia
        h[so]+=1; h[sdd]-=1
-       if h[sdd]<h0[sdd]: 
-	       if sdd==st or sdd=sd: return True #variant stacks
+       if h[sdd]<h0[sdd]: #variant stack
+	       if sdd==st or sdd=sd: return True 
 	       variant_stacks.insert(sdd)
-       if so not in variant_stacks:
-       if sdd==s_t and h[so]=h0[so] and h[st]==h0[st] and h[sd]==h0[sd]: 
-       if hd0==hd and ho0==ho and sdd==st: return False
+       if so=s_t and so not in variant_stacks:
+	       if h[so]=h0[so] and h[st]==h0[st] and h[sd]==h0[sd]: 
+		       return False
     return True #first move
 ````
 
@@ -174,11 +172,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDQyMjM3LC0yMDk4OTY3ODA2LC0xMD
-ExNDk3MjI1LC0xMTQ5MjI0ODcxLDk3ODk2NzE1OSwtMTYyMTU4
-NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1NDgsLTEzMDY1ODc0MD
-csMTUwOTMwOTMzNywxNzM0NTMxNjQwLDE5MTEwOTQyODcsMTMy
-NjA2MTc4NSwtOTIwNjk1NTQzLC0xMjI3OTMxMjUsLTExMzkyMD
-IzNDIsODg5OTI1Njk0LDU5ODkxNTYwNCwtMjEwNzk3NTQwOSwx
-MTYzNjg4MTEwXX0=
+eyJoaXN0b3J5IjpbLTQ0ODY2NTQzMiwtMjA5ODk2NzgwNiwtMT
+AxMTQ5NzIyNSwtMTE0OTIyNDg3MSw5Nzg5NjcxNTksLTE2MjE1
+ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3ND
+A3LDE1MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LDEz
+MjYwNjE3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5Mj
+AyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MDQsLTIxMDc5NzU0MDks
+MTE2MzY4ODExMF19
 -->
