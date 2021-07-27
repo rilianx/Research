@@ -73,7 +73,6 @@ Fuerzan a encontrar solución sin movimientos adicionales. Esto es como preferir
 
 ### Future Work
 
-* ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
 * Implementar Feasible Diving -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
 
 ---
@@ -175,11 +174,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NzcyNzc0LC0yNTA1NzI2NjQsLTE1MT
-M2MDc2OSwtMjA5ODk2NzgwNiwtMTAxMTQ5NzIyNSwtMTE0OTIy
-NDg3MSw5Nzg5NjcxNTksLTE2MjE1ODQ4NjcsMTI4MTIyNzIwNS
-wtODU5MjI2NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMDkzMzcsMTcz
-NDUzMTY0MCwxOTExMDk0Mjg3LDEzMjYwNjE3ODUsLTkyMDY5NT
-U0MywtMTIyNzkzMTI1LC0xMTM5MjAyMzQyLDg4OTkyNTY5NCw1
-OTg5MTU2MDRdfQ==
+eyJoaXN0b3J5IjpbLTIxNDM1NzI1MzUsNTc1NzcyNzc0LC0yNT
+A1NzI2NjQsLTE1MTM2MDc2OSwtMjA5ODk2NzgwNiwtMTAxMTQ5
+NzIyNSwtMTE0OTIyNDg3MSw5Nzg5NjcxNTksLTE2MjE1ODQ4Nj
+csMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3NDA3LDE1
+MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LDEzMjYwNj
+E3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5MjAyMzQy
+LDg4OTkyNTY5NF19
 -->
