@@ -33,10 +33,10 @@ Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$,
 
 **Implementation**
 ````python
-def validate(seq, so0, sd0):
-    if so0 < sd0: return True
-	hd = size(sd0); ho = size(so0)
-	hd0 = hd; ho0 = ho
+def validate(seq, s1, s2):
+    if s1 < s2: return True
+	h2 = size(s2); h1 = size(s1)
+	h20 = hd; ho0 = ho
 	#se desea saber si el mov: so0->sd0 se puede realizar antes,
 	#si es así: return False
     for so, sd in seq: # vuelve en la secuencia
@@ -52,7 +52,21 @@ def validate(seq, so0, sd0):
 **Evitar mover el mismo contenedor varias veces**
 Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
 
-
+````python
+def validate2(seq, so0, sd0):
+    if so0 < sd0: return True
+	hd = size(sd0); ho = size(so0)
+	hd0 = hd; ho0 = ho
+	#se desea saber si el mov: so0->sd0 se puede realizar antes,
+	#si es así: return False
+    for so, sd in seq: # vuelve en la secuencia
+       if so==sd0: hd+=1 elif sd==sd0: hd-=1
+       if so==so0: ho+=1 elif sd==so0: ho-=1
+       if hd==H: return True
+       if hd<hd0 or ho<ho0: return True #stacks variantes
+       if hd0==hd and ho0==ho: return False #stacks invariantes
+    return True #first move
+````
 
 ¿Cómo estandarizar secuencia de movimientos?
 
@@ -160,11 +174,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzUyOTkwMiwtMTE0OTIyNDg3MSw5Nz
-g5NjcxNTksLTE2MjE1ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2
-NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMDkzMzcsMTczNDUzMTY0MC
-wxOTExMDk0Mjg3LDEzMjYwNjE3ODUsLTkyMDY5NTU0MywtMTIy
-NzkzMTI1LC0xMTM5MjAyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MD
-QsLTIxMDc5NzU0MDksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwt
-OTcwNTQwMzAyXX0=
+eyJoaXN0b3J5IjpbLTIwNzg1MTQyODEsLTExNDkyMjQ4NzEsOT
+c4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1OTIy
+NjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3MzQ1MzE2ND
+AsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05MjA2OTU1NDMsLTEy
+Mjc5MzEyNSwtMTEzOTIwMjM0Miw4ODk5MjU2OTQsNTk4OTE1Nj
+A0LC0yMTA3OTc1NDA5LDExNjM2ODgxMTAsLTE3MzY3MTU1Mjks
+LTk3MDU0MDMwMl19
 -->
