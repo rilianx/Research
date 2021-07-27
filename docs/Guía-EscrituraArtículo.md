@@ -64,7 +64,6 @@ Y sin reducir y. Comparación con/sin reducir en x.
 - Buscar algoritmo de la competencia para comparar ([Rust code](https://github.com/bobotu/kaosu-packer))
 - BSG solo debería verificar bins modificados (flag para marcar bins)
 - Al verificar soluciones, para acelerar el proceso, BSG podría descartar estado que no puedan ubicar todas las cajas.
-- 
 
 **Plan**
 
@@ -140,11 +139,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTAyMjAxNiwtODkzOTQwNjQ1LDEzNT
-E2OTU0MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMTA3NTU5
-MDYyMCwtMTQzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2MDQwNj
-MsMTE5MTA2MTM1OCwtMTk5MDg0OTc3MCwtMTI2MDk0NjU4Niwt
-NTQ3MjIzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMT
-UwNDQsLTgxODUzMDQxOSw0NTc0ODU5NiwtMTY4Njg2NjEzLDQ1
-ODgxNzI3OF19
+eyJoaXN0b3J5IjpbLTg5Mzk0MDY0NSwyMDk5MDIyMDE2LC04OT
+M5NDA2NDUsMTM1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMDYyOTE0
+NTQ0LC0xMDc1NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3NTA2Nz
+QsMTI1OTYwNDA2MywxMTkxMDYxMzU4LC0xOTkwODQ5NzcwLC0x
+MjYwOTQ2NTg2LC01NDcyMjMyMzEsNDQ4NzkxNzY0LDE3NDgwMj
+M2MTYsMTcxNzExNTA0NCwtODE4NTMwNDE5LDQ1NzQ4NTk2LC0x
+Njg2ODY2MTNdfQ==
 -->
