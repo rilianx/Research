@@ -67,7 +67,7 @@ def validate2(seq, st, sd):
 ````
 
 **Evitar XB moves?**
-Fuerza
+Fuerzan a encontrar solución sin movimientos adicionales. Esto es como preferir nodos que minimizan lb.
 ![image](https://i.imgur.com/eZG1njX.png)
 ¿Cómo estandarizar secuencia de movimientos?
 
@@ -175,11 +175,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzI4NTM0MSwtMjUwNTcyNjY0LC0xNT
-EzNjA3NjksLTIwOTg5Njc4MDYsLTEwMTE0OTcyMjUsLTExNDky
-MjQ4NzEsOTc4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMD
-UsLTg1OTIyNjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3
-MzQ1MzE2NDAsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05MjA2OT
-U1NDMsLTEyMjc5MzEyNSwtMTEzOTIwMjM0Miw4ODk5MjU2OTQs
-NTk4OTE1NjA0XX0=
+eyJoaXN0b3J5IjpbNTc1NzcyNzc0LC0yNTA1NzI2NjQsLTE1MT
+M2MDc2OSwtMjA5ODk2NzgwNiwtMTAxMTQ5NzIyNSwtMTE0OTIy
+NDg3MSw5Nzg5NjcxNTksLTE2MjE1ODQ4NjcsMTI4MTIyNzIwNS
+wtODU5MjI2NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMDkzMzcsMTcz
+NDUzMTY0MCwxOTExMDk0Mjg3LDEzMjYwNjE3ODUsLTkyMDY5NT
+U0MywtMTIyNzkzMTI1LC0xMTM5MjAyMzQyLDg4OTkyNTY5NCw1
+OTg5MTU2MDRdfQ==
 -->
