@@ -33,8 +33,9 @@ Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$,
 
 **Implementation**
 ````python
-def validate(seq):
-   
+def validate(seq, s_o, s_d):
+    for s_o', s_d' in seq:
+       if 
 ````
 
 
@@ -147,7 +148,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDcxMDY2NCw5Nzg5NjcxNTksLTE2Mj
+eyJoaXN0b3J5IjpbLTg5ODE3Nzc2Niw5Nzg5NjcxNTksLTE2Mj
 E1ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3
 NDA3LDE1MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LD
 EzMjYwNjE3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5
