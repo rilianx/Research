@@ -52,6 +52,7 @@ def validate(seq, s1, s2):
 **Evitar mover el mismo contenedor varias veces**
 Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
 
+==REVISAR==
 ````python
 def validate2(seq, st, sd):
 	hd = size(st); ht = size(st)
@@ -60,7 +61,7 @@ def validate2(seq, st, sd):
        if soo==sd: hd+=1 elif sdd==sd: hd-=1
        if soo==st: ht+=1 elif soo==st: ht-=1
        if hd<hd0 or ho<ho0: return True #stacks variantes
-       if hd0==hd and ho0==ho and soo=: return False #stacks invariantes
+       if hd0==hd and ho0==ho and sdd==st: return False
     return True #first move
 ````
 
@@ -170,7 +171,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU3MTI1OTUsLTExNDkyMjQ4NzEsOT
+eyJoaXN0b3J5IjpbLTEwMTE0OTcyMjUsLTExNDkyMjQ4NzEsOT
 c4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1OTIy
 NjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3MzQ1MzE2ND
 AsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05MjA2OTU1NDMsLTEy
