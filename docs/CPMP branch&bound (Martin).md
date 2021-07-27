@@ -66,6 +66,8 @@ def validate2(seq, st, sd):
     return True #first move
 ````
 
+**Evitar XB moves?**
+![image](https://i.imgur.com/eZG1njX.png)
 ¿Cómo estandarizar secuencia de movimientos?
 
 ### Future Work
@@ -172,11 +174,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM2MDc2OSwtMjA5ODk2NzgwNiwtMT
-AxMTQ5NzIyNSwtMTE0OTIyNDg3MSw5Nzg5NjcxNTksLTE2MjE1
-ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3ND
-A3LDE1MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LDEz
-MjYwNjE3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5Mj
-AyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MDQsLTIxMDc5NzU0MDks
-MTE2MzY4ODExMF19
+eyJoaXN0b3J5IjpbLTI1MDU3MjY2NCwtMTUxMzYwNzY5LC0yMD
+k4OTY3ODA2LC0xMDExNDk3MjI1LC0xMTQ5MjI0ODcxLDk3ODk2
+NzE1OSwtMTYyMTU4NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1ND
+gsLTEzMDY1ODc0MDcsMTUwOTMwOTMzNywxNzM0NTMxNjQwLDE5
+MTEwOTQyODcsMTMyNjA2MTc4NSwtOTIwNjk1NTQzLC0xMjI3OT
+MxMjUsLTExMzkyMDIzNDIsODg5OTI1Njk0LDU5ODkxNTYwNCwt
+MjEwNzk3NTQwOV19
 -->
