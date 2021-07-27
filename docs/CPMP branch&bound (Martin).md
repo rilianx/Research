@@ -31,7 +31,11 @@ Stack **invariante** a secuencia de movimientos.
 **Unrelated move symmetries**
 Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento $(s_o,s_d)$ después de la secuencia $S$ (ya que se puede hacer antes). Salvo que el stack $s_d$ se haya llenado en algún momento de la secuencia.
 
-(1,2); (3,4); (5,6)
+**Implementation**
+````python
+def validate(seq):
+   
+````
 
 
 **Evitar mover el mismo contenedor varias veces**
@@ -143,11 +147,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4OTY3MTU5LC0xNjIxNTg0ODY3LDEyOD
-EyMjcyMDUsLTg1OTIyNjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5
-MzM3LDE3MzQ1MzE2NDAsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC
-05MjA2OTU1NDMsLTEyMjc5MzEyNSwtMTEzOTIwMjM0Miw4ODk5
-MjU2OTQsNTk4OTE1NjA0LC0yMTA3OTc1NDA5LDExNjM2ODgxMT
-AsLTE3MzY3MTU1MjksLTk3MDU0MDMwMiwtNjI0ODE5NTAxLC0x
-ODgxNjE4MDE1XX0=
+eyJoaXN0b3J5IjpbLTM5MDcxMDY2NCw5Nzg5NjcxNTksLTE2Mj
+E1ODQ4NjcsMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3
+NDA3LDE1MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LD
+EzMjYwNjE3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5
+MjAyMzQyLDg4OTkyNTY5NCw1OTg5MTU2MDQsLTIxMDc5NzU0MD
+ksMTE2MzY4ODExMCwtMTczNjcxNTUyOSwtOTcwNTQwMzAyLC02
+MjQ4MTk1MDFdfQ==
 -->
