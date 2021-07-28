@@ -1,8 +1,6 @@
 ### TODO
 
-- Pasar a punteros, usar unordered_set cuando sea posible
-- Mantener items no seleccionados en la clase mochila ordenados por ratio
-- Lanzar experimentos
+- Generar tabla de resultados con varias instancias
 
 **Experimentos**
 
@@ -10,9 +8,9 @@
 Promedio, y la mejor solución encontrada
 - Solución inicial: {Greedy, RGreedy}
 - Porcentaje del RGreedy: {fijo, 5%, 10%, 20%}
-- no_improvements (swap): 50
+- no_improvements (swap): {50,100}
 - perturbation: {0-3} swaps (sin importar si mejoran o no)
-- iteraciones de la estrategia: 10
+- cantidad de movimientos: {1000,2000}
 Reportar: RGreedy, perturbation, promedios y mejor (solución inicial, solución alcanzada)
 
 **Graficar convergencia** (beneficio vs. iteraciones), para 1 o dos instancias --> sin perturbación
@@ -150,11 +148,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OT
-c5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQyMzUw
-LC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1NDQzNTY4LD
-EzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04MDMx
-ODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjkyNTM1Mj
-kxLDM4NTE4ODYxMiwtNzkxOTQ0MjM1LDExOTkxNDgyODIsLTEz
-NDY2MjU5OTJdfQ==
+eyJoaXN0b3J5IjpbMTU4MjU4NjMzOCwtMTYyMDI1MTUsLTY2Mj
+A4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4
+LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xOD
+I1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2
+MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0MzIyODQwOT
+UsNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLDM4NTE4ODYxMiwtNzkx
+OTQ0MjM1XX0=
 -->

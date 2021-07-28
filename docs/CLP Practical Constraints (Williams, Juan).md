@@ -4,10 +4,10 @@ CLP Practical Constraints (continuación).
 **TODO**
 
 - [ ] Modificar visualizador para colorear cajas de los clientes
-- [ ] **Supported_weight para cada blox** mantener estructura en cada aabb que permita saber cuáles solo los blox que la soportan. Además, cada vez que se agregan nuevas cajas, se deberían identificar sus supporting_bloxs y actualizar sus supported_weights.
-	- [ ] Obtención de supporting bloxs para un aabb dado
-	- [ ] Área de contacto entre dos bloxs.
-
+- [X] Se agregan supporting_boxes a los AABB. Además, se actualizan cada vez que un bloque es agregado al contenedor.
+- [X] En Block se agrega función `BCS_and_LB` que permite obtener *bottom contact surface* de las cajas inferiores de un bloque. Además calcula los *supported_weights* (para load bearing) actualizados en caso de colocar el bloque.
+- [ ] Agregar ejemplo de uso para `BCS_and_LN`
+ 
 **General Strategy (1)**
 - [ ] Implementar algoritmo MCLP-BSG de paper
 
@@ -30,6 +30,25 @@ CLP Practical Constraints (continuación).
 **Evaluating solutions (5)**
 - [ ] **Compute a factor for the overturning angle constraint**
 - [ ] **Compute a factor for the complete shipment constraint**
+
+### Blocks
+
+Cada bloque tiene:
+- Contenedor de AABBlocks
+- Contenedor de AABBoxes
+
+Luego, cada AABBox tiene
+* supporting AABBoxes:
+* supported_weight
+* bottom_contact_surface
+
+### Supported Weight
+
+Cada vez que se inserta una caja, propagar recursiva y proporcionalmente el peso a las *supporting boxes*.
+
+
+### Error?
+![image](https://i.imgur.com/FI4c9J9.png)
 
 
 
@@ -331,11 +350,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5Nz
-gyMjA4MTgsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4
-NDIsODUwMjI5NDU2LC01MDQwMzY5NjEsLTIxNDIwODc3ODgsLT
-E4NjU4NDYyMzAsMTQzMjYyODgwMCwtMTEwMDY0NTc3OSw1Mzg5
-OTY0OTUsLTEzOTIwNTU4MCwtMTM5MjA1NTgwLDEwMjI1NjM0Nz
-MsLTkwMDY1MzkzLC04NTkyMzk2NDQsLTE1ODgwMzYxNDgsMTUw
-ODA5NjkxOF19
+eyJoaXN0b3J5IjpbLTIwMjcyNTE5NTMsLTYyOTQ5MzI0LC0xND
+E3NzAwMTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYy
+MTQyLDgzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLD
+E1NTczNDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2
+MTk3OCwtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3Nj
+MsLTIyMzYxODk2MiwtOTcwNzEzODQyLDg1MDIyOTQ1NiwtNTA0
+MDM2OTYxXX0=
 -->

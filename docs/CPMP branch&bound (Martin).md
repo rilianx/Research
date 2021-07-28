@@ -10,7 +10,7 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 - ==Revisar lower bound== (instancia 3-3-3, por qué LB da más que 2)
 - ==Usar valores de regresión lineal múltiple para evaluar nodos==
 - Comparar stack vs pqueue (profe) --> [results](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=886426566)
-- Implementar filtrado de acciones.
+- Implementar filtrado de acciones :ok: (filtrado básico)
 
 ---
 
@@ -31,14 +31,48 @@ Stack **invariante** a secuencia de movimientos.
 **Unrelated move symmetries**
 Si una secuencia $S$ es invariante para los stacks $s_o$ y $s_d$, con $s_o>s_d$, se descarta hacer el movimiento $(s_o,s_d)$ después de la secuencia $S$ (ya que se puede hacer antes). Salvo que el stack $s_d$ se haya llenado en algún momento de la secuencia.
 
+**Implementation**
+````python
+def validate(seq, s1, s2):
+    if s1 < s2: return True
+	h2 = size(s2); h1 = size(s1)
+	h20 = h2; h10 = h1
+	#se desea saber si el mov: s1->s2 se puede realizar antes,
+	#si es así: return False
+    for so, sd in seq: # vuelve en la secuencia
+       if so==s1: h1+=1 elif sd==s1: h1-=1
+       if so==s2: h2+=1 elif sd==s2: h2-=1
+       if h2==H: return True
+       if h2<h20 or h1<h10: return True #stacks variantes
+       if h20==h2 and h10==h1: return False #stacks invariantes
+    return True #first move
+````
+
+
 **Evitar mover el mismo contenedor varias veces**
 Si una secuencia de movimientos $S$ es invariante para los stacks$s_o$, $s_d$, $s_t$. Y justo antes de la secuencia se realizó el movimiento $(s_o,s_t)$. Entonces el movimiento $(s_t,s_d)$, se puede descartar, ya que hubiera sido mejor realizar el movimiento $(s_o,s_d)$ desde un comienzo.
 
+````python
+def validate2(seq, st, sd):
+	h = size_stacks(); h0=h 
+    for so, sdd in seq: # vuelve en la secuencia
+       if sdd==st and so not in variant_stacks:
+	       if h[so]=h0[so] and h[st]==h0[st] and h[sd]==h0[sd]: 
+		       return False
+       h[so]+=1; h[sdd]-=1
+       if h[sdd]<h0[sdd]: #variant stack
+	       if sdd==st or sdd=sd: return True 
+	       variant_stacks.insert(sdd)
+    return True #first move
+````
+
+**Evitar XB moves?**
+Fuerzan a encontrar solución sin movimientos adicionales. Esto es como preferir nodos que minimizan lb.
+![image](https://i.imgur.com/eZG1njX.png)
 ¿Cómo estandarizar secuencia de movimientos?
 
 ### Future Work
 
-* ¿**Cómo filtrar acciones** usando reglas de dominancia?. Ver cómo lo hacen en paper.
 * Implementar Feasible Diving -> Estrategia de selección de nodo. Selecciona el nodo que minimiza l, busca en profundidad a partir de ese nodo y repite.
 
 ---
@@ -140,11 +174,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE1ODQ4NjcsMTI4MTIyNzIwNSwtOD
-U5MjI2NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMDkzMzcsMTczNDUz
-MTY0MCwxOTExMDk0Mjg3LDEzMjYwNjE3ODUsLTkyMDY5NTU0My
-wtMTIyNzkzMTI1LC0xMTM5MjAyMzQyLDg4OTkyNTY5NCw1OTg5
-MTU2MDQsLTIxMDc5NzU0MDksMTE2MzY4ODExMCwtMTczNjcxNT
-UyOSwtOTcwNTQwMzAyLC02MjQ4MTk1MDEsLTE4ODE2MTgwMTUs
-LTE4MTg3MTM5MjVdfQ==
+eyJoaXN0b3J5IjpbLTIxNDM1NzI1MzUsNTc1NzcyNzc0LC0yNT
+A1NzI2NjQsLTE1MTM2MDc2OSwtMjA5ODk2NzgwNiwtMTAxMTQ5
+NzIyNSwtMTE0OTIyNDg3MSw5Nzg5NjcxNTksLTE2MjE1ODQ4Nj
+csMTI4MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3NDA3LDE1
+MDkzMDkzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LDEzMjYwNj
+E3ODUsLTkyMDY5NTU0MywtMTIyNzkzMTI1LC0xMTM5MjAyMzQy
+LDg4OTkyNTY5NF19
 -->
