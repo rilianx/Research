@@ -62,8 +62,8 @@ int Layout::move(int i, int j){
 
     stacks[j].push_back(c);
 
-
     steps ++;
+    seq.push_front(make_pair(i,j));
     return c;
 }
 

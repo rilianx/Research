@@ -37,8 +37,9 @@ class Layout {
         int lb;
         list <int> bsg_moves;
         set <int> dismantled_stacks;
+        list < pair<int,int> > seq;
 
-        multimap <int ,int> gv2index; //for the beamsearch (type:SDPP)
+        //multimap <int ,int> gv2index; //for the beamsearch (type:SDPP)
         int last_sd =-1; /*last dismantled stack*/
 
         static int H;
@@ -48,6 +49,49 @@ class Layout {
         Layout(string filename);
 
         int move(int i, int j);
+
+        //Return false if it detect an unrelated move symmetry
+        bool validate_move(int s1, int s2){
+            if (s1 < s2) return true;
+
+            int h1= stacks[s1].size(); int h10=h1;
+            int h2= stacks[s2].size(); int h20=h2;
+
+            //se desea saber si el mov: s1->s2 se puede realizar antes,
+            //si es así: return False
+            for(auto ss : seq){
+                int so = ss.first;
+                int sd = ss.second;
+                if (so==s1) h1+=1; else if (sd==s1) h1-=1;
+                if (so==s2) h2+=1; else if (sd==s2) h2-=1;
+                if (h2==H) return true;
+                if (h2<h20 || h1<h10) return true; //stacks variantes
+                if (h20==h2 && h10==h1) return false; //stacks invariantes
+            }
+            return true; //first move
+        }
+
+        bool validate_move2(int st, int sd){
+            vector<int> h(stacks.size());
+            for (int i=0; i<stacks.size();i++) h[i]=stacks[i].size();
+            vector<bool> variant_stacks(stacks.size(), false);
+
+            for(auto ss : seq){
+                int so = ss.first;
+                int sdd = ss.second;
+                
+                if (sdd==st && !variant_stacks[so]){
+                    if (stacks[so].size()==h[so] && stacks[st].size()==h[st] && stacks[sd].size()==h[sd]) 
+                        return false;
+                }
+                h[so]+=1; h[sdd]-=1;
+                if (h[sdd]<stacks[sdd].size()){ //variant stack
+                    if (sdd==st || sdd==sd) return true;
+                    variant_stacks[sdd]=true;
+                }
+            }
+            return true; //first move
+        }
 
 
 

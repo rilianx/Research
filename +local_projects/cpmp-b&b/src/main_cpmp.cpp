@@ -65,21 +65,18 @@ class Nodo
                 {
                     //Si no es el mismo stack
                     //+
-                    //Si la columna actual no tiene tamaño 0
-                    if (i != j && actual->stacks[i].size() != 0)
+                    //Si la columna actual no tiene tamaño 0 y Si la columna objetivo no esta llena
+                    if (i != j && actual->stacks[i].size() != 0 && actual->stacks[j].size() != h && 
+                                        actual->validate_move(i,j) &&  actual->validate_move2(i,j))
                     {
-                        //Si la columna objetivo no esta llena
-                        if (actual->stacks[j].size() != h)
-                        {
-                            //Se crea un nuevo nodo
-                            Nodo * niu = new Nodo(actual,(nivel)+1,this);
-                            //Se realiza el movimiento
-                            niu->actual->move(i,j);
+                        //Se crea un nuevo nodo
+                        Nodo * niu = new Nodo(actual,(nivel)+1,this);
+                        //Se realiza el movimiento
+                        niu->actual->move(i,j);
 
-                            //Se inserta en LA COLA
-                            children.push_back(niu);
+                        //Se inserta en LA COLA
+                        children.push_back(niu);
                             
-                        }
                     }
                 }
             }
@@ -106,8 +103,8 @@ class Tree
     public:
         Nodo * base;
         int limite;
-        stack <Nodo*> S;
-        //priority_queue<Nodo*, vector<Nodo*>, compare_nodes2> S;
+        //stack <Nodo*> S;
+        priority_queue<Nodo*, vector<Nodo*>, compare_nodes2> S;
 
         int contador=0;
         int nivel;
@@ -147,8 +144,9 @@ class Tree
     float eva(Nodo * n,int lower)
         {
             Layout * L = n->actual;
-            int l = (L->lb)-lower;
-            return l;
+            //int l = (L->lb)-lower;
+            //return l;
+            return L->lb;
         }
 
     // comparison, not case sensitive.
@@ -172,6 +170,7 @@ class Tree
         int L = root->actual->lb;
         int U = greedy(root->actual);
         
+        
         Nodo * temp;
         Nodo * aux;
         
@@ -182,8 +181,6 @@ class Tree
         int contadorDeNodos = 0;
         while (S.size()!=0)
         {
-            
-
             //Se obtiene el elemento top del stack
             temp = S.top(); S.pop();
             //cout << temp->actual->steps << "," << temp->greedy_child << endl;
@@ -195,16 +192,20 @@ class Tree
             
             if (l >= U){
                 if (L == U){
-                    cout << contadorDeNodos << " ";
+                    cout << U << " " << contadorDeNodos << " ";
                     return;
                 }
                 delete(temp);
                 continue;
             }
+            int u=-1;
+
+            if (l-temp->actual->steps < 10)
+                u = greedy(temp->actual, temp->actual->steps+10);
+
+            if (temp->actual->unsorted_stacks==0) u=temp->actual->steps;
 
             
-            int u = greedy(temp->actual, u);
-            contadorDeNodos ++;
 
             if (u==-1) u=1000;
 
@@ -213,15 +214,21 @@ class Tree
                 cout << temp->actual->steps << ";" <<   temp->actual->lb << ";" << L << ";" << u << endl;
                 cout << u;cout << "\nNodos hasta el momento: ";cout << contadorDeNodos;cout << "\n\n";
                 U = u;
+                if (l >= U){
+                    delete(temp);
+                    continue;
+                }
             }
+
+
             
             if (L == U)
             {
-                cout << contadorDeNodos << " ";
+                cout << U << " " << contadorDeNodos << " ";
                 return;
             }
 
-
+            contadorDeNodos ++;
             //Obtiene los hijos
             list <Nodo*> children;
             temp->get_children(children);
@@ -242,8 +249,8 @@ class Tree
             }*/
 
             //Evaluo y Ordeno (for stack only)
-            for (auto& n:children) n->score = eva(n,L);
-            children.sort(compare_nodes);
+            //for (auto& n:children) n->score = eva(n,L);
+            //children.sort(compare_nodes);
 
 
             for (auto& aux:children)
@@ -262,7 +269,7 @@ class Tree
             L = lbs.begin()->first;
         }
 
-        cout <<  contadorDeNodos << " ";
+        cout << U << " " << contadorDeNodos << " ";
 
 
         
