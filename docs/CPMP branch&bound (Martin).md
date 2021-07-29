@@ -26,14 +26,16 @@ Que deben ser actualizados al final de la función `Layout::move`
 ![image](https://i.imgur.com/FBShbue.png)
 
 
+
 **Uso de PQueue (en vez de stack)**
 En clase Tree:
 ![image](https://i.imgur.com/0beW3Ew.png)
 
-Se debe implementar función para comparar/ordenar los nodos dentro de la cola con prioridad
+Se debe implementar función para comparar/ordenar los nodos dentro de la cola con prioridad (en `main_cpmp.cpp`)
 ![image](https://i.imgur.com/lR0UNsN.png)
 
-Dejé casi todo el algoritmo en la función search2 de main_cpmp``
+Dejé casi todo el algoritmo en la función `search2` de `main_cpmp`. Revísala y si no has cambiado search2, puedes pegar todo el contenido.
+![image](https://i.imgur.com/T9sSG0g.png)
 
 ---
 
@@ -197,7 +199,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjIzMTE1OCwyMDg0OTMxMTM1LC0yMT
+eyJoaXN0b3J5IjpbLTc1MDI4Mjk0NiwyMDg0OTMxMTM1LC0yMT
 QzNTcyNTM1LDU3NTc3Mjc3NCwtMjUwNTcyNjY0LC0xNTEzNjA3
 NjksLTIwOTg5Njc4MDYsLTEwMTE0OTcyMjUsLTExNDkyMjQ4Nz
 EsOTc4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1
