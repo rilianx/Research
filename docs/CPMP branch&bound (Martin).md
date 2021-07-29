@@ -25,7 +25,8 @@ Estas funciones necesitan que el Layout guarde la secuencia de movimientos:
 Que deben ser actualizados al final de la función `Layout::move`
 ![image](https://i.imgur.com/FBShbue.png)
 
-
+Las funciones de validación se usan en `get_children` para evitar generar todos los hijos. Dejé todos los criterios de selección en un sólo if.
+![image](https://i.imgur.com/8HqTtNO.png)
 
 **Uso de PQueue (en vez de stack)**
 En clase Tree:
@@ -199,11 +200,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDI4Mjk0NiwyMDg0OTMxMTM1LC0yMT
-QzNTcyNTM1LDU3NTc3Mjc3NCwtMjUwNTcyNjY0LC0xNTEzNjA3
-NjksLTIwOTg5Njc4MDYsLTEwMTE0OTcyMjUsLTExNDkyMjQ4Nz
-EsOTc4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1
-OTIyNjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3MzQ1Mz
-E2NDAsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05MjA2OTU1NDMs
-LTEyMjc5MzEyNV19
+eyJoaXN0b3J5IjpbNjYzMDAyNzM5LDIwODQ5MzExMzUsLTIxND
+M1NzI1MzUsNTc1NzcyNzc0LC0yNTA1NzI2NjQsLTE1MTM2MDc2
+OSwtMjA5ODk2NzgwNiwtMTAxMTQ5NzIyNSwtMTE0OTIyNDg3MS
+w5Nzg5NjcxNTksLTE2MjE1ODQ4NjcsMTI4MTIyNzIwNSwtODU5
+MjI2NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMDkzMzcsMTczNDUzMT
+Y0MCwxOTExMDk0Mjg3LDEzMjYwNjE3ODUsLTkyMDY5NTU0Mywt
+MTIyNzkzMTI1XX0=
 -->
