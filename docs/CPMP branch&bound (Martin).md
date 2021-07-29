@@ -21,22 +21,28 @@ Implementé dos funciones para validar movimientos en `Layout.h`:
 ![image](https://i.imgur.com/5hXsXMM.png)
 
 Estas funciones necesitan que el Layout guarde la secuencia de movimientos:
+
 ![image](https://i.imgur.com/q5PbdHb.png)
 
 Que deben ser actualizados al final de la función `Layout::move`
+
 ![image](https://i.imgur.com/FBShbue.png)
 
 Las funciones de validación se usan en `get_children` para evitar generar todos los hijos. Dejé todos los criterios de selección en un sólo if.
+
 ![image](https://i.imgur.com/8HqTtNO.png)
 
 **Uso de PQueue (en vez de stack)**
 En clase Tree:
+
 ![image](https://i.imgur.com/0beW3Ew.png)
 
 Se debe implementar función para comparar/ordenar los nodos dentro de la cola con prioridad (en `main_cpmp.cpp`)
+
 ![image](https://i.imgur.com/lR0UNsN.png)
 
 Dejé casi todo el algoritmo en la función `search2` de `main_cpmp`. Revísala y si no has cambiado search2, puedes pegar todo el contenido.
+
 ![image](https://i.imgur.com/T9sSG0g.png)
 
 ---
@@ -201,11 +207,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTYxMzc1NSw2NjMwMDI3MzksMjA4ND
-kzMTEzNSwtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLTI1MDU3MjY2
-NCwtMTUxMzYwNzY5LC0yMDk4OTY3ODA2LC0xMDExNDk3MjI1LC
-0xMTQ5MjI0ODcxLDk3ODk2NzE1OSwtMTYyMTU4NDg2NywxMjgx
-MjI3MjA1LC04NTkyMjY1NDgsLTEzMDY1ODc0MDcsMTUwOTMwOT
-MzNywxNzM0NTMxNjQwLDE5MTEwOTQyODcsMTMyNjA2MTc4NSwt
-OTIwNjk1NTQzXX0=
+eyJoaXN0b3J5IjpbLTE3MTc0MzcyMTUsNjYzMDAyNzM5LDIwOD
+Q5MzExMzUsLTIxNDM1NzI1MzUsNTc1NzcyNzc0LC0yNTA1NzI2
+NjQsLTE1MTM2MDc2OSwtMjA5ODk2NzgwNiwtMTAxMTQ5NzIyNS
+wtMTE0OTIyNDg3MSw5Nzg5NjcxNTksLTE2MjE1ODQ4NjcsMTI4
+MTIyNzIwNSwtODU5MjI2NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMD
+kzMzcsMTczNDUzMTY0MCwxOTExMDk0Mjg3LDEzMjYwNjE3ODUs
+LTkyMDY5NTU0M119
 -->
