@@ -33,6 +33,8 @@ En clase Tree:
 Se debe implementar función para comparar/ordenar los nodos dentro de la cola con prioridad
 ![image](https://i.imgur.com/lR0UNsN.png)
 
+Dejé casi todo el algoritmo en la función search2 de main_cpmp``
+
 ---
 
 ### Resultados estado del arte
@@ -195,11 +197,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE5NzU1MzQsMjA4NDkzMTEzNSwtMj
-E0MzU3MjUzNSw1NzU3NzI3NzQsLTI1MDU3MjY2NCwtMTUxMzYw
-NzY5LC0yMDk4OTY3ODA2LC0xMDExNDk3MjI1LC0xMTQ5MjI0OD
-cxLDk3ODk2NzE1OSwtMTYyMTU4NDg2NywxMjgxMjI3MjA1LC04
-NTkyMjY1NDgsLTEzMDY1ODc0MDcsMTUwOTMwOTMzNywxNzM0NT
-MxNjQwLDE5MTEwOTQyODcsMTMyNjA2MTc4NSwtOTIwNjk1NTQz
-LC0xMjI3OTMxMjVdfQ==
+eyJoaXN0b3J5IjpbMTE5MjIzMTE1OCwyMDg0OTMxMTM1LC0yMT
+QzNTcyNTM1LDU3NTc3Mjc3NCwtMjUwNTcyNjY0LC0xNTEzNjA3
+NjksLTIwOTg5Njc4MDYsLTEwMTE0OTcyMjUsLTExNDkyMjQ4Nz
+EsOTc4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1
+OTIyNjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3MzQ1Mz
+E2NDAsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05MjA2OTU1NDMs
+LTEyMjc5MzEyNV19
 -->
