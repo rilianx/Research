@@ -26,7 +26,8 @@ Que deben ser actualizados al final de la función `Layout::move`
 ![image](https://i.imgur.com/FBShbue.png)
 
 
-**Uso de PQueue (en vez de stack)
+**Uso de PQueue (en vez de stack)**
+
 
 ---
 
@@ -190,11 +191,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDkzMTEzNSwtMjE0MzU3MjUzNSw1Nz
-U3NzI3NzQsLTI1MDU3MjY2NCwtMTUxMzYwNzY5LC0yMDk4OTY3
-ODA2LC0xMDExNDk3MjI1LC0xMTQ5MjI0ODcxLDk3ODk2NzE1OS
-wtMTYyMTU4NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1NDgsLTEz
-MDY1ODc0MDcsMTUwOTMwOTMzNywxNzM0NTMxNjQwLDE5MTEwOT
-QyODcsMTMyNjA2MTc4NSwtOTIwNjk1NTQzLC0xMjI3OTMxMjUs
-LTExMzkyMDIzNDJdfQ==
+eyJoaXN0b3J5IjpbMjA2NzAwNTU4NSwyMDg0OTMxMTM1LC0yMT
+QzNTcyNTM1LDU3NTc3Mjc3NCwtMjUwNTcyNjY0LC0xNTEzNjA3
+NjksLTIwOTg5Njc4MDYsLTEwMTE0OTcyMjUsLTExNDkyMjQ4Nz
+EsOTc4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1
+OTIyNjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3MzQ1Mz
+E2NDAsMTkxMTA5NDI4NywxMzI2MDYxNzg1LC05MjA2OTU1NDMs
+LTEyMjc5MzEyNV19
 -->
