@@ -17,6 +17,7 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 **Filtrado de movimientos**
 
 Implementé dos funciones para validar movimientos en `Layout.h`:
+
 ![image](https://i.imgur.com/5hXsXMM.png)
 
 Estas funciones necesitan que el Layout guarde la secuencia de movimientos:
@@ -200,11 +201,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMDAyNzM5LDIwODQ5MzExMzUsLTIxND
-M1NzI1MzUsNTc1NzcyNzc0LC0yNTA1NzI2NjQsLTE1MTM2MDc2
-OSwtMjA5ODk2NzgwNiwtMTAxMTQ5NzIyNSwtMTE0OTIyNDg3MS
-w5Nzg5NjcxNTksLTE2MjE1ODQ4NjcsMTI4MTIyNzIwNSwtODU5
-MjI2NTQ4LC0xMzA2NTg3NDA3LDE1MDkzMDkzMzcsMTczNDUzMT
-Y0MCwxOTExMDk0Mjg3LDEzMjYwNjE3ODUsLTkyMDY5NTU0Mywt
-MTIyNzkzMTI1XX0=
+eyJoaXN0b3J5IjpbLTgyMTYxMzc1NSw2NjMwMDI3MzksMjA4ND
+kzMTEzNSwtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLTI1MDU3MjY2
+NCwtMTUxMzYwNzY5LC0yMDk4OTY3ODA2LC0xMDExNDk3MjI1LC
+0xMTQ5MjI0ODcxLDk3ODk2NzE1OSwtMTYyMTU4NDg2NywxMjgx
+MjI3MjA1LC04NTkyMjY1NDgsLTEzMDY1ODc0MDcsMTUwOTMwOT
+MzNywxNzM0NTMxNjQwLDE5MTEwOTQyODcsMTMyNjA2MTc4NSwt
+OTIwNjk1NTQzXX0=
 -->
