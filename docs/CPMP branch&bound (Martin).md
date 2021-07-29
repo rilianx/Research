@@ -14,9 +14,14 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 
 ### ¿Qué modificaciones integrar?
 
-Implementé dos funciones para validar movimientos en el Layout:
-![image]()
+Implementé dos funciones para validar movimientos en `Layout.h`:
+![image](https://i.imgur.com/5hXsXMM.png)
 
+Estas funciones necesitan que el Layout guarde la secuencia de movimientos:
+![image](https://i.imgur.com/q5PbdHb.png)
+
+Que deben ser actualizados al final de la función `Layout::move`
+!Ñ
 
 ---
 
@@ -180,7 +185,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjQ0NTY5NCwtMjE0MzU3MjUzNSw1Nz
+eyJoaXN0b3J5IjpbLTE5OTA5NjI1OSwtMjE0MzU3MjUzNSw1Nz
 U3NzI3NzQsLTI1MDU3MjY2NCwtMTUxMzYwNzY5LC0yMDk4OTY3
 ODA2LC0xMDExNDk3MjI1LC0xMTQ5MjI0ODcxLDk3ODk2NzE1OS
 wtMTYyMTU4NDg2NywxMjgxMjI3MjA1LC04NTkyMjY1NDgsLTEz
