@@ -112,6 +112,7 @@ Fuerzan a encontrar solución sin movimientos adicionales. Esto es como preferir
 ### LowerBound
 
 ![image](https://i.imgur.com/lx4HlDz.png)
+Quizás se puede hacer para cada gv, en vez de sólo usar el que maximiza la carencia
 
 ````python
 def lower_bound():
@@ -209,11 +210,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIxODA5NTgsNDMwMzI5NDkyLDY2Mz
-AwMjczOSwyMDg0OTMxMTM1LC0yMTQzNTcyNTM1LDU3NTc3Mjc3
-NCwtMjUwNTcyNjY0LC0xNTEzNjA3NjksLTIwOTg5Njc4MDYsLT
-EwMTE0OTcyMjUsLTExNDkyMjQ4NzEsOTc4OTY3MTU5LC0xNjIx
-NTg0ODY3LDEyODEyMjcyMDUsLTg1OTIyNjU0OCwtMTMwNjU4Nz
-QwNywxNTA5MzA5MzM3LDE3MzQ1MzE2NDAsMTkxMTA5NDI4Nywx
-MzI2MDYxNzg1XX0=
+eyJoaXN0b3J5IjpbLTEzNzQ0MjU5OTUsLTEzNDIxODA5NTgsND
+MwMzI5NDkyLDY2MzAwMjczOSwyMDg0OTMxMTM1LC0yMTQzNTcy
+NTM1LDU3NTc3Mjc3NCwtMjUwNTcyNjY0LC0xNTEzNjA3NjksLT
+IwOTg5Njc4MDYsLTEwMTE0OTcyMjUsLTExNDkyMjQ4NzEsOTc4
+OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1OTIyNj
+U0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3LDE3MzQ1MzE2NDAs
+MTkxMTA5NDI4N119
 -->
