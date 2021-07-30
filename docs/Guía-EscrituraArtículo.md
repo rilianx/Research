@@ -6,8 +6,7 @@
 
 **TODO**
 
-- Si el punto se encuentra en parte inferior de la caja pequeña, expandir la caja en Y2.
-- Eliminar puntos dominados
+
 - Calcular cantidad de veces que se agreandó la caja, cuantas veces falló (estadísticas)
 - ==Cálculo de hipervolumen==
 - Graficar resultados de Ibex para comparar
@@ -140,7 +139,7 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU4ODg5NTEsODYzNTk0MzMxLC04OT
+eyJoaXN0b3J5IjpbLTE1NzkwNzM3ODQsODYzNTk0MzMxLC04OT
 M5NDA2NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1LDEzNTE2OTU0
 MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMTA3NTU5MDYyMC
 wtMTQzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2MDQwNjMsMTE5
