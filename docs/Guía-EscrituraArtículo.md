@@ -6,7 +6,7 @@
 
 **TODO**
 
-- Revisar SearchEfficient
+- Revisar **SearchEfficient** --> entrega soluciones bajo curva óptima
 - Calcular cantidad de veces que se agreandó la caja, cuantas veces falló (estadísticas)
 - ==Cálculo de hipervolumen==
 - Graficar resultados de Ibex para comparar
@@ -139,11 +139,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk2NzA4Niw4NjM1OTQzMzEsLTg5Mz
-k0MDY0NSwyMDk5MDIyMDE2LC04OTM5NDA2NDUsMTM1MTY5NTQx
-OSwtMTE0NzAwNjI0OSwyMDYyOTE0NTQ0LC0xMDc1NTkwNjIwLC
-0xNDM5MDU0MzYzLC02NTU3NTA2NzQsMTI1OTYwNDA2MywxMTkx
-MDYxMzU4LC0xOTkwODQ5NzcwLC0xMjYwOTQ2NTg2LC01NDcyMj
-MyMzEsNDQ4NzkxNzY0LDE3NDgwMjM2MTYsMTcxNzExNTA0NCwt
-ODE4NTMwNDE5XX0=
+eyJoaXN0b3J5IjpbNDc1NjM4NDI5LC0xODI5NjcwODYsODYzNT
+k0MzMxLC04OTM5NDA2NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1
+LDEzNTE2OTU0MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMT
+A3NTU5MDYyMCwtMTQzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2
+MDQwNjMsMTE5MTA2MTM1OCwtMTk5MDg0OTc3MCwtMTI2MDk0Nj
+U4NiwtNTQ3MjIzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3
+MTcxMTUwNDRdfQ==
 -->
