@@ -5,6 +5,7 @@
 [Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
 
 **TODO**
+
 - Si el punto se encuentra en parte inferior de la caja pequeña, expandir la caja en Y2.
 - Eliminar puntos dominados
 - Calcular cantidad de veces que se agreandó la caja, cuantas veces falló (estadísticas)
@@ -139,11 +140,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNTk0MzMxLC04OTM5NDA2NDUsMjA5OT
-AyMjAxNiwtODkzOTQwNjQ1LDEzNTE2OTU0MTksLTExNDcwMDYy
-NDksMjA2MjkxNDU0NCwtMTA3NTU5MDYyMCwtMTQzOTA1NDM2My
-wtNjU1NzUwNjc0LDEyNTk2MDQwNjMsMTE5MTA2MTM1OCwtMTk5
-MDg0OTc3MCwtMTI2MDk0NjU4NiwtNTQ3MjIzMjMxLDQ0ODc5MT
-c2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQsLTgxODUzMDQxOSw0
-NTc0ODU5Nl19
+eyJoaXN0b3J5IjpbLTIxMDU4ODg5NTEsODYzNTk0MzMxLC04OT
+M5NDA2NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1LDEzNTE2OTU0
+MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMTA3NTU5MDYyMC
+wtMTQzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2MDQwNjMsMTE5
+MTA2MTM1OCwtMTk5MDg0OTc3MCwtMTI2MDk0NjU4NiwtNTQ3Mj
+IzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3MTcxMTUwNDQs
+LTgxODUzMDQxOV19
 -->
