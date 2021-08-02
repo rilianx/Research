@@ -15,7 +15,12 @@ La función es usada dentro de VCS:
 
 Y al construir bloques (`create_new_blocks`).
 
-**Agregué **
+**Agregué id a cliente**
+Y cree una nueva instancia . Ahora se ejecuta así:
+````
+./BSG_CLP problems/clp/benchs/BRpc2/BR8pc.txt -i 0 -t 1 -f BRpc --min_fr=0.98
+````
+
 
 
 **TODO**
@@ -81,9 +86,7 @@ Cada vez que se inserta una caja, propagar recursiva y proporcionalmente el peso
 - Resultados preliminares: qué restricciones se consideraron? Colores para cada cliente
 - Siendo que se consideran más restricciones. A qué se debe que mejore la distribución?
 
-
 ---
-
 
 
 ### Momentos
@@ -359,11 +362,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTk2NTExNCwxNjAxMDkzMTI1LDEyOD
-Y2MTU3MzUsLTIwMjcyNTE5NTMsLTYyOTQ5MzI0LC0xNDE3NzAw
-MTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYyMTQyLD
-gzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLDE1NTcz
-NDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2MTk3OC
-wtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3NjMsLTIy
-MzYxODk2Ml19
+eyJoaXN0b3J5IjpbLTE5MTA0MTQ0OTQsMTYwMTA5MzEyNSwxMj
+g2NjE1NzM1LC0yMDI3MjUxOTUzLC02Mjk0OTMyNCwtMTQxNzcw
+MDE4MCwxNDE3MTY4OTIsLTcwNzI5NDU2MiwtMTA3MjI2MjE0Mi
+w4MzE3OTI1OTIsLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNTU3
+MzQ4NTAyLC0yMTA2NzAzMzkyLDYxMDM3MjQ1MSw0Mjc5NjE5Nz
+gsLTExODE5NDY1MzksMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC0y
+MjM2MTg5NjJdfQ==
 -->
