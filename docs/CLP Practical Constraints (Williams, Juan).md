@@ -20,9 +20,9 @@ CLP Practical Constraints (continuación).
 - [X] Place the block in front or above the already placed blocks. Back and bottom locations are preferred.
 
 **Selecting the next block (4)**
-- [ ] **Verify the vertical stability constraint** for each evaluated block.
-- [ ] **Verify the load bearing constraint** for each evaluated block. Compute the supported weight by blocks just below b.
-- [X] **Verify the horizontal stability constraint**, i.e., the back surfaces of the boxes inside the block should be supported by the already placed boxes,
+- [X] **Verify the vertical stability constraint** for each evaluated block.
+- [X] **Verify the load bearing constraint** for each evaluated block. Compute the supported weight by blocks just below b.
+- [ ] **Verify the horizontal stability constraint**, i.e., the back surfaces of the boxes inside the block should be supported by the already placed boxes,
 - [ ] **Prioritize heavy blocks**
 - [ ] **Compute the overturning angle**
 - [X] **Verificar peso máximo soportado por el contendor**
@@ -350,11 +350,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjcyNTE5NTMsLTYyOTQ5MzI0LC0xND
-E3NzAwMTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYy
-MTQyLDgzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLD
-E1NTczNDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2
-MTk3OCwtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3Nj
-MsLTIyMzYxODk2MiwtOTcwNzEzODQyLDg1MDIyOTQ1NiwtNTA0
-MDM2OTYxXX0=
+eyJoaXN0b3J5IjpbMTI4NjYxNTczNSwtMjAyNzI1MTk1MywtNj
+I5NDkzMjQsLTE0MTc3MDAxODAsMTQxNzE2ODkyLC03MDcyOTQ1
+NjIsLTEwNzIyNjIxNDIsODMxNzkyNTkyLC0xNzg3Mjg3NzUwLD
+E2MzQyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2MTAz
+NzI0NTEsNDI3OTYxOTc4LC0xMTgxOTQ2NTM5LDE5NzgyMjA4MT
+gsLTIxNDIxMzc2MywtMjIzNjE4OTYyLC05NzA3MTM4NDIsODUw
+MjI5NDU2XX0=
 -->
