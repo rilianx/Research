@@ -8,6 +8,8 @@ En el main hay un ejemplo de como reccorer la lista:
 
 Además, cada AABB (box), almacena un puntero al `BoxShape` asociado, una lista con los AABBs (boxes) que lo "soportan" dentro del bloque, una variable que almacena la superficie en contacto (`bottom_contact_surface`) y otra variable que indica el peso soportado (`supported_weight`). Ambas variables se actualizan automáticamente al agregar bloques en otro bloque (el contenedor también es un bloque).
 
+Por último, agregué la función `validate_BCS_and_LB()` para validar si al agregar un bloque dentro del bloque actual, se siguen cumpliendo las restricciones de *estabilidad vertical* y *load bearing*.
+
 
 
 **TODO**
@@ -356,11 +358,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY4MDUxNjYsMTYwMTA5MzEyNSwxMj
-g2NjE1NzM1LC0yMDI3MjUxOTUzLC02Mjk0OTMyNCwtMTQxNzcw
-MDE4MCwxNDE3MTY4OTIsLTcwNzI5NDU2MiwtMTA3MjI2MjE0Mi
-w4MzE3OTI1OTIsLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNTU3
-MzQ4NTAyLC0yMTA2NzAzMzkyLDYxMDM3MjQ1MSw0Mjc5NjE5Nz
-gsLTExODE5NDY1MzksMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC0y
-MjM2MTg5NjJdfQ==
+eyJoaXN0b3J5IjpbMTYyMzAxMTA5LDE2MDEwOTMxMjUsMTI4Nj
+YxNTczNSwtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0MTc3MDAx
+ODAsMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNzIyNjIxNDIsOD
+MxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1NzM0
+ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0NTEsNDI3OTYxOTc4LC
+0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLTIxNDIxMzc2MywtMjIz
+NjE4OTYyXX0=
 -->
