@@ -10,6 +10,10 @@ Además, cada AABB (box), almacena un puntero al `BoxShape` asociado, una lista 
 
 Por último, agregué la función `validate_BCS_and_LB()` para validar si al agregar un bloque dentro del bloque actual, se siguen cumpliendo las restricciones de *estabilidad vertical* y *load bearing*.
 
+La función es llamada dentro de VCS:
+![image](https://i.imgur.com/cI20Mdh.png)
+
+
 
 
 **TODO**
@@ -358,7 +362,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzAxMTA5LDE2MDEwOTMxMjUsMTI4Nj
+eyJoaXN0b3J5IjpbLTgwNTg4NzIyLDE2MDEwOTMxMjUsMTI4Nj
 YxNTczNSwtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0MTc3MDAx
 ODAsMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNzIyNjIxNDIsOD
 MxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1NzM0
