@@ -1,12 +1,14 @@
 CLP Practical Constraints (continuación).
 --
 
-**New**
+**Modificaciones a clase block**
 Clase **Block** tiene lista `AABBList* boxes` conteniendo todas las cajas (objetos AABB) y sus ubicaciones dentro del contenedor.
 En el main hay un ejemplo de como reccorer la lista:
 ![image](https://i.imgur.com/gOW8cw2.png)
 
-Además, cada AABB (box), almacena un puntero al `BoxShape` asociado, una lista con los AABBs (boxes) que lo "soportan" dentro del bloque, una variable que almacena la superficie en contacto (`bottom_contact_surface`) y otra variable que indica el peso soportado (`supported_weight`). Amba
+Además, cada AABB (box), almacena un puntero al `BoxShape` asociado, una lista con los AABBs (boxes) que lo "soportan" dentro del bloque, una variable que almacena la superficie en contacto (`bottom_contact_surface`) y otra variable que indica el peso soportado (`supported_weight`). Ambas variables se actualizan automáticamente al agregar bloques en otro bloque (el contenedor también es un bloque).
+
+
 
 **TODO**
 
@@ -354,7 +356,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA2NDc2NTYsMTYwMTA5MzEyNSwxMj
+eyJoaXN0b3J5IjpbLTE1MjY4MDUxNjYsMTYwMTA5MzEyNSwxMj
 g2NjE1NzM1LC0yMDI3MjUxOTUzLC02Mjk0OTMyNCwtMTQxNzcw
 MDE4MCwxNDE3MTY4OTIsLTcwNzI5NDU2MiwtMTA3MjI2MjE0Mi
 w4MzE3OTI1OTIsLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNTU3
