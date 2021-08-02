@@ -8,6 +8,7 @@ an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#se
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
 - Paper: Minima distribution for global optimization (2018)
 - Computer-aided breast cancer diagnosis based on  **image** segmentation and  **interval analysis**
+- [Training robust neural networks using  **Lipschitz bounds**](https://ieeexplore.ieee.org/abstract/document/9319198/)
 
 ### [NEAT and Neuroevolution](https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f)
 
@@ -186,11 +187,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MT
-cyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYwNDgx
-OTMsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQyMzc5NTI4LC
-0xMjEzMjY0NzMyLC0zNzE4MDA1NzUsLTEzNjY1Njg5NzEsMjA4
-MTYwODcxNSwtMTU0NzkyNTY4MiwtMTU4ODc1MzMyNSwtMTcwMD
-g2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzEx
-LC0xMTMzNDYyNzIxXX0=
+eyJoaXN0b3J5IjpbMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMD
+IxMzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4
+NDQsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2MDQzNTEsLT
+E0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3MTgwMDU3NSwtMTM2
+NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4Nz
+UzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4Njky
+MywxNDIxMjg3MTFdfQ==
 -->
