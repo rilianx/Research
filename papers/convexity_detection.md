@@ -7,6 +7,7 @@ an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#se
 - Construcción de redes neuronales a partir de reglas heurísticas
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
 - Paper: Minima distribution for global optimization (2018)
+- Computer-aided breast cancer diagnosis based on  **image** segmentation and  **interval analysis**
 
 ### [NEAT and Neuroevolution](https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f)
 
@@ -185,11 +186,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mz
-c4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUz
-MDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2NDczMi
-wtMzcxODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MDg3MTUsLTE1
-NDc5MjU2ODIsLTE1ODg3NTMzMjUsLTE3MDA4NjQ2MSwtMTI3OT
-I1ODM2NSwxMzQ4Nzg2OTIzLDE0MjEyODcxMSwtMTEzMzQ2Mjcy
-MSwxODc1ODYyNjM2XX0=
+eyJoaXN0b3J5IjpbLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MT
+cyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYwNDgx
+OTMsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQyMzc5NTI4LC
+0xMjEzMjY0NzMyLC0zNzE4MDA1NzUsLTEzNjY1Njg5NzEsMjA4
+MTYwODcxNSwtMTU0NzkyNTY4MiwtMTU4ODc1MzMyNSwtMTcwMD
+g2NDYxLC0xMjc5MjU4MzY1LDEzNDg3ODY5MjMsMTQyMTI4NzEx
+LC0xMTMzNDYyNzIxXX0=
 -->
