@@ -3,8 +3,10 @@ CLP Practical Constraints (continuación).
 
 **New**
 Clase **Block** tiene lista `AABBList* boxes` conteniendo todas las cajas (objetos AABB) y sus ubicaciones dentro del contenedor.
-Lista se puede recorrer:
-for(auto aa)
+En el main hay un ejemplo de como reccorer la lista:
+![image](https://i.imgur.com/gOW8cw2.png)
+
+Además, cada AABB (box), 
 
 **TODO**
 
@@ -352,11 +354,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTQ3NDA1NSwxNjAxMDkzMTI1LDEyOD
-Y2MTU3MzUsLTIwMjcyNTE5NTMsLTYyOTQ5MzI0LC0xNDE3NzAw
-MTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYyMTQyLD
-gzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLDE1NTcz
-NDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2MTk3OC
-wtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3NjMsLTIy
-MzYxODk2Ml19
+eyJoaXN0b3J5IjpbLTIwMzcwNzc1NDksMTYwMTA5MzEyNSwxMj
+g2NjE1NzM1LC0yMDI3MjUxOTUzLC02Mjk0OTMyNCwtMTQxNzcw
+MDE4MCwxNDE3MTY4OTIsLTcwNzI5NDU2MiwtMTA3MjI2MjE0Mi
+w4MzE3OTI1OTIsLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNTU3
+MzQ4NTAyLC0yMTA2NzAzMzkyLDYxMDM3MjQ1MSw0Mjc5NjE5Nz
+gsLTExODE5NDY1MzksMTk3ODIyMDgxOCwtMjE0MjEzNzYzLC0y
+MjM2MTg5NjJdfQ==
 -->
