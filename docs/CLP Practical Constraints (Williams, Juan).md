@@ -15,7 +15,7 @@ La función es usada dentro de VCS:
 
 Y al construir bloques (`create_new_blocks`).
 
-
+**Agregué **
 
 
 **TODO**
@@ -84,12 +84,7 @@ Cada vez que se inserta una caja, propagar recursiva y proporcionalmente el peso
 
 ---
 
-**Comando para ejecutar ejemplo (`/home/practica/clp_pc_juan/Metasolver`):**
-````
-./BSG_CLP problems/clp/benchs/BRpc2/BR8pc.txt -i 0 -t 1 -f BRpc --min_fr=0.98
-````
 
-----
 
 ### Momentos
 
@@ -364,11 +359,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMzYzOTQ5LDE2MDEwOTMxMjUsMTI4Nj
-YxNTczNSwtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0MTc3MDAx
-ODAsMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNzIyNjIxNDIsOD
-MxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1NzM0
-ODUwMiwtMjEwNjcwMzM5Miw2MTAzNzI0NTEsNDI3OTYxOTc4LC
-0xMTgxOTQ2NTM5LDE5NzgyMjA4MTgsLTIxNDIxMzc2MywtMjIz
-NjE4OTYyXX0=
+eyJoaXN0b3J5IjpbMTkyMTk2NTExNCwxNjAxMDkzMTI1LDEyOD
+Y2MTU3MzUsLTIwMjcyNTE5NTMsLTYyOTQ5MzI0LC0xNDE3NzAw
+MTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYyMTQyLD
+gzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0MjA0OTMwLDE1NTcz
+NDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyNDUxLDQyNzk2MTk3OC
+wtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0yMTQyMTM3NjMsLTIy
+MzYxODk2Ml19
 -->
