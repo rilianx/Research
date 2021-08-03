@@ -2,7 +2,6 @@
 
 - [Multi-objective optimisation of positively homogeneous functions and
 an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
-- [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf)
 - Reinforcement learning with decision trees?
 - Construcción de redes neuronales a partir de reglas heurísticas
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
@@ -198,11 +197,11 @@ The key idea is **to use standard image transformations to peturb input observat
 
 ![image](https://i.imgur.com/eMk6UL3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMT
-kwNjQyODU5LDExMTE1MzQwODcsMjExMjUyMTUyNSwtNzE2OTcz
-NDQ3LC0xMDIxMzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLT
-E2ODQxNzA4NDQsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2
-MDQzNTEsLTE0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3MTgwMD
-U3NSwtMTM2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1Njgy
-LC0xNTg4NzUzMzI1XX0=
+eyJoaXN0b3J5IjpbOTUzMTc4MTY3LDE2NDg4MDYyNDUsMTU3Mz
+YzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0MDg3LDIxMTI1MjE1
+MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MTcyNzM4NSwtNT
+QzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYwNDgxOTMsLTEyMDMx
+NTMwMCwtNjUyNjA0MzUxLC0xNDQyMzc5NTI4LC0xMjEzMjY0Nz
+MyLC0zNzE4MDA1NzUsLTEzNjY1Njg5NzEsMjA4MTYwODcxNSwt
+MTU0NzkyNTY4Ml19
 -->
