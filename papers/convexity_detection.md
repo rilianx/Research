@@ -181,17 +181,15 @@ The paper lacks a background section which explains clearly the problem and the 
 
 If an acronym is used in the abstract, it must be defined again the first time it is used in the body of the paper.
 
-
-
-
+## [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMD
-IxMzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4
-NDQsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2MDQzNTEsLT
-E0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3MTgwMDU3NSwtMTM2
-NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OTI1NjgyLC0xNTg4Nz
-UzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgzNjUsMTM0ODc4Njky
-MywxNDIxMjg3MTFdfQ==
+eyJoaXN0b3J5IjpbMTM0MzAyNzcxOCwyMTEyNTIxNTI1LC03MT
+Y5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgy
+NSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLT
+Y1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2NDczMiwtMzcx
+ODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MDg3MTUsLTE1NDc5Mj
+U2ODIsLTE1ODg3NTMzMjUsLTE3MDA4NjQ2MSwtMTI3OTI1ODM2
+NSwxMzQ4Nzg2OTIzXX0=
 -->
