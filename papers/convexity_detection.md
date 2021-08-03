@@ -9,6 +9,7 @@ an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#se
 - Paper: Minima distribution for global optimization (2018)
 - Computer-aided breast cancer diagnosis based on  **image** segmentation and  **interval analysis**
 - [Training robust neural networks using  **Lipschitz bounds**](https://ieeexplore.ieee.org/abstract/document/9319198/)
+- [Rainbow (Deep reinforcement learning with double q-learning)](https://ojs.aaai.org/index.php/AAAI/article/download/10295/10154)
 
 ### [NEAT and Neuroevolution](https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f)
 
@@ -192,12 +193,14 @@ Simultaneously training a convolutional encoder alongside a policy network is ch
 The key idea is **to use standard image transformations to peturb input observations**, as well as **regularizing the Q-function** learned by the critic so that different transformations of the same input image have similar Q-function values. No further modifications to standard actor-critic algorithms are required, obviating the need for additional losses, e.g. based on auto-encoders [60], dynamics models [24, 23], or contrastive loss terms [50].
 
 ![image](https://i.imgur.com/Mf60ZZY.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA2NDI4NTksMTExMTUzNDA4NywyMT
-EyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3Mjcz
-ODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC
-0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIx
-MzI2NDczMiwtMzcxODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MD
-g3MTUsLTE1NDc5MjU2ODIsLTE1ODg3NTMzMjUsLTE3MDA4NjQ2
-MSwtMTI3OTI1ODM2NV19
+eyJoaXN0b3J5IjpbMTAwNjMyODQwMSwtMTE5MDY0Mjg1OSwxMT
+ExNTM0MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0
+MTQsMTk1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC
+02NTYwNDgxOTMsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQy
+Mzc5NTI4LC0xMjEzMjY0NzMyLC0zNzE4MDA1NzUsLTEzNjY1Nj
+g5NzEsMjA4MTYwODcxNSwtMTU0NzkyNTY4MiwtMTU4ODc1MzMy
+NSwtMTcwMDg2NDYxXX0=
 -->
