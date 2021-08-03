@@ -187,13 +187,13 @@ We propose a simple **data augmentation technique** that can be applied to stand
 
 Existing model-free approaches, such as Soft Actor-Critic (SAC) [22], **are not able to train deep networks effectively from image pixels**. However, the addition of our augmentation method dramatically improves SAC’s performance, enabling it to reach state-of-the-art performance on the DeepMind control suite, surpassing model-based [23, 38, 24] methods and recently proposed **contrastive learning**.
 
-Simultaneously training a convolutional encoder alongside a policy network is challenging when given **limited environment interaction**, **strong correlation between samples** and a typically sparse reward signal.
+Simultaneously training a convolutional encoder alongside a policy network is challenging when given **limited environment interaction**, **strong correlation between samples** and a typically **sparse reward signal**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzAxNDQxMSwyMTEyNTIxNTI1LC03MT
-Y5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgy
-NSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLT
-Y1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2NDczMiwtMzcx
-ODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MDg3MTUsLTE1NDc5Mj
-U2ODIsLTE1ODg3NTMzMjUsLTE3MDA4NjQ2MSwtMTI3OTI1ODM2
-NSwxMzQ4Nzg2OTIzXX0=
+eyJoaXN0b3J5IjpbLTEzNzM1MjE5OTUsMjExMjUyMTUyNSwtNz
+E2OTczNDQ3LC0xMDIxMzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4
+MjUsLTE2ODQxNzA4NDQsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC
+02NTI2MDQzNTEsLTE0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3
+MTgwMDU3NSwtMTM2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OT
+I1NjgyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgz
+NjUsMTM0ODc4NjkyM119
 -->
