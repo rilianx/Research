@@ -188,12 +188,14 @@ We propose a simple **data augmentation technique** that can be applied to stand
 Existing model-free approaches, such as Soft Actor-Critic (SAC) [22], **are not able to train deep networks effectively from image pixels**. However, the addition of our augmentation method dramatically improves SAC’s performance, enabling it to reach state-of-the-art performance on the DeepMind control suite, surpassing model-based [23, 38, 24] methods and recently proposed **contrastive learning**.
 
 Simultaneously training a convolutional encoder alongside a policy network is challenging when given **limited environment interaction**, **strong correlation between samples** and a typically **sparse reward signal**.
+
+The key idea is to use standard image transformations to peturb input observations, as well as regularizing the Q-function learned by the critic so that different transformations of the same input image have similar Q-function values. No further modifications to standard actor-critic algorithms are required, obviating the need for additional losses, e.g. based on auto-encoders [60], dynamics models [24, 23], or contrastive loss terms [50]..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM1MjE5OTUsMjExMjUyMTUyNSwtNz
-E2OTczNDQ3LC0xMDIxMzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4
-MjUsLTE2ODQxNzA4NDQsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC
-02NTI2MDQzNTEsLTE0NDIzNzk1MjgsLTEyMTMyNjQ3MzIsLTM3
-MTgwMDU3NSwtMTM2NjU2ODk3MSwyMDgxNjA4NzE1LC0xNTQ3OT
-I1NjgyLC0xNTg4NzUzMzI1LC0xNzAwODY0NjEsLTEyNzkyNTgz
-NjUsMTM0ODc4NjkyM119
+eyJoaXN0b3J5IjpbMjIwNDc1NTI3LDIxMTI1MjE1MjUsLTcxNj
+k3MzQ0NywtMTAyMTM0MTQsMTk1MTcyNzM4NSwtNTQzNzg0ODI1
+LC0xNjg0MTcwODQ0LC02NTYwNDgxOTMsLTEyMDMxNTMwMCwtNj
+UyNjA0MzUxLC0xNDQyMzc5NTI4LC0xMjEzMjY0NzMyLC0zNzE4
+MDA1NzUsLTEzNjY1Njg5NzEsMjA4MTYwODcxNSwtMTU0NzkyNT
+Y4MiwtMTU4ODc1MzMyNSwtMTcwMDg2NDYxLC0xMjc5MjU4MzY1
+LDEzNDg3ODY5MjNdfQ==
 -->
