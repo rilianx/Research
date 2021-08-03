@@ -194,9 +194,9 @@ The key idea is **to use standard image transformations to peturb input observat
 
 ![image](https://i.imgur.com/Mf60ZZY.png)
 
-
+![image](https://i.imgur.com/fWFZXTz.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjMyODQwMSwtMTE5MDY0Mjg1OSwxMT
+eyJoaXN0b3J5IjpbMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMT
 ExNTM0MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0
 MTQsMTk1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC
 02NTYwNDgxOTMsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQy
