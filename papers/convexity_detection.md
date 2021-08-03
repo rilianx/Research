@@ -3,6 +3,7 @@
 - [Multi-objective optimisation of positively homogeneous functions and
 an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Reinforcement learning with decision trees?
+- Entrenar simulador
 - Construcción de redes neuronales a partir de reglas heurísticas
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
 - Paper: Minima distribution for global optimization (2018)
@@ -197,11 +198,11 @@ The key idea is **to use standard image transformations to peturb input observat
 
 ![image](https://i.imgur.com/eMk6UL3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMTc4MTY3LDE2NDg4MDYyNDUsMTU3Mz
-YzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0MDg3LDIxMTI1MjE1
-MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MTcyNzM4NSwtNT
-QzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYwNDgxOTMsLTEyMDMx
-NTMwMCwtNjUyNjA0MzUxLC0xNDQyMzc5NTI4LC0xMjEzMjY0Nz
-MyLC0zNzE4MDA1NzUsLTEzNjY1Njg5NzEsMjA4MTYwODcxNSwt
-MTU0NzkyNTY4Ml19
+eyJoaXN0b3J5IjpbLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1Nz
+M2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4NywyMTEyNTIx
+NTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLT
+U0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAz
+MTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2ND
+czMiwtMzcxODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MDg3MTUs
+LTE1NDc5MjU2ODJdfQ==
 -->
