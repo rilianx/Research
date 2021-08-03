@@ -183,9 +183,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 ## [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf)
 
+We propose a simple **data augmentation technique** that can be applied to standard **model-free reinforcement learning algorithms**.
 
+Existing model-free approaches, such as Soft Actor-Critic (SAC) [22], **are not able to train deep networks effectively from image pixels**. However, the addition of our augmentation method dramatically improves SAC’s performance, enabling it to reach state-of-the-art performance on the DeepMind control suite, surpassing model-based [23, 38, 24] methods and recently proposed contrastive learning
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MzAyNzcxOCwyMTEyNTIxNTI1LC03MT
+eyJoaXN0b3J5IjpbLTIzODU0MTQ0MCwyMTEyNTIxNTI1LC03MT
 Y5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgy
 NSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLT
 Y1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2NDczMiwtMzcx
