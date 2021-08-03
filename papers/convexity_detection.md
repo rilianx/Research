@@ -189,13 +189,15 @@ Existing model-free approaches, such as Soft Actor-Critic (SAC) [22], **are not 
 
 Simultaneously training a convolutional encoder alongside a policy network is challenging when given **limited environment interaction**, **strong correlation between samples** and a typically **sparse reward signal**.
 
-The key idea is **to use standard image transformations to peturb input observations**, as well as **regularizing the Q-function** learned by the critic so that different transformations of the same input image have similar Q-function values. No further modifications to standard actor-critic algorithms are required, obviating the need for additional losses, e.g. based on auto-encoders [60], dynamics models [24, 23], or contrastive loss terms [50]..
+The key idea is **to use standard image transformations to peturb input observations**, as well as **regularizing the Q-function** learned by the critic so that different transformations of the same input image have similar Q-function values. No further modifications to standard actor-critic algorithms are required, obviating the need for additional losses, e.g. based on auto-encoders [60], dynamics models [24, 23], or contrastive loss terms [50].
+
+![image](https://i.imgur.com/Mf60ZZY.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTUzNDA4NywyMTEyNTIxNTI1LC03MT
-Y5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgy
-NSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLT
-Y1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2NDczMiwtMzcx
-ODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MDg3MTUsLTE1NDc5Mj
-U2ODIsLTE1ODg3NTMzMjUsLTE3MDA4NjQ2MSwtMTI3OTI1ODM2
-NSwxMzQ4Nzg2OTIzXX0=
+eyJoaXN0b3J5IjpbLTExOTA2NDI4NTksMTExMTUzNDA4NywyMT
+EyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3Mjcz
+ODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC
+0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIx
+MzI2NDczMiwtMzcxODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MD
+g3MTUsLTE1NDc5MjU2ODIsLTE1ODg3NTMzMjUsLTE3MDA4NjQ2
+MSwtMTI3OTI1ODM2NV19
 -->
