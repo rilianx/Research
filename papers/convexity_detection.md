@@ -185,9 +185,11 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 We propose a simple **data augmentation technique** that can be applied to standard **model-free reinforcement learning algorithms**.
 
-Existing model-free approaches, such as Soft Actor-Critic (SAC) [22], **are not able to train deep networks effectively from image pixels**. However, the addition of our augmentation method dramatically improves SAC’s performance, enabling it to reach state-of-the-art performance on the DeepMind control suite, surpassing model-based [23, 38, 24] methods and recently proposed contrastive learning
+Existing model-free approaches, such as Soft Actor-Critic (SAC) [22], **are not able to train deep networks effectively from image pixels**. However, the addition of our augmentation method dramatically improves SAC’s performance, enabling it to reach state-of-the-art performance on the DeepMind control suite, surpassing model-based [23, 38, 24] methods and recently proposed **contrastive learning**.
+
+Simultaneously training a convolutional encoder alongside a policy network is challenging when given **limited environment interaction**, **strong correlation between samples** and a typically sparse reward signal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODU0MTQ0MCwyMTEyNTIxNTI1LC03MT
+eyJoaXN0b3J5IjpbLTk1MzAxNDQxMSwyMTEyNTIxNTI1LC03MT
 Y5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgy
 NSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLT
 Y1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2NDczMiwtMzcx
