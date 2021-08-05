@@ -7,6 +7,7 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 ### TODO
 
 - ==Implementar EstimateLB==
+- ==Comparar con LB y UB==
 - ==Arreglar LB.== ¿Cuántos movimientos GX se deben realizar para colocar C elementos?
 - ==Usar valores de regresión lineal múltiple para evaluar nodos==
 - Comparar stack vs pqueue (profe) --> [results](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=886426566)
@@ -214,11 +215,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MjE3NzY1LC0xNDE4NDM0MDU4LC0xMz
-c0NDI1OTk1LC0xMzQyMTgwOTU4LDQzMDMyOTQ5Miw2NjMwMDI3
-MzksMjA4NDkzMTEzNSwtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLT
-I1MDU3MjY2NCwtMTUxMzYwNzY5LC0yMDk4OTY3ODA2LC0xMDEx
-NDk3MjI1LC0xMTQ5MjI0ODcxLDk3ODk2NzE1OSwtMTYyMTU4ND
-g2NywxMjgxMjI3MjA1LC04NTkyMjY1NDgsLTEzMDY1ODc0MDcs
-MTUwOTMwOTMzN119
+eyJoaXN0b3J5IjpbLTc4NzMyOTgyOSw3OTYyMTc3NjUsLTE0MT
+g0MzQwNTgsLTEzNzQ0MjU5OTUsLTEzNDIxODA5NTgsNDMwMzI5
+NDkyLDY2MzAwMjczOSwyMDg0OTMxMTM1LC0yMTQzNTcyNTM1LD
+U3NTc3Mjc3NCwtMjUwNTcyNjY0LC0xNTEzNjA3NjksLTIwOTg5
+Njc4MDYsLTEwMTE0OTcyMjUsLTExNDkyMjQ4NzEsOTc4OTY3MT
+U5LC0xNjIxNTg0ODY3LDEyODEyMjcyMDUsLTg1OTIyNjU0OCwt
+MTMwNjU4NzQwN119
 -->
