@@ -14,7 +14,7 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 
 
 ## Nuevo LB
-Ver [aquí](-%20%5BNuevo%20lb%5D%28https://docs.google.com/presentation/d/1P5Cm_yDFzWqpIwLdj5uQBox3X-UQ0tMnvIXDciF2M60/edit#slide=id.ge7514acd31_0_359%29)
+Ver [aquí](https://docs.google.com/presentation/d/1P5Cm_yDFzWqpIwLdj5uQBox3X-UQ0tMnvIXDciF2M60/edit#slide=id.ge7514acd31_0_359%29)
 
 ## ¿Qué modificaciones integrar?
 
@@ -214,11 +214,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg0MzQwNTgsLTEzNzQ0MjU5OTUsLT
-EzNDIxODA5NTgsNDMwMzI5NDkyLDY2MzAwMjczOSwyMDg0OTMx
-MTM1LC0yMTQzNTcyNTM1LDU3NTc3Mjc3NCwtMjUwNTcyNjY0LC
-0xNTEzNjA3NjksLTIwOTg5Njc4MDYsLTEwMTE0OTcyMjUsLTEx
-NDkyMjQ4NzEsOTc4OTY3MTU5LC0xNjIxNTg0ODY3LDEyODEyMj
-cyMDUsLTg1OTIyNjU0OCwtMTMwNjU4NzQwNywxNTA5MzA5MzM3
-LDE3MzQ1MzE2NDBdfQ==
+eyJoaXN0b3J5IjpbNzk2MjE3NzY1LC0xNDE4NDM0MDU4LC0xMz
+c0NDI1OTk1LC0xMzQyMTgwOTU4LDQzMDMyOTQ5Miw2NjMwMDI3
+MzksMjA4NDkzMTEzNSwtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLT
+I1MDU3MjY2NCwtMTUxMzYwNzY5LC0yMDk4OTY3ODA2LC0xMDEx
+NDk3MjI1LC0xMTQ5MjI0ODcxLDk3ODk2NzE1OSwtMTYyMTU4ND
+g2NywxMjgxMjI3MjA1LC04NTkyMjY1NDgsLTEzMDY1ODc0MDcs
+MTUwOTMwOTMzN119
 -->
