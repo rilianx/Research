@@ -6,7 +6,7 @@
 - Construcción de redes neuronales a partir de reglas heurísticas
 - KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
 - Paper: Minima distribution for global optimization (2018)
-- Computer-aided breast cancer diagnosis based on  **image** segmentation and  **interval analysis**
+- ==Computer-aided breast cancer diagnosis based on  **image** segmentation and  **interval analysis**==
 - [Training robust neural networks using  **Lipschitz bounds**](https://ieeexplore.ieee.org/abstract/document/9319198/)
 - [Rainbow (Deep reinforcement learning with double q-learning)](https://ojs.aaai.org/index.php/AAAI/article/download/10295/10154)
 
@@ -202,14 +202,20 @@ The key idea is **to use standard image transformations to peturb input observat
 **Image segmentation** is a technique for dividing an image into its principal components in some areas which are actually different objects in the image that are uniform in terms of texture or colour.
 Image segmentation is used in cases such as image processing, machine vision, medical image processing, digital libraries, content-based information retrieval in pictures and videos, data transfer through the Internet and image compression [17–20].
 
-A primary move before image segmentation is **quantizing and sampling the range of input image in computer memory for discretization of the image from the spatial domain.
+A primary move before image segmentation is **quantizing and sampling the range of input image in computer memory** for discretization of the image from the spatial domain. Doing discretization has always a bad effect on the input image, i.e. missing of the information in the input image. This problem makes uncertain intensity information for the image pixels.
+
+Several methods are performed on considering uncertainties, for example, fuzzy methods [22–26], statistical methods [27] and interval methods [28].
+
+![image](https://i.imgur.com/DUKwMON.png)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4OD
-A2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4
-NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NT
-E3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4
-MTkzLC0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOC
-wtMTIxMzI2NDczMiwtMzcxODAwNTc1LC0xMzY2NTY4OTcxLDIw
-ODE2MDg3MTVdfQ==
+eyJoaXN0b3J5IjpbLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMz
+Y0MTUxOSwxNjQ4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4
+NTksMTExMTUzNDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLT
+EwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3
+MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLTY1MjYwNDM1MS
+wtMTQ0MjM3OTUyOCwtMTIxMzI2NDczMiwtMzcxODAwNTc1LC0x
+MzY2NTY4OTcxXX0=
 -->
