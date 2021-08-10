@@ -199,13 +199,17 @@ The key idea is **to use standard image transformations to peturb input observat
 
 ## [Computer-aided breast cancer diagnosis based on image segmentation and interval analysis](https://sci-hub.se/10.1080/00051144.2020.1785784)
 
+**Image segmentation** is a technique for dividing an image into its principal components in some areas which are actually different objects in the image that are uniform in terms of texture or colour.
+Image segmentation is used in cases such as image processing, machine vision, medical image processing, digital libraries, content-based information retrieval in pictures and videos, data transfer through the Internet and image compression [17–20].
+
+A primary move before image segmentation is **quantizing and sampling the range of input image in computer memory for discretization of the image from the spatial domain.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTAzOTEzMSwtNjEzNjQxNTE5LDE2ND
-g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
-MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
-k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
-NDgxOTMsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQyMzc5NT
-I4LC0xMjEzMjY0NzMyLC0zNzE4MDA1NzUsLTEzNjY1Njg5NzEs
-MjA4MTYwODcxNV19
+eyJoaXN0b3J5IjpbOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4OD
+A2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4
+NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NT
+E3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4
+MTkzLC0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOC
+wtMTIxMzI2NDczMiwtMzcxODAwNTc1LC0xMzY2NTY4OTcxLDIw
+ODE2MDg3MTVdfQ==
 -->
