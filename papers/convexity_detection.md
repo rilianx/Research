@@ -1,7 +1,6 @@
 ## TODO
 
-- [Multi-objective optimisation of positively homogeneous functions and
-an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
+- [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Reinforcement learning with decision trees?
 - Entrenar simulador
 - Construcción de redes neuronales a partir de reglas heurísticas
@@ -197,12 +196,16 @@ The key idea is **to use standard image transformations to peturb input observat
 ![image](https://i.imgur.com/fWFZXTz.png)
 
 ![image](https://i.imgur.com/eMk6UL3.png)
+
+## [Computer-aided breast cancer diagnosis based on image segmentation and interval analysis](https://sci-hub.se/10.1080/00051144.2020.1785784)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1Nz
-M2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4NywyMTEyNTIx
-NTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLT
-U0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAz
-MTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOCwtMTIxMzI2ND
-czMiwtMzcxODAwNTc1LC0xMzY2NTY4OTcxLDIwODE2MDg3MTUs
-LTE1NDc5MjU2ODJdfQ==
+eyJoaXN0b3J5IjpbMTU0OTAzOTEzMSwtNjEzNjQxNTE5LDE2ND
+g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
+MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
+k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
+NDgxOTMsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQyMzc5NT
+I4LC0xMjEzMjY0NzMyLC0zNzE4MDA1NzUsLTEzNjY1Njg5NzEs
+MjA4MTYwODcxNV19
 -->
