@@ -1,6 +1,8 @@
 CLP Practical Constraints (continuación).
 --
 
+
+
 **TODO**
 - Revisar donde se cae
 - Revisar entrada del BSG
@@ -25,7 +27,6 @@ Y cree una nueva instancia . Ahora se ejecuta así:
 ````
 ./BSG_CLP problems/clp/benchs/BRpc2/BR8pc.txt -i 0 -t 1 -f BRpc --min_fr=0.98
 ````
-
 
 
 **TODO**
@@ -367,11 +368,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODMxMzE2NiwtMTkxMDQxNDQ5NCwxNj
-AxMDkzMTI1LDEyODY2MTU3MzUsLTIwMjcyNTE5NTMsLTYyOTQ5
-MzI0LC0xNDE3NzAwMTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC
-0xMDcyMjYyMTQyLDgzMTc5MjU5MiwtMTc4NzI4Nzc1MCwxNjM0
-MjA0OTMwLDE1NTczNDg1MDIsLTIxMDY3MDMzOTIsNjEwMzcyND
-UxLDQyNzk2MTk3OCwtMTE4MTk0NjUzOSwxOTc4MjIwODE4LC0y
-MTQyMTM3NjNdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzc1MzA0MDgsMTUzODMxMzE2NiwtMT
+kxMDQxNDQ5NCwxNjAxMDkzMTI1LDEyODY2MTU3MzUsLTIwMjcy
+NTE5NTMsLTYyOTQ5MzI0LC0xNDE3NzAwMTgwLDE0MTcxNjg5Mi
+wtNzA3Mjk0NTYyLC0xMDcyMjYyMTQyLDgzMTc5MjU5MiwtMTc4
+NzI4Nzc1MCwxNjM0MjA0OTMwLDE1NTczNDg1MDIsLTIxMDY3MD
+MzOTIsNjEwMzcyNDUxLDQyNzk2MTk3OCwtMTE4MTk0NjUzOSwx
+OTc4MjIwODE4XX0=
 -->
