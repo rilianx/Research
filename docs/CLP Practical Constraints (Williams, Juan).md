@@ -3,9 +3,8 @@ CLP Practical Constraints (continuación).
 
 
 **TODO**
-- Revisar donde se cae
-- Revisar entrada del BSG
-- Con salida obtenida 
+- Revisar BSG (profe)
+- Matrix de Conflictos -> selección de cajas
 
 **Modificaciones a clase block**
 Clase **Block** tiene lista `AABBList* boxes` conteniendo todas las cajas (objetos AABB) y sus ubicaciones dentro del contenedor.
@@ -367,11 +366,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUzNDY3OCwtMTk3NzUzMDQwOCwxNT
-M4MzEzMTY2LC0xOTEwNDE0NDk0LDE2MDEwOTMxMjUsMTI4NjYx
-NTczNSwtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0MTc3MDAxOD
-AsMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNzIyNjIxNDIsODMx
-NzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1NzM0OD
-UwMiwtMjEwNjcwMzM5Miw2MTAzNzI0NTEsNDI3OTYxOTc4LC0x
-MTgxOTQ2NTM5XX0=
+eyJoaXN0b3J5IjpbMTI5NjAyMzIxMCwtMjA4NTM0Njc4LC0xOT
+c3NTMwNDA4LDE1MzgzMTMxNjYsLTE5MTA0MTQ0OTQsMTYwMTA5
+MzEyNSwxMjg2NjE1NzM1LC0yMDI3MjUxOTUzLC02Mjk0OTMyNC
+wtMTQxNzcwMDE4MCwxNDE3MTY4OTIsLTcwNzI5NDU2MiwtMTA3
+MjI2MjE0Miw4MzE3OTI1OTIsLTE3ODcyODc3NTAsMTYzNDIwND
+kzMCwxNTU3MzQ4NTAyLC0yMTA2NzAzMzkyLDYxMDM3MjQ1MSw0
+Mjc5NjE5NzhdfQ==
 -->
