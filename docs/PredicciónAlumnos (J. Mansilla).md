@@ -13,7 +13,7 @@ Predicting student performance in computing courses based on programming behavio
 
 - Abstract :ok:
 - Intro :ok:
-- Metrics
+- Metrics :ok:
 - Experiments
 	- Data Collection y variables :ok:
 	- Procedure  :ok:
@@ -188,11 +188,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDI5NDcyMCw4Mjc3NjU5NjcsLTQ2OD
-g3ODkzNyw5MjQ3ODA1MDgsLTE3MTM0OTQ5MDEsMzE5NjIxNTY1
-LC0xNzg2MjYxNDI1LC0yMDI0Mjc1NzAxLDg2MTM3NTgwLDE4OD
-Y1MzM0NTUsMjA1NDkzMjUxOSwyNjU4ODE2OCwxODQ4Nzk2ODMz
-LC0xMDg2MTQ0NjQ2LC01NjY1NDc3OTAsLTEwODI4MDg3NDYsMT
-k1NTA1MjM2NCwtMTczNzY1NjU1MCwtMjIxMTkzMDY3LDc0Mjk1
-NzEzXX0=
+eyJoaXN0b3J5IjpbLTE2MDYzNTQ3MiwxODg0Mjk0NzIwLDgyNz
+c2NTk2NywtNDY4ODc4OTM3LDkyNDc4MDUwOCwtMTcxMzQ5NDkw
+MSwzMTk2MjE1NjUsLTE3ODYyNjE0MjUsLTIwMjQyNzU3MDEsOD
+YxMzc1ODAsMTg4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4
+LDE4NDg3OTY4MzMsLTEwODYxNDQ2NDYsLTU2NjU0Nzc5MCwtMT
+A4MjgwODc0NiwxOTU1MDUyMzY0LC0xNzM3NjU2NTUwLC0yMjEx
+OTMwNjddfQ==
 -->
