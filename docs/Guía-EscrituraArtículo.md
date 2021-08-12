@@ -1,57 +1,5 @@
 [Escritura Papers](https://docs.google.com/file/d/15zz-n1lxaeyiZhJYtRrL0X-gYwOn6I41/edit)
 
-### A. Giselle Vásquez
-
-[Paper LazyMOP](https://docs.google.com/file/d/1AZIy2D-M7aiV5irKOq5omrjrNANl3MTL/edit) -- [overleaf](https://www.overleaf.com/project/604179927232b1516ad3ee84)
-
-**TODO**
-
-- Revisar **SearchEfficient** --> entrega soluciones bajo curva óptima
-- Calcular cantidad de veces que se agreandó la caja, cuantas veces falló (estadísticas)
-- ==Cálculo de hipervolumen==
-- Graficar resultados de Ibex para comparar
-- Reparar algoritmo
-
-**Plan**
-
-- Experimentos
-	- Comparar con algoritmo completo: tiempos, HV
-	- Cálculo de error (interpolación vs. SearchEfficient)
-	- Graficar interpolación vs. curva original
-	- Incorporar hull(x)
-- Volver redacción de paper
-
-----
-
-- (**En background**) Agregar figura de ejemplo para explicar spline
-- Calcular errores de predicción
-- (**En propuesta**) Agregar pseudocódigo al algoritmo de la estrategia general. También agregar imágenes que muestren:
-	- Creación de la primera caja y
-	- Estimación del punto eficiente usando spline y creación de caja
-	- Segunda caja (en caso de fallo)
-- En subsecciones explicar detalles de las distintas partes del algoritmo.
-	- Selección de $y_1$
-	- Creación de caja para búsqueda. ¿Qué pasa si falla?
-	- Reducción en x (mejora?)
-	- Search Efficient
-- (**Experimentos**) Algoritmo de base (2000) -> HV
-Y sin reducir y. Comparación con/sin reducir en x. 
-
-
-**Estructura paper**
-
-- Introducción
-	- Reescritura anti-plagio
-	- Hablar de interpolación y métodos existentes
-- Background
-	- Intervals :ok: (falta corrección anti-plagio)
-	- Biobjective problems (revisar y arreglar)
-	- Interpolación (traducir, faltan referencias)
-- Propuesta
-- Experimentos
-	- Definir
-- Conclusiones
-
 
 ---
 ###  B. Gonzalo Tello
@@ -139,11 +87,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NjM4NDI5LC0xODI5NjcwODYsODYzNT
-k0MzMxLC04OTM5NDA2NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1
-LDEzNTE2OTU0MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMT
-A3NTU5MDYyMCwtMTQzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2
-MDQwNjMsMTE5MTA2MTM1OCwtMTk5MDg0OTc3MCwtMTI2MDk0Nj
-U4NiwtNTQ3MjIzMjMxLDQ0ODc5MTc2NCwxNzQ4MDIzNjE2LDE3
-MTcxMTUwNDRdfQ==
+eyJoaXN0b3J5IjpbODg3MTQxMTkzLDQ3NTYzODQyOSwtMTgyOT
+Y3MDg2LDg2MzU5NDMzMSwtODkzOTQwNjQ1LDIwOTkwMjIwMTYs
+LTg5Mzk0MDY0NSwxMzUxNjk1NDE5LC0xMTQ3MDA2MjQ5LDIwNj
+I5MTQ1NDQsLTEwNzU1OTA2MjAsLTE0MzkwNTQzNjMsLTY1NTc1
+MDY3NCwxMjU5NjA0MDYzLDExOTEwNjEzNTgsLTE5OTA4NDk3Nz
+AsLTEyNjA5NDY1ODYsLTU0NzIyMzIzMSw0NDg3OTE3NjQsMTc0
+ODAyMzYxNl19
 -->
