@@ -80,7 +80,7 @@ def generate_bins(B, Vmax):
 **TODO**
 
 - Escritura de paper:
-	- Agregar citas en la intro
+	- Agregar muchas citas en la intro (bibtex)
 - Repetir experimentos
 	- Hill-Climbing para optimizar vector de pesos
 	- Usar atributos normales, +director-likeness, +emotion, +both
@@ -89,7 +89,7 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDE5Mjc4Nyw0NzU2Mzg0MjksLTE4Mj
+eyJoaXN0b3J5IjpbMTc4NjEyOTcwOSw0NzU2Mzg0MjksLTE4Mj
 k2NzA4Niw4NjM1OTQzMzEsLTg5Mzk0MDY0NSwyMDk5MDIyMDE2
 LC04OTM5NDA2NDUsMTM1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMD
 YyOTE0NTQ0LC0xMDc1NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3
