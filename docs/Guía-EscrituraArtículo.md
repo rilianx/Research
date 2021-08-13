@@ -79,6 +79,8 @@ def generate_bins(B, Vmax):
 
 **TODO**
 
+- Escritura de paper:
+	- Agregar citas en la intro
 - Repetir experimentos
 	- Hill-Climbing para optimizar vector de pesos
 	- Usar atributos normales, +director-likeness, +emotion, +both
@@ -87,11 +89,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3MTQxMTkzLDQ3NTYzODQyOSwtMTgyOT
-Y3MDg2LDg2MzU5NDMzMSwtODkzOTQwNjQ1LDIwOTkwMjIwMTYs
-LTg5Mzk0MDY0NSwxMzUxNjk1NDE5LC0xMTQ3MDA2MjQ5LDIwNj
-I5MTQ1NDQsLTEwNzU1OTA2MjAsLTE0MzkwNTQzNjMsLTY1NTc1
-MDY3NCwxMjU5NjA0MDYzLDExOTEwNjEzNTgsLTE5OTA4NDk3Nz
-AsLTEyNjA5NDY1ODYsLTU0NzIyMzIzMSw0NDg3OTE3NjQsMTc0
-ODAyMzYxNl19
+eyJoaXN0b3J5IjpbMjAzMDE5Mjc4Nyw0NzU2Mzg0MjksLTE4Mj
+k2NzA4Niw4NjM1OTQzMzEsLTg5Mzk0MDY0NSwyMDk5MDIyMDE2
+LC04OTM5NDA2NDUsMTM1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMD
+YyOTE0NTQ0LC0xMDc1NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3
+NTA2NzQsMTI1OTYwNDA2MywxMTkxMDYxMzU4LC0xOTkwODQ5Nz
+cwLC0xMjYwOTQ2NTg2LC01NDcyMjMyMzEsNDQ4NzkxNzY0LDE3
+NDgwMjM2MTZdfQ==
 -->
