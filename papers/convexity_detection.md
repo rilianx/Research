@@ -214,12 +214,16 @@ Apply two preprocessing methods:
 - **Median Filtering**: For removing noise
 - **Image thresholding (Kapur method)**: The objective maximizing is the image entropy and describing the compactness and separability in the classes.
 
-### I
+### Interval Edge Detection
+
+One of the proper methods in **edge detection** is Laplacian of Gaussian (LoG). It combines the Gaussian filtering with the Laplacian. 
+
+Laplacian, indeed, is the **image second-order derivative**. Since performing derivative into an image, enhances its high-frequency edges, the Laplacian filter is utilized to edges detection of an image.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg0Mzc1MywtMTc0Njc5NDIwLC0xND
+eyJoaXN0b3J5IjpbMTEyNDkxNjgzNCwtMTc0Njc5NDIwLC0xND
 IzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1
 MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LD
 ExMTE1MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIx
