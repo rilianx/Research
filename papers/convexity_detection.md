@@ -210,16 +210,18 @@ Several methods are performed on considering uncertainties, for example, fuzzy m
 ![image](https://i.imgur.com/DUKwMON.png)
 
 Apply two preprocessing methods:
-- Histogram Equalization: 
+- **Histogram Equalization**: for increasing contrast in low contrast images
+- **Median Filtering**: For removing noise
+- **Image thresholding (Kapur method)**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg5MDkxNDksLTE0MjM0NjQ1MjIsLT
-E1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2
-MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4Ny
-wyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3
-MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2MDQ4MT
-kzLC0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0MjM3OTUyOCwt
-MTIxMzI2NDczMl19
+eyJoaXN0b3J5IjpbMzU1NTEyNjc1LC0xNDIzNDY0NTIyLC0xNT
+E0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgwNjI0
+NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwODcsMj
+ExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUxNzI3
+Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4NDQsLTY1NjA0ODE5My
+wtMTIwMzE1MzAwLC02NTI2MDQzNTEsLTE0NDIzNzk1MjgsLTEy
+MTMyNjQ3MzJdfQ==
 -->
