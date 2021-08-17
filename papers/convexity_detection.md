@@ -218,16 +218,16 @@ Apply two preprocessing methods:
 
 One of the proper methods in **edge detection** is Laplacian of Gaussian (LoG). It combines the Gaussian filtering with the Laplacian. 
 
-Laplacian, indeed, is the **image second-order derivative**. Since performing derivative into an image, enhances its high-frequency edges, the Laplacian filter is utilized to edges detection of an image.
+Laplacian, indeed, is the **image second-order derivative**. Since performing derivative into an image, enhances its high-frequency edges, the Laplacian filter is utilized to edges detection of an image. LOG applies Laplacian operator following the smoothing it on an image by Gaussian filter to reduce the noise.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDkxNjgzNCwtMTc0Njc5NDIwLC0xND
-IzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1
-MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LD
-ExMTE1MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIx
-MzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4ND
-QsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2MDQzNTEsLTE0
-NDIzNzk1MjhdfQ==
+eyJoaXN0b3J5IjpbNjQ4MDgxMTMsLTE3NDY3OTQyMCwtMTQyMz
+Q2NDUyMiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5
+LDE2NDg4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMT
+ExNTM0MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0
+MTQsMTk1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC
+02NTYwNDgxOTMsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQy
+Mzc5NTI4XX0=
 -->
