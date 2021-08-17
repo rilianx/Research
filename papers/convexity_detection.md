@@ -221,17 +221,19 @@ One of the proper methods in **edge detection** is Laplacian of Gaussian (LoG). 
 Laplacian, indeed, is the **image second-order derivative**. Since performing derivative into an image, enhances its high-frequency edges, the Laplacian filter is utilized to edges detection of an image. LOG applies Laplacian operator following the smoothing it on an image by Gaussian filter to reduce the noise.
 
 ![image](https://i.imgur.com/cJpVMhX.png)
+*Kernel for approximating Laplacian filter*
 
 A most important drawback of LOG is that **doesn’t work properly where the image tone (intensity level) is varying and has uncertainties**. 
 
+Proposal: Interval extension of Laplacian to improve the performance of LOG
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1ODk1OTM2LC0xNzQ2Nzk0MjAsLTE0Mj
-M0NjQ1MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUx
-OSwxNjQ4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMT
-ExMTUzNDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEz
-NDE0LDE5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NC
-wtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLTY1MjYwNDM1MSwtMTQ0
-MjM3OTUyOF19
+eyJoaXN0b3J5IjpbMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xND
+IzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1
+MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LD
+ExMTE1MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIx
+MzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4ND
+QsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2MDQzNTEsLTE0
+NDIzNzk1MjhdfQ==
 -->
