@@ -214,16 +214,16 @@ Apply two preprocessing methods:
 - **Median Filtering**: For removing noise
 - **Image thresholding (Kapur method)**: The objective maximizing is the image entropy and describing the compactness and separability in the classes.
 
-### Image edge detection based on interval analysis
+### I
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMT
-UxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2NDg4MDYy
-NDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0MDg3LD
-IxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MTcy
-NzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYwNDgxOT
-MsLTEyMDMxNTMwMCwtNjUyNjA0MzUxLC0xNDQyMzc5NTI4LC0x
-MjEzMjY0NzMyXX0=
+eyJoaXN0b3J5IjpbLTIxMDg0Mzc1MywtMTc0Njc5NDIwLC0xND
+IzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1
+MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LD
+ExMTE1MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIx
+MzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4ND
+QsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2MDQzNTEsLTE0
+NDIzNzk1MjhdfQ==
 -->
