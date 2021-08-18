@@ -5,7 +5,7 @@ Predicting student performance in computing courses based on programming behavio
 
 - Repasar experimentos (nuevos resultados)
 - Conclusiones
-- 
+- Agregar variable predictor grade en sección 2, destacando que no se usará en el modelo predictivo ya que estamos interesados en predecir desempeño con comportamiento y no en base a sus notas
 
 
 
@@ -188,11 +188,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI4NjUwNiwxNzI0OTE5NTc5LC0xNj
-A2MzU0NzIsMTg4NDI5NDcyMCw4Mjc3NjU5NjcsLTQ2ODg3ODkz
-Nyw5MjQ3ODA1MDgsLTE3MTM0OTQ5MDEsMzE5NjIxNTY1LC0xNz
-g2MjYxNDI1LC0yMDI0Mjc1NzAxLDg2MTM3NTgwLDE4ODY1MzM0
-NTUsMjA1NDkzMjUxOSwyNjU4ODE2OCwxODQ4Nzk2ODMzLC0xMD
-g2MTQ0NjQ2LC01NjY1NDc3OTAsLTEwODI4MDg3NDYsMTk1NTA1
-MjM2NF19
+eyJoaXN0b3J5IjpbNjY1NTk3MDU4LDE3MjQ5MTk1NzksLTE2MD
+YzNTQ3MiwxODg0Mjk0NzIwLDgyNzc2NTk2NywtNDY4ODc4OTM3
+LDkyNDc4MDUwOCwtMTcxMzQ5NDkwMSwzMTk2MjE1NjUsLTE3OD
+YyNjE0MjUsLTIwMjQyNzU3MDEsODYxMzc1ODAsMTg4NjUzMzQ1
+NSwyMDU0OTMyNTE5LDI2NTg4MTY4LDE4NDg3OTY4MzMsLTEwOD
+YxNDQ2NDYsLTU2NjU0Nzc5MCwtMTA4MjgwODc0NiwxOTU1MDUy
+MzY0XX0=
 -->
