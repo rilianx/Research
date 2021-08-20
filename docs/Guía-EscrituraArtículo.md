@@ -5,7 +5,7 @@
 ###  B. Gonzalo Tello
 
 [overleaf](https://www.overleaf.com/project/6041a75784090c42d9685499)
- [(2013) A biased random key genetic algorithm for 2D and 3D binpacking problems](https://www.sciencedirect.com/science/article/pii/S0925527313001837)
+ [(2013) A biased random key genetic algorithm for 2D and 3D binpacking problems](https://www.sciencedirect.com/science/article/pii/S0925527313001837) - [github](https://github.com/gtello79/MCLP_BinPackingProblem.git)
  
 **TODO**
 
@@ -89,11 +89,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjEyOTcwOSw0NzU2Mzg0MjksLTE4Mj
-k2NzA4Niw4NjM1OTQzMzEsLTg5Mzk0MDY0NSwyMDk5MDIyMDE2
-LC04OTM5NDA2NDUsMTM1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMD
-YyOTE0NTQ0LC0xMDc1NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3
-NTA2NzQsMTI1OTYwNDA2MywxMTkxMDYxMzU4LC0xOTkwODQ5Nz
-cwLC0xMjYwOTQ2NTg2LC01NDcyMjMyMzEsNDQ4NzkxNzY0LDE3
-NDgwMjM2MTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTM0MDY3MTgsMTc4NjEyOTcwOSw0Nz
+U2Mzg0MjksLTE4Mjk2NzA4Niw4NjM1OTQzMzEsLTg5Mzk0MDY0
+NSwyMDk5MDIyMDE2LC04OTM5NDA2NDUsMTM1MTY5NTQxOSwtMT
+E0NzAwNjI0OSwyMDYyOTE0NTQ0LC0xMDc1NTkwNjIwLC0xNDM5
+MDU0MzYzLC02NTU3NTA2NzQsMTI1OTYwNDA2MywxMTkxMDYxMz
+U4LC0xOTkwODQ5NzcwLC0xMjYwOTQ2NTg2LC01NDcyMjMyMzEs
+NDQ4NzkxNzY0XX0=
 -->
