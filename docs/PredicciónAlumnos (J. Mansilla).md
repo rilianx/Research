@@ -7,7 +7,7 @@ Predicting student performance in computing courses based on programming behavio
 - Conclusiones
 - Agregar variable predictor grade en sección 2, destacando que no se usará en el modelo predictivo ya que estamos interesados en predecir desempeño con comportamiento y no en base a sus notas
 - Comentar en alguna parte que:  each semester' course has specific features that may affect in the global behaviour and performance of the students, e.g., the time period of the laboratory that may vary, the level of difficulty of the exams, the tips that the lab assistant gave to students in a particular semester.
-- Qué oc
+- Mostrar qué ocurre si quitamos métricas de autonomía y motivación de modelos.
 
 
 
@@ -190,11 +190,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDYzMDkwNTAsMTk0OTEwMTU5NCwtMT
-g4MjE2NzM5MCwtOTQxNDA1NDIsNjY1NTk3MDU4LDE3MjQ5MTk1
-NzksLTE2MDYzNTQ3MiwxODg0Mjk0NzIwLDgyNzc2NTk2NywtND
-Y4ODc4OTM3LDkyNDc4MDUwOCwtMTcxMzQ5NDkwMSwzMTk2MjE1
-NjUsLTE3ODYyNjE0MjUsLTIwMjQyNzU3MDEsODYxMzc1ODAsMT
-g4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4LDE4NDg3OTY4
-MzNdfQ==
+eyJoaXN0b3J5IjpbMjAzOTQ4ODM3OSwxOTQ5MTAxNTk0LC0xOD
+gyMTY3MzkwLC05NDE0MDU0Miw2NjU1OTcwNTgsMTcyNDkxOTU3
+OSwtMTYwNjM1NDcyLDE4ODQyOTQ3MjAsODI3NzY1OTY3LC00Nj
+g4Nzg5MzcsOTI0NzgwNTA4LC0xNzEzNDk0OTAxLDMxOTYyMTU2
+NSwtMTc4NjI2MTQyNSwtMjAyNDI3NTcwMSw4NjEzNzU4MCwxOD
+g2NTMzNDU1LDIwNTQ5MzI1MTksMjY1ODgxNjgsMTg0ODc5Njgz
+M119
 -->
