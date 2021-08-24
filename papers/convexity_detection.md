@@ -274,14 +274,14 @@ Especially the last one troubled researchers for quite a long, because it is ver
 
 ### Trust region policy optimization (TRPO) 
 
-To ensure that the policy won’t move too far, we add a constraint to our **optimization problem** in terms of making sure that the updated policy lies within a trust region. Trust regions are defined as the region in which the **local approximations of the function are accurate**.
+To ensure that the policy won’t move too far, we add a **constraint** to our **optimization problem** in terms of making sure that the updated policy lies within a trust region. Trust regions are defined as the region in which the **local approximations of the function are accurate**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDgyNjU5Miw0NzEyMDYyMjgsLTQ3OT
-c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
-MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
-Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
-NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
-E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
-MDQ4MTkzXX0=
+eyJoaXN0b3J5IjpbLTE3OTQ1MDM5MDQsNDcxMjA2MjI4LC00Nz
+k3OTEzMzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0
+NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMT
+Y0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1
+MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNC
+wxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4NDQsLTY1
+NjA0ODE5M119
 -->
