@@ -1,6 +1,6 @@
 ## TODO
 
-- Entender actor-critic
+- Terminar de entender [PPO](https://theaisummer.com/TRPO_PPO/)
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Reinforcement learning with decision trees?
@@ -287,11 +287,11 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OT
-c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
-MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
-Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
-NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
-E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
-MDQ4MTkzXX0=
+eyJoaXN0b3J5IjpbLTcwNjc0Njc3OCwtMTgyMjk5ODM4LDQ3MT
+IwNjIyOCwtNDc5NzkxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQy
+MCwtMTQyMzQ2NDUyMiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNj
+EzNjQxNTE5LDE2NDg4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0
+Mjg1OSwxMTExNTM0MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0Ny
+wtMTAyMTM0MTQsMTk1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0
+MTcwODQ0XX0=
 -->
