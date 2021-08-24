@@ -259,9 +259,10 @@ We see that the information flows not only from the agents to the global network
 
 There is no need to have many agents if they are synchronous, as they essentially are not different at all. In fact, what we do, is to create **multiple versions of the environment** and just two networks.
 
+The first network (usually referred to as step model) interacts with all the environments for n time steps in parallel and outputs a batch of experiences. With those experience, we train the second network (train model) and we update the step model with the new weights. And we repeat the process.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNTU0MTY5LDQ3MTIwNjIyOCwtNDc5Nz
+eyJoaXN0b3J5IjpbNDI3NDEyMjYxLDQ3MTIwNjIyOCwtNDc5Nz
 kxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUy
 MiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2ND
 g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
