@@ -245,13 +245,19 @@ Advantage function captures **how better an action is compared to the others at 
 
 **Instead of having the critic to learn the Q values, we make him learn the Advantage values**. The advantage of the advantage function (see what I did here?) is that it **reduces the high variance** of policy networks and stabilize the model.
 
+### Asynchronous Advantage Actor-Critic
+
+The key difference from A2C is the Asynchronous part. A3C consists of **multiple independent agents**(networks) with their own weights, who interact with a different copy of the environment in parallel. Thus, they can explore a bigger part of the state-action space in much less time.
+
+![image](https://i.imgur.com/Fa8Jq4i.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODY1NzIyNyw0NzEyMDYyMjgsLTQ3OT
-c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
-MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
-Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
-NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
-E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
-MDQ4MTkzXX0=
+eyJoaXN0b3J5IjpbMTQ1NzAxNzUzLDQ3MTIwNjIyOCwtNDc5Nz
+kxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUy
+MiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2ND
+g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
+MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
+k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
+NDgxOTNdfQ==
 -->
