@@ -276,12 +276,18 @@ Especially the last one troubled researchers for quite a long, because it is ver
 
 To ensure that the policy won’t move too far, we add a **constraint** to our **optimization problem** in terms of making sure that the updated policy lies within a trust region. Trust regions are defined as the region in which the **local approximations of the function are accurate**.
 
+We have to use the**Conjugate Gradient method** instead of gradient descent. 
+
+Generally speaking, trust regions are considered pretty standard methods to approach optimization problems. The tricky part is to apply them in a reinforcement learning context in a way that provides an advantage over simple policy gradients.
+
+Although TRPO is a very powerful algorithm, it suffers from a significant problem: that bloody constraint, which adds additional overhead to our optimization problem. I mean it forces us to use the conjugate gradient method and baffled us with linear and quadratic approximations. Wouldn’t it be nice if the could somehow **include the constraint directly into our optimization objective**? As you might have guessed that is exactly what Proximal policy optimization does.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ1MDM5MDQsNDcxMjA2MjI4LC00Nz
-k3OTEzMzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0
-NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMT
-Y0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1
-MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNC
-wxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4NDQsLTY1
-NjA0ODE5M119
+eyJoaXN0b3J5IjpbMTgwNTU5MzM3MSw0NzEyMDYyMjgsLTQ3OT
+c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
+MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
+Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
+NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
+E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
+MDQ4MTkzXX0=
 -->
