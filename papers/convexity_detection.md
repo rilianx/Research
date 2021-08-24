@@ -235,13 +235,13 @@ The principal idea is to split the model in two: one for computing an action bas
 
 The actor takes as input the state and outputs the **best action**. It essentially controls how the agent behaves by **learning the optimal policy**
 
-The critic, on the other hand, **evaluates the action by computing the value function** (value based).
+The critic, on the other hand, **evaluates the action by computing the value function**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODE4NzU3LDQ3MTIwNjIyOCwtNDc5Nz
-kxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUy
-MiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2ND
-g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
-MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
-k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
-NDgxOTNdfQ==
+eyJoaXN0b3J5IjpbMTUxNjczMTg2NCw0NzEyMDYyMjgsLTQ3OT
+c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
+MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
+Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
+NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
+E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
+MDQ4MTkzXX0=
 -->
