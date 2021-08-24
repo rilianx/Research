@@ -228,12 +228,20 @@ A most important drawback of LOG is that **doesn’t work properly where the ima
 Proposal: Interval extension of Laplacian to improve the performance of LOG
 
 
+
+### [Actor-Critic](https://theaisummer.com/Actor_critics/)
+
+The principal idea is to split the model in two: one for computing an action based on a state and another one to produce the Q values of the action.
+
+The actor takes as input the state and outputs the **best action**. It essentially controls how the agent behaves by **learning the optimal policy**
+
+The critic, on the other hand, **evaluates the action by computing the value function** (value based).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1Nz
-U5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC0xNTE0NDQ5
-NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgwNjI0NSwxNT
-czNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwODcsMjExMjUy
-MTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUxNzI3Mzg1LC
-01NDM3ODQ4MjUsLTE2ODQxNzA4NDQsLTY1NjA0ODE5MywtMTIw
-MzE1MzAwXX0=
+eyJoaXN0b3J5IjpbLTY2ODE4NzU3LDQ3MTIwNjIyOCwtNDc5Nz
+kxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUy
+MiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2ND
+g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
+MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
+k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
+NDgxOTNdfQ==
 -->
