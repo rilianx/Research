@@ -239,13 +239,19 @@ The critic, on the other hand, **evaluates the action by computing the value fun
 
 The **actor** can be a function approximator like a neural network and its task is to **produce the best action for a given state**. Of course, it can be a fully connected neural network or a convolutional or anything else. The **critic** is another function approximator, which receives as input **the environment and the action by the actor**, concatenates them and output the **action value** (Q-value) for the given pair. Let me remind you for a sec that the Q value is essentially the **maximum future reward**.
 
-###A2C
+### A2C
+
+Advantage function captures **how better an action is compared to the others at a given state**, while as we know the value function captures how good it is to be at this state.
+
+**Instead of having the critic to learn the Q values, we make him learn the Advantage values**. The advantage of the advantage function (see what I did here?) is that it **reduces the high variance** of policy networks and stabilize the model.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MDk4MjcwLDQ3MTIwNjIyOCwtNDc5Nz
-kxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUy
-MiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2ND
-g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
-MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
-k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
-NDgxOTNdfQ==
+eyJoaXN0b3J5IjpbMTE4ODY1NzIyNyw0NzEyMDYyMjgsLTQ3OT
+c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
+MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
+Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
+NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
+E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
+MDQ4MTkzXX0=
 -->
