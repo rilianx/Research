@@ -236,8 +236,12 @@ The principal idea is to split the model in two: one for computing an action bas
 The actor takes as input the state and outputs the **best action**. It essentially controls how the agent behaves by **learning the optimal policy**
 
 The critic, on the other hand, **evaluates the action by computing the value function**
+
+The **actor** can be a function approximator like a neural network and its task is to **produce the best action for a given state**. Of course, it can be a fully connected neural network or a convolutional or anything else. The **critic** is another function approximator, which receives as input **the environment and the action by the actor**, concatenates them and output the **action value** (Q-value) for the given pair. Let me remind you for a sec that the Q value is essentially the **maximum future reward**.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjczMTg2NCw0NzEyMDYyMjgsLTQ3OT
+eyJoaXN0b3J5IjpbMTE1NzE2NTg1NCw0NzEyMDYyMjgsLTQ3OT
 c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
 MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
 Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
