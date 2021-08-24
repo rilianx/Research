@@ -255,13 +255,17 @@ The agents (or workers) are trained in parallel and update periodically a global
 
 We see that the information flows not only from the agents to the global network but also between agents as each agent resets his weights by the global network, which has the information of all the other agents. Smart right?
 
+### Improved A2C
+
+There is no need to have many agents if they are synchronous, as they essentially are not different at all. In fact, what we do, is to create **multiple versions of the environment** and just two networks.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjgzOTg5NSw0NzEyMDYyMjgsLTQ3OT
-c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
-MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
-Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
-NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
-E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
-MDQ4MTkzXX0=
+eyJoaXN0b3J5IjpbMzAxNTU0MTY5LDQ3MTIwNjIyOCwtNDc5Nz
+kxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUy
+MiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2ND
+g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
+MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
+k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
+NDgxOTNdfQ==
 -->
