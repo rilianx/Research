@@ -270,8 +270,13 @@ Remember that in **policy gradients techniques**, we try to optimize a policy ob
 -   Sample inefficiency
 -   Learning rate highly affects training
 
+Especially the last one troubled researchers for quite a long, because it is very hard to find a suitable learning rate for the whole optimization process. Small learning rate may cause vanishing gradients while large rate may cause exploding gradient. In general, we need a method to change the policy not too much but also not too little and even better to always improve our policy.
+
+### Trust region policy optimization (TRPO) 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mjc0MzA4Nyw0NzEyMDYyMjgsLTQ3OT
+eyJoaXN0b3J5IjpbMTA4MDA4MDUyMiw0NzEyMDYyMjgsLTQ3OT
 c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
 MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
 Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
