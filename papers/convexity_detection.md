@@ -1,5 +1,6 @@
 ## TODO
 
+- Entender actor-critic
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Reinforcement learning with decision trees?
@@ -228,11 +229,11 @@ Proposal: Interval extension of Laplacian to improve the performance of LOG
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC0xNz
-Q2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1MTQ0NDk2NjYsOTkzMzk3
-ODYsLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1NzM2MzQ0ODIsLT
-ExOTA2NDI4NTksMTExMTUzNDA4NywyMTEyNTIxNTI1LC03MTY5
-NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgyNS
-wtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLTY1
-MjYwNDM1MV19
+eyJoaXN0b3J5IjpbNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1Nz
+U5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC0xNTE0NDQ5
+NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgwNjI0NSwxNT
+czNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwODcsMjExMjUy
+MTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUxNzI3Mzg1LC
+01NDM3ODQ4MjUsLTE2ODQxNzA4NDQsLTY1NjA0ODE5MywtMTIw
+MzE1MzAwXX0=
 -->
