@@ -5,7 +5,6 @@
 - Reinforcement learning with decision trees?
 - Entrenar simulador
 - Construcción de redes neuronales a partir de reglas heurísticas
-- KD-Tree: Revisar como particionan espacio en otros paper (orden alfabético?)
 - Paper: Minima distribution for global optimization (2018)
 - ==Computer-aided breast cancer diagnosis based on  **image** segmentation and  **interval analysis**==
 - [Training robust neural networks using  **Lipschitz bounds**](https://ieeexplore.ieee.org/abstract/document/9319198/)
@@ -229,11 +228,11 @@ Proposal: Interval extension of Laplacian to improve the performance of LOG
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xND
-IzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1
-MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LD
-ExMTE1MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIx
-MzQxNCwxOTUxNzI3Mzg1LC01NDM3ODQ4MjUsLTE2ODQxNzA4ND
-QsLTY1NjA0ODE5MywtMTIwMzE1MzAwLC02NTI2MDQzNTEsLTE0
-NDIzNzk1MjhdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC0xNz
+Q2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1MTQ0NDk2NjYsOTkzMzk3
+ODYsLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1NzM2MzQ0ODIsLT
+ExOTA2NDI4NTksMTExMTUzNDA4NywyMTEyNTIxNTI1LC03MTY5
+NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4NDgyNS
+wtMTY4NDE3MDg0NCwtNjU2MDQ4MTkzLC0xMjAzMTUzMDAsLTY1
+MjYwNDM1MV19
 -->
