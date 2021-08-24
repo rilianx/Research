@@ -82,18 +82,18 @@ def generate_bins(B, Vmax):
 - Escritura de paper:
 	- Agregar muchas citas en la intro (bibtex)
 - Repetir experimentos
-	- Hill-Climbing para optimizar vector de pesos
+	- Optimizar vector de pesos con PSO --> Ignacio
 	- Usar atributos normales, +director-likeness, +emotion, +both
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTY4ODMzNTUsLTE3NTM0MDY3MTgsMT
-c4NjEyOTcwOSw0NzU2Mzg0MjksLTE4Mjk2NzA4Niw4NjM1OTQz
-MzEsLTg5Mzk0MDY0NSwyMDk5MDIyMDE2LC04OTM5NDA2NDUsMT
-M1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMDYyOTE0NTQ0LC0xMDc1
-NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3NTA2NzQsMTI1OTYwND
-A2MywxMTkxMDYxMzU4LC0xOTkwODQ5NzcwLC0xMjYwOTQ2NTg2
-LC01NDcyMjMyMzFdfQ==
+eyJoaXN0b3J5IjpbLTExOTUxNDA2NjYsLTE4OTY4ODMzNTUsLT
+E3NTM0MDY3MTgsMTc4NjEyOTcwOSw0NzU2Mzg0MjksLTE4Mjk2
+NzA4Niw4NjM1OTQzMzEsLTg5Mzk0MDY0NSwyMDk5MDIyMDE2LC
+04OTM5NDA2NDUsMTM1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMDYy
+OTE0NTQ0LC0xMDc1NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3NT
+A2NzQsMTI1OTYwNDA2MywxMTkxMDYxMzU4LC0xOTkwODQ5Nzcw
+LC0xMjYwOTQ2NTg2XX0=
 -->
