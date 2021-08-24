@@ -261,12 +261,21 @@ There is no need to have many agents if they are synchronous, as they essentiall
 
 The first network (usually referred to as step model) interacts with all the environments for n time steps in parallel and outputs a batch of experiences. With those experience, we train the second network (train model) and we update the step model with the new weights. And we repeat the process.
 
+### Trust Region and Proximal policy optimization
+
+Remember that in **policy gradients techniques**, we try to optimize a policy objective function (the expected accumulative reward) using gradient descent. Policy gradients are great for continuous and large spaces but suffer from some problems.
+
+-   High variance (which we address with  [Actor-critic](https://theaisummer.com/Actor_critics/)  models)
+-   Delayed reward problem
+-   Sample inefficiency
+-   Learning rate highly affects training
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NDEyMjYxLDQ3MTIwNjIyOCwtNDc5Nz
-kxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUy
-MiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2ND
-g4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0
-MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMT
-k1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0MTcwODQ0LC02NTYw
-NDgxOTNdfQ==
+eyJoaXN0b3J5IjpbMTM5Mjc0MzA4Nyw0NzEyMDYyMjgsLTQ3OT
+c5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1
+MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNj
+Q4ODA2MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUz
+NDA4NywyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LD
+E5NTE3MjczODUsLTU0Mzc4NDgyNSwtMTY4NDE3MDg0NCwtNjU2
+MDQ4MTkzXX0=
 -->
