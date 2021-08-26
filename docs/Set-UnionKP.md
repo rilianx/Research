@@ -3,6 +3,7 @@
 - Generar tabla de resultados con varias instancias
 - Estudiar Simulated Annealing
 
+
 **Experimentos**
 
 10 corridas (semillas aleatorias) para cada configuración -> script
@@ -149,11 +150,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMT
-YyMDI1MTUsLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3
-MjAsODQxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMz
-cxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4
-Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNT
-MsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0xNjkyNTM1MjkxLDM4
-NTE4ODYxMl19
+eyJoaXN0b3J5IjpbLTIwNTcxNTUxMTksLTE3NzI2MDgyNTcsMT
+U4MjU4NjMzOCwtMTYyMDI1MTUsLTY2MjA4NjQ1OCwtMzUzMTc3
+OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjExOCwtNj
+AzODQyMzUwLC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1
+NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNT
+Y1LC04MDMxODIyNTMsLTE0MzIyODQwOTUsNDIyNDc3Nzg2LC0x
+NjkyNTM1MjkxXX0=
 -->
