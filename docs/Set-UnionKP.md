@@ -1,7 +1,8 @@
 ### TODO
 
 - Generar tabla de resultados con varias instancias
-- Estudiar Simulated Annealing==
+- ==Implmentar Simulated Annealing==
+- 
 
 
 **Experimentos**
@@ -150,7 +151,7 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mzc4NzQ0MSwtMjA1NzE1NTExOSwtMT
+eyJoaXN0b3J5IjpbLTQwMzA5MTIwMCwtMjA1NzE1NTExOSwtMT
 c3MjYwODI1NywxNTgyNTg2MzM4LC0xNjIwMjUxNSwtNjYyMDg2
 NDU4LC0zNTMxNzc5OTUsMTc5NzkwNzcyMCw4NDEzMDMyMzgsOD
 YxMjk2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLTE4MjU0
