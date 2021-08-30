@@ -77,6 +77,7 @@ def generate_bins(B, Vmax):
 ### C. Luciano
 
 [Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
+[Si](https://docs.google.com/document/d/18yYwocuxqfC1oZmKnqSBSCcSGXyDairlFC80RaVGtWw/edit)
 
 **TODO**
 
@@ -90,11 +91,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjgzNjksLTY3MjUzOTU3OSwtMTE5NT
-E0MDY2NiwtMTg5Njg4MzM1NSwtMTc1MzQwNjcxOCwxNzg2MTI5
-NzA5LDQ3NTYzODQyOSwtMTgyOTY3MDg2LDg2MzU5NDMzMSwtOD
-kzOTQwNjQ1LDIwOTkwMjIwMTYsLTg5Mzk0MDY0NSwxMzUxNjk1
-NDE5LC0xMTQ3MDA2MjQ5LDIwNjI5MTQ1NDQsLTEwNzU1OTA2Mj
-AsLTE0MzkwNTQzNjMsLTY1NTc1MDY3NCwxMjU5NjA0MDYzLDEx
-OTEwNjEzNThdfQ==
+eyJoaXN0b3J5IjpbLTE2NTY5MTY4NzcsMTMzMjgzNjksLTY3Mj
+UzOTU3OSwtMTE5NTE0MDY2NiwtMTg5Njg4MzM1NSwtMTc1MzQw
+NjcxOCwxNzg2MTI5NzA5LDQ3NTYzODQyOSwtMTgyOTY3MDg2LD
+g2MzU5NDMzMSwtODkzOTQwNjQ1LDIwOTkwMjIwMTYsLTg5Mzk0
+MDY0NSwxMzUxNjk1NDE5LC0xMTQ3MDA2MjQ5LDIwNjI5MTQ1ND
+QsLTEwNzU1OTA2MjAsLTE0MzkwNTQzNjMsLTY1NTc1MDY3NCwx
+MjU5NjA0MDYzXX0=
 -->
