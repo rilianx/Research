@@ -10,9 +10,8 @@
 **TODO**
 
 - Buscar algoritmo de la competencia para comparar ([Rust code](https://github.com/bobotu/kaosu-packer))
-- BSG solo debería verificar bins modificados (flag para marcar bins)
-- Al verificar soluciones, para acelerar el proceso, BSG podría descartar estado que no puedan ubicar todas las cajas.
-
+- Revisar gráficamente soluciones que BSG no pudo validar. Como esta:
+![image](https://i.imgur.com/MsZ4s0k.png)
 **Plan**
 
 - Reparar y revisar el algoritmo
@@ -89,11 +88,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUxNDA2NjYsLTE4OTY4ODMzNTUsLT
-E3NTM0MDY3MTgsMTc4NjEyOTcwOSw0NzU2Mzg0MjksLTE4Mjk2
-NzA4Niw4NjM1OTQzMzEsLTg5Mzk0MDY0NSwyMDk5MDIyMDE2LC
-04OTM5NDA2NDUsMTM1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMDYy
-OTE0NTQ0LC0xMDc1NTkwNjIwLC0xNDM5MDU0MzYzLC02NTU3NT
-A2NzQsMTI1OTYwNDA2MywxMTkxMDYxMzU4LC0xOTkwODQ5Nzcw
-LC0xMjYwOTQ2NTg2XX0=
+eyJoaXN0b3J5IjpbLTY3MjUzOTU3OSwtMTE5NTE0MDY2NiwtMT
+g5Njg4MzM1NSwtMTc1MzQwNjcxOCwxNzg2MTI5NzA5LDQ3NTYz
+ODQyOSwtMTgyOTY3MDg2LDg2MzU5NDMzMSwtODkzOTQwNjQ1LD
+IwOTkwMjIwMTYsLTg5Mzk0MDY0NSwxMzUxNjk1NDE5LC0xMTQ3
+MDA2MjQ5LDIwNjI5MTQ1NDQsLTEwNzU1OTA2MjAsLTE0MzkwNT
+QzNjMsLTY1NTc1MDY3NCwxMjU5NjA0MDYzLDExOTEwNjEzNTgs
+LTE5OTA4NDk3NzBdfQ==
 -->
