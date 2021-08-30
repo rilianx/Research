@@ -12,6 +12,8 @@
 - Buscar algoritmo de la competencia para comparar ([Rust code](https://github.com/bobotu/kaosu-packer))
 - Revisar gráficamente soluciones que BSG no pudo validar. Como esta:
 ![image](https://i.imgur.com/MsZ4s0k.png)
+- Pensar en otro criterio de evaluación que incluya complejidad de cajas. Por ejemplo, puede convenir reducir diferencia en
+
 **Plan**
 
 - Reparar y revisar el algoritmo
@@ -88,11 +90,11 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjUzOTU3OSwtMTE5NTE0MDY2NiwtMT
-g5Njg4MzM1NSwtMTc1MzQwNjcxOCwxNzg2MTI5NzA5LDQ3NTYz
-ODQyOSwtMTgyOTY3MDg2LDg2MzU5NDMzMSwtODkzOTQwNjQ1LD
-IwOTkwMjIwMTYsLTg5Mzk0MDY0NSwxMzUxNjk1NDE5LC0xMTQ3
-MDA2MjQ5LDIwNjI5MTQ1NDQsLTEwNzU1OTA2MjAsLTE0MzkwNT
-QzNjMsLTY1NTc1MDY3NCwxMjU5NjA0MDYzLDExOTEwNjEzNTgs
-LTE5OTA4NDk3NzBdfQ==
+eyJoaXN0b3J5IjpbLTgzNTM3MDU1NywtNjcyNTM5NTc5LC0xMT
+k1MTQwNjY2LC0xODk2ODgzMzU1LC0xNzUzNDA2NzE4LDE3ODYx
+Mjk3MDksNDc1NjM4NDI5LC0xODI5NjcwODYsODYzNTk0MzMxLC
+04OTM5NDA2NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1LDEzNTE2
+OTU0MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMTA3NTU5MD
+YyMCwtMTQzOTA1NDM2MywtNjU1NzUwNjc0LDEyNTk2MDQwNjMs
+MTE5MTA2MTM1OF19
 -->
