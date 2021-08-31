@@ -186,7 +186,7 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 I think the paper has improved significantly. The introduction is more structured now.
 
-I think that a formal 
+I think that a formal definition of the problem could be introduced in the introduction or at the beginning of the related work. Otherwise, Section 2.1 is difficult to understand. The explanation of variable interaction structure shoud be accompanied by an example to  
 
 
 
@@ -295,11 +295,11 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE3MjE4MTYsLTcwNjc0Njc3OCwtMT
-gyMjk5ODM4LDQ3MTIwNjIyOCwtNDc5NzkxMzMwLDE1NTc1OTE5
-MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMTUxNDQ0OTY2Ni
-w5OTMzOTc4NiwtNjEzNjQxNTE5LDE2NDg4MDYyNDUsMTU3MzYz
-NDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0MDg3LDIxMTI1MjE1Mj
-UsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MTcyNzM4NSwtNTQz
-Nzg0ODI1XX0=
+eyJoaXN0b3J5IjpbNjc5Mjk1MTUxLC03MDY3NDY3NzgsLTE4Mj
+I5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3NTkxOTI3
+LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1MTQ0NDk2NjYsOT
+kzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1NzM2MzQ0
+ODIsLTExOTA2NDI4NTksMTExMTUzNDA4NywyMTEyNTIxNTI1LC
+03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3MjczODUsLTU0Mzc4
+NDgyNV19
 -->
