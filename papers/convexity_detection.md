@@ -186,7 +186,7 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 I think the paper has improved significantly. The introduction is more structured now.
 
-I think that a formal definition of the problem should be introduced in the introduction or at the beginning of the related work. Objective function, variables and variable domains
+I think that a formal definition of the problem should be introduced in the introduction or at the beginning of the related work. At least, objective function, variables and variable domains should be defined.
 
 Some simple concepts, like Variable interaction, should be explained more clearly. It was very difficult for me to understand such a simple concept. Maybe you can start with: "We say that two variables interacts when...".
 
@@ -299,11 +299,11 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Mzc2NDI3MCwxNzczMzI5MDMwLC03MD
-Y3NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMz
-MCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLT
-E1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2
-MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4Ny
-wyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3
-MjczODVdfQ==
+eyJoaXN0b3J5IjpbMzIxOTgyMDQ3LDE3NzMzMjkwMzAsLTcwNj
+c0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOCwtNDc5NzkxMzMw
+LDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMT
+UxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2NDg4MDYy
+NDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0MDg3LD
+IxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MTcy
+NzM4NV19
 -->
