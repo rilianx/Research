@@ -185,7 +185,8 @@ If an acronym is used in the abstract, it must be defined again the first time i
 ---
 
 I think the paper has improved significantly. The introduction is more structured now.
-However I think that english 
+
+I think that a formal 
 
 
 
@@ -294,11 +295,11 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzA0MDA0MiwtNzA2NzQ2Nzc4LC0xOD
-IyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1NzU5MTky
-NywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC0xNTE0NDQ5NjY2LD
-k5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgwNjI0NSwxNTczNjM0
-NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwODcsMjExMjUyMTUyNS
-wtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUxNzI3Mzg1LC01NDM3
-ODQ4MjVdfQ==
+eyJoaXN0b3J5IjpbLTE2ODE3MjE4MTYsLTcwNjc0Njc3OCwtMT
+gyMjk5ODM4LDQ3MTIwNjIyOCwtNDc5NzkxMzMwLDE1NTc1OTE5
+MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMTUxNDQ0OTY2Ni
+w5OTMzOTc4NiwtNjEzNjQxNTE5LDE2NDg4MDYyNDUsMTU3MzYz
+NDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0MDg3LDIxMTI1MjE1Mj
+UsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MTcyNzM4NSwtNTQz
+Nzg0ODI1XX0=
 -->
