@@ -190,9 +190,9 @@ I think that a formal definition of the problem should be introduced in the intr
 
 Some simple concepts, like Variable interaction, should be explained more clearly. It was very difficult for me to understand such a simple concept. Maybe you can start with: "We say that two variables interacts when...".
 What is the idea behind differential grouping? I think it should be explained briefly in the Section 2.2 or in the Introduction.
-What is the essence of your proposal? I think that a summary should be presented at the beginning of Section 3. Otherwise the paper is 
+What is the essence of your proposal? I think that a summary should be presented at the beginning of Section 3. Otherwise the paper is difficutl to follow.
 
-Figures, in general, should be explained in more detail. 
+
 
 
 
@@ -301,7 +301,7 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNTg5MDYxLDE3NzMzMjkwMzAsLTcwNj
+eyJoaXN0b3J5IjpbNzg0ODkyMTkyLDE3NzMzMjkwMzAsLTcwNj
 c0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOCwtNDc5NzkxMzMw
 LDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMT
 UxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2NDg4MDYy
