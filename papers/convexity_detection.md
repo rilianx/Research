@@ -189,6 +189,7 @@ I think the paper has improved significantly. The introduction is more structure
 I think that a formal definition of the problem should be introduced in the introduction or at the beginning of the related work. At least, objective function, variables and variable domains should be defined.
 
 Some simple concepts, like Variable interaction, should be explained more clearly. It was very difficult for me to understand such a simple concept. Maybe you can start with: "We say that two variables interacts when...".
+What is the idea of differential grouping? It should be axplained in the Section 2.2 or in the Introduction.
 
 Figures, in general, should be explained in more detail. 
 
@@ -299,11 +300,11 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxOTgyMDQ3LDE3NzMzMjkwMzAsLTcwNj
-c0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOCwtNDc5NzkxMzMw
-LDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMT
-UxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2NDg4MDYy
-NDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwxMTExNTM0MDg3LD
-IxMTI1MjE1MjUsLTcxNjk3MzQ0NywtMTAyMTM0MTQsMTk1MTcy
-NzM4NV19
+eyJoaXN0b3J5IjpbLTIxNDcwNDE2MzYsMTc3MzMyOTAzMCwtNz
+A2NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEz
+MzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC
+0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgw
+NjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwOD
+csMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUx
+NzI3Mzg1XX0=
 -->
