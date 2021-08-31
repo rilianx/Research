@@ -182,6 +182,7 @@ The paper lacks a background section which explains clearly the problem and the 
 
 If an acronym is used in the abstract, it must be defined again the first time it is used in the body of the paper.
 
+
 ## [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf)
 
 We propose a simple **data augmentation technique** that can be applied to standard **model-free reinforcement learning algorithms**.
@@ -287,11 +288,11 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjc0Njc3OCwtMTgyMjk5ODM4LDQ3MT
-IwNjIyOCwtNDc5NzkxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQy
-MCwtMTQyMzQ2NDUyMiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNj
-EzNjQxNTE5LDE2NDg4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0
-Mjg1OSwxMTExNTM0MDg3LDIxMTI1MjE1MjUsLTcxNjk3MzQ0Ny
-wtMTAyMTM0MTQsMTk1MTcyNzM4NSwtNTQzNzg0ODI1LC0xNjg0
-MTcwODQ0XX0=
+eyJoaXN0b3J5IjpbLTEzMjYzOTM0MCwtNzA2NzQ2Nzc4LC0xOD
+IyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1NzU5MTky
+NywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC0xNTE0NDQ5NjY2LD
+k5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgwNjI0NSwxNTczNjM0
+NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwODcsMjExMjUyMTUyNS
+wtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUxNzI3Mzg1LC01NDM3
+ODQ4MjVdfQ==
 -->
