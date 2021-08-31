@@ -182,6 +182,12 @@ The paper lacks a background section which explains clearly the problem and the 
 
 If an acronym is used in the abstract, it must be defined again the first time it is used in the body of the paper.
 
+---
+
+I think the paper has improved significantly. The introduction is more structured now.
+However I think that english 
+
+
 
 ## [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf)
 
@@ -288,7 +294,7 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjYzOTM0MCwtNzA2NzQ2Nzc4LC0xOD
+eyJoaXN0b3J5IjpbLTc2NzA0MDA0MiwtNzA2NzQ2Nzc4LC0xOD
 IyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1NzU5MTky
 NywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC0xNTE0NDQ5NjY2LD
 k5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgwNjI0NSwxNTczNjM0
