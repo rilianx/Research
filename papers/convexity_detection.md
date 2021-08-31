@@ -186,13 +186,13 @@ If an acronym is used in the abstract, it must be defined again the first time i
 
 I think the paper has improved significantly. The introduction is more structured now.
 
-I think that a formal definition of the problem should be introduced in the introduction or at the beginning of the related work. At least, objective function, variables and variable domains should be defined.
+I think that a formal definition of the problem should be given in the introduction or at the beginning of the related work. At least, objective function, variables and variable domains should be properly defined.
 
 Some simple concepts, like Variable interaction, should be explained more clearly. It was very difficult for me to understand such a simple concept. Maybe you can start with: "We say that two variables interacts when...".
 What is the idea behind differential grouping? I think it should be explained briefly in the Section 2.2 or in the Introduction.
 What is the essence of your proposal? I think that a summary should be presented at the beginning of Section 3. Otherwise the paper is difficult to follow.
 
-Try to start explanations showing a general picture of the problem or method, then explain the details.
+Try to start explanations showing a general picture of the problem or method, then focus on the details.
 
 English was improved, but I think that proofreading is still required.
 
@@ -303,11 +303,11 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc3MDczNywxNzczMzI5MDMwLC03MD
-Y3NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMz
-MCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLT
-E1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2
-MjQ1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4Ny
-wyMTEyNTIxNTI1LC03MTY5NzM0NDcsLTEwMjEzNDE0LDE5NTE3
-MjczODVdfQ==
+eyJoaXN0b3J5IjpbLTE5NDUzNzUyNDYsMTc3MzMyOTAzMCwtNz
+A2NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEz
+MzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC
+0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgw
+NjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwOD
+csMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUx
+NzI3Mzg1XX0=
 -->
