@@ -3,8 +3,10 @@ CLP Practical Constraints (continuación).
 
 
 **TODO**
-- Terminar algoritmo de agrupamiento de cajas
-- Planificar el resto con fechas
+- Terminar algoritmo de agrupamiento de cajas :ok:
+
+
+---
 
 **Modificaciones a clase block**
 Clase **Block** tiene lista `AABBList* boxes` conteniendo todas las cajas (objetos AABB) y sus ubicaciones dentro del contenedor.
@@ -366,11 +368,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwOTc5NTg1LDEyOTYwMjMyMTAsLTIwOD
-UzNDY3OCwtMTk3NzUzMDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0
-NDk0LDE2MDEwOTMxMjUsMTI4NjYxNTczNSwtMjAyNzI1MTk1My
-wtNjI5NDkzMjQsLTE0MTc3MDAxODAsMTQxNzE2ODkyLC03MDcy
-OTQ1NjIsLTEwNzIyNjIxNDIsODMxNzkyNTkyLC0xNzg3Mjg3Nz
-UwLDE2MzQyMDQ5MzAsMTU1NzM0ODUwMiwtMjEwNjcwMzM5Miw2
-MTAzNzI0NTFdfQ==
+eyJoaXN0b3J5IjpbLTQzMDM3MjExNiwzMTA5Nzk1ODUsMTI5Nj
+AyMzIxMCwtMjA4NTM0Njc4LC0xOTc3NTMwNDA4LDE1MzgzMTMx
+NjYsLTE5MTA0MTQ0OTQsMTYwMTA5MzEyNSwxMjg2NjE1NzM1LC
+0yMDI3MjUxOTUzLC02Mjk0OTMyNCwtMTQxNzcwMDE4MCwxNDE3
+MTY4OTIsLTcwNzI5NDU2MiwtMTA3MjI2MjE0Miw4MzE3OTI1OT
+IsLTE3ODcyODc3NTAsMTYzNDIwNDkzMCwxNTU3MzQ4NTAyLC0y
+MTA2NzAzMzkyXX0=
 -->
