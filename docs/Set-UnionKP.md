@@ -1,6 +1,7 @@
 ### TODO
 
-- Generar tabla de resultados con varias instancias
+- Para cada configuración calcular promedio de promedios finales.
+
 - ==Implementar Simulated Annealing==
 ![image](https://i.imgur.com/5n6Jx02.png)
 
@@ -151,11 +152,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMT
-c3MjYwODI1NywxNTgyNTg2MzM4LC0xNjIwMjUxNSwtNjYyMDg2
-NDU4LC0zNTMxNzc5OTUsMTc5NzkwNzcyMCw4NDEzMDMyMzgsOD
-YxMjk2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLTE4MjU0
-NDM1NjgsLTE4MjU0NDM1NjgsMTM1NjgyODU2MCwxNTMzNTYxOD
-U5LC00NjI1MDA1NjUsLTgwMzE4MjI1MywtMTQzMjI4NDA5NSw0
-MjI0Nzc3ODZdfQ==
+eyJoaXN0b3J5IjpbMzcyNjUxNDUyLC05MTUyNDcwNDMsLTIwNT
+cxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMTYyMDI1
+MTUsLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsOD
+QxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1
+MjA1LC0xODI1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1Nj
+AsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0
+MzIyODQwOTVdfQ==
 -->
