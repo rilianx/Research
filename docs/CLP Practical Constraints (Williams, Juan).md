@@ -5,7 +5,8 @@ CLP Practical Constraints (continuación).
 **TODO**
 - Terminar algoritmo de agrupamiento de cajas :ok:
 - Ángulo de volcamiento
-	- E
+	- centro_de_masa en clase block
+	- calcular ángulo al evaluar bloques
 - Orden de clientes
 
 
@@ -371,7 +372,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODg3Njk4NzIsMzQ0Nzc0NTI2LC00Mz
+eyJoaXN0b3J5IjpbLTE1NTkyNjM0NzUsMzQ0Nzc0NTI2LC00Mz
 AzNzIxMTYsMzEwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUzNDY3
 OCwtMTk3NzUzMDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0NDk0LD
 E2MDEwOTMxMjUsMTI4NjYxNTczNSwtMjAyNzI1MTk1MywtNjI5
