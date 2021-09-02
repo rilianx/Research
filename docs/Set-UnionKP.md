@@ -2,7 +2,6 @@
 
 - Mejor configuración promedio: 5%, 1 pert
 - Marcar mejores resultados promedio y analizar mejores configuraciones usando filtros.
-
 - ==Implementar Simulated Annealing==
 ![image](https://i.imgur.com/5n6Jx02.png)
 
@@ -153,11 +152,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNT
-I0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1NywxNTgyNTg2
-MzM4LC0xNjIwMjUxNSwtNjYyMDg2NDU4LC0zNTMxNzc5OTUsMT
-c5NzkwNzcyMCw4NDEzMDMyMzgsODYxMjk2MTE4LC02MDM4NDIz
-NTAsLTEzNzE2NzUyMDUsLTE4MjU0NDM1NjgsLTE4MjU0NDM1Nj
-gsMTM1NjgyODU2MCwxNTMzNTYxODU5LC00NjI1MDA1NjUsLTgw
-MzE4MjI1M119
+eyJoaXN0b3J5IjpbMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
+UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
+NTcsMTU4MjU4NjMzOCwtMTYyMDI1MTUsLTY2MjA4NjQ1OCwtMz
+UzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjEx
+OCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC
+0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYy
+NTAwNTY1XX0=
 -->
