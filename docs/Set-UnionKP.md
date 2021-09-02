@@ -1,6 +1,6 @@
 ### TODO
 
-- Para cada configuración calcular promedio de promedios finales.
+- Mejor configuración promedio: 5%, 1 pert
 
 - ==Implementar Simulated Annealing==
 ![image](https://i.imgur.com/5n6Jx02.png)
@@ -152,11 +152,11 @@ Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyNjUxNDUyLC05MTUyNDcwNDMsLTIwNT
-cxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMTYyMDI1
-MTUsLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsOD
-QxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1
-MjA1LC0xODI1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1Nj
-AsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04MDMxODIyNTMsLTE0
-MzIyODQwOTVdfQ==
+eyJoaXN0b3J5IjpbLTEyNDk0NjM1NDQsMzcyNjUxNDUyLC05MT
+UyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4
+NjMzOCwtMTYyMDI1MTUsLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LD
+E3OTc5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQy
+MzUwLC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC0xODI1NDQzNT
+Y4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYyNTAwNTY1LC04
+MDMxODIyNTNdfQ==
 -->
