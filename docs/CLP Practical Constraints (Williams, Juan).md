@@ -5,6 +5,7 @@ CLP Practical Constraints (continuación).
 **TODO**
 - Terminar algoritmo de agrupamiento de cajas :ok:
 - Ángulo de volcamiento
+	- E
 - Orden de clientes
 
 
@@ -370,11 +371,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0Nzc0NTI2LC00MzAzNzIxMTYsMzEwOT
-c5NTg1LDEyOTYwMjMyMTAsLTIwODUzNDY3OCwtMTk3NzUzMDQw
-OCwxNTM4MzEzMTY2LC0xOTEwNDE0NDk0LDE2MDEwOTMxMjUsMT
-I4NjYxNTczNSwtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0MTc3
-MDAxODAsMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEwNzIyNjIxND
-IsODMxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2MzQyMDQ5MzAsMTU1
-NzM0ODUwMl19
+eyJoaXN0b3J5IjpbLTEzODg3Njk4NzIsMzQ0Nzc0NTI2LC00Mz
+AzNzIxMTYsMzEwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUzNDY3
+OCwtMTk3NzUzMDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0NDk0LD
+E2MDEwOTMxMjUsMTI4NjYxNTczNSwtMjAyNzI1MTk1MywtNjI5
+NDkzMjQsLTE0MTc3MDAxODAsMTQxNzE2ODkyLC03MDcyOTQ1Nj
+IsLTEwNzIyNjIxNDIsODMxNzkyNTkyLC0xNzg3Mjg3NzUwLDE2
+MzQyMDQ5MzBdfQ==
 -->
