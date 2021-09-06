@@ -15,7 +15,7 @@
 	- Usar atributos normales, +director-likeness, +emotion, +both
 
 
-###  C. Movie FingerPrint
+###  Collaborative.Window
 
 **TODO**
 - Recolección de datos :ok:
@@ -53,7 +53,7 @@ Para validar el modelo, habría que ver que tanto acierta en películas que los 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjgwMTA3OSwxNDc3MDMwNjIsMTY3MD
+eyJoaXN0b3J5IjpbMTUyNTI5NTk0OSwxNDc3MDMwNjIsMTY3MD
 I2MzY0OCwxMzMyODM2OSwtNjcyNTM5NTc5LC0xMTk1MTQwNjY2
 LC0xODk2ODgzMzU1LC0xNzUzNDA2NzE4LDE3ODYxMjk3MDksND
 c1NjM4NDI5LC0xODI5NjcwODYsODYzNTk0MzMxLC04OTM5NDA2
