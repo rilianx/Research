@@ -313,12 +313,18 @@ The algorithm is transformed as follows:
 
 We update the coefficient C based on how big or small the KL divergence is. If KL is too high, we increase it, or if it is too low, we decrease it.
 
+The authors found a way to improve this penalized version into a new, more robust objective function.
+
+![image](https://i.imgur.com/eBQdBzO.png)
+
+Using this ratio, we can construct a new objective function to **clip the estimated advantage if the new policy is far away from the old one**.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwtMT
-k0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3NzgsLTE4MjI5
-OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC
-0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1MTQ0NDk2NjYsOTkz
-Mzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1NzM2MzQ0OD
-IsLTExOTA2NDI4NTksMTExMTUzNDA4NywyMTEyNTIxNTI1LC03
-MTY5NzM0NDddfQ==
+eyJoaXN0b3J5IjpbLTEzMjgyOTI2MjIsMTk3OTYxMzkxMywtMT
+YzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3
+NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMC
+wxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1
+MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2Mj
+Q1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4Nywy
+MTEyNTIxNTI1XX0=
 -->
