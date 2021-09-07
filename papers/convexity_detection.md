@@ -319,8 +319,27 @@ The authors found a way to improve this penalized version into a new, more robus
 
 Using this ratio, we can construct a new objective function to **clip the estimated advantage if the new policy is far away from the old one**.
 
+[Hiperparámetos PPO](https://medium.com/aureliantactics/ppo-hyperparameters-and-ranges-6fc2d29bccbe)
+
+### Gamma
+
+Typically, gamma is viewed as part of the  _problem_, not of the  _algorithm_. A reinforcement learning algorithm tries for each state to optimise the cumulative discounted reward:
+
+`r1 + gamma*r2 + gamma^2*r3 + gamma^3*r4 ...`
+
+where  `rn`  is the reward received at time step  `n`  from the current state. So, for one choice of gamma the algorithm may optimise one thing, and for another choice it will optimise something else.
+
+However, when you have defined a certain high-level goal, there still often remains a modelling choice, as many different gamma's might satisfy the requirements of the goal. For instance, in the cart pole the goal is to balance the pole indefinitely. If you give a reward of +1 for every step that it is balanced, the same policies (the ones that always balances the pole) are optimal for all gamma > 0. However, the ranking of suboptimal policies - that determine the learning properties towards this goal - will be different for different values of gamma.
+
+In general, most algorithms learn faster when they don't have to look too far into the future. So, it sometimes helps the performance to set gamma relatively low. A general rule of thumb might be: determine the lowest gamma  `min_gamma`  that still satisfies your high-level goal, and then set the gamma to  `gamma = (min_gamma + 1)/2`. (You don't want to use  `gamma = min_gamma`  itself, since then some suboptimal goal will be deemed virtually as good as the desired goal.) Another useful rule of thumb: for many problems a gamma of 0.9 or 0.95 is fine. However, always think about what such a gamma means for the goal you are optimising when combined with your reward function.
+
+### Lambda
+
+The lambda parameter determines how much you bootstrap on earlier learned value versus using the current Monte Carlo roll-out. This implies a trade-off between more bias (low lambda) and more variance (high lambda). In many cases, setting lambda equal to zero is already a fine algorithm, but setting lambda somewhat higher helps speed up things. Here, you do not have to worry about what you are optimising: the goal is unrelated to lambda and this parameter only helps to speed up learning. In other words, lambda is completely part of the  _algorithm_  and not of the  _problem_.
+
+A general rule of thumb is to use a lambda equal to 0.9. However, it might be good just to try a few settings (e.g., 0, 0.5, 0.8, 0.9, 0.95 and 1.0) and plot the learning curves. Then, you can pick whichever seems to be learning the fastest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgyOTI2MjIsMTk3OTYxMzkxMywtMT
+eyJoaXN0b3J5IjpbLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMT
 YzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3
 NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMC
 wxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1
