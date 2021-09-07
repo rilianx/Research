@@ -302,11 +302,19 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
+![image](https://i.imgur.com/vwrbVpE.png)
 
+The algorithm is transformed as follows:
 
+-   We run a set of trajectories and collect the policies
+-   Estimate the advantages using an advantage estimation algorithm
+-   Perform stochastic gradient descent on the objective function for a certain number of epochs
+-   Repeat
+
+We update the coefficient C based on how big or small the KL divergence is. If KL is too high, we increase it, or if it is too low, we decrease it.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzM0NTc4OCwtMTYzNjI3ODg5MCwtMT
+eyJoaXN0b3J5IjpbMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwtMT
 k0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3NzgsLTE4MjI5
 OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC
 0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1MTQ0NDk2NjYsOTkz
