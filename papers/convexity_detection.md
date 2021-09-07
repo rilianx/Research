@@ -302,12 +302,16 @@ Although TRPO is a very powerful algorithm, it suffers from a significant proble
 
 So instead of adding a constraint separately, we incorporate it inside the objective function as a penalty
 
+
+### Conjugate Gradient Method
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDUzNzUyNDYsMTc3MzMyOTAzMCwtNz
-A2NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEz
-MzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC
-0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1MTksMTY0ODgw
-NjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LDExMTE1MzQwOD
-csMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0xMDIxMzQxNCwxOTUx
-NzI3Mzg1XX0=
+eyJoaXN0b3J5IjpbLTE2MzYyNzg4OTAsLTE5NDUzNzUyNDYsMT
+c3MzMyOTAzMCwtNzA2NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2
+MjI4LC00Nzk3OTEzMzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC
+0xNDIzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2
+NDE1MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyOD
+U5LDExMTE1MzQwODcsMjExMjUyMTUyNSwtNzE2OTczNDQ3LC0x
+MDIxMzQxNF19
 -->
