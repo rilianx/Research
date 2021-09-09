@@ -151,12 +151,18 @@ Para entrenar el asunto, se puede correr el algoritmo 100 veces con cada diferen
 Información del estado s + f(sol_i)  -->  100-i%
 Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución mejor a sol_i.
 
+----
+
+
+$ alpha^{max\_iter} = pow(t_{fin}/t_{ini},1/max\_iter}$
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
-UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
-NTcsMTU4MjU4NjMzOCwtMTYyMDI1MTUsLTY2MjA4NjQ1OCwtMz
-UzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjEx
-OCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC0xODI1NDQzNTY4LC
-0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUzMzU2MTg1OSwtNDYy
-NTAwNTY1XX0=
+eyJoaXN0b3J5IjpbLTEyOTg4MzExMDUsMzc5OTI3NzMxLC01MD
+k3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUx
+MTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMTYyMDI1MTUsLT
+Y2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAz
+MjM4LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC
+0xODI1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUz
+MzU2MTg1OV19
 -->
