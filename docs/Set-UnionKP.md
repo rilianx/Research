@@ -1,10 +1,9 @@
 ### TODO
 
-- Mejor configuración promedio: 5%, 1 pert
+- Mejor configuración promedio: 5%, 1/2 pert
 - Marcar mejores resultados promedio y analizar mejores configuraciones usando filtros.
-- ==Implementar Simulated Annealing==
-![image](https://i.imgur.com/5n6Jx02.png)
-
+- Probar ==Simulated Annealing== (100.000)
+- ¿Cuántas iteraciones realizan en paper'
 
 **Experimentos**
 
@@ -158,11 +157,11 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5Nz
-I5MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5
-LC0xNzcyNjA4MjU3LDE1ODI1ODYzMzgsLTE2MjAyNTE1LC02Nj
-IwODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIz
-OCw4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMT
-gyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2ODI4NTYwLDE1MzM1
-NjE4NTldfQ==
+eyJoaXN0b3J5IjpbLTE4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OT
+kyNzczMSwtNTA5NzI5MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQz
+LC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3LDE1ODI1ODYzMzgsLT
+E2MjAyNTE1LC02NjIwODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3
+NzIwLDg0MTMwMzIzOCw4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMT
+M3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2
+ODI4NTYwXX0=
 -->
