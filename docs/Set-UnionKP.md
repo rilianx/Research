@@ -154,15 +154,15 @@ Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución
 ----
 
 
-$ alpha^{max\_iter} = pow(t_{fin}/t_{ini},1/max\_iter}$
+$ alpha = pow(t_{fin}/t_{ini},1/max\_iter)$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg4MzExMDUsMzc5OTI3NzMxLC01MD
-k3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUx
-MTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMTYyMDI1MTUsLT
-Y2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAz
-MjM4LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1MjA1LC
-0xODI1NDQzNTY4LC0xODI1NDQzNTY4LDEzNTY4Mjg1NjAsMTUz
-MzU2MTg1OV19
+eyJoaXN0b3J5IjpbLTY3Nzk1MjAzOCwzNzk5Mjc3MzEsLTUwOT
+cyOTIxMSwzNzI2NTE0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTEx
+OSwtMTc3MjYwODI1NywxNTgyNTg2MzM4LC0xNjIwMjUxNSwtNj
+YyMDg2NDU4LC0zNTMxNzc5OTUsMTc5NzkwNzcyMCw4NDEzMDMy
+MzgsODYxMjk2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLT
+E4MjU0NDM1NjgsLTE4MjU0NDM1NjgsMTM1NjgyODU2MCwxNTMz
+NTYxODU5XX0=
 -->
