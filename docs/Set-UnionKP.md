@@ -3,7 +3,7 @@
 - Mejor configuración promedio: 5%, 1/2 pert
 - Marcar mejores resultados promedio y analizar mejores configuraciones usando filtros.
 - Probar ==Simulated Annealing== (100.000)
-- ¿Cuántas iteraciones realizan en paper'
+- ¿Cuántas iteraciones realizan en paper? --> 500s
 
 **Experimentos**
 
@@ -157,11 +157,11 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OT
-kyNzczMSwtNTA5NzI5MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQz
-LC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3LDE1ODI1ODYzMzgsLT
-E2MjAyNTE1LC02NjIwODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3
-NzIwLDg0MTMwMzIzOCw4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMT
-M3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMTgyNTQ0MzU2OCwxMzU2
-ODI4NTYwXX0=
+eyJoaXN0b3J5IjpbLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYsNT
+IyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExLDM3MjY1MTQ1
+MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3LD
+E1ODI1ODYzMzgsLTE2MjAyNTE1LC02NjIwODY0NTgsLTM1MzE3
+Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIzOCw4NjEyOTYxMTgsLT
+YwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMTgy
+NTQ0MzU2OF19
 -->
