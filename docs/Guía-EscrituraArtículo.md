@@ -5,6 +5,7 @@
 
 [Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
 [paper (drive)](https://docs.google.com/document/d/18yYwocuxqfC1oZmKnqSBSCcSGXyDairlFC80RaVGtWw/edit)
+[github](https://github.com/LucianoSm20/SistemaRecomencion/tree/RamaA/Jupyter)
 
 **TODO**
 
@@ -53,11 +54,11 @@ Para validar el modelo, habría que ver que tanto acierta en películas que los 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTI5NTk0OSwxNDc3MDMwNjIsMTY3MD
-I2MzY0OCwxMzMyODM2OSwtNjcyNTM5NTc5LC0xMTk1MTQwNjY2
-LC0xODk2ODgzMzU1LC0xNzUzNDA2NzE4LDE3ODYxMjk3MDksND
-c1NjM4NDI5LC0xODI5NjcwODYsODYzNTk0MzMxLC04OTM5NDA2
-NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1LDEzNTE2OTU0MTksLT
-ExNDcwMDYyNDksMjA2MjkxNDU0NCwtMTA3NTU5MDYyMCwtMTQz
-OTA1NDM2M119
+eyJoaXN0b3J5IjpbLTExMDAwNDExMzksMTUyNTI5NTk0OSwxND
+c3MDMwNjIsMTY3MDI2MzY0OCwxMzMyODM2OSwtNjcyNTM5NTc5
+LC0xMTk1MTQwNjY2LC0xODk2ODgzMzU1LC0xNzUzNDA2NzE4LD
+E3ODYxMjk3MDksNDc1NjM4NDI5LC0xODI5NjcwODYsODYzNTk0
+MzMxLC04OTM5NDA2NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1LD
+EzNTE2OTU0MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMTA3
+NTU5MDYyMF19
 -->
