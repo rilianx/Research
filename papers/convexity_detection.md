@@ -3,6 +3,7 @@
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - [Training robust neural networks using  **Lipschitz bounds**](https://ieeexplore.ieee.org/abstract/document/9319198/)
+- Semidefinite Programming
 - [Rainbow (Deep reinforcement learning with double q-learning)](https://ojs.aaai.org/index.php/AAAI/article/download/10295/10154)
 
 ### [NEAT and Neuroevolution](https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f)
@@ -339,13 +340,16 @@ A general rule of thumb is to use a lambda equal to 0.9. However, it might be go
 La idea del paper es hacer una red que minimice Loss y su constante Lipschitz. Es decir el menor valor L que satisface para cualquier par de inputs x,y:
 ![image](https://i.imgur.com/YkvStWa.png)
 
+Llegan a esta propiedad:
+!{iamage]
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMD
-Y1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3
-ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3Nz
-gsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3
-NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1MTQ0ND
-k2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1
-NzM2MzQ0ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDY0MDA5NDIsLTc0MTQwODEyNiwxND
+g5MjcyMjM5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYx
+MzkxMywtMTYzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MD
+MwLC03MDY3NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3
+OTc5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0Nj
+Q1MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwx
+NjQ4ODA2MjQ1XX0=
 -->
