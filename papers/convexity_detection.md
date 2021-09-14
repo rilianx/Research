@@ -1,6 +1,5 @@
 ## TODO
 
-- Terminar de entender [PPO](https://theaisummer.com/TRPO_PPO/)
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Reinforcement learning with decision trees?
@@ -339,11 +338,11 @@ The lambda parameter determines how much you bootstrap on earlier learned value 
 
 A general rule of thumb is to use a lambda equal to 0.9. However, it might be good just to try a few settings (e.g., 0, 0.5, 0.8, 0.9, 0.95 and 1.0) and plot the learning curves. Then, you can pick whichever seems to be learning the fastest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMT
-YzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3
-NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMC
-wxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1
-MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2Mj
-Q1LDE1NzM2MzQ0ODIsLTExOTA2NDI4NTksMTExMTUzNDA4Nywy
-MTEyNTIxNTI1XX0=
+eyJoaXN0b3J5IjpbMTU1MjE5ODIyLC0xMDYyNzE2Mzg4LDE5Nz
+k2MTM5MTMsLTE2MzYyNzg4OTAsLTE5NDUzNzUyNDYsMTc3MzMy
+OTAzMCwtNzA2NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2MjI4LC
+00Nzk3OTEzMzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIz
+NDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nzg2LC02MTM2NDE1MT
+ksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0xMTkwNjQyODU5LDEx
+MTE1MzQwODddfQ==
 -->
