@@ -343,14 +343,17 @@ La idea del paper es hacer una red que minimice Loss y su constante Lipschitz. E
 Llegan a esta propiedad:
 ![image](https://i.imgur.com/iQwHJfm.png)
 Donde $l$ son las capas de la red y $W$ los peso obviamente.
-Entonces imagino que hay que buscar un $L$ tal que la expresión es $\preceq 0$
+Entonces hay que resolver este problemilla para encontrar un upperbound $L$.
+![image](https://i.imgur.com/EAX0CEf.png)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg4NjkwNDksLTc0MTQwODEyNiwxND
-g5MjcyMjM5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYx
-MzkxMywtMTYzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MD
-MwLC03MDY3NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3
-OTc5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0Nj
-Q1MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwx
-NjQ4ODA2MjQ1XX0=
+eyJoaXN0b3J5IjpbMTA5MTYxNDU4OCwtNzQxNDA4MTI2LDE0OD
+kyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOTc5NjEz
+OTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2LDE3NzMzMjkwMz
+AsLTcwNjc0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOCwtNDc5
+NzkxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2ND
+UyMiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2
+NDg4MDYyNDVdfQ==
 -->
