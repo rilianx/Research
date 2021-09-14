@@ -4,6 +4,7 @@
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Interval based NN, dependence problem?
 - Neural Networks frames-oriented? Finding data in frames? (example: objects, acceleration)
+- 
 - Semidefinite Programming
 - [Rainbow (Deep reinforcement learning with double q-learning)](https://ojs.aaai.org/index.php/AAAI/article/download/10295/10154)
 
@@ -350,11 +351,11 @@ Entonces hay que resolver este problemilla para encontrar un upperbound $L$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nz
-c4NjQ5OSwxMDkxNjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIz
-OSwyMTA2NTc3NDI4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLT
-E2MzYyNzg4OTAsLTE5NDUzNzUyNDYsMTc3MzMyOTAzMCwtNzA2
-NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEzMz
-AsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC0x
-NTE0NDQ5NjY2XX0=
+eyJoaXN0b3J5IjpbLTc1NTk5NTQ2NSwxNzM3NTEwNDE4LDEyND
+k5NzA5NzcsODQ3Nzg2NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEy
+NiwxNDg5MjcyMjM5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMT
+k3OTYxMzkxMywtMTYzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzcz
+MzI5MDMwLC03MDY3NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMj
+gsLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0
+MjM0NjQ1MjJdfQ==
 -->
