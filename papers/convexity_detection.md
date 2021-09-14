@@ -3,6 +3,7 @@
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Interval based NN, dependence problem?
+- Neural Networks frames-oriented? Finding data in frames? (example: objects, acceleration)
 - Semidefinite Programming
 - [Rainbow (Deep reinforcement learning with double q-learning)](https://ojs.aaai.org/index.php/AAAI/article/download/10295/10154)
 
@@ -349,11 +350,11 @@ Entonces hay que resolver este problemilla para encontrar un upperbound $L$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MT
-YxNDU4OCwtNzQxNDA4MTI2LDE0ODkyNzIyMzksMjEwNjU3NzQy
-OCwtMTA2MjcxNjM4OCwxOTc5NjEzOTEzLC0xNjM2Mjc4ODkwLC
-0xOTQ1Mzc1MjQ2LDE3NzMzMjkwMzAsLTcwNjc0Njc3OCwtMTgy
-Mjk5ODM4LDQ3MTIwNjIyOCwtNDc5NzkxMzMwLDE1NTc1OTE5Mj
-csLTE3NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMTUxNDQ0OTY2Niw5
-OTMzOTc4Nl19
+eyJoaXN0b3J5IjpbMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nz
+c4NjQ5OSwxMDkxNjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIz
+OSwyMTA2NTc3NDI4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLT
+E2MzYyNzg4OTAsLTE5NDUzNzUyNDYsMTc3MzMyOTAzMCwtNzA2
+NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEzMz
+AsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0xNDIzNDY0NTIyLC0x
+NTE0NDQ5NjY2XX0=
 -->
