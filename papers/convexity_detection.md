@@ -338,8 +338,10 @@ A general rule of thumb is to use a lambda equal to 0.9. However, it might be go
 
 La idea del paper es hacer una red que minimice Loss y su constante Lipschitz. Es decir el menor valor L que satisface para cualquier par de inputs x,y:
 ![image](https://i.imgur.com/YkvStWa.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjIwNzQ1MCwxNDg5MjcyMjM5LDIxMD
+eyJoaXN0b3J5IjpbLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMD
 Y1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3
 ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3Nz
 gsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3
