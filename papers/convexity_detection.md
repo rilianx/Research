@@ -335,7 +335,7 @@ The lambda parameter determines how much you bootstrap on earlier learned value 
 A general rule of thumb is to use a lambda equal to 0.9. However, it might be good just to try a few settings (e.g., 0, 0.5, 0.8, 0.9, 0.95 and 1.0) and plot the learning curves. Then, you can pick whichever seems to be learning the fastest.
 
 
-## Training robust neural networks using Lipschitz bounds
+## [Training robust neural networks using Lipschitz bounds](https://arxiv.org/pdf/2005.02929.pdf)
 
 La idea del paper es hacer una red que minimice Loss y su constante Lipschitz. Es decir el menor valor L que satisface para cualquier par de inputs x,y:
 ![image](https://i.imgur.com/YkvStWa.png)
@@ -349,11 +349,11 @@ Entonces hay que resolver este problemilla para encontrar un upperbound $L$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTYxNDU4OCwtNzQxNDA4MTI2LDE0OD
-kyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOTc5NjEz
-OTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2LDE3NzMzMjkwMz
-AsLTcwNjc0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOCwtNDc5
-NzkxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQyMzQ2ND
-UyMiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNTE5LDE2
-NDg4MDYyNDVdfQ==
+eyJoaXN0b3J5IjpbODQ3Nzg2NDk5LDEwOTE2MTQ1ODgsLTc0MT
+QwODEyNiwxNDg5MjcyMjM5LDIxMDY1Nzc0MjgsLTEwNjI3MTYz
+ODgsMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwtMTk0NTM3NTI0Ni
+wxNzczMzI5MDMwLC03MDY3NDY3NzgsLTE4MjI5OTgzOCw0NzEy
+MDYyMjgsLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC0xNzQ2Nzk0Mj
+AsLTE0MjM0NjQ1MjIsLTE1MTQ0NDk2NjYsOTkzMzk3ODYsLTYx
+MzY0MTUxOV19
 -->
