@@ -2,7 +2,7 @@
 
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
-- Paper: Minima distribution for global optimization (2018)
+
 - [Training robust neural networks using  **Lipschitz bounds**](https://ieeexplore.ieee.org/abstract/document/9319198/)
 - [Rainbow (Deep reinforcement learning with double q-learning)](https://ojs.aaai.org/index.php/AAAI/article/download/10295/10154)
 
@@ -334,11 +334,11 @@ The lambda parameter determines how much you bootstrap on earlier learned value 
 
 A general rule of thumb is to use a lambda equal to 0.9. However, it might be good just to try a few settings (e.g., 0, 0.5, 0.8, 0.9, 0.95 and 1.0) and plot the learning curves. Then, you can pick whichever seems to be learning the fastest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOT
-c5NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2LDE3NzMz
-MjkwMzAsLTcwNjc0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOC
-wtNDc5NzkxMzMwLDE1NTc1OTE5MjcsLTE3NDY3OTQyMCwtMTQy
-MzQ2NDUyMiwtMTUxNDQ0OTY2Niw5OTMzOTc4NiwtNjEzNjQxNT
-E5LDE2NDg4MDYyNDUsMTU3MzYzNDQ4MiwtMTE5MDY0Mjg1OSwx
-MTExNTM0MDg3XX0=
+eyJoaXN0b3J5IjpbLTEwODEwMTAxNDksMjEwNjU3NzQyOCwtMT
+A2MjcxNjM4OCwxOTc5NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1
+Mzc1MjQ2LDE3NzMzMjkwMzAsLTcwNjc0Njc3OCwtMTgyMjk5OD
+M4LDQ3MTIwNjIyOCwtNDc5NzkxMzMwLDE1NTc1OTE5MjcsLTE3
+NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMTUxNDQ0OTY2Niw5OTMzOT
+c4NiwtNjEzNjQxNTE5LDE2NDg4MDYyNDUsMTU3MzYzNDQ4Miwt
+MTE5MDY0Mjg1OV19
 -->
