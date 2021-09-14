@@ -341,11 +341,12 @@ La idea del paper es hacer una red que minimice Loss y su constante Lipschitz. E
 ![image](https://i.imgur.com/YkvStWa.png)
 
 Llegan a esta propiedad:
-!{iamage]
-
+![image](https://i.imgur.com/iQwHJfm.png)
+Donde $l$ son las capas de la red y $W$ los peso obviamente.
+Entonces imagino que hay que buscar un $L$ tal que la expresión es $\preceq 0$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY0MDA5NDIsLTc0MTQwODEyNiwxND
+eyJoaXN0b3J5IjpbLTE4Mjg4NjkwNDksLTc0MTQwODEyNiwxND
 g5MjcyMjM5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYx
 MzkxMywtMTYzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MD
 MwLC03MDY3NDY3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3
