@@ -2,7 +2,6 @@
 
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
-
 - [Training robust neural networks using  **Lipschitz bounds**](https://ieeexplore.ieee.org/abstract/document/9319198/)
 - [Rainbow (Deep reinforcement learning with double q-learning)](https://ojs.aaai.org/index.php/AAAI/article/download/10295/10154)
 
@@ -333,12 +332,17 @@ In general, most algorithms learn faster when they don't have to look too far in
 The lambda parameter determines how much you bootstrap on earlier learned value versus using the current Monte Carlo roll-out. This implies a trade-off between more bias (low lambda) and more variance (high lambda). In many cases, setting lambda equal to zero is already a fine algorithm, but setting lambda somewhat higher helps speed up things. Here, you do not have to worry about what you are optimising: the goal is unrelated to lambda and this parameter only helps to speed up learning. In other words, lambda is completely part of the  _algorithm_  and not of the  _problem_.
 
 A general rule of thumb is to use a lambda equal to 0.9. However, it might be good just to try a few settings (e.g., 0, 0.5, 0.8, 0.9, 0.95 and 1.0) and plot the learning curves. Then, you can pick whichever seems to be learning the fastest.
+
+
+## Training robust neural networks using Lipschitz bounds
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEwMTAxNDksMjEwNjU3NzQyOCwtMT
-A2MjcxNjM4OCwxOTc5NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1
-Mzc1MjQ2LDE3NzMzMjkwMzAsLTcwNjc0Njc3OCwtMTgyMjk5OD
-M4LDQ3MTIwNjIyOCwtNDc5NzkxMzMwLDE1NTc1OTE5MjcsLTE3
-NDY3OTQyMCwtMTQyMzQ2NDUyMiwtMTUxNDQ0OTY2Niw5OTMzOT
-c4NiwtNjEzNjQxNTE5LDE2NDg4MDYyNDUsMTU3MzYzNDQ4Miwt
-MTE5MDY0Mjg1OV19
+eyJoaXN0b3J5IjpbMTQ4OTI3MjIzOSwyMTA2NTc3NDI4LC0xMD
+YyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYyNzg4OTAsLTE5NDUz
+NzUyNDYsMTc3MzMyOTAzMCwtNzA2NzQ2Nzc4LC0xODIyOTk4Mz
+gsNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1NzU5MTkyNywtMTc0
+Njc5NDIwLC0xNDIzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nz
+g2LC02MTM2NDE1MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0x
+MTkwNjQyODU5XX0=
 -->
