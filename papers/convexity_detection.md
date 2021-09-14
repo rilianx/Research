@@ -336,13 +336,14 @@ A general rule of thumb is to use a lambda equal to 0.9. However, it might be go
 
 ## Training robust neural networks using Lipschitz bounds
 
-
+La idea del paper es hacer una red que 
+![image](https://i.imgur.com/YkvStWa.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTI3MjIzOSwyMTA2NTc3NDI4LC0xMD
-YyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYyNzg4OTAsLTE5NDUz
-NzUyNDYsMTc3MzMyOTAzMCwtNzA2NzQ2Nzc4LC0xODIyOTk4Mz
-gsNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1NzU5MTkyNywtMTc0
-Njc5NDIwLC0xNDIzNDY0NTIyLC0xNTE0NDQ5NjY2LDk5MzM5Nz
-g2LC02MTM2NDE1MTksMTY0ODgwNjI0NSwxNTczNjM0NDgyLC0x
-MTkwNjQyODU5XX0=
+eyJoaXN0b3J5IjpbLTEzMzY5MjgzMiwxNDg5MjcyMjM5LDIxMD
+Y1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3
+ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3Nz
+gsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3
+NTkxOTI3LC0xNzQ2Nzk0MjAsLTE0MjM0NjQ1MjIsLTE1MTQ0ND
+k2NjYsOTkzMzk3ODYsLTYxMzY0MTUxOSwxNjQ4ODA2MjQ1LDE1
+NzM2MzQ0ODJdfQ==
 -->
