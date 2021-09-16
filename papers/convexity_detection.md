@@ -1,5 +1,6 @@
 ## TODO
 
+- A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Interval based NN, dependence problem?
@@ -351,11 +352,11 @@ Entonces hay que resolver este problemilla para encontrar un upperbound $L$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc1NjU3MTEsMTczNzUxMDQxOCwxMj
-Q5OTcwOTc3LDg0Nzc4NjQ5OSwxMDkxNjE0NTg4LC03NDE0MDgx
-MjYsMTQ4OTI3MjIzOSwyMTA2NTc3NDI4LC0xMDYyNzE2Mzg4LD
-E5Nzk2MTM5MTMsLTE2MzYyNzg4OTAsLTE5NDUzNzUyNDYsMTc3
-MzMyOTAzMCwtNzA2NzQ2Nzc4LC0xODIyOTk4MzgsNDcxMjA2Mj
-I4LC00Nzk3OTEzMzAsMTU1NzU5MTkyNywtMTc0Njc5NDIwLC0x
-NDIzNDY0NTIyXX0=
+eyJoaXN0b3J5IjpbLTUxMTY5MDg3NywtMTQwNzU2NTcxMSwxNz
+M3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LDEwOTE2MTQ1
+ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMDY1Nzc0MjgsLT
+EwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwtMTk0
+NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3NzgsLTE4MjI5OT
+gzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC0x
+NzQ2Nzk0MjBdfQ==
 -->
