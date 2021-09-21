@@ -358,6 +358,11 @@ Unlike *offline* packing, we assume that the entire set of objects to be packed 
 
 Simulation results show that the RLbased method **outperforms state-of-the-art online bin packing heuristics** in terms of empirical competitive ratio and volume efficiency.
 
+The claimed contributions of this paper are, 
+(1) a novel heuristic (called WallE) for solving RT-3D-BPP which is shown to outperform existing bin-packing heuristics, 
+(2) a Deep RL methodology (called PackMan) for **online computation of object location and orientation**, combined with
+ (3) a generalised approach that allows the algorithm to work with arbitrary bin sizes, making it more suitable for real world deployment.
+
 
 
 
@@ -365,11 +370,11 @@ Simulation results show that the RLbased method **outperforms state-of-the-art o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODczMTQxNDksLTUxMTY5MDg3NywtMT
-QwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2
-NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LD
-IxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYz
-NjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3ND
-Y3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwx
-NTU3NTkxOTI3XX0=
+eyJoaXN0b3J5IjpbMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNT
+ExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3
+MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MTI2LD
+E0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOTc5
+NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2LDE3NzMzMj
+kwMzAsLTcwNjc0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOCwt
+NDc5NzkxMzMwXX0=
 -->
