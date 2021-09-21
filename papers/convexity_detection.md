@@ -400,6 +400,8 @@ The state is represented by container viewed from top in sequence
 ![image](https://i.imgur.com/JFLh4Fo.png)
 In this paper, we use T = 16 containers each of dimension 45 × 80 placed in a row, resulting in a container state dimension of 45 × 1280.
 
+In order to keep the RL agent independent of the size of the input, we encode the container state into a fixed-size representation x. This representation could be learnt by an autoencoder, or one can directly use pooling functions. In this work, we use **three different pooling functions** to reduce any input size to vectors of size 144 each: (i) average pooling, (ii) max pooling, and (iii) the difference between max pooling and min pooling. The vector x¯ (of size 3×144 = 432) is expected to indicate to the RL agent the average height of the underlying receptive fields, as well as its smoothness.
+
 
 ### References
 *A reinforcement learning framework for container selection and ship load sequencing in ports*. Verma, et al. (2019)
@@ -409,7 +411,7 @@ In this paper, we use T = 16 containers each of dimension 45 × 80 placed in a r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDI4MDQ4NCwtNjI5Njk5ODQ1LC03MD
+eyJoaXN0b3J5IjpbLTc2MDkwNzYyOSwtNjI5Njk5ODQ1LC03MD
 MxMTI0NjksMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQx
 ODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1NjU3MT
 EsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OSwxMDkx
