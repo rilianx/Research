@@ -389,6 +389,7 @@ The structure of (1) includes characteristics of floor building (penalty on heig
 The obvious approach using reinforcement learning for this problem is to train a policy-based method that computes the optimal location and orientation for the next box, given the current state of the container and (optionally) information about other upcoming boxes.
 **However, we consider this option to be infeasible for the problem at hand. First, the number of possible actions in each step is the product of the number of grid cells and the number of orientations, which can easily exceed ten thousand (see results section). Second, each action is based on the current state of the containers and the dimensions of the next box in the sequence. Understanding the geometric implications of these two inputs in order to predict future rewards is a very complex task. The key obstacle to effective learning was the fact that the optimality of a chosen location and orientation varies sharply (almost discontinuously) with small changes in the inputs.**
 
+Thus, we divide the decision-making into two steps: (i) **selection of feasible location/orientation combinations using basic rules**, and (ii) a **value-based RL algorithm for choosing one of the suggested options**. We denote the combined procedure by the name PackMan, for brevity.
 
 
 
@@ -401,7 +402,7 @@ The obvious approach using reinforcement learning for this problem is to train a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDQ0NjIwNCwxNDA2NDUxMDQ5LC0xOT
+eyJoaXN0b3J5IjpbLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOT
 g5MjQ3ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5
 MDg3NywtMTQwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5Nz
 csODQ3Nzg2NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5
