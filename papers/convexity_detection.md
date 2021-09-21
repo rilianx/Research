@@ -396,8 +396,9 @@ Potential locations for the next box.
 
 This list is given to the RL agent for choosing the best option.
 
-The state is represent
-
+The state is represented by container viewed from top in sequence
+![image](https://i.imgur.com/JFLh4Fo.png)
+In this paper, we use T = 16 containers each of dimension 45 × 80 placed in a row, resulting in a container state dimension of 45 × 1280.
 
 
 ### References
@@ -408,11 +409,11 @@ The state is represent
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTgxMjI3LC02Mjk2OTk4NDUsLTcwMz
-ExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LDEzMDA2NDE4
-MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQwNzU2NTcxMS
-wxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LDEwOTE2
-MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMDY1Nzc0Mj
-gsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwt
-MTk0NTM3NTI0Nl19
+eyJoaXN0b3J5IjpbMTAyMDI4MDQ4NCwtNjI5Njk5ODQ1LC03MD
+MxMTI0NjksMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQx
+ODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1NjU3MT
+EsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OSwxMDkx
+NjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIzOSwyMTA2NTc3ND
+I4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYyNzg4OTAs
+LTE5NDUzNzUyNDZdfQ==
 -->
