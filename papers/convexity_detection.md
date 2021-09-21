@@ -375,6 +375,11 @@ The claimed contributions of this paper are,
 
 **Column building:** is the vertical complement of floor building, where the algorithm attempts to build towers of boxes with the highest feasible h coordinate in the container. Column building performs very well when the incoming boxes are sorted in decreasing order of their volume. Broadly, column building performs empirically as well as first fit but the overall structure which is created after packing can be unstable, especially for a robot to build.
 
+**WallE (proposed heuristic)**:
+WallE takes the box dimension as input and maintains the state space representation for each container. When a new box arrives, it computes a stability score S for each feasible location using the following relationship.
+
+
+
 
 ### References
 *A reinforcement learning framework for container selection and ship load sequencing in ports*. Verma, et al. (2019)
@@ -384,11 +389,11 @@ The claimed contributions of this paper are,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2NTQwMDA3LC0xOTg5MjQ3ODg2LDEzMD
-A2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQwNzU2
-NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LD
-EwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMDY1
-Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3OD
-g5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3Nzgs
-LTE4MjI5OTgzOF19
+eyJoaXN0b3J5IjpbMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMz
+AwNjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1
+NjU3MTEsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OS
+wxMDkxNjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIzOSwyMTA2
+NTc3NDI4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYyNz
+g4OTAsLTE5NDUzNzUyNDYsMTc3MzMyOTAzMCwtNzA2NzQ2Nzc4
+LC0xODIyOTk4MzhdfQ==
 -->
