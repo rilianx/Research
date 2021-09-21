@@ -1,5 +1,6 @@
 ## TODO
 
+- [Dueling](https://towardsdatascience.com/dueling-deep-q-networks-81ffab672751)
 - A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
@@ -425,11 +426,11 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mj
-k2OTk4NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3
-ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3Ny
-wtMTQwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3
-Nzg2NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMj
-M5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywt
-MTYzNjI3ODg5MF19
+eyJoaXN0b3J5IjpbMTI1NzM2NTU1NSwxMTM5MDE1MzAwLDE4Nz
+I0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEw
+NDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OS
+wtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0
+OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MT
+I2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwx
+OTc5NjEzOTEzXX0=
 -->
