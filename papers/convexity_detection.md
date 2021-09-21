@@ -352,13 +352,24 @@ Entonces hay que resolver este problemilla para encontrar un upperbound $L$.
 
 ##   [A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing](https://arxiv.org/pdf/2007.00463.pdf)
 
-**The problem:** we assume that the entire set of objects to be packed is **not known a priori**. Instead, a fixed number of upcoming objects is visible to the loading system, and they must be loaded in the order of arrival. Second, the goal is not to move objects from one point to another via a feasible path, but to find a location and orientation for each object that maximises the overall packing efficiency of the bin(s).
+### The problem
+
+Unlike *offline* packing, we assume that the entire set of objects to be packed is **not known a priori**. Instead, a fixed number of upcoming objects is visible to the loading system, and they must be loaded in the order of arrival. 
+
+Simulation results show that the RLbased method **outperforms state-of-the-art online bin packing heuristics** in terms of empirical competitive ratio and volume efficiency.
+
+
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5NjE4NDMsLTUxMTY5MDg3NywtMTQwNz
-U2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5
-LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMD
-Y1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3
-ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3Nz
-gsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3
-NTkxOTI3XX0=
+eyJoaXN0b3J5IjpbLTIwODczMTQxNDksLTUxMTY5MDg3NywtMT
+QwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2
+NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LD
+IxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYz
+NjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3ND
+Y3NzgsLTE4MjI5OTgzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwx
+NTU3NTkxOTI3XX0=
 -->
