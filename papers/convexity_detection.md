@@ -391,6 +391,12 @@ The obvious approach using reinforcement learning for this problem is to train a
 
 Thus, we divide the decision-making into two steps: (i) **selection of feasible location/orientation combinations using basic rules**, and (ii) a **value-based RL algorithm for choosing one of the suggested options**. We denote the combined procedure by the name PackMan, for brevity.
 
+Potential locations for the next box.
+![image](https://i.imgur.com/lumsJhD.png)
+
+This list is given to the RL agent for choosing the best option.
+
+
 
 
 
@@ -402,11 +408,11 @@ Thus, we divide the decision-making into two steps: (i) **selection of feasible 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOT
-g5MjQ3ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5
-MDg3NywtMTQwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5Nz
-csODQ3Nzg2NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5
-MjcyMjM5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMz
-kxMywtMTYzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMw
-LC03MDY3NDY3NzhdfQ==
+eyJoaXN0b3J5IjpbLTYyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MD
+Y0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMx
+NDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MT
+gsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQx
+NDA4MTI2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNj
+M4OCwxOTc5NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2
+LDE3NzMzMjkwMzBdfQ==
 -->
