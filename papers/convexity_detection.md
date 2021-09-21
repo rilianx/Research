@@ -411,6 +411,10 @@ Finally, a vector *z* is a one-hot encoding of the **receptive field** that the 
 Terminal reward: ![image](https://i.imgur.com/VIANz83.png)
 Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 
+--- 
+
+![results](https://i.imgur.com/NvFeki5.png)
+
 
 
 ### References
@@ -421,11 +425,11 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjI0ODI0LDE4NzI0OTUxMTMsLTYyOT
-Y5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEwNDksLTE5ODkyNDc4
-ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNTExNjkwODc3LC
-0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3MDk3Nyw4NDc3
-ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MTI2LDE0ODkyNzIyMz
-ksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOTc5NjEzOTEzLC0x
-NjM2Mjc4ODkwXX0=
+eyJoaXN0b3J5IjpbMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mj
+k2OTk4NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3
+ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3Ny
+wtMTQwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3
+Nzg2NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMj
+M5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywt
+MTYzNjI3ODg5MF19
 -->
