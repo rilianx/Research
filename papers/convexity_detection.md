@@ -396,7 +396,7 @@ Potential locations for the next box.
 
 This list is given to the RL agent for choosing the best option.
 
-
+The state is represent
 
 
 
@@ -408,11 +408,11 @@ This list is given to the RL agent for choosing the best option.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MD
-Y0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMx
-NDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MT
-gsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQx
-NDA4MTI2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNj
-M4OCwxOTc5NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2
-LDE3NzMzMjkwMzBdfQ==
+eyJoaXN0b3J5IjpbMTE2OTgxMjI3LC02Mjk2OTk4NDUsLTcwMz
+ExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LDEzMDA2NDE4
+MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQwNzU2NTcxMS
+wxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LDEwOTE2
+MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMDY1Nzc0Mj
+gsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwt
+MTk0NTM3NTI0Nl19
 -->
