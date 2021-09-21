@@ -407,6 +407,10 @@ Finally, a vector *z* is a one-hot encoding of the **receptive field** that the 
 
 ![image](https://i.imgur.com/RAHkpFJ.png)
 
+**Reward:**
+Terminal reward: ![image](https://i.imgur.com/VIANz83.png)
+Step-reward: ![image](https://i.imgur.com/SncFo47.png)
+
 
 
 ### References
@@ -417,7 +421,7 @@ Finally, a vector *z* is a one-hot encoding of the **receptive field** that the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTc0NTE5LDE4NzI0OTUxMTMsLTYyOT
+eyJoaXN0b3J5IjpbMjAzNjI0ODI0LDE4NzI0OTUxMTMsLTYyOT
 Y5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEwNDksLTE5ODkyNDc4
 ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNTExNjkwODc3LC
 0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3MDk3Nyw4NDc3
