@@ -350,13 +350,13 @@ Entonces hay que resolver este problemilla para encontrar un upperbound $L$.
 ![image](https://i.imgur.com/EAX0CEf.png)
 
 
-
+##   [A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing](https://arxiv.org/pdf/2007.00463.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTY5MDg3NywtMTQwNzU2NTcxMSwxNz
-M3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LDEwOTE2MTQ1
-ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMDY1Nzc0MjgsLT
-EwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwtMTk0
-NTM3NTI0NiwxNzczMzI5MDMwLC03MDY3NDY3NzgsLTE4MjI5OT
-gzOCw0NzEyMDYyMjgsLTQ3OTc5MTMzMCwxNTU3NTkxOTI3LC0x
-NzQ2Nzk0MjBdfQ==
+eyJoaXN0b3J5IjpbLTIzMTg1NTEyLC01MTE2OTA4NzcsLTE0MD
+c1NjU3MTEsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5
+OSwxMDkxNjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIzOSwyMT
+A2NTc3NDI4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYy
+Nzg4OTAsLTE5NDUzNzUyNDYsMTc3MzMyOTAzMCwtNzA2NzQ2Nz
+c4LC0xODIyOTk4MzgsNDcxMjA2MjI4LC00Nzk3OTEzMzAsMTU1
+NzU5MTkyN119
 -->
