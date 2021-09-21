@@ -375,7 +375,7 @@ The claimed contributions of this paper are,
 
 **Column building:** is the vertical complement of floor building, where the algorithm attempts to build towers of boxes with the highest feasible h coordinate in the container. Column building performs very well when the incoming boxes are sorted in decreasing order of their volume. Broadly, column building performs empirically as well as first fit but the overall structure which is created after packing can be unstable, especially for a robot to build.
 
-**WallE (proposed heuristic)**:
+### WallE (proposed heuristic)
 WallE takes the box dimension as input and maintains the state space representation for each container. When a new box arrives, it computes a stability score S for each feasible location using the following relationship.
 
 ![image](https://i.imgur.com/tlSSt1O.png)
@@ -384,7 +384,9 @@ Gvar, is defined as the sum of absolute values of differences in cell heights wi
 Finally, we count the number Gflush of bordering cells that would be exactly level with the top surface of the box, if placed in the proposed location. This indicates how smooth the resulting surface will be.
 The structure of (1) includes characteristics of floor building (penalty on height hi,j), first fit (penalty on location i+j), as well as an emphasis on smooth surfaces (first three terms), which infuses some wall building tendencies if the resulting placement is tall but smooth on top.
 
+### Deep Reinforcement Learning - PackMan
 
+The obvious approach using reinforcement learning for this problem is to train a policy-based method that computes the optimal location and orientation for the next box, given the current state of the container and (optionally) information about other upcoming boxes.
 
 
 ### References
@@ -395,11 +397,11 @@ The structure of (1) includes characteristics of floor building (penalty on heig
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk1NjA4MzYsMTQwNjQ1MTA0OSwtMT
-k4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2
-OTA4NzcsLTE0MDc1NjU3MTEsMTczNzUxMDQxOCwxMjQ5OTcwOT
-c3LDg0Nzc4NjQ5OSwxMDkxNjE0NTg4LC03NDE0MDgxMjYsMTQ4
-OTI3MjIzOSwyMTA2NTc3NDI4LC0xMDYyNzE2Mzg4LDE5Nzk2MT
-M5MTMsLTE2MzYyNzg4OTAsLTE5NDUzNzUyNDYsMTc3MzMyOTAz
-MCwtNzA2NzQ2Nzc4XX0=
+eyJoaXN0b3J5IjpbMTg1Mjg2ODEzNywxNDA2NDUxMDQ5LC0xOT
+g5MjQ3ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5
+MDg3NywtMTQwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5Nz
+csODQ3Nzg2NDk5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5
+MjcyMjM5LDIxMDY1Nzc0MjgsLTEwNjI3MTYzODgsMTk3OTYxMz
+kxMywtMTYzNjI3ODg5MCwtMTk0NTM3NTI0NiwxNzczMzI5MDMw
+LC03MDY3NDY3NzhdfQ==
 -->
