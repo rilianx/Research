@@ -403,7 +403,7 @@ In this paper, we use T = 16 containers each of dimension 45 × 80 placed in a r
 **State representation**
 In order to keep the RL agent independent of the size of the input, we encode the container state into a fixed-size representation *x*. This representation could be learnt by an autoencoder, or one can directly use pooling functions. In this work, we use **three different pooling functions** to reduce any input size to vectors of size 144 each: (i) average pooling, (ii) max pooling, and (iii) the difference between max pooling and min pooling. The vector x¯ (of size 3×144 = 432) is expected to indicate to the RL agent the average height of the underlying receptive fields, as well as its smoothness.
 *Additional inputs:* *y* encodes the height of the bordering cells of the proposed placement location of the box, in order to indicate how well it fits with the surrounding cells. We use a size of 144 units for this representation, with borders smaller than 144 units (depending on perimeter of the box) padded by trailing zeroes, and borders larger than 144 units populated using constant-skip sampling.
-Finally, a vector z¯ is a one-hot encoding of the receptive field that the currently proposed location belongs to
+Finally, a vector *z* is a one-hot encoding of the **receptive field** that the currently proposed location belongs to.
 
 
 ### References
@@ -414,11 +414,11 @@ Finally, a vector z¯ is a one-hot encoding of the receptive field that the curr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODI4MDY5NiwtNjI5Njk5ODQ1LC03MD
-MxMTI0NjksMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQx
-ODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1NjU3MT
-EsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OSwxMDkx
-NjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIzOSwyMTA2NTc3ND
-I4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYyNzg4OTAs
-LTE5NDUzNzUyNDZdfQ==
+eyJoaXN0b3J5IjpbLTUwMjI1ODQzLC02Mjk2OTk4NDUsLTcwMz
+ExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LDEzMDA2NDE4
+MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQwNzU2NTcxMS
+wxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LDEwOTE2
+MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIxMDY1Nzc0Mj
+gsLTEwNjI3MTYzODgsMTk3OTYxMzkxMywtMTYzNjI3ODg5MCwt
+MTk0NTM3NTI0Nl19
 -->
