@@ -379,8 +379,10 @@ The claimed contributions of this paper are,
 WallE takes the box dimension as input and maintains the state space representation for each container. When a new box arrives, it computes a stability score S for each feasible location using the following relationship.
 
 ![image](https://i.imgur.com/tlSSt1O.png)
+We use α1 = 0.75, α2 = 1, α3 = 1, α4 = 0.01, α5 =1.
 Gvar, is defined as the sum of absolute values of differences in cell heights with neighbouring cells around the box, after the box is placed in the proposed location.  Second, we count the number of bordering cells that are higher than the height of the proposed location after loading. Denoted by Ghigh, this count indicates how snugly the current location packs an existing hole in the container. 
 Finally, we count the number Gflush of bordering cells that would be exactly level with the top surface of the box, if placed in the proposed location. This indicates how smooth the resulting surface will be.
+The structure of (1) includes characteristics of floor building (penalty on height hi,j), first fit (penalty on location i+j), as well as an emphasis on smooth surfaces (first three terms), which infuses some wall building tendencies if the resulting placement is tall but smooth on top
 
 
 ### References
@@ -391,11 +393,11 @@ Finally, we count the number Gflush of bordering cells that would be exactly lev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjg2MDA3MTksMTQwNjQ1MTA0OSwtMT
-k4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2
-OTA4NzcsLTE0MDc1NjU3MTEsMTczNzUxMDQxOCwxMjQ5OTcwOT
-c3LDg0Nzc4NjQ5OSwxMDkxNjE0NTg4LC03NDE0MDgxMjYsMTQ4
-OTI3MjIzOSwyMTA2NTc3NDI4LC0xMDYyNzE2Mzg4LDE5Nzk2MT
-M5MTMsLTE2MzYyNzg4OTAsLTE5NDUzNzUyNDYsMTc3MzMyOTAz
-MCwtNzA2NzQ2Nzc4XX0=
+eyJoaXN0b3J5IjpbNDcwNzM3NjQ0LDE0MDY0NTEwNDksLTE5OD
+kyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNTExNjkw
+ODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3MDk3Ny
+w4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MTI2LDE0ODky
+NzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOTc5NjEzOT
+EzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2LDE3NzMzMjkwMzAs
+LTcwNjc0Njc3OF19
 -->
