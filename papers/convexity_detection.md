@@ -363,18 +363,18 @@ The claimed contributions of this paper are,
 (2) a Deep RL methodology (called PackMan) for **online computation of object location and orientation**, combined with
  (3) a generalised approach that allows the algorithm to work with arbitrary bin sizes, making it more suitable for real world deployment.
 
-
+*A reinforcement learning framework for container selection and ship load sequencing in ports*. Verma, et al. (2019)
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNT
-ExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3
-MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MTI2LD
-E0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOTc5
-NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mzc1MjQ2LDE3NzMzMj
-kwMzAsLTcwNjc0Njc3OCwtMTgyMjk5ODM4LDQ3MTIwNjIyOCwt
-NDc5NzkxMzMwXX0=
+eyJoaXN0b3J5IjpbLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMj
+A4NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1
+MTA0MTgsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OC
+wtNzQxNDA4MTI2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2
+MjcxNjM4OCwxOTc5NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mz
+c1MjQ2LDE3NzMzMjkwMzAsLTcwNjc0Njc3OCwtMTgyMjk5ODM4
+LDQ3MTIwNjIyOF19
 -->
