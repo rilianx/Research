@@ -408,6 +408,7 @@ Finally, a vector *z* is a one-hot encoding of the **receptive field** that the 
 ![image](https://i.imgur.com/RAHkpFJ.png)
 
 
+
 ### References
 *A reinforcement learning framework for container selection and ship load sequencing in ports*. Verma, et al. (2019)
 
@@ -416,11 +417,11 @@ Finally, a vector *z* is a one-hot encoding of the **receptive field** that the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC03MD
-MxMTI0NjksMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQx
-ODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1NjU3MT
-EsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OSwxMDkx
-NjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIzOSwyMTA2NTc3ND
-I4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYyNzg4OTAs
-LTE5NDUzNzUyNDZdfQ==
+eyJoaXN0b3J5IjpbMTY4MTc0NTE5LDE4NzI0OTUxMTMsLTYyOT
+Y5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEwNDksLTE5ODkyNDc4
+ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNTExNjkwODc3LC
+0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3MDk3Nyw4NDc3
+ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MTI2LDE0ODkyNzIyMz
+ksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwxOTc5NjEzOTEzLC0x
+NjM2Mjc4ODkwXX0=
 -->
