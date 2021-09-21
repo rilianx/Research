@@ -358,6 +358,10 @@ Unlike *offline* packing, we assume that the entire set of objects to be packed 
 
 Simulation results show that the RLbased method **outperforms state-of-the-art online bin packing heuristics** in terms of empirical competitive ratio and volume efficiency.
 
+**Robot-implementability**: The loading of parcels is subject to some physical constraints. First, the gripper of the robot requires all boxes to be non-deformable cuboids. Second, the robot is capable of rotating the boxes only along the zaxis (vertical axis), in steps of 90o . This is more restrictive than the generic RT-3D-BPP with six canonical orientations and partial rotations. Third, the robot placement has an accuracy of 1 centimetre, with any partial dimensions rounded up to the next highest centimetre. Fourth, the placement of sensors dictates that only the upcoming n boxes (where n is a parameter) are known to the RL agent, in terms of physical dimensions. Finally, parcels cannot be reshuffled once placed inside the container, cannot be placed below an existing parcel, the corners of the parcel must be level, and the base must be flat (Fig. 2).
+
+### Contributions
+
 The claimed contributions of this paper are, 
 (1) a novel heuristic (called WallE) for solving RT-3D-BPP which is shown to outperform existing bin-packing heuristics, 
 (2) a Deep RL methodology (called PackMan) for **online computation of object location and orientation**, combined with
@@ -370,11 +374,11 @@ The claimed contributions of this paper are,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMj
-A4NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1
-MTA0MTgsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OC
-wtNzQxNDA4MTI2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2
-MjcxNjM4OCwxOTc5NjEzOTEzLC0xNjM2Mjc4ODkwLC0xOTQ1Mz
-c1MjQ2LDE3NzMzMjkwMzAsLTcwNjc0Njc3OCwtMTgyMjk5ODM4
-LDQ3MTIwNjIyOF19
+eyJoaXN0b3J5IjpbLTE1NTU1MjM0NSwtMTk4OTI0Nzg4NiwxMz
+AwNjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1
+NjU3MTEsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OS
+wxMDkxNjE0NTg4LC03NDE0MDgxMjYsMTQ4OTI3MjIzOSwyMTA2
+NTc3NDI4LC0xMDYyNzE2Mzg4LDE5Nzk2MTM5MTMsLTE2MzYyNz
+g4OTAsLTE5NDUzNzUyNDYsMTc3MzMyOTAzMCwtNzA2NzQ2Nzc4
+LC0xODIyOTk4MzhdfQ==
 -->
