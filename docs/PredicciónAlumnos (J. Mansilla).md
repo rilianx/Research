@@ -11,6 +11,7 @@ Predicting student performance in computing courses based on programming behavio
 
 
 
+
 ### Paper
 
 - Abstract :ok:
@@ -190,11 +191,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NDY3MDk1LDIwMzk0ODgzNzksMTk0OT
-EwMTU5NCwtMTg4MjE2NzM5MCwtOTQxNDA1NDIsNjY1NTk3MDU4
-LDE3MjQ5MTk1NzksLTE2MDYzNTQ3MiwxODg0Mjk0NzIwLDgyNz
-c2NTk2NywtNDY4ODc4OTM3LDkyNDc4MDUwOCwtMTcxMzQ5NDkw
-MSwzMTk2MjE1NjUsLTE3ODYyNjE0MjUsLTIwMjQyNzU3MDEsOD
-YxMzc1ODAsMTg4NjUzMzQ1NSwyMDU0OTMyNTE5LDI2NTg4MTY4
-XX0=
+eyJoaXN0b3J5IjpbLTIwODE1NDAyMTksMzA3NDY3MDk1LDIwMz
+k0ODgzNzksMTk0OTEwMTU5NCwtMTg4MjE2NzM5MCwtOTQxNDA1
+NDIsNjY1NTk3MDU4LDE3MjQ5MTk1NzksLTE2MDYzNTQ3MiwxOD
+g0Mjk0NzIwLDgyNzc2NTk2NywtNDY4ODc4OTM3LDkyNDc4MDUw
+OCwtMTcxMzQ5NDkwMSwzMTk2MjE1NjUsLTE3ODYyNjE0MjUsLT
+IwMjQyNzU3MDEsODYxMzc1ODAsMTg4NjUzMzQ1NSwyMDU0OTMy
+NTE5XX0=
 -->
