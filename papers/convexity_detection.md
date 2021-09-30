@@ -2,6 +2,7 @@
 
 - [Dueling](https://towardsdatascience.com/dueling-deep-q-networks-81ffab672751)
 - A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing
+- [(2021) Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/pdf/1911.10635.pdf)
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
 - Interval based NN, dependence problem?
@@ -426,11 +427,11 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzM2NTU1NSwxMTM5MDE1MzAwLDE4Nz
-I0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEw
-NDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OS
-wtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0
-OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MT
-I2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwtMTA2MjcxNjM4OCwx
-OTc5NjEzOTEzXX0=
+eyJoaXN0b3J5IjpbLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMT
+M5MDE1MzAwLDE4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEy
+NDY5LDE0MDY0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMC
+wtMjA4NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3
+Mzc1MTA0MTgsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxND
+U4OCwtNzQxNDA4MTI2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwt
+MTA2MjcxNjM4OF19
 -->
