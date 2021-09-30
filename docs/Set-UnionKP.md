@@ -2,13 +2,7 @@
 
 - Experimentalmente tratar de mejorar los resultados de la instancia más complicada (jugar con temperatura, dar más iteraciones, más movimientos x swap).
 - Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
-
----
-
-- Mejor configuración promedio: 5%, 1/2 pert
-- Marcar mejores resultados promedio y analizar mejores configuraciones usando filtros.
-- Probar ==Simulated Annealing== (100.000)
-- ¿Cuántas iteraciones realizan en paper? --> 500s
+- Ignacio: pensar estrategia en base a paper.
 
 **Experimentos**
 
@@ -162,11 +156,11 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xOD
-E3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIx
-MSwzNzI2NTE0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMT
-c3MjYwODI1NywxNTgyNTg2MzM4LC0xNjIwMjUxNSwtNjYyMDg2
-NDU4LC0zNTMxNzc5OTUsMTc5NzkwNzcyMCw4NDEzMDMyMzgsOD
-YxMjk2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLTE4MjU0
-NDM1NjhdfQ==
+eyJoaXN0b3J5IjpbNTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxND
+QxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMx
+LC01MDk3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcwNDMsLTIwNT
+cxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMTYyMDI1
+MTUsLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsOD
+QxMzAzMjM4LDg2MTI5NjExOCwtNjAzODQyMzUwLC0xMzcxNjc1
+MjA1XX0=
 -->
