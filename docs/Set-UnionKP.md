@@ -1,7 +1,7 @@
 ### TODO
 
-- Experimentalmente tratar de mejorar los resultados de la instancia más complicada (jugar con temperatura, dar más iteraciones, más movimientos x swap)
-- Releer paper en 
+- Experimentalmente tratar de mejorar los resultados de la instancia más complicada (jugar con temperatura, dar más iteraciones, más movimientos x swap).
+- Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
 
 ---
 
@@ -162,11 +162,11 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM1MTg0NjcsLTIwMTQ0MTAxMjIsLT
-E4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5
-MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC
-0xNzcyNjA4MjU3LDE1ODI1ODYzMzgsLTE2MjAyNTE1LC02NjIw
-ODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIzOC
-w4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMTgy
-NTQ0MzU2OF19
+eyJoaXN0b3J5IjpbNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xOD
+E3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIx
+MSwzNzI2NTE0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMT
+c3MjYwODI1NywxNTgyNTg2MzM4LC0xNjIwMjUxNSwtNjYyMDg2
+NDU4LC0zNTMxNzc5OTUsMTc5NzkwNzcyMCw4NDEzMDMyMzgsOD
+YxMjk2MTE4LC02MDM4NDIzNTAsLTEzNzE2NzUyMDUsLTE4MjU0
+NDM1NjhdfQ==
 -->
