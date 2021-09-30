@@ -1,5 +1,10 @@
 ### TODO
 
+- Experimentalmente tratar de mejorar los resultados de la instancia más complicada (jugar con temperatura, dar más iteraciones, más movimientos x swap)
+- Releer paper en 
+
+---
+
 - Mejor configuración promedio: 5%, 1/2 pert
 - Marcar mejores resultados promedio y analizar mejores configuraciones usando filtros.
 - Probar ==Simulated Annealing== (100.000)
@@ -157,11 +162,11 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYsNT
-IyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExLDM3MjY1MTQ1
-MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3LD
-E1ODI1ODYzMzgsLTE2MjAyNTE1LC02NjIwODY0NTgsLTM1MzE3
-Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIzOCw4NjEyOTYxMTgsLT
-YwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMTgyNTQ0MzU2OCwtMTgy
+eyJoaXN0b3J5IjpbLTEwODM1MTg0NjcsLTIwMTQ0MTAxMjIsLT
+E4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5
+MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC
+0xNzcyNjA4MjU3LDE1ODI1ODYzMzgsLTE2MjAyNTE1LC02NjIw
+ODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3NzIwLDg0MTMwMzIzOC
+w4NjEyOTYxMTgsLTYwMzg0MjM1MCwtMTM3MTY3NTIwNSwtMTgy
 NTQ0MzU2OF19
 -->
