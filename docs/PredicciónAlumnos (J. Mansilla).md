@@ -4,7 +4,8 @@ Predicting student performance in computing courses based on programming behavio
 ### TODO
 
 - Agregar Keywords
-- Agregar imagen explicativa para cuartil de actividad
+- Explicar cuartil
+- Seguir revisando y enviar
 - Comentar en alguna parte que:  each semester' course has specific features that may affect in the global behaviour and performance of the students, e.g., the time period of the laboratory that may vary, the level of difficulty of the exams, the tips that the lab assistant gave to students in a particular semester.
 - ==Mostrar qué ocurre si quitamos métricas de autonomía y motivación de modelos.==
 [jupyter](http://localhost:8888/lab/tree/Documents/research_on_github/docs/Predicci%C3%B3n%20actual/Paper/Predict2.ipynb)
@@ -190,11 +191,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODgzNTMwMDQsMTU4MjQ5ODk5NCwtMj
-AxNzQ5NTQ1NywzMDc0NjcwOTUsMjAzOTQ4ODM3OSwxOTQ5MTAx
-NTk0LC0xODgyMTY3MzkwLC05NDE0MDU0Miw2NjU1OTcwNTgsMT
-cyNDkxOTU3OSwtMTYwNjM1NDcyLDE4ODQyOTQ3MjAsODI3NzY1
-OTY3LC00Njg4Nzg5MzcsOTI0NzgwNTA4LC0xNzEzNDk0OTAxLD
-MxOTYyMTU2NSwtMTc4NjI2MTQyNSwtMjAyNDI3NTcwMSw4NjEz
-NzU4MF19
+eyJoaXN0b3J5IjpbMTAyMzM0MTc1MywtMTc4ODM1MzAwNCwxNT
+gyNDk4OTk0LC0yMDE3NDk1NDU3LDMwNzQ2NzA5NSwyMDM5NDg4
+Mzc5LDE5NDkxMDE1OTQsLTE4ODIxNjczOTAsLTk0MTQwNTQyLD
+Y2NTU5NzA1OCwxNzI0OTE5NTc5LC0xNjA2MzU0NzIsMTg4NDI5
+NDcyMCw4Mjc3NjU5NjcsLTQ2ODg3ODkzNyw5MjQ3ODA1MDgsLT
+E3MTM0OTQ5MDEsMzE5NjIxNTY1LC0xNzg2MjYxNDI1LC0yMDI0
+Mjc1NzAxXX0=
 -->
