@@ -21,6 +21,7 @@ Correr:
 `.\feg 5 ..\Instancias\CVS\3-3\data3-3-3.dat 0 --FERG`
 
 
+
 ## Nuevo LB
 Ver [aquí](https://docs.google.com/presentation/d/1P5Cm_yDFzWqpIwLdj5uQBox3X-UQ0tMnvIXDciF2M60/edit#slide=id.ge7514acd31_0_359%29)
 
@@ -222,11 +223,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTczMjMyMSwxMjcxNTE2MTY1LDU1ND
-Q0NzgyMywtMTM2MjIzNTI3NywtNzg3MzI5ODI5LDc5NjIxNzc2
-NSwtMTQxODQzNDA1OCwtMTM3NDQyNTk5NSwtMTM0MjE4MDk1OC
-w0MzAzMjk0OTIsNjYzMDAyNzM5LDIwODQ5MzExMzUsLTIxNDM1
-NzI1MzUsNTc1NzcyNzc0LC0yNTA1NzI2NjQsLTE1MTM2MDc2OS
-wtMjA5ODk2NzgwNiwtMTAxMTQ5NzIyNSwtMTE0OTIyNDg3MSw5
-Nzg5NjcxNTldfQ==
+eyJoaXN0b3J5IjpbLTE4NzU0OTQ1MywxNDI1NzMyMzIxLDEyNz
+E1MTYxNjUsNTU0NDQ3ODIzLC0xMzYyMjM1Mjc3LC03ODczMjk4
+MjksNzk2MjE3NzY1LC0xNDE4NDM0MDU4LC0xMzc0NDI1OTk1LC
+0xMzQyMTgwOTU4LDQzMDMyOTQ5Miw2NjMwMDI3MzksMjA4NDkz
+MTEzNSwtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLTI1MDU3MjY2NC
+wtMTUxMzYwNzY5LC0yMDk4OTY3ODA2LC0xMDExNDk3MjI1LC0x
+MTQ5MjI0ODcxXX0=
 -->
