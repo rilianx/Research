@@ -20,6 +20,10 @@ Compilar:
 Correr:
 `.\feg 5 ..\Instancias\CVS\3-3\data3-3-3.dat 0 --FERG`
 
+### Observaciones
+
+Cálculo de elementos a remover se puede mejorar.
+Mal ubicados + mínimo número de elementos mal ubicados (sin contar stack llenos)
 
 
 ## Nuevo LB
@@ -223,7 +227,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU0OTQ1MywxNDI1NzMyMzIxLDEyNz
+eyJoaXN0b3J5IjpbLTkwMzk0OTc4OCwxNDI1NzMyMzIxLDEyNz
 E1MTYxNjUsNTU0NDQ3ODIzLC0xMzYyMjM1Mjc3LC03ODczMjk4
 MjksNzk2MjE3NzY1LC0xNDE4NDM0MDU4LC0xMzc0NDI1OTk1LC
 0xMzQyMTgwOTU4LDQzMDMyOTQ5Miw2NjMwMDI3MzksMjA4NDkz
