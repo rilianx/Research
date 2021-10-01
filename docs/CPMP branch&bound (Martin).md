@@ -22,9 +22,8 @@ Correr:
 
 ### Observaciones
 
-Cálculo de elementos a remover se puede mejorar.
+Cálculo de elementos a remover se puede mejorar.?
 Mal ubicados + mínimo número de elementos mal ubicados (**sin contar llenos**).
-En algunos casos puede ser que sea necesario liberar más espacio
 
 
 
@@ -229,11 +228,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MDEwOTI5LC05MDM5NDk3ODgsMTQyNT
-czMjMyMSwxMjcxNTE2MTY1LDU1NDQ0NzgyMywtMTM2MjIzNTI3
-NywtNzg3MzI5ODI5LDc5NjIxNzc2NSwtMTQxODQzNDA1OCwtMT
-M3NDQyNTk5NSwtMTM0MjE4MDk1OCw0MzAzMjk0OTIsNjYzMDAy
-NzM5LDIwODQ5MzExMzUsLTIxNDM1NzI1MzUsNTc1NzcyNzc0LC
-0yNTA1NzI2NjQsLTE1MTM2MDc2OSwtMjA5ODk2NzgwNiwtMTAx
-MTQ5NzIyNV19
+eyJoaXN0b3J5IjpbLTIwNjY0NzA5NywtOTAzOTQ5Nzg4LDE0Mj
+U3MzIzMjEsMTI3MTUxNjE2NSw1NTQ0NDc4MjMsLTEzNjIyMzUy
+NzcsLTc4NzMyOTgyOSw3OTYyMTc3NjUsLTE0MTg0MzQwNTgsLT
+EzNzQ0MjU5OTUsLTEzNDIxODA5NTgsNDMwMzI5NDkyLDY2MzAw
+MjczOSwyMDg0OTMxMTM1LC0yMTQzNTcyNTM1LDU3NTc3Mjc3NC
+wtMjUwNTcyNjY0LC0xNTEzNjA3NjksLTIwOTg5Njc4MDYsLTEw
+MTE0OTcyMjVdfQ==
 -->
