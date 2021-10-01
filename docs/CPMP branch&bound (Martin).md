@@ -12,6 +12,9 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 - Implementar filtrado de acciones :ok: (filtrado básico)
 
 
+### Como correr?
+
+``.\feg 5 ..\Instancias\CVS\3-3\data3-3-1.dat 0 --FERG
 ## Nuevo LB
 Ver [aquí](https://docs.google.com/presentation/d/1P5Cm_yDFzWqpIwLdj5uQBox3X-UQ0tMnvIXDciF2M60/edit#slide=id.ge7514acd31_0_359%29)
 
@@ -213,11 +216,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTUxNjE2NSw1NTQ0NDc4MjMsLTEzNj
-IyMzUyNzcsLTc4NzMyOTgyOSw3OTYyMTc3NjUsLTE0MTg0MzQw
-NTgsLTEzNzQ0MjU5OTUsLTEzNDIxODA5NTgsNDMwMzI5NDkyLD
-Y2MzAwMjczOSwyMDg0OTMxMTM1LC0yMTQzNTcyNTM1LDU3NTc3
-Mjc3NCwtMjUwNTcyNjY0LC0xNTEzNjA3NjksLTIwOTg5Njc4MD
-YsLTEwMTE0OTcyMjUsLTExNDkyMjQ4NzEsOTc4OTY3MTU5LC0x
-NjIxNTg0ODY3XX0=
+eyJoaXN0b3J5IjpbLTI4OTcxMzYzNywxMjcxNTE2MTY1LDU1ND
+Q0NzgyMywtMTM2MjIzNTI3NywtNzg3MzI5ODI5LDc5NjIxNzc2
+NSwtMTQxODQzNDA1OCwtMTM3NDQyNTk5NSwtMTM0MjE4MDk1OC
+w0MzAzMjk0OTIsNjYzMDAyNzM5LDIwODQ5MzExMzUsLTIxNDM1
+NzI1MzUsNTc1NzcyNzc0LC0yNTA1NzI2NjQsLTE1MTM2MDc2OS
+wtMjA5ODk2NzgwNiwtMTAxMTQ5NzIyNSwtMTE0OTIyNDg3MSw5
+Nzg5NjcxNTldfQ==
 -->
