@@ -1,5 +1,7 @@
 ## TODO
 
+- Dominance relations -> pruning?
+- Learning To Search in Branch and Bound
 - [Dueling](https://towardsdatascience.com/dueling-deep-q-networks-81ffab672751)
 - A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing
 - [(2021) Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/pdf/1911.10635.pdf)
@@ -427,11 +429,11 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMT
-M5MDE1MzAwLDE4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEy
-NDY5LDE0MDY0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMC
-wtMjA4NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3
-Mzc1MTA0MTgsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxND
-U4OCwtNzQxNDA4MTI2LDE0ODkyNzIyMzksMjEwNjU3NzQyOCwt
-MTA2MjcxNjM4OF19
+eyJoaXN0b3J5IjpbODQ0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNT
+czNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mjk2OTk4
+NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LD
+EzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQw
+NzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2ND
+k5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIx
+MDY1Nzc0MjhdfQ==
 -->
