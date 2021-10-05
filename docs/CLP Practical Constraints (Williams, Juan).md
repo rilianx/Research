@@ -12,6 +12,7 @@ CLP Practical Constraints (continuación).
 **Presentación**
 - Clasificación del problema
 - más óptima --> mejor solución, óptima global
+- ¿mejores nodos posibles? --> de acuerdo a evaluación 
 
 ---
 
@@ -375,11 +376,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY2ODU0MDIsMTM4ODE5NDcyMiwtMT
-U1OTI2MzQ3NSwzNDQ3NzQ1MjYsLTQzMDM3MjExNiwzMTA5Nzk1
-ODUsMTI5NjAyMzIxMCwtMjA4NTM0Njc4LC0xOTc3NTMwNDA4LD
-E1MzgzMTMxNjYsLTE5MTA0MTQ0OTQsMTYwMTA5MzEyNSwxMjg2
-NjE1NzM1LC0yMDI3MjUxOTUzLC02Mjk0OTMyNCwtMTQxNzcwMD
-E4MCwxNDE3MTY4OTIsLTcwNzI5NDU2MiwtMTA3MjI2MjE0Miw4
-MzE3OTI1OTJdfQ==
+eyJoaXN0b3J5IjpbLTMxOTEzMTAxNCwxMzg4MTk0NzIyLC0xNT
+U5MjYzNDc1LDM0NDc3NDUyNiwtNDMwMzcyMTE2LDMxMDk3OTU4
+NSwxMjk2MDIzMjEwLC0yMDg1MzQ2NzgsLTE5Nzc1MzA0MDgsMT
+UzODMxMzE2NiwtMTkxMDQxNDQ5NCwxNjAxMDkzMTI1LDEyODY2
+MTU3MzUsLTIwMjcyNTE5NTMsLTYyOTQ5MzI0LC0xNDE3NzAwMT
+gwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0xMDcyMjYyMTQyLDgz
+MTc5MjU5Ml19
 -->
