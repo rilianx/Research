@@ -13,7 +13,7 @@ CLP Practical Constraints (continuación).
 - Clasificación del problema
 - más óptima --> mejor solución, óptima global
 - ¿mejores nodos posibles? --> de acuerdo a evaluación 
-- Generación de bloques: mostr
+- Generación de bloques: mostrar imagen
 
 ---
 
@@ -377,7 +377,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODcwMTQ3MSwtMzE5MTMxMDE0LDEzOD
+eyJoaXN0b3J5IjpbLTEzNzI2NzY0NSwtMzE5MTMxMDE0LDEzOD
 gxOTQ3MjIsLTE1NTkyNjM0NzUsMzQ0Nzc0NTI2LC00MzAzNzIx
 MTYsMzEwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUzNDY3OCwtMT
 k3NzUzMDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0NDk0LDE2MDEw
