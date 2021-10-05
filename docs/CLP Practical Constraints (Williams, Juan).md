@@ -15,7 +15,7 @@ CLP Practical Constraints (continuación).
 - ¿mejores nodos posibles? --> de acuerdo a evaluación 
 - Generación de bloques: mostrar imagen
 - BSG en figura --> árbol
-- Experimentos
+
 
 ---
 
@@ -379,11 +379,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDE1NjM1OSwtMzE5MTMxMDE0LDEzOD
-gxOTQ3MjIsLTE1NTkyNjM0NzUsMzQ0Nzc0NTI2LC00MzAzNzIx
-MTYsMzEwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUzNDY3OCwtMT
-k3NzUzMDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0NDk0LDE2MDEw
-OTMxMjUsMTI4NjYxNTczNSwtMjAyNzI1MTk1MywtNjI5NDkzMj
-QsLTE0MTc3MDAxODAsMTQxNzE2ODkyLC03MDcyOTQ1NjIsLTEw
-NzIyNjIxNDJdfQ==
+eyJoaXN0b3J5IjpbLTEyODEyNjY1OTcsLTMxOTEzMTAxNCwxMz
+g4MTk0NzIyLC0xNTU5MjYzNDc1LDM0NDc3NDUyNiwtNDMwMzcy
+MTE2LDMxMDk3OTU4NSwxMjk2MDIzMjEwLC0yMDg1MzQ2NzgsLT
+E5Nzc1MzA0MDgsMTUzODMxMzE2NiwtMTkxMDQxNDQ5NCwxNjAx
+MDkzMTI1LDEyODY2MTU3MzUsLTIwMjcyNTE5NTMsLTYyOTQ5Mz
+I0LC0xNDE3NzAwMTgwLDE0MTcxNjg5MiwtNzA3Mjk0NTYyLC0x
+MDcyMjYyMTQyXX0=
 -->
