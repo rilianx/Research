@@ -455,6 +455,7 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 ### Global convergence
 
+**Line Search**
 
 
 
@@ -465,7 +466,7 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTc4MTExOCwtODUzOTY0MTY3LC0xND
+eyJoaXN0b3J5IjpbMTA3MDE0MDg3NiwtODUzOTY0MTY3LC0xND
 AxNjA0NzQwLDEzMzIxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5
 NzMyLDEyNTczNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC
 02Mjk2OTk4NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5
