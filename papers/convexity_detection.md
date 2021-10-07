@@ -463,6 +463,8 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 ### Barrier methods
 
 ![image](https://i.imgur.com/4TtLLua.png)
+![image](https://i.imgur.com/GexBhD3.png)
+
 
 
 
@@ -473,11 +475,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzkwNTI0NywtMjA2NzYyMzg5LC04NT
-M5NjQxNjcsLTE0MDE2MDQ3NDAsMTMzMjE5MjgyOCw4NDQ4MjIy
-NDksLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMTM5MDE1MzAwLD
-E4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MDY0
-NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMxND
-E0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgs
-MTI0OTk3MDk3N119
+eyJoaXN0b3J5IjpbNzA2NjMxOTAsMTc2MzkwNTI0NywtMjA2Nz
+YyMzg5LC04NTM5NjQxNjcsLTE0MDE2MDQ3NDAsMTMzMjE5Mjgy
+OCw4NDQ4MjIyNDksLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMT
+M5MDE1MzAwLDE4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEy
+NDY5LDE0MDY0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMC
+wtMjA4NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3
+Mzc1MTA0MThdfQ==
 -->
