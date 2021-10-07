@@ -440,17 +440,20 @@ Point satisfying KKT conditions is a KKT point or a critical point.
 
 **A local solution satisfies the KKT conditions**
 
+There are also Secondary Order Sufficient conditions that can be formulated by using second derivative information.
+
+### SQP methods
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE2MDQ3NDAsMTMzMjE5MjgyOCw4ND
-Q4MjIyNDksLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMTM5MDE1
-MzAwLDE4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEyNDY5LD
-E0MDY0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4
-NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MT
-A0MTgsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwt
-NzQxNDA4MTI2XX0=
+eyJoaXN0b3J5IjpbLTk3MjAzMzQzLC0xNDAxNjA0NzQwLDEzMz
+IxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNTczNjU1
+NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mjk2OTk4NDUsLT
+cwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LDEzMDA2
+NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQwNzU2NT
+cxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LDEw
+OTE2MTQ1ODhdfQ==
 -->
