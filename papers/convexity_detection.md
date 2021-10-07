@@ -447,11 +447,15 @@ There are also Secondary Order Sufficient conditions that can be formulated by u
 
 ### SQP methods
 
-Apply the Newton linearization) methods to the KKT conditions in order to find a critical point.
-Finding the Newton step is equivalent to solve a quadratic problem (QP).
-The QP (2.10) can be interpreted as a local model of the original NLP at xk, consisting of a quadratic approximation of the objective function (including curvature information along the manifold).
+Apply the Newton linearization) methods to the KKT conditions in order to find a critical point. Finding the Newton step is equivalent to solve a quadratic problem (QP).
 
-Strategies have to be added to guarantee global convergence, i.e. convergence to a solution (or at least a critical point) of the NLP. The various SQP algorithms dier for example in the techniques used to achieve this goal
+The QP (2.10) can be interpreted as a local model of the original NLP at $x_k$, consisting of a quadratic approximation of the objective function (including curvature information along the manifold).
+
+Strategies have to be added to guarantee global convergence, i.e. convergence to a solution (or at least a critical point) of the NLP. The various SQP algorithms dier for example in the techniques used to achieve this goal.
+
+### Global convergence
+
+
 
 
 
@@ -461,11 +465,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU2MTM5NzIsLTg1Mzk2NDE2NywtMT
-QwMTYwNDc0MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5
-OTczMiwxMjU3MzY1NTU1LDExMzkwMTUzMDAsMTg3MjQ5NTExMy
-wtNjI5Njk5ODQ1LC03MDMxMTI0NjksMTQwNjQ1MTA0OSwtMTk4
-OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2OT
-A4NzcsLTE0MDc1NjU3MTEsMTczNzUxMDQxOCwxMjQ5OTcwOTc3
-LDg0Nzc4NjQ5OV19
+eyJoaXN0b3J5IjpbLTY4MTc4MTExOCwtODUzOTY0MTY3LC0xND
+AxNjA0NzQwLDEzMzIxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5
+NzMyLDEyNTczNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC
+02Mjk2OTk4NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5
+MjQ3ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MD
+g3NywtMTQwNzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5Nzcs
+ODQ3Nzg2NDk5XX0=
 -->
