@@ -447,7 +447,10 @@ There are also Secondary Order Sufficient conditions that can be formulated by u
 
 ### SQP methods
 
-Apply the Newton methods to the KKT conditions in order to find a critical point.
+Apply the Newton linearization) methods to the KKT conditions in order to find a critical point.
+Finding the Newton step is equivalent to solve a quadratic problem (QP).
+The QP (2.10) can be interpreted as a local model of the original NLP at xk, consisting of a quadratic approximation of the objective function (including curvature information along the manifold).
+
 
 
 
@@ -455,7 +458,7 @@ Apply the Newton methods to the KKT conditions in order to find a critical point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM3Mjg5MjIsLTg1Mzk2NDE2NywtMT
+eyJoaXN0b3J5IjpbLTE2OTc2MjQxNDgsLTg1Mzk2NDE2NywtMT
 QwMTYwNDc0MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5
 OTczMiwxMjU3MzY1NTU1LDExMzkwMTUzMDAsMTg3MjQ5NTExMy
 wtNjI5Njk5ODQ1LC03MDMxMTI0NjksMTQwNjQ1MTA0OSwtMTk4
