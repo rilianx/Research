@@ -432,11 +432,17 @@ Ipopt implements an interior point line search filter method that aims to find a
 Iterative procedures that aim to generate a sequence of iterates $\{x_k\}$ which converges to a local solution $x^*$ of a NLP.
 
 
+LICQ: linear independence constraint qualification, i.e., the gradients of the equality constraints and active bound constraints are linearly independent at $x^*$
+**KKT conditions**
+![KKT conditions](https://i.imgur.com/VrWoNC0.png)
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTQ1ODAwNiwxMzMyMTkyODI4LDg0ND
+eyJoaXN0b3J5IjpbMTMyMzY0NzQxNiwxMzMyMTkyODI4LDg0ND
 gyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1NTU1LDExMzkwMTUz
 MDAsMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC03MDMxMTI0NjksMT
 QwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3
