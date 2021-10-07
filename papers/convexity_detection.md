@@ -426,6 +426,9 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 
 
 ## IpOpt e Interior Point
+
+[thesis](https://researcher.watson.ibm.com/researcher/files/us-andreasw/thesis.pdf)
+
 Ipopt implements an interior point line search filter method that aims to find a local solution of [(NLP)](https://coin-or.github.io/Ipopt/index.html#NLP).
 
 
@@ -449,11 +452,11 @@ There are also Secondary Order Sufficient conditions that can be formulated by u
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjAzMzQzLC0xNDAxNjA0NzQwLDEzMz
-IxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNTczNjU1
-NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mjk2OTk4NDUsLT
-cwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LDEzMDA2
-NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQwNzU2NT
-cxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2NDk5LDEw
-OTE2MTQ1ODhdfQ==
+eyJoaXN0b3J5IjpbLTg1Mzk2NDE2NywtMTQwMTYwNDc0MCwxMz
+MyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1
+NTU1LDExMzkwMTUzMDAsMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC
+03MDMxMTI0NjksMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAw
+NjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1Nj
+U3MTEsMTczNzUxMDQxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OSwx
+MDkxNjE0NTg4XX0=
 -->
