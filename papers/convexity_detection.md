@@ -438,17 +438,19 @@ LICQ: linear independence constraint qualification, i.e., the gradients of the e
 
 Point satisfying KKT conditions is a KKT point or a critical point.
 
-A local solution satisfies the K
+**A local solution satisfies the KKT conditions**
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODUxODAzNywxMzMyMTkyODI4LDg0ND
-gyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1NTU1LDExMzkwMTUz
-MDAsMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC03MDMxMTI0NjksMT
-QwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3
-MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1NjU3MTEsMTczNzUxMD
-QxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OSwxMDkxNjE0NTg4LC03
-NDE0MDgxMjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDE2MDQ3NDAsMTMzMjE5MjgyOCw4ND
+Q4MjIyNDksLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMTM5MDE1
+MzAwLDE4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEyNDY5LD
+E0MDY0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4
+NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MT
+A0MTgsMTI0OTk3MDk3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwt
+NzQxNDA4MTI2XX0=
 -->
