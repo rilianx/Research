@@ -465,7 +465,7 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 ![image](https://i.imgur.com/4TtLLua.png)
 ![image](https://i.imgur.com/GexBhD3.png)
 
-
+![image](https://i.imgur.com/JdykkKn.png)
 
 
 
@@ -475,11 +475,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2NjMxOTAsMTc2MzkwNTI0NywtMjA2Nz
-YyMzg5LC04NTM5NjQxNjcsLTE0MDE2MDQ3NDAsMTMzMjE5Mjgy
-OCw4NDQ4MjIyNDksLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMT
-M5MDE1MzAwLDE4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEy
-NDY5LDE0MDY0NTEwNDksLTE5ODkyNDc4ODYsMTMwMDY0MTgwMC
-wtMjA4NzMxNDE0OSwtNTExNjkwODc3LC0xNDA3NTY1NzExLDE3
-Mzc1MTA0MThdfQ==
+eyJoaXN0b3J5IjpbMTE5MDQ3MzA0Niw3MDY2MzE5MCwxNzYzOT
+A1MjQ3LC0yMDY3NjIzODksLTg1Mzk2NDE2NywtMTQwMTYwNDc0
+MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5OTczMiwxMj
+U3MzY1NTU1LDExMzkwMTUzMDAsMTg3MjQ5NTExMywtNjI5Njk5
+ODQ1LC03MDMxMTI0NjksMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4Ni
+wxMzAwNjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0
+MDc1NjU3MTFdfQ==
 -->
