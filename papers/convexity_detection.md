@@ -467,7 +467,7 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 ![image](https://i.imgur.com/JdykkKn.png)
 
-![barrier function](https://i.imgur.com/xKyHLvg.png)
+![barrier function](https://i.imgur.com/FbGR3fn.png)
 
 ### IpOPT
 
@@ -488,11 +488,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI0OTA4ODEsNDY3NDg4NjIwLDcwNj
-YzMTkwLDE3NjM5MDUyNDcsLTIwNjc2MjM4OSwtODUzOTY0MTY3
-LC0xNDAxNjA0NzQwLDEzMzIxOTI4MjgsODQ0ODIyMjQ5LC0xMD
-kzMjk5NzMyLDEyNTczNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1
-MTEzLC02Mjk2OTk4NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC
-0xOTg5MjQ3ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUx
-MTY5MDg3N119
+eyJoaXN0b3J5IjpbMTgwMTk2ODg4LC0xNzQyNDkwODgxLDQ2Nz
+Q4ODYyMCw3MDY2MzE5MCwxNzYzOTA1MjQ3LC0yMDY3NjIzODks
+LTg1Mzk2NDE2NywtMTQwMTYwNDc0MCwxMzMyMTkyODI4LDg0ND
+gyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1NTU1LDExMzkwMTUz
+MDAsMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC03MDMxMTI0NjksMT
+QwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3
+MzE0MTQ5XX0=
 -->
