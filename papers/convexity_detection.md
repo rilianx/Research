@@ -451,6 +451,9 @@ Apply the Newton linearization) methods to the KKT conditions in order to find a
 Finding the Newton step is equivalent to solve a quadratic problem (QP).
 The QP (2.10) can be interpreted as a local model of the original NLP at xk, consisting of a quadratic approximation of the objective function (including curvature information along the manifold).
 
+Strategies have to be added to guarantee global convergence, i.e. convergence to a solution (or at least a critical point) of the NLP. The various SQP algorithms dier for example in the techniques used to achieve this goal
+
+
 
 
 
@@ -458,7 +461,7 @@ The QP (2.10) can be interpreted as a local model of the original NLP at xk, con
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc2MjQxNDgsLTg1Mzk2NDE2NywtMT
+eyJoaXN0b3J5IjpbLTEwNTU2MTM5NzIsLTg1Mzk2NDE2NywtMT
 QwMTYwNDc0MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5
 OTczMiwxMjU3MzY1NTU1LDExMzkwMTUzMDAsMTg3MjQ5NTExMy
 wtNjI5Njk5ODQ1LC03MDMxMTI0NjksMTQwNjQ1MTA0OSwtMTk4
