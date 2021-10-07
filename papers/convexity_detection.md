@@ -429,14 +429,14 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 Ipopt implements an interior point line search filter method that aims to find a local solution of [(NLP)](https://coin-or.github.io/Ipopt/index.html#NLP).
 
 
-Iterative procedures that aim to generate a sequence of iterates fxkg which converges to a local solution x of the NLP (2.1
+Iterative procedures that aim to generate a sequence of iterates $\{x_k\}$ which converges to a local solution $x^*$ of a NLP.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTYxNjczMSwxMzMyMTkyODI4LDg0ND
+eyJoaXN0b3J5IjpbLTYwOTQ1ODAwNiwxMzMyMTkyODI4LDg0ND
 gyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1NTU1LDExMzkwMTUz
 MDAsMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC03MDMxMTI0NjksMT
 QwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3
