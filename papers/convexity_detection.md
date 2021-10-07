@@ -425,15 +425,20 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 *A reinforcement learning framework for container selection and ship load sequencing in ports*. Verma, et al. (2019)
 
 
+## IpOpt e Interior Point
+Ipopt implements an interior point line search filter method that aims to find a local solution of [(NLP)](https://coin-or.github.io/Ipopt/index.html#NLP).
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNT
-czNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mjk2OTk4
-NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LD
-EzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQw
-NzU2NTcxMSwxNzM3NTEwNDE4LDEyNDk5NzA5NzcsODQ3Nzg2ND
-k5LDEwOTE2MTQ1ODgsLTc0MTQwODEyNiwxNDg5MjcyMjM5LDIx
-MDY1Nzc0MjhdfQ==
+eyJoaXN0b3J5IjpbMTMzMjE5MjgyOCw4NDQ4MjIyNDksLTEwOT
+MyOTk3MzIsMTI1NzM2NTU1NSwxMTM5MDE1MzAwLDE4NzI0OTUx
+MTMsLTYyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEwNDksLT
+E5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNTEx
+NjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3MD
+k3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MTI2LDE0
+ODkyNzIyMzldfQ==
 -->
