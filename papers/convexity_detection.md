@@ -429,16 +429,18 @@ Step-reward: ![image](https://i.imgur.com/SncFo47.png)
 Ipopt implements an interior point line search filter method that aims to find a local solution of [(NLP)](https://coin-or.github.io/Ipopt/index.html#NLP).
 
 
+Iterative procedures that aim to generate a sequence of iterates fxkg which converges to a local solution x of the NLP (2.1
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjE5MjgyOCw4NDQ4MjIyNDksLTEwOT
-MyOTk3MzIsMTI1NzM2NTU1NSwxMTM5MDE1MzAwLDE4NzI0OTUx
-MTMsLTYyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEwNDksLT
-E5ODkyNDc4ODYsMTMwMDY0MTgwMCwtMjA4NzMxNDE0OSwtNTEx
-NjkwODc3LC0xNDA3NTY1NzExLDE3Mzc1MTA0MTgsMTI0OTk3MD
-k3Nyw4NDc3ODY0OTksMTA5MTYxNDU4OCwtNzQxNDA4MTI2LDE0
-ODkyNzIyMzldfQ==
+eyJoaXN0b3J5IjpbMTYzOTYxNjczMSwxMzMyMTkyODI4LDg0ND
+gyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1NTU1LDExMzkwMTUz
+MDAsMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC03MDMxMTI0NjksMT
+QwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3
+MzE0MTQ5LC01MTE2OTA4NzcsLTE0MDc1NjU3MTEsMTczNzUxMD
+QxOCwxMjQ5OTcwOTc3LDg0Nzc4NjQ5OSwxMDkxNjE0NTg4LC03
+NDE0MDgxMjZdfQ==
 -->
