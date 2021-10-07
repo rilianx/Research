@@ -467,7 +467,14 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 ![image](https://i.imgur.com/JdykkKn.png)
 
-![image]()
+### IpOPT
+
+- Primal-dual barrier method
+- Sequence of barrier problems
+- Search space by using full or reduced space approach (
+- 
+
+![image](https://i.imgur.com/c9Huu56.png)
 
 
 
@@ -477,11 +484,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NDgxNzQ5LDcwNjYzMTkwLDE3NjM5MD
-UyNDcsLTIwNjc2MjM4OSwtODUzOTY0MTY3LC0xNDAxNjA0NzQw
-LDEzMzIxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNT
-czNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mjk2OTk4
-NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LD
-EzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQw
-NzU2NTcxMV19
+eyJoaXN0b3J5IjpbMTEwMDU5MDMyOCw3MDY2MzE5MCwxNzYzOT
+A1MjQ3LC0yMDY3NjIzODksLTg1Mzk2NDE2NywtMTQwMTYwNDc0
+MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5OTczMiwxMj
+U3MzY1NTU1LDExMzkwMTUzMDAsMTg3MjQ5NTExMywtNjI5Njk5
+ODQ1LC03MDMxMTI0NjksMTQwNjQ1MTA0OSwtMTk4OTI0Nzg4Ni
+wxMzAwNjQxODAwLC0yMDg3MzE0MTQ5LC01MTE2OTA4NzcsLTE0
+MDc1NjU3MTFdfQ==
 -->
