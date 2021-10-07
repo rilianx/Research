@@ -467,6 +467,8 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 ![image](https://i.imgur.com/JdykkKn.png)
 
+![barrier function](https://i.imgur.com/xKyHLvg.png)
+
 ### IpOPT
 
 - Primal-dual barrier method
@@ -486,11 +488,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3NDg4NjIwLDcwNjYzMTkwLDE3NjM5MD
-UyNDcsLTIwNjc2MjM4OSwtODUzOTY0MTY3LC0xNDAxNjA0NzQw
-LDEzMzIxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNT
-czNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mjk2OTk4
-NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LD
-EzMDA2NDE4MDAsLTIwODczMTQxNDksLTUxMTY5MDg3NywtMTQw
-NzU2NTcxMV19
+eyJoaXN0b3J5IjpbLTE3NDI0OTA4ODEsNDY3NDg4NjIwLDcwNj
+YzMTkwLDE3NjM5MDUyNDcsLTIwNjc2MjM4OSwtODUzOTY0MTY3
+LC0xNDAxNjA0NzQwLDEzMzIxOTI4MjgsODQ0ODIyMjQ5LC0xMD
+kzMjk5NzMyLDEyNTczNjU1NTUsMTEzOTAxNTMwMCwxODcyNDk1
+MTEzLC02Mjk2OTk4NDUsLTcwMzExMjQ2OSwxNDA2NDUxMDQ5LC
+0xOTg5MjQ3ODg2LDEzMDA2NDE4MDAsLTIwODczMTQxNDksLTUx
+MTY5MDg3N119
 -->
