@@ -159,14 +159,17 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
 Colocar primero cajas prometedoras o corregir beneficio/costo de items.
 
+Beneficio de un elemento: 
+max(beneficio del item/costo del item)/#elementos en item
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4Nzc3ODQsLTE1NjAyMDMyODAsMTU1MT
-cwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0Mywt
-MjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OT
-I3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcwNDMs
-LTIwNTcxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMT
-YyMDI1MTUsLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3
-MjBdfQ==
+eyJoaXN0b3J5IjpbOTIxNTcwNTIxLC0xNTYwMjAzMjgwLDE1NT
+E3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxNDQ4MSw3MTQ1NzgyNDMs
+LTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OT
+kyNzczMSwtNTA5NzI5MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQz
+LC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3LDE1ODI1ODYzMzgsLT
+E2MjAyNTE1LC02NjIwODY0NTgsLTM1MzE3Nzk5NSwxNzk3OTA3
+NzIwXX0=
 -->
