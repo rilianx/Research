@@ -162,15 +162,19 @@ Colocar primero cajas prometedoras o corregir beneficio/costo de items.
 Beneficio de un elemento: 
 
 max(beneficio del item/costo del item)
+**tiebreak:** max volume
+
+20 80: 100  (b/c = 1)
+40 40 80:     (b/c = 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTgyNDk2NywtMTU2MDIwMzI4MCwxNT
-UxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQz
-LC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNz
-k5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNTI0NzA0
-MywtMjA1NzE1NTExOSwtMTc3MjYwODI1NywxNTgyNTg2MzM4LC
-0xNjIwMjUxNSwtNjYyMDg2NDU4LC0zNTMxNzc5OTUsMTc5Nzkw
-NzcyMF19
+eyJoaXN0b3J5IjpbLTEwNjE2MTk0MjcsLTE1NjAyMDMyODAsMT
+U1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0
+MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMz
+c5OTI3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcw
+NDMsLTIwNTcxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOC
+wtMTYyMDI1MTUsLTY2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5
+MDc3MjBdfQ==
 -->
