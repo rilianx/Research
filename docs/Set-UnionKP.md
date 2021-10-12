@@ -155,20 +155,13 @@ Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución
 $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
 
-## Idea 2
-
-Ir colocando elementos uno a uno.
-Cada elemento tiene un *beneficio/costo potencial* que se puede calcular como: 
-
-$$\frac{\sum_{c_i\in b_j} b_j}{c_i}$$
-
-Donde $b_i
+## Observacione
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNz
-E0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUw
-Niw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
-UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
-NTcsMTU4MjU4NjMzOCwtMTYyMDI1MTUsLTY2MjA4NjQ1OCwtMz
-UzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAzMjM4LDg2MTI5NjEx
-OF19
+eyJoaXN0b3J5IjpbLTEzMjg0ODE4MjksMTU1MTcwNDg0NCw1Mz
+M3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEy
+MiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MD
+k3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUx
+MTksLTE3NzI2MDgyNTcsMTU4MjU4NjMzOCwtMTYyMDI1MTUsLT
+Y2MjA4NjQ1OCwtMzUzMTc3OTk1LDE3OTc5MDc3MjAsODQxMzAz
+MjM4XX0=
 -->
