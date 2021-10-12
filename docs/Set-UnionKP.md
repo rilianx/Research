@@ -162,7 +162,7 @@ Colocar primero cajas prometedoras o corregir beneficio/costo de items.
 Beneficio de un elemento: 
 
 max(beneficio del item/costo del item)
-**tiebreak:** max volume
+**tiebreak:** max cost
 
 20 80: 100  (b/c = 1)
 40 40 80: 170    (b/c = 1.0625 )
@@ -173,7 +173,7 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzY4MDk2NCw5NzQ3MjQxNjAsLTE1Nj
+eyJoaXN0b3J5IjpbMTUyMjkxNTMwNSw5NzQ3MjQxNjAsLTE1Nj
 AyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgx
 LDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1Mj
 I2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUy
