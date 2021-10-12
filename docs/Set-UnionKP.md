@@ -155,9 +155,13 @@ Es decir hay un 100-i% de probabilidad de que el estado s produzca una solución
 $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
 
-## Observacione
+## Idea 2
+
+Colocar primero cajas prometedoras.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg0ODE4MjksMTU1MTcwNDg0NCw1Mz
+eyJoaXN0b3J5IjpbLTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1Mz
 M3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEy
 MiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MD
 k3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUx
