@@ -157,12 +157,12 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 
 ## Idea 2
 
-Colocar primero cajas prometedoras o 
+Colocar primero cajas prometedoras o corregir beneficio/costo de items.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2MzI0NDMsLTE1NjAyMDMyODAsMTU1MT
+eyJoaXN0b3J5IjpbNjI4Nzc3ODQsLTE1NjAyMDMyODAsMTU1MT
 cwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0Mywt
 MjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OT
 I3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUyLC05MTUyNDcwNDMs
