@@ -168,12 +168,12 @@ max(beneficio del item/costo del item)
 40 40 80: 170    (b/c = 1.0625 )
 
 20: 100  (b/c = 5)
-40 40: 170    (b/c < 3)
+40 40: 170    (b/c = 2.125)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTQxOTk1OCw5NzQ3MjQxNjAsLTE1Nj
+eyJoaXN0b3J5IjpbLTM2MzY4MDk2NCw5NzQ3MjQxNjAsLTE1Nj
 AyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgx
 LDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1Mj
 I2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUy
