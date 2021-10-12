@@ -158,10 +158,13 @@ $ alpha^{max\_iter} = t_{fin}/t_{ini}$
 ## Idea 2
 
 Ir colocando elementos uno a uno.
-Cada elemento tiene un *beneficio/costo potencial* que se puede calcular como: suma de beneficio de items que contienen el el
+Cada elemento tiene un *beneficio/costo potencial* que se puede calcular como: 
+
+$$\frac{\sum b*_i}{c_i}$$
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTY1ODg5Nyw1MzM3MTQ0ODEsNTMzNz
+eyJoaXN0b3J5IjpbLTQxNTY5MjQwMyw1MzM3MTQ0ODEsNTMzNz
 E0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUw
 Niw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
 UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
