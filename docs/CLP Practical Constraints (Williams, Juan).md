@@ -8,8 +8,8 @@ CLP Practical Constraints (continuación).
 	- centro_de_masa en clase block
 	- calcular ángulo al evaluar bloques
 - Priorizar bloques pesados (al evaluar bloques)
-- 
-- Orden de clientes
+- Priorizar bloques con mayor superficie
+- Agregar factor de volcamiento y complete shipment (en evaluación de solución)
 - Experimentos
 	- Comparar resultados sin considerar restricciones
 	- Y agregando restricciones una a una
@@ -391,7 +391,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTgwOTAzMCwxMDI1NzEzOTIsMjExNj
+eyJoaXN0b3J5IjpbMjEwNjE3MTc5NiwxMDI1NzEzOTIsMjExNj
 UyOTQzNCwtMTI4MTI2NjU5NywtMzE5MTMxMDE0LDEzODgxOTQ3
 MjIsLTE1NTkyNjM0NzUsMzQ0Nzc0NTI2LC00MzAzNzIxMTYsMz
 EwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUzNDY3OCwtMTk3NzUz
