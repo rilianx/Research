@@ -17,7 +17,7 @@ CLP Practical Constraints (continuación).
 	- Propuestas para mejorar los resultados
 
 **Ideas**
-- Seleccionar espacio más cercano a X=0, Y=0
+- Seleccionar espacio con menor X, luego menor Z
 - Formar bloques con igual altura
 
 **Presentación**
@@ -391,11 +391,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzc1MDIxNSwyMTA2MTcxNzk2LDEwMj
-U3MTM5MiwyMTE2NTI5NDM0LC0xMjgxMjY2NTk3LC0zMTkxMzEw
-MTQsMTM4ODE5NDcyMiwtMTU1OTI2MzQ3NSwzNDQ3NzQ1MjYsLT
-QzMDM3MjExNiwzMTA5Nzk1ODUsMTI5NjAyMzIxMCwtMjA4NTM0
-Njc4LC0xOTc3NTMwNDA4LDE1MzgzMTMxNjYsLTE5MTA0MTQ0OT
-QsMTYwMTA5MzEyNSwxMjg2NjE1NzM1LC0yMDI3MjUxOTUzLC02
-Mjk0OTMyNF19
+eyJoaXN0b3J5IjpbLTE5MzU1NDAyOTksMjEwNjE3MTc5NiwxMD
+I1NzEzOTIsMjExNjUyOTQzNCwtMTI4MTI2NjU5NywtMzE5MTMx
+MDE0LDEzODgxOTQ3MjIsLTE1NTkyNjM0NzUsMzQ0Nzc0NTI2LC
+00MzAzNzIxMTYsMzEwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUz
+NDY3OCwtMTk3NzUzMDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0ND
+k0LDE2MDEwOTMxMjUsMTI4NjYxNTczNSwtMjAyNzI1MTk1Mywt
+NjI5NDkzMjRdfQ==
 -->
