@@ -12,7 +12,7 @@ CLP Practical Constraints (continuación).
 - Agregar factor de volcamiento y complete shipment (en evaluación de solución)
 - Experimentos
 	- Comparar resultados sin considerar restricciones
-	- Y agregando restricciones una a una
+	- Y agregando restricciones una a una, y prioridades
 	- Analizar resultados, restricciones más complicadas
 	- Propuestas para mejorar los resultados
 
@@ -391,11 +391,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjE3MTc5NiwxMDI1NzEzOTIsMjExNj
-UyOTQzNCwtMTI4MTI2NjU5NywtMzE5MTMxMDE0LDEzODgxOTQ3
-MjIsLTE1NTkyNjM0NzUsMzQ0Nzc0NTI2LC00MzAzNzIxMTYsMz
-EwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUzNDY3OCwtMTk3NzUz
-MDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0NDk0LDE2MDEwOTMxMj
-UsMTI4NjYxNTczNSwtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0
-MTc3MDAxODBdfQ==
+eyJoaXN0b3J5IjpbMTc4Nzc1MDIxNSwyMTA2MTcxNzk2LDEwMj
+U3MTM5MiwyMTE2NTI5NDM0LC0xMjgxMjY2NTk3LC0zMTkxMzEw
+MTQsMTM4ODE5NDcyMiwtMTU1OTI2MzQ3NSwzNDQ3NzQ1MjYsLT
+QzMDM3MjExNiwzMTA5Nzk1ODUsMTI5NjAyMzIxMCwtMjA4NTM0
+Njc4LC0xOTc3NTMwNDA4LDE1MzgzMTMxNjYsLTE5MTA0MTQ0OT
+QsMTYwMTA5MzEyNSwxMjg2NjE1NzM1LC0yMDI3MjUxOTUzLC02
+Mjk0OTMyNF19
 -->
