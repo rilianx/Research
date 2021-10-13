@@ -9,10 +9,16 @@ CLP Practical Constraints (continuación).
 	- centro_de_masa en clase block
 	- calcular ángulo al evaluar bloques
 - Orden de clientes
+- Experimentos
+	- Comparar resultados sin considerar restricciones
+	- Y agregando restricciones una a una
+	- Analizar resultados, restricciones más complicadas
+	- Propuesta de mejora
 
 **Ideas**
 - Seleccionar espacio más cercano a X=0, Y=0
 - Formar bloques con igual altura
+
 
 **Presentación**
 - Clasificación del problema
@@ -385,11 +391,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg3MjQ5ODEsMjExNjUyOTQzNCwtMT
-I4MTI2NjU5NywtMzE5MTMxMDE0LDEzODgxOTQ3MjIsLTE1NTky
-NjM0NzUsMzQ0Nzc0NTI2LC00MzAzNzIxMTYsMzEwOTc5NTg1LD
-EyOTYwMjMyMTAsLTIwODUzNDY3OCwtMTk3NzUzMDQwOCwxNTM4
-MzEzMTY2LC0xOTEwNDE0NDk0LDE2MDEwOTMxMjUsMTI4NjYxNT
-czNSwtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0MTc3MDAxODAs
-MTQxNzE2ODkyXX0=
+eyJoaXN0b3J5IjpbNjA0ODI1NzgsMjExNjUyOTQzNCwtMTI4MT
+I2NjU5NywtMzE5MTMxMDE0LDEzODgxOTQ3MjIsLTE1NTkyNjM0
+NzUsMzQ0Nzc0NTI2LC00MzAzNzIxMTYsMzEwOTc5NTg1LDEyOT
+YwMjMyMTAsLTIwODUzNDY3OCwtMTk3NzUzMDQwOCwxNTM4MzEz
+MTY2LC0xOTEwNDE0NDk0LDE2MDEwOTMxMjUsMTI4NjYxNTczNS
+wtMjAyNzI1MTk1MywtNjI5NDkzMjQsLTE0MTc3MDAxODAsMTQx
+NzE2ODkyXX0=
 -->
