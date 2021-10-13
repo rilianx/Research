@@ -2,7 +2,7 @@
 
 - Experimentalmente tratar de mejorar los resultados de la instancia más complicada (jugar con temperatura, dar más iteraciones, más movimientos x swap).
 - Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
-- Ignacio: pensar estrategia en base a paper.
+- ==Ignacio: pensar estrategia==
 
 **Experimentos**
 
@@ -173,11 +173,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjkxNTMwNSw5NzQ3MjQxNjAsLTE1Nj
-AyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgx
-LDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1Mj
-I2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUy
-LC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgyNTcsMT
-U4MjU4NjMzOCwtMTYyMDI1MTUsLTY2MjA4NjQ1OCwtMzUzMTc3
-OTk1XX0=
+eyJoaXN0b3J5IjpbMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
+I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
+LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
+czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
+LDM3MjY1MTQ1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNz
+cyNjA4MjU3LDE1ODI1ODYzMzgsLTE2MjAyNTE1LC02NjIwODY0
+NThdfQ==
 -->
