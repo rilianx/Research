@@ -2,9 +2,10 @@
 
 - Dejar los parámetros como entrada por comando al algoritmo
 - Implementar SA con restart
-- Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
+- Agrupar items por similaridad y analizar lo que se obtiene
 - ==Ignacio: pensar estrategia==
-
+- Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
+- 
 **Experimentos**
 
 10 corridas (semillas aleatorias) para cada configuración -> script
@@ -174,11 +175,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOT
-E1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0
-LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0ND
-EwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEs
-LTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNTI0NzA0MywtMjA1Nz
-E1NTExOSwtMTc3MjYwODI1NywxNTgyNTg2MzM4LC0xNjIwMjUx
-NV19
+eyJoaXN0b3J5IjpbLTE3NDYwMjYzNTksMjUwMTY3NzYwLDEyMT
+k3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4
+MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NT
+c4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5
+OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNT
+I0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1NywxNTgyNTg2
+MzM4XX0=
 -->
