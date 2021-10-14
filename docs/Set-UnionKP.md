@@ -1,6 +1,7 @@
 ### TODO
 
-- Experimentalmente tratar de mejorar los resultados de la instancia más complicada (jugar con temperatura, dar más iteraciones, más movimientos x swap).
+- Dejar los parámetros como entrada por comando al algoritmo
+- Implementar SA con restart
 - Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
 - ==Ignacio: pensar estrategia==
 
@@ -173,11 +174,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
-I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
-LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
-czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
-LDM3MjY1MTQ1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNz
-cyNjA4MjU3LDE1ODI1ODYzMzgsLTE2MjAyNTE1LC02NjIwODY0
-NThdfQ==
+eyJoaXN0b3J5IjpbMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOT
+E1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0
+LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0ND
+EwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEs
+LTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNTI0NzA0MywtMjA1Nz
+E1NTExOSwtMTc3MjYwODI1NywxNTgyNTg2MzM4LC0xNjIwMjUx
+NV19
 -->
