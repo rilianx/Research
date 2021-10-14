@@ -5,7 +5,7 @@
 - Agrupar items por similaridad y analizar lo que se obtiene
 - ==Ignacio: pensar estrategia==
 - Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
-- 
+
 **Experimentos**
 
 10 corridas (semillas aleatorias) para cada configuración -> script
@@ -175,11 +175,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYwMjYzNTksMjUwMTY3NzYwLDEyMT
-k3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4
-MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NT
-c4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5
-OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNT
-I0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1NywxNTgyNTg2
-MzM4XX0=
+eyJoaXN0b3J5IjpbLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5Nz
+kwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAsLTE1NjAyMDMyODAs
+MTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3OD
+I0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTks
+Mzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUyLC05MTUyND
+cwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4NjMz
+OF19
 -->
