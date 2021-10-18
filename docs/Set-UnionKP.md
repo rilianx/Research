@@ -3,7 +3,7 @@
 - Dejar los parámetros como entrada por comando al algoritmo
 - Implementar SA con restart
 - Agrupar items por similaridad y analizar lo que se obtiene
-- ==Ignacio: pensar estrategia==
+- ==Ignacio: leer paper; pensar estrategia==
 - Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
 
 **Experimentos**
@@ -175,11 +175,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5Nz
-kwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAsLTE1NjAyMDMyODAs
-MTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3OD
-I0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTks
-Mzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNjUxNDUyLC05MTUyND
-cwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgyNTcsMTU4MjU4NjMz
-OF19
+eyJoaXN0b3J5IjpbLTExODUyNDk4MzcsLTg5NTcyODA0LDI1MD
+E2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAs
+LTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNz
+E0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUw
+Niw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
+UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
+NTddfQ==
 -->
