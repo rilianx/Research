@@ -185,10 +185,13 @@ Algorithm in two phases:
 - The diversification-oriented component (second phase) helps the search process to explore unvisited regions. (**Frequency based perturbation**)
 
 **Construction**
-The algorithm starts from a feasible initial solution that is obtained with a **greedy construction procedure**
+The algorithm starts from a feasible initial solution that is obtained with a **greedy construction procedure**.
+Compute the profit ratio for items and put them in order until the capacity is reached.
 
 **Exploration**
 Variable neighborhood descent (VND) search to locate a new local optimal solution within two neighborhoods (N1 and N2) and then runs a tabu search (TS) to explore additional local optima with a different neighborhood N3.
+
+
 
 **Escape**
 Frequency-based perturbation to displace the search to an unexplored region.
@@ -197,11 +200,11 @@ Frequency-based perturbation to displace the search to an unexplored region.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Njg1NTU1NCwtODk1NzI4MDQsMjUwMT
-Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
-MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
-Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
-LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NT
-E0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1
-N119
+eyJoaXN0b3J5IjpbNTQ4MDAwNTI2LC04OTU3MjgwNCwyNTAxNj
+c3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0x
+NTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxND
+Q4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYs
+NTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExLDM3MjY1MT
+Q1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3
+XX0=
 -->
