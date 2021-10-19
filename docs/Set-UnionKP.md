@@ -175,10 +175,15 @@ max(beneficio del item/costo del item)
 
 ### Paper
 
+Algorithm in two phases:
+- The intensification-oriented component (first phase) employs a combined neighborhood search strategy to discover local optimal solutions
+- The diversification-oriented component (second phase) helps the search process to explore unvisited regions.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjY1NTIyOCwtODk1NzI4MDQsMjUwMT
+eyJoaXN0b3J5IjpbMTM4Njg2NDU0NywtODk1NzI4MDQsMjUwMT
 Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
 MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
 Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
