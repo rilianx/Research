@@ -235,16 +235,17 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 **Analysis of parameters**
 ![image](https://i.imgur.com/GJBE7pC.png)
 
-
-
+**Diferentes variantes de VNS**
+![image](https://i.imgur.com/c0EuuXe.png)
+Notar que si bien VND con $\rho=0.05$ ofrece los mejores re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNz
-MxNzEzMSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4Niwx
-NTIyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNz
-A0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0y
-MDE0NDEwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mj
-c3MzEsLTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNTI0NzA0M119
+eyJoaXN0b3J5IjpbMTcwMzc4NjIyMSwtMTUxMzk4MDM1MCwyOD
+gzNTgyNjksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAs
+MTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMj
+AzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxNDQ4MSw3
+MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYsNTIyNj
+M0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExLDM3MjY1MTQ1Ml19
 
 -->
