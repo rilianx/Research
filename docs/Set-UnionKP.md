@@ -206,11 +206,16 @@ Repite mientras mejora la solución.
 
 
 
-**Neighbourhoods**
-N1: Consiste en eliminar q items de la mochila y agregar p. $(q,p) \in  \{(0,1);(1,1)\}$
-N2: Consiste en eliminar q items y agregar p. $(q,p) \in  \{(2,1);(1,2);(2,2)\}$
+
 
 ![image](https://i.imgur.com/4qi22dr.png)
+
+
+**Neighbourhoods**
+Consisten en eliminar q items de la mochila y agregar p items nuevos.
+N1: $(q,p) \in  \{(0,1);(1,1)\}$
+N2: $(q,p) \in  \{(2,1);(1,2);(2,2)\}$
+N3: $(q,p) \in  \{(0,1);)(1,0);(1,1)\}$
 
 **Escape**
 
@@ -221,7 +226,7 @@ Frequency-based perturbation to displace the search to an unexplored region.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTQwMzY4LC04OTU3MjgwNCwyNTAxNj
+eyJoaXN0b3J5IjpbLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNj
 c3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0x
 NTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxND
 Q4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYs
