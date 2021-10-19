@@ -221,20 +221,24 @@ N3: $(q,p) \in  \{(0,1);)(1,0);(1,1)\}$
 Number of iterations ($T_i$) for item $i$ in tabu list:
 ![image](https://i.imgur.com/5SUToOX.png)
 
+
+
 **Escape**
 
-
 Frequency-based perturbation to displace the search to an unexplored region.
+
+The algorithm keeps track of the **frequencies that each item has been displaced** and uses the frequency information to modify (perturb) the incumbent solution.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2ODEwODAwLC0xNzMxNzEzMSwtODk1Nz
-I4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3
-NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxND
-Q4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0x
-ODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOT
-IxMSwzNzI2NTE0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOV19
-
+eyJoaXN0b3J5IjpbLTE4MTMzNzIzNjgsLTE3MzE3MTMxLC04OT
+U3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUs
+OTc0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNz
+E0NDgxLDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIs
+LTE4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5Nz
+I5MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5
+XX0=
 -->
