@@ -202,6 +202,8 @@ Repite mientras mejora la solución.
 ![image](https://i.imgur.com/Oc4qf9v.png)
 ==Idea: basarse en un sampling de movidas y escoger la mejor.==
 
+**Neighbourhoods**
+N1: Consiste en eliminar un item 
 
 **Escape**
 
@@ -212,11 +214,11 @@ Frequency-based perturbation to displace the search to an unexplored region.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM5Njc2ODEsLTg5NTcyODA0LDI1MD
-E2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAs
-LTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNz
-E0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUw
-Niw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
-UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
-NTddfQ==
+eyJoaXN0b3J5IjpbLTgxNzAwOTQ4MCwtODk1NzI4MDQsMjUwMT
+Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
+MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
+Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
+LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NT
+E0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1
+N119
 -->
