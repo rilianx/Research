@@ -237,11 +237,13 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 
 **Diferentes variantes de VNS**
 ![image](https://i.imgur.com/c0EuuXe.png)
-Notar que si bien VND con $\rho=0.05$ ofrece los mejores re
+Notar que si bien VND con $\rho=0.05$ ofrece los mejores resultados, usar un sólo vecindario no estan malo.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzc4NjIyMSwtMTUxMzk4MDM1MCwyOD
+eyJoaXN0b3J5IjpbMTk4NjM0MTgyNiwtMTUxMzk4MDM1MCwyOD
 gzNTgyNjksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAs
 MTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMj
 AzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxNDQ4MSw3
