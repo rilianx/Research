@@ -203,10 +203,8 @@ Repite mientras mejora la solución.
 ==Idea: basarse en un sampling de movidas y escoger la mejor.==
 
 **Tabu Search**
-
-
-
-
+Se mueve hacia el mejor vecino sin importar que sea peor.
+En la lista tabu se almacenan items involucrados en los últimos swaps.
 
 ![image](https://i.imgur.com/4qi22dr.png)
 
@@ -226,11 +224,11 @@ Frequency-based perturbation to displace the search to an unexplored region.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNj
-c3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0x
-NTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxND
-Q4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYs
-NTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExLDM3MjY1MT
-Q1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3
+eyJoaXN0b3J5IjpbLTEyMzI5MTQ0MDIsLTE3MzE3MTMxLC04OT
+U3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUs
+OTc0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNz
+E0NDgxLDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIs
+LTE4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5Nz
+I5MjExLDM3MjY1MTQ1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5
 XX0=
 -->
