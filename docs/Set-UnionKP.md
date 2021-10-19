@@ -179,11 +179,11 @@ Algorithm in two phases:
 - The intensification-oriented component (first phase) employs a combined neighborhood search strategy to discover local optimal solutions
 - The diversification-oriented component (second phase) helps the search process to explore unvisited regions.
 
-
+We show that while CPLEX (version 12.8) can find the optimal solutions for the 6 small benchmark instances (with 85 to 100 items and elements) based on a simple 0/1 linear programming model, it fails to exactly solve the other 24 instances. These outcomes provide strong motivations for developing effective approximate algorithms to handle problem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Njg2NDU0NywtODk1NzI4MDQsMjUwMT
+eyJoaXN0b3J5IjpbLTk4NDgxNzQ5NSwtODk1NzI4MDQsMjUwMT
 Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
 MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
 Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
