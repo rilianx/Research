@@ -184,13 +184,21 @@ Algorithm in two phases:
 - The intensification-oriented component (first phase) employs a combined neighborhood search strategy to discover local optimal solutions (**VND and TS**)
 - The diversification-oriented component (second phase) helps the search process to explore unvisited regions. (**Frequency based perturbation**)
 
+**Construction**
+The algorithm starts from a feasible initial solution (line 3, Alg. 1) that is obtained with a greedy construction procedure
+
+**Exploration**
+Variable neighborhood descent (VND) search to locate a new local optimal solution within two neighborhoods (N1 and N2) and then runs a tabu search (TS) to explore additional local optima with a different neighborhood N3.
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODcxODEzNSwtODk1NzI4MDQsMjUwMT
-Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
-MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
-Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
-LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NT
-E0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1
-N119
+eyJoaXN0b3J5IjpbOTgxNzMyNTU0LC04OTU3MjgwNCwyNTAxNj
+c3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0x
+NTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxND
+Q4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYs
+NTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExLDM3MjY1MT
+Q1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3
+XX0=
 -->
