@@ -203,9 +203,8 @@ Repite mientras mejora la solución.
 ==Idea: basarse en un sampling de movidas y escoger la mejor.==
 
 **Neighbourhoods**
-N1: Consiste en eliminar cero o un item de la mochila y agregar uno nuevo.
-N2: Consiste en eliminar q items y agregar p, tal que $q+p
-
+N1: Consiste en eliminar cero o un item de la mochila y agregar uno nuevo. $(q,p) \in  \{(2,1);(1,2);(2,2)\}$
+N2: Consiste en eliminar q items y agregar p, tal que $(q,p) \in  \{(2,1);(1,2);(2,2)\}$
 **Escape**
 
 
@@ -215,11 +214,11 @@ Frequency-based perturbation to displace the search to an unexplored region.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjI2NTcsLTg5NTcyODA0LDI1MDE2Nz
-c2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAsLTE1
-NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNzE0ND
-gxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUwNiw1
-MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNjUxND
-UyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgyNTdd
-fQ==
+eyJoaXN0b3J5IjpbMTM0NzMxMTg5MSwtODk1NzI4MDQsMjUwMT
+Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
+MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
+Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
+LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NT
+E0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1
+N119
 -->
