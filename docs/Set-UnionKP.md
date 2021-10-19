@@ -193,7 +193,9 @@ Variable neighborhood descent (VND) search to locate a new local optimal solutio
 
 ![image](https://i.imgur.com/J9G85dP.png)
 
-The VND procedure exploits, with the best-improvement strategy, two neighborhoods N1 and N2 to locate a local optimal solution. Then from this solution, the TS procedure is triggered to examine additional local optimal solutions with another neighborhood N3
+The VND procedure exploits, with the best-improvement strategy, two neighborhoods N1 and N2 to locate a local optimal solution. Then from this solution, the TS procedure is triggered to examine additional local optimal solutions with another neighborhood N3.
+
+
 
 **Escape**
 
@@ -204,7 +206,7 @@ Frequency-based perturbation to displace the search to an unexplored region.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkzMDk1NDcsLTg5NTcyODA0LDI1MD
+eyJoaXN0b3J5IjpbLTE4MzQ3MzEyMjEsLTg5NTcyODA0LDI1MD
 E2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAs
 LTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNz
 E0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUw
