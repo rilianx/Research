@@ -198,7 +198,10 @@ The VND procedure exploits, with the best-improvement strategy, two neighborhood
 **The VND algorithm**
 Selecciona el mejor movimiento del vecindario N1.
 Selecciona el mejor movimiento para una muestra del vecindario N2.
+Repite mientras mejora la solución.
 ![image](https://i.imgur.com/Oc4qf9v.png)
+==Idea: basarse en un sampling de movidas y escoger la mejor.==
+
 
 **Escape**
 
@@ -209,7 +212,7 @@ Frequency-based perturbation to displace the search to an unexplored region.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDMxNDgxOSwtODk1NzI4MDQsMjUwMT
+eyJoaXN0b3J5IjpbLTIxMTE0MzIzNiwtODk1NzI4MDQsMjUwMT
 Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
 MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
 Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
