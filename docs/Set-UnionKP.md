@@ -239,14 +239,14 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 
 - Si bien VND con $\rho=0.05$ ofrece los mejores resultados, usar un sólo vecindario no estan malo (peor en 3/30 instancias).
 - Lo mismo ocurre con la perturbación. Hacer un restart empeora en 2/30 instancias (las mismas instancias que antes).
-- 
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE2NzAyNDksLTE1MTM5ODAzNTAsMj
+eyJoaXN0b3J5IjpbLTEyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMj
 g4MzU4MjY5LC0xNzMxNzEzMSwtODk1NzI4MDQsMjUwMTY3NzYw
 LDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MD
 IwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEs
