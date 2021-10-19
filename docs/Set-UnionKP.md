@@ -232,16 +232,19 @@ The algorithm keeps track of the **frequencies that each item has been displaced
 We delete the top η × |A| least frequently moved items from A and add randomly new items until the knapsack capacity is reached.
 
 
+**Analysis of parameters**
+![image](https://i.imgur.com/GJBE7pC.png)
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1Nz
-I4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3
-NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxND
-Q4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0x
-ODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOT
-IxMSwzNzI2NTE0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOV19
+eyJoaXN0b3J5IjpbLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNz
+MxNzEzMSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4Niwx
+NTIyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNz
+A0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0y
+MDE0NDEwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mj
+c3MzEsLTUwOTcyOTIxMSwzNzI2NTE0NTIsLTkxNTI0NzA0M119
 
 -->
