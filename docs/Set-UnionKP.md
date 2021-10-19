@@ -191,20 +191,24 @@ Compute the profit ratio for items and put them in order until the capacity is r
 **Exploration**
 Variable neighborhood descent (VND) search to locate a new local optimal solution within two neighborhoods (N1 and N2) and then runs a tabu search (TS) to explore additional local optima with a different neighborhood N3.
 
+![image](https://i.imgur.com/J9G85dP.png)
 
+The VND procedure exploits, with the best-improvement strategy, two neighborhoods N1 and N2 to locate a local optimal solution. Then from this solution, the TS procedure is triggered to examine additional local optimal solutions with another neighborhood N3
 
 **Escape**
+
+
 Frequency-based perturbation to displace the search to an unexplored region.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4MDAwNTI2LC04OTU3MjgwNCwyNTAxNj
-c3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0x
-NTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxND
-Q4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYs
-NTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExLDM3MjY1MT
-Q1MiwtOTE1MjQ3MDQzLC0yMDU3MTU1MTE5LC0xNzcyNjA4MjU3
-XX0=
+eyJoaXN0b3J5IjpbLTExNjkzMDk1NDcsLTg5NTcyODA0LDI1MD
+E2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAs
+LTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNz
+E0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUw
+Niw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
+UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
+NTddfQ==
 -->
