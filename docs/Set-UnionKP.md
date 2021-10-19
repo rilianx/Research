@@ -175,22 +175,22 @@ max(beneficio del item/costo del item)
 
 ### Paper
 
-Algorithm in two phases:
-- The intensification-oriented component (first phase) employs a combined neighborhood search strategy to discover local optimal solutions
-- The diversification-oriented component (second phase) helps the search process to explore unvisited regions.
-
 We show that while CPLEX (version 12.8) can find the optimal solutions for the 6 small benchmark instances (with 85 to 100 items and elements) based on a simple 0/1 linear programming model, it fails to exactly solve the other 24 instances. These outcomes provide strong motivations for developing effective approximate algorithms to handle problem
 
 **The SUKP algorithm**
+![image](https://i.imgur.com/CdxOdHM.png)
 
+Algorithm in two phases:
+- The intensification-oriented component (first phase) employs a combined neighborhood search strategy to discover local optimal solutions (**VND and TS**)
+- The diversification-oriented component (second phase) helps the search process to explore unvisited regions. (**Frequency based perturbation**)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE3NTAxOTQsLTg5NTcyODA0LDI1MD
-E2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQxNjAs
-LTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEsNTMzNz
-E0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNzM1NDUw
-Niw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTEsMzcyNj
-UxNDUyLC05MTUyNDcwNDMsLTIwNTcxNTUxMTksLTE3NzI2MDgy
-NTddfQ==
+eyJoaXN0b3J5IjpbLTc3ODcxODEzNSwtODk1NzI4MDQsMjUwMT
+Y3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwt
+MTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MT
+Q0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3MzU0NTA2
+LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMSwzNzI2NT
+E0NTIsLTkxNTI0NzA0MywtMjA1NzE1NTExOSwtMTc3MjYwODI1
+N119
 -->
