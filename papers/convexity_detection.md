@@ -1,6 +1,6 @@
 ## TODO
 
-- Dominance relations -> pruning?
+- [Tighter McCormick Relaxations through Subgradient Propagation](https://arxiv.org/pdf/1710.09188.pdf)
 - Learning To Search in Branch and Bound
 - [Dueling](https://towardsdatascience.com/dueling-deep-q-networks-81ffab672751)
 - A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing
@@ -488,11 +488,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTk2ODg4LC0xNzQyNDkwODgxLDQ2Nz
-Q4ODYyMCw3MDY2MzE5MCwxNzYzOTA1MjQ3LC0yMDY3NjIzODks
-LTg1Mzk2NDE2NywtMTQwMTYwNDc0MCwxMzMyMTkyODI4LDg0ND
-gyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1NTU1LDExMzkwMTUz
-MDAsMTg3MjQ5NTExMywtNjI5Njk5ODQ1LC03MDMxMTI0NjksMT
-QwNjQ1MTA0OSwtMTk4OTI0Nzg4NiwxMzAwNjQxODAwLC0yMDg3
-MzE0MTQ5XX0=
+eyJoaXN0b3J5IjpbMTA3MDEyMDg1OSwxODAxOTY4ODgsLTE3ND
+I0OTA4ODEsNDY3NDg4NjIwLDcwNjYzMTkwLDE3NjM5MDUyNDcs
+LTIwNjc2MjM4OSwtODUzOTY0MTY3LC0xNDAxNjA0NzQwLDEzMz
+IxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNTczNjU1
+NTUsMTEzOTAxNTMwMCwxODcyNDk1MTEzLC02Mjk2OTk4NDUsLT
+cwMzExMjQ2OSwxNDA2NDUxMDQ5LC0xOTg5MjQ3ODg2LDEzMDA2
+NDE4MDBdfQ==
 -->
