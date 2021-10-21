@@ -247,17 +247,17 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 Ideas y observaciones:
 - N1 "tiene sentido" cuando eliminar 1 item implica eliminar al menos un elemento. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
 - Se podrían proponer los siguientes movimientos:
-	- M1: Se elimina elemento contenido en 1 sólo item + item asociado (y cajas adicionales si es necesario).
-	- M2: Se elimina elemento contenido en 2 items + items asociados (y cajas adicionales si es necesario).
+	- M1: Se elimina elemento contenido en 1 sólo item + item asociado (y cajas adicionales si es necesario). Se coloca
+	- M2: Se elimina elemento contenido en 2 items + items asociados (y cajas adicionales si es necesario). Se vuelve a llenar.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NDE2NCwtMTI0Nzg3NjIxNCwtMTUxMz
-k4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3MjgwNCwy
-NTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MT
-YwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUz
-MzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNT
-Q1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjExXX0=
-
+eyJoaXN0b3J5IjpbLTQyMDQ4ODQ3MywtMTI0Nzg3NjIxNCwtMT
+UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
+NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
+I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
+LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
+czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
+XX0=
 -->
