@@ -246,13 +246,31 @@ We delete the top η × |A| least frequently moved items from A and add randomly
    - [Multistart solution-based tabu search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoASC2021.pdf)
 
 
+## Dual solving
+
+Ir colocando elementos uno a uno con el objetivo de maximizar el beneficio esperado.
+
+¿Cómo calcular beneficio esperado?
+
+Colocar primero cajas prometedoras o corregir beneficio/costo de items.
+
+Beneficio de un elemento: 
+
+max(beneficio del item/costo del item)
+**tiebreak:** max cost
+
+20 80: 100  (b/c = 1)
+40 40 80: 170    (b/c = 1.0625 )
+
+20: 100  (b/c = 5)
+40 40: 170    (b/c = 2.125)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NjEzMjI0LC0xMjQ3ODc2MjE0LC0xNT
-EzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0
-LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3Mj
-QxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEs
-NTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNz
-M1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTFd
-fQ==
+eyJoaXN0b3J5IjpbLTMxMDY5OTYwOSwtMTI0Nzg3NjIxNCwtMT
+UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
+NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
+I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
+LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
+czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
+XX0=
 -->
