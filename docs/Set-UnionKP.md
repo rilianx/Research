@@ -249,14 +249,16 @@ Ideas y observaciones:
 - Se podrían proponer los siguientes movimientos análogos:
 	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items.
 	- M2 $(q,p) \in  \{(2,1);(1,2);(2,2)\}$: Misma idea.
-- Probar movimientos usando:
+- Probar movimientos usando SA:
+	- Aplicar M1 o M2 con 50%
+- Probar movimientos usando hill climbing con restarts:
 	-  mejor M1, sino mejor M2 (sampling con $\rho=0.05$)
-	- primera mejora M1
+	- primera mejora M1 (límite no improvements)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODM3OTYzNiwtMTI0Nzg3NjIxNCwtMT
+eyJoaXN0b3J5IjpbMTk3NDE4NDIwOSwtMTI0Nzg3NjIxNCwtMT
 UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
 NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
 I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
