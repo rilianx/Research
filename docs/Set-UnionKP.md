@@ -249,6 +249,12 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 ## Dual solving
 
 Ir colocando elementos uno a uno con el objetivo de maximizar el beneficio esperado.
+La idea es *ir viendo poco a poco* que item nos conviene antes de decidirnos.
+
+Algoritmo:
+1. Seleccionar elemento o item y agregarlo a la mochila
+2. Repetir h
+3. 
 
 ¿Cómo calcular beneficio esperado?
 
@@ -265,8 +271,9 @@ max(beneficio del item/costo del item)
 20: 100  (b/c = 5)
 40 40: 170    (b/c = 2.125)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDY5OTYwOSwtMTI0Nzg3NjIxNCwtMT
+eyJoaXN0b3J5IjpbLTk1NTUyMDQ2OSwtMTI0Nzg3NjIxNCwtMT
 UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
 NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
 I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
