@@ -173,7 +173,10 @@ max(beneficio del item/costo del item)
 40 40: 170    (b/c = 2.125)
 
 
-### Paper
+<div class="page-break-after"></div>
+
+
+## Paper
 
 We show that while CPLEX (version 12.8) can find the optimal solutions for the 6 small benchmark instances (with 85 to 100 items and elements) based on a simple 0/1 linear programming model, it fails to exactly solve the other 24 instances. These outcomes provide strong motivations for developing effective approximate algorithms to handle problem
 
@@ -263,7 +266,7 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4MTkxMzg5LC0xMjQ3ODc2MjE0LC0xNT
+eyJoaXN0b3J5IjpbMzEzNjk0NDQyLC0xMjQ3ODc2MjE0LC0xNT
 EzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0
 LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3Mj
 QxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEs
