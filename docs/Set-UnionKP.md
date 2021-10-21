@@ -245,6 +245,8 @@ We delete the top η × |A| least frequently moved items from A and add randomly
    - [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
    - [Multistart solution-based tabu search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoASC2021.pdf)
 
+## Generar agrupaciones de items
+
 
 ## Dual solving
 
@@ -252,11 +254,16 @@ Ir colocando elementos uno a uno con el objetivo de maximizar el beneficio esper
 La idea es *ir viendo poco a poco* que item nos conviene antes de decidirnos.
 
 Algoritmo:
-1. Seleccionar elemento o item y agregarlo a la mochila
-2. Repetir h
-3. 
+1. Seleccionar elemento o item y agregarlo a la mochila.
+2. Si no caben más elementos en la mochila, eliminar elementos sin item asociado.
+3. Repetir.
 
-¿Cómo calcular beneficio esperado?
+**¿Cómo seleccionar elementos/items**
+
+El beneficio de un elemento tiene que ver con:
+- El beneficio de los items que lo contienen
+- 
+
 
 Colocar primero cajas prometedoras o corregir beneficio/costo de items.
 
@@ -273,11 +280,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTUyMDQ2OSwtMTI0Nzg3NjIxNCwtMT
-UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
-NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
-I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
-LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
-czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
-XX0=
+eyJoaXN0b3J5IjpbLTExOTQxMjQ4NzgsLTEyNDc4NzYyMTQsLT
+E1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1NzI4
+MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3ND
+cyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4
+MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xOD
+E3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIx
+MV19
 -->
