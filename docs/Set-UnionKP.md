@@ -245,25 +245,26 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 ----
 
 **Ideas y observaciones:**
-- N1 "tiene sentido" cuando eliminar 1 item implica eliminar al menos un elemento. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
+- N1 "tiene sentido" cuando eliminar 1 item *implica eliminar al menos un elemento*. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
 - Se podrían proponer los siguientes movimientos análogos:
 	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items.
 	- M2 $(q,p) \in  \{(2,1);(1,2);(2,2)\}$: Misma idea.
+	- M2 $(q,p) \in  \{(0,1);(1,0);(1,1)\}$: Misma idea.
 - Probar movimientos usando SA:
-	- Aplicar M1 o M2 con 50%
+	- Aplicar M1 o M2 con 50%. Aplicar sólo M1. Aplicar sólo M3.
 - Probar movimientos usando hill climbing con restarts (similar a VND del paper):
 	-  mejor M1, sino mejor M2 (sampling con $\rho=0.05$)
 	- primera mejora M1 (límite no improvements)
-- Comparar promedios como en gráfico.
+- Comparar **promedios** como en gráfico.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY5OTExMjUsLTEyNDc4NzYyMTQsLT
-E1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1NzI4
-MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3ND
-cyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4
-MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xOD
-E3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIx
-MV19
+eyJoaXN0b3J5IjpbNDM0NDYwNTI1LC0xMjQ3ODc2MjE0LC0xNT
+EzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0
+LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3Mj
+QxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEs
+NTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNz
+M1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTFd
+fQ==
 -->
