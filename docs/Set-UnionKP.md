@@ -237,7 +237,7 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 	- Aplicar M1 o M2 con 50%. Aplicar sólo M1. Aplicar sólo M3.
 - Probar movimientos usando hill climbing con restarts (similar a VND del paper):
 	-  mejor M1, sino mejor M2 (sampling con $\rho=0.05$)
-	- primera mejora M1 (límite no improvements=100)
+	- primera mejora M1 (límite no improvements)
 - Comparar **promedios** como en gráfico (10 corridas por instancia).
 - Leer papers:
    - [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
@@ -274,11 +274,11 @@ La **promesa** de un elemento tiene que ver con:
 
 Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC00MT
-g3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLTEyNDc4NzYy
-MTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtOD
-k1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1
-LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMz
-cxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIy
+eyJoaXN0b3J5IjpbLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMT
+gzOTM4NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2
+MzYsLTEyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC
+0xNzMxNzEzMSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4
+NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNT
+UxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQz
 XX0=
 -->
