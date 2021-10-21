@@ -245,7 +245,13 @@ We delete the top η × |A| least frequently moved items from A and add randomly
    - [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
    - [Multistart solution-based tabu search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoASC2021.pdf)
 
-## Generar agrupaciones de items
+## Generar agrupaciones de items (pre-proceso)
+
+Una agrupación de items: **grupo** no es más que un conjunto de items y la unión de sus elementos.
+Su beneficio es la suma de los beneficios de sus items.
+Su peso es la suma de pesos de sus elementos.
+Un grupo es interestante de generar"
+
 
 
 ## Dual solving
@@ -280,11 +286,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQxMjQ4NzgsLTEyNDc4NzYyMTQsLT
-E1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1NzI4
-MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3ND
-cyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4
-MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xOD
-E3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIx
-MV19
+eyJoaXN0b3J5IjpbMjEzODY4MzQyOCwtMTI0Nzg3NjIxNCwtMT
+UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
+NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
+I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
+LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
+czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
+XX0=
 -->
