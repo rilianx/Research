@@ -1,3 +1,93 @@
+## Paper
+
+We show that while CPLEX (version 12.8) can find the optimal solutions for the 6 small benchmark instances (with 85 to 100 items and elements) based on a simple 0/1 linear programming model, it fails to exactly solve the other 24 instances. These outcomes provide strong motivations for developing effective approximate algorithms to handle problem
+
+**The SUKP algorithm**
+![image](https://i.imgur.com/CdxOdHM.png)
+
+Algorithm in two phases:
+- The intensification-oriented component (first phase) employs a combined neighborhood search strategy to discover local optimal solutions (**VND and TS**)
+- The diversification-oriented component (second phase) helps the search process to explore unvisited regions. (**Frequency based perturbation**)
+
+**Construction**
+The algorithm starts from a feasible initial solution that is obtained with a **greedy construction procedure**.
+Compute the profit ratio for items and put them in order until the capacity is reached.
+
+**Exploration**
+Variable neighborhood descent (VND) search to locate a new local optimal solution within two neighborhoods (N1 and N2) and then runs a tabu search (TS) to explore additional local optima with a different neighborhood N3.
+
+![image](https://i.imgur.com/J9G85dP.png)
+
+The VND procedure exploits, with the best-improvement strategy, two neighborhoods N1 and N2 to locate a local optimal solution. Then from this solution, the TS procedure is triggered to examine additional local optimal solutions with another neighborhood N3.
+
+**The VND algorithm**
+Selecciona el mejor movimiento del vecindario N1.
+Selecciona el mejor movimiento para una muestra del vecindario N2. Elementos de N2 son seleccionados con probabilidad $\rho$.
+Repite mientras mejora la solución.
+![image](https://i.imgur.com/Oc4qf9v.png)
+==Idea: basarse en un sampling de movidas y escoger la mejor.==
+
+**Tabu Search**
+Se mueve hacia el mejor vecino sin importar que sea peor.
+En la lista tabu se almacenan items involucrados en los últimos swaps.
+
+![image](https://i.imgur.com/4qi22dr.png)
+
+
+**Neighbourhoods**
+Consisten en eliminar q items de la mochila y agregar p items nuevos.
+N1: $(q,p) \in  \{(0,1);(1,1)\}$
+N2: $(q,p) \in  \{(2,1);(1,2);(2,2)\}$
+N3: $(q,p) \in  \{(0,1);)(1,0);(1,1)\}$
+
+**Parameters**
+![image](https://i.imgur.com/dgKnkhY.png)
+
+Number of iterations ($T_i$) for item $i$ in tabu list:
+![image](https://i.imgur.com/5SUToOX.png)
+
+
+
+**Escape**
+
+Frequency-based perturbation to displace the search to an unexplored region.
+
+The algorithm keeps track of the **frequencies that each item has been displaced** and uses the frequency information to modify (perturb) the incumbent solution.
+
+We delete the top η × |A| least frequently moved items from A and add randomly new items until the knapsack capacity is reached.
+
+
+**Analysis of parameters**
+![image](https://i.imgur.com/GJBE7pC.png)
+
+**Observaciones**
+
+- Si bien VND con $\rho=0.05$ ofrece los mejores resultados, usar un sólo vecindario no estan malo (peor en 3/30 instancias).
+- Lo mismo ocurre con la perturbación. Hacer un restart empeora en 2/30 instancias (las mismas instancias que antes).
+
+
+
+----
+
+**Ideas y observaciones:**
+- N1 "tiene sentido" cuando eliminar 1 item *implica eliminar al menos un elemento*. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
+- Se podrían proponer los siguientes movimientos análogos:
+	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items.
+	- M2 $(q,p) \in  \{(2,1);(1,2);(2,2)\}$: Misma idea.
+	- M2 $(q,p) \in  \{(0,1);(1,0);(1,1)\}$: Misma idea.
+- Probar movimientos usando SA:
+	- Aplicar M1 o M2 con 50%. Aplicar sólo M1. Aplicar sólo M3.
+- Probar movimientos usando hill climbing con restarts (similar a VND del paper):
+	-  mejor M1, sino mejor M2 (sampling con $\rho=0.05$)
+	- primera mejora M1 (límite no improvements)
+- Comparar **promedios** como en gráfico (10 corridas por instancia).
+- Leer papers:
+   - [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
+   - [Multistart solution-based tabu search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoASC2021.pdf)
+
+
+----
+
 ### TODO
 
 - Dejar los parámetros como entrada por comando al algoritmo
@@ -176,97 +266,8 @@ max(beneficio del item/costo del item)
 
 
 
-## Paper
-
-We show that while CPLEX (version 12.8) can find the optimal solutions for the 6 small benchmark instances (with 85 to 100 items and elements) based on a simple 0/1 linear programming model, it fails to exactly solve the other 24 instances. These outcomes provide strong motivations for developing effective approximate algorithms to handle problem
-
-**The SUKP algorithm**
-![image](https://i.imgur.com/CdxOdHM.png)
-
-Algorithm in two phases:
-- The intensification-oriented component (first phase) employs a combined neighborhood search strategy to discover local optimal solutions (**VND and TS**)
-- The diversification-oriented component (second phase) helps the search process to explore unvisited regions. (**Frequency based perturbation**)
-
-**Construction**
-The algorithm starts from a feasible initial solution that is obtained with a **greedy construction procedure**.
-Compute the profit ratio for items and put them in order until the capacity is reached.
-
-**Exploration**
-Variable neighborhood descent (VND) search to locate a new local optimal solution within two neighborhoods (N1 and N2) and then runs a tabu search (TS) to explore additional local optima with a different neighborhood N3.
-
-![image](https://i.imgur.com/J9G85dP.png)
-
-The VND procedure exploits, with the best-improvement strategy, two neighborhoods N1 and N2 to locate a local optimal solution. Then from this solution, the TS procedure is triggered to examine additional local optimal solutions with another neighborhood N3.
-
-**The VND algorithm**
-Selecciona el mejor movimiento del vecindario N1.
-Selecciona el mejor movimiento para una muestra del vecindario N2. Elementos de N2 son seleccionados con probabilidad $\rho$.
-Repite mientras mejora la solución.
-![image](https://i.imgur.com/Oc4qf9v.png)
-==Idea: basarse en un sampling de movidas y escoger la mejor.==
-
-**Tabu Search**
-Se mueve hacia el mejor vecino sin importar que sea peor.
-En la lista tabu se almacenan items involucrados en los últimos swaps.
-
-![image](https://i.imgur.com/4qi22dr.png)
-
-
-**Neighbourhoods**
-Consisten en eliminar q items de la mochila y agregar p items nuevos.
-N1: $(q,p) \in  \{(0,1);(1,1)\}$
-N2: $(q,p) \in  \{(2,1);(1,2);(2,2)\}$
-N3: $(q,p) \in  \{(0,1);)(1,0);(1,1)\}$
-
-**Parameters**
-![image](https://i.imgur.com/dgKnkhY.png)
-
-Number of iterations ($T_i$) for item $i$ in tabu list:
-![image](https://i.imgur.com/5SUToOX.png)
-
-
-
-**Escape**
-
-Frequency-based perturbation to displace the search to an unexplored region.
-
-The algorithm keeps track of the **frequencies that each item has been displaced** and uses the frequency information to modify (perturb) the incumbent solution.
-
-We delete the top η × |A| least frequently moved items from A and add randomly new items until the knapsack capacity is reached.
-
-
-**Analysis of parameters**
-![image](https://i.imgur.com/GJBE7pC.png)
-
-**Observaciones**
-
-- Si bien VND con $\rho=0.05$ ofrece los mejores resultados, usar un sólo vecindario no estan malo (peor en 3/30 instancias).
-- Lo mismo ocurre con la perturbación. Hacer un restart empeora en 2/30 instancias (las mismas instancias que antes).
-
-
-
-----
-
-**Ideas y observaciones:**
-- N1 "tiene sentido" cuando eliminar 1 item *implica eliminar al menos un elemento*. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
-- Se podrían proponer los siguientes movimientos análogos:
-	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items.
-	- M2 $(q,p) \in  \{(2,1);(1,2);(2,2)\}$: Misma idea.
-	- M2 $(q,p) \in  \{(0,1);(1,0);(1,1)\}$: Misma idea.
-- Probar movimientos usando SA:
-	- Aplicar M1 o M2 con 50%. Aplicar sólo M1. Aplicar sólo M3.
-- Probar movimientos usando hill climbing con restarts (similar a VND del paper):
-	-  mejor M1, sino mejor M2 (sampling con $\rho=0.05$)
-	- primera mejora M1 (límite no improvements)
-- Comparar **promedios** como en gráfico (10 corridas por instancia).
-- Leer papers:
-   - [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
-   - [Multistart solution-based tabu search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoASC2021.pdf)
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDA3NzU0MCwtMTI0Nzg3NjIxNCwtMT
+eyJoaXN0b3J5IjpbLTk0MTQ0NzE1OCwtMTI0Nzg3NjIxNCwtMT
 UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
 NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
 I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
