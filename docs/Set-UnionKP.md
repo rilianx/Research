@@ -256,16 +256,18 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 	-  mejor M1, sino mejor M2 (sampling con $\rho=0.05$)
 	- primera mejora M1 (límite no improvements)
 - Comparar **promedios** como en gráfico (10 corridas por instancia).
-- Leer paper [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
+- Leer papers:
+   - [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
+   - [Multistart solution-based tabu search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoASC2021.pdf)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MzU0ODksLTEyNDc4NzYyMTQsLTE1MT
-M5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1NzI4MDQs
-MjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3NDcyND
-E2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4MSw1
-MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xODE3Mz
-U0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIxMV19
-
+eyJoaXN0b3J5IjpbOTY4MTkxMzg5LC0xMjQ3ODc2MjE0LC0xNT
+EzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0
+LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3Mj
+QxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0ODEs
+NTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxNDQxMDEyMiwtMTgxNz
+M1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMxLC01MDk3MjkyMTFd
+fQ==
 -->
