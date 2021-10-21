@@ -254,6 +254,7 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 - El grupo con mejor ratio es probablemente el grupo de todos los items?. Sin embargo no cabe en la mochila.
 - Los items de un grupo deberían compartir elementos para ser interesantes.
 - Una vez creados, los grupos se pueden usar como si fueran items en cualquier algoritmo.
+- Incluso se podría hacer un algoritmo que fuera creando grupos iterativamente uniendo grupos hasta alcanzar el tamaño
 
 
 
@@ -289,11 +290,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTcxMTYzNiwtMTI0Nzg3NjIxNCwtMT
-UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
-NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
-I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
-LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
-czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
+eyJoaXN0b3J5IjpbMTEwNTkxMjk0NiwtNTgxNzExNjM2LC0xMj
+Q3ODc2MjE0LC0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcx
+MzEsLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMj
+kxNTMwNSw5NzQ3MjQxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0
+NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxND
+QxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMx
 XX0=
 -->
