@@ -247,17 +247,19 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 Ideas y observaciones:
 - N1 "tiene sentido" cuando eliminar 1 item implica eliminar al menos un elemento. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
 - Se podrían proponer los siguientes movimientos análogos:
-	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se coloca
-	- M2: Se elimina elemento contenido en 2 items + items asociados (y cajas adicionales si es necesario). Se vuelve a llenar.
+	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items.
+	- M2 $(q,p) \in  \{(2,1);(1,2);(2,2)\}$: Misma idea.
+- Probar movimiento:
+	- S
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM4MzIwOTIsLTEyNDc4NzYyMTQsLT
-E1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1NzI4
-MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1MzA1LDk3ND
-cyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0LDUzMzcxNDQ4
-MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0NDEwMTIyLC0xOD
-E3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzEsLTUwOTcyOTIx
-MV19
+eyJoaXN0b3J5IjpbMTAyMTEyMTIzMCwtMTI0Nzg3NjIxNCwtMT
+UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
+NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
+I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
+LDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MT
+czNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzczMSwtNTA5NzI5MjEx
+XX0=
 -->
