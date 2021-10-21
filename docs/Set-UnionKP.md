@@ -269,31 +269,17 @@ Algoritmo:
 
 **¿Cómo seleccionar elementos/items**
 
-El beneficio de un elemento tiene que ver con:
+La **promesa** de un elemento tiene que ver con:
 - El beneficio de los items que lo contienen
-- 
-
-
-Colocar primero cajas prometedoras o corregir beneficio/costo de items.
-
-Beneficio de un elemento: 
-
-max(beneficio del item/costo del item)
-**tiebreak:** max cost
-
-20 80: 100  (b/c = 1)
-40 40 80: 170    (b/c = 1.0625 )
-
-20: 100  (b/c = 5)
-40 40: 170    (b/c = 2.125)
-
+- Cuanto falta para materializar los items que lo contienen
+- Su costo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwODIzNzU0LC01ODE3MTE2MzYsLTEyND
-c4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEz
-MSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOT
-E1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0
-LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0ND
-EwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzFd
-fQ==
+eyJoaXN0b3J5IjpbMTg5NTM5ODIzMSwtNTgxNzExNjM2LC0xMj
+Q3ODc2MjE0LC0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcx
+MzEsLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMj
+kxNTMwNSw5NzQ3MjQxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0
+NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxND
+QxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMx
+XX0=
 -->
