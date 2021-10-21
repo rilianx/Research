@@ -225,11 +225,9 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 - Si bien VND con $\rho=0.05$ ofrece los mejores resultados, usar un sólo vecindario no estan malo (peor en 3/30 instancias).
 - Lo mismo ocurre con la perturbación. Hacer un restart empeora en 2/30 instancias (las mismas instancias que antes).
 
-
-
 ----
 
-**Ideas y observaciones:**
+## Ideas y observaciones
 - N1 "tiene sentido" cuando eliminar 1 item *implica eliminar al menos un elemento*. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
 - Se podrían proponer los siguientes movimientos análogos:
 	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items.
@@ -276,11 +274,11 @@ La **promesa** de un elemento tiene que ver con:
 
 Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA3NzU1NDMsLTU4MTcxMTYzNiwtMT
-I0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3
-MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1Mj
-I5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4
-NDQsNTMzNzE0NDgxLDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMT
-Q0MTAxMjIsLTE4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzcz
-MV19
+eyJoaXN0b3J5IjpbNjg0NTMwNTk5LC01ODE3MTE2MzYsLTEyND
+c4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEz
+MSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOT
+E1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0
+LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0ND
+EwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzFd
+fQ==
 -->
