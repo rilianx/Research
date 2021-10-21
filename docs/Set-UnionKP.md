@@ -247,10 +247,11 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 
 ## Generar agrupaciones de items (pre-proceso)
 
-Una agrupación de items: **grupo** no es más que un conjunto de items y la unión de sus elementos.
-Su beneficio es la suma de los beneficios de sus items.
-Su peso es la suma de pesos de sus elementos.
-Un grupo es interestante de generar"
+- Una agrupación de items: **grupo** no es más que un conjunto de items y la unión de sus elementos.
+- Su beneficio es la suma de los beneficios de sus items.
+- Su peso es la suma de pesos de sus elementos.
+- Un grupo es *interestante de generar* cuando su ratio beneficio/costo es grande y cabe en la mochila.
+- El grupo con mejor ratio es probablemente el grupo de todos los items. Sin em
 
 
 
@@ -286,7 +287,7 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODY4MzQyOCwtMTI0Nzg3NjIxNCwtMT
+eyJoaXN0b3J5IjpbLTU5MTg1MDA2OSwtMTI0Nzg3NjIxNCwtMT
 UxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3Mjgw
 NCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0Nz
 I0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgx
