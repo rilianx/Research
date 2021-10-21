@@ -274,12 +274,13 @@ La **promesa** de un elemento tiene que ver con:
 - Cuanto falta para materializar los items que lo contienen
 - Su costo
 
+Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTM5ODIzMSwtNTgxNzExNjM2LC0xMj
-Q3ODc2MjE0LC0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcx
-MzEsLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMj
-kxNTMwNSw5NzQ3MjQxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0
-NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxND
-QxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMx
-XX0=
+eyJoaXN0b3J5IjpbLTE0NzA3NzU1NDMsLTU4MTcxMTYzNiwtMT
+I0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3
+MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1Mj
+I5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4
+NDQsNTMzNzE0NDgxLDUzMzcxNDQ4MSw3MTQ1NzgyNDMsLTIwMT
+Q0MTAxMjIsLTE4MTczNTQ1MDYsNTIyNjM0Nzk5LDM3OTkyNzcz
+MV19
 -->
