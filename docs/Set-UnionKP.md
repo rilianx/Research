@@ -230,7 +230,7 @@ We delete the top η × |A| least frequently moved items from A and add randomly
 ## Ideas y observaciones
 - N1 "tiene sentido" cuando eliminar 1 item *implica eliminar al menos un elemento*. Es decir cuando hay cajas que sólo pertenecen al item que se desea eliminar.
 - Se podrían proponer los siguientes movimientos análogos:
-	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items.
+	- M1 $(q,p) \in  \{(0,1);(1,1)\}$: Se elimina elemento contenido en q item + q items asociados (y cajas adicionales si es necesario). Se colocan p items que caben en la mochila y, en conjunto, maximizan beneficio.
 	- M2 $(q,p) \in  \{(2,1);(1,2);(2,2)\}$: Misma idea.
 	- M3 $(q,p) \in  \{(0,1);(1,0);(1,1)\}$: Misma idea.
 - Probar movimientos usando SA:
@@ -274,11 +274,11 @@ La **promesa** de un elemento tiene que ver con:
 
 Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MT
-cxMTYzNiwtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgy
-NjksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOT
-c5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMjAzMjgw
-LDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxNDQ4MSw3MTQ1Nz
-gyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1MDYsNTIyNjM0Nzk5
-XX0=
+eyJoaXN0b3J5IjpbLTExODM5Mzg3MjMsLTQxODcxODcxNCw2OD
+Q1MzA1OTksLTU4MTcxMTYzNiwtMTI0Nzg3NjIxNCwtMTUxMzk4
+MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3MjgwNCwyNT
+AxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYw
+LC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMz
+cxNDQ4MSw3MTQ1NzgyNDMsLTIwMTQ0MTAxMjIsLTE4MTczNTQ1
+MDZdfQ==
 -->
