@@ -245,16 +245,15 @@ We delete the top η × |A| least frequently moved items from A and add randomly
    - [Kernel based Tabu Search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoESWA2020.pdf)
    - [Multistart solution-based tabu search for the Set-Union Knapsack Problem](http://www.info.univ-angers.fr/~hao/papers/WeiHaoASC2021.pdf)
 
-## Generar agrupaciones de items (pre-proceso)
+## Generar agrupaciones de items (pre-proceso?)
 
 - Una agrupación de items: **grupo** no es más que un conjunto de items y la unión de sus elementos.
 - Su beneficio es la suma de los beneficios de sus items.
 - Su peso es la suma de pesos de sus elementos.
 - Un grupo es *interesante de generar* cuando su ratio beneficio/costo es grande y cabe en la mochila.
-- El grupo con mejor ratio es probablemente el grupo de todos los items?. Sin embargo no cabe en la mochila.
 - Los items de un grupo deberían compartir elementos para ser interesantes.
 - Una vez creados, los grupos se pueden usar como si fueran items en cualquier algoritmo.
-- Incluso se podría hacer un algoritmo que fuera creando grupos iterativamente uniendo grupos hasta alcanzar el tamaño
+- Incluso se podría hacer un algoritmo que fuera creando grupos iterativamente uniendo grupos hasta alcanzar el tamaño de la mochila.
 
 
 
@@ -290,11 +289,11 @@ max(beneficio del item/costo del item)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTkxMjk0NiwtNTgxNzExNjM2LC0xMj
-Q3ODc2MjE0LC0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcx
-MzEsLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMj
-kxNTMwNSw5NzQ3MjQxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0
-NCw1MzM3MTQ0ODEsNTMzNzE0NDgxLDcxNDU3ODI0MywtMjAxND
-QxMDEyMiwtMTgxNzM1NDUwNiw1MjI2MzQ3OTksMzc5OTI3NzMx
-XX0=
+eyJoaXN0b3J5IjpbMzIwODIzNzU0LC01ODE3MTE2MzYsLTEyND
+c4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEz
+MSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOT
+E1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0ODQ0
+LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQzLC0yMDE0ND
+EwMTIyLC0xODE3MzU0NTA2LDUyMjYzNDc5OSwzNzk5Mjc3MzFd
+fQ==
 -->
