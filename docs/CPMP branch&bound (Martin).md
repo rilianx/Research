@@ -7,9 +7,8 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 ### TODO
 
 - ==Martín: Incorporar nuevo LB (LBATman) al solver==
-- ==Ignacio: Revisar LBATman, comparar con LB estado-del-arte==
 - Comparar stack vs pqueue (profe) --> [results](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=886426566)
-- ==Ignacio:Juntar stacks==
+- ==Ignacio: LBarman: Juntar stacks==
 - Cambiar vectores por deque
 
 
@@ -237,11 +236,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDcyODk1NDQsMTU5MzU2MDYwNCwtMz
-I2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0OTc4OCwxNDI1NzMy
-MzIxLDEyNzE1MTYxNjUsNTU0NDQ3ODIzLC0xMzYyMjM1Mjc3LC
-03ODczMjk4MjksNzk2MjE3NzY1LC0xNDE4NDM0MDU4LC0xMzc0
-NDI1OTk1LC0xMzQyMTgwOTU4LDQzMDMyOTQ5Miw2NjMwMDI3Mz
-ksMjA4NDkzMTEzNSwtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLTI1
-MDU3MjY2NF19
+eyJoaXN0b3J5IjpbLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMT
+U5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0
+OTc4OCwxNDI1NzMyMzIxLDEyNzE1MTYxNjUsNTU0NDQ3ODIzLC
+0xMzYyMjM1Mjc3LC03ODczMjk4MjksNzk2MjE3NzY1LC0xNDE4
+NDM0MDU4LC0xMzc0NDI1OTk1LC0xMzQyMTgwOTU4LDQzMDMyOT
+Q5Miw2NjMwMDI3MzksMjA4NDkzMTEzNSwtMjE0MzU3MjUzNSw1
+NzU3NzI3NzRdfQ==
 -->
