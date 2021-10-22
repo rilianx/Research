@@ -13,6 +13,11 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 - Cambiar vectores por deque
 
 
+### Compilation
+
+`g++ Greedy.cpp Layout.cpp Bsg.cpp lbatman.cpp main_cpmp.cpp -o feg  -std=c++11`
+
+
 ### Ejecución
 
 Compilar:
@@ -20,6 +25,9 @@ Compilar:
 
 Correr:
 `.\feg 5 ..\Instancias\CVS\3-3\data3-3-3.dat 0 --FERG`
+
+Set of instances:
+`for i in $(ls ../Instancias/CVS/5-5/data5-5-*.dat); do ./feg.exe 5 $i; done`
 
 ### Observaciones
 
@@ -229,11 +237,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMD
-Y2NDcwOTcsLTkwMzk0OTc4OCwxNDI1NzMyMzIxLDEyNzE1MTYx
-NjUsNTU0NDQ3ODIzLC0xMzYyMjM1Mjc3LC03ODczMjk4MjksNz
-k2MjE3NzY1LC0xNDE4NDM0MDU4LC0xMzc0NDI1OTk1LC0xMzQy
-MTgwOTU4LDQzMDMyOTQ5Miw2NjMwMDI3MzksMjA4NDkzMTEzNS
-wtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLTI1MDU3MjY2NCwtMTUx
-MzYwNzY5XX0=
+eyJoaXN0b3J5IjpbLTEyNDcyODk1NDQsMTU5MzU2MDYwNCwtMz
+I2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0OTc4OCwxNDI1NzMy
+MzIxLDEyNzE1MTYxNjUsNTU0NDQ3ODIzLC0xMzYyMjM1Mjc3LC
+03ODczMjk4MjksNzk2MjE3NzY1LC0xNDE4NDM0MDU4LC0xMzc0
+NDI1OTk1LC0xMzQyMTgwOTU4LDQzMDMyOTQ5Miw2NjMwMDI3Mz
+ksMjA4NDkzMTEzNSwtMjE0MzU3MjUzNSw1NzU3NzI3NzQsLTI1
+MDU3MjY2NF19
 -->
