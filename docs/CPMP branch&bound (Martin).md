@@ -1,15 +1,16 @@
 CPMP branch & bound
 ===
 Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view). [Resultados](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=376661203)
+ [results2](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=886426566)
 
 **Plan:** Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
-### TODO
+### TODO (optimizar LBatman)
 
-- ==Martín: Incorporar nuevo LB (LBATman) al solver==
-- Comparar stack vs pqueue (profe) --> [results](https://docs.google.com/spreadsheets/d/1DOiAi34tXVthcDbHKlTgCApZ_v8UQxaq/edit#gid=886426566)
 - ==Ignacio: LBarman: Juntar stacks==
 - Cambiar vectores por deque
+- ¿Cómo mejorar LBatman?
+- Optimizar código
 
 
 ### Compilation
@@ -236,11 +237,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMT
-U5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0
-OTc4OCwxNDI1NzMyMzIxLDEyNzE1MTYxNjUsNTU0NDQ3ODIzLC
-0xMzYyMjM1Mjc3LC03ODczMjk4MjksNzk2MjE3NzY1LC0xNDE4
-NDM0MDU4LC0xMzc0NDI1OTk1LC0xMzQyMTgwOTU4LDQzMDMyOT
-Q5Miw2NjMwMDI3MzksMjA4NDkzMTEzNSwtMjE0MzU3MjUzNSw1
-NzU3NzI3NzRdfQ==
+eyJoaXN0b3J5IjpbLTM0NDgwNjAwNiwtMTM0Mjc0NDM5NywtMT
+I0NzI4OTU0NCwxNTkzNTYwNjA0LC0zMjY1MTg0NjQsLTIwNjY0
+NzA5NywtOTAzOTQ5Nzg4LDE0MjU3MzIzMjEsMTI3MTUxNjE2NS
+w1NTQ0NDc4MjMsLTEzNjIyMzUyNzcsLTc4NzMyOTgyOSw3OTYy
+MTc3NjUsLTE0MTg0MzQwNTgsLTEzNzQ0MjU5OTUsLTEzNDIxOD
+A5NTgsNDMwMzI5NDkyLDY2MzAwMjczOSwyMDg0OTMxMTM1LC0y
+MTQzNTcyNTM1XX0=
 -->
