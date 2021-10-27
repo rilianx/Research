@@ -3,9 +3,6 @@ Predicting student performance in computing courses based on programming behavio
 
 ### TODO
 
-- Agregar Keywords
-- Seguir revisando y enviar
-- Comentar en alguna parte que:  each semester' course has specific features that may affect in the global behaviour and performance of the students, e.g., the time period of the laboratory that may vary, the level of difficulty of the exams, the tips that the lab assistant gave to students in a particular semester.
 - ==Mostrar qué ocurre si quitamos métricas de autonomía y motivación de modelos.==
 [jupyter](http://localhost:8888/lab/tree/Documents/research_on_github/docs/Predicci%C3%B3n%20actual/Paper/Predict2.ipynb)
 
@@ -190,11 +187,11 @@ Los datos relacionados al desempeño del estudiante en evaluaciones sumativas (*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTU4OTkwMCwxMDIzMzQxNzUzLC0xNz
-g4MzUzMDA0LDE1ODI0OTg5OTQsLTIwMTc0OTU0NTcsMzA3NDY3
-MDk1LDIwMzk0ODgzNzksMTk0OTEwMTU5NCwtMTg4MjE2NzM5MC
-wtOTQxNDA1NDIsNjY1NTk3MDU4LDE3MjQ5MTk1NzksLTE2MDYz
-NTQ3MiwxODg0Mjk0NzIwLDgyNzc2NTk2NywtNDY4ODc4OTM3LD
-kyNDc4MDUwOCwtMTcxMzQ5NDkwMSwzMTk2MjE1NjUsLTE3ODYy
-NjE0MjVdfQ==
+eyJoaXN0b3J5IjpbNjYzMTE3NTY1LDE1MTE1ODk5MDAsMTAyMz
+M0MTc1MywtMTc4ODM1MzAwNCwxNTgyNDk4OTk0LC0yMDE3NDk1
+NDU3LDMwNzQ2NzA5NSwyMDM5NDg4Mzc5LDE5NDkxMDE1OTQsLT
+E4ODIxNjczOTAsLTk0MTQwNTQyLDY2NTU5NzA1OCwxNzI0OTE5
+NTc5LC0xNjA2MzU0NzIsMTg4NDI5NDcyMCw4Mjc3NjU5NjcsLT
+Q2ODg3ODkzNyw5MjQ3ODA1MDgsLTE3MTM0OTQ5MDEsMzE5NjIx
+NTY1XX0=
 -->
