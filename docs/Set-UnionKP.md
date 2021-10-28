@@ -1,8 +1,12 @@
 ### TODO
 
-- Dejar los parámetros como entrada por comando al algoritmo
-- Implementar SA con restart
-- Agrupar items por similaridad y analizar lo que se obtiene
+Christopher
+- Corrigiendo temperatura (SA)
+- Terminar el tema de los movimientos nuevos.
+
+Martin 
+- Probar agrupación de items
+
 
 **Experimentos**
 
@@ -272,11 +276,11 @@ La **promesa** de un elemento tiene que ver con:
 
 Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTk3NDgwMCwtMTE4MzkzODcyMyw2MT
-YxMTg3MjksLTExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1
-OTksLTU4MTcxMTYzNiwtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MC
-wyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3
-NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0xNT
-YwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxNDQ4
-MV19
+eyJoaXN0b3J5IjpbLTE0MDY4ODIzODEsLTMzMTk3NDgwMCwtMT
+E4MzkzODcyMyw2MTYxMTg3MjksLTExODM5Mzg3MjMsLTQxODcx
+ODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNiwtMTI0Nzg3NjIxNC
+wtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3
+MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOT
+c0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0
+NDgxXX0=
 -->
