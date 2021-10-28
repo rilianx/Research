@@ -7,6 +7,8 @@ Christopher
 Martin 
 - Probar agrupación de items
 
+Victor
+- Probar greedy con elementos en vez de items
 
 **Experimentos**
 
@@ -276,11 +278,11 @@ La **promesa** de un elemento tiene que ver con:
 
 Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY4ODIzODEsLTMzMTk3NDgwMCwtMT
-E4MzkzODcyMyw2MTYxMTg3MjksLTExODM5Mzg3MjMsLTQxODcx
-ODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNiwtMTI0Nzg3NjIxNC
-wtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3
-MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOT
-c0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0
-NDgxXX0=
+eyJoaXN0b3J5IjpbMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMT
+gzOTM4NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4
+NzE0LDY4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3ODc2MjE0LC
+0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcy
+ODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5Nz
+Q3MjQxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0
+ODFdfQ==
 -->
