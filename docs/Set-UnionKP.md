@@ -3,8 +3,6 @@
 - Dejar los parámetros como entrada por comando al algoritmo
 - Implementar SA con restart
 - Agrupar items por similaridad y analizar lo que se obtiene
-- ==Ignacio: leer paper; pensar estrategia==
-- Releer paper en buscar de técnicas clave que podrían mejorar el desempeño.
 
 **Experimentos**
 
@@ -274,11 +272,11 @@ La **promesa** de un elemento tiene que ver con:
 
 Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMT
-gzOTM4NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2
-MzYsLTEyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC
-0xNzMxNzEzMSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4
-NiwxNTIyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNT
-UxNzA0ODQ0LDUzMzcxNDQ4MSw1MzM3MTQ0ODEsNzE0NTc4MjQz
-XX0=
+eyJoaXN0b3J5IjpbLTMzMTk3NDgwMCwtMTE4MzkzODcyMyw2MT
+YxMTg3MjksLTExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1
+OTksLTU4MTcxMTYzNiwtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MC
+wyODgzNTgyNjksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3
+NjAsMTIxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0xNT
+YwMjAzMjgwLDE1NTE3MDQ4NDQsNTMzNzE0NDgxLDUzMzcxNDQ4
+MV19
 -->
