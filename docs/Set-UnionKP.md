@@ -277,12 +277,17 @@ La **promesa** de un elemento tiene que ver con:
 - Su costo
 
 Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una suma ponderada de los beneficios de los items que lo contienen penalizada por cuanto falta para llenarlos.
+
+**Promesa**
+
+$$P(e)=\sum_{i \in \mathcal{I}}p_ib_i$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMT
-gzOTM4NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4
-NzE0LDY4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3ODc2MjE0LC
-0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcy
-ODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5Nz
-Q3MjQxNjAsLTE1NjAyMDMyODAsMTU1MTcwNDg0NCw1MzM3MTQ0
-ODFdfQ==
+eyJoaXN0b3J5IjpbLTI2MDI4MTc1OSwxNzA4OTM0MTUwLC0zMz
+E5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4
+NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLT
+EyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMx
+NzEzMSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNT
+IyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0
+ODQ0XX0=
 -->
