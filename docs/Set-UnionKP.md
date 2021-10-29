@@ -280,16 +280,16 @@ Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una su
 
 **Promesa**
 
-l$$P(e)=\sum_{i \in \mathcal{I}}p_ib_i$$
+$$V(s)=\sum_{i \in \mathcal{I}}p_ib_i$$
 
-La promesa de un elemento $e$ 
+El valor de un estado se podría estimar sumando los beneficios de los items 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjgwNjAzLDE3MDg5MzQxNTAsLTMzMT
-k3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLTExODM5Mzg3
-MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNiwtMT
-I0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3
-MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1Mj
-I5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4
-NDRdfQ==
+eyJoaXN0b3J5IjpbLTYwMTE4MDU0OSwxNzA4OTM0MTUwLC0zMz
+E5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4
+NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLT
+EyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMx
+NzEzMSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNT
+IyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0
+ODQ0XX0=
 -->
