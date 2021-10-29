@@ -283,14 +283,14 @@ Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una su
 $$V(s)=\sum_{i \in \mathcal{I}}p_ib_i$$
 
 El valor de un estado se podría estimar sumando los beneficios de los items $i$, multiplicados por la probabilidad de colocar este item en la mochila.
-
 Se me ocurre que la probabilidad se podría estimar usando una función como esta:
 
 ![image](https://i.imgur.com/f5ju1KP.png)
 
-Entonces se podría escoger el elemento que una vez colocado maximice 
+Ojo que si el costo restante es 0, $p_i=1$.
+Entonces se podría escoger el elemento que una vez colocado maximice el valor del estado.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzY0NzM4NCwxNzY5MTQwODg5LC05MD
+eyJoaXN0b3J5IjpbMTA0NDYwNzEzNiwxNzY5MTQwODg5LC05MD
 I2MTkwMTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4
 NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4NzE0LD
 Y4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3ODc2MjE0LC0xNTEz
