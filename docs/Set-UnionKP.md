@@ -280,14 +280,16 @@ Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una su
 
 **Promesa**
 
-$$P(e)=\sum_{i \in \mathcal{I}}p_ib_i$$
+l$$P(e)=\sum_{i \in \mathcal{I}}p_ib_i$$
+
+La promesa de un elemento $e$ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDI4MTc1OSwxNzA4OTM0MTUwLC0zMz
-E5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4
-NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLT
-EyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMx
-NzEzMSwtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNT
-IyOTE1MzA1LDk3NDcyNDE2MCwtMTU2MDIwMzI4MCwxNTUxNzA0
-ODQ0XX0=
+eyJoaXN0b3J5IjpbLTMzMjgwNjAzLDE3MDg5MzQxNTAsLTMzMT
+k3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLTExODM5Mzg3
+MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNiwtMT
+I0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3
+MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1Mj
+I5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMjAzMjgwLDE1NTE3MDQ4
+NDRdfQ==
 -->
