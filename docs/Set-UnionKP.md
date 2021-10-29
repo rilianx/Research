@@ -282,10 +282,12 @@ Algo como beneficio esperado/costo, donde el beneficio esperado puede ser una su
 
 $$V(s)=\sum_{i \in \mathcal{I}}p_ib_i$$
 
-El valor de un estado se podría estimar sumando los beneficios de los items 
+El valor de un estado se podría estimar sumando los beneficios de los items $i$, multiplicados por la probabilidad de colocar este item en la mochila.
+
+La probabilidad se podría estimar 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTE4MDU0OSwxNzA4OTM0MTUwLC0zMz
+eyJoaXN0b3J5IjpbLTkwMjYxOTAxNCwxNzA4OTM0MTUwLC0zMz
 E5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4
 NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLT
 EyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMx
