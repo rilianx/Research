@@ -288,12 +288,13 @@ Se me ocurre que la probabilidad se podría estimar usando una función como est
 
 ![image](https://i.imgur.com/f5ju1KP.png)
 
+Entonces se podría escoger el elemento que una vez colocado maximice 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTE0MDg4OSwtOTAyNjE5MDE0LDE3MD
-g5MzQxNTAsLTMzMTk3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3
-MjksLTExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLT
-U4MTcxMTYzNiwtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgz
-NTgyNjksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMT
-IxOTc5MDg2LDE1MjI5MTUzMDUsOTc0NzI0MTYwLC0xNTYwMjAz
-MjgwXX0=
+eyJoaXN0b3J5IjpbLTIzNzY0NzM4NCwxNzY5MTQwODg5LC05MD
+I2MTkwMTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4
+NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4NzE0LD
+Y4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3ODc2MjE0LC0xNTEz
+OTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0LD
+I1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQx
+NjBdfQ==
 -->
