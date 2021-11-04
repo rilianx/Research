@@ -15,6 +15,10 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 ![image](https://i.imgur.com/BOHVmoL.png)
 Los factores c/b deberían ir disminuyendo. Para el caso de los 4s
 
+### Idea 2.0
+Algoritmo de cálculo de LB basado en B&B.
+1. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que mínimo gv, sea mayor o igual  
+
 
 
 ### Compilation
@@ -241,11 +245,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMjkzNTc4LC0xMTg2NzI1NDMzLDE1OT
-kxMDg2ODgsLTEwMDMzNjI4MDAsLTY3MjY4Mzk3LC0xMzQyNzQ0
-Mzk3LC0xMjQ3Mjg5NTQ0LDE1OTM1NjA2MDQsLTMyNjUxODQ2NC
-wtMjA2NjQ3MDk3LC05MDM5NDk3ODgsMTQyNTczMjMyMSwxMjcx
-NTE2MTY1LDU1NDQ0NzgyMywtMTM2MjIzNTI3NywtNzg3MzI5OD
-I5LDc5NjIxNzc2NSwtMTQxODQzNDA1OCwtMTM3NDQyNTk5NSwt
-MTM0MjE4MDk1OF19
+eyJoaXN0b3J5IjpbMTI2ODA4ODEwOCwzNjEyOTM1NzgsLTExOD
+Y3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2MjgwMCwtNjcyNjgz
+OTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMTU5MzU2MDYwNC
+wtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0OTc4OCwxNDI1
+NzMyMzIxLDEyNzE1MTYxNjUsNTU0NDQ3ODIzLC0xMzYyMjM1Mj
+c3LC03ODczMjk4MjksNzk2MjE3NzY1LC0xNDE4NDM0MDU4LC0x
+Mzc0NDI1OTk1XX0=
 -->
