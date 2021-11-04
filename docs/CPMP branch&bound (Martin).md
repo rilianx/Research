@@ -12,7 +12,7 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 - Cambiar vectores por deque --> empeora
 - LBat tiene problemas
 
-![image](https://i.imgur.com/99EL8oL.png)
+![image](https://i.imgur.com/BOHVmoL.png)
 
 
 
@@ -240,11 +240,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTcyODczMCwxNTk5MTA4Njg4LC0xMD
-AzMzYyODAwLC02NzI2ODM5NywtMTM0Mjc0NDM5NywtMTI0NzI4
-OTU0NCwxNTkzNTYwNjA0LC0zMjY1MTg0NjQsLTIwNjY0NzA5Ny
-wtOTAzOTQ5Nzg4LDE0MjU3MzIzMjEsMTI3MTUxNjE2NSw1NTQ0
-NDc4MjMsLTEzNjIyMzUyNzcsLTc4NzMyOTgyOSw3OTYyMTc3Nj
-UsLTE0MTg0MzQwNTgsLTEzNzQ0MjU5OTUsLTEzNDIxODA5NTgs
-NDMwMzI5NDkyXX0=
+eyJoaXN0b3J5IjpbLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMT
+AwMzM2MjgwMCwtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcy
+ODk1NDQsMTU5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOT
+csLTkwMzk0OTc4OCwxNDI1NzMyMzIxLDEyNzE1MTYxNjUsNTU0
+NDQ3ODIzLC0xMzYyMjM1Mjc3LC03ODczMjk4MjksNzk2MjE3Nz
+Y1LC0xNDE4NDM0MDU4LC0xMzc0NDI1OTk1LC0xMzQyMTgwOTU4
+LDQzMDMyOTQ5Ml19
 -->
