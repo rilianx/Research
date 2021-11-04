@@ -20,7 +20,7 @@ Algoritmo de cálculo de LB basado en B&B.
 
 1. Se selecciona un nodo
 2. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que el rango de gv cumpla con  a < gv <= b, con a,b 2 gv consecutivos.
-3. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items. No importa la cantidad de items que irá en cada stack ya que una vez colocados los items no se vuelven a mover. Cada alternativa genera una acción posible.
+3. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items. No importa la cantidad de items que irá en cada stack ya que una vez colocados los items no se vuelven a mover. Cada alternativa genera una acción posible. 
 4. Se generan nodos hijos aplicando las acciones al estado, se actualizan costos y se le pueden calcular lowerbounds.
 
 Un lowerbound se puede obtener fácilmente identificando el grupo que **maximice el mínimo costo**. Es decir un grupo que para ser colocado necesita que se retiren al menos LB items.
@@ -259,7 +259,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTQxNzExMCwxNTQ0NDkyNzEyLDE0NT
+eyJoaXN0b3J5IjpbMTYwNzkwMzUxNCwxNTQ0NDkyNzEyLDE0NT
 EwMTQ5OTgsMTg3MDM3NDA5NSwtMTc3NTYyNTU4OSwzNjEyOTM1
 NzgsLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2MjgwMC
 wtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMTU5
