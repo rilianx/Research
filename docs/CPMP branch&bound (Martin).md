@@ -27,6 +27,8 @@ Un lowerbound se puede obtener fácilmente identificando el super-grupo que **ma
 
 ### Ejemplo gráfico
 
+![image](https://docs.google.com/drawings/d/e/2PACX-1vSAaz6yMwWC0Y5Pm_nkcIl-gYtMZnAwHdx2SWQWCgQJyiAnQxNVdYjyBIQpV8EdokuWOJF4P2abUF7s/pub?w=1976&h=457)
+
 
 
 
@@ -260,11 +262,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzA1Mzg2LC01ODU5NjYxMCwxOTUzOD
-c5NjYxLDE1NjY2NjU1MTQsMTYxMDMwNzYxMywxNTQ0NDkyNzEy
-LDE0NTEwMTQ5OTgsMTg3MDM3NDA5NSwtMTc3NTYyNTU4OSwzNj
-EyOTM1NzgsLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2
-MjgwMCwtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1ND
-QsMTU5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkw
-Mzk0OTc4OF19
+eyJoaXN0b3J5IjpbLTEwODc3ODc1ODYsMTEwNzA1Mzg2LC01OD
+U5NjYxMCwxOTUzODc5NjYxLDE1NjY2NjU1MTQsMTYxMDMwNzYx
+MywxNTQ0NDkyNzEyLDE0NTEwMTQ5OTgsMTg3MDM3NDA5NSwtMT
+c3NTYyNTU4OSwzNjEyOTM1NzgsLTExODY3MjU0MzMsMTU5OTEw
+ODY4OCwtMTAwMzM2MjgwMCwtNjcyNjgzOTcsLTEzNDI3NDQzOT
+csLTEyNDcyODk1NDQsMTU5MzU2MDYwNCwtMzI2NTE4NDY0LC0y
+MDY2NDcwOTddfQ==
 -->
