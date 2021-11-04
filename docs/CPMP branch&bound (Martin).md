@@ -25,7 +25,7 @@ Algoritmo de cálculo de LB basado en B&B.
 
 - Escoger un stack sólo afecta los costes relacionados a ese stack.
 - Items que se remueven, se pueden agregar a la cola. Esto modificaría los grupos y los costes.
-- Items que se col
+- Items que se colocan no se vuelven a mover.
 
 
 
@@ -253,7 +253,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Njc3Mjg4NSwzNjEyOTM1NzgsLTExOD
+eyJoaXN0b3J5IjpbMTcyNzY2NjcxMiwzNjEyOTM1NzgsLTExOD
 Y3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2MjgwMCwtNjcyNjgz
 OTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMTU5MzU2MDYwNC
 wtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0OTc4OCwxNDI1
