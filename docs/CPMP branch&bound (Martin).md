@@ -25,6 +25,11 @@ Algoritmo de cálculo de LB basado en B&B.
 
 Un lowerbound se puede obtener fácilmente identificando el super-grupo que **maximice el mínimo costo**. Es decir un grupo que para ser colocado necesita que se retiren al menos LB items.
 
+### Ejemplo gráfico
+
+
+
+
 **Notas:** 
 
 - Escoger un stack sólo afecta los costes relacionados a ese stack.
@@ -255,11 +260,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTk2NjEwLDE5NTM4Nzk2NjEsMTU2Nj
-Y2NTUxNCwxNjEwMzA3NjEzLDE1NDQ0OTI3MTIsMTQ1MTAxNDk5
-OCwxODcwMzc0MDk1LC0xNzc1NjI1NTg5LDM2MTI5MzU3OCwtMT
-E4NjcyNTQzMywxNTk5MTA4Njg4LC0xMDAzMzYyODAwLC02NzI2
-ODM5NywtMTM0Mjc0NDM5NywtMTI0NzI4OTU0NCwxNTkzNTYwNj
-A0LC0zMjY1MTg0NjQsLTIwNjY0NzA5NywtOTAzOTQ5Nzg4LDE0
-MjU3MzIzMjFdfQ==
+eyJoaXN0b3J5IjpbMTEwNzA1Mzg2LC01ODU5NjYxMCwxOTUzOD
+c5NjYxLDE1NjY2NjU1MTQsMTYxMDMwNzYxMywxNTQ0NDkyNzEy
+LDE0NTEwMTQ5OTgsMTg3MDM3NDA5NSwtMTc3NTYyNTU4OSwzNj
+EyOTM1NzgsLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2
+MjgwMCwtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1ND
+QsMTU5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkw
+Mzk0OTc4OF19
 -->
