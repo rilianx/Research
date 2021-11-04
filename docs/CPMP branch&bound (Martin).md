@@ -18,6 +18,7 @@ Los factores c/b deberían ir disminuyendo. Para el caso de los 4s
 ### Idea 2.0
 Algoritmo de cálculo de LB basado en B&B.
 1. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que el rango de gv cumpla con  a < gv <= b, con a,b 2 gv consecutivos.
+2. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). 
 
 
 
@@ -245,7 +246,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTM5NzI3NCwzNjEyOTM1NzgsLTExOD
+eyJoaXN0b3J5IjpbMTg4MDQxMjM5NywzNjEyOTM1NzgsLTExOD
 Y3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2MjgwMCwtNjcyNjgz
 OTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMTU5MzU2MDYwNC
 wtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0OTc4OCwxNDI1
