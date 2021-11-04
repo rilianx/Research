@@ -18,7 +18,7 @@ Los factores c/b deberían ir disminuyendo. Para el caso de los 4s
 ### Idea 2.0
 Algoritmo de cálculo de LB basado en B&B.
 1. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que el rango de gv cumpla con  a < gv <= b, con a,b 2 gv consecutivos.
-2. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items. No importa la cantidad de items que irá en cada stack ya que una vez colocados los items no pueden volver a moverse.
+2. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items. No importa la cantidad de items que irá en cada stack ya que una vez colocados los items no se vuelven a mover. Cada alternativa genera una acción posible 
 
  Se generan acciones de menor a mayor coste y los hijos correspondientes. Se pueden estimar lowerbounds considerando el menor coste en cada caso. También se pueden aplicar técnicas de forward checking.
 3. Se selecciona primer hijo para la siguiente iteración y repetimos.
@@ -257,11 +257,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDM3NDA5NSwtMTc3NTYyNTU4OSwzNj
-EyOTM1NzgsLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2
-MjgwMCwtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1ND
-QsMTU5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkw
-Mzk0OTc4OCwxNDI1NzMyMzIxLDEyNzE1MTYxNjUsNTU0NDQ3OD
-IzLC0xMzYyMjM1Mjc3LC03ODczMjk4MjksNzk2MjE3NzY1LC0x
-NDE4NDM0MDU4XX0=
+eyJoaXN0b3J5IjpbLTE3MzI3MTY4OCwxODcwMzc0MDk1LC0xNz
+c1NjI1NTg5LDM2MTI5MzU3OCwtMTE4NjcyNTQzMywxNTk5MTA4
+Njg4LC0xMDAzMzYyODAwLC02NzI2ODM5NywtMTM0Mjc0NDM5Ny
+wtMTI0NzI4OTU0NCwxNTkzNTYwNjA0LC0zMjY1MTg0NjQsLTIw
+NjY0NzA5NywtOTAzOTQ5Nzg4LDE0MjU3MzIzMjEsMTI3MTUxNj
+E2NSw1NTQ0NDc4MjMsLTEzNjIyMzUyNzcsLTc4NzMyOTgyOSw3
+OTYyMTc3NjVdfQ==
 -->
