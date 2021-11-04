@@ -18,7 +18,7 @@ Los factores c/b deberían ir disminuyendo. Para el caso de los 4s
 ### Idea 2.0
 Algoritmo de cálculo de LB basado en B&B.
 1. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que el rango de gv cumpla con  a < gv <= b, con a,b 2 gv consecutivos.
-2. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items
+2. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items. No importa la cantidad de items que irá en cada stack ya que una vez colocados los items no pueden volver a moverse.
 
  Se generan acciones de menor a mayor coste y los hijos correspondientes. Se pueden estimar lowerbounds considerando el menor coste en cada caso. También se pueden aplicar técnicas de forward checking.
 3. Se selecciona primer hijo para la siguiente iteración y repetimos.
@@ -257,11 +257,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTkwNzY1MzQsLTE3NzU2MjU1ODksMz
-YxMjkzNTc4LC0xMTg2NzI1NDMzLDE1OTkxMDg2ODgsLTEwMDMz
-NjI4MDAsLTY3MjY4Mzk3LC0xMzQyNzQ0Mzk3LC0xMjQ3Mjg5NT
-Q0LDE1OTM1NjA2MDQsLTMyNjUxODQ2NCwtMjA2NjQ3MDk3LC05
-MDM5NDk3ODgsMTQyNTczMjMyMSwxMjcxNTE2MTY1LDU1NDQ0Nz
-gyMywtMTM2MjIzNTI3NywtNzg3MzI5ODI5LDc5NjIxNzc2NSwt
-MTQxODQzNDA1OF19
+eyJoaXN0b3J5IjpbMTg3MDM3NDA5NSwtMTc3NTYyNTU4OSwzNj
+EyOTM1NzgsLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2
+MjgwMCwtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1ND
+QsMTU5MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkw
+Mzk0OTc4OCwxNDI1NzMyMzIxLDEyNzE1MTYxNjUsNTU0NDQ3OD
+IzLC0xMzYyMjM1Mjc3LC03ODczMjk4MjksNzk2MjE3NzY1LC0x
+NDE4NDM0MDU4XX0=
 -->
