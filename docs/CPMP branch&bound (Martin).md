@@ -10,7 +10,7 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 - Optimizar código --> en eso...
 - Ignacio: LBat: Juntar containers :ok:
 - Cambiar vectores por deque --> empeora
-- LBat tiene proble
+- LBat tiene problemas
 
 
 
@@ -238,7 +238,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzk0Mjk0MywxNTk5MTA4Njg4LC0xMD
+eyJoaXN0b3J5IjpbLTU3NzQ1Njg4MCwxNTk5MTA4Njg4LC0xMD
 AzMzYyODAwLC02NzI2ODM5NywtMTM0Mjc0NDM5NywtMTI0NzI4
 OTU0NCwxNTkzNTYwNjA0LC0zMjY1MTg0NjQsLTIwNjY0NzA5Ny
 wtOTAzOTQ5Nzg4LDE0MjU3MzIzMjEsMTI3MTUxNjE2NSw1NTQ0
