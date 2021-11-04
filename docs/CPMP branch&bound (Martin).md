@@ -17,8 +17,10 @@ Los factores c/b deberían ir disminuyendo. Para el caso de los 4s
 
 ### Idea 2.0
 Algoritmo de cálculo de LB basado en B&B.
-1. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que el rango de gv cumpla con  a < gv <= b, con a,b 2 gv consecutivos. La cantidad de elementos debería caber en un stack.
-2. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Se generan acciones de menor a mayor coste y los hijos correspondientes. Se pueden estimar lowerbounds considerando el menor coste en cada caso. También se pueden aplicar técnicas de forward checking.
+1. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que el rango de gv cumpla con  a < gv <= b, con a,b 2 gv consecutivos.
+2. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items
+
+ Se generan acciones de menor a mayor coste y los hijos correspondientes. Se pueden estimar lowerbounds considerando el menor coste en cada caso. También se pueden aplicar técnicas de forward checking.
 3. Se selecciona primer hijo para la siguiente iteración y repetimos.
 
 **Notas:** 
@@ -255,11 +257,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU2MjU1ODksMzYxMjkzNTc4LC0xMT
-g2NzI1NDMzLDE1OTkxMDg2ODgsLTEwMDMzNjI4MDAsLTY3MjY4
-Mzk3LC0xMzQyNzQ0Mzk3LC0xMjQ3Mjg5NTQ0LDE1OTM1NjA2MD
-QsLTMyNjUxODQ2NCwtMjA2NjQ3MDk3LC05MDM5NDk3ODgsMTQy
-NTczMjMyMSwxMjcxNTE2MTY1LDU1NDQ0NzgyMywtMTM2MjIzNT
-I3NywtNzg3MzI5ODI5LDc5NjIxNzc2NSwtMTQxODQzNDA1OCwt
-MTM3NDQyNTk5NV19
+eyJoaXN0b3J5IjpbLTE3MTkwNzY1MzQsLTE3NzU2MjU1ODksMz
+YxMjkzNTc4LC0xMTg2NzI1NDMzLDE1OTkxMDg2ODgsLTEwMDMz
+NjI4MDAsLTY3MjY4Mzk3LC0xMzQyNzQ0Mzk3LC0xMjQ3Mjg5NT
+Q0LDE1OTM1NjA2MDQsLTMyNjUxODQ2NCwtMjA2NjQ3MDk3LC05
+MDM5NDk3ODgsMTQyNTczMjMyMSwxMjcxNTE2MTY1LDU1NDQ0Nz
+gyMywtMTM2MjIzNTI3NywtNzg3MzI5ODI5LDc5NjIxNzc2NSwt
+MTQxODQzNDA1OF19
 -->
