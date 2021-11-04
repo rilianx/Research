@@ -28,7 +28,7 @@ Un lowerbound se puede obtener fácilmente identificando el grupo que **maximice
 **Notas:** 
 
 - Escoger un stack sólo afecta los costes relacionados a ese stack.
-- Items que se remueven, se pueden agregar a la cola. Esto modificaría los grupos y los costes.
+- Items que se sacan, se pueden agregar a la cola. Esto modificaría los grupos y los costes.
 
 
 ### Compilation
@@ -255,11 +255,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDMwNzYxMywxNTQ0NDkyNzEyLDE0NT
-EwMTQ5OTgsMTg3MDM3NDA5NSwtMTc3NTYyNTU4OSwzNjEyOTM1
-NzgsLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2MjgwMC
-wtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMTU5
-MzU2MDYwNCwtMzI2NTE4NDY0LC0yMDY2NDcwOTcsLTkwMzk0OT
-c4OCwxNDI1NzMyMzIxLDEyNzE1MTYxNjUsNTU0NDQ3ODIzLC0x
-MzYyMjM1Mjc3XX0=
+eyJoaXN0b3J5IjpbMTU2NjY2NTUxNCwxNjEwMzA3NjEzLDE1ND
+Q0OTI3MTIsMTQ1MTAxNDk5OCwxODcwMzc0MDk1LC0xNzc1NjI1
+NTg5LDM2MTI5MzU3OCwtMTE4NjcyNTQzMywxNTk5MTA4Njg4LC
+0xMDAzMzYyODAwLC02NzI2ODM5NywtMTM0Mjc0NDM5NywtMTI0
+NzI4OTU0NCwxNTkzNTYwNjA0LC0zMjY1MTg0NjQsLTIwNjY0Nz
+A5NywtOTAzOTQ5Nzg4LDE0MjU3MzIzMjEsMTI3MTUxNjE2NSw1
+NTQ0NDc4MjNdfQ==
 -->
