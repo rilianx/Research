@@ -26,7 +26,7 @@ Algoritmo de cálculo de LB basado en B&B.
 - Escoger un stack sólo afecta los costes relacionados a ese stack.
 - Items que se remueven, se pueden agregar a la cola. Esto modificaría los grupos y los costes.
 - Items que se colocan no se vuelven a mover.
-- Si bien es una acción por stack, del stack dependerá la cantidad de elementos en el grupo. Por ejemplo, si escojo el primer stack, el g
+- Si bien es una acción por stack, del stack dependerá la cantidad de elementos en el grupo. Por ejemplo, si escojo el primer stack, el grupo sería sólo el 6, si escojo el segundo, serían el 6,5,5,.. Los items que podrían colocarse removiendo una mínima cantidad de elementos del stack.
 ![image](https://i.imgur.com/5NcqXwa.png)
 
 
@@ -255,11 +255,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4OTUyMDk1LDM2MTI5MzU3OCwtMTE4Nj
-cyNTQzMywxNTk5MTA4Njg4LC0xMDAzMzYyODAwLC02NzI2ODM5
-NywtMTM0Mjc0NDM5NywtMTI0NzI4OTU0NCwxNTkzNTYwNjA0LC
-0zMjY1MTg0NjQsLTIwNjY0NzA5NywtOTAzOTQ5Nzg4LDE0MjU3
-MzIzMjEsMTI3MTUxNjE2NSw1NTQ0NDc4MjMsLTEzNjIyMzUyNz
-csLTc4NzMyOTgyOSw3OTYyMTc3NjUsLTE0MTg0MzQwNTgsLTEz
-NzQ0MjU5OTVdfQ==
+eyJoaXN0b3J5IjpbLTE3NzU2MjU1ODksMzYxMjkzNTc4LC0xMT
+g2NzI1NDMzLDE1OTkxMDg2ODgsLTEwMDMzNjI4MDAsLTY3MjY4
+Mzk3LC0xMzQyNzQ0Mzk3LC0xMjQ3Mjg5NTQ0LDE1OTM1NjA2MD
+QsLTMyNjUxODQ2NCwtMjA2NjQ3MDk3LC05MDM5NDk3ODgsMTQy
+NTczMjMyMSwxMjcxNTE2MTY1LDU1NDQ0NzgyMywtMTM2MjIzNT
+I3NywtNzg3MzI5ODI5LDc5NjIxNzc2NSwtMTQxODQzNDA1OCwt
+MTM3NDQyNTk5NV19
 -->
