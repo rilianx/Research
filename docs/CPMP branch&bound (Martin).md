@@ -29,10 +29,6 @@ Un lowerbound se puede obtener fácilmente identificando el grupo que **maximice
 
 - Escoger un stack sólo afecta los costes relacionados a ese stack.
 - Items que se remueven, se pueden agregar a la cola. Esto modificaría los grupos y los costes.
-- Items que se colocan no se vuelven a mover.
-- Si bien es una acción por stack, del stack dependerá la cantidad de elementos en el grupo. Por ejemplo, si escojo el primer stack, el grupo sería sólo el 6, si escojo el segundo, serían el 6,5,5,.. Los items que podrían colocarse removiendo una mínima cantidad de elementos del stack.
-![image](https://i.imgur.com/5NcqXwa.png)
-
 
 
 ### Compilation
@@ -259,7 +255,7 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzkwMzUxNCwxNTQ0NDkyNzEyLDE0NT
+eyJoaXN0b3J5IjpbMTYxMDMwNzYxMywxNTQ0NDkyNzEyLDE0NT
 EwMTQ5OTgsMTg3MDM3NDA5NSwtMTc3NTYyNTU4OSwzNjEyOTM1
 NzgsLTExODY3MjU0MzMsMTU5OTEwODY4OCwtMTAwMzM2MjgwMC
 wtNjcyNjgzOTcsLTEzNDI3NDQzOTcsLTEyNDcyODk1NDQsMTU5
