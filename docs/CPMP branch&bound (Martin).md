@@ -20,7 +20,7 @@ Algoritmo de cálculo de LB basado en B&B.
 
 1. Se selecciona un nodo
 2. Se selecciona el siguiente grupo de items (ordenados de mayor a menor), tal que el rango de gv cumpla con  a < gv <= b, con a,b 2 gv consecutivos.
-3. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items. No importa la cantidad de items que irá en cada stack ya que una vez colocados los items no se vuelven a mover. Cada alternativa genera una acción posible. 
+3. Se calculan los costos de colocar el grupo de items en los distintos stacks (cantidad de movimientos BG necesarios). Ojo que basta con seleccionar un conjunto de stacks que soporte los items. No importa la cantidad de items que irá en cada stack ya que una vez colocados los items no se vuelven a mover. Cada alternativa genera una acción posible. Seleccionar stacks con costo cero vale como una acción.
 4. Se generan nodos hijos aplicando las acciones al estado, se actualizan costos y se le pueden calcular lowerbounds.
 
 Un lowerbound se puede obtener fácilmente identificando el super-grupo que **maximice el mínimo costo**. Es decir un grupo que para ser colocado necesita que se retiren al menos LB items.
@@ -255,11 +255,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMjkzMDgwLDE1NjY2NjU1MTQsMTYxMD
-MwNzYxMywxNTQ0NDkyNzEyLDE0NTEwMTQ5OTgsMTg3MDM3NDA5
-NSwtMTc3NTYyNTU4OSwzNjEyOTM1NzgsLTExODY3MjU0MzMsMT
-U5OTEwODY4OCwtMTAwMzM2MjgwMCwtNjcyNjgzOTcsLTEzNDI3
-NDQzOTcsLTEyNDcyODk1NDQsMTU5MzU2MDYwNCwtMzI2NTE4ND
-Y0LC0yMDY2NDcwOTcsLTkwMzk0OTc4OCwxNDI1NzMyMzIxLDEy
-NzE1MTYxNjVdfQ==
+eyJoaXN0b3J5IjpbMTk1Mzg3OTY2MSwxNTY2NjY1NTE0LDE2MT
+AzMDc2MTMsMTU0NDQ5MjcxMiwxNDUxMDE0OTk4LDE4NzAzNzQw
+OTUsLTE3NzU2MjU1ODksMzYxMjkzNTc4LC0xMTg2NzI1NDMzLD
+E1OTkxMDg2ODgsLTEwMDMzNjI4MDAsLTY3MjY4Mzk3LC0xMzQy
+NzQ0Mzk3LC0xMjQ3Mjg5NTQ0LDE1OTM1NjA2MDQsLTMyNjUxOD
+Q2NCwtMjA2NjQ3MDk3LC05MDM5NDk3ODgsMTQyNTczMjMyMSwx
+MjcxNTE2MTY1XX0=
 -->
