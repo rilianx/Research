@@ -289,12 +289,15 @@ Se me ocurre que la probabilidad se podría estimar usando una función como est
 
 Ojo que si el costo restante es 0, $p_i=1$.
 Entonces se podría escoger el elemento que una vez colocado maximice el valor del estado.
+
+
+$T_f \cdot \alpha^{200}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDYwNzEzNiwxNzY5MTQwODg5LC05MD
-I2MTkwMTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4
-NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4NzE0LD
-Y4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3ODc2MjE0LC0xNTEz
-OTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0LD
-I1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkxNTMwNSw5NzQ3MjQx
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTU5MzQ5NTQxLDEwNDQ2MDcxMzYsMTc2OT
+E0MDg4OSwtOTAyNjE5MDE0LDE3MDg5MzQxNTAsLTMzMTk3NDgw
+MCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLTExODM5Mzg3MjMsLT
+QxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNiwtMTI0Nzg3
+NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC
+04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUz
+MDVdfQ==
 -->
