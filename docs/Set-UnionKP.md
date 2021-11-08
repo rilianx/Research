@@ -293,13 +293,14 @@ Entonces se podría escoger el elemento que una vez colocado maximice el valor d
 
 $T_i \cdot \alpha^{100}=T_f$
 $\alpha^{100}=\frac{T_f}{T_i}$
-$\alpha = pow(\frac{T_f}{T_i},0.01)$
+$\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
+$n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg5NjQ2NTQsMTA0NDYwNzEzNiwxNz
-Y5MTQwODg5LC05MDI2MTkwMTQsMTcwODkzNDE1MCwtMzMxOTc0
-ODAwLC0xMTgzOTM4NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMy
-wtNDE4NzE4NzE0LDY4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3
-ODc2MjE0LC0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMz
-EsLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkx
-NTMwNV19
+eyJoaXN0b3J5IjpbMTQzNDk2NTM1OSwxMDQ0NjA3MTM2LDE3Nj
+kxNDA4ODksLTkwMjYxOTAxNCwxNzA4OTM0MTUwLC0zMzE5NzQ4
+MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC
+00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLTEyNDc4
+NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMS
+wtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1
+MzA1XX0=
 -->
