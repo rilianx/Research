@@ -5,6 +5,8 @@ Basándose en [paper](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7P
 
 **Plan:** Implementar algoritmo completo (árbol de búsqueda, best-first, etc) para el problema CPMP. Aprovechando que tenemos el *mejor greedy*.
 
+==Conseguir alumno que implemente versión B&B de LB)==
+
 ### TODO (optimizar LBatman)
 
 - Optimizar código --> en eso...
@@ -262,11 +264,11 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 > - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
 > - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NDgyMjY3LC0xMDg3Nzg3NTg2LDExMD
-cwNTM4NiwtNTg1OTY2MTAsMTk1Mzg3OTY2MSwxNTY2NjY1NTE0
-LDE2MTAzMDc2MTMsMTU0NDQ5MjcxMiwxNDUxMDE0OTk4LDE4Nz
-AzNzQwOTUsLTE3NzU2MjU1ODksMzYxMjkzNTc4LC0xMTg2NzI1
-NDMzLDE1OTkxMDg2ODgsLTEwMDMzNjI4MDAsLTY3MjY4Mzk3LC
-0xMzQyNzQ0Mzk3LC0xMjQ3Mjg5NTQ0LDE1OTM1NjA2MDQsLTMy
-NjUxODQ2NF19
+eyJoaXN0b3J5IjpbLTE1OTM2NTIwMDMsODI2NDgyMjY3LC0xMD
+g3Nzg3NTg2LDExMDcwNTM4NiwtNTg1OTY2MTAsMTk1Mzg3OTY2
+MSwxNTY2NjY1NTE0LDE2MTAzMDc2MTMsMTU0NDQ5MjcxMiwxND
+UxMDE0OTk4LDE4NzAzNzQwOTUsLTE3NzU2MjU1ODksMzYxMjkz
+NTc4LC0xMTg2NzI1NDMzLDE1OTkxMDg2ODgsLTEwMDMzNjI4MD
+AsLTY3MjY4Mzk3LC0xMzQyNzQ0Mzk3LC0xMjQ3Mjg5NTQ0LDE1
+OTM1NjA2MDRdfQ==
 -->
