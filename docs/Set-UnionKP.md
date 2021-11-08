@@ -291,13 +291,15 @@ Ojo que si el costo restante es 0, $p_i=1$.
 Entonces se podría escoger el elemento que una vez colocado maximice el valor del estado.
 
 
-$T_f \cdot \alpha^{200}$
+$T_i \cdot \alpha^{100}=T_f$
+$\alpha^{100}=\frac{T_f}{T_i}$
+$\alpha = pow(\frac{T_f}{T_i},0.01)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzQ5NTQxLDEwNDQ2MDcxMzYsMTc2OT
-E0MDg4OSwtOTAyNjE5MDE0LDE3MDg5MzQxNTAsLTMzMTk3NDgw
-MCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLTExODM5Mzg3MjMsLT
-QxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNiwtMTI0Nzg3
-NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3MzE3MTMxLC
-04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5MDg2LDE1MjI5MTUz
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTE0MDg5NjQ2NTQsMTA0NDYwNzEzNiwxNz
+Y5MTQwODg5LC05MDI2MTkwMTQsMTcwODkzNDE1MCwtMzMxOTc0
+ODAwLC0xMTgzOTM4NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMy
+wtNDE4NzE4NzE0LDY4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3
+ODc2MjE0LC0xNTEzOTgwMzUwLDI4ODM1ODI2OSwtMTczMTcxMz
+EsLTg5NTcyODA0LDI1MDE2Nzc2MCwxMjE5NzkwODYsMTUyMjkx
+NTMwNV19
 -->
