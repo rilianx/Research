@@ -4,12 +4,11 @@ CLP Practical Constraints (continuación).
 
 **TODO**
 
-- Ángulo de volcamiento
-	- centro_de_masa en clase block
-	- calcular ángulo al evaluar bloques
-- Priorizar bloques pesados (al evaluar bloques)
-- Priorizar bloques con mayor superficie
-- Agregar factor de volcamiento y complete shipment (en evaluación de solución)
+- Restricciones:
+	- Separation of Items
+	- Load Bearing
+	- 
+- Mecanismos para cumplir las restricciones
 - Experimentos
 	- Comparar resultados sin considerar restricciones
 	- Y agregando restricciones una a una, y prioridades
@@ -391,11 +390,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU1NDAyOTksMjEwNjE3MTc5NiwxMD
-I1NzEzOTIsMjExNjUyOTQzNCwtMTI4MTI2NjU5NywtMzE5MTMx
-MDE0LDEzODgxOTQ3MjIsLTE1NTkyNjM0NzUsMzQ0Nzc0NTI2LC
-00MzAzNzIxMTYsMzEwOTc5NTg1LDEyOTYwMjMyMTAsLTIwODUz
-NDY3OCwtMTk3NzUzMDQwOCwxNTM4MzEzMTY2LC0xOTEwNDE0ND
-k0LDE2MDEwOTMxMjUsMTI4NjYxNTczNSwtMjAyNzI1MTk1Mywt
-NjI5NDkzMjRdfQ==
+eyJoaXN0b3J5IjpbMjAxMzc4NDk2NCwtMTkzNTU0MDI5OSwyMT
+A2MTcxNzk2LDEwMjU3MTM5MiwyMTE2NTI5NDM0LC0xMjgxMjY2
+NTk3LC0zMTkxMzEwMTQsMTM4ODE5NDcyMiwtMTU1OTI2MzQ3NS
+wzNDQ3NzQ1MjYsLTQzMDM3MjExNiwzMTA5Nzk1ODUsMTI5NjAy
+MzIxMCwtMjA4NTM0Njc4LC0xOTc3NTMwNDA4LDE1MzgzMTMxNj
+YsLTE5MTA0MTQ0OTQsMTYwMTA5MzEyNSwxMjg2NjE1NzM1LC0y
+MDI3MjUxOTUzXX0=
 -->
