@@ -7,7 +7,9 @@ CLP Practical Constraints (continuación).
 - Restricciones:
 	- Separation of Items
 	- Load Bearing
-	- 
+	- Cargo Stability (vertical)
+	- MultiDrop
+	- MaxWeight
 - Mecanismos para cumplir las restricciones
 - Experimentos
 	- Comparar resultados sin considerar restricciones
@@ -390,7 +392,7 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzc4NDk2NCwtMTkzNTU0MDI5OSwyMT
+eyJoaXN0b3J5IjpbLTMzNDI2NzQ3OCwtMTkzNTU0MDI5OSwyMT
 A2MTcxNzk2LDEwMjU3MTM5MiwyMTE2NTI5NDM0LC0xMjgxMjY2
 NTk3LC0zMTkxMzEwMTQsMTM4ODE5NDcyMiwtMTU1OTI2MzQ3NS
 wzNDQ3NzQ1MjYsLTQzMDM3MjExNiwzMTA5Nzk1ODUsMTI5NjAy
