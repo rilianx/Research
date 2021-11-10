@@ -10,7 +10,9 @@ CLP Practical Constraints (continuación).
 	- Cargo Stability (vertical)
 	- MultiDrop
 	- MaxWeight
+	- Centro de masa (restricción blanda)
 - Mecanismos para cumplir las restricciones
+	- 
 - Experimentos
 	- Comparar resultados sin considerar restricciones
 	- Y agregando restricciones una a una, y prioridades
@@ -392,11 +394,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDI2NzQ3OCwtMTkzNTU0MDI5OSwyMT
-A2MTcxNzk2LDEwMjU3MTM5MiwyMTE2NTI5NDM0LC0xMjgxMjY2
-NTk3LC0zMTkxMzEwMTQsMTM4ODE5NDcyMiwtMTU1OTI2MzQ3NS
-wzNDQ3NzQ1MjYsLTQzMDM3MjExNiwzMTA5Nzk1ODUsMTI5NjAy
-MzIxMCwtMjA4NTM0Njc4LC0xOTc3NTMwNDA4LDE1MzgzMTMxNj
-YsLTE5MTA0MTQ0OTQsMTYwMTA5MzEyNSwxMjg2NjE1NzM1LC0y
-MDI3MjUxOTUzXX0=
+eyJoaXN0b3J5IjpbMjQ0MDIyODU4LC0xOTM1NTQwMjk5LDIxMD
+YxNzE3OTYsMTAyNTcxMzkyLDIxMTY1Mjk0MzQsLTEyODEyNjY1
+OTcsLTMxOTEzMTAxNCwxMzg4MTk0NzIyLC0xNTU5MjYzNDc1LD
+M0NDc3NDUyNiwtNDMwMzcyMTE2LDMxMDk3OTU4NSwxMjk2MDIz
+MjEwLC0yMDg1MzQ2NzgsLTE5Nzc1MzA0MDgsMTUzODMxMzE2Ni
+wtMTkxMDQxNDQ5NCwxNjAxMDkzMTI1LDEyODY2MTU3MzUsLTIw
+MjcyNTE5NTNdfQ==
 -->
