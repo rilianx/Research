@@ -12,7 +12,9 @@ CLP Practical Constraints (continuación).
 	- MaxWeight
 	- Centro de masa (restricción blanda)
 - Mecanismos para cumplir las restricciones
-	- 
+	- Ordenamiento de los items
+	- Preferir llenar de abajo hacia arriba
+	- Poner bloques más pesados abajo
 - Experimentos
 	- Comparar resultados sin considerar restricciones
 	- Y agregando restricciones una a una, y prioridades
@@ -394,11 +396,11 @@ Contenedores abiertos (neumáticos)
 CPMP
 Secuenciar contenedores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MDIyODU4LC0xOTM1NTQwMjk5LDIxMD
-YxNzE3OTYsMTAyNTcxMzkyLDIxMTY1Mjk0MzQsLTEyODEyNjY1
-OTcsLTMxOTEzMTAxNCwxMzg4MTk0NzIyLC0xNTU5MjYzNDc1LD
-M0NDc3NDUyNiwtNDMwMzcyMTE2LDMxMDk3OTU4NSwxMjk2MDIz
-MjEwLC0yMDg1MzQ2NzgsLTE5Nzc1MzA0MDgsMTUzODMxMzE2Ni
-wtMTkxMDQxNDQ5NCwxNjAxMDkzMTI1LDEyODY2MTU3MzUsLTIw
-MjcyNTE5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE2ODAyNzg1OTYsLTE5MzU1NDAyOTksMj
+EwNjE3MTc5NiwxMDI1NzEzOTIsMjExNjUyOTQzNCwtMTI4MTI2
+NjU5NywtMzE5MTMxMDE0LDEzODgxOTQ3MjIsLTE1NTkyNjM0Nz
+UsMzQ0Nzc0NTI2LC00MzAzNzIxMTYsMzEwOTc5NTg1LDEyOTYw
+MjMyMTAsLTIwODUzNDY3OCwtMTk3NzUzMDQwOCwxNTM4MzEzMT
+Y2LC0xOTEwNDE0NDk0LDE2MDEwOTMxMjUsMTI4NjYxNTczNSwt
+MjAyNzI1MTk1M119
 -->
