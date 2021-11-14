@@ -1,6 +1,7 @@
 ## TODO
 
 
+- https://towardsdatascience.com/reinforcement-learning-solving-mdps-using-dynamic-programming-part-3-b53d32341540
 - (2021) Branch-and-price for a class of nonconvex mixed-integer nonlinear programs. Andrew Allman, Qi Zhang
 - [Tighter McCormick Relaxations through Subgradient Propagation](https://arxiv.org/pdf/1710.09188.pdf)
 - Learning To Search in Branch and Bound
@@ -490,11 +491,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzIxNTIzNCwxMDcwMTIwODU5LDE4MD
-E5Njg4OCwtMTc0MjQ5MDg4MSw0Njc0ODg2MjAsNzA2NjMxOTAs
-MTc2MzkwNTI0NywtMjA2NzYyMzg5LC04NTM5NjQxNjcsLTE0MD
-E2MDQ3NDAsMTMzMjE5MjgyOCw4NDQ4MjIyNDksLTEwOTMyOTk3
-MzIsMTI1NzM2NTU1NSwxMTM5MDE1MzAwLDE4NzI0OTUxMTMsLT
-YyOTY5OTg0NSwtNzAzMTEyNDY5LDE0MDY0NTEwNDksLTE5ODky
-NDc4ODZdfQ==
+eyJoaXN0b3J5IjpbMjc3Mzk3MTk0LC03MTcyMTUyMzQsMTA3MD
+EyMDg1OSwxODAxOTY4ODgsLTE3NDI0OTA4ODEsNDY3NDg4NjIw
+LDcwNjYzMTkwLDE3NjM5MDUyNDcsLTIwNjc2MjM4OSwtODUzOT
+Y0MTY3LC0xNDAxNjA0NzQwLDEzMzIxOTI4MjgsODQ0ODIyMjQ5
+LC0xMDkzMjk5NzMyLDEyNTczNjU1NTUsMTEzOTAxNTMwMCwxOD
+cyNDk1MTEzLC02Mjk2OTk4NDUsLTcwMzExMjQ2OSwxNDA2NDUx
+MDQ5XX0=
 -->
