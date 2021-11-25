@@ -1,6 +1,6 @@
 ### TODO
 
-Christopher
+**Christopher**
 - Probar con movimientos antiguos y distintas temperaturas (sin restarts). 
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
@@ -297,11 +297,11 @@ $\alpha^{100}=\frac{T_f}{T_i}$
 $\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
 $n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODg5OTkxNywtMzM2ODU1ODEwLDE0Mz
-Q5NjUzNTksMTA0NDYwNzEzNiwxNzY5MTQwODg5LC05MDI2MTkw
-MTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4NzIzLD
-YxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4NzE0LDY4NDUz
-MDU5OSwtNTgxNzExNjM2LC0xMjQ3ODc2MjE0LC0xNTEzOTgwMz
-UwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0LDI1MDE2
-Nzc2MF19
+eyJoaXN0b3J5IjpbMTQzNDQ0NjczMywxNTE4ODk5OTE3LC0zMz
+Y4NTU4MTAsMTQzNDk2NTM1OSwxMDQ0NjA3MTM2LDE3NjkxNDA4
+ODksLTkwMjYxOTAxNCwxNzA4OTM0MTUwLC0zMzE5NzQ4MDAsLT
+ExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC00MTg3
+MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLTEyNDc4NzYyMT
+QsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1
+NzI4MDRdfQ==
 -->
