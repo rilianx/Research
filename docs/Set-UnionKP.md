@@ -1,7 +1,7 @@
 ### TODO
 
 Christopher
-- Corrigiendo temperatura (SA)
+- Probar con movimientos antiguos 
 - Terminar el tema de los movimientos nuevos.
 
 Martin 
@@ -296,11 +296,11 @@ $\alpha^{100}=\frac{T_f}{T_i}$
 $\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
 $n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDk2NTM1OSwxMDQ0NjA3MTM2LDE3Nj
-kxNDA4ODksLTkwMjYxOTAxNCwxNzA4OTM0MTUwLC0zMzE5NzQ4
-MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC
-00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLTEyNDc4
-NzYyMTQsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMS
-wtODk1NzI4MDQsMjUwMTY3NzYwLDEyMTk3OTA4NiwxNTIyOTE1
-MzA1XX0=
+eyJoaXN0b3J5IjpbMTcwODk5ODQ0NSwxNDM0OTY1MzU5LDEwND
+Q2MDcxMzYsMTc2OTE0MDg4OSwtOTAyNjE5MDE0LDE3MDg5MzQx
+NTAsLTMzMTk3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLT
+ExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcx
+MTYzNiwtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNj
+ksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5
+MDg2XX0=
 -->
