@@ -1,7 +1,7 @@
 ### TODO
 
 Christopher
-- Probar con movimientos antiguos 
+- Probar con movimientos antiguos y distintas temperaturas
 - Terminar el tema de los movimientos nuevos.
 
 Martin 
@@ -296,7 +296,7 @@ $\alpha^{100}=\frac{T_f}{T_i}$
 $\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
 $n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODk5ODQ0NSwxNDM0OTY1MzU5LDEwND
+eyJoaXN0b3J5IjpbLTMzNjg1NTgxMCwxNDM0OTY1MzU5LDEwND
 Q2MDcxMzYsMTc2OTE0MDg4OSwtOTAyNjE5MDE0LDE3MDg5MzQx
 NTAsLTMzMTk3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLT
 ExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcx
