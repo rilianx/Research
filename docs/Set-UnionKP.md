@@ -6,7 +6,8 @@
 - Revisar movimientos anteriores.
 
 Martin 
-- Probar agrupación de items
+- Probar agrupación de items (comparar clusterizaciones y beneficio/costo)
+- 
 
 Victor
 - Probar greedy con elementos en vez de items
@@ -297,11 +298,11 @@ $\alpha^{100}=\frac{T_f}{T_i}$
 $\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
 $n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDQ0NjczMywxNTE4ODk5OTE3LC0zMz
-Y4NTU4MTAsMTQzNDk2NTM1OSwxMDQ0NjA3MTM2LDE3NjkxNDA4
-ODksLTkwMjYxOTAxNCwxNzA4OTM0MTUwLC0zMzE5NzQ4MDAsLT
-ExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC00MTg3
-MTg3MTQsNjg0NTMwNTk5LC01ODE3MTE2MzYsLTEyNDc4NzYyMT
-QsLTE1MTM5ODAzNTAsMjg4MzU4MjY5LC0xNzMxNzEzMSwtODk1
-NzI4MDRdfQ==
+eyJoaXN0b3J5IjpbLTg0NjM4MjEwNSwxNDM0NDQ2NzMzLDE1MT
+g4OTk5MTcsLTMzNjg1NTgxMCwxNDM0OTY1MzU5LDEwNDQ2MDcx
+MzYsMTc2OTE0MDg4OSwtOTAyNjE5MDE0LDE3MDg5MzQxNTAsLT
+MzMTk3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLTExODM5
+Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNi
+wtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3
+MzE3MTMxXX0=
 -->
