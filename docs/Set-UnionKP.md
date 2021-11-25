@@ -5,9 +5,9 @@
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
 
-Martin 
+**Martin**
 - Probar agrupación de items (comparar clusterizaciones y beneficio/costo)
-- 
+- Probar idea alternativa para hacer agrupamientos: partir de un item (aleatorio y más omenos bueno) e ir agrupandolo con otros siempre y cuando su b/c aumente.
 
 Victor
 - Probar greedy con elementos en vez de items
@@ -298,11 +298,11 @@ $\alpha^{100}=\frac{T_f}{T_i}$
 $\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
 $n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjM4MjEwNSwxNDM0NDQ2NzMzLDE1MT
-g4OTk5MTcsLTMzNjg1NTgxMCwxNDM0OTY1MzU5LDEwNDQ2MDcx
-MzYsMTc2OTE0MDg4OSwtOTAyNjE5MDE0LDE3MDg5MzQxNTAsLT
-MzMTk3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLTExODM5
-Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcxMTYzNi
-wtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNjksLTE3
-MzE3MTMxXX0=
+eyJoaXN0b3J5IjpbMTc3NDA2MjM5LC04NDYzODIxMDUsMTQzND
+Q0NjczMywxNTE4ODk5OTE3LC0zMzY4NTU4MTAsMTQzNDk2NTM1
+OSwxMDQ0NjA3MTM2LDE3NjkxNDA4ODksLTkwMjYxOTAxNCwxNz
+A4OTM0MTUwLC0zMzE5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4
+NzI5LC0xMTgzOTM4NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC
+01ODE3MTE2MzYsLTEyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4
+MzU4MjY5XX0=
 -->
