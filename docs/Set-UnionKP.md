@@ -1,8 +1,9 @@
 ### TODO
 
 Christopher
-- Probar con movimientos antiguos y distintas temperaturas
-- Terminar el tema de los movimientos nuevos.
+- Probar con movimientos antiguos y distintas temperaturas (sin restarts). 
+- Mejorar movimientos nuevos
+- Revisar movimientos anteriores.
 
 Martin 
 - Probar agrupación de items
@@ -296,11 +297,11 @@ $\alpha^{100}=\frac{T_f}{T_i}$
 $\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
 $n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjg1NTgxMCwxNDM0OTY1MzU5LDEwND
-Q2MDcxMzYsMTc2OTE0MDg4OSwtOTAyNjE5MDE0LDE3MDg5MzQx
-NTAsLTMzMTk3NDgwMCwtMTE4MzkzODcyMyw2MTYxMTg3MjksLT
-ExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1MzA1OTksLTU4MTcx
-MTYzNiwtMTI0Nzg3NjIxNCwtMTUxMzk4MDM1MCwyODgzNTgyNj
-ksLTE3MzE3MTMxLC04OTU3MjgwNCwyNTAxNjc3NjAsMTIxOTc5
-MDg2XX0=
+eyJoaXN0b3J5IjpbMTUxODg5OTkxNywtMzM2ODU1ODEwLDE0Mz
+Q5NjUzNTksMTA0NDYwNzEzNiwxNzY5MTQwODg5LC05MDI2MTkw
+MTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4NzIzLD
+YxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4NzE0LDY4NDUz
+MDU5OSwtNTgxNzExNjM2LC0xMjQ3ODc2MjE0LC0xNTEzOTgwMz
+UwLDI4ODM1ODI2OSwtMTczMTcxMzEsLTg5NTcyODA0LDI1MDE2
+Nzc2MF19
 -->
