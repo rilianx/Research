@@ -9,8 +9,9 @@
 - Probar agrupación de items (comparar clusterizaciones y beneficio/costo)
 - Probar idea alternativa para hacer agrupamientos: partir de un item (aleatorio y más omenos bueno) e ir agrupandolo con otros siempre y cuando su b/c aumente.
 
-Victor
-- Probar greedy con elementos en vez de items
+**Victor**
+- Luego de eliminar elementos sin items, volver a llenar priorizando items que maximizan b/c
+- Mejorar función de evaluación de estados, pensando en futuro hill climbing
 
 **Experimentos**
 
@@ -298,11 +299,11 @@ $\alpha^{100}=\frac{T_f}{T_i}$
 $\alpha = pow(\frac{T_f}{T_i},\frac{1}{100})$
 $n= \frac{iter}{100}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDA2MjM5LC04NDYzODIxMDUsMTQzND
-Q0NjczMywxNTE4ODk5OTE3LC0zMzY4NTU4MTAsMTQzNDk2NTM1
-OSwxMDQ0NjA3MTM2LDE3NjkxNDA4ODksLTkwMjYxOTAxNCwxNz
-A4OTM0MTUwLC0zMzE5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4
-NzI5LC0xMTgzOTM4NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC
-01ODE3MTE2MzYsLTEyNDc4NzYyMTQsLTE1MTM5ODAzNTAsMjg4
-MzU4MjY5XX0=
+eyJoaXN0b3J5IjpbLTIwODMwMDg3ODAsMTc3NDA2MjM5LC04ND
+YzODIxMDUsMTQzNDQ0NjczMywxNTE4ODk5OTE3LC0zMzY4NTU4
+MTAsMTQzNDk2NTM1OSwxMDQ0NjA3MTM2LDE3NjkxNDA4ODksLT
+kwMjYxOTAxNCwxNzA4OTM0MTUwLC0zMzE5NzQ4MDAsLTExODM5
+Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC00MTg3MTg3MT
+QsNjg0NTMwNTk5LC01ODE3MTE2MzYsLTEyNDc4NzYyMTQsLTE1
+MTM5ODAzNTBdfQ==
 -->
