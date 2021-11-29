@@ -2,7 +2,7 @@
 
 - CLP: An optimization approach for a complex real-life container loading problem
 - [Online 3D Bin Packing with Constrained Deep Reinforcement Learning](https://arxiv.org/pdf/2006.14978.pdf)
-- [BRKGA/VND Hybrid Algorithm for the Classic Three-dimensional Bin Packing Problem]()
+- [BRKGA/VND Hybrid Algorithm for the Classic Three-dimensional Bin Packing Problem](https://sci-hub.se/10.1016/j.endm.2018.03.023)
 - [Deep Learning for AI](https://cacm.acm.org/magazines/2021/7/253464-deep-learning-for-ai/fulltext)
 - https://towardsdatascience.com/reinforcement-learning-solving-mdps-using-dynamic-programming-part-3-b53d32341540
 - (2021) Branch-and-price for a class of nonconvex mixed-integer nonlinear programs. Andrew Allman, Qi Zhang
@@ -494,11 +494,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA2NTk5NzgsLTEzMTI0MDg2NjQsLT
-c4MTcxNzA4OSwxMjY3NjU3NDY4LDI3NzM5NzE5NCwtNzE3MjE1
-MjM0LDEwNzAxMjA4NTksMTgwMTk2ODg4LC0xNzQyNDkwODgxLD
-Q2NzQ4ODYyMCw3MDY2MzE5MCwxNzYzOTA1MjQ3LC0yMDY3NjIz
-ODksLTg1Mzk2NDE2NywtMTQwMTYwNDc0MCwxMzMyMTkyODI4LD
-g0NDgyMjI0OSwtMTA5MzI5OTczMiwxMjU3MzY1NTU1LDExMzkw
-MTUzMDBdfQ==
+eyJoaXN0b3J5IjpbMTg2NDQ5MjU2OCwtMTMxMjQwODY2NCwtNz
+gxNzE3MDg5LDEyNjc2NTc0NjgsMjc3Mzk3MTk0LC03MTcyMTUy
+MzQsMTA3MDEyMDg1OSwxODAxOTY4ODgsLTE3NDI0OTA4ODEsND
+Y3NDg4NjIwLDcwNjYzMTkwLDE3NjM5MDUyNDcsLTIwNjc2MjM4
+OSwtODUzOTY0MTY3LC0xNDAxNjA0NzQwLDEzMzIxOTI4MjgsOD
+Q0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNTczNjU1NTUsMTEzOTAx
+NTMwMF19
 -->
