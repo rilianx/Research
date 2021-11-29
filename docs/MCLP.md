@@ -6,7 +6,7 @@
 
 ### TODO
 
-- Probar con distintos  valores para ==r_param=1 | 1.5 | 2 | 5 | 100==
+- Probar con distintos  valores para r_param=1 | 1.5 | 2 | 5 | 100
 - Correr algoritmo de los swaps (2500). 1000 iteraciones
     - Por iteración guardar si trató de validar el swap, si hizo el swap, volumen mínimo y volumen ajustado mínimo
 - Graficar volumen mínimo vs iteraciones
@@ -152,5 +152,5 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTcwOTAzMl19
+eyJoaXN0b3J5IjpbLTIwMTIxMTkwMTYsLTI3OTcwOTAzMl19
 -->
