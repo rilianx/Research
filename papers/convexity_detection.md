@@ -1,5 +1,6 @@
 ## TODO
 
+- CLP: An optimization approach for a complex real-life container loading problem
 - [Deep Learning for AI](https://cacm.acm.org/magazines/2021/7/253464-deep-learning-for-ai/fulltext)
 - https://towardsdatascience.com/reinforcement-learning-solving-mdps-using-dynamic-programming-part-3-b53d32341540
 - (2021) Branch-and-price for a class of nonconvex mixed-integer nonlinear programs. Andrew Allman, Qi Zhang
@@ -491,11 +492,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzY1NzQ2OCwyNzczOTcxOTQsLTcxNz
-IxNTIzNCwxMDcwMTIwODU5LDE4MDE5Njg4OCwtMTc0MjQ5MDg4
-MSw0Njc0ODg2MjAsNzA2NjMxOTAsMTc2MzkwNTI0NywtMjA2Nz
-YyMzg5LC04NTM5NjQxNjcsLTE0MDE2MDQ3NDAsMTMzMjE5Mjgy
-OCw4NDQ4MjIyNDksLTEwOTMyOTk3MzIsMTI1NzM2NTU1NSwxMT
-M5MDE1MzAwLDE4NzI0OTUxMTMsLTYyOTY5OTg0NSwtNzAzMTEy
-NDY5XX0=
+eyJoaXN0b3J5IjpbLTc4MTcxNzA4OSwxMjY3NjU3NDY4LDI3Nz
+M5NzE5NCwtNzE3MjE1MjM0LDEwNzAxMjA4NTksMTgwMTk2ODg4
+LC0xNzQyNDkwODgxLDQ2NzQ4ODYyMCw3MDY2MzE5MCwxNzYzOT
+A1MjQ3LC0yMDY3NjIzODksLTg1Mzk2NDE2NywtMTQwMTYwNDc0
+MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5OTczMiwxMj
+U3MzY1NTU1LDExMzkwMTUzMDAsMTg3MjQ5NTExMywtNjI5Njk5
+ODQ1XX0=
 -->
