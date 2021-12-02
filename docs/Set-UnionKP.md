@@ -1,13 +1,15 @@
 ### TODO
 
 **Christopher**
+- 
 - Probar con movimientos antiguos y distintas temperaturas (sin restarts). 
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
 
 **Martin**
-- Probar agrupación de items (comparar clusterizaciones y beneficio/costo)
-- Probar idea alternativa para hacer agrupamientos: partir de un item (aleatorio y más omenos bueno) e ir agrupandolo con otros siempre y cuando su b/c aumente.
+Algoritmo en 2 fases:
+1. Creación de grupos en base a items que maximicen b/c
+2. Algoritmo constructivo que use items/grupos indistintamente para construir soluciones de gran calidad.
 
 **Victor**
 - Luego de eliminar elementos sin items, volver a llenar priorizando items que maximizan b/c
@@ -303,11 +305,11 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MjE1ODEyLC0yMDgzMDA4NzgwLDE3Nz
-QwNjIzOSwtODQ2MzgyMTA1LDE0MzQ0NDY3MzMsMTUxODg5OTkx
-NywtMzM2ODU1ODEwLDE0MzQ5NjUzNTksMTA0NDYwNzEzNiwxNz
-Y5MTQwODg5LC05MDI2MTkwMTQsMTcwODkzNDE1MCwtMzMxOTc0
-ODAwLC0xMTgzOTM4NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMy
-wtNDE4NzE4NzE0LDY4NDUzMDU5OSwtNTgxNzExNjM2LC0xMjQ3
-ODc2MjE0XX0=
+eyJoaXN0b3J5IjpbLTExMjY0MzYxMzQsNTE4MjE1ODEyLC0yMD
+gzMDA4NzgwLDE3NzQwNjIzOSwtODQ2MzgyMTA1LDE0MzQ0NDY3
+MzMsMTUxODg5OTkxNywtMzM2ODU1ODEwLDE0MzQ5NjUzNTksMT
+A0NDYwNzEzNiwxNzY5MTQwODg5LC05MDI2MTkwMTQsMTcwODkz
+NDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4NzIzLDYxNjExODcyOS
+wtMTE4MzkzODcyMywtNDE4NzE4NzE0LDY4NDUzMDU5OSwtNTgx
+NzExNjM2XX0=
 -->
