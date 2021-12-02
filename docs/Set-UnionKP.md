@@ -13,7 +13,7 @@ Algoritmo en 2 fases:
 2. Algoritmo constructivo que use items/grupos indistintamente para construir soluciones de gran calidad.
 
 **Victor**
-- Función de evaluación de estados mejorada con probabilidades entre 0 y 1. (Probabilidad de que un item J logre ser cargado en la mochila)
+- Función de evaluación de estados mejorada con probabilidades entre 0 y 1. (Probabilidad de que un item J logre ser cargado en la mochila).
 
 **Experimentos**
 
@@ -305,11 +305,11 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM2MjYzMjYsNTE4MjE1ODEyLC0yMD
-gzMDA4NzgwLDE3NzQwNjIzOSwtODQ2MzgyMTA1LDE0MzQ0NDY3
-MzMsMTUxODg5OTkxNywtMzM2ODU1ODEwLDE0MzQ5NjUzNTksMT
-A0NDYwNzEzNiwxNzY5MTQwODg5LC05MDI2MTkwMTQsMTcwODkz
-NDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4NzIzLDYxNjExODcyOS
-wtMTE4MzkzODcyMywtNDE4NzE4NzE0LDY4NDUzMDU5OSwtNTgx
-NzExNjM2XX0=
+eyJoaXN0b3J5IjpbLTEwNDIxNDY3OCw1MTgyMTU4MTIsLTIwOD
+MwMDg3ODAsMTc3NDA2MjM5LC04NDYzODIxMDUsMTQzNDQ0Njcz
+MywxNTE4ODk5OTE3LC0zMzY4NTU4MTAsMTQzNDk2NTM1OSwxMD
+Q0NjA3MTM2LDE3NjkxNDA4ODksLTkwMjYxOTAxNCwxNzA4OTM0
+MTUwLC0zMzE5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC
+0xMTgzOTM4NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3
+MTE2MzZdfQ==
 -->
