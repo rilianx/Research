@@ -1,5 +1,6 @@
 ## TODO
 
+- [Machine Learning for Experimental Design: Methods for Improved Blocking](https://arxiv.org/pdf/2010.15966.pdf)
 - CLP: An optimization approach for a complex real-life container loading problem
 - [Online 3D Bin Packing with Constrained Deep Reinforcement Learning](https://arxiv.org/pdf/2006.14978.pdf)
 - [BRKGA/VND Hybrid Algorithm for the Classic Three-dimensional Bin Packing Problem](https://sci-hub.se/10.1016/j.endm.2018.03.023)
@@ -494,11 +495,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDQ5MjU2OCwtMTMxMjQwODY2NCwtNz
-gxNzE3MDg5LDEyNjc2NTc0NjgsMjc3Mzk3MTk0LC03MTcyMTUy
-MzQsMTA3MDEyMDg1OSwxODAxOTY4ODgsLTE3NDI0OTA4ODEsND
-Y3NDg4NjIwLDcwNjYzMTkwLDE3NjM5MDUyNDcsLTIwNjc2MjM4
-OSwtODUzOTY0MTY3LC0xNDAxNjA0NzQwLDEzMzIxOTI4MjgsOD
-Q0ODIyMjQ5LC0xMDkzMjk5NzMyLDEyNTczNjU1NTUsMTEzOTAx
-NTMwMF19
+eyJoaXN0b3J5IjpbMTQyNjg1MDEzNywxODY0NDkyNTY4LC0xMz
+EyNDA4NjY0LC03ODE3MTcwODksMTI2NzY1NzQ2OCwyNzczOTcx
+OTQsLTcxNzIxNTIzNCwxMDcwMTIwODU5LDE4MDE5Njg4OCwtMT
+c0MjQ5MDg4MSw0Njc0ODg2MjAsNzA2NjMxOTAsMTc2MzkwNTI0
+NywtMjA2NzYyMzg5LC04NTM5NjQxNjcsLTE0MDE2MDQ3NDAsMT
+MzMjE5MjgyOCw4NDQ4MjIyNDksLTEwOTMyOTk3MzIsMTI1NzM2
+NTU1NV19
 -->
