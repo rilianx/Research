@@ -1,7 +1,8 @@
 ### TODO
 
 **Christopher**
-- 
+- Separar el código 
+- Correr experimentos.
 - Probar con movimientos antiguos y distintas temperaturas (sin restarts). 
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
@@ -12,8 +13,7 @@ Algoritmo en 2 fases:
 2. Algoritmo constructivo que use items/grupos indistintamente para construir soluciones de gran calidad.
 
 **Victor**
-- Luego de eliminar elementos sin items, volver a llenar priorizando items que maximizan b/c
-- Mejorar función de evaluación de estados, pensando en futuro hill climbing
+- Función de evaluación de estados mejorada con probabilidades entre 0 y 1. (Probabilidad de que un item J logre ser cargado en la mochila)
 
 **Experimentos**
 
@@ -305,7 +305,7 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY0MzYxMzQsNTE4MjE1ODEyLC0yMD
+eyJoaXN0b3J5IjpbLTExMzM2MjYzMjYsNTE4MjE1ODEyLC0yMD
 gzMDA4NzgwLDE3NzQwNjIzOSwtODQ2MzgyMTA1LDE0MzQ0NDY3
 MzMsMTUxODg5OTkxNywtMzM2ODU1ODEwLDE0MzQ5NjUzNTksMT
 A0NDYwNzEzNiwxNzY5MTQwODg5LC05MDI2MTkwMTQsMTcwODkz
