@@ -11,7 +11,6 @@
 - [(2021) Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/pdf/1911.10635.pdf)
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
 - [Multi-objective optimisation of positively homogeneous functions and an application in radiation therapy (2014)](https://mail.google.com/mail/u/0/#search/guillermo.cabrera%40pucv.cl+filename%3Apdf+paper/FMfcgxwKjwzcDqHqgpNjHQHVftjCRWpq)
-- Interval based NN, dependence problem?
 - Neural Networks frames-oriented? Finding data in frames? (example: objects, acceleration)
 - Interval gradient descent?
 - Semidefinite Programming
@@ -492,7 +491,7 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTMzNDc4NSwxNDI2ODUwMTM3LDE4Nj
+eyJoaXN0b3J5IjpbMTczMTM5NTE1NSwxNDI2ODUwMTM3LDE4Nj
 Q0OTI1NjgsLTEzMTI0MDg2NjQsLTc4MTcxNzA4OSwxMjY3NjU3
 NDY4LDI3NzM5NzE5NCwtNzE3MjE1MjM0LDEwNzAxMjA4NTksMT
 gwMTk2ODg4LC0xNzQyNDkwODgxLDQ2NzQ4ODYyMCw3MDY2MzE5
