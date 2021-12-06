@@ -1,15 +1,12 @@
 ## TODO
 
+- [kd-tree de scikit-learn]((https://github.com/scikit-learn/scikit-learn/blob/2480f5af2fe05e7a3f78d833130b8f7c405d6e7a/sklearn/neighbors/_binary_tree.pxi))
 - [Machine Learning for Experimental Design: Methods for Improved Blocking](https://arxiv.org/pdf/2010.15966.pdf)
 - CLP: An optimization approach for a complex real-life container loading problem
 - [Online 3D Bin Packing with Constrained Deep Reinforcement Learning](https://arxiv.org/pdf/2006.14978.pdf)
 - [BRKGA/VND Hybrid Algorithm for the Classic Three-dimensional Bin Packing Problem](https://sci-hub.se/10.1016/j.endm.2018.03.023)
 - [Deep Learning for AI](https://cacm.acm.org/magazines/2021/7/253464-deep-learning-for-ai/fulltext)
-- https://towardsdatascience.com/reinforcement-learning-solving-mdps-using-dynamic-programming-part-3-b53d32341540
 - (2021) Branch-and-price for a class of nonconvex mixed-integer nonlinear programs. Andrew Allman, Qi Zhang
-- [Tighter McCormick Relaxations through Subgradient Propagation](https://arxiv.org/pdf/1710.09188.pdf)
-- Learning To Search in Branch and Bound
-- [Dueling](https://towardsdatascience.com/dueling-deep-q-networks-81ffab672751)
 - A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing
 - [(2021) Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/pdf/1911.10635.pdf)
 - [Multi-Agent Deep Reinforcement Learning in a Three-Species Predator-Prey Ecosystem](https://odr.chalmers.se/handle/20.500.12380/302922)
@@ -495,11 +492,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjg1MDEzNywxODY0NDkyNTY4LC0xMz
-EyNDA4NjY0LC03ODE3MTcwODksMTI2NzY1NzQ2OCwyNzczOTcx
-OTQsLTcxNzIxNTIzNCwxMDcwMTIwODU5LDE4MDE5Njg4OCwtMT
-c0MjQ5MDg4MSw0Njc0ODg2MjAsNzA2NjMxOTAsMTc2MzkwNTI0
-NywtMjA2NzYyMzg5LC04NTM5NjQxNjcsLTE0MDE2MDQ3NDAsMT
-MzMjE5MjgyOCw4NDQ4MjIyNDksLTEwOTMyOTk3MzIsMTI1NzM2
-NTU1NV19
+eyJoaXN0b3J5IjpbMTA1OTMzNDc4NSwxNDI2ODUwMTM3LDE4Nj
+Q0OTI1NjgsLTEzMTI0MDg2NjQsLTc4MTcxNzA4OSwxMjY3NjU3
+NDY4LDI3NzM5NzE5NCwtNzE3MjE1MjM0LDEwNzAxMjA4NTksMT
+gwMTk2ODg4LC0xNzQyNDkwODgxLDQ2NzQ4ODYyMCw3MDY2MzE5
+MCwxNzYzOTA1MjQ3LC0yMDY3NjIzODksLTg1Mzk2NDE2NywtMT
+QwMTYwNDc0MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5
+OTczMl19
 -->
