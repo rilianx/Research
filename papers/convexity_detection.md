@@ -1,6 +1,7 @@
 ## TODO
 
 - [kd-tree de scikit-learn]((https://github.com/scikit-learn/scikit-learn/blob/2480f5af2fe05e7a3f78d833130b8f7c405d6e7a/sklearn/neighbors/_binary_tree.pxi))
+- [Object-sensitive Deep Reinforcement Learning](https://easychair.org/publications/open/h9zx)
 - [Machine Learning for Experimental Design: Methods for Improved Blocking](https://arxiv.org/pdf/2010.15966.pdf)
 - CLP: An optimization approach for a complex real-life container loading problem
 - [Online 3D Bin Packing with Constrained Deep Reinforcement Learning](https://arxiv.org/pdf/2006.14978.pdf)
@@ -491,11 +492,11 @@ Strategies have to be added to guarantee global convergence, i.e. convergence to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTM5NTE1NSwxNDI2ODUwMTM3LDE4Nj
-Q0OTI1NjgsLTEzMTI0MDg2NjQsLTc4MTcxNzA4OSwxMjY3NjU3
-NDY4LDI3NzM5NzE5NCwtNzE3MjE1MjM0LDEwNzAxMjA4NTksMT
-gwMTk2ODg4LC0xNzQyNDkwODgxLDQ2NzQ4ODYyMCw3MDY2MzE5
-MCwxNzYzOTA1MjQ3LC0yMDY3NjIzODksLTg1Mzk2NDE2NywtMT
-QwMTYwNDc0MCwxMzMyMTkyODI4LDg0NDgyMjI0OSwtMTA5MzI5
-OTczMl19
+eyJoaXN0b3J5IjpbMjQwNjgzNjIxLDE0MjY4NTAxMzcsMTg2ND
+Q5MjU2OCwtMTMxMjQwODY2NCwtNzgxNzE3MDg5LDEyNjc2NTc0
+NjgsMjc3Mzk3MTk0LC03MTcyMTUyMzQsMTA3MDEyMDg1OSwxOD
+AxOTY4ODgsLTE3NDI0OTA4ODEsNDY3NDg4NjIwLDcwNjYzMTkw
+LDE3NjM5MDUyNDcsLTIwNjc2MjM4OSwtODUzOTY0MTY3LC0xND
+AxNjA0NzQwLDEzMzIxOTI4MjgsODQ0ODIyMjQ5LC0xMDkzMjk5
+NzMyXX0=
 -->
