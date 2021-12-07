@@ -5,7 +5,10 @@
 
 ### Papers
 
--[BRKGA/VND Hybrid Algorithm for theClassic Three-dimensional Bin PackingProblem]
+- [2018 - BRKGA/VND Hybrid Algorithm for theClassic Three-dimensional Bin PackingProblem](https://drive.google.com/file/d/1ji8jt47wS20FGPwvhFdD3dqP9bqyQWPk/view)
+- [2015 - Hybrid genetic algorithms for the three-dimensional multiple container packing problem](http://scm.snu.ac.kr/publication/paper/81.pdf)
+- 
+
 
 
 ### TODO
@@ -156,6 +159,6 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDgzNzgyNywtMjAxMjExOTAxNiwtMj
+eyJoaXN0b3J5IjpbLTQ4OTgxNzE4NSwtMjAxMjExOTAxNiwtMj
 c5NzA5MDMyXX0=
 -->
