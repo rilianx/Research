@@ -9,6 +9,7 @@
 - [2015 - Hybrid genetic algorithms for the three-dimensional multiple container packing problem](http://scm.snu.ac.kr/publication/paper/81.pdf)
 - [Martello code](http://hjemmesider.diku.dk/~pisinger/codes.html)
 - [Three-Dimensional Bin Packing and Mixed-Case Palletization](https://pubsonline.informs.org/doi/pdf/10.1287/ijoo.2019.0013)
+- [3d-bpp code](https://github.com/Wadaboa/3d-bpp)
 
 ### Propuesta
 
@@ -173,7 +174,8 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzNDcwMTY4LC0xMzEyNzU1ODQzLDEwMT
-E5Mjg4MSwzNjU1MTcyNzgsLTE4MDE1MDEwNzUsLTQ4OTgxNzE4
-NSwtMjAxMjExOTAxNiwtMjc5NzA5MDMyXX0=
+eyJoaXN0b3J5IjpbMTU4NDc4MTQxOSw2NjM0NzAxNjgsLTEzMT
+I3NTU4NDMsMTAxMTkyODgxLDM2NTUxNzI3OCwtMTgwMTUwMTA3
+NSwtNDg5ODE3MTg1LC0yMDEyMTE5MDE2LC0yNzk3MDkwMzJdfQ
+==
 -->
