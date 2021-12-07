@@ -7,6 +7,7 @@
 
 - [2018 - BRKGA/VND Hybrid Algorithm for theClassic Three-dimensional Bin PackingProblem](https://drive.google.com/file/d/1ji8jt47wS20FGPwvhFdD3dqP9bqyQWPk/view)
 - [2015 - Hybrid genetic algorithms for the three-dimensional multiple container packing problem](http://scm.snu.ac.kr/publication/paper/81.pdf)
+- [Martello code](http://hjemmesider.diku.dk/~pisinger/codes.html)
 
 ### Propuesta
 
@@ -171,7 +172,7 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTkyODgxLDM2NTUxNzI3OCwtMTgwMT
-UwMTA3NSwtNDg5ODE3MTg1LC0yMDEyMTE5MDE2LC0yNzk3MDkw
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTEzMTI3NTU4NDMsMTAxMTkyODgxLDM2NT
+UxNzI3OCwtMTgwMTUwMTA3NSwtNDg5ODE3MTg1LC0yMDEyMTE5
+MDE2LC0yNzk3MDkwMzJdfQ==
 -->
