@@ -7,8 +7,12 @@
 
 - [2018 - BRKGA/VND Hybrid Algorithm for theClassic Three-dimensional Bin PackingProblem](https://drive.google.com/file/d/1ji8jt47wS20FGPwvhFdD3dqP9bqyQWPk/view)
 - [2015 - Hybrid genetic algorithms for the three-dimensional multiple container packing problem](http://scm.snu.ac.kr/publication/paper/81.pdf)
-- 
 
+### Propuesta
+
+In this work we plan to solve the MCLP by combining two algorithms: a state-of-the-art beam-search-based algorithm for solving the single CLP from a set of defined boxes, and a bin-packing algorithm for selecting and swapping boxes among the containers.
+
+In this paper we show how we can solve a MCLP, by combinina CLP state-of-the-art algorithm. 
 
 
 ### TODO
@@ -159,6 +163,6 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTgxNzE4NSwtMjAxMjExOTAxNiwtMj
-c5NzA5MDMyXX0=
+eyJoaXN0b3J5IjpbLTI2NzgxMTMyOCwtNDg5ODE3MTg1LC0yMD
+EyMTE5MDE2LC0yNzk3MDkwMzJdfQ==
 -->
