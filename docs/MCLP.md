@@ -12,7 +12,7 @@
 
 In this work we plan to solve the MCLP by combining two algorithms: a state-of-the-art beam-search-based algorithm for solving the single CLP from a set of defined boxes, and a bin-packing algorithm for selecting and swapping boxes among the containers.
 
-In this paper we show how we can solve a MCLP, by combinina CLP state-of-the-art algorithm. 
+In this paper we show how we can solve a MCLP, by combining a CLP state-of-the-art algorithm and a simple strategy for swapping boxes among bins and validating the generated solutions.
 
 
 ### TODO
@@ -163,6 +163,6 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzgxMTMyOCwtNDg5ODE3MTg1LC0yMD
-EyMTE5MDE2LC0yNzk3MDkwMzJdfQ==
+eyJoaXN0b3J5IjpbLTE4MDE1MDEwNzUsLTQ4OTgxNzE4NSwtMj
+AxMjExOTAxNiwtMjc5NzA5MDMyXX0=
 -->
