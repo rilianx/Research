@@ -23,6 +23,7 @@ In this paper we show how we can solve a MCLP, by combining a CLP state-of-the-a
 - Graficar volumen mínimo vs iteraciones
 - **Swap con volumen ajustado.** Jugar con parámetros n={1,2,4}, max_vol_accept (por defecto= 1.1), tolerance (por defecto = 0.3)
 - Swap sin volumen ajustado max_vol_accept (por defecto= 0.8), tolerance (por defecto = 0.2)
+- Probar con instancias de Martello.
 
 
 ### Formato paper
@@ -163,6 +164,6 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE1MDEwNzUsLTQ4OTgxNzE4NSwtMj
-AxMjExOTAxNiwtMjc5NzA5MDMyXX0=
+eyJoaXN0b3J5IjpbMzY1NTE3Mjc4LC0xODAxNTAxMDc1LC00OD
+k4MTcxODUsLTIwMTIxMTkwMTYsLTI3OTcwOTAzMl19
 -->
