@@ -3,6 +3,10 @@
 [paper](http://scm.snu.ac.kr/publication/paper/81.pdf)
 [resultados](https://docs.google.com/spreadsheets/d/1k2gZSq8wCGzTfX_YCRvm3CPwF5RNuE7jh4pmN5sxzSM/edit)
 
+### Papers
+
+-[BRKGA/VND Hybrid Algorithm for theClassic Three-dimensional Bin PackingProblem]
+
 
 ### TODO
 
@@ -152,5 +156,6 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIxMTkwMTYsLTI3OTcwOTAzMl19
+eyJoaXN0b3J5IjpbMjA0MDgzNzgyNywtMjAxMjExOTAxNiwtMj
+c5NzA5MDMyXX0=
 -->
