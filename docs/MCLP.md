@@ -25,6 +25,13 @@ In this paper we show how we can solve a MCLP, by combining a CLP state-of-the-a
 - Swap sin volumen ajustado max_vol_accept (por defecto= 0.8), tolerance (por defecto = 0.2)
 - Probar con instancias de Martello.
 
+### Experimentos
+
+- Comparar en instancias clásicas.
+	- Ajuste de parámetros para generación de solución inicial. 
+	- Ajuste para swapping
+- Correr en instancias difíciles. Buscar instancias 73x
+
 
 ### Formato paper
 
@@ -164,6 +171,7 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NTE3Mjc4LC0xODAxNTAxMDc1LC00OD
-k4MTcxODUsLTIwMTIxMTkwMTYsLTI3OTcwOTAzMl19
+eyJoaXN0b3J5IjpbMTAxMTkyODgxLDM2NTUxNzI3OCwtMTgwMT
+UwMTA3NSwtNDg5ODE3MTg1LC0yMDEyMTE5MDE2LC0yNzk3MDkw
+MzJdfQ==
 -->
