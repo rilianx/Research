@@ -5,8 +5,6 @@
 	- Greedy
 	- SA movimientos:
 		- Seleccionar q items de manera aleatoria e identificar los elemento que se eliminarían. Si hay más de 0, se realiza la eliminación y luego agregan items en la mochila (revueltos).
-- Mejorar movimientos nuevos
-- Revisar movimientos anteriores.
 
 **Martin**
 Algoritmo en 2 fases:
@@ -306,11 +304,11 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcwNTIwMDcsLTM2MzIwMTY1MywxOD
-Y5MTgzMzA1LC0xMDQyMTQ2NzgsNTE4MjE1ODEyLC0yMDgzMDA4
-NzgwLDE3NzQwNjIzOSwtODQ2MzgyMTA1LDE0MzQ0NDY3MzMsMT
-UxODg5OTkxNywtMzM2ODU1ODEwLDE0MzQ5NjUzNTksMTA0NDYw
-NzEzNiwxNzY5MTQwODg5LC05MDI2MTkwMTQsMTcwODkzNDE1MC
-wtMzMxOTc0ODAwLC0xMTgzOTM4NzIzLDYxNjExODcyOSwtMTE4
-MzkzODcyM119
+eyJoaXN0b3J5IjpbLTY5MTM0NTA5LC0xODA3MDUyMDA3LC0zNj
+MyMDE2NTMsMTg2OTE4MzMwNSwtMTA0MjE0Njc4LDUxODIxNTgx
+MiwtMjA4MzAwODc4MCwxNzc0MDYyMzksLTg0NjM4MjEwNSwxND
+M0NDQ2NzMzLDE1MTg4OTk5MTcsLTMzNjg1NTgxMCwxNDM0OTY1
+MzU5LDEwNDQ2MDcxMzYsMTc2OTE0MDg4OSwtOTAyNjE5MDE0LD
+E3MDg5MzQxNTAsLTMzMTk3NDgwMCwtMTE4MzkzODcyMyw2MTYx
+MTg3MjldfQ==
 -->
