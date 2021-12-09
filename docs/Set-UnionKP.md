@@ -3,7 +3,8 @@
 **Christopher**
 - Correr experimentos.
 	- Greedy
-	- SA con movimientos
+	- SA movimientos:
+		- Eliminar item contenido en q padres
 - Probar con movimientos antiguos y distintas temperaturas (sin restarts). 
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
@@ -306,11 +307,11 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4MTQyNjA5LC0xMDQyMTQ2NzgsNTE4Mj
-E1ODEyLC0yMDgzMDA4NzgwLDE3NzQwNjIzOSwtODQ2MzgyMTA1
-LDE0MzQ0NDY3MzMsMTUxODg5OTkxNywtMzM2ODU1ODEwLDE0Mz
-Q5NjUzNTksMTA0NDYwNzEzNiwxNzY5MTQwODg5LC05MDI2MTkw
-MTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4NzIzLD
-YxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4NzE0LDY4NDUz
-MDU5OV19
+eyJoaXN0b3J5IjpbMTMxODAxMDQ2OCwtMTA0MjE0Njc4LDUxOD
+IxNTgxMiwtMjA4MzAwODc4MCwxNzc0MDYyMzksLTg0NjM4MjEw
+NSwxNDM0NDQ2NzMzLDE1MTg4OTk5MTcsLTMzNjg1NTgxMCwxND
+M0OTY1MzU5LDEwNDQ2MDcxMzYsMTc2OTE0MDg4OSwtOTAyNjE5
+MDE0LDE3MDg5MzQxNTAsLTMzMTk3NDgwMCwtMTE4MzkzODcyMy
+w2MTYxMTg3MjksLTExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1
+MzA1OTldfQ==
 -->
