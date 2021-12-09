@@ -4,8 +4,7 @@
 - Correr experimentos.
 	- Greedy
 	- SA movimientos:
-		- Seleccionar q items de manera aleatoria y identificar los elemento que se eliminarían
-		- Seleccionar un elemento contenido en q items y luego agregar p items o menos.
+		- Seleccionar q items de manera aleatoria e identificar los elemento que se eliminarían. Si hay más de 0, se realiza la eliminación y luego agregan items en la mochila.
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
 
@@ -307,11 +306,11 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2MjE2ODg0LDE4NjkxODMzMDUsLTEwND
-IxNDY3OCw1MTgyMTU4MTIsLTIwODMwMDg3ODAsMTc3NDA2MjM5
-LC04NDYzODIxMDUsMTQzNDQ0NjczMywxNTE4ODk5OTE3LC0zMz
-Y4NTU4MTAsMTQzNDk2NTM1OSwxMDQ0NjA3MTM2LDE3NjkxNDA4
-ODksLTkwMjYxOTAxNCwxNzA4OTM0MTUwLC0zMzE5NzQ4MDAsLT
-ExODM5Mzg3MjMsNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC00MTg3
-MTg3MTRdfQ==
+eyJoaXN0b3J5IjpbLTM2MzIwMTY1MywxODY5MTgzMzA1LC0xMD
+QyMTQ2NzgsNTE4MjE1ODEyLC0yMDgzMDA4NzgwLDE3NzQwNjIz
+OSwtODQ2MzgyMTA1LDE0MzQ0NDY3MzMsMTUxODg5OTkxNywtMz
+M2ODU1ODEwLDE0MzQ5NjUzNTksMTA0NDYwNzEzNiwxNzY5MTQw
+ODg5LC05MDI2MTkwMTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC
+0xMTgzOTM4NzIzLDYxNjExODcyOSwtMTE4MzkzODcyMywtNDE4
+NzE4NzE0XX0=
 -->
