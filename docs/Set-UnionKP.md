@@ -4,7 +4,7 @@
 - Correr experimentos.
 	- Greedy
 	- SA movimientos:
-		- Seleccionar un elemento contenido en q items agregar p items
+		- Seleccionar un elemento contenido en q items y luego agregar p items o menos.
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
 
@@ -306,11 +306,11 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc3NTE4NjMsLTEwNDIxNDY3OCw1MT
-gyMTU4MTIsLTIwODMwMDg3ODAsMTc3NDA2MjM5LC04NDYzODIx
-MDUsMTQzNDQ0NjczMywxNTE4ODk5OTE3LC0zMzY4NTU4MTAsMT
-QzNDk2NTM1OSwxMDQ0NjA3MTM2LDE3NjkxNDA4ODksLTkwMjYx
-OTAxNCwxNzA4OTM0MTUwLC0zMzE5NzQ4MDAsLTExODM5Mzg3Mj
-MsNjE2MTE4NzI5LC0xMTgzOTM4NzIzLC00MTg3MTg3MTQsNjg0
-NTMwNTk5XX0=
+eyJoaXN0b3J5IjpbMTg2OTE4MzMwNSwtMTA0MjE0Njc4LDUxOD
+IxNTgxMiwtMjA4MzAwODc4MCwxNzc0MDYyMzksLTg0NjM4MjEw
+NSwxNDM0NDQ2NzMzLDE1MTg4OTk5MTcsLTMzNjg1NTgxMCwxND
+M0OTY1MzU5LDEwNDQ2MDcxMzYsMTc2OTE0MDg4OSwtOTAyNjE5
+MDE0LDE3MDg5MzQxNTAsLTMzMTk3NDgwMCwtMTE4MzkzODcyMy
+w2MTYxMTg3MjksLTExODM5Mzg3MjMsLTQxODcxODcxNCw2ODQ1
+MzA1OTldfQ==
 -->
