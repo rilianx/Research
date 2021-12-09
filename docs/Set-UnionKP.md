@@ -1,8 +1,9 @@
 ### TODO
 
 **Christopher**
-- Separar el código 
 - Correr experimentos.
+	- Greedy
+	- SA con movimientos
 - Probar con movimientos antiguos y distintas temperaturas (sin restarts). 
 - Mejorar movimientos nuevos
 - Revisar movimientos anteriores.
@@ -305,11 +306,11 @@ $n= \frac{iter}{100}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIxNDY3OCw1MTgyMTU4MTIsLTIwOD
-MwMDg3ODAsMTc3NDA2MjM5LC04NDYzODIxMDUsMTQzNDQ0Njcz
-MywxNTE4ODk5OTE3LC0zMzY4NTU4MTAsMTQzNDk2NTM1OSwxMD
-Q0NjA3MTM2LDE3NjkxNDA4ODksLTkwMjYxOTAxNCwxNzA4OTM0
-MTUwLC0zMzE5NzQ4MDAsLTExODM5Mzg3MjMsNjE2MTE4NzI5LC
-0xMTgzOTM4NzIzLC00MTg3MTg3MTQsNjg0NTMwNTk5LC01ODE3
-MTE2MzZdfQ==
+eyJoaXN0b3J5IjpbNzc4MTQyNjA5LC0xMDQyMTQ2NzgsNTE4Mj
+E1ODEyLC0yMDgzMDA4NzgwLDE3NzQwNjIzOSwtODQ2MzgyMTA1
+LDE0MzQ0NDY3MzMsMTUxODg5OTkxNywtMzM2ODU1ODEwLDE0Mz
+Q5NjUzNTksMTA0NDYwNzEzNiwxNzY5MTQwODg5LC05MDI2MTkw
+MTQsMTcwODkzNDE1MCwtMzMxOTc0ODAwLC0xMTgzOTM4NzIzLD
+YxNjExODcyOSwtMTE4MzkzODcyMywtNDE4NzE4NzE0LDY4NDUz
+MDU5OV19
 -->
