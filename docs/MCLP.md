@@ -4,10 +4,9 @@
 [resultados](https://docs.google.com/spreadsheets/d/1k2gZSq8wCGzTfX_YCRvm3CPwF5RNuE7jh4pmN5sxzSM/edit)
 
 ### TODO
-- Comparar column generation con BSG-generator
-- Column generation
-- Revisar que todo calce (pallets)
-- 
+
+- Comparara column generation con BSG-generator
+- Revisar que todo calce (pallets)!
 
 ### Papers
 
@@ -179,8 +178,8 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE5OTgwMiwtMzYyMzA0MTU1LDE1OD
-Q3ODE0MTksNjYzNDcwMTY4LC0xMzEyNzU1ODQzLDEwMTE5Mjg4
-MSwzNjU1MTcyNzgsLTE4MDE1MDEwNzUsLTQ4OTgxNzE4NSwtMj
-AxMjExOTAxNiwtMjc5NzA5MDMyXX0=
+eyJoaXN0b3J5IjpbLTE4Njk3NTE5ODQsLTEzNzE5OTgwMiwtMz
+YyMzA0MTU1LDE1ODQ3ODE0MTksNjYzNDcwMTY4LC0xMzEyNzU1
+ODQzLDEwMTE5Mjg4MSwzNjU1MTcyNzgsLTE4MDE1MDEwNzUsLT
+Q4OTgxNzE4NSwtMjAxMjExOTAxNiwtMjc5NzA5MDMyXX0=
 -->
