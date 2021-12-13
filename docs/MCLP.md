@@ -3,6 +3,12 @@
 [paper](http://scm.snu.ac.kr/publication/paper/81.pdf)
 [resultados](https://docs.google.com/spreadsheets/d/1k2gZSq8wCGzTfX_YCRvm3CPwF5RNuE7jh4pmN5sxzSM/edit)
 
+### TODO
+- Comparar column generation con BSG-generator
+- Column generation
+- Revisar que todo calce (pallets)
+- 
+
 ### Papers
 
 - [2015 - Hybrid genetic algorithms for the three-dimensional multiple container packing problem](http://scm.snu.ac.kr/publication/paper/81.pdf) -- Large Instances 1
@@ -173,8 +179,8 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjMwNDE1NSwxNTg0NzgxNDE5LDY2Mz
-Q3MDE2OCwtMTMxMjc1NTg0MywxMDExOTI4ODEsMzY1NTE3Mjc4
-LC0xODAxNTAxMDc1LC00ODk4MTcxODUsLTIwMTIxMTkwMTYsLT
-I3OTcwOTAzMl19
+eyJoaXN0b3J5IjpbLTEzNzE5OTgwMiwtMzYyMzA0MTU1LDE1OD
+Q3ODE0MTksNjYzNDcwMTY4LC0xMzEyNzU1ODQzLDEwMTE5Mjg4
+MSwzNjU1MTcyNzgsLTE4MDE1MDEwNzUsLTQ4OTgxNzE4NSwtMj
+AxMjExOTAxNiwtMjc5NzA5MDMyXX0=
 -->
