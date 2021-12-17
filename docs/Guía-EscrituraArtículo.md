@@ -4,7 +4,9 @@
 ### Sistema de Recomendación (Luciano)
 
 [Sistema de recomendación](https://docs.google.com/file/d/1-IDaFVlcMcUOo11KTW5NSwaQE5_Sc-VV/edit) - [overleaf](https://www.overleaf.com/project/6053a175fa465c69f71acdd6)
+
 [paper (drive)](https://docs.google.com/document/d/18yYwocuxqfC1oZmKnqSBSCcSGXyDairlFC80RaVGtWw/edit)
+
 [github](https://github.com/LucianoSm20/SistemaRecomencion/tree/RamaA/Jupyter)
 
 **TODO**
@@ -54,11 +56,11 @@ Para validar el modelo, habría que ver que tanto acierta en películas que los 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDAwNDExMzksMTUyNTI5NTk0OSwxND
-c3MDMwNjIsMTY3MDI2MzY0OCwxMzMyODM2OSwtNjcyNTM5NTc5
-LC0xMTk1MTQwNjY2LC0xODk2ODgzMzU1LC0xNzUzNDA2NzE4LD
-E3ODYxMjk3MDksNDc1NjM4NDI5LC0xODI5NjcwODYsODYzNTk0
-MzMxLC04OTM5NDA2NDUsMjA5OTAyMjAxNiwtODkzOTQwNjQ1LD
-EzNTE2OTU0MTksLTExNDcwMDYyNDksMjA2MjkxNDU0NCwtMTA3
-NTU5MDYyMF19
+eyJoaXN0b3J5IjpbLTI1NDg5NjY5MSwtMTEwMDA0MTEzOSwxNT
+I1Mjk1OTQ5LDE0NzcwMzA2MiwxNjcwMjYzNjQ4LDEzMzI4MzY5
+LC02NzI1Mzk1NzksLTExOTUxNDA2NjYsLTE4OTY4ODMzNTUsLT
+E3NTM0MDY3MTgsMTc4NjEyOTcwOSw0NzU2Mzg0MjksLTE4Mjk2
+NzA4Niw4NjM1OTQzMzEsLTg5Mzk0MDY0NSwyMDk5MDIyMDE2LC
+04OTM5NDA2NDUsMTM1MTY5NTQxOSwtMTE0NzAwNjI0OSwyMDYy
+OTE0NTQ0XX0=
 -->
