@@ -260,15 +260,15 @@ We try to complete partial solutions by using the **greedy heuristic algorithm**
 
 
 ### Referencias
-> - [2019 - A branch and bound approach for large pre-marshalling problems](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view)
-> - [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
-> - [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
+- [2019 - A branch and bound approach for large pre-marshalling problems](https://drive.google.com/file/d/1Lo2IArfDTUvpzhTbkrUWXqi7PfQr_tvQ/view)
+- [??? - A new simple heuristic for the Container pre-marshalling problem](https://www.overleaf.com/read/vfmzmfmbvqpt): AKA el mejor greedy
+- [Repo greedy en C++ y Python](https://github.com/rilianx/cpmp/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM2NTIwMDMsODI2NDgyMjY3LC0xMD
-g3Nzg3NTg2LDExMDcwNTM4NiwtNTg1OTY2MTAsMTk1Mzg3OTY2
-MSwxNTY2NjY1NTE0LDE2MTAzMDc2MTMsMTU0NDQ5MjcxMiwxND
-UxMDE0OTk4LDE4NzAzNzQwOTUsLTE3NzU2MjU1ODksMzYxMjkz
-NTc4LC0xMTg2NzI1NDMzLDE1OTkxMDg2ODgsLTEwMDMzNjI4MD
-AsLTY3MjY4Mzk3LC0xMzQyNzQ0Mzk3LC0xMjQ3Mjg5NTQ0LDE1
-OTM1NjA2MDRdfQ==
+eyJoaXN0b3J5IjpbLTI0ODU4MjQ1LC0xNTkzNjUyMDAzLDgyNj
+Q4MjI2NywtMTA4Nzc4NzU4NiwxMTA3MDUzODYsLTU4NTk2NjEw
+LDE5NTM4Nzk2NjEsMTU2NjY2NTUxNCwxNjEwMzA3NjEzLDE1ND
+Q0OTI3MTIsMTQ1MTAxNDk5OCwxODcwMzc0MDk1LC0xNzc1NjI1
+NTg5LDM2MTI5MzU3OCwtMTE4NjcyNTQzMywxNTk5MTA4Njg4LC
+0xMDAzMzYyODAwLC02NzI2ODM5NywtMTM0Mjc0NDM5NywtMTI0
+NzI4OTU0NF19
 -->
