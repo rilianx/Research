@@ -1,6 +1,7 @@
 ###  B. Gonzalo Tello
 
 [paper](http://scm.snu.ac.kr/publication/paper/81.pdf)
+
 [resultados](https://docs.google.com/spreadsheets/d/1k2gZSq8wCGzTfX_YCRvm3CPwF5RNuE7jh4pmN5sxzSM/edit)
 
 ### TODO
@@ -178,8 +179,9 @@ def generate_bins(B, Vmax):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk3NTE5ODQsLTEzNzE5OTgwMiwtMz
-YyMzA0MTU1LDE1ODQ3ODE0MTksNjYzNDcwMTY4LC0xMzEyNzU1
-ODQzLDEwMTE5Mjg4MSwzNjU1MTcyNzgsLTE4MDE1MDEwNzUsLT
-Q4OTgxNzE4NSwtMjAxMjExOTAxNiwtMjc5NzA5MDMyXX0=
+eyJoaXN0b3J5IjpbLTMyMjAzMzY2NiwtMTg2OTc1MTk4NCwtMT
+M3MTk5ODAyLC0zNjIzMDQxNTUsMTU4NDc4MTQxOSw2NjM0NzAx
+NjgsLTEzMTI3NTU4NDMsMTAxMTkyODgxLDM2NTUxNzI3OCwtMT
+gwMTUwMTA3NSwtNDg5ODE3MTg1LC0yMDEyMTE5MDE2LC0yNzk3
+MDkwMzJdfQ==
 -->
